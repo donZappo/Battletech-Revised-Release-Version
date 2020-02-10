@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.0",
+    "Version": "4.1",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -32,13 +32,15 @@
 		"DeploymentMinDays" : 1,
 		"DeploymentMaxDays" : 6,
 		"DeploymentContracts" : 3.0,
-		"DeploymentInfluenceFactor" : 1.1,
+		"DeploymentEscalationFactor" : 1.1,
+		"InfluenceDivisor" : 1.25,
 		"DeploymentRerollBound" : 0.33,
 		"DeploymentReward_01" : "itemCollection_loot_careerReward_1",
 		"DeploymentReward_02" : "itemCollection_loot_careerReward_2",
 		"DeploymentReward_03" : "itemCollection_loot_careerReward_3",
 		"DeploymentReward_04" : "itemCollection_loot_careerReward_4",
 		"DeploymentReward_05" : "itemCollection_loot_careerReward_5",
+		"DeploymentReward_06" : "itemCollection_loot_careerReward_6",
 		
 		"IncludedFactions": [
 			"Davion",
