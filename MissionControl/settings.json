@@ -1,0 +1,86 @@
+{
+  "DebugMode": true,
+  "VersionCheck": true,
+  "DebugSkirmishMode": true,
+  "DisableIfFlashpointContract": true,
+  "RandomSpawns": {
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
+  },
+  "HotDrop": {
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "GuardOnHotDrop": false,
+    "EvasionPipsOnHotDrop": 6,
+    "IncludeEnemies": true,
+    "IncludeAllyTurrets": false,
+    "IncludeEnemyTurrets": false
+  },
+  "AdditionalLances": {
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "IsPrimaryObjectiveIn": ["SimpleBattle", "ThreeWayBattle"],
+    "UseElites": true,
+    "UseDialogue": true,
+    "SkullValueMatters": true,
+    "BasedOnVisibleSkullValue": true,
+    "UseGeneralProfileForSkirmish": true,
+    "DisableIfFlashpointContract": true,
+    "DisableWhenMaxTonnage": {
+      "Enable": true,
+      "Limited": false,
+      "LimitedToUnder": 300
+    },
+    "MatchAllyLanceCountToEnemy": false
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "Autofill": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "LanceSizes": {
+      "5": [],
+      "6": []
+    }
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "IncreaseBoundarySizeByPercentage": 0.3,
+    "Overrides": [
+      {
+        "MapId": "mapGeneral_frigidSteppes_iTnd",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "MapId": "mapGeneral_icyOutpost_iGlc",
+        "ContractTypeName": "CaptureBase",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "MapId": "mapGeneral_highPeak_iGlc",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 0.75
+      },
+      {
+        "ContractTypeName": "FireMission",
+        "IncreaseBoundarySizeByPercentage": 0.5
+      }
+    ]
+  },
+  "DynamicWithdraw": {
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "MinDistanceForZone": 50,
+    "MaxDistanceForZone": 400,
+    "DisorderlyWithdrawalCompatibility": false
+  },
+  "AI": {
+    "FollowPlayer": {
+      "Target": "HeaviestMech",
+      "StopWhen": "OnEnemyDetected",
+      "MaxDistanceFromTargetBeforeSprinting": 120,
+      "TargetZoneRadius": 120
+    }
+  }
+}

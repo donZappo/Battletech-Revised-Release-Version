@@ -1,0 +1,13 @@
+{
+	"Description" : {
+		"Id" : "TraitDefWeaponHit6",
+		"Name" : "",
+		"Details" : "",
+		"Icon" : ""
+	},
+	"Type" : "WeaponHit",
+	"ShortDesc" : "+15% Base Weapon Hit\n-1 Refire Penalty",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" : []
+}

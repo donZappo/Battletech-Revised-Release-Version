@@ -1,0 +1,16 @@
+{
+    "Name": "MoveFaster",
+    "Enabled": true,
+
+    "Version": "0.1",
+    "Description": "Change speed of ALL actors during combat. 1.0 = 100% = vanilla, 1.5 = 150%, etc",
+    "Author": "willssi",
+    "Website": "https://www.nexusmods.com/battletech/mods/189?tab=description",
+    
+    "DLL": "MoveFaster.dll",
+
+    "Settings": 
+	{
+      "SpeedMultiplierSetting": 1.5
+    }
+}

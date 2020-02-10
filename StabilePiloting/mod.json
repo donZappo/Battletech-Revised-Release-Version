@@ -1,0 +1,16 @@
+{
+    "Name": "Stabile Piloting",
+    "Enabled": true,
+
+    "Version": "3.0-alpha",
+    "Description": "Increases Stability with Piloting",
+    "Author": "donZappo",
+    "Contact": "",
+
+    "DLL": "StabilePiloting.dll",
+	
+	"Settings": 
+	{
+      "floatPerPilotSkill" : 0.02,
+    }
+}

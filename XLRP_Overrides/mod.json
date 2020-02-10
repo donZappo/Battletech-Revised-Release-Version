@@ -1,0 +1,20 @@
+{
+    "Name": "XLRP Overrides",
+    "Enabled": true,
+
+    "Description": "XLRP's override settings",
+    "Author": "vengefire, don Zappo",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+    "Manifest": [
+    {
+        "Type": "CombatGameConstants", "Path": "combatGameConstants", "ShouldMergeJSON": true,
+        "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true,
+        "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": false,
+    }
+        ],
+    "DependsOn": [
+        ],
+    "ConflictsWith": [
+        ]
+}

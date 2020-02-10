@@ -1,0 +1,1997 @@
+00:07.385 [LOG  ] MechEngineer version 2.0.6+Branch.master.Sha.0c06d6dd8018f0304f2fded3726841f19f4246b3
+00:07.386 [LOG  ] MechEngineer settings loaded
+00:07.386 [DEBUG] MechEngineer debugging enabled
+00:07.386 [DEBUG] MechEngineer setting up features
+00:07.387 [DEBUG] MechEngineer OrderedStatusEffectsFeature setting up (Enabled=True Namespace=MechEngineer.Features.OrderedStatusEffects)
+00:07.394 [DEBUG] MechEngineer  Patch StatCollection_ModifyStatistic_Patch
+00:07.399 [LOG  ] MechEngineer OrderedStatusEffectsFeature enabled
+00:07.399 [DEBUG] MechEngineer OverrideTonnageFeature setting up (Enabled=True Namespace=MechEngineer.Features.OverrideTonnage)
+00:07.402 [DEBUG] MechEngineer  Patch MechValidationRules_ValidateMechTonnage_Patch
+00:07.448 [DEBUG] MechEngineer  Patch MechLabMechInfoWidget_CalculateTonnage_Patch
+00:07.452 [DEBUG] MechEngineer  Patch MechStatisticsRules_CalculateTonnage_Patch
+00:07.455 [DEBUG] MechEngineer  Custom Weights
+00:07.455 [LOG  ] MechEngineer OverrideTonnageFeature enabled
+00:07.456 [DEBUG] MechEngineer EngineFeature setting up (Enabled=True Namespace=MechEngineer.Features.Engines)
+00:07.460 [DEBUG] MechEngineer  Patch MechStatisticsRules_CalculateChassisMovementStat_Patch
+00:07.463 [DEBUG] MechEngineer  Patch Mech_CalcJumpHeat_Patch
+00:07.466 [DEBUG] MechEngineer  Patch Mech_JumpDistance_Patch
+00:07.468 [DEBUG] MechEngineer  Patch Contract_GenerateSalvage_Patch
+00:08.171 [DEBUG] MechEngineer  Patch MechLabMechInfoWidget_GetTotalHardpoints_Patch
+00:08.175 [DEBUG] MechEngineer  Patch MechStatisticsRules_CalculateHeatEfficiencyStat_Patch
+00:08.180 [DEBUG] MechEngineer  Patch MechStatisticsRules_CalculateMovementStat_Patch
+00:08.183 [DEBUG] MechEngineer  Patch Mech_GetHeatSinkDissipation_Patch
+00:08.186 [DEBUG] MechEngineer  Patch Mech_InitEffectStats_Patch
+00:08.189 [DEBUG] MechEngineer  Patch StatTooltipData_SetHeatData_Patch
+00:08.193 [DEBUG] MechEngineer  Patch StatTooltipData_SetMovementData_Patch
+00:08.198 [DEBUG] MechEngineer  Custom CoolingDef
+00:08.198 [DEBUG] MechEngineer  Custom EngineCoreDef
+00:08.198 [DEBUG] MechEngineer  Custom EngineHeatBlockDef
+00:08.199 [DEBUG] MechEngineer  Custom EngineHeatSinkDef
+00:08.199 [LOG  ] MechEngineer EngineFeature enabled
+00:08.199 [DEBUG] MechEngineer MoveMultiplierStatFeature setting up (Enabled=True Namespace=MechEngineer.Features.MoveMultiplierStat)
+00:08.203 [DEBUG] MechEngineer  Patch Mech_InitEffectStats_Patch
+00:08.206 [DEBUG] MechEngineer  Patch Mech_MoveMultiplier_Patch
+00:08.211 [LOG  ] MechEngineer MoveMultiplierStatFeature enabled
+00:08.211 [DEBUG] MechEngineer CompressFloatieMessagesFeature setting up (Enabled=True Namespace=MechEngineer.Features.CompressFloatieMessages)
+00:08.216 [DEBUG] MechEngineer  Patch CombatHUDFloatieStack_AddFloatie_Patch
+00:08.219 [LOG  ] MechEngineer CompressFloatieMessagesFeature enabled
+00:08.219 [DEBUG] MechEngineer DamageIgnoreFeature setting up (Enabled=True Namespace=MechEngineer.Features.DamageIgnore)
+00:08.222 [DEBUG] MechEngineer  Patch MechComponent_DamageComponent_Patch
+00:08.228 [DEBUG] MechEngineer  Patch MechComponent_inventorySize_Patch
+00:08.233 [DEBUG] MechEngineer  Patch Mech_OnLocationDestroyed_Patch
+00:08.485 [DEBUG] MechEngineer  Patch Mech_GetComponentInSlot_Patch
+00:08.606 [LOG  ] MechEngineer DamageIgnoreFeature enabled
+00:08.606 [DEBUG] MechEngineer LocationalEffectsFeature setting up (Enabled=True Namespace=MechEngineer.Features.LocationalEffects)
+00:08.610 [DEBUG] MechEngineer  Patch MechComponent_ApplyPassiveEffectToTarget_Patch
+00:08.613 [LOG  ] MechEngineer LocationalEffectsFeature enabled
+00:08.613 [DEBUG] MechEngineer CriticalEffectsFeature setting up (Enabled=True Namespace=MechEngineer.Features.CriticalEffects)
+00:08.616 [DEBUG] MechEngineer  Patch Mech_CheckForCrit_Patch
+00:09.255 [DEBUG] MechEngineer  Patch MechComponent_inventorySize_Patch
+00:09.258 [DEBUG] MechEngineer  Patch MechComponent_DamageComponent_Patch
+00:09.385 [DEBUG] MechEngineer  Custom MechCriticalEffects
+00:09.385 [DEBUG] MechEngineer  Custom TurretCriticalEffects
+00:09.385 [DEBUG] MechEngineer  Custom VehicleCriticalEffects
+00:09.385 [DEBUG] MechEngineer  Custom CriticalEffects
+00:09.386 [LOG  ] MechEngineer CriticalEffectsFeature enabled
+00:09.386 [DEBUG] MechEngineer AccuracyEffectsFeature setting up (Enabled=True Namespace=MechEngineer.Features.AccuracyEffects)
+00:09.390 [DEBUG] MechEngineer  Patch ToHit_GetSelfArmMountedModifier_Patch
+00:09.394 [DEBUG] MechEngineer  Patch Mech_InitEffectStats_Patch
+00:09.397 [DEBUG] MechEngineer  Patch CombatHUDWeaponSlot_AddToolTipDetail_Patch
+00:09.400 [LOG  ] MechEngineer AccuracyEffectsFeature enabled
+00:09.400 [DEBUG] MechEngineer OverrideDescriptionsFeature setting up (Enabled=True Namespace=MechEngineer.Features.OverrideDescriptions)
+00:09.404 [DEBUG] MechEngineer  Patch ListElementController_BASE_NotListView_SetComponentTooltipData_Patch
+00:09.407 [DEBUG] MechEngineer  Patch MechLabPanel_CreateMechComponentItem_Patch
+00:09.410 [DEBUG] MechEngineer  Patch MechLabPanel_ValidateLoadout_Patch
+00:09.414 [DEBUG] MechEngineer  Patch TooltipPrefab_EquipmentSetData_Patch
+00:09.419 [DEBUG] MechEngineer  Custom BonusDescriptions
+00:09.419 [LOG  ] MechEngineer OverrideDescriptionsFeature enabled
+00:09.419 [DEBUG] MechEngineer ArmActuatorFeature setting up (Enabled=True Namespace=MechEngineer.Features.ArmActuators)
+00:09.423 [DEBUG] MechEngineer  Custom ArmActuator
+00:09.424 [DEBUG] MechEngineer  Custom ArmActuatorSupport
+00:09.424 [LOG  ] MechEngineer ArmActuatorFeature enabled
+00:09.424 [DEBUG] MechEngineer DynamicSlotsFeature setting up (Enabled=True Namespace=MechEngineer.Features.DynamicSlots)
+00:09.428 [DEBUG] MechEngineer  Patch MechLabItemSlotElement_SetIconAndText_Patch
+00:09.432 [DEBUG] MechEngineer  Patch MechLabItemSlotElement_OnPointerEnter_Patch
+00:09.434 [DEBUG] MechEngineer  Patch MechLabItemSlotElement_OnPointerExit_Patch
+00:09.437 [DEBUG] MechEngineer  Patch MechLabPanel_ValidateLoadout_Patch
+00:09.441 [DEBUG] MechEngineer  Custom DynamicSlots
+00:09.441 [LOG  ] MechEngineer DynamicSlotsFeature enabled
+00:09.442 [DEBUG] MechEngineer ShutdownInjuryProtectionFeature setting up (Enabled=True Namespace=MechEngineer.Features.ShutdownInjuryProtection)
+00:09.446 [DEBUG] MechEngineer  Patch Pilot_InjuryReasonDescription_Patch
+00:09.449 [DEBUG] MechEngineer  Patch Mech_CheckForHeatDamage_Patch
+00:09.453 [DEBUG] MechEngineer  Patch Mech_InitEffectStats_Patch
+00:09.456 [DEBUG] MechEngineer  Patch MechShutdownSequence_CheckForHeatDamage_Patch
+00:09.525 [LOG  ] MechEngineer ShutdownInjuryProtectionFeature enabled
+00:09.526 [DEBUG] MechEngineer MechLabSlotsFeature setting up (Enabled=True Namespace=MechEngineer.Features.MechLabSlots)
+00:09.529 [DEBUG] MechEngineer  Patch MechLabLocationWidget_OnAddItem_Patch
+00:09.584 [DEBUG] MechEngineer  Patch MechLabLocationWidget_OnDrop_Patch
+00:09.587 [DEBUG] MechEngineer  Patch MechLabLocationWidget_SetData_Patch
+00:09.930 [DEBUG] MechEngineer  Patch MechLabLocationWidget_ShowHighlightFrame_Patch
+00:09.933 [DEBUG] MechEngineer  Patch MechLabPanel_InitWidgets_Patch
+00:09.936 [DEBUG] MechEngineer  Patch MechLabPanel_LoadMech_Patch
+00:09.940 [DEBUG] MechEngineer  Patch MechLabPanel_RefreshDropHighlights_Patch
+00:09.944 [DEBUG] MechEngineer  Custom MechConfiguration
+00:09.944 [LOG  ] MechEngineer MechLabSlotsFeature enabled
+00:09.944 [DEBUG] MechEngineer InvalidInventoryFeature setting up (Enabled=True Namespace=MechEngineer.Features.InvalidInventory)
+00:09.947 [DEBUG] MechEngineer  Patch MechValidationRules_ValidateMechDef_Patch
+00:09.951 [DEBUG] MechEngineer  Patch MechLabPanel_GetCantSaveErrorString_Patch
+00:10.031 [DEBUG] MechEngineer  Patch MechLabPanel_GetNonFieldableErrorString_Patch
+00:10.120 [LOG  ] MechEngineer InvalidInventoryFeature enabled
+00:10.121 [DEBUG] MechEngineer ComponentExplosionsFeature setting up (Enabled=True Namespace=MechEngineer.Features.ComponentExplosions)
+00:10.124 [DEBUG] MechEngineer  Patch Vehicle_DamageLocation_Patch
+00:10.458 [DEBUG] MechEngineer  Patch MechComponent_DamageComponent_Patch
+00:10.583 [DEBUG] MechEngineer  Patch Mech_DamageLocation_Patch
+00:11.187 [DEBUG] MechEngineer  Patch AmmunitionBox_DamageComponent_Patch
+00:11.255 [DEBUG] MechEngineer  Custom CASEComponent
+00:11.255 [DEBUG] MechEngineer  Custom ComponentExplosion
+00:11.255 [LOG  ] MechEngineer ComponentExplosionsFeature enabled
+00:11.256 [DEBUG] MechEngineer ArmorStructureRatioFeature setting up (Enabled=True Namespace=MechEngineer.Features.ArmorStructureRatio)
+00:11.259 [DEBUG] MechEngineer  Patch MechValidationRules_ValidateMechStructureSimple_Patch
+00:11.263 [DEBUG] MechEngineer  Patch MechValidationRules_ValidateMechStructure_Patch
+00:11.266 [LOG  ] MechEngineer ArmorStructureRatioFeature enabled
+00:11.266 [DEBUG] MechEngineer ArmorStructureChangesFeature setting up (Enabled=True Namespace=MechEngineer.Features.ArmorStructureChanges)
+00:11.269 [DEBUG] MechEngineer  Patch Mech_GetMaxArmor_Patch
+00:11.272 [DEBUG] MechEngineer  Patch Mech_GetMaxStructure_Patch
+00:11.276 [DEBUG] MechEngineer  Patch Mech_InitStats_Patch
+00:11.288 [DEBUG] MechEngineer  Patch Mech_ToMechDef_Patch
+00:11.294 [DEBUG] MechEngineer  Patch Mech_get_ArmorMultiplier_Patch
+00:11.297 [DEBUG] MechEngineer  Patch Mech_get_StructureMultiplier_Patch
+00:11.300 [DEBUG] MechEngineer  Custom ArmorStructureChanges
+00:11.301 [LOG  ] MechEngineer ArmorStructureChangesFeature enabled
+00:11.301 [DEBUG] MechEngineer HardpointFixFeature setting up (Enabled=True Namespace=MechEngineer.Features.HardpointFix)
+00:11.305 [DEBUG] MechEngineer  Patch ChassisDef_refreshLocationReferences_Patch
+00:11.310 [DEBUG] MechEngineer  Patch ChassisDef_RefreshHardpointData_Patch
+00:11.313 [DEBUG] MechEngineer  Patch MechLabLocationWidget_OnMechLabDrop_Patch
+00:11.317 [DEBUG] MechEngineer  Patch HardpointDataDef_FromJSON_Patch
+00:11.320 [DEBUG] MechEngineer  Patch MechHardpointRules_GetComponentBlankNames_Patch
+00:11.325 [DEBUG] MechEngineer  Patch MechHardpointRules_GetComponentPrefabName_Patch
+00:11.328 [DEBUG] MechEngineer  Patch Mech_InitGameRep_Patch
+00:11.338 [DEBUG] MechEngineer  Patch MechRepresentationSimGame_LoadWeapons_Patch
+00:11.343 [LOG  ] MechEngineer HardpointFixFeature enabled
+00:11.343 [DEBUG] MechEngineer AutoFixerFeature setting up (Enabled=True Namespace=MechEngineer.Features.AutoFix)
+00:11.347 [DEBUG] MechEngineer  Patch JumpJetDef_FromJSON_Patch
+00:11.350 [DEBUG] MechEngineer  Patch WeaponDef_FromJSON_Patch
+00:11.353 [DEBUG] MechEngineer  Patch UpgradeDef_FromJSON_Patch
+00:11.356 [DEBUG] MechEngineer  Patch ChassisDef_FromJSON_Patch
+00:11.358 [LOG  ] MechEngineer AutoFixerFeature enabled
+00:11.361 [DEBUG] MechEngineer GlobalsFeature setting up (Enabled=True Namespace=MechEngineer.Features.Globals)
+00:11.364 [DEBUG] MechEngineer  Patch MechBayPanel_CloseMechBay_Patch
+00:11.367 [DEBUG] MechEngineer  Patch MechBayPanel_SelectMech_Patch
+00:11.370 [DEBUG] MechEngineer  Patch MechLabPanel_ExitMechLab_Patch
+00:11.373 [DEBUG] MechEngineer  Patch MechLabPanel_LoadMech_Patch
+00:11.376 [LOG  ] MechEngineer GlobalsFeature enabled
+00:11.376 [DEBUG] MechEngineer TurretMechComponentsFeature setting up (Enabled=True Namespace=MechEngineer.Features.TurretMechComponents)
+00:11.380 [DEBUG] MechEngineer  Patch Turret_InitStats_Patch
+00:11.387 [LOG  ] MechEngineer TurretMechComponentsFeature enabled
+00:11.387 [DEBUG] MechEngineer TurretLimitedAmmoFeature setting up (Enabled=True Namespace=MechEngineer.Features.TurretLimitedAmmo)
+00:11.390 [DEBUG] MechEngineer  Patch Turret_OnNewRound_Patch
+00:11.518 [DEBUG] MechEngineer  Patch Weapon_DecrementAmmo_Patch
+00:11.630 [LOG  ] MechEngineer TurretLimitedAmmoFeature enabled
+00:11.630 [DEBUG] MechEngineer OverrideGhostVFXFeature setting up (Enabled=True Namespace=MechEngineer.Features.OverrideGhostVFX)
+00:11.633 [DEBUG] MechEngineer  Patch PilotableActorRepresentation_OnPlayerVisibilityChanged_Patch
+00:11.640 [DEBUG] MechEngineer  Patch GameRepresentation_PlayVFXAt_Patch
+00:11.645 [LOG  ] MechEngineer OverrideGhostVFXFeature enabled
+00:11.645 [DEBUG] MechEngineer OmniSlotsFeature setting up (Enabled=True Namespace=MechEngineer.Features.OmniSlots)
+00:11.649 [DEBUG] MechEngineer  Patch MechBayMechInfoWidget_GetTotalHardpoints_Patch
+00:11.653 [DEBUG] MechEngineer  Patch MechLabLocationWidget_ValidateAdd_Patch
+00:11.959 [DEBUG] MechEngineer  Patch SG_Shop_ItemSelectedPanel_FillInHardPoints_Patch
+00:11.963 [DEBUG] MechEngineer  Patch MechBayMechInfoWidget_SetHardpoints_Patch
+00:11.967 [DEBUG] MechEngineer  Patch MechLabLocationWidget_ValidateAddSimple_Patch
+00:12.080 [DEBUG] MechEngineer  Patch MechLabLocationWidget_RefreshHardpointData_Patch
+00:12.084 [DEBUG] MechEngineer  Patch MechLabLocationWidget_ShowHighlightFrame_Patch
+00:12.088 [DEBUG] MechEngineer  Patch MechValidationRules_ValidateMechInventorySlots_Patch
+00:12.824 [LOG  ] MechEngineer OmniSlotsFeature enabled
+00:12.824 [DEBUG] MechEngineer TagManagerFeature setting up (Enabled=True Namespace=MechEngineer.Features.TagManager)
+00:12.828 [DEBUG] MechEngineer  Patch JSONSerializationUtility_RehydrateObjectFromDictionary_Patch
+00:12.833 [DEBUG] MechEngineer  Patch MechLabPanel_ComponentDefTagsValid_Patch
+00:12.876 [LOG  ] MechEngineer TagManagerFeature enabled
+00:12.877 [DEBUG] MechEngineer DebugSaveMechToFileFeature setting up (Enabled=False Namespace=MechEngineer.Features.DebugSaveMechToFile)
+00:12.877 [LOG  ] MechEngineer DebugSaveMechToFileFeature disabled
+00:12.878 [DEBUG] MechEngineer DebugCycleCombatSoundsFeature setting up (Enabled=False Namespace=MechEngineer.Features.DebugCycleCombatSounds)
+00:12.878 [LOG  ] MechEngineer DebugCycleCombatSoundsFeature disabled
+00:12.878 [DEBUG] MechEngineer DebugScreenshotMechsFeature setting up (Enabled=False Namespace=MechEngineer.Features.DebugScreenshotMechs)
+00:12.878 [LOG  ] MechEngineer DebugScreenshotMechsFeature disabled
+00:12.878 [LOG  ] MechEngineer started
+00:20.866 [LOG  ] MechEngineer loaded
+00:42.737 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_centurion_CN9-A
+00:42.738 [DEBUG] MechEngineer set InitialTonnage=5
+00:42.738 [DEBUG] MechEngineer set MaxJumpjets=8
+00:42.739 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:42.740 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:42.740 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:42.740 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:42.740 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:42.740 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:42.740 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:42.740 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:42.744 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_commando_COM-1B
+00:42.744 [DEBUG] MechEngineer set InitialTonnage=2.5
+00:42.744 [DEBUG] MechEngineer set MaxJumpjets=8
+00:42.744 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:42.744 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:42.745 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:42.745 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:42.745 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:42.745 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:42.745 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:42.745 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:42.748 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_urbanmech_UM-R60
+00:42.748 [DEBUG] MechEngineer set InitialTonnage=3
+00:42.748 [DEBUG] MechEngineer set MaxJumpjets=8
+00:42.748 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:42.748 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:42.748 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:42.748 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:42.748 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:42.748 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:42.749 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:42.749 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:42.752 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_vulcan_VL-2T
+00:42.752 [DEBUG] MechEngineer set InitialTonnage=4
+00:42.752 [DEBUG] MechEngineer set MaxJumpjets=8
+00:42.752 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:42.752 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:42.752 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:42.752 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:42.752 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:42.752 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:42.752 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:42.753 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.390 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_urbanmech_leftarm_mg_bh4], kept a single chrPrfWeap_urbanmech_leftarm_mg_bh4
+00:48.390 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_urbanmech_rightarm_mg_bh4], kept a single chrPrfWeap_urbanmech_rightarm_mg_bh4
+00:48.613 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_atlas_AS7-D-HT
+00:48.613 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.613 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.613 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.613 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.613 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.613 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.613 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.613 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.614 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.614 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.616 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_atlas_AS7-D
+00:48.616 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.616 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.617 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.617 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.617 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.617 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.617 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.617 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.617 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.617 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.620 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_awesome_AWS-8Q
+00:48.620 [DEBUG] MechEngineer set InitialTonnage=8
+00:48.620 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.620 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.620 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.621 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.621 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.621 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.621 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.621 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.621 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.624 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_awesome_AWS-8T
+00:48.624 [DEBUG] MechEngineer set InitialTonnage=8
+00:48.624 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.624 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.624 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.624 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.624 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.625 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.625 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.625 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.625 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.628 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_banshee_BNC-3E
+00:48.628 [DEBUG] MechEngineer set InitialTonnage=9.5
+00:48.628 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.628 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.628 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.628 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.628 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.628 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.628 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.628 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.628 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.631 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_banshee_BNC-3M
+00:48.631 [DEBUG] MechEngineer set InitialTonnage=9.5
+00:48.632 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.632 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.632 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.632 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.632 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.632 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.632 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.632 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.632 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.635 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_battlemaster_BLR-1G
+00:48.635 [DEBUG] MechEngineer set InitialTonnage=8.5
+00:48.635 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.635 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.635 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.635 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.635 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.636 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.636 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.636 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.636 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.639 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_blackjack_BJ-1
+00:48.639 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.639 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.639 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.639 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.639 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.639 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.639 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.639 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.639 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.639 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.642 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_blackknight_BL-6-KNT
+00:48.642 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.642 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.642 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.642 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.642 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.643 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.643 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.643 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.643 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.643 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.646 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_blackknight_BL-6b-KNT
+00:48.646 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.646 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.646 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.646 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.646 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.647 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.647 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.647 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.647 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.647 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.654 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_cataphract_CTF-1X
+00:48.654 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.654 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.654 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.654 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.654 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.654 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.655 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.655 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.655 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.655 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.658 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_catapult_CPLT-C1
+00:48.658 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.658 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.658 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.659 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.659 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.659 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.659 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.659 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.659 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.659 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.662 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_catapult_CPLT-K2
+00:48.662 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.662 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.662 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.662 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.662 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.662 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.663 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.663 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.663 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.663 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.666 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_centurion_CN9-AL
+00:48.666 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.666 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.666 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.666 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.666 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.666 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.666 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.666 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.666 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.667 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.674 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_centurion_TARGETDUMMY
+00:48.674 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.674 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.674 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.674 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.674 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.674 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.674 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.674 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.674 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.675 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.677 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_cicada_CDA-2A
+00:48.678 [DEBUG] MechEngineer set InitialTonnage=4
+00:48.678 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.678 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.678 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.678 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.678 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.678 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.678 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.678 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.678 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.681 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_cicada_CDA-3C
+00:48.681 [DEBUG] MechEngineer set InitialTonnage=4
+00:48.681 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.682 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.682 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.682 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.682 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.682 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.682 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.682 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.682 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.685 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_commando_COM-2D
+00:48.685 [DEBUG] MechEngineer set InitialTonnage=2.5
+00:48.685 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.685 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.685 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.685 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.685 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.685 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.686 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.686 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.686 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.689 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_dragon_DRG-1N
+00:48.689 [DEBUG] MechEngineer set InitialTonnage=6
+00:48.689 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.689 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.689 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.689 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.689 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.689 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.689 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.689 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.689 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.692 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_enforcer_ENF-4R
+00:48.692 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.692 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.692 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.692 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.693 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.693 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.693 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.693 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.693 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.693 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.699 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_firestarter_FS9-H
+00:48.699 [DEBUG] MechEngineer set InitialTonnage=3.5
+00:48.699 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.700 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.700 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.700 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.700 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.700 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.700 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.700 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.700 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.703 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_grasshopper_GHR-5H
+00:48.703 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.703 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.703 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.703 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.703 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.703 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.704 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.704 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.704 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.704 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.706 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_griffin_GRF-1N
+00:48.707 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.707 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.707 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.707 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.707 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.707 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.707 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.707 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.707 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.707 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.710 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_griffin_GRF-1S
+00:48.710 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.710 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.711 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.711 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.711 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.711 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.711 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.711 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.711 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.711 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.714 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_griffin_GRF-4N
+00:48.714 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.714 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.714 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.715 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.715 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.715 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.715 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.715 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.715 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.715 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.718 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_highlander_HGN-732b
+00:48.718 [DEBUG] MechEngineer set InitialTonnage=9
+00:48.718 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.718 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.718 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.719 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.719 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.719 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.719 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.719 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.719 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.722 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_highlander_HGN-733
+00:48.722 [DEBUG] MechEngineer set InitialTonnage=9
+00:48.722 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.722 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.722 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.722 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.722 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.722 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.722 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.722 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.722 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.725 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_highlander_HGN-733P
+00:48.726 [DEBUG] MechEngineer set InitialTonnage=9
+00:48.726 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.726 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.726 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.726 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.726 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.726 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.726 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.726 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.726 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.729 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_hunchback_HBK-4G
+00:48.729 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.729 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.729 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.729 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.729 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.729 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.729 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.730 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.730 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.730 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.732 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_hunchback_HBK-4P
+00:48.733 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.733 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.733 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.733 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.733 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.733 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.733 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.733 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.733 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.733 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.739 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_jagermech_JM6-A
+00:48.740 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.740 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.740 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.740 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.740 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.740 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.740 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.740 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.740 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.740 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.744 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_jagermech_JM6-S
+00:48.744 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.744 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.744 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.744 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.744 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.745 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.745 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.745 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.745 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.745 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.748 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_jenner_JR7-D
+00:48.748 [DEBUG] MechEngineer set InitialTonnage=3.5
+00:48.748 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.748 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.748 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.748 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.748 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.748 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.748 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.749 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.749 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.751 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_kingcrab_KGC-0000
+00:48.751 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.752 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.752 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.752 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.752 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.752 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.752 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.752 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.752 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.752 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.755 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_kintaro_KTO-18
+00:48.755 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.755 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.755 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.755 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.755 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.755 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.756 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.756 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.756 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.756 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.759 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_locust_LCT-1M
+00:48.759 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.759 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.759 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.759 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.759 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.759 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.759 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.760 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.760 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.760 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.762 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_locust_LCT-1S
+00:48.763 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.763 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.763 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.763 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.763 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.763 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.763 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.763 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.763 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.763 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.766 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_locust_LCT-1V
+00:48.766 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.766 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.766 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.766 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.766 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.766 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.767 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.767 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.767 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.767 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.769 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_orion_ON1-K
+00:48.770 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.770 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.770 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.770 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.770 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.770 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.770 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.770 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.770 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.770 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.773 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_orion_ON1-V
+00:48.773 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.774 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.774 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.774 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.774 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.774 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.774 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.774 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.774 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.774 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.780 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_panther_PNT-9R
+00:48.780 [DEBUG] MechEngineer set InitialTonnage=3.5
+00:48.780 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.780 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.780 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.780 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.781 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.781 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.781 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.781 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.781 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.784 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_panther_TARGETDUMMY
+00:48.784 [DEBUG] MechEngineer set InitialTonnage=3.5
+00:48.785 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.785 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.785 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.785 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.785 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.785 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.785 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.785 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.785 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.788 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_quickdraw_QKD-4G
+00:48.788 [DEBUG] MechEngineer set InitialTonnage=6
+00:48.788 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.788 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.789 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.789 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.789 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.789 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.789 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.789 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.789 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.792 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_quickdraw_QKD-5A
+00:48.792 [DEBUG] MechEngineer set InitialTonnage=6
+00:48.792 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.792 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.792 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.792 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.792 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.793 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.793 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.793 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.793 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.795 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_shadowhawk_SHD-2H
+00:48.796 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.796 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.796 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.796 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.796 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.796 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.796 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.796 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.796 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.796 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.799 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_shadowhawk_SHD-2D
+00:48.799 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.799 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.799 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.799 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.799 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.799 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.800 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.800 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.800 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.800 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.802 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_spider_SDR-5V
+00:48.802 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.802 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.803 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.803 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.803 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.803 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.803 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.803 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.803 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.803 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.806 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_stalker_STK-3F
+00:48.806 [DEBUG] MechEngineer set InitialTonnage=8.5
+00:48.806 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.806 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.807 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.807 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.807 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.807 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.807 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.807 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.807 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.810 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_thunderbolt_TDR-5S
+00:48.810 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.810 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.810 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.810 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.810 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.810 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.810 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.810 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.811 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.811 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.813 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_thunderbolt_TDR-5SE
+00:48.813 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.814 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.814 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.814 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.814 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.814 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.814 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.814 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.814 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.814 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.822 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_thunderbolt_TDR-5SS
+00:48.823 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.823 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.823 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.823 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.823 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.823 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.823 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.823 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.824 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.824 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.828 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_trebuchet_TBT-5N
+00:48.828 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.828 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.828 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.828 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.829 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.829 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.829 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.829 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.829 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.829 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.832 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_victor_VTR-9B
+00:48.832 [DEBUG] MechEngineer set InitialTonnage=8
+00:48.832 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.832 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.832 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.832 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.832 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.832 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.832 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.833 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.833 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.836 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_victor_VTR-9S
+00:48.836 [DEBUG] MechEngineer set InitialTonnage=8
+00:48.836 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.836 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.836 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.836 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.836 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.836 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.836 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.836 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.837 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.840 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_vindicator_VND-1R
+00:48.840 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.840 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.840 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.840 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.840 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.840 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.840 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.840 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.840 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.840 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.843 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_wolverine_WVR-6K
+00:48.843 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.843 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.843 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.843 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.844 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.844 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.844 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.844 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.844 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.844 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.847 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_wolverine_WVR-6R
+00:48.847 [DEBUG] MechEngineer set InitialTonnage=5.5
+00:48.847 [DEBUG] MechEngineer set MaxJumpjets=7
+00:48.847 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.847 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.847 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.847 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.847 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.847 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.847 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.847 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.850 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_zeus_ZEU-6S
+00:48.850 [DEBUG] MechEngineer set InitialTonnage=8
+00:48.850 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.851 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.851 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.851 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.851 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.851 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.851 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.851 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.851 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.854 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_banshee_BNC-3S
+00:48.854 [DEBUG] MechEngineer set InitialTonnage=9.5
+00:48.854 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.854 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.854 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.854 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.855 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.855 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.855 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.855 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.855 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.857 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_blackjack_BJ-1DB
+00:48.858 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.858 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.858 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.858 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.858 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.858 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.858 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.858 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.858 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.858 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.865 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_catapult_CPLT-C4
+00:48.865 [DEBUG] MechEngineer set InitialTonnage=6.5
+00:48.865 [DEBUG] MechEngineer set MaxJumpjets=6
+00:48.865 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.865 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.865 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.865 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.865 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.865 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.865 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.866 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.868 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_urbanmech_UM-R60L
+00:48.868 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.869 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.869 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.869 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.869 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.869 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.869 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.869 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.869 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.869 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.872 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_urbanmech_UM-R90
+00:48.872 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.872 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.872 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.873 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.873 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.873 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.873 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.873 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.873 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.873 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.876 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_vindicator_VND-1AA
+00:48.876 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.876 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.876 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.876 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.876 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.876 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.876 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.877 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.877 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.877 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.879 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_marauder_MAD-3R
+00:48.880 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.880 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.880 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.880 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.880 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.880 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.880 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.880 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.880 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.880 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.884 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_warhammer_WHM-6D
+00:48.884 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.884 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.884 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.884 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.884 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.884 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.884 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.884 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.884 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.884 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.887 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_warhammer_WHM-6R
+00:48.888 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.888 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.888 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.888 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.888 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.888 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.888 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.888 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.888 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.888 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.891 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_warhammer_WHM-BW
+00:48.891 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.892 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.892 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.892 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.892 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.892 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.892 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.892 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.892 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.892 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.895 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_locust_LCT-1E
+00:48.895 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.895 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.895 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.895 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.895 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.895 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.895 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.895 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.896 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.896 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.898 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_spider_SDR-5K
+00:48.898 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.898 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.898 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.899 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.899 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.899 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.899 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.899 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.899 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.899 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.906 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_atlas_AS7-GG
+00:48.906 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.906 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.906 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.907 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.907 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.907 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.907 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.907 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.907 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.907 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.910 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_marauder_MAD-BH
+00:48.910 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.910 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.910 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.910 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.911 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.911 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.911 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.911 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.911 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.911 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.914 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_marauder_MAD-CM
+00:48.914 [DEBUG] MechEngineer set InitialTonnage=7.5
+00:48.914 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.914 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.914 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.914 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.914 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.915 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.915 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.915 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.915 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.917 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_crab__fp_gladiator_BSC-27
+00:48.917 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.917 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.917 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.918 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.918 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.918 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.918 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.918 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.918 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.918 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.920 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_crab_CRB-27
+00:48.920 [DEBUG] MechEngineer set InitialTonnage=5
+00:48.921 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.921 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.921 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.921 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.921 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.921 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.921 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.921 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.921 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.924 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_cyclops_CP-10-Q
+00:48.924 [DEBUG] MechEngineer set InitialTonnage=9
+00:48.924 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.924 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.924 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.924 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.924 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.924 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.925 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.925 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.925 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.927 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_cyclops_CP-10-Z
+00:48.927 [DEBUG] MechEngineer set InitialTonnage=9
+00:48.927 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.928 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.928 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.928 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.928 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.928 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.928 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.928 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.928 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.931 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_hatchetman_HCT-3F
+00:48.931 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.931 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.931 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.931 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.932 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.932 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.932 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.932 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.932 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.932 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.935 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_hatchetman_HCT-3X
+00:48.935 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.935 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.935 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.935 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.935 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.935 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.936 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.936 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.936 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.936 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.938 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_javelin_JVN-10F
+00:48.938 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.938 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.939 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.939 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.939 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.939 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.939 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.939 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.939 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.939 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.945 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_javelin_JVN-10N
+00:48.945 [DEBUG] MechEngineer set InitialTonnage=3
+00:48.945 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.945 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.945 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.946 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.946 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.946 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.946 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.946 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.946 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.948 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_raven_RVN-1X
+00:48.949 [DEBUG] MechEngineer set InitialTonnage=3.5
+00:48.949 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.949 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.949 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.949 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.949 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.949 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.949 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.949 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.949 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.952 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_annihilator_ANH-1A
+00:48.952 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.952 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.952 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.952 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.952 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.952 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.953 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.953 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.953 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.953 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.956 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_annihilator_ANH-JH
+00:48.956 [DEBUG] MechEngineer set InitialTonnage=10
+00:48.956 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.956 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.956 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.956 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.956 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.956 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.956 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.956 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.957 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.959 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_archer_ARC-2R
+00:48.959 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.959 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.959 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.959 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.960 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.960 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.960 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.960 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.960 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.960 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.962 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_archer_ARC-2S
+00:48.963 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.963 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.963 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.963 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.963 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.963 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.963 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.963 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.963 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.963 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.966 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_archer_ARC-LS
+00:48.966 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.966 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.966 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.966 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.966 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.966 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.966 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.967 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.967 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.967 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.969 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_archer_ARC-XO
+00:48.969 [DEBUG] MechEngineer set InitialTonnage=7
+00:48.969 [DEBUG] MechEngineer set MaxJumpjets=5
+00:48.969 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.969 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.970 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.970 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.970 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.970 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.970 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.970 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.972 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_assassin_ASN-101
+00:48.972 [DEBUG] MechEngineer set InitialTonnage=4
+00:48.973 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.973 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.973 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.973 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.973 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.973 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.973 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.973 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.973 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.976 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_assassin_ASN-21
+00:48.976 [DEBUG] MechEngineer set InitialTonnage=4
+00:48.976 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.976 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.976 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.976 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.976 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.976 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.976 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.977 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.977 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.982 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_bullshark_BSK-M3
+00:48.982 [DEBUG] MechEngineer set InitialTonnage=9.5
+00:48.982 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.982 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.982 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.983 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.983 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.983 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.983 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.983 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.983 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.985 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_bullshark_BSK-MAZ
+00:48.986 [DEBUG] MechEngineer set InitialTonnage=9.5
+00:48.986 [DEBUG] MechEngineer set MaxJumpjets=4
+00:48.986 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.986 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.986 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.986 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.986 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.986 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.986 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.986 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.989 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_flea_FLE-15
+00:48.989 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.989 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.989 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.989 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.989 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.989 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.990 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.990 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.990 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.990 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.992 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_flea_FLE-4
+00:48.992 [DEBUG] MechEngineer set InitialTonnage=2
+00:48.993 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.993 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.993 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.993 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.993 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.993 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.993 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.993 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.993 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.996 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_phoenixhawk_PXH-1
+00:48.996 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.996 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.996 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.996 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:48.996 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:48.996 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:48.996 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:48.996 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:48.996 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:48.997 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:48.999 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_phoenixhawk_PXH-1K
+00:48.999 [DEBUG] MechEngineer set InitialTonnage=4.5
+00:48.999 [DEBUG] MechEngineer set MaxJumpjets=8
+00:48.999 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:48.999 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.000 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.000 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.000 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.000 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.000 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.000 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:49.002 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_rifleman_RFL-3C
+00:49.002 [DEBUG] MechEngineer set InitialTonnage=6
+00:49.003 [DEBUG] MechEngineer set MaxJumpjets=6
+00:49.003 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:49.003 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.003 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.003 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.003 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.003 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.003 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.003 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:49.006 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_rifleman_RFL-3N
+00:49.006 [DEBUG] MechEngineer set InitialTonnage=6
+00:49.006 [DEBUG] MechEngineer set MaxJumpjets=6
+00:49.006 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:49.006 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.006 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.006 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.007 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.007 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.007 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.007 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:49.009 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_rifleman_RFL-RIP
+00:49.009 [DEBUG] MechEngineer set InitialTonnage=6
+00:49.009 [DEBUG] MechEngineer set MaxJumpjets=6
+00:49.009 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:49.010 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.010 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.010 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.010 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.010 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.010 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.010 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:49.012 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_vulcan_VL-5T
+00:49.013 [DEBUG] MechEngineer set InitialTonnage=4
+00:49.013 [DEBUG] MechEngineer set MaxJumpjets=8
+00:49.013 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:49.013 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.013 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.013 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.013 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.013 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.013 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.013 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:49.021 [LOG  ] MechEngineer Auto fixing chassisDef=chassisdef_locust_LCT-1Vb
+00:49.021 [DEBUG] MechEngineer set InitialTonnage=2
+00:49.021 [DEBUG] MechEngineer set MaxJumpjets=8
+00:49.021 [DEBUG] MechEngineer set InventorySlots=6 on location=Head
+00:49.022 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftArm
+00:49.022 [DEBUG] MechEngineer set InventorySlots=12 on location=LeftTorso
+00:49.022 [DEBUG] MechEngineer set InventorySlots=15 on location=CenterTorso
+00:49.022 [DEBUG] MechEngineer set InventorySlots=12 on location=RightTorso
+00:49.022 [DEBUG] MechEngineer set InventorySlots=12 on location=RightArm
+00:49.022 [DEBUG] MechEngineer set InventorySlots=6 on location=LeftLeg
+00:49.022 [DEBUG] MechEngineer set InventorySlots=6 on location=RightLeg
+00:54.134 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_banshee_righttorso_ppc_eh3], kept a single chrPrfWeap_banshee_righttorso_ppc_eh3
+00:54.153 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_battlemaster_leftarm_mg_ah1,chrPrfWeap_battlemaster_leftarm_mg_bh1], kept a single chrPrfWeap_battlemaster_leftarm_mg_ah1
+00:54.170 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_lrm10_mh1], kept a single chrPrfWeap_cataphract_leftarm_lrm10_mh1
+00:54.170 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_lrm15_mh1], kept a single chrPrfWeap_cataphract_leftarm_lrm15_mh1
+00:54.170 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_lrm5_mh1], kept a single chrPrfWeap_cataphract_leftarm_lrm5_mh1
+00:54.170 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_narc_mh1], kept a single chrPrfWeap_cataphract_leftarm_narc_mh1
+00:54.170 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_srm2_mh1], kept a single chrPrfWeap_cataphract_leftarm_srm2_mh1
+00:54.171 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_srm20_mh1], kept a single chrPrfWeap_cataphract_leftarm_srm20_mh1
+00:54.171 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_srm4_mh1], kept a single chrPrfWeap_cataphract_leftarm_srm4_mh1
+00:54.171 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_srm6_mh1], kept a single chrPrfWeap_cataphract_leftarm_srm6_mh1
+00:54.171 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_cataphract_leftarm_uac5_bh1], kept a single chrPrfWeap_cataphract_leftarm_uac5_bh1
+00:54.302 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_lrm10_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_lrm10_mh1
+00:54.302 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_lrm10_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_lrm10_mh2
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_lrm15_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_lrm15_mh1
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_lrm5_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_lrm5_mh1
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_lrm5_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_lrm5_mh2
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_narc_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_narc_mh2
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm2_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_srm2_mh1
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm2_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_srm2_mh2
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm20_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_srm20_mh1
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm4_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_srm4_mh1
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm4_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_srm4_mh2
+00:54.303 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm6_mh1], kept a single chrPrfWeap_thunderbolt_righttorso_srm6_mh1
+00:54.304 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_thunderbolt_righttorso_srm6_mh2], kept a single chrPrfWeap_thunderbolt_righttorso_srm6_mh2
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_ac20_bh1], kept a single chrPrfWeap_raven_leftarm_ac20_bh1
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_lrm10_mh1], kept a single chrPrfWeap_raven_leftarm_lrm10_mh1
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_lrm15_mh1], kept a single chrPrfWeap_raven_leftarm_lrm15_mh1
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_lrm5_mh1], kept a single chrPrfWeap_raven_leftarm_lrm5_mh1
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_narc_mh1], kept a single chrPrfWeap_raven_leftarm_narc_mh1
+00:54.369 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_srm2_mh1], kept a single chrPrfWeap_raven_leftarm_srm2_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_srm20_mh1], kept a single chrPrfWeap_raven_leftarm_srm20_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_srm4_mh1], kept a single chrPrfWeap_raven_leftarm_srm4_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_leftarm_srm6_mh1], kept a single chrPrfWeap_raven_leftarm_srm6_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_lrm10_mh1], kept a single chrPrfWeap_raven_lefttorso_lrm10_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_lrm15_mh1], kept a single chrPrfWeap_raven_lefttorso_lrm15_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_lrm5_mh1], kept a single chrPrfWeap_raven_lefttorso_lrm5_mh1
+00:54.370 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_narc_mh1], kept a single chrPrfWeap_raven_lefttorso_narc_mh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_srm2_mh1], kept a single chrPrfWeap_raven_lefttorso_srm2_mh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_srm20_mh1], kept a single chrPrfWeap_raven_lefttorso_srm20_mh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_srm4_mh1], kept a single chrPrfWeap_raven_lefttorso_srm4_mh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_lefttorso_srm6_mh1], kept a single chrPrfWeap_raven_lefttorso_srm6_mh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_rightarm_ac20_bh1], kept a single chrPrfWeap_raven_rightarm_ac20_bh1
+00:54.371 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_righttorso_lrm15_mh1], kept a single chrPrfWeap_raven_righttorso_lrm15_mh1
+00:54.372 [WARN ] MechEngineer Removing duplicate hardpoint entries [chrPrfWeap_raven_righttorso_srm20_mh1], kept a single chrPrfWeap_raven_righttorso_srm20_mh1
+00:54.922 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_Centurion_fp_justinAllard chassisDef=chassisdef_centurion_CN9-A
+00:54.929 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=39.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.934 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:54.942 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_commando_COM-1B chassisDef=chassisdef_commando_COM-1B
+00:54.942 [DEBUG] MechEngineer freeTonnage=7.5 currentTotalTonnage=17.5 maxFreeTonnage=7.5 initialTonnageGain=10.5 initialGainSmaller=False
+00:54.943 [DEBUG] MechEngineer  maxEngine=emod_engine_155 Rating=155 freeTonnage=7.5
+00:54.943 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_centurion_CN9-AS chassisDef=chassisdef_centurion_CN9-A
+00:54.943 [DEBUG] MechEngineer freeTonnage=13.9 currentTotalTonnage=17.5 maxFreeTonnage=32.5 initialTonnageGain=13.5 initialGainSmaller=True
+00:54.944 [DEBUG] MechEngineer  maxEngine=emod_engine_230 Rating=230 freeTonnage=13.9
+00:54.944 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_centurion_CN9-A chassisDef=chassisdef_centurion_CN9-A
+00:54.945 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=39.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.945 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:54.946 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_vulcan_VL-2T chassisDef=chassisdef_vulcan_VL-2T
+00:54.946 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=25.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:54.946 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:54.949 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_urbanmech_UM-R60 chassisDef=chassisdef_urbanmech_UM-R60
+00:54.950 [DEBUG] MechEngineer freeTonnage=2.5 currentTotalTonnage=27.5 maxFreeTonnage=2.5 initialTonnageGain=5.5 initialGainSmaller=False
+00:54.950 [DEBUG] MechEngineer  maxEngine=emod_engine_060 Rating=60 freeTonnage=2.5
+00:54.950 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_urbanmech_TESTDUMMY chassisDef=chassisdef_urbanmech_UM-R60
+00:54.951 [DEBUG] MechEngineer freeTonnage=5.9 currentTotalTonnage=7.1375 maxFreeTonnage=22.8625 initialTonnageGain=5.5 initialGainSmaller=True
+00:54.951 [DEBUG] MechEngineer  maxEngine=emod_engine_110 Rating=110 freeTonnage=5.9
+00:54.952 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_atlas_AS7-D-HT chassisDef=chassisdef_atlas_AS7-D-HT
+00:54.952 [DEBUG] MechEngineer set AssignedArmor=210 AssignedRearArmor=100 on location=CenterTorso
+00:54.952 [DEBUG] MechEngineer freeTonnage=19.8125 currentTotalTonnage=80.1875 maxFreeTonnage=19.8125 initialTonnageGain=12 initialGainSmaller=True
+00:54.952 [DEBUG] MechEngineer  maxEngine=emod_engine_285 Rating=285 freeTonnage=19.8125
+00:54.953 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_atlas_AS7-GG chassisDef=chassisdef_atlas_AS7-GG
+00:54.953 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=78 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.954 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.954 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_awesome_AWS-8Q chassisDef=chassisdef_awesome_AWS-8Q
+00:54.955 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=65.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:54.955 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:54.956 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_atlas_AS7-D chassisDef=chassisdef_atlas_AS7-D
+00:54.956 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=78 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.956 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.957 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_banshee_BNC-3E chassisDef=chassisdef_banshee_BNC-3E
+00:54.957 [DEBUG] MechEngineer freeTonnage=45 currentTotalTonnage=50 maxFreeTonnage=45 initialTonnageGain=48 initialGainSmaller=False
+00:54.958 [DEBUG] MechEngineer  maxEngine=emod_engine_380 Rating=380 freeTonnage=45
+00:54.958 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_awesome_AWS-8T chassisDef=chassisdef_awesome_AWS-8T
+00:54.959 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=65.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:54.959 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:54.959 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_blackjack_BJ-1-STARTER chassisDef=chassisdef_blackjack_BJ-1
+00:54.960 [DEBUG] MechEngineer freeTonnage=11 currentTotalTonnage=34 maxFreeTonnage=11 initialTonnageGain=12 initialGainSmaller=False
+00:54.960 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=11
+00:54.961 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_battlemaster_BLR-1G chassisDef=chassisdef_battlemaster_BLR-1G
+00:54.961 [DEBUG] MechEngineer freeTonnage=31 currentTotalTonnage=54 maxFreeTonnage=31 initialTonnageGain=34 initialGainSmaller=False
+00:54.961 [DEBUG] MechEngineer  maxEngine=emod_engine_340 Rating=340 freeTonnage=31
+00:54.962 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_banshee_BNC-3M chassisDef=chassisdef_banshee_BNC-3M
+00:54.962 [DEBUG] MechEngineer freeTonnage=45 currentTotalTonnage=50 maxFreeTonnage=45 initialTonnageGain=48 initialGainSmaller=False
+00:54.963 [DEBUG] MechEngineer  maxEngine=emod_engine_380 Rating=380 freeTonnage=45
+00:54.963 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_blackjack_BJ-1DB chassisDef=chassisdef_blackjack_BJ-1DB
+00:54.963 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=36 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:54.964 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:54.964 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_battlemaster_BLR-1G_fp_morganKell chassisDef=chassisdef_battlemaster_BLR-1G
+00:54.965 [DEBUG] MechEngineer freeTonnage=31 currentTotalTonnage=54 maxFreeTonnage=31 initialTonnageGain=34 initialGainSmaller=False
+00:54.965 [DEBUG] MechEngineer  maxEngine=emod_engine_340 Rating=340 freeTonnage=31
+00:54.966 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_blackknight_BL-6-KNT chassisDef=chassisdef_blackknight_BL-6-KNT
+00:54.966 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=53 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.966 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.967 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_blackjack_BJ-1 chassisDef=chassisdef_blackjack_BJ-1
+00:54.967 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=36 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:54.967 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:54.968 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_centurion_CN9-AL chassisDef=chassisdef_centurion_CN9-AL
+00:54.968 [DEBUG] MechEngineer set AssignedArmor=110 AssignedRearArmor=50 on location=CenterTorso
+00:54.968 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=LeftTorso
+00:54.968 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=RightTorso
+00:54.968 [DEBUG] MechEngineer freeTonnage=10.9375 currentTotalTonnage=39.0625 maxFreeTonnage=10.9375 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.969 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.9375
+00:54.969 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_catapult_CPLT-C1 chassisDef=chassisdef_catapult_CPLT-C1
+00:54.970 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:54.970 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:54.970 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_cataphract_CTF-1X chassisDef=chassisdef_cataphract_CTF-1X
+00:54.971 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:54.971 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:54.972 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_blackknight_BL-6b-KNT chassisDef=chassisdef_blackknight_BL-6b-KNT
+00:54.973 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=53 maxFreeTonnage=22 initialTonnageGain=19.5 initialGainSmaller=True
+00:54.973 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.973 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_catapult_CPLT-C4 chassisDef=chassisdef_catapult_CPLT-C4
+00:54.974 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:54.974 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:54.975 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_Catapult_fp_justinAllard chassisDef=chassisdef_catapult_CPLT-C1
+00:54.975 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:54.975 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:54.976 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_commando_COM-2D chassisDef=chassisdef_commando_COM-2D
+00:54.976 [DEBUG] MechEngineer freeTonnage=7.5 currentTotalTonnage=17.5 maxFreeTonnage=7.5 initialTonnageGain=10.5 initialGainSmaller=False
+00:54.977 [DEBUG] MechEngineer  maxEngine=emod_engine_155 Rating=155 freeTonnage=7.5
+00:54.977 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_cicada_CDA-2A chassisDef=chassisdef_cicada_CDA-2A
+00:54.978 [DEBUG] MechEngineer freeTonnage=26.5 currentTotalTonnage=13.5 maxFreeTonnage=26.5 initialTonnageGain=29.5 initialGainSmaller=False
+00:54.978 [DEBUG] MechEngineer  maxEngine=emod_engine_320 Rating=320 freeTonnage=26.5
+00:54.978 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_centurion_TARGETDUMMY chassisDef=chassisdef_centurion_TARGETDUMMY
+00:54.979 [DEBUG] MechEngineer freeTonnage=13.9 currentTotalTonnage=9.1125 maxFreeTonnage=40.8875 initialTonnageGain=13.5 initialGainSmaller=True
+00:54.979 [DEBUG] MechEngineer  maxEngine=emod_engine_230 Rating=230 freeTonnage=13.9
+00:54.979 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_catapult_CPLT-K2 chassisDef=chassisdef_catapult_CPLT-K2
+00:54.980 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:54.980 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:54.980 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_firestarter_FS9-H chassisDef=chassisdef_firestarter_FS9-H
+00:54.981 [DEBUG] MechEngineer freeTonnage=12 currentTotalTonnage=23 maxFreeTonnage=12 initialTonnageGain=15 initialGainSmaller=False
+00:54.981 [DEBUG] MechEngineer  maxEngine=emod_engine_210 Rating=210 freeTonnage=12
+00:54.982 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_enforcer_ENF-4R chassisDef=chassisdef_enforcer_ENF-4R
+00:54.982 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=39.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.982 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:54.983 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_dragon_DRG-1N chassisDef=chassisdef_dragon_DRG-1N
+00:54.983 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=38 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.983 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.984 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_cicada_CDA-3C chassisDef=chassisdef_cicada_CDA-3C
+00:54.984 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=21 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:54.984 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:54.985 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_Dragon_fp_justinAllard chassisDef=chassisdef_dragon_DRG-1N
+00:54.985 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=38 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.985 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.986 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_enforcer_ENF-4R_fp_morganKell chassisDef=chassisdef_enforcer_ENF-4R
+00:54.986 [DEBUG] MechEngineer set AssignedArmor=110 AssignedRearArmor=50 on location=CenterTorso
+00:54.986 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=LeftTorso
+00:54.986 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=RightTorso
+00:54.986 [DEBUG] MechEngineer freeTonnage=12.3875 currentTotalTonnage=37.6125 maxFreeTonnage=12.3875 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.987 [DEBUG] MechEngineer  maxEngine=emod_engine_210 Rating=210 freeTonnage=12.3875
+00:54.987 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_highlander_HGN-732b chassisDef=chassisdef_highlander_HGN-732b
+00:54.988 [DEBUG] MechEngineer freeTonnage=17.5 currentTotalTonnage=72.5 maxFreeTonnage=17.5 initialTonnageGain=15.5 initialGainSmaller=True
+00:54.988 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.5
+00:54.989 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_griffin_GRF-1N chassisDef=chassisdef_griffin_GRF-1N
+00:54.989 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:54.989 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:54.990 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_grasshopper_GHR-5H chassisDef=chassisdef_grasshopper_GHR-5H
+00:54.990 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:54.990 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:54.991 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_Griffin_fp_justinAllard chassisDef=chassisdef_griffin_GRF-1N
+00:54.991 [DEBUG] MechEngineer set AssignedArmor=120 AssignedRearArmor=60 on location=CenterTorso
+00:54.991 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=LeftTorso
+00:54.991 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=RightTorso
+00:54.992 [DEBUG] MechEngineer freeTonnage=21.5875 currentTotalTonnage=33.4125 maxFreeTonnage=21.5875 initialTonnageGain=21.5 initialGainSmaller=True
+00:54.992 [DEBUG] MechEngineer  maxEngine=emod_engine_295 Rating=295 freeTonnage=21.5875
+00:54.993 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_kingcrab_KGC-0000 chassisDef=chassisdef_kingcrab_KGC-0000
+00:54.993 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=78 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:54.993 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:54.994 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_jenner_JR7-D chassisDef=chassisdef_jenner_JR7-D
+00:54.994 [DEBUG] MechEngineer freeTonnage=15 currentTotalTonnage=20 maxFreeTonnage=15 initialTonnageGain=18 initialGainSmaller=False
+00:54.994 [DEBUG] MechEngineer  maxEngine=emod_engine_245 Rating=245 freeTonnage=15
+00:54.995 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_jagermech_JM6-A chassisDef=chassisdef_jagermech_JM6-A
+00:54.995 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:54.995 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:54.996 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_hunchback_HBK-4G chassisDef=chassisdef_hunchback_HBK-4G
+00:54.996 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=39.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:54.997 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:54.997 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_highlander_HGN-733P chassisDef=chassisdef_highlander_HGN-733P
+00:54.997 [DEBUG] MechEngineer set AssignedArmor=195 AssignedRearArmor=95 on location=CenterTorso
+00:54.997 [DEBUG] MechEngineer set AssignedArmor=130 AssignedRearArmor=60 on location=LeftTorso
+00:54.998 [DEBUG] MechEngineer set AssignedArmor=130 AssignedRearArmor=60 on location=RightTorso
+00:54.998 [DEBUG] MechEngineer freeTonnage=17.5625 currentTotalTonnage=72.4375 maxFreeTonnage=17.5625 initialTonnageGain=20.5 initialGainSmaller=False
+00:54.998 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.5625
+00:54.999 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_highlander_HGN-733 chassisDef=chassisdef_highlander_HGN-733
+00:54.999 [DEBUG] MechEngineer set AssignedArmor=195 AssignedRearArmor=95 on location=CenterTorso
+00:55.000 [DEBUG] MechEngineer freeTonnage=17.5625 currentTotalTonnage=72.4375 maxFreeTonnage=17.5625 initialTonnageGain=20.5 initialGainSmaller=False
+00:55.000 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.5625
+00:55.001 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_griffin_GRF-4N chassisDef=chassisdef_griffin_GRF-4N
+00:55.001 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=LeftTorso
+00:55.001 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=RightTorso
+00:55.001 [DEBUG] MechEngineer freeTonnage=16.25 currentTotalTonnage=38.75 maxFreeTonnage=16.25 initialTonnageGain=16.5 initialGainSmaller=False
+00:55.001 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.75
+00:55.002 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_griffin_GRF-1S chassisDef=chassisdef_griffin_GRF-1S
+00:55.003 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.003 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.003 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_griffin_GRF-4N_fp_greed chassisDef=chassisdef_griffin_GRF-4N
+00:55.004 [DEBUG] MechEngineer set AssignedArmor=120 AssignedRearArmor=60 on location=CenterTorso
+00:55.004 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=LeftTorso
+00:55.004 [DEBUG] MechEngineer set AssignedArmor=90 AssignedRearArmor=40 on location=RightTorso
+00:55.004 [DEBUG] MechEngineer freeTonnage=16.9 currentTotalTonnage=36.9375 maxFreeTonnage=18.0625 initialTonnageGain=16.5 initialGainSmaller=True
+00:55.004 [DEBUG] MechEngineer  maxEngine=emod_engine_265 Rating=265 freeTonnage=17.4
+00:55.005 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_jenner_JR7-D_fp_morganKell chassisDef=chassisdef_jenner_JR7-D
+00:55.005 [DEBUG] MechEngineer freeTonnage=15 currentTotalTonnage=20 maxFreeTonnage=15 initialTonnageGain=18 initialGainSmaller=False
+00:55.006 [DEBUG] MechEngineer  maxEngine=emod_engine_245 Rating=245 freeTonnage=15
+00:55.006 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_panther1b_PNT-9R chassisDef=chassisdef_panther_PNT-9R
+00:55.007 [DEBUG] MechEngineer freeTonnage=10.4 currentTotalTonnage=24 maxFreeTonnage=11 initialTonnageGain=10 initialGainSmaller=True
+00:55.007 [DEBUG] MechEngineer  maxEngine=emod_engine_195 Rating=195 freeTonnage=10.4
+00:55.007 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_orion_ON1-K chassisDef=chassisdef_orion_ON1-K
+00:55.008 [DEBUG] MechEngineer set AssignedArmor=155 AssignedRearArmor=75 on location=CenterTorso
+00:55.008 [DEBUG] MechEngineer freeTonnage=22.0625 currentTotalTonnage=52.9375 maxFreeTonnage=22.0625 initialTonnageGain=25 initialGainSmaller=False
+00:55.008 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22.0625
+00:55.009 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_locust_LCT-1M chassisDef=chassisdef_locust_LCT-1M
+00:55.009 [DEBUG] MechEngineer freeTonnage=8 currentTotalTonnage=12 maxFreeTonnage=8 initialTonnageGain=11 initialGainSmaller=False
+00:55.009 [DEBUG] MechEngineer  maxEngine=emod_engine_170 Rating=170 freeTonnage=8
+00:55.010 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_kintaro_KTO-18 chassisDef=chassisdef_kintaro_KTO-18
+00:55.010 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.010 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.011 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_kingcrab_KGC-V-0000 chassisDef=chassisdef_kingcrab_KGC-0000
+00:55.011 [DEBUG] MechEngineer set AssignedArmor=210 AssignedRearArmor=100 on location=CenterTorso
+00:55.011 [DEBUG] MechEngineer set AssignedArmor=140 AssignedRearArmor=70 on location=LeftTorso
+00:55.011 [DEBUG] MechEngineer set AssignedArmor=140 AssignedRearArmor=70 on location=RightTorso
+00:55.011 [DEBUG] MechEngineer freeTonnage=23.3125 currentTotalTonnage=76.6875 maxFreeTonnage=23.3125 initialTonnageGain=25 initialGainSmaller=False
+00:55.012 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=23.3125
+00:55.012 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_jagermech_JM6-S chassisDef=chassisdef_jagermech_JM6-S
+00:55.012 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:55.013 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:55.013 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_hunchback_HBK-4P chassisDef=chassisdef_hunchback_HBK-4P
+00:55.014 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=39.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:55.014 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:55.014 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_locust_LCT-1E chassisDef=chassisdef_locust_LCT-1E
+00:55.015 [DEBUG] MechEngineer freeTonnage=8 currentTotalTonnage=12 maxFreeTonnage=8 initialTonnageGain=11 initialGainSmaller=False
+00:55.015 [DEBUG] MechEngineer  maxEngine=emod_engine_170 Rating=170 freeTonnage=8
+00:55.016 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_orion_ON1-K_fp_morganKell chassisDef=chassisdef_orion_ON1-K
+00:55.016 [DEBUG] MechEngineer set AssignedArmor=155 AssignedRearArmor=75 on location=CenterTorso
+00:55.016 [DEBUG] MechEngineer freeTonnage=22.0625 currentTotalTonnage=52.9375 maxFreeTonnage=22.0625 initialTonnageGain=25 initialGainSmaller=False
+00:55.016 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22.0625
+00:55.017 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_jagermech_JM6-S_fp_headhunting chassisDef=chassisdef_jagermech_JM6-S
+00:55.017 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:55.017 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:55.018 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_spider_SDR-5V chassisDef=chassisdef_spider_SDR-5V
+00:55.018 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=15.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.018 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:55.019 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_shadowhawk1b_SHD-2D chassisDef=chassisdef_shadowhawk_SHD-2H
+00:55.019 [DEBUG] MechEngineer freeTonnage=20 currentTotalTonnage=35 maxFreeTonnage=20 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.020 [DEBUG] MechEngineer  maxEngine=emod_engine_285 Rating=285 freeTonnage=20
+00:55.020 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_quickdraw_QKD-4G chassisDef=chassisdef_quickdraw_QKD-4G
+00:55.021 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=38 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:55.021 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:55.021 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_panther_TARGETDUMMY chassisDef=chassisdef_panther_TARGETDUMMY
+00:55.022 [DEBUG] MechEngineer freeTonnage=10.4 currentTotalTonnage=7.6375 maxFreeTonnage=27.3625 initialTonnageGain=10 initialGainSmaller=True
+00:55.022 [DEBUG] MechEngineer  maxEngine=emod_engine_195 Rating=195 freeTonnage=10.4
+00:55.023 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_panther_PNT-9R chassisDef=chassisdef_panther_PNT-9R
+00:55.023 [DEBUG] MechEngineer freeTonnage=7 currentTotalTonnage=28 maxFreeTonnage=7 initialTonnageGain=10 initialGainSmaller=False
+00:55.023 [DEBUG] MechEngineer  maxEngine=emod_engine_145 Rating=145 freeTonnage=7
+00:55.024 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_orion_ON1-V chassisDef=chassisdef_orion_ON1-V
+00:55.024 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=53 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:55.025 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:55.025 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_locust_LCT-1V chassisDef=chassisdef_locust_LCT-1V
+00:55.025 [DEBUG] MechEngineer freeTonnage=8 currentTotalTonnage=12 maxFreeTonnage=8 initialTonnageGain=11 initialGainSmaller=False
+00:55.026 [DEBUG] MechEngineer  maxEngine=emod_engine_170 Rating=170 freeTonnage=8
+00:55.026 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_locust_LCT-1S chassisDef=chassisdef_locust_LCT-1S
+00:55.026 [DEBUG] MechEngineer freeTonnage=8 currentTotalTonnage=12 maxFreeTonnage=8 initialTonnageGain=11 initialGainSmaller=False
+00:55.027 [DEBUG] MechEngineer  maxEngine=emod_engine_170 Rating=170 freeTonnage=8
+00:55.027 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_spider_SDR-5K chassisDef=chassisdef_spider_SDR-5K
+00:55.028 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=15.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.028 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:55.028 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_victor_VTR-9B chassisDef=chassisdef_victor_VTR-9B
+00:55.029 [DEBUG] MechEngineer freeTonnage=26.5 currentTotalTonnage=53.5 maxFreeTonnage=26.5 initialTonnageGain=29.5 initialGainSmaller=False
+00:55.029 [DEBUG] MechEngineer  maxEngine=emod_engine_320 Rating=320 freeTonnage=26.5
+00:55.029 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_trebuchet_TBT-5N chassisDef=chassisdef_trebuchet_TBT-5N
+00:55.030 [DEBUG] MechEngineer freeTonnage=15.5 currentTotalTonnage=34.5 maxFreeTonnage=15.5 initialTonnageGain=18.5 initialGainSmaller=False
+00:55.030 [DEBUG] MechEngineer  maxEngine=emod_engine_250 Rating=250 freeTonnage=15.5
+00:55.031 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_thunderbolt_TDR-5S chassisDef=chassisdef_thunderbolt_TDR-5S
+00:55.031 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:55.031 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:55.032 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_stalker_STK-3F chassisDef=chassisdef_stalker_STK-3F
+00:55.032 [DEBUG] MechEngineer freeTonnage=16 currentTotalTonnage=69 maxFreeTonnage=16 initialTonnageGain=19 initialGainSmaller=False
+00:55.032 [DEBUG] MechEngineer  maxEngine=emod_engine_255 Rating=255 freeTonnage=16
+00:55.033 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_shadowhawk_SHD-2H chassisDef=chassisdef_shadowhawk_SHD-2H
+00:55.033 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.034 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.034 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_shadowhawk_SHD-2D chassisDef=chassisdef_shadowhawk_SHD-2D
+00:55.034 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.035 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.035 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_quickdraw_QKD-5A chassisDef=chassisdef_quickdraw_QKD-5A
+00:55.036 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=38 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:55.036 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:55.037 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_banshee_BNC-3S chassisDef=chassisdef_banshee_BNC-3S
+00:55.037 [DEBUG] MechEngineer freeTonnage=19.5 currentTotalTonnage=75.5 maxFreeTonnage=19.5 initialTonnageGain=22.5 initialGainSmaller=False
+00:55.037 [DEBUG] MechEngineer  maxEngine=emod_engine_285 Rating=285 freeTonnage=19.5
+00:55.038 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_fp_morganKell_stalker_STK-3F chassisDef=chassisdef_stalker_STK-3F
+00:55.038 [DEBUG] MechEngineer set AssignedArmor=180 AssignedRearArmor=90 on location=CenterTorso
+00:55.038 [DEBUG] MechEngineer set AssignedArmor=120 AssignedRearArmor=60 on location=LeftTorso
+00:55.038 [DEBUG] MechEngineer set AssignedArmor=120 AssignedRearArmor=60 on location=RightTorso
+00:55.038 [DEBUG] MechEngineer freeTonnage=17.625 currentTotalTonnage=67.375 maxFreeTonnage=17.625 initialTonnageGain=19 initialGainSmaller=False
+00:55.039 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.625
+00:55.039 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_zeus_ZEU-6S chassisDef=chassisdef_zeus_ZEU-6S
+00:55.040 [DEBUG] MechEngineer freeTonnage=26.5 currentTotalTonnage=53.5 maxFreeTonnage=26.5 initialTonnageGain=29.5 initialGainSmaller=False
+00:55.040 [DEBUG] MechEngineer  maxEngine=emod_engine_320 Rating=320 freeTonnage=26.5
+00:55.040 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_wolverine_WVR-6K chassisDef=chassisdef_wolverine_WVR-6K
+00:55.041 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.041 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.042 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_vindicator_VND-1R chassisDef=chassisdef_vindicator_VND-1R
+00:55.042 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=36 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.042 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.043 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_victor_VTR-9S chassisDef=chassisdef_victor_VTR-9S
+00:55.043 [DEBUG] MechEngineer freeTonnage=26.5 currentTotalTonnage=53.5 maxFreeTonnage=26.5 initialTonnageGain=29.5 initialGainSmaller=False
+00:55.043 [DEBUG] MechEngineer  maxEngine=emod_engine_320 Rating=320 freeTonnage=26.5
+00:55.044 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_thunderbolt_TDR-5SS chassisDef=chassisdef_thunderbolt_TDR-5SS
+00:55.044 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:55.045 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:55.045 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_thunderbolt_TDR-5SE chassisDef=chassisdef_thunderbolt_TDR-5SE
+00:55.046 [DEBUG] MechEngineer freeTonnage=16.5 currentTotalTonnage=48.5 maxFreeTonnage=16.5 initialTonnageGain=19.5 initialGainSmaller=False
+00:55.046 [DEBUG] MechEngineer  maxEngine=emod_engine_260 Rating=260 freeTonnage=16.5
+00:55.046 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_warhammer_WHM-6D chassisDef=chassisdef_warhammer_WHM-6D
+00:55.047 [DEBUG] MechEngineer set AssignedArmor=150 AssignedRearArmor=70 on location=CenterTorso
+00:55.047 [DEBUG] MechEngineer set AssignedArmor=100 AssignedRearArmor=50 on location=LeftTorso
+00:55.047 [DEBUG] MechEngineer set AssignedArmor=100 AssignedRearArmor=50 on location=RightTorso
+00:55.047 [DEBUG] MechEngineer freeTonnage=19.4375 currentTotalTonnage=50.5625 maxFreeTonnage=19.4375 initialTonnageGain=22 initialGainSmaller=False
+00:55.047 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19.4375
+00:55.048 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_marauder_MAD-3R chassisDef=chassisdef_marauder_MAD-3R
+00:55.048 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=53 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:55.049 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:55.049 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_vindicator_VND-1AA chassisDef=chassisdef_vindicator_VND-1AA
+00:55.050 [DEBUG] MechEngineer freeTonnage=13 currentTotalTonnage=32 maxFreeTonnage=13 initialTonnageGain=16 initialGainSmaller=False
+00:55.050 [DEBUG] MechEngineer  maxEngine=emod_engine_225 Rating=225 freeTonnage=13
+00:55.051 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_urbanmech_UM-R60L chassisDef=chassisdef_urbanmech_UM-R60L
+00:55.051 [DEBUG] MechEngineer freeTonnage=2.5 currentTotalTonnage=27.5 maxFreeTonnage=2.5 initialTonnageGain=5.5 initialGainSmaller=False
+00:55.051 [DEBUG] MechEngineer  maxEngine=emod_engine_060 Rating=60 freeTonnage=2.5
+00:55.052 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_thunderbolt_TDR-5SE_fp_headhunting chassisDef=chassisdef_thunderbolt_TDR-5SE
+00:55.052 [DEBUG] MechEngineer set AssignedArmor=140 AssignedRearArmor=70 on location=CenterTorso
+00:55.052 [DEBUG] MechEngineer set AssignedArmor=100 AssignedRearArmor=50 on location=LeftTorso
+00:55.052 [DEBUG] MechEngineer set AssignedArmor=100 AssignedRearArmor=50 on location=RightTorso
+00:55.052 [DEBUG] MechEngineer freeTonnage=19.6875 currentTotalTonnage=45.3125 maxFreeTonnage=19.6875 initialTonnageGain=19.5 initialGainSmaller=True
+00:55.053 [DEBUG] MechEngineer  maxEngine=emod_engine_285 Rating=285 freeTonnage=19.6875
+00:55.053 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_wolverine_WVR-6R chassisDef=chassisdef_wolverine_WVR-6R
+00:55.054 [DEBUG] MechEngineer freeTonnage=18.5 currentTotalTonnage=36.5 maxFreeTonnage=18.5 initialTonnageGain=21.5 initialGainSmaller=False
+00:55.054 [DEBUG] MechEngineer  maxEngine=emod_engine_275 Rating=275 freeTonnage=18.5
+00:55.055 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_hatchetman_HCT-3F chassisDef=chassisdef_hatchetman_HCT-3F
+00:55.055 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=36 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.055 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.056 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_cyclops_CP-10-Q chassisDef=chassisdef_cyclops_CP-10-Q
+00:55.056 [DEBUG] MechEngineer freeTonnage=37 currentTotalTonnage=53 maxFreeTonnage=37 initialTonnageGain=40 initialGainSmaller=False
+00:55.056 [DEBUG] MechEngineer  maxEngine=emod_engine_360 Rating=360 freeTonnage=37
+00:55.057 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_crab_BSC-27_fp_gladiator chassisDef=chassisdef_crab__fp_gladiator_BSC-27
+00:55.057 [DEBUG] MechEngineer set AssignedArmor=110 AssignedRearArmor=50 on location=CenterTorso
+00:55.057 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=LeftTorso
+00:55.057 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=RightTorso
+00:55.058 [DEBUG] MechEngineer freeTonnage=17.725 currentTotalTonnage=32.275 maxFreeTonnage=17.725 initialTonnageGain=18.5 initialGainSmaller=False
+00:55.058 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.725
+00:55.059 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_marauder_MAD-CM chassisDef=chassisdef_marauder_MAD-CM
+00:55.059 [DEBUG] MechEngineer freeTonnage=22 currentTotalTonnage=53 maxFreeTonnage=22 initialTonnageGain=25 initialGainSmaller=False
+00:55.059 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22
+00:55.060 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_marauder_MAD-BH chassisDef=chassisdef_marauder_MAD-BH
+00:55.060 [DEBUG] MechEngineer set AssignedArmor=155 AssignedRearArmor=75 on location=CenterTorso
+00:55.061 [DEBUG] MechEngineer freeTonnage=22.0625 currentTotalTonnage=52.9375 maxFreeTonnage=22.0625 initialTonnageGain=25 initialGainSmaller=False
+00:55.061 [DEBUG] MechEngineer  maxEngine=emod_engine_300 Rating=300 freeTonnage=22.0625
+00:55.061 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_warhammer_WHM-6R chassisDef=chassisdef_warhammer_WHM-6R
+00:55.062 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.062 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.063 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_urbanmech_UM-R90 chassisDef=chassisdef_urbanmech_UM-R90
+00:55.063 [DEBUG] MechEngineer freeTonnage=4 currentTotalTonnage=26 maxFreeTonnage=4 initialTonnageGain=7 initialGainSmaller=False
+00:55.063 [DEBUG] MechEngineer  maxEngine=emod_engine_100 Rating=100 freeTonnage=4
+00:55.064 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_annihilator_ANH-1A chassisDef=chassisdef_annihilator_ANH-1A
+00:55.064 [DEBUG] MechEngineer freeTonnage=10.5 currentTotalTonnage=89.5 maxFreeTonnage=10.5 initialTonnageGain=13.5 initialGainSmaller=False
+00:55.065 [DEBUG] MechEngineer  maxEngine=emod_engine_200 Rating=200 freeTonnage=10.5
+00:55.065 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_raven_RVN-1X chassisDef=chassisdef_raven_RVN-1X
+00:55.066 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=26 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.066 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.066 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_javelin_JVN-10F chassisDef=chassisdef_javelin_JVN-10F
+00:55.067 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=21 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.067 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.068 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_hatchetman_HCT-3X chassisDef=chassisdef_hatchetman_HCT-3X
+00:55.068 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=36 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.068 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.069 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_cyclops_CP-10-Z chassisDef=chassisdef_cyclops_CP-10-Z
+00:55.069 [DEBUG] MechEngineer freeTonnage=37 currentTotalTonnage=53 maxFreeTonnage=37 initialTonnageGain=40 initialGainSmaller=False
+00:55.070 [DEBUG] MechEngineer  maxEngine=emod_engine_360 Rating=360 freeTonnage=37
+00:55.070 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_crab__fp_gladiator_BSC-27 chassisDef=chassisdef_crab__fp_gladiator_BSC-27
+00:55.070 [DEBUG] MechEngineer set AssignedArmor=110 AssignedRearArmor=50 on location=CenterTorso
+00:55.070 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=LeftTorso
+00:55.070 [DEBUG] MechEngineer set AssignedArmor=80 AssignedRearArmor=40 on location=RightTorso
+00:55.071 [DEBUG] MechEngineer freeTonnage=17.725 currentTotalTonnage=32.275 maxFreeTonnage=17.725 initialTonnageGain=18.5 initialGainSmaller=False
+00:55.071 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.725
+00:55.072 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_crab_CRB-27 chassisDef=chassisdef_crab_CRB-27
+00:55.072 [DEBUG] MechEngineer freeTonnage=15.5 currentTotalTonnage=34.5 maxFreeTonnage=15.5 initialTonnageGain=18.5 initialGainSmaller=False
+00:55.072 [DEBUG] MechEngineer  maxEngine=emod_engine_250 Rating=250 freeTonnage=15.5
+00:55.073 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_warhammer_WHM-BW chassisDef=chassisdef_warhammer_WHM-BW
+00:55.073 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.074 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.074 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_bullshark_BSK-M3 chassisDef=chassisdef_bullshark_BSK-M3
+00:55.074 [DEBUG] MechEngineer set AssignedArmor=200 AssignedRearArmor=100 on location=CenterTorso
+00:55.074 [DEBUG] MechEngineer set AssignedArmor=135 AssignedRearArmor=65 on location=LeftTorso
+00:55.074 [DEBUG] MechEngineer set AssignedArmor=135 AssignedRearArmor=65 on location=RightTorso
+00:55.075 [DEBUG] MechEngineer freeTonnage=7.1875 currentTotalTonnage=87.8125 maxFreeTonnage=7.1875 initialTonnageGain=10 initialGainSmaller=False
+00:55.075 [DEBUG] MechEngineer  maxEngine=emod_engine_145 Rating=145 freeTonnage=7.1875
+00:55.076 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_assassin_ASN-101 chassisDef=chassisdef_assassin_ASN-101
+00:55.076 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=21 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.076 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.077 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_archer_ARC-2R chassisDef=chassisdef_archer_ARC-2R
+00:55.077 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.077 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.078 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_annihilator_ANH-JH chassisDef=chassisdef_annihilator_ANH-JH
+00:55.078 [DEBUG] MechEngineer freeTonnage=12.5625 currentTotalTonnage=87.4375 maxFreeTonnage=12.5625 initialTonnageGain=13.5 initialGainSmaller=False
+00:55.079 [DEBUG] MechEngineer  maxEngine=emod_engine_215 Rating=215 freeTonnage=12.5625
+00:55.079 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_javelin_JVN-10N chassisDef=chassisdef_javelin_JVN-10N
+00:55.079 [DEBUG] MechEngineer freeTonnage=9 currentTotalTonnage=21 maxFreeTonnage=9 initialTonnageGain=12 initialGainSmaller=False
+00:55.080 [DEBUG] MechEngineer  maxEngine=emod_engine_180 Rating=180 freeTonnage=9
+00:55.080 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_rifleman_RFL-3C chassisDef=chassisdef_rifleman_RFL-3C
+00:55.081 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=45.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.081 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:55.081 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_phoenixhawk_PXH-1 chassisDef=chassisdef_phoenixhawk_PXH-1
+00:55.082 [DEBUG] MechEngineer freeTonnage=17.5 currentTotalTonnage=27.5 maxFreeTonnage=17.5 initialTonnageGain=20.5 initialGainSmaller=False
+00:55.082 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.5
+00:55.083 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_flea_FLE-15 chassisDef=chassisdef_flea_FLE-15
+00:55.083 [DEBUG] MechEngineer freeTonnage=6 currentTotalTonnage=14 maxFreeTonnage=6 initialTonnageGain=9 initialGainSmaller=False
+00:55.083 [DEBUG] MechEngineer  maxEngine=emod_engine_125 Rating=125 freeTonnage=6
+00:55.084 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_bullshark_BSK-MAZ chassisDef=chassisdef_bullshark_BSK-MAZ
+00:55.084 [DEBUG] MechEngineer freeTonnage=7 currentTotalTonnage=88 maxFreeTonnage=7 initialTonnageGain=10 initialGainSmaller=False
+00:55.084 [DEBUG] MechEngineer  maxEngine=emod_engine_145 Rating=145 freeTonnage=7
+00:55.085 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_assassin_ASN-21 chassisDef=chassisdef_assassin_ASN-21
+00:55.085 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=21 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.086 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.086 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_archer_ARC-XO chassisDef=chassisdef_archer_ARC-XO
+00:55.087 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.087 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.088 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_archer_ARC-LS chassisDef=chassisdef_archer_ARC-LS
+00:55.088 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.088 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.089 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_archer_ARC-2S chassisDef=chassisdef_archer_ARC-2S
+00:55.089 [DEBUG] MechEngineer freeTonnage=19 currentTotalTonnage=51 maxFreeTonnage=19 initialTonnageGain=22 initialGainSmaller=False
+00:55.089 [DEBUG] MechEngineer  maxEngine=emod_engine_280 Rating=280 freeTonnage=19
+00:55.090 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_vulcan_VL-5T chassisDef=chassisdef_vulcan_VL-5T
+00:55.090 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=25.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.091 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:55.092 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_rifleman_RFL-3N chassisDef=chassisdef_rifleman_RFL-3N
+00:55.092 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=45.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.092 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+00:55.093 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_phoenixhawk_PXH-1K chassisDef=chassisdef_phoenixhawk_PXH-1K
+00:55.093 [DEBUG] MechEngineer freeTonnage=17.5 currentTotalTonnage=27.5 maxFreeTonnage=17.5 initialTonnageGain=20.5 initialGainSmaller=False
+00:55.094 [DEBUG] MechEngineer  maxEngine=emod_engine_270 Rating=270 freeTonnage=17.5
+00:55.094 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_flea_FLE-4 chassisDef=chassisdef_flea_FLE-4
+00:55.094 [DEBUG] MechEngineer freeTonnage=6 currentTotalTonnage=14 maxFreeTonnage=6 initialTonnageGain=9 initialGainSmaller=False
+00:55.095 [DEBUG] MechEngineer  maxEngine=emod_engine_125 Rating=125 freeTonnage=6
+00:55.095 [LOG  ] MechEngineer Auto fixing mechDef=mechdef_rifleman_RFL-RIP chassisDef=chassisdef_rifleman_RFL-RIP
+00:55.096 [DEBUG] MechEngineer freeTonnage=14.5 currentTotalTonnage=45.5 maxFreeTonnage=14.5 initialTonnageGain=17.5 initialGainSmaller=False
+00:55.096 [DEBUG] MechEngineer  maxEngine=emod_engine_240 Rating=240 freeTonnage=14.5
+04:03.341 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.345 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.374 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at CenterTorso [[PrefabName=chrPrfWeap_centurion_centertorso_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_centurion_centertorso_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.374 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at LeftTorso [[PrefabName=chrPrfWeap_centurion_lefttorso_lrm10_mh1, MechComponentRef=Weapon_LRM_LRM10_0-STOCK]]
+04:03.375 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at RightArm [[PrefabName=chrPrfWeap_centurion_rightarm_ac10_bh1, MechComponentRef=Weapon_Autocannon_AC10_0-STOCK]]
+04:03.500 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at CenterTorso []
+04:03.500 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at LeftTorso []
+04:03.501 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at RightTorso []
+04:03.501 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at LeftArm []
+04:03.501 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at RightArm []
+04:03.501 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at Head []
+04:03.520 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.522 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.522 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at CenterTorso [[PrefabName=chrPrfWeap_centurion_centertorso_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_centurion_centertorso_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.522 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at LeftTorso [[PrefabName=chrPrfWeap_centurion_lefttorso_lrm10_mh1, MechComponentRef=Weapon_LRM_LRM10_0-STOCK]]
+04:03.522 [DEBUG] MechEngineer Mappings for chassis chassisdef_centurion_CN9-A at RightArm [[PrefabName=chrPrfWeap_centurion_rightarm_ac10_bh1, MechComponentRef=Weapon_Autocannon_AC10_0-STOCK]]
+04:03.569 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at CenterTorso []
+04:03.569 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at LeftTorso []
+04:03.569 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at RightTorso []
+04:03.570 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at LeftArm []
+04:03.570 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at RightArm []
+04:03.570 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_centurion_CN9-A at Head []
+04:03.577 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.578 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.579 [DEBUG] MechEngineer Mappings for chassis chassisdef_vulcan_VL-2T at LeftTorso [[PrefabName=chrPrfWeap_vulcan_lefttorso_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.580 [DEBUG] MechEngineer Mappings for chassis chassisdef_vulcan_VL-2T at RightTorso [[PrefabName=chrPrfWeap_vulcan_righttorso_ac2_bh1, MechComponentRef=Weapon_Autocannon_AC2_0-STOCK]]
+04:03.580 [DEBUG] MechEngineer Mappings for chassis chassisdef_vulcan_VL-2T at LeftArm [[PrefabName=chrPrfWeap_vulcan_leftarm_mg_bh1, MechComponentRef=Weapon_MachineGun_MachineGun_0-STOCK]]
+04:03.580 [DEBUG] MechEngineer Mappings for chassis chassisdef_vulcan_VL-2T at RightArm [[PrefabName=chrPrfWeap_vulcan_rightarm_flamer_eh1, MechComponentRef=Weapon_Flamer_Flamer_0-STOCK]]
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at CenterTorso []
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at LeftTorso []
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at RightTorso []
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at LeftArm []
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at RightArm []
+04:03.699 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_vulcan_VL-2T at Head []
+04:03.707 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.708 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.709 [DEBUG] MechEngineer Mappings for chassis chassisdef_commando_COM-1B at CenterTorso [[PrefabName=chrPrfWeap_commando_centertorso_srm2_mh1, MechComponentRef=Weapon_SRM_SRM2_0-STOCK]]
+04:03.709 [DEBUG] MechEngineer Mappings for chassis chassisdef_commando_COM-1B at LeftArm [[PrefabName=chrPrfWeap_commando_leftarm_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.709 [DEBUG] MechEngineer Mappings for chassis chassisdef_commando_COM-1B at RightArm [[PrefabName=chrPrfWeap_commando_rightarm_laser_eh1, MechComponentRef=Weapon_Laser_LargeLaser_0-STOCK]]
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at CenterTorso []
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at LeftTorso []
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at RightTorso []
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at LeftArm []
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at RightArm []
+04:03.759 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_commando_COM-1B at Head []
+04:03.776 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.777 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.778 [DEBUG] MechEngineer Mappings for chassis chassisdef_firestarter_FS9-H at CenterTorso [[PrefabName=chrPrfWeap_firestarter_centertorso_flamer_eh1, MechComponentRef=Weapon_Flamer_Flamer_0-STOCK], [PrefabName=chrPrfWeap_firestarter_centertorso_flamer_eh2, MechComponentRef=Weapon_Flamer_Flamer_0-STOCK]]
+04:03.778 [DEBUG] MechEngineer Mappings for chassis chassisdef_firestarter_FS9-H at LeftTorso [[PrefabName=chrPrfWeap_firestarter_lefttorso_mg_bh1, MechComponentRef=Weapon_MachineGun_MachineGun_0-STOCK]]
+04:03.778 [DEBUG] MechEngineer Mappings for chassis chassisdef_firestarter_FS9-H at RightTorso [[PrefabName=chrPrfWeap_firestarter_righttorso_mg_bh1, MechComponentRef=Weapon_MachineGun_MachineGun_0-STOCK]]
+04:03.778 [DEBUG] MechEngineer Mappings for chassis chassisdef_firestarter_FS9-H at LeftArm [[PrefabName=chrPrfWeap_firestarter_leftarm_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_firestarter_leftarm_flamer_eh2, MechComponentRef=Weapon_Flamer_Flamer_0-STOCK]]
+04:03.779 [DEBUG] MechEngineer Mappings for chassis chassisdef_firestarter_FS9-H at RightArm [[PrefabName=chrPrfWeap_firestarter_rightarm_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_firestarter_rightarm_flamer_eh2, MechComponentRef=Weapon_Flamer_Flamer_0-STOCK]]
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at CenterTorso []
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at LeftTorso []
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at RightTorso []
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at LeftArm []
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at RightArm []
+04:03.844 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_firestarter_FS9-H at Head []
+04:03.878 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with RightArm
+04:03.879 [DEBUG] MechEngineer Replacing location in StatusEffect-ArmLowerActuator-{location} with LeftArm
+04:03.880 [DEBUG] MechEngineer Mappings for chassis chassisdef_javelin_JVN-10F at LeftTorso [[PrefabName=chrPrfWeap_javelin_lefttorso_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_javelin_lefttorso_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.880 [DEBUG] MechEngineer Mappings for chassis chassisdef_javelin_JVN-10F at RightTorso [[PrefabName=chrPrfWeap_javelin_righttorso_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_javelin_righttorso_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.965 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at CenterTorso [chrPrfWeap_javelin_centertorso_blank_ah1]
+04:03.965 [DEBUG] MechEngineer GetComponentBlankNames blanks=[chrPrfWeap_javelin_centertorso_blank_ah1] location=CenterTorso
+04:03.967 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at LeftTorso []
+04:03.967 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at RightTorso []
+04:03.967 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at LeftArm []
+04:03.967 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at RightArm []
+04:03.967 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_javelin_JVN-10F at Head []
+04:03.975 [DEBUG] MechEngineer Mappings for chassis chassisdef_jenner_JR7-D at CenterTorso [[PrefabName=chrPrfWeap_jenner_centertorso_srm4_mh1, MechComponentRef=Weapon_SRM_SRM4_0-STOCK]]
+04:03.976 [DEBUG] MechEngineer Mappings for chassis chassisdef_jenner_JR7-D at LeftArm [[PrefabName=chrPrfWeap_jenner_leftarm_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_jenner_leftarm_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:03.976 [DEBUG] MechEngineer Mappings for chassis chassisdef_jenner_JR7-D at RightArm [[PrefabName=chrPrfWeap_jenner_rightarm_laser_eh1, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK], [PrefabName=chrPrfWeap_jenner_rightarm_laser_eh2, MechComponentRef=Weapon_Laser_MediumLaser_0-STOCK]]
+04:04.162 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at CenterTorso []
+04:04.162 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at LeftTorso []
+04:04.162 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at RightTorso []
+04:04.162 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at LeftArm []
+04:04.163 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at RightArm []
+04:04.163 [DEBUG] MechEngineer Blank mappings for chassis chassisdef_jenner_JR7-D at Head []
+07:09.979 [DEBUG] MechEngineer uid=2 (Id=emod_leg_hip Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:09.979 [DEBUG] MechEngineer damageLevel=Destroyed uid=2 (Id=emod_leg_hip Location=64)
+07:09.981 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegUpperActuatorDestroyed-LeftLeg_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:09.981 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegLowerActuatorDestroyed-LeftLeg_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:09.981 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegFootActuatorDestroyed-LeftLeg_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:09.983 [DEBUG] MechEngineer Replacing location in CriticalEffect-HipDestroyed-{location} with LeftLeg
+07:09.983 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-HipDestroyed-LeftLeg_e3e34fc2-c664-42ab-920b-6002c058ac55.0 statName=MoveMultiplier
+07:11.551 [DEBUG] MechEngineer uid=14 (Id=emod_leg_lower Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:11.551 [DEBUG] MechEngineer damageLevel=Destroyed uid=14 (Id=emod_leg_lower Location=64)
+07:26.197 [DEBUG] MechEngineer uid=4 (Id=emod_arm_part_shoulder Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:26.197 [DEBUG] MechEngineer damageLevel=Destroyed uid=4 (Id=emod_arm_part_shoulder Location=32)
+07:26.197 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmUpperActuatorDestroyed-RightArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:26.198 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmLowerActuatorDestroyed-RightArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:26.198 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmHandActuatorDestroyed-RightArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+07:26.199 [DEBUG] MechEngineer Replacing location in CriticalEffect-ShoulderDestroyed-{location} with RightArm
+07:26.199 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-ShoulderDestroyed-RightArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0 statName=RightArm.Accuracy
+07:26.199 [DEBUG] MechEngineer uid=10 (Id=emod_arm_part_upper Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:26.200 [DEBUG] MechEngineer damageLevel=Destroyed uid=10 (Id=emod_arm_part_upper Location=32)
+07:26.200 [DEBUG] MechEngineer uid=16 (Id=emod_arm_part_lower Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:26.200 [DEBUG] MechEngineer damageLevel=Destroyed uid=16 (Id=emod_arm_part_lower Location=32)
+07:26.203 [DEBUG] MechEngineer uid=22 (Id=emod_arm_part_hand Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+07:26.203 [DEBUG] MechEngineer damageLevel=Destroyed uid=22 (Id=emod_arm_part_hand Location=32)
+07:49.208 [DEBUG] MechEngineer uid=26 (Id=emod_engine_cooling Location=8) critsAdded=1 critsMax=3 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Penalized HasLinked=True
+07:49.208 [DEBUG] MechEngineer damageLevel=Penalized uid=26 (Id=emod_engine_cooling Location=8)
+07:49.208 [DEBUG] MechEngineer HasLinked scopeId=EngineCrits
+07:49.208 [DEBUG] MechEngineer damageLevel=Penalized uid=25 (Id=emod_engineslots_std_center Location=8)
+07:49.209 [DEBUG] MechEngineer damageLevel=Penalized uid=26 (Id=emod_engine_cooling Location=8)
+07:49.209 [DEBUG] MechEngineer damageLevel=Penalized uid=27 (Id=emod_engine_180 Location=8)
+07:49.209 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-EngineCrit1_e3e34fc2-c664-42ab-920b-6002c058ac55.0 statName=HeatSinkCapacity
+08:31.326 [DEBUG] MechEngineer uid=8 (Id=emod_leg_upper Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+08:31.326 [DEBUG] MechEngineer damageLevel=Destroyed uid=8 (Id=emod_leg_upper Location=64)
+08:31.328 [DEBUG] MechEngineer Replacing location in CriticalEffect-LegUpperActuatorDestroyed-{location} with LeftLeg
+08:31.328 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-LegUpperActuatorDestroyed-LeftLeg_ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 statName=MoveMultiplier
+10:09.449 [DEBUG] MechEngineer uid=4 (Id=emod_arm_part_shoulder Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:09.449 [DEBUG] MechEngineer damageLevel=Destroyed uid=4 (Id=emod_arm_part_shoulder Location=32)
+10:09.449 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmUpperActuatorDestroyed-RightArm_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:09.449 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmLowerActuatorDestroyed-RightArm_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:09.449 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmHandActuatorDestroyed-RightArm_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:09.451 [DEBUG] MechEngineer Replacing location in CriticalEffect-ShoulderDestroyed-{location} with RightArm
+10:09.451 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-ShoulderDestroyed-RightArm_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0 statName=RightArm.Accuracy
+10:09.451 [DEBUG] MechEngineer uid=10 (Id=emod_arm_part_upper Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:09.451 [DEBUG] MechEngineer damageLevel=Destroyed uid=10 (Id=emod_arm_part_upper Location=32)
+10:09.452 [DEBUG] MechEngineer uid=16 (Id=emod_arm_part_lower Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:09.452 [DEBUG] MechEngineer damageLevel=Destroyed uid=16 (Id=emod_arm_part_lower Location=32)
+10:10.942 [DEBUG] MechEngineer uid=3 (Id=emod_leg_hip Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:10.942 [DEBUG] MechEngineer damageLevel=Destroyed uid=3 (Id=emod_leg_hip Location=128)
+10:10.942 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegUpperActuatorDestroyed-RightLeg_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:10.942 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegLowerActuatorDestroyed-RightLeg_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:10.942 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegFootActuatorDestroyed-RightLeg_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0
+10:10.944 [DEBUG] MechEngineer Replacing location in CriticalEffect-HipDestroyed-{location} with RightLeg
+10:10.944 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-HipDestroyed-RightLeg_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0 statName=MoveMultiplier
+10:22.140 [DEBUG] MechEngineer uid=9 (Id=emod_leg_upper Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:22.141 [DEBUG] MechEngineer damageLevel=Destroyed uid=9 (Id=emod_leg_upper Location=128)
+10:22.141 [DEBUG] MechEngineer uid=15 (Id=emod_leg_lower Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:22.141 [DEBUG] MechEngineer damageLevel=Destroyed uid=15 (Id=emod_leg_lower Location=128)
+10:22.142 [DEBUG] MechEngineer uid=21 (Id=emod_leg_foot Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:22.142 [DEBUG] MechEngineer damageLevel=Destroyed uid=21 (Id=emod_leg_foot Location=128)
+10:23.501 [DEBUG] MechEngineer uid=19 (Id=Gear_Gyro_Generic_Standard Location=8) critsAdded=2 critsMax=2 critsPrev=0 critsNext=2 critsHit=4 slots=4 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+10:23.501 [DEBUG] MechEngineer damageLevel=Destroyed uid=19 (Id=Gear_Gyro_Generic_Standard Location=8)
+10:23.501 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-GyroDestroyed_9e2d0fed-3d92-42ee-92d0-2cc595709f2a.0_19 statName=UnsteadyThreshold
+10:23.502 [DEBUG] MechEngineer uid=23 (Id=emod_engineslots_std_center Location=8) critsAdded=3 critsMax=3 critsPrev=0 critsNext=3 critsHit=4 slots=4 slotsHitPrev=0 damageLevel=Destroyed HasLinked=True
+10:23.502 [DEBUG] MechEngineer damageLevel=Destroyed uid=23 (Id=emod_engineslots_std_center Location=8)
+10:23.502 [DEBUG] MechEngineer HasLinked scopeId=EngineCrits
+10:23.502 [DEBUG] MechEngineer damageLevel=Destroyed uid=24 (Id=emod_engine_cooling Location=8)
+10:23.502 [DEBUG] MechEngineer damageLevel=Destroyed uid=25 (Id=emod_engine_210 Location=8)
+11:01.840 [DEBUG] MechEngineer uid=8 (Id=emod_leg_upper Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:01.840 [DEBUG] MechEngineer damageLevel=Destroyed uid=8 (Id=emod_leg_upper Location=64)
+11:01.840 [DEBUG] MechEngineer uid=20 (Id=emod_leg_foot Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:01.840 [DEBUG] MechEngineer damageLevel=Destroyed uid=20 (Id=emod_leg_foot Location=64)
+11:03.201 [DEBUG] MechEngineer uid=5 (Id=emod_arm_part_shoulder Location=2) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:03.201 [DEBUG] MechEngineer damageLevel=Destroyed uid=5 (Id=emod_arm_part_shoulder Location=2)
+11:03.201 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmUpperActuatorDestroyed-LeftArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+11:03.201 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmLowerActuatorDestroyed-LeftArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+11:03.201 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmHandActuatorDestroyed-LeftArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+11:03.203 [DEBUG] MechEngineer Replacing location in CriticalEffect-ShoulderDestroyed-{location} with LeftArm
+11:03.203 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-ShoulderDestroyed-LeftArm_e3e34fc2-c664-42ab-920b-6002c058ac55.0 statName=LeftArm.Accuracy
+11:03.204 [DEBUG] MechEngineer uid=11 (Id=emod_arm_part_upper Location=2) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:03.204 [DEBUG] MechEngineer damageLevel=Destroyed uid=11 (Id=emod_arm_part_upper Location=2)
+11:03.205 [DEBUG] MechEngineer uid=17 (Id=emod_arm_part_lower Location=2) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:03.205 [DEBUG] MechEngineer damageLevel=Destroyed uid=17 (Id=emod_arm_part_lower Location=2)
+11:03.205 [DEBUG] MechEngineer uid=23 (Id=emod_arm_part_hand Location=2) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:03.205 [DEBUG] MechEngineer damageLevel=Destroyed uid=23 (Id=emod_arm_part_hand Location=2)
+11:18.832 [DEBUG] MechEngineer uid=10 (Id=emod_arm_part_upper Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:18.832 [DEBUG] MechEngineer damageLevel=Destroyed uid=10 (Id=emod_arm_part_upper Location=32)
+11:18.834 [DEBUG] MechEngineer Replacing location in CriticalEffect-ArmUpperActuatorDestroyed-{location} with RightArm
+11:18.834 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-ArmUpperActuatorDestroyed-RightArm_d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 statName=RightArm.Accuracy
+11:45.248 [DEBUG] MechEngineer uid=4 (Id=emod_arm_part_shoulder Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:45.249 [DEBUG] MechEngineer damageLevel=Destroyed uid=4 (Id=emod_arm_part_shoulder Location=32)
+11:45.249 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmUpperActuatorDestroyed-RightArm_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+11:45.249 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmLowerActuatorDestroyed-RightArm_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+11:45.249 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-ArmHandActuatorDestroyed-RightArm_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+11:45.250 [DEBUG] MechEngineer Replacing location in CriticalEffect-ShoulderDestroyed-{location} with RightArm
+11:45.250 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-ShoulderDestroyed-RightArm_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0 statName=RightArm.Accuracy
+11:45.251 [DEBUG] MechEngineer uid=10 (Id=emod_arm_part_upper Location=32) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+11:45.251 [DEBUG] MechEngineer damageLevel=Destroyed uid=10 (Id=emod_arm_part_upper Location=32)
+12:23.948 [DEBUG] MechEngineer uid=3 (Id=emod_leg_hip Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+12:23.948 [DEBUG] MechEngineer damageLevel=Destroyed uid=3 (Id=emod_leg_hip Location=128)
+12:23.948 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegUpperActuatorDestroyed-RightLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+12:23.948 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegLowerActuatorDestroyed-RightLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+12:23.949 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegFootActuatorDestroyed-RightLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+12:23.950 [DEBUG] MechEngineer Replacing location in CriticalEffect-HipDestroyed-{location} with RightLeg
+12:23.950 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-HipDestroyed-RightLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0 statName=MoveMultiplier
+12:23.950 [DEBUG] MechEngineer uid=9 (Id=emod_leg_upper Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+12:23.951 [DEBUG] MechEngineer damageLevel=Destroyed uid=9 (Id=emod_leg_upper Location=128)
+12:23.951 [DEBUG] MechEngineer uid=15 (Id=emod_leg_lower Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+12:23.951 [DEBUG] MechEngineer damageLevel=Destroyed uid=15 (Id=emod_leg_lower Location=128)
+12:23.951 [DEBUG] MechEngineer uid=19 (Id=emod_leg_foot Location=128) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+12:23.952 [DEBUG] MechEngineer damageLevel=Destroyed uid=19 (Id=emod_leg_foot Location=128)
+12:49.700 [DEBUG] MechEngineer uid=19 (Id=Gear_Gyro_Generic_Standard Location=8) critsAdded=2 critsMax=2 critsPrev=0 critsNext=2 critsHit=4 slots=4 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+12:49.700 [DEBUG] MechEngineer damageLevel=Destroyed uid=19 (Id=Gear_Gyro_Generic_Standard Location=8)
+12:49.700 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-GyroDestroyed_e3e34fc2-c664-42ab-920b-6002c058ac55.0_19 statName=UnsteadyThreshold
+12:49.701 [DEBUG] MechEngineer uid=25 (Id=emod_engineslots_std_center Location=8) critsAdded=2 critsMax=3 critsPrev=1 critsNext=3 critsHit=4 slots=4 slotsHitPrev=0 damageLevel=Destroyed HasLinked=True
+12:49.701 [DEBUG] MechEngineer damageLevel=Destroyed uid=25 (Id=emod_engineslots_std_center Location=8)
+12:49.701 [DEBUG] MechEngineer HasLinked scopeId=EngineCrits
+12:49.701 [DEBUG] MechEngineer damageLevel=Destroyed uid=26 (Id=emod_engine_cooling Location=8)
+12:49.701 [DEBUG] MechEngineer damageLevel=Destroyed uid=27 (Id=emod_engine_180 Location=8)
+12:49.702 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-EngineCrit1_e3e34fc2-c664-42ab-920b-6002c058ac55.0
+12:49.702 [DEBUG] MechEngineer Canceling statName=HeatSinkCapacity
+13:25.167 [DEBUG] MechEngineer uid=2 (Id=emod_leg_hip Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+13:25.168 [DEBUG] MechEngineer damageLevel=Destroyed uid=2 (Id=emod_leg_hip Location=64)
+13:25.168 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegUpperActuatorDestroyed-LeftLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+13:25.168 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegLowerActuatorDestroyed-LeftLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+13:25.168 [DEBUG] MechEngineer Canceling scopedId=MECriticalHitEffect_CriticalEffect-LegFootActuatorDestroyed-LeftLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0
+13:25.169 [DEBUG] MechEngineer Replacing location in CriticalEffect-HipDestroyed-{location} with LeftLeg
+13:25.170 [DEBUG] MechEngineer Creating scopedId=MECriticalHitEffect_CriticalEffect-HipDestroyed-LeftLeg_ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27.0 statName=MoveMultiplier
+13:25.170 [DEBUG] MechEngineer uid=8 (Id=emod_leg_upper Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+13:25.170 [DEBUG] MechEngineer damageLevel=Destroyed uid=8 (Id=emod_leg_upper Location=64)
+13:25.170 [DEBUG] MechEngineer uid=14 (Id=emod_leg_lower Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+13:25.171 [DEBUG] MechEngineer damageLevel=Destroyed uid=14 (Id=emod_leg_lower Location=64)
+13:25.171 [DEBUG] MechEngineer uid=18 (Id=emod_leg_foot Location=64) critsAdded=1 critsMax=1 critsPrev=0 critsNext=1 critsHit=1 slots=1 slotsHitPrev=0 damageLevel=Destroyed HasLinked=False
+13:25.171 [DEBUG] MechEngineer damageLevel=Destroyed uid=18 (Id=emod_leg_foot Location=64)

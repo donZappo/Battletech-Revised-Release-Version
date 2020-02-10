@@ -1,0 +1,58 @@
+{
+    "Name": "IRTweaks",
+    "Enabled": true,
+    "Version": "0.5.4",
+    "Description": "Miscellaneous Tweaks and Fixes",
+    "Author": "IceRaptor",
+    "Website": "https://github.com/IceRaptor/IRTweaks",
+    "Contact": "",
+    "DLL": "IRTweaks.dll",
+    "DependsOn" : [ "IRBTModUtils" ],
+    "Settings": {
+        "Debug" : true,
+        "Trace" : false,
+        "Fixes" : {
+            "BulkPurchasing" : "true",
+            "CombatLog" : "true",
+            "DisableCampaign" : "true",
+            "DisableCombatSaves" : "false",
+            "ExtendedStats" : "true",
+            "FlexibleSensorLock" : "true",
+            "MultiTargetStat" : "true",
+            "PreventHeadShots" : "false",
+            "RandomStartByDifficulty" : "false",
+            "ReduceSaveCompression" : "true",
+            "SkipDeleteSavePopup" : "true",
+            "SkirmishReset" : "true",
+            "SpawnProtection" : "true",
+            "StreamlinedMainMenu" : "true",
+            "WeaponTooltip" : "true",
+        },
+        "Abilities" : {
+            "MultiTargetId" : "AbilityDefG5"
+        },
+        "Combat" : {
+            "PilotAttributesMax" : 14,
+            "CalledShot" : {
+                "Modifier" : 9,
+                "PilotTags" : { 
+                    "pilot_drunk": -2,
+                    "pilot_reckless" : -1,
+                    "pilot_assassin" : 2
+                }
+            },
+            "SpawnProtection" : {
+                "ApplyGuard" : true,
+                "EvasionPips" : 6,
+                "ApplyToEnemies" : true,
+                "ApplyToAllies" : true,
+                "ApplyToNeutrals" : true,
+                "ApplyToReinforcements" : true
+            }
+        },
+        "Store" : {
+            "QuantityOnShift" : 5,
+            "QuantityOnControl" : 20
+        }
+    }
+}

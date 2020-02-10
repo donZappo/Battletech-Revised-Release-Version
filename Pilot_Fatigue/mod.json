@@ -1,0 +1,37 @@
+{
+    "Name": "Pilot Fatigue",
+    "Enabled": true,
+    "Version": "6.2",
+    "Description": "Adds Pilot Fatigue",
+    "Author": "don Zappo and gnivler",
+    "Website": "",
+    "Contact": "",
+	
+	"ConflictsWith": [ "No Time To Bleed" , "InjuriesHurt" ],
+
+    "DLL": "Pilot_Fatigue.dll",
+	
+	"Settings": {
+		"FatigueTimeStart" : 7,
+		"FatigueMinimum" : 1,
+		"MoralePositiveTierOne" : 5,
+		"MoralePostiveTierTwo" : 15,
+		"MoraleNegativeTierOne" : -5,
+		"MoraleNegativeTierTwo" : -15,
+		"FatigueFactor" : 2.5,
+		"InjuriesHurt" : false,
+		"pilot_athletic_FatigueDaysReduction" : 0,
+		"pilot_athletic_FatigueDaysReductionFactor" : 1.5,
+		"QuirksEnabled" : true,
+		"FatigueReducesResolve" : true,
+		"FatigueReducesSkills" : false,
+		"FatigueResolveFactor" : 2.5,
+		"FatigueCausesLowSpirits" : true,
+		"LowMoraleTime" : 14,
+		"LightInjuriesOn" : false,
+		"MaximumFatigueTime" : 14,
+		"AllowNegativeResolve" : false,
+		"pilot_wealthy_extra_fatigue" : 1,
+		"MechDamageMaxDays" : 5,
+	}
+}

@@ -1,0 +1,52 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_trainingModule2",
+        "Name" : "Training Module 2",
+        "Details" : "<b>• MechWarrior Retraining: Shift-Click on the Skills tab for a Pilot in the barracks to retrain that pilot.</b>\n\nAdding more Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. This increases the amount of experience gained by MechWarriors aboard the ship. Each MechWarrior with less than 20,000 total experience will gain 30 experience points per day. In addition, each MechWarrior is allowed to retrain once per career, refunding all of their XP.",
+        "Icon" : "uixSvgIcon_shipUpgrade_training2"
+    },
+    "Illustration" : "uixTxrSpot_TrainingModules",
+    "Location" : "SHIP",
+    "Category" : "TRAINING",
+    "AssignedCastDefId": "castDef_SumireDefault",
+    "AssignedCastDescription": "Farah just told me that the simulators in Beta Pod can network with the others. You know what that means? It means ship-wide tournaments. It means MechWarriors getting stomped in simulated battle by yours truly. I can even teach those old dogs new tricks and have them relearn everything from scratch. We <i>need</i> these simulators, Commander.",
+    "RequiredModules" : {
+        "items" : [
+			"argoUpgrade_trainingModule1",
+			"argoUpgrade_pod2"
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 15,
+    "PurchaseCost" : 900000,
+    "AdditionalCost" : 1000,
+    "Tags" : {
+        "items" : [
+            "argo_trainingModule2"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+		{
+			"typeString" : "System.Int32",
+			"name" : "ExperiencePerDay",
+			"value" : 30,
+			"set" : true,
+			"valueConstant" : ""
+		},
+		{
+			"typeString" : "System.Int32",
+			"name" : "ExperiencePerDayCap",
+			"value" : 20000,
+			"set" : true,
+			"valueConstant" : ""
+		}       
+    ]
+}

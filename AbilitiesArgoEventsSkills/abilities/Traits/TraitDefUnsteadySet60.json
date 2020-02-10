@@ -1,0 +1,44 @@
+{
+	"Description" : {
+		"Id" : "TraitDefUnsteadySet60",
+		"Name" : "Steadier 'Mech",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their UNSTEADY threshold increased to 70.",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+	"Type" : "UnsteadyThreshold",
+	"ShortDesc" : "+ 1 Unsteady Threshold",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefUnsteadySet60",
+				"Name" : "Steadier 'Mech",
+				"Details" : "UNSTEADY threshold increased to 70",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "UnsteadyThreshold",
+				"operation" : "Set",
+				"modValue" : "71.0",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+	]
+}

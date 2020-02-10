@@ -1,0 +1,13 @@
+{
+	"Description" : {
+		"Id" : "TraitDefMeleeHit6",
+		"Name" : "",
+		"Details" : "",
+		"Icon" : ""
+	},
+	"Type" : "MeleeHit",
+	"ShortDesc" : "+15% Melee Hit +12% Stab.",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" : []
+}

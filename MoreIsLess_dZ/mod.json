@@ -1,0 +1,19 @@
+{
+    "Name": "More is Less",
+    "Enabled": true,
+
+    "Version": "1.0",
+    "Description": "More XP your pilot has, less XP he will earn.",
+    "Author": "raok - modified by don Zappo",
+    "Contact": "",
+
+    "DLL": "MoreIsLess_dZ.dll",
+	
+	"Settings": {
+		"floatXPMulti" : 0.9,
+		"intPerXP" : 7500,
+		"XPMax" : 60000 ,
+		"XPCap" : true,
+		"AlwaysOn" : true,
+	}
+}
