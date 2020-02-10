@@ -180,7 +180,7 @@
 		
 		"StartingPirateActivity_ISM" : 5.0,
 		"BonusPirateResources_ISM" : 0.0,
-		"PirateSystemFlagValue_ISM" : 50.0,
+		"PirateSystemFlagValue_ISM" : 5.0,
 		"FractionPirateResources_ISM" : 1,
 		
 		"IncludedFactions_ISM": [
