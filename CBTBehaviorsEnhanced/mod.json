@@ -10,7 +10,7 @@
     "DependsOn" : [ "IRBTModUtils", "MechEngineer", "CustomComponents" ],
     "ConflictsWith" : [ "CharlesB" ],
     "Settings": {
-        "Debug" : true,
+        "Debug" : false,
         "Trace" : false,
 		"EnablePermanentEvasion" : false,
         "ToHitSelfJumped": 2,
@@ -24,17 +24,17 @@
             "SystemFailures" : { "108" : 0.3, "132" : 0.6 },
             "ShowLowOverheatAnim" : 42,
             "ShowExtremeOverheatAnim" : 90,
-            "ShutdownFallThreshold" : 0.75
+            "ShutdownFallThreshold" : 0
         },
         
         "Melee" : {
             "SkillMulti" : 0.05,
             "MadeChargeFallChance" : 0.60,
-            "MadeDFAFallChance" : 0.90,
-            "MissedKickFallChance" : 0.30,
-            "HitByChargeFallChance" : 0.60,
-            "HitByDFAFallChance" : 0.60,
-            "HitByKickFallChance" : 0.30,
+            "MadeDFAFallChance" : 0,
+            "MissedKickFallChance" : 0,
+            "HitByChargeFallChance" : 0,
+            "HitByDFAFallChance" : 0,
+            "HitByKickFallChance" : 0,
             "AllowMeleeFromSprint" : true,
         },
         
@@ -42,16 +42,16 @@
             "SkillMulti" : 0.05,
             "MinimumMove" : 40.0,
             "RunMulti" : 1.5,
-            "FallAfterRunChance" : 0.30,
-            "FallAfterJumpChance" : 0.30
+            "FallAfterRunChance" : 0,
+            "FallAfterJumpChance" : 0
         },
         
         "Piloting" : {
             "SkillMulti" : 0.05,
             "StabilityCheck" : 0.30,
-            "DFAReductionMulti" : 0.05,
+            "DFAReductionMulti" : 0.025,
             "ShowAllStabilityRolls" : false,
-            "StandAttemptFallChance" : 0.30,
+            "StandAttemptFallChance" : 0,
             "FallingDamagePerTenTons" : 5
         },
         
@@ -75,7 +75,6 @@
             "JUMP_AND_FALL" : "Jumped with Damage"
         },
         "Quips": [
-                "Oh .. shit!",
                 "FML",
                 "This is going to hurt..",
                 "This takes the cake",
