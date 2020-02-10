@@ -97,7 +97,7 @@
         "duration": 1,
         "ticksOnActivations": true,
         "useActivationsOfTarget": true,
-		"stackLimit": 4
+        "stackLimit": 4
       },
       "targetingData": {
         "effectTargetType": "SingleTarget",
@@ -119,7 +119,7 @@
         "modType": "System.Single"
       }
     },
-	"SensorLockAntiStealthEffect": {
+    "SensorLockAntiStealthEffect": {
       "durationData": {
         "duration": 1,
         "ticksOnEndOfRound": true,
@@ -127,7 +127,7 @@
       },
       "targetingData": {
         "effectTargetType": "SingleTarget",
-		"forceVisRebuild" : true,
+        "forceVisRebuild": true,
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
@@ -171,7 +171,7 @@
       },
       "nature": "Debuff"
     },
-	"FiredWeaponsAntiStealthEffect": {
+    "FiredWeaponsAntiStealthEffect": {
       "durationData": {
         "duration": 1,
         "ticksOnEndOfRound": true,
@@ -180,9 +180,9 @@
       "targetingData": {
         "effectTriggerType": "OnActivation",
         "effectTargetType": "SingleTarget",
-		"forceVisRebuild" : true,
-        "showInTargetPreview" : false,
-        "showInStatusPanel" : false
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
       "Description": {
@@ -201,8 +201,8 @@
     },
     "MaxShadowingDistance": 80.0,
     "NumShadowingSteps": -1,
-	"GhostStatePipThreshold" : 2,
-	"GhostStateHidesBlips": false
+    "GhostStatePipThreshold": 2,
+    "GhostStateHidesBlips": false
   },
   "ToHit": {
     "FiringArcDegrees": 60.0,
@@ -286,8 +286,8 @@
       8,
       9,
       10,
-  	  11,
-  	  12
+      11,
+      12
     ],
     "ToHitMovingTargetStrings": [
       "1 EVASIVE charge: +{0} Difficulty to hit this unit with ranged attacks.",
@@ -319,9 +319,9 @@
     "TacticsDivisor": 20,
     "TacticsModifierDivisor": 10,
     "ToHitOffensivePush": -2,
-	"StrayShotsEnabled":true,
-	"StrayShotsHitUnits":true,
-	"StrayShotValidTargets": 0
+    "StrayShotsEnabled": true,
+    "StrayShotsHitUnits": true,
+    "StrayShotValidTargets": 0
   },
   "ResolutionConstants": {
     "MeleePunchWeighting": 0.65,
@@ -446,7 +446,7 @@
     "ArmorMultiplierVehicle": 0.75,
     "StructureMultiplierVehicle": 0.75,
     "GlobalDamageMultiplier": 1.0,
-	"MortarBuildingDamageMultiplier": 3.0,
+    "MortarBuildingDamageMultiplier": 3.0,
     "TEST_MechScaleMultiplier": 1.25
   },
   "HitTables": {
@@ -938,12 +938,12 @@
         "modType": "System.Single"
       },
       "nature": "Buff"
-    },	
-	"InitiativeDelayEffect": {
+    },
+    "InitiativeDelayEffect": {
       "durationData": {
         "duration": 1,
-		"ticksOnActivations" : true,
-        "useActivationsOfTarget" : true,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
         "stackLimit": 1
       },
       "targetingData": {
@@ -958,10 +958,10 @@
         "Icon": "uixSvgIcon_mwInspired"
       },
       "statisticData": {
-        "statName" : "BaseInitiative",
-        "operation" : "Int_Add",
-        "modValue" : "1",
-        "modType" : "System.Int32"
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
       },
       "nature": "Debuff"
     }
@@ -1037,11 +1037,11 @@
       },
       "nature": "Buff"
     },
-	"InitiativeDelayEffect": {
+    "InitiativeDelayEffect": {
       "durationData": {
         "duration": 1,
-		"ticksOnActivations" : true,
-        "useActivationsOfTarget" : true,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
         "stackLimit": 1
       },
       "targetingData": {
@@ -1056,10 +1056,10 @@
         "Icon": "uixSvgIcon_mwInspired"
       },
       "statisticData": {
-        "statName" : "BaseInitiative",
-        "operation" : "Int_Add",
-        "modValue" : "1",
-        "modType" : "System.Int32"
+        "statName": "BaseInitiative",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
       },
       "nature": "Debuff"
     }
@@ -1076,14 +1076,14 @@
     "showFLoatiesForMisses": false,
     "showFloatiesForDodges": true,
     "showStateRemovals": false,
-	"ScreenShakeBuildingDestruction": [
+    "ScreenShakeBuildingDestruction": [
       600,
       250,
       500,
       750,
       1000
     ],
-	"ScreenShakeBuildingDestructionLength": 8,
+    "ScreenShakeBuildingDestructionLength": 8,
     "ScreenShakeRangedDamageRelativeMod": 2.0,
     "ScreenShakeRangedDamageAbsoluteMod": 0.0,
     "ScreenShakeMeleeDamageRelativeMod": 2.0,
@@ -1134,11 +1134,13 @@
     ],
     "MoveDescription": {
       "Name": "MOVE",
-      "Details": "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). May also use to initiate a Melee attack on nearby enemies."
+      "Details":
+        "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). May also use to initiate a Melee attack on nearby enemies."
     },
     "SprintDescription": {
       "Name": "SPRINT",
-      "Details": "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). Cannot Sprint if UNSTEADY, or if a leg is destroyed."
+      "Details":
+        "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). Cannot Sprint if UNSTEADY, or if a leg is destroyed."
     },
     "BackwardDescription": {
       "Name": "REVERSE",
@@ -1146,7 +1148,8 @@
     },
     "JumpDescription": {
       "Name": "JUMP",
-      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
+      "Details":
+        "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
     },
     "FireDescription": {
       "Name": "FIRE",
@@ -1154,47 +1157,51 @@
     },
     "MoraleBarDescription": {
       "Name": "Resolve",
-      "Details": "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%, your MechWarriors become Inspired, gaining a +1 bonus to Accuracy for all attacks."
+      "Details":
+        "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%, your MechWarriors become Inspired, gaining a +1 bonus to Accuracy for all attacks."
     },
     "FuryBarDescription": {
       "Name": "Fury",
-      "Details": "Your lance gains Fury as bad things happen to it.\nWhen the bar fills, you can use it to perform a Precision Strike with one MechWarrior."
+      "Details":
+        "Your lance gains Fury as bad things happen to it.\nWhen the bar fills, you can use it to perform a Precision Strike with one MechWarrior."
     },
     "MoraleAttackDescription": {
       "Name": "PRECISION STRIKE",
-      "Details": "Take a Called Shot against a single target at -2 Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
+      "Details":
+        "Take a Called Shot against a single target at -2 Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
     },
     "MoraleCostAttackDescription": {
-		"Name": "PRECISION STRIKE COST",
-		"Details": "Cost: 45 Resolve"
+      "Name": "PRECISION STRIKE COST",
+      "Details": "Cost: 45 Resolve"
     },
     "MoraleCostAttackDescriptionFury": {
       "Name": "PRECISION STRIKE COST FURY",
       "Details": "Cost: 100 Fury"
     },
     "MoraleCostAttackDescriptionLow": {
-		"Name": "PRECISION STRIKE COST LOW",
-		"Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
+      "Name": "PRECISION STRIKE COST LOW",
+      "Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
     },
     "MoraleCostAttackDescriptionHigh": {
-		"Name": "PRECISION STRIKE COST HIGH",
-		"Details": "Cost: <color=#85DBF6FF>30 Resolve (this MechWarrior has High Spirits)</color>"
+      "Name": "PRECISION STRIKE COST HIGH",
+      "Details": "Cost: <color=#85DBF6FF>30 Resolve (this MechWarrior has High Spirits)</color>"
     },
     "MoraleDefendDescription": {
       "Name": "VIGILANCE",
-      "Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. Your next Initiative is increased by 1 (to a maximum of 5).\n"
+      "Details":
+        "Gain GUARDED and ENTRENCHED and remove all stability damage. Your next Initiative is increased by 1 (to a maximum of 5).\n"
     },
     "MoraleCostDefendDescription": {
-		"Name": "VIGILANCE COST",
-		"Details": "Cost: 45 Resolve"
+      "Name": "VIGILANCE COST",
+      "Details": "Cost: 45 Resolve"
     },
     "MoraleCostDefendDescriptionLow": {
-		"Name": "VIGILANCE COST LOW",
-		"Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
+      "Name": "VIGILANCE COST LOW",
+      "Details": "Cost: <color=#F04228FF>60 Resolve (this MechWarrior has Low Spirits)</color>"
     },
     "MoraleCostDefendDescriptionHigh": {
-		"Name": "VIGILANCE COST HIGH",
-		"Details": "Cost: <color=#85DBF6FF>30 Resolve (this MechWarrior has High Spirits)</color>"
+      "Name": "VIGILANCE COST HIGH",
+      "Details": "Cost: <color=#85DBF6FF>30 Resolve (this MechWarrior has High Spirits)</color>"
     },
     "FireMultiDescription": {
       "Name": "MULTI-TARGET",
@@ -1202,11 +1209,13 @@
     },
     "DoneDescription": {
       "Name": "BRACE (END TURN)",
-      "Details": "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (20% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
+      "Details":
+        "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (20% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
     },
     "DoneDescriptionBulwark": {
       "Name": "BRACE (END TURN)",
-      "Details": "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (40% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
+      "Details":
+        "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (40% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
     },
     "DoneDescriptionNoBrace": {
       "Name": "END TURN",
@@ -1214,7 +1223,8 @@
     },
     "EjectDescription": {
       "Name": "EJECT",
-      "Details": "Eject your pilot. They will be saved from further injuries, but their 'Mech will be unusable for the rest of this mission, and its Head location will be destroyed."
+      "Details":
+        "Eject your pilot. They will be saved from further injuries, but their 'Mech will be unusable for the rest of this mission, and its Head location will be destroyed."
     },
     "BadFaithRetreatDesc": {
       "Name": "WITHDRAW (BAD FAITH)",
@@ -1236,7 +1246,8 @@
     },
     "PoorlyMaintained75Desc": {
       "Name": "RAMSHACKLE",
-      "Details": "This unit has been kept in such poor condition that it barely holds together. It carries only 25% of its normal armor.",
+      "Details":
+        "This unit has been kept in such poor condition that it barely holds together. It carries only 25% of its normal armor.",
       "Icon": "uixSvgIcon_maint_Level2"
     },
     "DangerousLocationDesc": {
@@ -1257,7 +1268,8 @@
     },
     "MovementStageTwoTutorialDesc": {
       "Name": "Movement",
-      "Details": "Move your mouse to the indicated point. Click once to select where you wish to move. Click again to choose which direction to face."
+      "Details":
+        "Move your mouse to the indicated point. Click once to select where you wish to move. Click again to choose which direction to face."
     },
     "FiringTutorialDesc": {
       "Name": "Firing",
@@ -1265,7 +1277,8 @@
     },
     "MeleeTutorialDesc": {
       "Name": "Melee Attack",
-      "Details": "Click the Melee targeting reticle on the enemy, or press V to cycle through Melee targets. Then, click the Attack button."
+      "Details":
+        "Click the Melee targeting reticle on the enemy, or press V to cycle through Melee targets. Then, click the Attack button."
     },
     "MoraleAttackTutorialDesc": {
       "Name": "unused-filled in by morale constants",
@@ -1277,19 +1290,23 @@
     },
     "NonInterleaveIntroTutorialDesc": {
       "Name": "Team Movement",
-      "Details": "Outside of combat, your entire lance moves in any order. You can even have multiple units moving at the same time."
+      "Details":
+        "Outside of combat, your entire lance moves in any order. You can even have multiple units moving at the same time."
     },
     "InterleaveIntroTutorialDesc": {
       "Name": "Combat Phases",
-      "Details": "Once combat has begun, different 'Mechs move in different Phases. Lighter units generally move earlier than heavier ones.\nTo Reserve all units' actions to a later Phase, use the Reserve button, or press the End key."
+      "Details":
+        "Once combat has begun, different 'Mechs move in different Phases. Lighter units generally move earlier than heavier ones.\nTo Reserve all units' actions to a later Phase, use the Reserve button, or press the End key."
     },
     "MoraleGeneralTutorialDesc": {
       "Name": "Resolve",
-      "Details": "Your lance's Resolve (the blue bar next to your pilots) increases in each round of combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
+      "Details":
+        "Your lance's Resolve (the blue bar next to your pilots) increases in each round of combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
     },
     "MoraleGeneralStageTwoTutorialDesc": {
       "Name": "Resolve",
-      "Details": "You can spend Resolve to use either of the Resolve abilities, {0} and {1}, located with the rest of the action buttons."
+      "Details":
+        "You can spend Resolve to use either of the Resolve abilities, {0} and {1}, located with the rest of the action buttons."
     },
     "CameraStageOneTutorialDesc": {
       "Name": "Camera Movement",
@@ -1301,7 +1318,8 @@
     },
     "EvasiveTutorialDesc": {
       "Name": "Evasion",
-      "Details": "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
+      "Details":
+        "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
     },
     "InjuryStringAmmoExplosion": "killed by an ammo explosion",
     "InjuryStringArtillery": "caught in a massive explosion",
@@ -1327,10 +1345,10 @@
     "InjuryStringSideTorsoGeneric": "lost in combat",
     "InjuryStringUnknown": "lost in a misadventure",
     "InjuryStringWeapon": "killed by an enemy {KILLEDBY_UNIT.Description.Name}",
-	"COIL_Footstep_Charge_Med" : 2.0,
-	"COIL_Footstep_Charge_Max" : 4.0,
-	"COIL_Projectile_Charge_Med" : 70.0,
-	"COIL_Projectile_Charge_Max" : 140.0
+    "COIL_Footstep_Charge_Med": 2.0,
+    "COIL_Footstep_Charge_Max": 4.0,
+    "COIL_Projectile_Charge_Med": 70.0,
+    "COIL_Projectile_Charge_Max": 140.0
   },
   "CameraConstants": {
     "MoveSpeed": 90.0,
@@ -1359,7 +1377,7 @@
     "RestorePlayerCamTime": 0.7,
     "MovementCamTime": 1.25,
     "ShowAttackCamTime": 3.0,
-	"DefaultBuildingHeight": 48.0,
+    "DefaultBuildingHeight": 48.0,
     "ShakyCamTime": 4.0,
     "ShakyCamOffset": 0.5,
     "ShakyMoveCamHeightMultiplier": 2.6,
@@ -1370,8 +1388,8 @@
     "FollowCamTime": 1.0,
     "FollowCamDelayTime": 1.0,
     "CutAngleTolerance": 45.0,
-	"GroundCamFallbackHeight": 20.0,
-	"UrbanGroundCamFallbackHeight": 80.0,
+    "GroundCamFallbackHeight": 20.0,
+    "UrbanGroundCamFallbackHeight": 80.0,
     "FramingSafeMultiplier": 1.5,
     "FramingZoomMultiplier": 0.015,
     "FrameRightMultiplier": 2.0,
@@ -1666,151 +1684,151 @@
       "name": "vfxPrfPrtl_coolantExplosion",
       "cacheCount": 1
     },
-	"active_probe_Effect": {
+    "active_probe_Effect": {
       "name": "vfxPrfPrtl_activeProbe_loop",
       "cacheCount": 1
     },
-	"urbanRubbleCivilianNames" : [
-		"UrbPrfBldn_Rubble_01_conc",
-		"UrbPrfBldn_Rubble_02_conc",
-		"UrbPrfBldn_Rubble_03_conc",
-		"UrbPrfBldn_Rubble_04_conc",
-		"UrbPrfBldn_Rubble_05_conc",
-		"UrbPrfBldn_Rubble_06_conc",
-		"UrbPrfBldn_Rubble_07_conc",
-		"UrbPrfBldn_Rubble_08_conc",
-		"UrbPrfBldn_Rubble_09_conc",
-		"UrbPrfBldn_Rubble_10_conc",
-		"UrbPrfBldn_Rubble_11_conc",
-		"UrbPrfBldn_Rubble_12_conc",
-		"UrbPrfBldn_Rubble_13_conc",
-		"UrbPrfBldn_Rubble_14_conc",
-		"UrbPrfBldn_Rubble_15_conc",
-		"UrbPrfBldn_Rubble_16_conc",
-		"UrbPrfBldn_Rubble_A_01",
-		"UrbPrfBldn_Rubble_A_02",
-		"UrbPrfBldn_Rubble_B_01",
-		"UrbPrfBldn_Rubble_B_02",
-		"UrbPrfBldn_Rubble_C_01",
-		"UrbPrfBldn_Rubble_C_02",
-		"UrbPrfBldn_Rubble_D_01",
-		"UrbPrfBldn_Rubble_D_02",
-		"UrbPrfBldn_Rubble_E_01",
-		"UrbPrfBldn_Rubble_E_02",
-		"UrbPrfBldn_Rubble_F_01",
-		"UrbPrfBldn_Rubble_F_02",
-		"UrbPrfBldn_Rubble_G_01",
-		"UrbPrfBldn_Rubble_Corp_01"
-	],
-	"urbanRubbleCorporateNames" : [
-		"UrbPrfBldn_Rubble_01_conc",
-		"UrbPrfBldn_Rubble_02_conc",
-		"UrbPrfBldn_Rubble_03_conc",
-		"UrbPrfBldn_Rubble_04_conc",
-		"UrbPrfBldn_Rubble_05_conc",
-		"UrbPrfBldn_Rubble_06_conc",
-		"UrbPrfBldn_Rubble_07_conc",
-		"UrbPrfBldn_Rubble_08_conc",
-		"UrbPrfBldn_Rubble_09_conc",
-		"UrbPrfBldn_Rubble_10_conc",
-		"UrbPrfBldn_Rubble_11_conc",
-		"UrbPrfBldn_Rubble_12_conc",
-		"UrbPrfBldn_Rubble_13_conc",
-		"UrbPrfBldn_Rubble_14_conc",
-		"UrbPrfBldn_Rubble_15_conc",
-		"UrbPrfBldn_Rubble_16_conc",
-		"UrbPrfBldn_Rubble_A_01",
-		"UrbPrfBldn_Rubble_A_02",
-		"UrbPrfBldn_Rubble_B_01",
-		"UrbPrfBldn_Rubble_B_02",
-		"UrbPrfBldn_Rubble_C_01",
-		"UrbPrfBldn_Rubble_C_02",
-		"UrbPrfBldn_Rubble_D_01",
-		"UrbPrfBldn_Rubble_D_02",
-		"UrbPrfBldn_Rubble_E_01",
-		"UrbPrfBldn_Rubble_E_02",
-		"UrbPrfBldn_Rubble_F_01",
-		"UrbPrfBldn_Rubble_F_02",
-		"UrbPrfBldn_Rubble_G_01",
-		"UrbPrfBldn_Rubble_Corp_01"
-	],
-	"urbanRubbleConstructionNames" : [
-		"UrbPrfBldn_Rubble_01_conc",
-		"UrbPrfBldn_Rubble_02_conc",
-		"UrbPrfBldn_Rubble_03_conc",
-		"UrbPrfBldn_Rubble_04_conc",
-		"UrbPrfBldn_Rubble_05_conc",
-		"UrbPrfBldn_Rubble_06_conc",
-		"UrbPrfBldn_Rubble_07_conc",
-		"UrbPrfBldn_Rubble_08_conc",
-		"UrbPrfBldn_Rubble_09_conc",
-		"UrbPrfBldn_Rubble_10_conc",
-		"UrbPrfBldn_Rubble_11_conc",
-		"UrbPrfBldn_Rubble_12_conc",
-		"UrbPrfBldn_Rubble_13_conc",
-		"UrbPrfBldn_Rubble_14_conc",
-		"UrbPrfBldn_Rubble_15_conc",
-		"UrbPrfBldn_Rubble_16_conc",
-		"UrbPrfBldn_Rubble_A_01",
-		"UrbPrfBldn_Rubble_A_02",
-		"UrbPrfBldn_Rubble_B_01",
-		"UrbPrfBldn_Rubble_B_02",
-		"UrbPrfBldn_Rubble_C_01",
-		"UrbPrfBldn_Rubble_C_02",
-		"UrbPrfBldn_Rubble_D_01",
-		"UrbPrfBldn_Rubble_D_02",
-		"UrbPrfBldn_Rubble_E_01",
-		"UrbPrfBldn_Rubble_E_02",
-		"UrbPrfBldn_Rubble_F_01",
-		"UrbPrfBldn_Rubble_F_02",
-		"UrbPrfBldn_Rubble_G_01",
-		"UrbPrfBldn_Rubble_Corp_01"
-	],
-	"urbanRubbleMilitaryNames" : [
-		"UrbPrfBldn_Rubble_01_conc",
-		"UrbPrfBldn_Rubble_02_conc",
-		"UrbPrfBldn_Rubble_03_conc",
-		"UrbPrfBldn_Rubble_04_conc",
-		"UrbPrfBldn_Rubble_05_conc",
-		"UrbPrfBldn_Rubble_06_conc",
-		"UrbPrfBldn_Rubble_07_conc",
-		"UrbPrfBldn_Rubble_08_conc",
-		"UrbPrfBldn_Rubble_09_conc",
-		"UrbPrfBldn_Rubble_10_conc",
-		"UrbPrfBldn_Rubble_11_conc",
-		"UrbPrfBldn_Rubble_12_conc",
-		"UrbPrfBldn_Rubble_13_conc",
-		"UrbPrfBldn_Rubble_14_conc",
-		"UrbPrfBldn_Rubble_15_conc",
-		"UrbPrfBldn_Rubble_16_conc",
-		"UrbPrfBldn_Rubble_A_01",
-		"UrbPrfBldn_Rubble_A_02",
-		"UrbPrfBldn_Rubble_B_01",
-		"UrbPrfBldn_Rubble_B_02",
-		"UrbPrfBldn_Rubble_C_01",
-		"UrbPrfBldn_Rubble_C_02",
-		"UrbPrfBldn_Rubble_D_01",
-		"UrbPrfBldn_Rubble_D_02",
-		"UrbPrfBldn_Rubble_E_01",
-		"UrbPrfBldn_Rubble_E_02",
-		"UrbPrfBldn_Rubble_F_01",
-		"UrbPrfBldn_Rubble_F_02",
-		"UrbPrfBldn_Rubble_G_01",
-		"UrbPrfBldn_Rubble_Corp_01"
-	],
-	"urbanRubbleGenericByBuildingSize" : [
-		"urbMdlBldn_Rubble_Medium",
-		"urbMdlBldn_Rubble_Small",
-		"urbMdlBldn_Rubble_Medium",
-		"urbMdlBldn_Rubble_Large",
-		"urbMdlBldn_Rubble_Mega",
-	]
-	"UrbanBuildingPropDestructionShockwaveSpeed": 50,
-	"UrbanBuildingPropDestructionRadiusScale": 1.5,
-	"UrbanUtilityPropDestructionStartingRadius": 10,
-	"UrbanUtilityPropDestructionTotalRadius": 60 ,
-	"UrbanBuildingPropDestructionDelay": 0.1 ,
-	"UrbanDestructionVFXPrecacheAmount": 10,
+    "urbanRubbleCivilianNames": [
+      "UrbPrfBldn_Rubble_01_conc",
+      "UrbPrfBldn_Rubble_02_conc",
+      "UrbPrfBldn_Rubble_03_conc",
+      "UrbPrfBldn_Rubble_04_conc",
+      "UrbPrfBldn_Rubble_05_conc",
+      "UrbPrfBldn_Rubble_06_conc",
+      "UrbPrfBldn_Rubble_07_conc",
+      "UrbPrfBldn_Rubble_08_conc",
+      "UrbPrfBldn_Rubble_09_conc",
+      "UrbPrfBldn_Rubble_10_conc",
+      "UrbPrfBldn_Rubble_11_conc",
+      "UrbPrfBldn_Rubble_12_conc",
+      "UrbPrfBldn_Rubble_13_conc",
+      "UrbPrfBldn_Rubble_14_conc",
+      "UrbPrfBldn_Rubble_15_conc",
+      "UrbPrfBldn_Rubble_16_conc",
+      "UrbPrfBldn_Rubble_A_01",
+      "UrbPrfBldn_Rubble_A_02",
+      "UrbPrfBldn_Rubble_B_01",
+      "UrbPrfBldn_Rubble_B_02",
+      "UrbPrfBldn_Rubble_C_01",
+      "UrbPrfBldn_Rubble_C_02",
+      "UrbPrfBldn_Rubble_D_01",
+      "UrbPrfBldn_Rubble_D_02",
+      "UrbPrfBldn_Rubble_E_01",
+      "UrbPrfBldn_Rubble_E_02",
+      "UrbPrfBldn_Rubble_F_01",
+      "UrbPrfBldn_Rubble_F_02",
+      "UrbPrfBldn_Rubble_G_01",
+      "UrbPrfBldn_Rubble_Corp_01"
+    ],
+    "urbanRubbleCorporateNames": [
+      "UrbPrfBldn_Rubble_01_conc",
+      "UrbPrfBldn_Rubble_02_conc",
+      "UrbPrfBldn_Rubble_03_conc",
+      "UrbPrfBldn_Rubble_04_conc",
+      "UrbPrfBldn_Rubble_05_conc",
+      "UrbPrfBldn_Rubble_06_conc",
+      "UrbPrfBldn_Rubble_07_conc",
+      "UrbPrfBldn_Rubble_08_conc",
+      "UrbPrfBldn_Rubble_09_conc",
+      "UrbPrfBldn_Rubble_10_conc",
+      "UrbPrfBldn_Rubble_11_conc",
+      "UrbPrfBldn_Rubble_12_conc",
+      "UrbPrfBldn_Rubble_13_conc",
+      "UrbPrfBldn_Rubble_14_conc",
+      "UrbPrfBldn_Rubble_15_conc",
+      "UrbPrfBldn_Rubble_16_conc",
+      "UrbPrfBldn_Rubble_A_01",
+      "UrbPrfBldn_Rubble_A_02",
+      "UrbPrfBldn_Rubble_B_01",
+      "UrbPrfBldn_Rubble_B_02",
+      "UrbPrfBldn_Rubble_C_01",
+      "UrbPrfBldn_Rubble_C_02",
+      "UrbPrfBldn_Rubble_D_01",
+      "UrbPrfBldn_Rubble_D_02",
+      "UrbPrfBldn_Rubble_E_01",
+      "UrbPrfBldn_Rubble_E_02",
+      "UrbPrfBldn_Rubble_F_01",
+      "UrbPrfBldn_Rubble_F_02",
+      "UrbPrfBldn_Rubble_G_01",
+      "UrbPrfBldn_Rubble_Corp_01"
+    ],
+    "urbanRubbleConstructionNames": [
+      "UrbPrfBldn_Rubble_01_conc",
+      "UrbPrfBldn_Rubble_02_conc",
+      "UrbPrfBldn_Rubble_03_conc",
+      "UrbPrfBldn_Rubble_04_conc",
+      "UrbPrfBldn_Rubble_05_conc",
+      "UrbPrfBldn_Rubble_06_conc",
+      "UrbPrfBldn_Rubble_07_conc",
+      "UrbPrfBldn_Rubble_08_conc",
+      "UrbPrfBldn_Rubble_09_conc",
+      "UrbPrfBldn_Rubble_10_conc",
+      "UrbPrfBldn_Rubble_11_conc",
+      "UrbPrfBldn_Rubble_12_conc",
+      "UrbPrfBldn_Rubble_13_conc",
+      "UrbPrfBldn_Rubble_14_conc",
+      "UrbPrfBldn_Rubble_15_conc",
+      "UrbPrfBldn_Rubble_16_conc",
+      "UrbPrfBldn_Rubble_A_01",
+      "UrbPrfBldn_Rubble_A_02",
+      "UrbPrfBldn_Rubble_B_01",
+      "UrbPrfBldn_Rubble_B_02",
+      "UrbPrfBldn_Rubble_C_01",
+      "UrbPrfBldn_Rubble_C_02",
+      "UrbPrfBldn_Rubble_D_01",
+      "UrbPrfBldn_Rubble_D_02",
+      "UrbPrfBldn_Rubble_E_01",
+      "UrbPrfBldn_Rubble_E_02",
+      "UrbPrfBldn_Rubble_F_01",
+      "UrbPrfBldn_Rubble_F_02",
+      "UrbPrfBldn_Rubble_G_01",
+      "UrbPrfBldn_Rubble_Corp_01"
+    ],
+    "urbanRubbleMilitaryNames": [
+      "UrbPrfBldn_Rubble_01_conc",
+      "UrbPrfBldn_Rubble_02_conc",
+      "UrbPrfBldn_Rubble_03_conc",
+      "UrbPrfBldn_Rubble_04_conc",
+      "UrbPrfBldn_Rubble_05_conc",
+      "UrbPrfBldn_Rubble_06_conc",
+      "UrbPrfBldn_Rubble_07_conc",
+      "UrbPrfBldn_Rubble_08_conc",
+      "UrbPrfBldn_Rubble_09_conc",
+      "UrbPrfBldn_Rubble_10_conc",
+      "UrbPrfBldn_Rubble_11_conc",
+      "UrbPrfBldn_Rubble_12_conc",
+      "UrbPrfBldn_Rubble_13_conc",
+      "UrbPrfBldn_Rubble_14_conc",
+      "UrbPrfBldn_Rubble_15_conc",
+      "UrbPrfBldn_Rubble_16_conc",
+      "UrbPrfBldn_Rubble_A_01",
+      "UrbPrfBldn_Rubble_A_02",
+      "UrbPrfBldn_Rubble_B_01",
+      "UrbPrfBldn_Rubble_B_02",
+      "UrbPrfBldn_Rubble_C_01",
+      "UrbPrfBldn_Rubble_C_02",
+      "UrbPrfBldn_Rubble_D_01",
+      "UrbPrfBldn_Rubble_D_02",
+      "UrbPrfBldn_Rubble_E_01",
+      "UrbPrfBldn_Rubble_E_02",
+      "UrbPrfBldn_Rubble_F_01",
+      "UrbPrfBldn_Rubble_F_02",
+      "UrbPrfBldn_Rubble_G_01",
+      "UrbPrfBldn_Rubble_Corp_01"
+    ],
+    "urbanRubbleGenericByBuildingSize": [
+      "urbMdlBldn_Rubble_Medium",
+      "urbMdlBldn_Rubble_Small",
+      "urbMdlBldn_Rubble_Medium",
+      "urbMdlBldn_Rubble_Large",
+      "urbMdlBldn_Rubble_Mega"
+    ],
+    "UrbanBuildingPropDestructionShockwaveSpeed": 50,
+    "UrbanBuildingPropDestructionRadiusScale": 1.5,
+    "UrbanUtilityPropDestructionStartingRadius": 10,
+    "UrbanUtilityPropDestructionTotalRadius": 60,
+    "UrbanBuildingPropDestructionDelay": 0.1,
+    "UrbanDestructionVFXPrecacheAmount": 10
   },
   "MoveConstants": {
     "MoveTable": [
@@ -1843,7 +1861,7 @@
     "JumpjetMinHeight": 40.0,
     "DFAMinHeight": 70.0,
     "DFAExecutionHeight": 25.0,
-    "DefaultFallRate" : -9.8,
+    "DefaultFallRate": -9.8,
     "ExperimentalFlag": true,
     "ExperimentalGridDistance": 24.0,
     "ExperimentalHexRadius": 4,
@@ -1871,23 +1889,103 @@
     "sniperMaxFrac": 0.75,
     "sniperTagMultiplier": 2.0
   },
-  "ScaledBuildingStructurePointsList" : [
-    {"Difficulty":  1, "SmallStructurePoints": 100, "MediumStructurePoints": 175, "LargeStructurePoints": 275, "SecondSmallStructurePoints": 50, "SecondMediumStructurePoints": 100, "SecondLargeStructurePoints": 150},
-    {"Difficulty":  2, "SmallStructurePoints": 100, "MediumStructurePoints": 175, "LargeStructurePoints": 275, "SecondSmallStructurePoints": 50, "SecondMediumStructurePoints": 100, "SecondLargeStructurePoints": 150},
-    {"Difficulty":  3, "SmallStructurePoints": 100, "MediumStructurePoints": 175, "LargeStructurePoints": 275, "SecondSmallStructurePoints": 50, "SecondMediumStructurePoints": 100, "SecondLargeStructurePoints": 150},
-    {"Difficulty":  4, "SmallStructurePoints": 125, "MediumStructurePoints": 200, "LargeStructurePoints": 325, "SecondSmallStructurePoints": 100, "SecondMediumStructurePoints": 150, "SecondLargeStructurePoints": 200},
-    {"Difficulty":  5, "SmallStructurePoints": 125, "MediumStructurePoints": 200, "LargeStructurePoints": 325, "SecondSmallStructurePoints": 100, "SecondMediumStructurePoints": 150, "SecondLargeStructurePoints": 200},
-    {"Difficulty":  6, "SmallStructurePoints": 125, "MediumStructurePoints": 200, "LargeStructurePoints": 325, "SecondSmallStructurePoints": 100, "SecondMediumStructurePoints": 150, "SecondLargeStructurePoints": 200},
-    {"Difficulty":  7, "SmallStructurePoints": 125, "MediumStructurePoints": 200, "LargeStructurePoints": 325, "SecondSmallStructurePoints": 100, "SecondMediumStructurePoints": 150, "SecondLargeStructurePoints": 200},
-    {"Difficulty":  8, "SmallStructurePoints": 150, "MediumStructurePoints": 325, "LargeStructurePoints": 400, "SecondSmallStructurePoints": 150, "SecondMediumStructurePoints": 200, "SecondLargeStructurePoints": 250},
-    {"Difficulty":  9, "SmallStructurePoints": 150, "MediumStructurePoints": 325, "LargeStructurePoints": 400, "SecondSmallStructurePoints": 150, "SecondMediumStructurePoints": 200, "SecondLargeStructurePoints": 250},
-    {"Difficulty": 10, "SmallStructurePoints": 150, "MediumStructurePoints": 325, "LargeStructurePoints": 400, "SecondSmallStructurePoints": 150, "SecondMediumStructurePoints": 200, "SecondLargeStructurePoints": 250}
-  ],  
+  "ScaledBuildingStructurePointsList": [
+    {
+      "Difficulty": 1,
+      "SmallStructurePoints": 100,
+      "MediumStructurePoints": 175,
+      "LargeStructurePoints": 275,
+      "SecondSmallStructurePoints": 50,
+      "SecondMediumStructurePoints": 100,
+      "SecondLargeStructurePoints": 150
+    },
+    {
+      "Difficulty": 2,
+      "SmallStructurePoints": 100,
+      "MediumStructurePoints": 175,
+      "LargeStructurePoints": 275,
+      "SecondSmallStructurePoints": 50,
+      "SecondMediumStructurePoints": 100,
+      "SecondLargeStructurePoints": 150
+    },
+    {
+      "Difficulty": 3,
+      "SmallStructurePoints": 100,
+      "MediumStructurePoints": 175,
+      "LargeStructurePoints": 275,
+      "SecondSmallStructurePoints": 50,
+      "SecondMediumStructurePoints": 100,
+      "SecondLargeStructurePoints": 150
+    },
+    {
+      "Difficulty": 4,
+      "SmallStructurePoints": 125,
+      "MediumStructurePoints": 200,
+      "LargeStructurePoints": 325,
+      "SecondSmallStructurePoints": 100,
+      "SecondMediumStructurePoints": 150,
+      "SecondLargeStructurePoints": 200
+    },
+    {
+      "Difficulty": 5,
+      "SmallStructurePoints": 125,
+      "MediumStructurePoints": 200,
+      "LargeStructurePoints": 325,
+      "SecondSmallStructurePoints": 100,
+      "SecondMediumStructurePoints": 150,
+      "SecondLargeStructurePoints": 200
+    },
+    {
+      "Difficulty": 6,
+      "SmallStructurePoints": 125,
+      "MediumStructurePoints": 200,
+      "LargeStructurePoints": 325,
+      "SecondSmallStructurePoints": 100,
+      "SecondMediumStructurePoints": 150,
+      "SecondLargeStructurePoints": 200
+    },
+    {
+      "Difficulty": 7,
+      "SmallStructurePoints": 125,
+      "MediumStructurePoints": 200,
+      "LargeStructurePoints": 325,
+      "SecondSmallStructurePoints": 100,
+      "SecondMediumStructurePoints": 150,
+      "SecondLargeStructurePoints": 200
+    },
+    {
+      "Difficulty": 8,
+      "SmallStructurePoints": 150,
+      "MediumStructurePoints": 325,
+      "LargeStructurePoints": 400,
+      "SecondSmallStructurePoints": 150,
+      "SecondMediumStructurePoints": 200,
+      "SecondLargeStructurePoints": 250
+    },
+    {
+      "Difficulty": 9,
+      "SmallStructurePoints": 150,
+      "MediumStructurePoints": 325,
+      "LargeStructurePoints": 400,
+      "SecondSmallStructurePoints": 150,
+      "SecondMediumStructurePoints": 200,
+      "SecondLargeStructurePoints": 250
+    },
+    {
+      "Difficulty": 10,
+      "SmallStructurePoints": 150,
+      "MediumStructurePoints": 325,
+      "LargeStructurePoints": 400,
+      "SecondSmallStructurePoints": 150,
+      "SecondMediumStructurePoints": 200,
+      "SecondLargeStructurePoints": 250
+    }
+  ],
   "RavenTutorialDialogID": "32cf9b93-a87d-4244-a9fe-ddaa9198f3d7",
   "CaptureEscortProximityDialogID": "e066d510-3c33-4caf-8c40-39f15c92936a",
   "Story2TutorialSlides1ID": "e37a6b6d-6a50-4e05-9ecc-ca9407489911",
   "Story2TutorialSlides2ID": "52a4d426-f166-484d-9c53-d56ca9095d7a",
   "Story2TutorialSlides3ID": "e2a4cd2e-638f-47d7-bdd5-1506637c1ae2",
   "Story2TutorialSlides4ID": "1f20029b-bcce-481c-ba50-fff26950b6a9"
-  
+
 }
