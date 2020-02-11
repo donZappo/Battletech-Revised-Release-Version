@@ -17,10 +17,9 @@
 	},
     "DataAddendumEntries": [ ],
 	"Manifest": [
-    { "Type": "AbilityDef", "Path": "abilities\\" }, 
+    { "Type": "ApplicationConstants", "Path": "ApplicationConstants" },
     { "Type": "AssetBundle", "Path": "assetbundles" },	
-		{ "Type": "DesignMaskDef", "Path": "designmask\\" },
-		{ "Type": "SoundBankDef", "Path": "soundBanks\\" },
-		{ "Type": "SVGAsset", "Path": "icons\\" },
+    { "Type": "SoundBankDef", "Path": "soundBanks\\" },
+    { "Type": "SVGAsset", "Path": "icons\\" },
   ]
 }

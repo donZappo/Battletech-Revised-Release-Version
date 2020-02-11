@@ -1,0 +1,159 @@
+{
+  "Name": "XLRP-Tech",
+  "Description": "Tech Mod for XLRP Complete",
+  "Author": "vengefire",
+  "Website": null,
+  "Contact": null,
+  "Version": "0.0.1",
+  "PackagedOn": null,
+  "BattleTechVersionMin": null,
+  "BattleTechVersionMax": null,
+  "BattleTechVersion": null,
+  "Enabled": true,
+  "Hidden": false,
+  "Locked": false,
+  "DependsOn": [
+    "XLRP-Core"
+  ],
+  "ConflictsWith": [],
+  "OptionallyDependsOn": [],
+  "IgnoreLoadFailure": false,
+  "DLL": null,
+  "DLLEntryPoint": null,
+  "EnableAssemblyVersionCheck": false,
+  "LoadImplicitManifest": true,
+  "CustomResourceTypes": [],
+  "DataAddendumEntries": [],
+  "Manifest": [
+    {
+      "Type": "UpgradeDef",
+      "Path": "Lootable/Internals"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Lootable/Actuators"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Lootable/Engines"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Upgrade"
+    },
+    {
+      "Type": "JumpJetDef",
+      "Path": "Jumpjets"
+    },
+    {
+      "Type": "JumpJetDef",
+      "Path": "MechJump"
+    },
+    {
+      "Type": "WeaponDef",
+      "Path": "VanillaWeapons"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Engines"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Armors"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/Other"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/Cockpit"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/FCS"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/FCS_Vanilla"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/Sensors"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Cockpit/LifeSupport"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Gyro"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Structure"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Actuators"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "TargetTrackingSystem"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Heatsink"
+    },
+    {
+      "Type": "JumpJetDef",
+      "Path": "Quirks/JumpJets"
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "x Quirks/Ammo/"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Quirks/Upgrade/"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Quirks/VanillaNoLoot/"
+    },
+    {
+      "Type": "WeaponDef",
+      "Path": "Quirks/Weapon/"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Quirks/Heatsink"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Basic/Internals"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Basic/ChassisDefaults"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Basic/EngineCores"
+    },
+    {
+      "Type": "HeatSinkDef",
+      "Path": "Basic/Engines"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Quirks/PositiveQuirks"
+    },
+    {
+      "Type": "UpgradeDef",
+      "Path": "Quirks/NegativeQuirks"
+    }
+  ],
+  "RemoveManifestEntries": [],
+  "Settings": {}
+}

@@ -22,47 +22,47 @@
 		},
 		{
 			"Type": "MEBonusDescriptions",
-			"Path": "data/basic/bonusDescriptions/",
+			"Path": "xdata/basic/bonusDescriptions/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "MECriticalEffects",
-			"Path": "data/basic/criticalEffects/",
+			"Path": "xdata/basic/criticalEffects/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "CCCategories",
-			"Path": "data/basic/categories/",
+			"Path": "xdata/basic/categories/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "CCTagRestrictions",
-			"Path": "data/basic/tagRestrictions/",
+			"Path": "xdata/basic/tagRestrictions/",
 			"ShouldMergeJSON": false
 		},
         {
             "Type": "CCDefaults",
-            "Path": "data/basic/defaults/",
+            "Path": "xdata/basic/defaults/",
             "ShouldMergeJSON": false
         },
 		{
 			"Type": "UpgradeDef",
-			"Path": "data/basic/internals/",
+			"Path": "xdata/basic/internals/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "data/basic/internalsCompatibility/",
+			"Path": "xdata/basic/internalsCompatibility/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "HeatSinkDef",
-			"Path": "data/basic/engines/",
+			"Path": "xdata/basic/engines/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "HeatSinkDef",
-			"Path": "data/basic/engine_parts/",
+			"Path": "xdata/basic/engine_parts/",
 			"ShouldMergeJSON": false
 		},
 		{
@@ -77,7 +77,7 @@
 		},		
 		{
 			"Type": "ItemCollectionDef",
-			"Path": "data/basic/itemCollections/",
+			"Path": "xdata/basic/itemCollections/",
 			"ShouldMergeJSON": false
 		},
 		{
