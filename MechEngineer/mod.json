@@ -17,7 +17,7 @@
 	"Manifest": [
 		{
 			"Type": "AdvancedJSONMerge",
-			"Path": "advancedjsonmerge",
+			"Path": "xadvancedjsonmerge",
 			"ShouldMergeJSON": false
 		},
 		{
@@ -67,12 +67,12 @@
 		},
 		{
 			"Type": "MechDef",
-			"Path": "data/basic/mech/",
+			"Path": "xdata/basic/mech/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "ChassisDef",
-			"Path": "data/basic/chassis/",
+			"Path": "xdata/basic/chassis/",
 			"ShouldMergeJSON": false
 		},		
 		{
