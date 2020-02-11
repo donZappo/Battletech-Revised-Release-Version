@@ -21,7 +21,9 @@
 				"StructureTPCost: -15%",
                 "StructureCBCost: -15%"
 			]
-		}
+		},
+		"MechConfiguration" : {
+                }
     },
     "Description": {
         "Cost": 0,

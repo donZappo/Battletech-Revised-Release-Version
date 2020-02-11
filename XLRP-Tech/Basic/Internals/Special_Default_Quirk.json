@@ -1,7 +1,7 @@
 {
     "Custom": {
         "Category": [{
-            "CategoryID": "PositiveQuirk"
+            "CategoryID": "Quirk"
         }],
         "BonusDescriptions": {
             "Bonuses": [
@@ -18,7 +18,7 @@
             ]
         },
         "InventorySorter": {
-            "SortKey": "0009"
+            "SortKey": "0008"
         },
 		"MechConfiguration" : {
                 }
@@ -35,7 +35,7 @@
         "UIName": "Fallback Quirk",
         "Id": "Special_Default_Quirk",
         "Name": "Advanced Optics",
-        "Details": "This is a Fallback Default Quirk that needs fixing.",
+        "Details": "This is a Fallback Default Quirk that needs fixing. Let's get shwinky.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "+1 Defense.",

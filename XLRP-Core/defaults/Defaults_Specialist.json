@@ -1,5 +1,5 @@
 {
 	"Settings" : [
-		{ "CategoryID": "PositiveQuirk", "Type": "Upgrade", "DefID": "Special_Default_Quirk", "Location": "CenterTorso", "AddIfNotPresent": true }
+		{ "CategoryID": "Quirk", "Type": "Upgrade", "DefID": "Special_Easy_To_Pilot", "Location": "CenterTorso" }
 	]
 }

@@ -21,10 +21,10 @@
             }
         },
         "Category": [
-            {
-                "CategoryID": "Armor"
-            }
-        ],
+        {
+            "CategoryID": "Armor"
+        }
+            ],
         "ArmorRepair": {
             "ArmorTPCost": 1.05,
             "ArmorCBCost": 1.1
@@ -32,7 +32,7 @@
         "Flags": {
             "flags": [
                 "not_broken"
-            ]
+                ]
         },
         "BonusDescriptions": {
             "Bonuses": [
@@ -40,11 +40,12 @@
                 "Reserved: 10",
                 "ArmorTPCost: 5%",
                 "ArmorCBCost: 10%"
-            ]
+                ]
         },
         "InventorySorter": {
             "SortKey": "00009"
-        }
+        },
+        "MechConfiguration": { }
     },
     "Description": {
         "Cost": 250000,
@@ -73,7 +74,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock"
-        ],
+            ],
         "tagSetSourceFile": ""
     }
 }

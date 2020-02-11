@@ -16,7 +16,7 @@
 			{ "Name": "ThermalVision", "displayName": "Thermal Vision", "MaxEquiped": "1", "AutoReplace": "false", "DefaultCustoms" : {"RGBColor" : { "Color" : "#e67300" }}},
 			{ "Name": "NightVision", "displayName": "NightVision", "MaxEquiped": "1", "AutoReplace": "false", "DefaultCustoms" : {"RGBColor" : { "Color" : "#e67300" }}},
 			
-			{ "Name": "PositiveQuirk", "displayName": "Quirk", "MaxEquiped": "1", "MinEquiped" : "1", "AutoReplace": "false", "ReplaceAnyLocation": "false", "DefaultCustoms" : {"RGBColor" : { "Color" : "#e67300" }}},
+			{ "Name": "PositiveQuirk", "displayName": "Quirk", "MaxEquiped": "1", "MinEquiped" : "0", "AutoReplace": "false", "ReplaceAnyLocation": "false", "DefaultCustoms" : {"RGBColor" : { "Color" : "#e67300" }}},
 			{ "Name": "NegativeQuirk", "displayName": "Negative Quirk", "MaxEquiped": "1", "AutoReplace": "false", "DefaultCustoms" : {"RGBColor" : { "Color" : "#e67300" }}}
 			
 			
