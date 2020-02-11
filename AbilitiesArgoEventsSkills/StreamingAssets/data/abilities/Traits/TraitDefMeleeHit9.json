@@ -6,7 +6,7 @@
 		"Icon" : ""
 	},
 	"Type" : "MeleeHit",
-	"ShortDesc" : "+22.5% Melee Hit +18% Stab.",
+	"ShortDesc" : "+18% Melee Hit +18% Stab.",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" : []

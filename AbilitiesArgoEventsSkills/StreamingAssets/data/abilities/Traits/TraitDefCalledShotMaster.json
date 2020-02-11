@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "TraitDefCalledShotMaster",
 		"Name" : "Called Shot Mastery",
-		"Details" : "PASSIVE: Called Shots taken by this MechWarrior are almost guaranteed to hit their location (max of 35% chance for head shots).",
+		"Details" : "PASSIVE: Called Shots taken by this MechWarrior are much more likely to hit their location.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "CalledShotBonus",
@@ -26,14 +26,14 @@
 			{
 				"Id" : "TraitDefCalledShotMaster",
 				"Name" : "Called Shot Mastery",
-				"Details" : "Called Shots nearly guaranteed",
+				"Details" : "Called Shots double plus good",
 				"Icon" : "uixSvgIcon_ability_mastertactician"
 			},
 			"statisticData" : 
 			{
 				"statName" : "CalledShotBonusMultiplier",
 				"operation" : "Float_Multiply",
-				"modValue" : "2.5",
+				"modValue" : "2.0",
 				"modType" : "System.Single"
 			}
 		}

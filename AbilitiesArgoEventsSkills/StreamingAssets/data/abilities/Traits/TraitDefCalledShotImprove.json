@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "TraitDefCalledShotImprove",
 		"Name" : "Improved Called Shot",
-		"Details" : "PASSIVE: Called Shots taken by this MechWarrior are twice as likely to hit the targeted location.",
+		"Details" : "PASSIVE: Called Shots taken by this MechWarrior will hit the targeted location more frequently.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "CalledShotBonus",
