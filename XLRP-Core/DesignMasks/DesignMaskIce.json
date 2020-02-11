@@ -1,0 +1,45 @@
+{
+    "Description": {
+        "Id": "DesignMaskIce",
+        "Name": "ICE",
+        "Details": "Ice reduces movement speed and increases stability damage taken by 20%, but it improves a unit's Heat-sinking ability by 50%.",
+        "Icon": "uixSvgIcon_designMask_ice"
+    },
+    "moveCostMechLight": 1.05,
+    "moveCostMechMedium": 1.2,
+    "moveCostMechHeavy": 1.35,
+    "moveCostMechAssault": 1.5,
+    "moveCostTrackedLight": 1.05,
+    "moveCostTrackedMedium": 1.2,
+    "moveCostTrackedHeavy": 1.35,
+    "moveCostTrackedAssault": 1.5,
+    "moveCostWheeledLight": 2.5,
+    "moveCostWheeledMedium": 2.5,
+    "moveCostWheeledHeavy": 2.5,
+    "moveCostWheeledAssault": 2.5,
+    "moveCostSprintMultiplier": 2.0,
+    "stabilityDamageMultiplier": 1.2,
+    "visibilityMultiplier": 1.0,
+    "visibilityHeight": 10.0,
+    "signatureMultiplier": 1.0,
+    "targetabilityModifier": 0.0,
+    "grantsGuarded": false,
+    "grantsEvasive": false,
+    "toHitFromModifier": 0.0,
+    "heatSinkMultiplier": 1.5,
+    "heatPerTurn": 0,
+    "legStructureDamageMin": 0,
+    "legStructureDamageMax": 0,
+    "canBurn": false,
+    "canExplode": false,
+    "audioSwitchSurfaceType": "ice",
+    "audioSwitchRainingSurfaceType": "ice",
+	"Custom":{
+		"CustomMoveCost":{
+			"Hover": {
+				"moveCost":0.8,
+				"SprintMultiplier":1
+			}
+		}
+	}
+}

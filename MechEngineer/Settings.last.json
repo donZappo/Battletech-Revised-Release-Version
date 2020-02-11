@@ -8,8 +8,8 @@
     "ArmActuator" : {
         "Enabled" : true,
         "EnabledDescription" : "Enables CBT arm actuators with CC like handling.",
-        "ForceFullDefaultActuators" : false,
-        "IgnoreFullActuatorsTag" : null,
+        "ForceFullDefaultActuators" : true,
+        "IgnoreFullActuatorsTag" : "OmniMech",
         "DefaultCBTShoulder" : "emod_arm_part_shoulder",
         "DefaultCBTLower" : "emod_arm_part_lower",
         "DefaultCBTUpper" : "emod_arm_part_upper",
@@ -24,7 +24,7 @@
         "EnabledDescription" : "Enables statistic effects for multiplying structure and armor values, happens before/after combat."
     },
     "ArmorStructureRatio" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "CBT rule enforcement, that armor at every mechs location is not more than 2 times the structure, head is allowed to be 3 times.",
         "SkipMechDefs" : [
             
@@ -47,7 +47,7 @@
         "MechDefAutoFixInitialTonnageDiffThreshold" : 0.4,
         "MechDefEngine" : true,
         "MechDefCoolingDef" : "emod_kit_shs",
-        "MechDefHeatBlockDef" : "emod_engine_cooling",
+        "MechDefHeatBlockDef" : "Gear_Engine_Heatsinks",
         "MechDefCoreDummy" : "emod_engine_dummy",
         "UpgradeDefSkip" : [
             
@@ -386,14 +386,14 @@
         "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
     },
     "CompressFloatieMessages" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4"
     },
     "CriticalEffects" : {
         "Enabled" : true,
         "EnabledDescription" : "Allows custom multiple critical hit states for individual components.",
         "DescriptionIdentifier" : "Criticals",
-        "DescriptionTemplate" : "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n",
+        "DescriptionTemplate" : "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
         "ElementTemplate" : " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n",
         "DescriptionUseName" : false,
         "CritFloatieMessage" : "{0} CRIT",
@@ -423,8 +423,8 @@
             "RightArm"
         ],
         "LocationPriorityOrderDescription" : "From highest to lowest priority where to add dynamic slots too, relevant if locations have same amount of free slots. Visual impact only.",
-        "ReservedSlotText" : "reserved slot",
-        "MovableSlotText" : "movable slot"
+        "ReservedSlotText" : "Reserved Slot",
+        "MovableSlotText" : "Movable Slot"
     },
     "Engine" : {
         "Enabled" : true,
@@ -447,7 +447,7 @@
         "DefaultEngineHeatSinkIdDescription" : "Default heat sink type for engines without a kit.",
         "EngineMissingFallbackHeatSinkCapacity" : 30,
         "EngineMissingFallbackHeatSinkCapacityDescription" : "Heat sink capacity if no engine is detected.",
-        "MovementPointDistanceMultiplier" : 24,
+        "MovementPointDistanceMultiplier" : 25,
         "MinimJumpHeat" : 9,
         "AutoConvertJumpCapacityInDefToStat" : true,
         "JumpJetDefaultJumpHeat" : 3,
@@ -482,11 +482,55 @@
                 "PrefabIdentifier" : "AC2",
                 "HardpointCandidates" : [
                     "ac2",
-                    "uac2",
-                    "rac2",
-                    "lbx2",
+                    "ac",
+                    "lbx",
+                    "ppc",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "AMS",
+                "HardpointCandidates" : [
+                    "ams",
+                    "laser",
+                    "mg",
+                    "machinegun",
+                    "flamer",
+                    "ac2",
+                    "ppc",
                     "ac",
                     "lbx"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "Flamer",
+                "HardpointCandidates" : [
+                    "flamer",
+                    "laser",
+                    "mg",
+                    "machinegun",
+                    "ac2",
+                    "ppc",
+                    "ac",
+                    "lbx",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "Laser",
+                "HardpointCandidates" : [
+                    "laser",
+                    "flamer",
+                    "mg",
+                    "machinegun",
+                    "ac2",
+                    "ppc",
+                    "ac",
+                    "lbx",
+                    "ams"
                 ]
             },
             {
@@ -494,58 +538,100 @@
                 "HardpointCandidates" : [
                     "ac5",
                     "uac5",
-                    "rac5",
-                    "lbx5",
                     "ac",
-                    "lbx"
+                    "lbx",
+                    "ppc",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
                 ]
             },
             {
                 "PrefabIdentifier" : "AC10",
                 "HardpointCandidates" : [
                     "ac10",
-                    "uac10",
                     "lbx10",
                     "ac",
-                    "lbx"
+                    "lbx",
+                    "ppc",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "PPC",
+                "HardpointCandidates" : [
+                    "ppc",
+                    "ac20",
+                    "ac",
+                    "lbx",
+                    "ac10",
+                    "lbx10",
+                    "laser",
+                    "flamer",
+                    "mg",
+                    "ams"
                 ]
             },
             {
                 "PrefabIdentifier" : "AC20",
                 "HardpointCandidates" : [
                     "ac20",
-                    "uac20",
                     "ac",
-                    "lbx"
+                    "lbx",
+                    "ppc",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
                 ]
             },
             {
-                "PrefabIdentifier" : "lbx10",
+                "PrefabIdentifier" : "RAC20",
                 "HardpointCandidates" : [
-                    "lbx10",
-                    "lbx20",
-                    "lbx5",
-                    "lbx2",
-                    "ac10",
-                    "ac",
-                    "lbx"
-                ]
-            },
-            {
-                "PrefabIdentifier" : "uac5",
-                "HardpointCandidates" : [
-                    "uac5",
-                    "uac20",
-                    "uac10",
-                    "uac2",
-                    "ac5",
+                    "rac20",
                     "ac20",
-                    "ac10",
-                    "ac2",
-                    "rac5",
-                    "lbx5",
+                    "uac",
                     "ac",
-                    "lbx"
+                    "lbx",
+                    "ppc",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "BFG",
+                "HardpointCandidates" : [
+                    "bfg",
+                    "artillery",
+                    "gauss",
+                    "ac20",
+                    "ac",
+                    "ppc",
+                    "lbx",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "Gauss",
+                "HardpointCandidates" : [
+                    "gauss",
+                    "ac20",
+                    "ac",
+                    "ppc",
+                    "lbx",
+                    "laser",
+                    "mg",
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -553,21 +639,15 @@
                 "HardpointCandidates" : [
                     "artillery",
                     "ac20",
-                    "uac20",
-                    "lbx20",
+                    "gauss",
                     "ac",
-                    "lbx"
-                ]
-            },
-            {
-                "PrefabIdentifier" : "mortar",
-                "HardpointCandidates" : [
-                    "mortar",
-                    "ac20",
-                    "uac20",
-                    "lbx20",
-                    "ac",
-                    "lbx"
+                    "lbx",
+                    "ppc",
+                    "ams",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser"
                 ]
             },
             {
@@ -577,7 +657,12 @@
                     "lrm10",
                     "lrm15",
                     "lrm20",
-                    "srm20"
+                    "srm20",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -588,7 +673,11 @@
                     "lrm20",
                     "srm20",
                     "lrm5",
-                    "rl10"
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -599,8 +688,27 @@
                     "srm20",
                     "lrm10",
                     "lrm5",
-                    "rl20",
-                    "rl15"
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "arrow",
+                "HardpointCandidates" : [
+                    "arrow",
+                    "lrm5",
+                    "lrm20",
+                    "srm20",
+                    "lrm15",
+                    "lrm10",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -611,9 +719,11 @@
                     "lrm15",
                     "lrm10",
                     "lrm5",
-                    "rl20",
-                    "rl15",
-                    "rl10"
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -621,8 +731,9 @@
                 "HardpointCandidates" : [
                     "machinegun",
                     "mg",
-                    "lmg",
-                    "hmg"
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -630,7 +741,12 @@
                 "HardpointCandidates" : [
                     "srm2",
                     "srm4",
-                    "srm6"
+                    "srm6",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -638,7 +754,12 @@
                 "HardpointCandidates" : [
                     "srm4",
                     "srm6",
-                    "srm2"
+                    "srm2",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -646,25 +767,12 @@
                 "HardpointCandidates" : [
                     "srm6",
                     "srm4",
-                    "srm2"
-                ]
-            },
-            {
-                "PrefabIdentifier" : "PPC",
-                "HardpointCandidates" : [
-                    "PPC",
-                    "ppc",
-                    "hppc",
-                    "lppc",
-                    "snppc"
-                ]
-            },
-            {
-                "PrefabIdentifier" : "Gauss",
-                "HardpointCandidates" : [
-                    "gauss",
-                    "hgauss",
-                    "lgauss"
+                    "srm2",
+                    "machinegun",
+                    "mg",
+                    "flamer",
+                    "laser",
+                    "ams"
                 ]
             }
         ]
@@ -682,7 +790,7 @@
         "EnabledDescription" : "Makes the mech lab adhere to any custom mech slot counts.",
         "MechLabArmTopPadding" : 120,
         "MechLabGeneralSlots" : 3,
-        "MechLabGeneralWidgetLabel" : "General"
+        "MechLabGeneralWidgetLabel" : "Specialist"
     },
     "MoveMultiplierStat" : {
         "Enabled" : true,
@@ -715,16 +823,14 @@
         "Enabled" : true,
         "EnabledDescription" : "Allows other features to override tooltips and descriptions, also provides bonus description management.",
         "DescriptionIdentifier" : "Bonuses",
-        "BonusDescriptionsDescriptionTemplate" : "Traits:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n",
+        "BonusDescriptionsDescriptionTemplate" : "Traits:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
         "BonusDescriptionsElementTemplate" : " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n"
     },
     "OverrideGhostVFX" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Allows to turn off or reduce the strong and weak ghost effects of ECM, and allows to remove the ECM globe effect.",
         "Blacklisted" : [
-            "vfxPrfPrtl_ECM_loop",
-            "vfxPrfPrtl_ECM_opponent_loop",
-            "vfxPrfPrtl_ECMcarrierAura_loop"
+            
         ],
         "BlipWeak" : "Weak",
         "BlipStrong" : "Weak"
@@ -736,13 +842,13 @@
         "PrecisionEpsilonDescription" : "The maximum tonnage two values can be apart to be viewed as being the same, vanilla uses 100 grams.",
         "MechLabMechInfoWidgetDecimalPlaces" : 3,
         "MechLabMechInfoWidgetDecimalPlacesDescription" : "How many digits to show after the comma in the mech lab.",
-        "TonnageStandardPrecision" : 0.5,
+        "TonnageStandardPrecision" : 0.01,
         "TonnageStandardPrecisionDescription" : "Set to 0.001 for kg fractional accounting on BattleMechs, only modifies half-ton rounding operations as by rule",
         "KilogramStandardPrecision" : 0.001,
         "KilogramStandardPrecisionDescription" : "Used for Small Support Vehicles, ProtoMechs and battlesuits.",
-        "ArmorRoundingPrecision" : null,
+        "ArmorRoundingPrecision" : 0.001,
         "ArmorRoundingPrecisionDescription" : "If not set, default is ARMOR_PER_STEP * TONNAGE_PER_ARMOR_POINT",
-        "UnderweightWarningThreshold" : 1,
+        "UnderweightWarningThreshold" : 0.1,
         "UnderweightWarningThresholdDescription" : "How many tons a mech has to be underweight to show a warning"
     },
     "ShutdownInjuryProtection" : {
@@ -760,22 +866,22 @@
         "EnabledDescription" : "Turrets can now use components and benefit from their status effects."
     },
     "TagManager" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Manipulates MechDef and ComponentDef Tags",
         "LostechStockWeaponVariantFix" : true,
         "LostechStockWeaponVariantDescription" : "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
         "SkirmishWhitelistTags" : [
-            "component_type_stock"
+            
         ],
         "SkirmishWhitelistTagsDescription" : "Components with these tags will appear in the skirmish mechlab, blacklisted tagged items never appear.",
         "WhitelistComponentTags" : [
-            "component_type_stock",
-            "component_type_variant",
-            "component_type_lostech"
+            
         ],
         "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
         "BlacklistComponentTags" : [
-            
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_lostech"
         ],
         "BlacklistComponentTagsDescription" : "Blacklists components with specified tags, has precedence over whitelisting.",
         "WhitelistMechTags" : [
@@ -799,8 +905,8 @@
     "DebugScreenshotMechs" : {
         "Enabled" : false,
         "EnabledDescription" : "Edit a mech then cancel, it then will go through all mechs and make screenshots for them. To improve loading times use the TagManager to blacklist all components so the MechLab doesn't have to load them.",
-        "ScreenshotDirectoryPath" : "screenshots",
-        "OnlyInvalidMechs" : false,
+        "ScreenshotDirectoryPath" : "Screenshots",
+        "OnlyInvalidMechs" : true,
         "ScreenshotDirectoryPathDescription" : "Create the directory manually first, otherwise it won't save any of the images.",
         "OnlyInvalidMechsDescription" : "Only make screenshots of mechs with invalid configurations."
     }
