@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay3",
         "Name" : "Mech Bay 3",
-        "Details" : "<b>• A third 'Mech can be repaired simultaneously at 33% efficiency</b> \nWith the <i>Argo</i>'s power systems fully online, and enough reinforcement to keep the active Bays from damaging the ship's spine, the final six 'Mech cubicles can be powered up and put to work.",
+        "Details" : "<b>• A third 'Mech can be repaired simultaneously at 33% efficiency</b> \n\nWith the <i>Argo</i>'s power systems fully online, and enough reinforcement to keep the active Bays from damaging the ship's spine, the final six 'Mech cubicles can be powered up and put to work.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay3"
     },
     "Illustration" : "uixTxrSpot_MechBay",
