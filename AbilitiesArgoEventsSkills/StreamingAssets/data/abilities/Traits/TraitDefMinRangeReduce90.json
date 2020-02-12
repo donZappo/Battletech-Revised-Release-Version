@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "MinimumRange",
-	"ShortDesc" : "- 4 Minimum Range Penalty",
+	"ShortDesc" : "-4 Minimum Range Penalty",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

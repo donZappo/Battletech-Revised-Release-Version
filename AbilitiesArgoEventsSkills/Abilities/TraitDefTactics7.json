@@ -1,0 +1,13 @@
+{
+	"Description": {
+		"Id": "TraitDefTactics7",
+		"Name": "",
+		"Details": "",
+		"Icon": ""
+	},
+	"Type": "TacticsEffects",
+	"ShortDesc": "+175m Spot Distance\nNo move malus\n+1 Resolve per turn",
+	"DisplayParams": "ShowInPilotToolTip",
+	"ActivationTime": "Passive",
+	"EffectData": []
+}

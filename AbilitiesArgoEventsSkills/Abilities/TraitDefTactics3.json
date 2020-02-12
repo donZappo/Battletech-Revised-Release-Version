@@ -1,0 +1,13 @@
+{
+	"Description": {
+		"Id": "TraitDefTactics3",
+		"Name": "",
+		"Details": "",
+		"Icon": ""
+	},
+	"Type": "TacticsEffects",
+	"ShortDesc": "+75m Spot Distance",
+	"DisplayParams": "ShowInPilotToolTip",
+	"ActivationTime": "Passive",
+	"EffectData": []
+}

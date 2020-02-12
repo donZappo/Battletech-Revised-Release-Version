@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefT8A",
 		"Name" : "MASTER TACTICIAN",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain +1 Initiative, and remove one bar of stability damage when Reserving.",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain +1 Initiative, and remove one bar of stability damage when Reserving. Sensor Lock is now a free action.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
     "DisplayParams" : "ShowInMWTRay",

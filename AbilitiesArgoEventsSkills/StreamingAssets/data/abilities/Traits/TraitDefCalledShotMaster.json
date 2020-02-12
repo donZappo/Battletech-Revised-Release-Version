@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "CalledShotBonus",
-	"ShortDesc" : "Called Shot Mastery\nNo Penalty for Moving/Jumping",
+	"ShortDesc" : "Called Shot Mastery",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

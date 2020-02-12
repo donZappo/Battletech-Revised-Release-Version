@@ -2,11 +2,11 @@
 	"Description" : {
 		"Id" : "TraitDefIndirectReduceThree",
 		"Name" : "Improved Indirect Fire",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their indirect fire penalties reduced by 1 and receive a +2 morale bonus per round in combat.",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their indirect fire penalties reduced by 1.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "IndirectBonus",
-	"ShortDesc" : "-3  Indirect Fire Penalty\n+2 Morale Per Turn",
+	"ShortDesc" : "-3 Indirect Fire Penalty",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

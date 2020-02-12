@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefP8",
 		"Name" : "ACE PILOT",
-		"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior can move after shooting if it has not moved yet.",
+		"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior can move after shooting if it has not moved yet. Increased chance to keep evasivion pips.",
 		"Icon" : "uixSvgIcon_run_n_gun"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -26,7 +26,7 @@
 			{
 				"Id" : "AbilityDefP8",
 				"Name" : "ACE PILOT",
-				"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior can move after shooting if it has not moved yet.",
+				"Details" : "PASSIVE: A 'Mech piloted by this MechWarrior can move after shooting if it has not moved yet. Increased chance to keep evasivion pips.",
 				"Icon" : "uixSvgIcon_run_n_gun"
 			},
 			"statisticData" : 

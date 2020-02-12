@@ -2,11 +2,11 @@
 	"Description" : {
 		"Id" : "TraitDefOverheatAddFifteen",
 		"Name" : "Increased Overheat Level",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior can gain 10 more points of heat before Overheating.",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior can gain 15 more points of heat before Overheating.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "OverheatThreshold",
-	"ShortDesc" : "+ 15 Overheat Threshold",
+	"ShortDesc" : "+15 Overheat Threshold",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

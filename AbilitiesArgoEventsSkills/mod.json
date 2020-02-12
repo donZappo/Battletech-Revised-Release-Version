@@ -8,5 +8,9 @@
     "Website": "https://forum.paradoxplaza.com/forum/index.php?threads/modpack-dz_consolidated_company_commander.1099514/",
     "Contact": "",
 
-    "DLL": "AbilitiesAndSkillsOverhaul.dll"
+    "DLL": "AbilitiesAndSkillsOverhaul.dll",
+	
+	"Manifest": [
+		{ "Type": "AbilityDef", "Path": "Abilities", "ShouldMergeJSON": false }
+   ]
 }

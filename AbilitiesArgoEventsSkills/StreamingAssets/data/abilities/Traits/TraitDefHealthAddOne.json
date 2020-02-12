@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "MaxHealth",
-	"ShortDesc" : "+ 1 Health",
+	"ShortDesc" : "+1 Health, -1 Day Fatigue",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

@@ -6,7 +6,7 @@
 		"Icon" : ""
 	},
 	"Type" : "MeleeHit",
-	"ShortDesc" : "+16% Melee Hit +16% Stab.",
+	"ShortDesc" : "+16% Melee Hit +16% Stab.\n40% Keep Evas. Pip\n20% DFA Dam. Red.",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" : []

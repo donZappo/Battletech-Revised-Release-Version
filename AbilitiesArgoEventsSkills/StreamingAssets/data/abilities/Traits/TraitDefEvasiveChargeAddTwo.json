@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
 	"Type" : "EvasionCap",
-	"ShortDesc" : "+ 3 Hit Defense\n+ 6 Melee Defense",
+	"ShortDesc" : "+3/+6 Hit/Melee Defense",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

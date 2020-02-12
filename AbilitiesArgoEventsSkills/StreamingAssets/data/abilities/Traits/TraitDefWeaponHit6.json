@@ -6,7 +6,7 @@
 		"Icon" : ""
 	},
 	"Type" : "WeaponHit",
-	"ShortDesc" : "+12% Base Weapon Hit\n-1 Refire Penalty",
+	"ShortDesc" : "+12% Base Weapon Hit\n-30% Jam Chance",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" : []

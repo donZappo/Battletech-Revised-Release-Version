@@ -6,7 +6,7 @@
 		"Icon" : "uixSvgIcon_action_evasivemove"
 	},
 	"Type" : "UnsteadyThreshold",
-	"ShortDesc" : "+ 1 Unsteady Threshold",
+	"ShortDesc" : "+1 Unsteady Threshold",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :

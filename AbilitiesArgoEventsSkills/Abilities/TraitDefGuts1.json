@@ -1,0 +1,13 @@
+{
+	"Description": {
+		"Id": "TraitDefGuts1",
+		"Name": "",
+		"Details": "",
+		"Icon": ""
+	},
+	"Type": "GutsEffects",
+	"ShortDesc": "-5% Death Chance\n+10% base injury resist\n-3% panic eject\n-5% Light injury chance",
+	"DisplayParams": "ShowInPilotToolTip",
+	"ActivationTime": "Passive",
+	"EffectData": []
+}
