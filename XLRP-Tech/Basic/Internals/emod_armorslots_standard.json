@@ -20,9 +20,10 @@
             ]
         },
         "InventorySorter": {
-            "xSortKey": "0009"
-            "SortKey": "00201"
-        }
+            "SortKey": "0009"
+        },
+		"MechConfiguration" : {
+                }
     },
     "Description": {
         "Cost": 0,

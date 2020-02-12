@@ -64,7 +64,7 @@
         },
         "GyroSlotChange" : {
             "From" : 3,
-            "By" : 1,
+            "By" : 0,
             "FromIsMin" : false,
             "NewMin" : null
         },
@@ -147,7 +147,7 @@
                 "Location" : "Head",
                 "Change" : {
                     "From" : 1,
-                    "By" : 5,
+                    "By" : 3,
                     "FromIsMin" : false,
                     "NewMin" : null
                 }
@@ -790,7 +790,7 @@
         "EnabledDescription" : "Makes the mech lab adhere to any custom mech slot counts.",
         "MechLabArmTopPadding" : 120,
         "MechLabGeneralSlots" : 3,
-        "MechLabGeneralWidgetLabel" : "Specialist"
+        "MechLabGeneralWidgetLabel" : "General"
     },
     "MoveMultiplierStat" : {
         "Enabled" : true,
