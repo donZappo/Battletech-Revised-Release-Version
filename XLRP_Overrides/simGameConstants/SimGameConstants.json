@@ -533,20 +533,24 @@
         "AbilityDefG5"
       ],
       [
-        "TraitDefWeaponHit6"
+        "TraitDefWeaponHit6",
+        "TraitDefRefireReduceOne"
       ],
       [
-        "TraitDefWeaponHit7"
+        "TraitDefWeaponHit7",
+        "TraitDefCalledShotImprove"
       ],
       [
         "TraitDefWeaponHit8",
         "AbilityDefG8"
       ],
       [
-        "TraitDefWeaponHit9"
+        "TraitDefWeaponHit9",
+        "TraitDefRefireReduceTwo"
       ],
       [
-        "TraitDefWeaponHit10"
+        "TraitDefWeaponHit10",
+        "TraitDefCalledShotMaster"
       ]
     ],
     "PilotingSkills": [
@@ -561,7 +565,8 @@
       ],
       [
         "TraitDefMeleeHit4",
-        "TraitDefUnsteadySet60"
+        "TraitDefUnsteadySet60",
+		"TraitDefSprintIncrease10"
       ],
       [
         "TraitDefMeleeHit5",
@@ -598,7 +603,6 @@
       [
       ],
       [
-        "TraitDefRefireReduceOne",
         "AbilityDefGu5"
       ],
       [
@@ -608,7 +612,6 @@
       [
       ],
       [
-        "TraitDefRefireReduceTwo",
         "AbilityDefGu8"
       ],
       [
@@ -633,7 +636,6 @@
         "AbilityDefT5A"
       ],
       [
-        "TraitDefCalledShotImprove"
       ],
       [
         "TraitDefIndirectReduceTwo"
@@ -643,7 +645,6 @@
         "AbilityDefT8A"
       ],
       [
-        "TraitDefCalledShotMaster"
       ],
       [
         "TraitDefIndirectReduceThree"

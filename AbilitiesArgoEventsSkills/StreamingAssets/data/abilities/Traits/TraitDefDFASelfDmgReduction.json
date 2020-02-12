@@ -1,0 +1,40 @@
+{
+	"Description" : {
+		"Id" : "TraitDefDFASelfDmgReduction",
+		"Name" : "Safer DFA",
+		"Details" : "PASSIVE: When performing a 'Death from Above,' this unit takes 25% less damage to its legs.",
+		"Icon" : "uixSvgIcon_ability_mastertactician"
+	},
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefDFASelfDmgReduction",
+				"Name" : "Safer DFA",
+				"Details" : "When performing a 'Death from Above,' this unit takes 25% less damage to its legs",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "DFASelfDamage",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+	]
+}
