@@ -2,7 +2,7 @@
     "Name": "More is Less",
     "Enabled": true,
 
-    "Version": "1.0",
+    "Version": "1.1",
     "Description": "More XP your pilot has, less XP he will earn.",
     "Author": "raok - modified by don Zappo",
     "Contact": "",
@@ -15,5 +15,11 @@
 		"XPMax" : 60000 ,
 		"XPCap" : true,
 		"AlwaysOn" : true,
+		
+		"PanicEjections" : false,
+		"XP_MechKill" : 0,
+		"XP_VehicleKill" : 0,
+		"XP_MechEjection" : 0,
+		"XP_VehicleEjection" : 0,
 	}
 }
