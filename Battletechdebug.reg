@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Harebrained Schemes\BATTLETECH]
+"last_debug_state_h176629417"=dword:00000001

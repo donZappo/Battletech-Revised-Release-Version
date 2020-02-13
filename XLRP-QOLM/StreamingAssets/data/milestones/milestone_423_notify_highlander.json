@@ -1,0 +1,82 @@
+{
+    "Description" : {
+        "Id" : "milestone_423_notify_highlander",
+        "Name" : "sim",
+        "Details" : "pause notification",
+        "Icon" : "",
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : false
+    },
+    "Scope" : "Company",
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "NextStoryMilestone",
+                    "op" : "Equal",
+                    "val" : 423,
+                    "valueConstant" : null
+                }
+            ]
+        }
+    ],
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {},
+            "RemovedTags" : {},
+            "Stats" : [
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 1,
+                    "valueConstant" : ""
+                }
+            ],
+            "Actions" : [			
+                {
+                    "Type" : "System_PauseNotification",
+                    "value" : "In thanks for your help on Artru, I offer you these Star League-era mechs. [[DM.MechDefs[mechdef_blackknight_BL-6b-KNT],{DM.MechDefs[mechdef_blackknight_BL-6b-KNT].Description.Name}]],[[DM.MechDefs[mechdef_griffin_GRF-2N],{DM.MechDefs[mechdef_griffin_GRF-2N].Description.Name}]],[[DM.MechDefs[mechdef_highlander_HGN-732b],{DM.MechDefs[mechdef_highlander_HGN-732b].Description.Name}]], {COMMANDER.Callsign}. May they carry you to victory in the days to come.",
+					"additionalValues" : [
+						"Highlander HGN-732b",
+						"castDef_KameaDefault"
+					],
+                    "valueConstant" : null
+                },
+				{
+					"Type" : "Mech_AddRoster",
+					"value" : "mechdef_blackknight_BL-6b-KNT",
+					"valueConstant" : null,
+					"additionalValues" : null
+				},
+				{
+					"Type" : "Mech_AddRoster",
+					"value" : "mechdef_griffin_GRF-2N",
+					"valueConstant" : null,
+					"additionalValues" : null
+				},
+				{
+					"Type" : "Mech_AddRoster",
+					"value" : "mechdef_highlander_HGN-732b",
+					"valueConstant" : null,
+					"additionalValues" : null
+				}				
+            ],
+            "ForceEvents" : null,
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ],
+    "Repeatable" : false
+}

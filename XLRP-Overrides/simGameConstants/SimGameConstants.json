@@ -573,7 +573,7 @@
       ],
       [
         "TraitDefMeleeHit6",
-		"TraitDefSprintIncrease10"
+        "TraitDefSprintIncrease10"
       ],
       [
         "TraitDefMeleeHit7",
@@ -595,80 +595,80 @@
     ],
     "GutsSkills": [
       [
-		"TraitDefGuts1"
+        "TraitDefGuts1"
       ],
       [
-		"TraitDefGuts2"
+        "TraitDefGuts2"
       ],
       [
-		"TraitDefGuts3"
+        "TraitDefGuts3"
       ],
       [
-		"TraitDefGuts4"
+        "TraitDefGuts4"
       ],
       [
-		"TraitDefGuts5",
+        "TraitDefGuts5",
         "AbilityDefGu5"
       ],
       [
-		"TraitDefGuts6",
+        "TraitDefGuts6",
         "TraitDefHealthAddOne"
       ],
       [
-		"TraitDefGuts7",
+        "TraitDefGuts7",
         "TraitDefOverheatAddFifteen"
       ],
       [
-		"TraitDefGuts8",
+        "TraitDefGuts8",
         "TraitDefHealthAddTwo",
         "AbilityDefGu8"
       ],
       [
-		"TraitDefGuts9",
+        "TraitDefGuts9",
         "TraitDefOverheatAddThirty"
       ],
       [
-		"TraitDefGuts10",
+        "TraitDefGuts10",
         "TraitDefHealthAddThree"
       ]
     ],
     "TacticsSkills": [
       [
-		"TraitDefTactics1"
+        "TraitDefTactics1"
       ],
       [
-		"TraitDefTactics2"
+        "TraitDefTactics2"
       ],
       [
-		"TraitDefTactics3",
+        "TraitDefTactics3",
         "TraitDefIndirectReduceOne"
       ],
       [
-		"TraitDefTactics4",
+        "TraitDefTactics4",
         "TraitDefIndirectReduceTwo"
       ],
       [
-		"TraitDefTactics5"
+        "TraitDefTactics5",
         "TraitDefMinRangeReduce45",
         "AbilityDefT5A"
       ],
       [
-		"TraitDefTactics6"
+        "TraitDefTactics6"
       ],
       [
-		"TraitDefTactics7",
+        "TraitDefTactics7",
         "TraitDefIndirectReduceThree"
       ],
       [
-		"TraitDefTactics8",
+        "TraitDefTactics8",
         "AbilityDefT8A"
       ],
       [
-		"TraitDefTactics9",
+        "TraitDefTactics9",
         "TraitDefMinRangeReduce90",
       ],
       [
-		"TraitDefTactics10"
+        "TraitDefTactics10"
       ]
     ],
     "SkillOrder": [

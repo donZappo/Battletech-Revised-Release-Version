@@ -1,0 +1,225 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_ferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    }
+  ],
+  "Description": {
+    "Cost": 2300000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Valkyrie",
+    "Id": "chassisdef_valkyrie_VLK-QD",
+    "Name": "Valkyrie",
+    "Details": "The QD Valkyrie is a major overhaul of the design debuting in 3049. The chassis has been re-engineered to use Endo Steel construction and the armor has been upgraded to Ferro-Fibrous with CASE. This allowed the variant to update the laser to a Medium Pulse Laser and add an Artemis IV fire control system to the LRM-10.",
+    "Icon": "uixTxrIcon_valkyrie"
+  },
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_valkyrie",
+  "PrefabIdentifier": "chrprfmech_valkyriehotd-001",
+  "PrefabBase": "valkyrie",
+  "Tonnage": 30.0,
+  "InitialTonnage": 3.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 3907000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 40,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 11.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.5,
+      "y": 10.0,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.0,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 11.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.5,
+      "y": 10.0,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.0,
+      "z": -0.5
+    },
+    {
+      "x": -2.0,
+      "y": 4.0,
+      "z": 0.5
+    },
+    {
+      "x": 2.0,
+      "y": 4.0,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "VLK-QD",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.95-0.95-0.95",
+      "chassis_endo",
+      "chassis_ferro",
+      "mech_case_right"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Fire Support",
+  "YangsThoughts": "The Valkyrie is the kind of scout 'Mech you take that has the option of supporting a fight against tough opposition if the situation arises. Although not as fast as other 'Mechs of it's size, it is able to soften enemies at long range then move in for a kill."
+}

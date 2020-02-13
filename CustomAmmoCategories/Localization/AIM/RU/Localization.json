@@ -423,91 +423,91 @@
     "FileName": "",
     "Name": "AIM.Dist",
     "Localization": {
-      "CULTURE_RU_RU": "Дист."
+      "CULTURE_EN_US": "Дист."
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Damage",
     "Localization": {
-      "CULTURE_RU_RU": "Урон"
+      "CULTURE_EN_US": "Урон"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Long",
     "Localization": {
-      "CULTURE_RU_RU": "Дальн."
+      "CULTURE_EN_US": "Дальн."
     }
   },
   {
     "FileName": "",
     "Name": "AIM.GunneryShort",
     "Localization": {
-      "CULTURE_RU_RU": "С"
+      "CULTURE_EN_US": "С"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.PilotingShort",
     "Localization": {
-      "CULTURE_RU_RU": "П"
+      "CULTURE_EN_US": "П"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.GutsShort",
     "Localization": {
-      "CULTURE_RU_RU": "В"
+      "CULTURE_EN_US": "В"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.TacticsShort",
     "Localization": {
-      "CULTURE_RU_RU": "Т"
+      "CULTURE_EN_US": "Т"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Min",
     "Localization": {
-      "CULTURE_RU_RU": "Мин."
+      "CULTURE_EN_US": "Мин."
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Long",
     "Localization": {
-      "CULTURE_RU_RU": "Далн."
+      "CULTURE_EN_US": "Далн."
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Max",
     "Localization": {
-      "CULTURE_RU_RU": "Макс."
+      "CULTURE_EN_US": "Макс."
     }
   },
   {
     "FileName": "",
     "Name": "AIM.HP",
     "Localization": {
-      "CULTURE_RU_RU": "ОЗ"
+      "CULTURE_EN_US": "ОЗ"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.Wounds",
     "Localization": {
-      "CULTURE_RU_RU": "Раны"
+      "CULTURE_EN_US": "Раны"
     }
   },
   {
     "FileName": "",
     "Name": "AIM.choose_target",
     "Localization": {
-      "CULTURE_RU_RU": "-выбири цель-"
+      "CULTURE_EN_US": "-выбири цель-"
     }
   }  
 ]

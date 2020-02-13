@@ -1,6 +1,3 @@
-Special thanks to janxious, LadyAlekto, MpStark, Morphyum, m22spencer, bloodydoves, Colobos, CptMoore, Danadan, LtShade, CWolf and many others make this mod possible
-
-CharlesB cannibalized. Readme in CharlesB_README.md. Settings in CharlesB_settings.json 
 Unpack to Mods folder
 CustomAmmoCategories settings 
 CustomAmmoCategoriesSettings.json
@@ -9,8 +6,7 @@ WeaponRealizerSettings.json (for description look at the WR-README)
 AttackImprovementMod settings
 AIM_settings.json (for description look at the AIM-README)
 
-WARNING! Shipped versions of AIM can't be loaded by ModTek and can't be used standalone.
-WARNING! This version of CAC can be used only with ModTek 0.7.6.5+ cause it utilizes dynamic enums for subsystem for AmmoCategory 
+WARNING! Shipped versions of AIM and WR can't be loaded by ModTek and can't be used standalone.
 
 click on right side of HUD weapon slot to switch mode (near hit chance)
 click on center of HUD weapon slot to switch ammo (near ammo count)
@@ -193,24 +189,6 @@ if set as true all AP effects (damage and crits) will not affect unit.
 "RemoveFromCritRollStatName": "IgnoreDamage", - on criticals resolution components having this staistic set as true will be excluded from list of available for crit. 
                                                 NOTE! excluding from list have side effect with CritLocationTransfer enabled. If in location there are only components with IgnoreDamage:true 
                                                 it consider as empty and crit will be transfered to another location according transfer logic. 
-"bloodSettings":{   - if DestructibleUrbanFlimsy it can leave blood spot
-  "DecalScales":{    - sizes of blood spots by types. Types: NOT_SET, generic, smallMetal, mediumMetal, largeMetal, smallStone, mediumStone, largeStone, 
-                                                             smallGlass, mediumGlass, largeGlass, smallMixed, mediumMixed, largeMixed, smallFence, mediumFence,
-                                                             largeFence, smallRadiotower, mediumRadiotower, largeRadiotower, smallVehicle, mediumVehicle, largeVehicle, 
-                                                             electronic,lightPole, vehicleFiery
-    "smallVehicle":10,
-    "mediumVehicle":20,
-    "largeVehicle":30,
-    "vehicleFiery":15
-  },
-  "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb", - texture for blood spot
-  "DrawBloodChance": 0.3 - chance on leave blood spot on destruction
-},
-"showMissBehavior":"Default", - miss margin behavior.
-                                   None - miss floaties never shown
-                                   Vanilla - miss floaties shown as in vanilla (no miss margin)
-                                   Default - miss floaties shown as AIM's ShowMissMargin: true
-                                   All - show all miss floaties with miss margin
 }
 
 now CustomAmmoCategories.dll searching CustomAmmoCategories.json in every subfolder of Mods folder. 
@@ -227,76 +205,6 @@ CustomAmmoCategories.json
 
 Weapon definition
 new fields
-  "evasivePipsMods": {  - list of modifiers for values by current evasive pips count. Additive per weapon/ammo/mode. \
-                          Overall formula value = [base value] * ([evasive pips count]^[mod value]). Example base damage = 35, evasive pips count = 7, mod value = -1
-                          damage = 35 * (7^-1) = 35 * 0.142857(142857) = 5.
-                          NOTE: of evasive pips count = 0, value will not been altered. If mod value = 0 same behavior.
-      "Damage":0,
-      "APDamage":0,
-      "Heat":0,
-      "Instablility":0,
-      "GeneratedHeat":0,
-      "FlatJammingChance":0,
-      "MinRange":0,
-      "ShortRange":0,
-      "MediumRange":0,
-      "LongRange":0,
-      "MaxRange":0,
-      "AOERange":0,
-      "AOEDamage":0,
-      "AOEHeatDamage":0,
-      "AOEInstability":0,
-      "RefireModifier":0,
-      "APCriticalChanceMultiplier":0,
-      "AccuracyModifier":0,
-      "DamageVariance":0,
-      "CriticalChanceMultiplier":0
-  },
-  "deferredEffect":{                                   - deferred effect !!!CAN!!! be set per mode, ammo, weapon. Mode have priority than ammo and than weapon.
-    "id":"LOIC",                                       - id used in logs 
-    "rounds":2,                                        - rounds to effects apply
-    "text":"LOIC",                                     - text displayed while waiting 
-    "VFX":"vfxPrfPrtl_orbitalPPC_oneshot",             - vfx displayed after timeout
-    "waitVFX":"vfxPrfPrtl_artillerySmokeSignal_loop",  - vfx displayed while waiting
-    "SFX":"ion_cannon_example",                        - sound played on VFX played
-    "VFXtime":20,                                      - time in seconds while VFX is played. After this vfx will be stopped and pooled.
-    "damageApplyTime": 6,                              - time in seconds from start to apply damage/status effects/terrain effects. 
-	                                                     Once effect playing is starts turn can't be advanced until damage apply
-    "AOERange":50,                                     - AOE range
-    "AOEDamage": 1000,                                 - AOE damage
-    "AOEHeatDamage": 1000,                             - AOE heat damage
-    "AOEInstability": 1000,                            - AOE instability 
-	                                                   
-    "RangeColor":{"C":"#00FF00","I":1.5},              - Color for text and range circle	                                                   
-    "FireTerrainChance": 0.8,                          - fire terrain chance 
-    "FireDurationWithoutForest": 0,                    - turns fire will exists on terrain without forest 
-    "FireTerrainStrength": 30,                         - heat damage from fire
-    "FireTerrainCellRadius": 12,                       - radius in game cells (each cell have 4x4 size)
-    "TerrainVFX":"vfxPrfPrtl_terrainLavaCracks_loop",  - terrain vfx (apply to each hex cell)
-    "TerrainVFXScale": {"x":1,"y":1,"z":1},            - scale for vfx
-    "tempDesignMask":"DesignMaskGeothermalLava",       - design mask
-    "tempDesignMaskTurns": 99,                         - length in turns design mask and terrain vfx exists
-    "tempDesignMaskCellRadius": 12,                    - radius in game cells 
-	                                                   NOTE: all values above have same apply logic as mine explosions. 
-    "statusEffects": [],                               - status effects array
-	  "statusEffectsRangeFalloff": true,                 - range falloff for status effects - if true effect will be applience will be optional, 
-	                                                     chance is based on distance from center of effect. 
-	  "sticky": true                                     - it true on success hit deferred effect position links to target. Does not matter if it moves or become dead.
-  },
-  "ShotsPerAmmo": 1,              - shots per ammo. Example: you have effective shots count = 4 and ShotsPerAmmo = 0.5. After fire ammo will be decremented by 2 (4 * 0.5)
-                                    Mutiplicative per weapon, ammo, mode. Default value 1. NOTE: Ammo decrement value rounded to nearest integer. 
-                                    If it will be less than 0.5 - it will be your own problem - no ammo will be used.
-  "InternalAmmo":{                - starting ammo capacity per ammo category. Weapon will be counted as using default ammo for this category. 
-    "intSRM":20,                    StartingAmmoCapacity is counted as ammo count for category setted in ammoCategoryID/AmmoCategory for weapon
-    "intLRM":15
-  },
-  "preFireSFX":"Play_PPC3",       - sound played on weapon's fire !!!CAN!!! be set per mode, ammo, weapon. Mode have priority than ammo and than weapon.
-  "blockWeaponsInMechLocations": [], - list of mech locations. all weapons installed in this locations can't fire if this weapon is functional.
-                                       NOTE: weapon can block itself.
-  "CanBeBlocked": true               - if false weapon can't be blocked by other weapons presents (default is true).
-  "blockWeaponsInInstalledLocation": true - if true this weapon blocks weapons in location it installed. Weapon block itself until CanBeBlocked is false
-  "EjectWeapon": true,                 - if true weapon become non functional (without explosion) instead of ammo ejection on eject ammo command. 
-                                         Can be used to unblock other weapons. Default false.
   "AOEEffectsFalloff": false, if true and weapon inflicts AoE damage, random roll will be permitted before onHit effect apply. 
                               Example: aoe range = 100m, projectile hits ground in 30m from combatant - onHits effects will be applied with 0.7 chance ((100 - 30) / 100).
   "isHeatVariation": true, - if true heat damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.
@@ -390,7 +298,7 @@ new fields
 								  result = 1.0 + (6-10)*0.1 = 0.6
 								  GunneryJammingBase if ommited in weapon def., ammo def. and mode def. assumed as 5. 
   "DisableClustering": true/false - if true ProjectilesPerShot > 1 will affect only visual nor damage. If omitted consider as true.
-  (not used any more)"NotUseInMelee": true, - if true even AntiPersonel weapon type will not fire on melee attack, AI aware. 
+  "NotUseInMelee": true, - if true even AntiPersonel weapon type will not fire on melee attack, AI aware. 
   "AlternateDamageCalc": false, - if true alternate damage calc formula will be implemented 
                               DamagePerShot = (damage from weaponDef + (damage from ammo) + (damage from mode)*(damage multiplayer from ammo)*(damage multiplayer from mode)*(damage with effects)/(damage from weaponDef)
   "AlternateHeatDamageCalc": false, - same as  AlternateDamageCalc but for heat 
@@ -657,7 +565,6 @@ new fields
   
 Ammo definition
 {
-   "HideIfOnlyVariant": true, - if true this ammo name will be hidden if only variant for this mode. Default false.
    "Description" : {
       "Id" : "Ammunition_LBX10ECM",
       "Name" : "LBX/10 ECM Ammo",
@@ -757,7 +664,7 @@ Ammo definition
 						  Base point of AoE range calculations will be point where first projectile,
 						            (if weapon have ShotsWhenFired > 1) not intercepted by AMS, hits ground.
 						  It is recommended to use LRM5, LRM10, LRM15 or LRM20 as weapon subtype cause other subtypes have too huge spread when misses
-						  It is good idea to set ForbiddenRage for AoE weapon
+						  It is good idea to set ForbiddenRage for AoE weapon and set NotUseInMelee to true
 						  AOE weapon can't hit mech head, cause every headshot inflicts pilot injury. With fact AoE always dealt damage it will be imbalance. 
 						  Damage variations are not applying to AoE damage
   "AOEDamage": 0 - if > 0 alternative AoE damage algorithm will be used. Main projectile will not always miss. Instead it will inflict damage twice 
