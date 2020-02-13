@@ -1,0 +1,25 @@
+{
+    "Name": "DropCostPerMech",
+    "Enabled": true,
+
+    "Version": "v4.0.dZ-alpha",
+    "Description": "Calculates and subtracts drop costs per mech selected for a mission. - Modified by don Zappo",
+    "Author": "Morphyum",
+    "Website": "https://github.com/donZappo/DropCostPerMech",
+    "Contact": "",
+	
+	"DLL": "DropCostPerMech.dll",
+	
+	"Settings" : {
+		"percentageOfMechCost" : 0.0025,
+		"CostByTons" : true,
+		"cbillsPerTon" : 550,
+		"someFreeTonnage" : true,
+		"freeTonnageAmount" : 80,
+		"NewAlgorithm" : true,
+		"IsCampaign" : true,
+		"additionalRewardScale" : 0.0
+	}
+	
+	
+}
