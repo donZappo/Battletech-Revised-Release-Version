@@ -13,5 +13,6 @@
         "items" : [
             "component_type_stock"
         ]
-    }
+    },
+	"RGBColor" : { "Color" : "#126E8A" }
 }

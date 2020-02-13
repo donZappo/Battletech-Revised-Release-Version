@@ -17,67 +17,67 @@
 	"Manifest": [
 		{
 			"Type": "AdvancedJSONMerge",
-			"Path": "xadvancedjsonmerge",
+			"Path": "advancedjsonmerge",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "MEBonusDescriptions",
-			"Path": "xdata/basic/bonusDescriptions/",
+			"Path": "data/basic/bonusDescriptions/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "MECriticalEffects",
-			"Path": "xdata/basic/criticalEffects/",
+			"Path": "data/basic/criticalEffects/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "CCCategories",
-			"Path": "xdata/basic/categories/",
+			"Path": "data/basic/categories/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "CCTagRestrictions",
-			"Path": "xdata/basic/tagRestrictions/",
+			"Path": "data/basic/tagRestrictions/",
 			"ShouldMergeJSON": false
 		},
         {
             "Type": "CCDefaults",
-            "Path": "xdata/basic/defaults/",
+            "Path": "data/basic/defaults/",
             "ShouldMergeJSON": false
         },
 		{
 			"Type": "UpgradeDef",
-			"Path": "xdata/basic/internals/",
+			"Path": "data/basic/internals/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "xdata/basic/internalsCompatibility/",
+			"Path": "data/basic/internalsCompatibility/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "HeatSinkDef",
-			"Path": "xdata/basic/engines/",
+			"Path": "data/basic/engines/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "HeatSinkDef",
-			"Path": "xdata/basic/engine_parts/",
+			"Path": "data/basic/engine_parts/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "MechDef",
-			"Path": "xdata/basic/mech/",
+			"Path": "data/basic/mech/",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "ChassisDef",
-			"Path": "xdata/basic/chassis/",
+			"Path": "data/basic/chassis/",
 			"ShouldMergeJSON": false
 		},		
 		{
 			"Type": "ItemCollectionDef",
-			"Path": "xdata/basic/itemCollections/",
+			"Path": "data/basic/itemCollections/",
 			"ShouldMergeJSON": false
 		},
 		{

@@ -1,0 +1,45 @@
+{
+  "Results": [
+    {
+      "Scope": "Company",
+      "Requirements": null,
+      "AddedTags": {},
+      "RemovedTags": {},
+      "Stats": [
+        {
+          "typeString": "System.Int32",
+          "name": "NextStoryMilestone",
+          "value": 114,
+          "valueConstant": "",
+          "set": "true"
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "System_ShowSummaryOverlay",
+          "value": "The Story So Far",
+          "additionalValues": [
+            "On the day of Lady Kamea Arano's ascension to the throne, her uncle Lord Espinosa and his daughter Victoria launch a desperate coup. Through surprise, sabotage, and strength in numbers, their forces quickly secure the capital and solidify control over the Aurigan government.\r\n\r\nWith help from you and your old mentor Mastiff Montgomery, Lady Kamea along with her close friend and advisor Alexander Madeira, attempt an escape. Mastiff sacrifices himself to cover their exit, but their DropShip is destroyed during the attempt.\r\n\r\nIn the aftermath of the battle, you and your 'Mech were recovered by Darius Oliveira, the Executive Officer of a small mercenary company in need of a new commander.\r\n\r\n Three years later... "
+          ]
+        },
+        {
+          "Type": "System_SetDropship",
+          "value": "Leopard",
+          "valueConstant": null
+        },
+        {
+          "Type": "System_SimGameCharacterVisible",
+          "value": false,
+          "additionalValues": [
+            "Kamea",
+            "Alexander",
+            "Farah"
+          ]
+        }
+      ],
+      "ForceEvents": null,
+      "TemporaryResult": false,
+      "ResultDuration": 0
+    }
+  ]
+}

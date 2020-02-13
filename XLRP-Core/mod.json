@@ -1,81 +1,58 @@
 {
-  "Name": "XLRP-Core",
-  "Description": "Core Mod for XLRP Complete",
-  "Author": "vengefire",
-  "Website": null,
-  "Contact": null,
-  "Version": "0.0.1",
-  "PackagedOn": null,
-  "BattleTechVersionMin": null,
-  "BattleTechVersionMax": null,
-  "BattleTechVersion": null,
-  "Enabled": true,
-  "Hidden": false,
-  "Locked": false,
-  "DependsOn": [
-    "Custom Ammo Categories",
-    "CustomComponents"
-  ],
-  "ConflictsWith": [],
-  "OptionallyDependsOn": [],
-  "IgnoreLoadFailure": false,
-  "DLL": null,
-  "DLLEntryPoint": null,
-  "EnableAssemblyVersionCheck": false,
-  "LoadImplicitManifest": true,
-  "CustomResourceTypes": [
-    "MEBonusDescriptions", "MECriticalEffects", "CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon"
-  ],
-  "DataAddendumEntries": [
-    {
-      "name": "BattleTech.AmmoCategoryEnumeration",
-      "path": "AmmoCategory.json"
-    },
-    {
-      "name": "BattleTech.WeaponEnumeration",
-      "path": "WeaponCategory.json"
-    }
-  ],
-  "Manifest": [
-    {
-      "Type": "AbilityDef",
-      "Path": "abilities"
-    },
-    {
-      "Type": "SVGAsset",
-      "Path": "icons",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "CCCategories",
-      "Path": "categories/",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "CCTagRestrictions",
-      "Path": "tagRestrictions/",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "CCDefaults",
-      "Path": "defaults/",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "MEBonusDescriptions",
-      "Path": "bonusDescriptions/",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "MECriticalEffects",
-      "Path": "criticalEffects/",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "DesignMaskDef",
-      "Path": "DesignMasks"
-    }
-  ],
-  "RemoveManifestEntries": [],
-  "Settings": {}
+	"Name": "XLRP Core",
+	"Author": "XSNomad",
+	"Website": "https://github.com/vengefire/XLRP-Sammael",
+
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
+	"Manifest": [
+		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "AdvancedJSONMerge",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MEBonusDescriptions",
+			"Path": "MEBonusDescriptions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MECriticalEffects",
+			"Path": "MECriticalEffects",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCCategories",
+			"Path": "CCCategories",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCTagRestrictions",
+			"Path": "CCTagRestrictions",
+			"ShouldMergeJSON": false
+		},
+        {
+            "Type": "CCDefaults",
+            "Path": "CCDefaults",
+            "ShouldMergeJSON": false
+        },
+		{
+			"Type": "UpgradeDef",
+			"Path": "UpgradeDef",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "HeatSinkDef",
+			"ShouldMergeJSON": false
+		},	
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollectionDef",
+			"ShouldMergeJSON": false
+		}
+	]
 }

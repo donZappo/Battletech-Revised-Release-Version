@@ -1,0 +1,30 @@
+{
+  "Name": "MechEngineer Vanilla Mechs",
+  "Enabled": true,
+  "Hidden": true,
+  "Version": "1.8.1.0.1",
+  "Description": "Vanilla Mechs MechEngineer Ready",
+  "Author": "XSNomad",
+  "Website": "https://github.com/vengefire/XLRP-Sammael",
+  "Contact": "",
+  "DependsOn": [
+    "MechEngineer"
+  ],
+  "Manifest": [
+    {
+      "Type": "MechDef",
+      "Path": "MechDef",
+      "AddToDB": false
+    },
+    {
+      "Type": "ChassisDef",
+      "Path": "ChassisDef",
+      "AddToDB": false
+    },
+    {
+      "Type": "MovementCapabilitiesDef",
+      "Path": "MovementCapabilitiesDef",
+      "AddToDB": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "Results" : [
+        {
+            "Scope" : "Company",
+            "Requirements" : null,
+            "AddedTags" : {
+				"items": [
+					"map_travel_3",
+					"SYSTEM_UseFlashpoints"
+				]
+			},
+            "RemovedTags" : {},
+            "Stats" : [
+                {
+                    "typeString" : "System.Int32",
+                    "name" : "NextStoryMilestone",
+                    "value" : 1,
+                    "valueConstant" : ""
+                }
+            ],
+            "Actions" : [			
+                {
+                    "Type" : "System_SetDropship",
+                    "value" : "Argo",
+                    "valueConstant" : null
+                },
+                {
+                    "Type" : "System_PauseNotification",
+                    "value" : "The <i>Argo</i> is\u2026 not in good shape, Commander. But with time, money, and some of Chief Virtanen's technical resources, we can address most of the major problems\u2026 maybe even make this place nice again. I'll be in Engineering if you want to know more.",
+					"additionalValues" : [
+						"Argo Upgrades",
+						"castDef_FarahDefault"
+					],
+                    "valueConstant" : null
+                }		
+            ],
+            "ForceEvents" : null,
+            "TemporaryResult" : false,
+            "ResultDuration" : 0
+        }
+    ]
+}

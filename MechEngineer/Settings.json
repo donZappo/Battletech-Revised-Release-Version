@@ -1,106 +1,509 @@
 {
-    "AccuracyEffects": {
-        "Enabled": true,
-        "EnabledDescription": "Enables statistic effects for arm accuracy.",
-        "CombatHUDTooltipName": "WEAPON MOUNT",
-        "CombatHUDTooltipNameDescription": "The name to call the ARM MOUNTED accuracy bonus in the combat tooltips."
-    },
-    "ArmActuator": {
-        "ForceFullDefaultActuators": true,
-        "IgnoreFullActuatorsTag": "OmniMech",
-        "DefaultCBTShoulder": "emod_arm_part_shoulder",
-        "DefaultCBTLower": "emod_arm_part_lower",
-        "DefaultCBTUpper": "emod_arm_part_upper",
-        "DefaultCBTHand": "emod_arm_part_hand",
-        "DefaultCBTDefLower": "emod_arm_part_lower",
-        "DefaultCBTDefHand": "emod_arm_part_hand",
-        "InterruptHandDropIfNoLower": false,
-        "ExtendHandLimit": true,
-        "Enabled": true
-    },
-    "ArmorStructureChanges": {
-        "Enabled": true
-    },
-    "ArmorStructureRatio": {
-        "SkipMechDefs": [
-            ],
-        "Enabled": false
-    },
     "AutoFixer" : {
         "Enabled" : true,
         "EnabledDescription" : "Fixes up mechs, chassis and components to adhere to CBT rules and defaults. Done programmatically to be compatible to new mechs in the future.",
-        "MechDefSkip" : [
-            
-        ],
-        "MechDefTagsSkip" : [
-            "noautofix"
-        ],
-        "MechDefAutoFixAgainstMaxFreeTonnage" : [
-            "mechdef_atlas_AS7-D-HT",
-            "mechdef_blackknight_BL-6b-KNT",
-            "mechdef_highlander_HGN-732b"
-        ],
-        "MechDefAutoFixInitialTonnageDiffThreshold" : 0.4,
-        "MechDefEngine" : true,
-        "MechDefCoolingDef" : "emod_kit_shs",
-        "MechDefHeatBlockDef" : "Gear_Engine_Heatsinks",
-        "MechDefCoreDummy" : "emod_engine_dummy",
-        "UpgradeDefSkip" : [
-            
-        ],
-        "UpgradeDefTagsSkip" : [
-            "noautofix"
-        ],
-        "GyroCategorizer" : {
-            "Prefix" : "Gear_Gyro_",
-            "AllowedLocations" : "CenterTorso",
-            "ComponentType" : "Upgrade",
-            "CategoryId" : "Gyro",
-            "AutoAddCategoryIdIfMissing" : true
-        },
-        "GyroSlotChange" : {
-            "From" : 3,
-            "By" : 0,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "CockpitCategorizer" : {
-            "Prefix" : "Gear_Cockpit_",
-            "AllowedLocations" : "Head",
-            "ComponentType" : "Upgrade",
-            "CategoryId" : "Cockpit",
-            "AutoAddCategoryIdIfMissing" : true
-        },
-        "CockpitTonnageChange" : {
-            "From" : 0,
-            "By" : 3,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "CockpitSlotChange" : {
-            "From" : 1,
-            "By" : 0,
-            "FromIsMin" : false,
-            "NewMin" : null
-        },
-        "LegUpgradesCategorizer" : {
-            "Prefix" : null,
-            "AllowedLocations" : "Legs",
-            "ComponentType" : "Upgrade",
-            "CategoryId" : "LegFootActuator",
-            "AutoAddCategoryIdIfMissing" : true
-        },
-        "LegUpgradesSlotChange" : {
-            "From" : 3,
-            "By" : -1,
-            "FromIsMin" : true,
-            "NewMin" : 1
-        },
-        "ChassisDefSkip" : [
-            
-        ],
-        "ChassisDefTagsSkip" : [
-            "noautofix"
+		"MechDefAutoFixAgainstMaxFreeTonnage" : [
+			"mechdef_annihilator_ANH-1E",
+			"mechdef_archer_ARC-2K",
+			"mechdef_archer_ARC-2W",
+			"mechdef_archer_ARC-4M",
+			"mechdef_archer_ARC-5S",
+			"mechdef_assassin_ASN-SB",
+			"mechdef_atlas_AS7-A",
+			"mechdef_atlas_AS7-D-DC",
+			"mechdef_atlas_AS7-D-K",
+			"mechdef_atlas_AS7-D-TF",
+			"mechdef_atlas_AS7-D_Danielle",
+			"mechdef_atlas_AS7-K",
+			"mechdef_atlas_AS7-LL",
+			"mechdef_atlas_AS7-RS",
+			"mechdef_atlas_AS7-S",
+			"mechdef_atlas_AS7-WGS_Samsonov",
+			"mechdef_avatar_AV1-O",
+			"mechdef_avatar_AV1-OA",
+			"mechdef_avatar_AV1-OB",
+			"mechdef_awesome_AWS-8R",
+			"mechdef_awesome_AWS-8V",
+			"mechdef_awesome_AWS-9M",
+			"mechdef_axman_AXM-1N",
+			"mechdef_axman_AXM-2N",
+			"mechdef_banshee_BNC-3Q",
+			"mechdef_banshee_BNC-5S",
+			"mechdef_battlemaster_BLR-1D",
+			"mechdef_battlemaster_BLR-1G-DC",
+			"mechdef_battlemaster_BLR-1S",
+			"mechdef_battlemaster_BLR-2C",
+			"mechdef_battlemaster_BLR-3M",
+			"mechdef_battlemaster_BLR-3S",
+			"mechdef_berserker_BRZ-A3",
+			"mechdef_berserker_BRZ-B3",
+			"mechdef_blackhawk-ku_BHKU-O",
+			"mechdef_blackhawk-ku_BHKU-OA",
+			"mechdef_blackhawk-ku_BHKU-OB",
+			"mechdef_blackhawk-ku_BHKU-OC",
+			"mechdef_blackhawk-ku_BHKU-OD",
+			"mechdef_blackjack_BJ-1DC",
+			"mechdef_blackjack_BJ-1X",
+			"mechdef_blackjack_BJ-1_L",
+			"mechdef_blackjack_BJ-2",
+			"mechdef_blackjack_BJ-3",
+			"mechdef_blackjack_BJ-3X",
+			"mechdef_blackknight_BL-7-KNT-L",
+			"mechdef_blackknight_BL-7-KNT",
+			"mechdef_blackknight_BL-9-KNT",
+			"mechdef_bombardier_BMB-10D",
+			"mechdef_bombardier_BMB-12D",
+			"mechdef_bushwacker_BSW-S2",
+			"mechdef_bushwacker_BSW-X1",
+			"mechdef_bushwacker_BSW-X2",
+			"mechdef_caesar_CES-3R",
+			"mechdef_cataphract_CTF-0X",
+			"mechdef_cataphract_CTF-2X",
+			"mechdef_cataphract_CTF-3D",
+			"mechdef_cataphract_CTF-3L",
+			"mechdef_cataphract_CTF-4X",
+			"mechdef_catapult_CPLT-A1",
+			"mechdef_catapult_CPLT-C1_Jenny",
+			"mechdef_catapult_CPLT-C4C",
+			"mechdef_catapult_CPLT-K3",
+			"mechdef_centurion_CN9-AH",
+			"mechdef_centurion_CN9-D",
+			"mechdef_chameleon_CLN-7V",
+			"mechdef_champion_CHP-1N",
+			"mechdef_champion_CHP-1N2",
+			"mechdef_champion_CHP-2N",
+			"mechdef_champion_CHP-3N",
+			"mechdef_charger_CGR-1A1",
+			"mechdef_charger_CGR-1A5",
+			"mechdef_charger_CGR-1A9",
+			"mechdef_charger_CGR-1L",
+			"mechdef_charger_CGR-3K",
+			"mechdef_charger_CGR-SB",
+			"mechdef_cicada_CDA-2B",
+			"mechdef_cicada_CDA-3F",
+			"mechdef_cicada_CDA-3G",
+			"mechdef_cicada_CDA-3M",
+			"mechdef_clint_CLNT-1-2R",
+			"mechdef_clint_CLNT-2-3T",
+			"mechdef_clint_CLNT-2-4T",
+			"mechdef_commando_COM-1C",
+			"mechdef_commando_COM-1D",
+			"mechdef_commando_COM-2D-BI",
+			"mechdef_commando_COM-3A",
+			"mechdef_commando_COM-5S",
+			"mechdef_commando_COM-J",
+			"mechdef_crab_CRB-20",
+			"mechdef_crab_CRB-27_actual",
+			"mechdef_crockett_CRK-5003-0",
+			"mechdef_cronus_CNS-3M",
+			"mechdef_crusader_CRD-3D",
+			"mechdef_crusader_CRD-3K",
+			"mechdef_crusader_CRD-3L",
+			"mechdef_crusader_CRD-3R",
+			"mechdef_crusader_CRD-4D",
+			"mechdef_crusader_CRD-4K",
+			"mechdef_crusader_CRD-5M",
+			"mechdef_crusader_CRD-5S",
+			"mechdef_cyclops_CP-10-Z-DC",
+			"mechdef_cyclops_CP-11-A",
+			"mechdef_daboku_DCMS-MX90-D",
+			"mechdef_daishi_DW-A",
+			"mechdef_dervish_DV-6M",
+			"mechdef_dervish_DV-7D",
+			"mechdef_devastator_DVS-1D",
+			"mechdef_devastator_DVS-2",
+			"mechdef_dragon_DRG-1C",
+			"mechdef_dragon_DRG-2Y_Yorioshi",
+			"mechdef_dragon_DRG-5N",
+			"mechdef_emperor_EMP-5A",
+			"mechdef_emperor_EMP-6A",
+			"mechdef_enforcer_ENF-3R",
+			"mechdef_enforcer_ENF-5D",
+			"mechdef_exterminator_EXT-4A",
+			"mechdef_exterminator_EXT-4D",
+			"mechdef_falconer_FLC-8R",
+			"mechdef_falcon_FLC-4N",
+			"mechdef_fireball_ALM-7D",
+			"mechdef_fireball_ALM-8D",
+			"mechdef_fireball_ALM-9D",
+			"mechdef_firebee_FRB-2E",
+			"mechdef_firestarter_FS9-A",
+			"mechdef_firestarter_FS9-K",
+			"mechdef_firestarter_FS9-M",
+			"mechdef_firestarter_FS9-S",
+			"mechdef_firestarter_FS9-S1",
+			"mechdef_flashman_FLS-7K",
+			"mechdef_flashman_FLS-8K",
+			"mechdef_flea_FLE-14",
+			"mechdef_flea_FLE-16",
+			"mechdef_flea_FLE-17",
+			"mechdef_gallowglas_GAL-1GLS",
+			"mechdef_gallowglas_GAL-2GLS",
+			"mechdef_Gausszilla",
+			"mechdef_gladiator_GLD-3R",
+			"mechdef_gladiator_GLD-4R",
+			"mechdef_granddragon_DRG-1G",
+			"mechdef_granddragon_DRG-1G_Douglas",
+			"mechdef_granddragon_DRG-5K",
+			"mechdef_grasshopper_GHR-4R",
+			"mechdef_grasshopper_GHR-5J",
+			"mechdef_grasshopper_GHR-5N",
+			"mechdef_griffin_GRF-1DS",
+			"mechdef_griffin_GRF-2N",
+			"mechdef_griffin_GRF-3M",
+			"mechdef_guillotine_GLT-3N",
+			"mechdef_guillotine_GLT-4L",
+			"mechdef_guillotine_GLT-4P",
+			"mechdef_guillotine_GLT-5M",
+			"mechdef_hatamotochi_HTM-26T",
+			"mechdef_hatamotochi_HTM-27T",
+			"mechdef_hatamotohi_HTM-27U",
+			"mechdef_hatamotokaze_HTM-27V",
+			"mechdef_hatamotoku_HTM-27W",
+			"mechdef_hatamotomizo_HTM-27Y",
+			"mechdef_hatchetman_HCT-3G",
+			"mechdef_hatchetman_HCT-3K",
+			"mechdef_hatchetman_HCT-3NH",
+			"mechdef_hatchetman_HCT-5S",
+			"mechdef_hermesII_HER-2M",
+			"mechdef_hermesII_HER-2S",
+			"mechdef_hermesII_HER-4K",
+			"mechdef_hermesII_HER-5S",
+			"mechdef_hermes_HER-1A",
+			"mechdef_hermes_HER-1B",
+			"mechdef_hermes_HER-1S",
+			"mechdef_hermes_HER-3S",
+			"mechdef_hermes_HER-3S1",
+			"mechdef_hermes_HER-3S2",
+			"mechdef_highlander_HGN-732",
+			"mechdef_highlander_HGN-733C",
+			"mechdef_hollander_BZK-F3",
+			"mechdef_hollander_BZK-G1",
+			"mechdef_hornet_HNT-151",
+			"mechdef_hornet_HNT-152",
+			"mechdef_hornet_HNT-161",
+			"mechdef_hornet_HNT-171",
+			"mechdef_hunchback_HBK-4H",
+			"mechdef_hunchback_HBK-4J",
+			"mechdef_hunchback_HBK-4N",
+			"mechdef_hunchback_HBK-4SP",
+			"mechdef_hunchback_HBK-5M",
+			"mechdef_huronwarrior_HUR-WO-R4L",
+			"mechdef_huronwarrior_HUR-WO-R4M",
+			"mechdef_hussar_HSR-200-D",
+			"mechdef_hussar_HSR-300-D",
+			"mechdef_hussar_HSR-350-D",
+			"mechdef_hussar_HSR-400-D",
+			"mechdef_icarusII_ICR-1S",
+			"mechdef_jackal_JA-KL-1532",
+			"mechdef_jagermech_JM6-B",
+			"mechdef_jagermech_JM6-DD",
+			"mechdef_jagermech_JM6-DG",
+			"mechdef_javelin_JVN-10A",
+			"mechdef_javelin_JVN-10P",
+			"mechdef_javelin_JVN-11A",
+			"mechdef_javelin_JVN-11B",
+			"mechdef_jayhawker_JHR-X0",
+			"mechdef_jenner_JR7-A",
+			"mechdef_jenner_JR7-F",
+			"mechdef_jenner_JR7-K",
+			"mechdef_katana_CRK-5003-2",
+			"mechdef_kingcrab_KGC-000",
+			"mechdef_kingcrab_KGC-001",
+			"mechdef_kintaro_KTO-19",
+			"mechdef_kintaro_KTO-20",
+			"mechdef_linesman_LMN-1PT",
+			"mechdef_loaderking_LDK-5C",
+			"mechdef_locust_LCT-1D",
+			"mechdef_locust_LCT-1L",
+			"mechdef_locust_LCT-3D",
+			"mechdef_locust_LCT-3M",
+			"mechdef_locust_LCT-3V",
+			"mechdef_longbow_LGB-0W",
+			"mechdef_longbow_LGB-7Q",
+			"mechdef_longbow_LGB-7V",
+			"mechdef_mackie_MSK-7A",
+			"mechdef_maelstrom_MTR-5K",
+			"mechdef_marauderII_MAD-4A",
+			"mechdef_marauder_MAD-1R",
+			"mechdef_marauder_MAD-3D",
+			"mechdef_marauder_MAD-3L",
+			"mechdef_marauder_MAD-3M-DC",
+			"mechdef_marauder_MAD-3M",
+			"mechdef_marauder_MAD-5D",
+			"mechdef_marauder_MAD-5M",
+			"mechdef_marauder_MAD-5S",
+			"mechdef_mauler_MAL-1R",
+			"mechdef_mercury_MCY-97",
+			"mechdef_mercury_MCY-98",
+			"mechdef_mercury_MCY-99",
+			"mechdef_merlin_MLN-1A",
+			"mechdef_merlin_MLN-1B",
+			"mechdef_mongoose_MON-66",
+			"mechdef_mongoose_MON-67",
+			"mechdef_mongoose_MON-68",
+			"mechdef_nightstar_NSR-10C",
+			"mechdef_nightstar_NSR-7J",
+			"mechdef_nightstar_NSR-9J",
+			"mechdef_orion_ON1-M",
+			"mechdef_orion_ON1-MA",
+			"mechdef_orion_ON1-V-DC",
+			"mechdef_orion_ON1-VA",
+			"mechdef_ostroc_OSR-2C",
+			"mechdef_ostroc_OSR-2D",
+			"mechdef_ostroc_OSR-2L",
+			"mechdef_ostroc_OSR-2M",
+			"mechdef_ostroc_OSR-3C",
+			"mechdef_ostscout_OTT-7J",
+			"mechdef_ostscout_OTT-7K",
+			"mechdef_ostsol_OTL-4D",
+			"mechdef_ostsol_OTL-4F",
+			"mechdef_ostsol_OTL-5M",
+			"mechdef_ostwar_OWR-2M",
+			"mechdef_panther_PNT-10K",
+			"mechdef_panther_PNT-10KA",
+			"mechdef_panther_PNT-8Z",
+			"mechdef_panther_PNT-9ALAG",
+			"mechdef_panther_PNT-9R_Tanaka",
+			"mechdef_penetrator_PTR-4D",
+			"mechdef_penetrator_PTR-4F",
+			"mechdef_phoenixhawk_PXH-1D",
+			"mechdef_phoenixhawk_PXH-3D",
+			"mechdef_phoenixhawk_PXH-3K",
+			"mechdef_phoenixhawk_PXH-3M",
+			"mechdef_phoenixhawk_PXH-3S",
+			"mechdef_quickdraw_QKD-4H",
+			"mechdef_quickdraw_QKD-5K",
+			"mechdef_quickdraw_QKD-5M",
+			"mechdef_rakshasa_MDG-1A",
+			"mechdef_rakshasa_MDG-1B",
+			"mechdef_raven_RVN-2X",
+			"mechdef_raven_RVN-3L",
+			"mechdef_raven_RVN-3M",
+			"mechdef_raven_RVN-3X",
+			"mechdef_raven_RVN-4X",
+			"mechdef_rifleman_RFL-3M",
+			"mechdef_rifleman_RFL-4D",
+			"mechdef_rifleman_RFL-5D",
+			"mechdef_rifleman_RFL-5M",
+			"mechdef_sentinel_STN-3K",
+			"mechdef_sentinel_STN-3KA",
+			"mechdef_sentinel_STN-3KB",
+			"mechdef_sentinel_STN-3M",
+			"mechdef_shadowhawk_SHD-2D2",
+			"mechdef_shadowhawk_SHD-2K",
+			"mechdef_shadowhawk_SHD-3H",
+			"mechdef_shadowhawk_SHD-5M",
+			"mechdef_snake_SNK-1V",
+			"mechdef_spider_SDR-5D",
+			"mechdef_spider_SDR-7M",
+			"mechdef_stalker_STK-3F_Jagawen",
+			"mechdef_stalker_STK-3H",
+			"mechdef_stalker_STK-4N",
+			"mechdef_stalker_STK-4P",
+			"mechdef_stalker_STK-5M",
+			"mechdef_stalker_STK-5S",
+			"mechdef_stinger_STG-3G",
+			"mechdef_stinger_STG-3Gb",
+			"mechdef_stinger_STG-3R",
+			"mechdef_stinger_STG-5M",
+			"mechdef_striker_STC-2C",
+			"mechdef_striker_STC-2D",
+			"mechdef_striker_STC-2S",
+			"mechdef_talos_TLS-1B",
+			"mechdef_thug_THG-10E",
+			"mechdef_thug_THG-11E",
+			"mechdef_thunderbolt_TDR-5D",
+			"mechdef_thunderbolt_TDR-5S-T_Tallman",
+			"mechdef_thunderbolt_TDR-7M",
+			"mechdef_thunderbolt_TDR-9S",
+			"mechdef_trebuchet_TBT-3C",
+			"mechdef_trebuchet_TBT-5J",
+			"mechdef_trebuchet_TBT-5S",
+			"mechdef_trebuchet_TBT-7K",
+			"mechdef_trebuchet_TBT-7M",
+			"mechdef_trooper_TP-1R",
+			"mechdef_urbanmech_UM-R50",
+			"mechdef_urbanmech_UM-R60C",
+			"mechdef_urbanmech_UM-R60X",
+			"mechdef_urbanmech_UM-R63",
+			"mechdef_valkyrie_VLK-QA",
+			"mechdef_valkyrie_VLK-QD",
+			"mechdef_valkyrie_VLK-QF",
+			"mechdef_venom_SDR-9K",
+			"mechdef_venom_SDR-9KA",
+			"mechdef_victor_VTR-9A",
+			"mechdef_victor_VTR-9A1",
+			"mechdef_victor_VTR-9B_Li",
+			"mechdef_victor_VTR-9D",
+			"mechdef_victor_VTR-9K",
+			"mechdef_vindicator_VND-1R_Vong",
+			"mechdef_vindicator_VND-1SIC",
+			"mechdef_vindicator_VND-1X",
+			"mechdef_vindicator_VND-3L",
+			"mechdef_vulcan_VL-5M",
+			"mechdef_vulcan_VL-5S",
+			"mechdef_vulcan_VT-BL",
+			"mechdef_warhammer_WHM-6K",
+			"mechdef_warhammer_WHM-6L-DC",
+			"mechdef_warhammer_WHM-6L",
+			"mechdef_warhammer_WHM-6R-DC",
+			"mechdef_warhammer_WHM-7K",
+			"mechdef_warhammer_WHM-7M",
+			"mechdef_warhammer_WHM-7S",
+			"mechdef_wasp_WSP-1A",
+			"mechdef_wasp_WSP-1D",
+			"mechdef_wasp_WSP-1K",
+			"mechdef_wasp_WSP-1L",
+			"mechdef_wasp_WSP-1S",
+			"mechdef_wasp_WSP-1W",
+			"mechdef_wasp_WSP-3M",
+			"mechdef_whitworth_WTH-1",
+			"mechdef_whitworth_WTH-1S",
+			"mechdef_whitworth_WTH-2",
+			"mechdef_wolfhound_WLF-1",
+			"mechdef_wolfhound_WLF-1A",
+			"mechdef_wolfhound_WLF-1B",
+			"mechdef_wolfhound_WLF-2",
+			"mechdef_wolverine_WVR-5M",
+			"mechdef_wolverine_WVR-6D",
+			"mechdef_wolverine_WVR-6M",
+			"mechdef_wolverine_WVR-6T",
+			"mechdef_wolverine_WVR-7D",
+			"mechdef_wolverine_WVR-7K",
+			"mechdef_wolverine_WVR-7M",
+			"mechdef_wyvern_WVE-5N",
+			"mechdef_wyvern_WVE-6N",
+			"mechdef_wyvern_WVE-9N",
+			"mechdef_zeus_ZEU-6A",
+			"mechdef_zeus_ZEU-6S-DC",
+			"mechdef_zeus_ZEU-6T",
+			"mechdef_zeus_ZEU-6Y",
+			"mechdef_zeus_ZEU-9S",
+			"mechdef_zeus_ZEU-9S2",
+			"mechdef_annihilator_ANH-1A",
+			"mechdef_annihilator_ANH-JH",
+			"mechdef_archer_ARC-2R",
+			"mechdef_archer_ARC-2S",
+			"mechdef_archer_ARC-LS",
+			"mechdef_archer_ARC-XO",
+			"mechdef_assassin_ASN-101",
+			"mechdef_assassin_ASN-21",
+			"mechdef_bullshark_BSK-M3",
+			"mechdef_bullshark_BSK-MAZ",
+			"mechdef_crab_BSC-27_fp_gladiator",
+			"mechdef_crab_CRB-27",
+			"mechdef_crab__fp_gladiator_BSC-27",
+			"mechdef_cyclops_CP-10-Q",
+			"mechdef_cyclops_CP-10-Z",
+			"mechdef_flea_FLE-15",
+			"mechdef_flea_FLE-4",
+			"mechdef_hatchetman_HCT-3F",
+			"mechdef_hatchetman_HCT-3X",
+			"mechdef_javelin_JVN-10F",
+			"mechdef_javelin_JVN-10N",
+			"mechdef_phoenixhawk_PXH-1",
+			"mechdef_phoenixhawk_PXH-1K",
+			"mechdef_raven_RVN-1X",
+			"mechdef_rifleman_RFL-3C",
+			"mechdef_rifleman_RFL-3N",
+			"mechdef_rifleman_RFL-RIP",
+			"mechdef_vulcan_VL-2T",
+			"mechdef_vulcan_VL-5T",
+			"mechdef_atlas_AS7-D-HT",
+			"mechdef_atlas_AS7-D",
+			"mechdef_atlas_AS7-GG",
+			"mechdef_awesome_AWS-8Q",
+			"mechdef_awesome_AWS-8T",
+			"mechdef_banshee_BNC-3E",
+			"mechdef_banshee_BNC-3M",
+			"mechdef_banshee_BNC-3S",
+			"mechdef_battlemaster_BLR-1G",
+			"mechdef_battlemaster_BLR-1G_fp_morganKell",
+			"mechdef_blackjack_BJ-1-STARTER",
+			"mechdef_blackjack_BJ-1",
+			"mechdef_blackjack_BJ-1DB",
+			"mechdef_blackknight_BL-6-KNT",
+			"mechdef_blackknight_BL-6b-KNT",
+			"mechdef_cataphract_CTF-1X",
+			"mechdef_catapult_CPLT-C1",
+			"mechdef_catapult_CPLT-C4",
+			"mechdef_catapult_CPLT-K2",
+			"mechdef_Catapult_fp_justinAllard",
+			"mechdef_centurion_CN9-A",
+			"mechdef_centurion_CN9-AL",
+			"mechdef_centurion_CN9-AS",
+			"mechdef_Centurion_fp_justinAllard",
+			"mechdef_centurion_TARGETDUMMY",
+			"mechdef_cicada_CDA-2A",
+			"mechdef_cicada_CDA-3C",
+			"mechdef_commando_COM-1B",
+			"mechdef_commando_COM-2D",
+			"mechdef_dragon_DRG-1N",
+			"mechdef_Dragon_fp_justinAllard",
+			"mechdef_enforcer_ENF-4R",
+			"mechdef_enforcer_ENF-4R_fp_morganKell",
+			"mechdef_firestarter_FS9-H",
+			"mechdef_fp_morganKell_stalker_STK-3F",
+			"mechdef_grasshopper_GHR-5H",
+			"mechdef_Griffin_fp_justinAllard",
+			"mechdef_griffin_GRF-1N",
+			"mechdef_griffin_GRF-1S",
+			"mechdef_griffin_GRF-4N",
+			"mechdef_griffin_GRF-4N_fp_greed",
+			"mechdef_highlander_HGN-732b",
+			"mechdef_highlander_HGN-733",
+			"mechdef_highlander_HGN-733P",
+			"mechdef_hunchback_HBK-4G",
+			"mechdef_hunchback_HBK-4P",
+			"mechdef_jagermech_JM6-A",
+			"mechdef_jagermech_JM6-S",
+			"mechdef_jagermech_JM6-S_fp_headhunting",
+			"mechdef_jenner_JR7-D",
+			"mechdef_jenner_JR7-D_fp_morganKell",
+			"mechdef_kingcrab_KGC-0000",
+			"mechdef_kingcrab_KGC-V-0000",
+			"mechdef_kintaro_KTO-18",
+			"mechdef_locust_LCT-1E",
+			"mechdef_locust_LCT-1M",
+			"mechdef_locust_LCT-1S",
+			"mechdef_locust_LCT-1V",
+			"mechdef_marauder_MAD-3R",
+			"mechdef_marauder_MAD-BH",
+			"mechdef_marauder_MAD-CM",
+			"mechdef_orion_ON1-K",
+			"mechdef_orion_ON1-K_fp_morganKell",
+			"mechdef_orion_ON1-V",
+			"mechdef_panther1b_PNT-9R",
+			"mechdef_panther_PNT-9R",
+			"mechdef_panther_TARGETDUMMY",
+			"mechdef_quickdraw_QKD-4G",
+			"mechdef_quickdraw_QKD-5A",
+			"mechdef_shadowhawk1b_SHD-2D",
+			"mechdef_shadowhawk_SHD-2D",
+			"mechdef_shadowhawk_SHD-2H",
+			"mechdef_spider_SDR-5K",
+			"mechdef_spider_SDR-5V",
+			"mechdef_stalker_STK-3F",
+			"mechdef_thunderbolt_TDR-5S",
+			"mechdef_thunderbolt_TDR-5SE",
+			"mechdef_thunderbolt_TDR-5SE_fp_headhunting",
+			"mechdef_thunderbolt_TDR-5SS",
+			"mechdef_trebuchet_TBT-5N",
+			"mechdef_urbanmech_TESTDUMMY",
+			"mechdef_urbanmech_UM-R60",
+			"mechdef_urbanmech_UM-R60L",
+			"mechdef_urbanmech_UM-R90",
+			"mechdef_victor_VTR-9B",
+			"mechdef_victor_VTR-9S",
+			"mechdef_vindicator_VND-1AA",
+			"mechdef_vindicator_VND-1R",
+			"mechdef_warhammer_WHM-6D",
+			"mechdef_warhammer_WHM-6R",
+			"mechdef_warhammer_WHM-BW",
+			"mechdef_wolverine_WVR-6K",
+			"mechdef_wolverine_WVR-6R",
+			"mechdef_zeus_ZEU-6S"
         ],
         "ChassisDefSlotsChanges" : [
             {
@@ -152,7 +555,7 @@
                 "Location" : "CenterTorso",
                 "Change" : {
                     "From" : 4,
-                    "By" : 11,
+                    "By" : 12,
                     "FromIsMin" : false,
                     "NewMin" : null
                 }
@@ -221,617 +624,8 @@
                 }
             }
         ],
-        "ChassisDefInitialTonnage" : true,
-        "ChassisDefInitialToTotalTonnageFactor" : 0.1,
-        "ChassisDefMaxJumpjets" : true,
-        "ChassisDefMaxJumpjetsCount" : 8,
-        "ChassisDefMaxJumpjetsRating" : 400,
-        "WeaponDefTagsSkip" : [
-            "noautofix"
-        ],
-        "AutoFixWeaponDefSlotsChanges" : [
-            {
-                "Type" : "AC5",
-                "SlotChange" : {
-                    "From" : 2,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "AC10",
-                "SlotChange" : {
-                    "From" : 3,
-                    "By" : 4,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "AC20",
-                "SlotChange" : {
-                    "From" : 4,
-                    "By" : 6,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "Gauss",
-                "SlotChange" : {
-                    "From" : 5,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LRM20",
-                "SlotChange" : {
-                    "From" : 4,
-                    "By" : 1,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "TAG",
-                "SlotChange" : {
-                    "From" : 3,
-                    "By" : -2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LB2X",
-                "SlotChange" : {
-                    "From" : 1,
-                    "By" : 3,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : {
-                    "From" : 5,
-                    "By" : 1,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                }
-            },
-            {
-                "Type" : "LB5X",
-                "SlotChange" : {
-                    "From" : 2,
-                    "By" : 3,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LB10X",
-                "SlotChange" : {
-                    "From" : 4,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "LB20X",
-                "SlotChange" : {
-                    "From" : 6,
-                    "By" : 5,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "UAC2",
-                "SlotChange" : {
-                    "From" : 1,
-                    "By" : 2,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "UAC5",
-                "SlotChange" : {
-                    "From" : 2,
-                    "By" : 3,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "UAC10",
-                "SlotChange" : {
-                    "From" : 3,
-                    "By" : 4,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            },
-            {
-                "Type" : "UAC20",
-                "SlotChange" : {
-                    "From" : 4,
-                    "By" : 6,
-                    "FromIsMin" : false,
-                    "NewMin" : null
-                },
-                "TonnageChange" : null
-            }
-        ]
-    },
-    "BattleTechLoadFix": {
-        "Enabled": true
-    },
-    "ComponentExplosions": {
-        "Enabled": true,
-        "EnabledDescription": "Allows each component to define destructive forces in case they explode, also implements proper CASE."
-    },
-    "CompressFloatieMessages": {
-        "Enabled": false,
-        "EnabledDescription": "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4",
-        "DebugDestroyedFloaties": true
-    },
-    "CriticalEffects": {
-        "Enabled": true,
-        "EnabledDescription": "Allows custom multiple critical hit states for individual components.",
-        "DescriptionTemplate": "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
-        "ElementTemplate": " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n",
-        "DescriptionUseName": false,
-        "CritFloatieMessage": "{0} CRIT",
-        "DestroyedFloatieMessage": "{0} DESTROYED"
-    },
-    "DebugCycleCombatSounds": {
-        "Enabled": false
-    },
-    "DebugSaveMechToFile": {
-        "Enabled": false
-    },
-    "DynamicSlots": {
-        "Enabled": true,
-        "EnabledDescription": "Allows components to take up space dynamically on a mech.",
-        "DynamicSlotsValidateDropEnabledDescription": "Don't allow dropping of items that would exceed the available slots.",
-        "DynamicSlotsValidateDropEnabled": true,
-        "ReservedSlotText": "Reserved Slot",
-        "MovableSlotText": "Movable Slot"
-    },
-    "Engine": {
-        "Enabled": true,
-        "EnabledDescription": "Provides engines that can be installed on mechs similar to how CBT works.",
-        "MovementPointDistanceMultiplierDescription": "The distance of a TT movement point, 24 is vanilla CombatGameConstants.ExperimentalGridDistance .",
-        "MinimJumpHeatDescription": "Minimum heat when doing a jump, even if only one jump jet exists and only when jumping one hex.",
-        "AutoConvertJumpCapacityInDefToStatDescription": "All JumpCapacity values in JumpJetDefs will be auto-converted to the JumpCapacity statistic.",
-        "JumpJetDefaultJumpHeatDescription": "The heat the jump jet produces when fully* used (* jumping below max distance reduces produced heat). Can be adjusted using the JumpHeat statistic.",
-        "RunMultiplierDescription": "How much faster running is than walking.",
-        "EngineRatingForChassisMovementStatDescription": "The engine rating to use when evaluating the movement stat of a mech.",
-        "AllowMountingAllRatings": false,
-        "AllowMountingAllRatingsDescription": "Allow mounting all fusion core rating regardless of min/max sprint factors.",
-        "MinimumHeatSinksOnMech": 10,
-        "MinimumHeatSinksOnMechDescription": "Minimum heatsinks a mech requires.",
-        "EnforceRulesForAdditionalInternalHeatSinks": true,
-        "EnforceRulesForAdditionalInternalHeatSinksDescription": "Can't have those juicy ++ cooling systems with smaller fusion cores than the rules allow it.",
-        "AllowMixingHeatSinkTypes": false,
-        "AllowMixingHeatSinkTypesDescription": "Allow heat sinks patchwork.",
-        "DefaultEngineHeatSinkId": "Gear_HeatSink_Generic_Standard",
-        "DefaultEngineHeatSinkIdDescription": "Default heat sink type for engines without a kit.",
-        "EngineMissingFallbackHeatSinkCapacity": 30,
-        "EngineMissingFallbackHeatSinkCapacityDescription": "Heat sink capacity if no engine is detected.",
-        "MovementPointDistanceMultiplier": 25,
-        "MinimJumpHeat": 9,
-        "AutoConvertJumpCapacityInDefToStat": true,
-        "JumpJetDefaultJumpHeat": 3,
-        "RunMultiplier": 1.5,
-        "EngineRatingForChassisMovementStat": 250,
-        "LimitEngineCoresToTonnage": true,
-        "IgnoreLimitEngineChassisTag": ""
-    },
-    "HardpointFix": {
-        "Enabled": true,
-        "EnabledDescription": "Optimizes the way installed weapons are shown on a mech model.",
-        "AutoFixChassisDefWeaponHardpointCounts": false,
-        "AutoFixChassisDefWeaponHardpointCountsDescription": "Changes chassis hardpoints based on configured prefabs.",
-        "EnforceHardpointLimits": false,
-        "EnforceHardpointLimitsDescription": "Enforces hardpoint limits in mechlab only allowing configured prefabs.",
-        "AllowDefaultLoadoutWeapons": false,
-        "AllowDefaultLoadoutWeaponsDescription": "Ignore limits that would prevent mounting default loadouts.",
-        "FallbackPrefabsForComponentDefIds": [
-            "Weapon_Mortar_MechMortar"
-            ],
-        "FallbackPrefabsForComponentDefIdsDescription": "A list of components that always should be assigned a weapon prefab to.",
-        "AutoFixHardpointDataDefs": true,
-        "AutoFixHardpointDataDefsDescription": "HardpointDataDef should not contain duplicates and be grouped by slot (mh1 < mh2, eh1 = mh1).",
-        "WeaponPrefabMappings": [
-        {
-            "PrefabIdentifier": "AC2",
-            "HardpointCandidates": [
-                "ac2",
-                "ac",
-                "lbx",
-                "ppc",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "AMS",
-            "HardpointCandidates": [
-                "ams",
-                "laser",
-                "mg",
-                "machinegun",
-                "flamer",
-                "ac2",
-                "ppc",
-                "ac",
-                "lbx"
-                ]
-        },
-        {
-            "PrefabIdentifier": "Flamer",
-            "HardpointCandidates": [
-                "flamer",
-                "laser",
-                "mg",
-                "machinegun",
-                "ac2",
-                "ppc",
-                "ac",
-                "lbx",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "Laser",
-            "HardpointCandidates": [
-                "laser",
-                "flamer",
-                "mg",
-                "machinegun",
-                "ac2",
-                "ppc",
-                "ac",
-                "lbx",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "AC5",
-            "HardpointCandidates": [
-                "ac5",
-                "uac5",
-                "ac",
-                "lbx",
-                "ppc",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "AC10",
-            "HardpointCandidates": [
-                "ac10",
-                "lbx10",
-                "ac",
-                "lbx",
-                "ppc",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "PPC",
-            "HardpointCandidates": [
-                "ppc",
-                "ac20",
-                "ac",
-                "lbx",
-                "ac10",
-                "lbx10",
-                "laser",
-                "flamer",
-                "mg",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "AC20",
-            "HardpointCandidates": [
-                "ac20",
-                "ac",
-                "lbx",
-                "ppc",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "RAC20",
-            "HardpointCandidates": [
-                "rac20",
-                "ac20",
-                "uac",
-                "ac",
-                "lbx",
-                "ppc",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "BFG",
-            "HardpointCandidates": [
-                "bfg",
-                "artillery",
-                "gauss",
-                "ac20",
-                "ac",
-                "ppc",
-                "lbx",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "Gauss",
-            "HardpointCandidates": [
-                "gauss",
-                "ac20",
-                "ac",
-                "ppc",
-                "lbx",
-                "laser",
-                "mg",
-                "flamer",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "artillery",
-            "HardpointCandidates": [
-                "artillery",
-                "ac20",
-                "gauss",
-                "ac",
-                "lbx",
-                "ppc",
-                "ams",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser"
-                ]
-        },
-        {
-            "PrefabIdentifier": "lrm5",
-            "HardpointCandidates": [
-                "lrm5",
-                "lrm10",
-                "lrm15",
-                "lrm20",
-                "srm20",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "lrm10",
-            "HardpointCandidates": [
-                "lrm10",
-                "lrm15",
-                "lrm20",
-                "srm20",
-                "lrm5",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "lrm15",
-            "HardpointCandidates": [
-                "lrm15",
-                "lrm20",
-                "srm20",
-                "lrm10",
-                "lrm5",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "arrow",
-            "HardpointCandidates": [
-                "arrow",
-                "lrm5",
-                "lrm20",
-                "srm20",
-                "lrm15",
-                "lrm10",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "lrm20",
-            "HardpointCandidates": [
-                "lrm20",
-                "srm20",
-                "lrm15",
-                "lrm10",
-                "lrm5",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "MachineGun",
-            "HardpointCandidates": [
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "srm2",
-            "HardpointCandidates": [
-                "srm2",
-                "srm4",
-                "srm6",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "srm4",
-            "HardpointCandidates": [
-                "srm4",
-                "srm6",
-                "srm2",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        },
-        {
-            "PrefabIdentifier": "srm6",
-            "HardpointCandidates": [
-                "srm6",
-                "srm4",
-                "srm2",
-                "machinegun",
-                "mg",
-                "flamer",
-                "laser",
-                "ams"
-                ]
-        }
-            ],
-        "Enabled": true
-    },
-    "InvalidInventory": {
-        "Enabled": true
-    },
-    "MechLabSlots": {
-        "MechLabGeneralWidgetEnabled": true,
-        "MechLabArmTopPadding": 120,
-        "MechLabGeneralSlots": 3,
-        "MechLabGeneralWidgetLabel": "General",
-        "Enabled": true
-    },
-    "MoveMultiplierStat": {
-        "Enabled": true
-    },
-    "NewSaveFolder": {
-        "Path": "XLRP-Saves",
-        "Enabled": true
-    },
-    "OverrideDescriptions": {
-        "BonusDescriptionsDescriptionTemplate":
-        "Traits:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
-        "BonusDescriptionsElementTemplate":
-        " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n",
-        "Enabled": true
-    },
-    "OverrideGhostVFX": {
-        "Blacklisted": [
-            ],
-        "BlipWeak": "Weak",
-        "BlipStrong": "Weak",
-        "Enabled": false
-    },
-    "OverrideTonnage": {
-        "Enabled": true,
-        "EnabledDescription": "Allows other features to override tonnage calculations.",
-        "PrecisionEpsilon": 0.0001,
-        "PrecisionEpsilonDescription": "The maximum tonnage two values can be apart to be viewed as being the same, vanilla uses 100 grams.",
-        "MechLabMechInfoWidgetDecimalPlaces": 3,
-        "MechLabMechInfoWidgetDecimalPlacesDescription": "How many digits to show after the comma in the mech lab.",
-        "TonnageStandardPrecision": 0.01,
-        "TonnageStandardPrecisionDescription": "Set to 0.001 for kg fractional accounting on BattleMechs, only modifies half-ton rounding operations as by rule",
-        "KilogramStandardPrecision": 0.001,
-        "KilogramStandardPrecisionDescription": "Used for Small Support Vehicles, ProtoMechs and battlesuits.",
-        "ArmorRoundingPrecision": 0.001,
-        "ArmorRoundingPrecisionDescription": "If not set, default is ARMOR_PER_STEP * TONNAGE_PER_ARMOR_POINT",
-        "UnderweightWarningThreshold": 0.1,
-        "UnderweightWarningThresholdDescription": "How many tons a mech has to be underweight to show a warning"
-    },
-    "ShutdownInjuryProtection": {
-        "HeatDamageInjuryEnabled": true,
-        "ShutdownInjuryEnabled": true,
-        "Enabled": true
-    },
-    "TurretLimitedAmmo": {
-        "Enabled": true
-    },
-    "TurretMechComponents": {
-        "Enabled": true
-    },
-    "TagManager": {
-        "Enabled": false,
-        "SkirmishWhitelistTags": [ ],
-        "WhitelistComponentTags": [ ],
-        "BlacklistComponentTags": [
-            "component_type_stock",
-            "component_type_variant",
-            "component_type_lostech"
-            ]
-    },
-    "DebugScreenshotMechs": {
-        "Enabled": false,
-        "EnabledDescription": "Edit a mech then cancel, it then will go through all mechs and make screenshots for them. To improve loading times use the TagManager to blacklist all components so the MechLab doesn't have to load them.",
-        "ScreenshotDirectoryPath": "Screenshots",
-        "OnlyInvalidMechs": true,
-        "ScreenshotDirectoryPathDescription": "Create the directory manually first, otherwise it won't save any of the images.",
-        "OnlyInvalidMechsDescription": "Only make screenshots of mechs with invalid configurations."
+	},
+    "TagManager" : {
+        "Enabled" : true
     }
 }

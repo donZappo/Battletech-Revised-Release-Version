@@ -1,0 +1,5 @@
+{
+	"Settings" : [
+		{ "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "Mech_Default_Quirk", "Location": "CenterTorso", "AddIfNotPresent": true, "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+	]
+}

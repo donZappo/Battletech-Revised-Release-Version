@@ -4,6 +4,7 @@
 			"FullName": "Standard Heat Sinks",
 			"Abbreviation": "SHS",
 			"Tag": "SHS"
-		}
+		},
+		"RGBColor" : { "Color" : "#126E8A" }
 	},
 }

@@ -1,0 +1,19 @@
+{
+    "Name": "XLRP-Debug",
+    "Enabled": true,
+
+    "Description": "XLRP's Debug",
+    "Author": "Vengfire, source from Rogue Tech and Lady Alekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+			"Manifest": [
+		{
+			"Type": "DebugSettings",
+			"Path": "Debug", "ShouldAppendText": false
+		}
+		],
+    "DependsOn": [
+    ],
+    "ConflictsWith": [
+    ]
+}
