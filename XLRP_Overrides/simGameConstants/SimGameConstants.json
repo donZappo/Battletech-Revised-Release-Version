@@ -417,7 +417,7 @@
 
   },
   "MechLab": {
-    "StructureRepairTechPoints": 20,
+    "StructureRepairTechPoints": 4,
     "StructureRepairCost": 4,
     "ComponentRepairTechPoints": 2000,
     "ComponentRepairCost": 200,
