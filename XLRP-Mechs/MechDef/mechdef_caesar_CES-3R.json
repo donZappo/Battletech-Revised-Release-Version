@@ -168,6 +168,18 @@
       "GUID": null
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_280",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
       "ComponentDefType": "Weapon",

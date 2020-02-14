@@ -163,6 +163,18 @@
       "IsFixed": false
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_210",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
       "ComponentDefType": "AmmunitionBox",

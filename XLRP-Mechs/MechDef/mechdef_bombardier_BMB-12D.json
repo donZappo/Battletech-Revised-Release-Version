@@ -103,6 +103,18 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_325",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_AMS_Cal-Boeing",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

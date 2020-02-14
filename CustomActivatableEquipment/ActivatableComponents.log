@@ -575,24 +575,13 @@ ForceMouseEvents-> ignore collisions:False
 -> ignore collisions:False
 -> ignore collisions:False
 -> ignore collisions:False
-[21:12:33.971]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
+[21:47:02.972]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
  None
  Off
  Loading
  Loaded
  Unloading
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-ActivatableComponent constructor
-[21:12:44.516]FinishedLoading
+[21:47:07.472]FinishedLoading
 ActivatableComponent constructor
 ActivatableComponent constructor
 ActivatableComponent constructor

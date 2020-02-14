@@ -1,9 +1,0 @@
-{
-    "Name": "XLRP-Logo",
-    "DLL": "LogoReplacement.dll",
-    "Enabled": true,
-
-    "Settings": {
-        "LogoPath": "xlrp_mod_logo_screen.png"
-    }
-}

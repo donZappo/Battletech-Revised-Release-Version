@@ -169,6 +169,18 @@
     },
     {
       "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_285",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
