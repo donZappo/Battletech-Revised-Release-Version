@@ -137,6 +137,28 @@
     },
     {
       "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
