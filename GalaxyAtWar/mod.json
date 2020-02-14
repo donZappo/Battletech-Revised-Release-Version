@@ -1,8 +1,8 @@
 {
     "Name": "Galaxy at War",
-    "Enabled": false,
+    "Enabled": true,
 
-    "Version": "4.2.2",
+    "Version": "4.2.3",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
