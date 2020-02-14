@@ -5,7 +5,7 @@
 
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer", "XLRP-Core"],
+	"DependsOn": ["CustomComponents", "MechEngineer", "XLRP-Core", "CommunityBundles"],
 	"Manifest": [
     {
       "Type": "ChassisDef",
