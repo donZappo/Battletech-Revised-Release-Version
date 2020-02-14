@@ -5,3 +5,5 @@ log.txt
 slnx.sqlite
 /.vs/slnx.sqlite-journal
 /CommunityAssets
+/PanicSystem/PanicSystem.json
+/PanicSystem/PanicSystemStorage.json
