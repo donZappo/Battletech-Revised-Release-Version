@@ -20,11 +20,6 @@
       "Type": "ChassisDef",
       "Path": "ChassisDef",
       "AddToDB": false
-    },
-    {
-      "Type": "MovementCapabilitiesDef",
-      "Path": "MovementCapabilitiesDef",
-      "AddToDB": false
     }
   ]
 }

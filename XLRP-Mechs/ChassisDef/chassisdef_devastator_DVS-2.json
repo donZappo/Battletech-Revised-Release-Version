@@ -1,0 +1,249 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    }
+  ],
+  "Description": {
+    "Cost": 24900000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Devastator",
+    "Id": "chassisdef_devastator_DVS-2",
+    "Name": "Devastator",
+    "Details": "General Kerensky himself designed the specifications for the Devastator to make up for perceived flaws in the prototype Titan. The Devastator DVS-2 carries an arsenal focused on long-range combat. Powered by a 300 XL Engine giving it a top speed of 54 km/h, and using Double Heat Sinks to allow for continuous firing during combat.",
+    "Icon": "uixTxrIcon_devastator"
+  },
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_warhammeriic",
+  "PrefabIdentifier": "chrprfmech_warhammeriicbase-001",
+  "PrefabBase": "warhammeriic",
+  "Tonnage": 100.0,
+  "InitialTonnage": 10.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 95,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 125,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 15.0,
+      "z": -1.0
+    },
+    {
+      "x": -4.0,
+      "y": 15.0,
+      "z": -1.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 15.0,
+      "z": -1.0
+    },
+    {
+      "x": -4.0,
+      "y": 15.0,
+      "z": -1.0
+    },
+    {
+      "x": 3.5,
+      "y": 6.0,
+      "z": -1.0
+    },
+    {
+      "x": -3.5,
+      "y": 6.0,
+      "z": -1.0
+    }
+  ],
+  "VariantName": "DVS-2",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.10-1.10-1.10"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "Designed by General Kerensky, he didn't skimp on any aspect.  The long range fire power is mind blowing, and the double heat sinks mean your mind never stops blowing!  Until someone clips the XL engine perhaps."
+}

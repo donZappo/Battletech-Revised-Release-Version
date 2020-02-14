@@ -4,16 +4,11 @@
 
     "Description": "XLRP's Debug",
     "Author": "Vengfire, source from Rogue Tech and Lady Alekto",
-    "Website": "",
+    "Website": "https://github.com/vengefire/XLRP-Complete",
     "Contact": "fakeemail@fakeemail.com",
-			"Manifest": [
-		{
-			"Type": "DebugSettings",
-			"Path": "Debug", "ShouldAppendText": false
-		}
+	"Manifest": [
+		{ "Type": "DebugSettings", "Path": "Debug", "ShouldAppendText": false}
 		],
-    "DependsOn": [
-    ],
-    "ConflictsWith": [
-    ]
+    "DependsOn": [],
+    "ConflictsWith": []
 }

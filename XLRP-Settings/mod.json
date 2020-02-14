@@ -1,0 +1,13 @@
+{
+    "Name": "XLRP-SVGAssets",
+	"Author": "XLRP Team",
+	"Website": "",
+
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [],
+
+    "Manifest": [
+		{ "Type": "SVGAsset", "Path": "SVGAsset", "AddToDB": false }
+    ]
+}
