@@ -1,7 +1,7 @@
 {
-	"Name": "XLRP Core",
-	"Author": "XSNomad",
-	"Website": "https://github.com/vengefire/XLRP-Sammael",
+	"Name": "XLRP-Core",
+	"Author": "XSNomad, Vengefire, donZappo",
+	"Website": "https://github.com/vengefire/XLRP-Complete",
 
 	"Enabled": true,
 	"Hidden": true,
@@ -53,6 +53,11 @@
 			"Type": "ItemCollectionDef",
 			"Path": "ItemCollectionDef",
 			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MovementCapabilitiesDef",
+			"Path": "MovementCapabilitiesDef",
+			"AddToDB": false
 		}
 	]
 }

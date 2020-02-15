@@ -1,0 +1,36 @@
+{
+	"Name": "XLRP Mechs",
+	"Author": "XSNomad, Vengefire, donZappo",
+	"Website": "https://github.com/vengefire/XLRP-Complete",
+
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": ["CustomComponents", "MechEngineer", "XLRP-Core", "CommunityBundles"],
+	"Manifest": [
+    {
+      "Type": "ChassisDef",
+      "Path": "ChassisDef",
+      "AddToDB": false
+    },
+    {
+      "Type": "HardpointDataDef",
+      "Path": "HardpointDataDef",
+      "AddToDB": false
+    },
+    {
+      "Type": "MechDef",
+      "Path": "MechDef",
+      "AddToDB": false
+    },
+    {
+      "Type": "Sprite",
+      "Path": "Sprite",
+      "AddToDB": false
+    },
+    {
+      "Type": "WeaponDef",
+      "Path": "WeaponDef",
+      "AddToDB": false
+    }
+  ]
+}

@@ -336,48 +336,151 @@
                 }
             ]
         },
-        {
-            "ID" : "diff_mechDestruction",
-            "Name" : "'Mech Destruction",
-			"TelemetryEventName": "mech_destruction",
-            "UIOrder" : 5,
-            "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
-            "Enabled" : true,
-            "Visible" : true,
-            "Toggle" : true,
-            "StartOnly" : false,
-            "DefaultIndex" : 0,
-            "Options" : [
-                {
-                    "ID" : "diff_MD_off",
-                    "Name" : "Off",
-                    "TelemetryEventDesc": "0",
-                    "DifficultyValue" : 0,
-                    "CareerScoreModifier" : 0,
-                    "DifficultyConstants" : [
-                        {
-                            "ConstantType" : "Salvage",
-                            "ConstantName" : "DestroyedMechRecoveryChance",
-                            "ConstantValue" : "1"
-                        }
-                    ]
-                },
-                {
-                    "ID" : "diff_MD_on",
-                    "Name" : "On",
-                    "TelemetryEventDesc": "1",
-                    "DifficultyValue" : 2,
-                    "CareerScoreModifier" : 0.1,
-                    "DifficultyConstants" : [
-                        {
-                            "ConstantType" : "Salvage",
-                            "ConstantName" : "DestroyedMechRecoveryChance",
-                            "ConstantValue" : "0"
-                        }
-                    ]
-                }
-            ]
-        },
+		{
+			"ID": "diff_mechDestruction",
+			"Name": "'Mech Recovery Chance",
+			"UIOrder": 5,
+			"Tooltip": "This setting defines the additional chance to recover a destroyed 'Mech. <color=#F79B26>defines the chance of getting your own mech back for free</color>",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 5,
+			"Options": [
+				{
+					"ID": "diff_MD_100",
+					"Name": "100%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1.5"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_90",
+					"Name": "90%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1.4"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_80",
+					"Name": "80%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1.3"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_70",
+					"Name": "70%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1.2"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_60",
+					"Name": "60%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1.1"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_50",
+					"Name": "50%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "1"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_40",
+					"Name": "40%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "0.9"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_30",
+					"Name": "30%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "0.8"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_20",
+					"Name": "20%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "0.7"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_10",
+					"Name": "10%",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "0.6"
+						}
+					]
+				},
+				{
+					"ID": "diff_MD_on",
+					"Name": "00%",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "DestroyedMechRecoveryChance",
+							"ConstantValue": "0.5"
+						}
+					]
+				}
+			]
+		},
         {
             "ID" : "diff_contractPayment",
             "Name" : "Contract Payment",
