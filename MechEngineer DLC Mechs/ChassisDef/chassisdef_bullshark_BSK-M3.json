@@ -106,9 +106,9 @@
       "Hardpoints": [],
       "Tonnage": 0.0,
       "InventorySlots": 16,
-      "MaxArmor": 300,
-      "MaxRearArmor": 150,
-      "InternalStructure": 150
+      "MaxArmor": 320,
+      "MaxRearArmor": 160,
+      "InternalStructure": 160
     },
     {
       "Location": "RightTorso",
