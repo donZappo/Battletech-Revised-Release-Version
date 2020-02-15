@@ -35,7 +35,7 @@
             "HitByChargeFallChance" : 0,
             "HitByDFAFallChance" : 0,
             "HitByKickFallChance" : 0,
-            "AllowMeleeFromSprint" : true,
+            "AllowMeleeFromSprint" : true
         },
         
         "Move" : {

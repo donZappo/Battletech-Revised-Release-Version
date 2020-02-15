@@ -91,6 +91,73 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_kit_dhs",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_cooling_2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_300",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
       "ComponentDefType": "Weapon",
@@ -212,8 +279,19 @@
       "GUID": null
     },
     {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -224,7 +302,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
@@ -235,7 +313,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -246,7 +324,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
@@ -257,7 +335,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -268,7 +346,29 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

@@ -92,7 +92,51 @@
   "inventory": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_kit_dhs",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_cooling_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -102,26 +146,16 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_300",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false
     },
     {
       "MountedLocation": "LeftTorso",
@@ -171,17 +205,6 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
-      "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -191,7 +214,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_UAC5_1-Mydron",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -202,7 +225,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Autocannon_LB10X_1-Western",
+      "ComponentDefID": "Weapon_Autocannon_LB5X_2-GM",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
@@ -213,7 +236,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_UAC5_1-Mydron",
+      "ComponentDefID": "Weapon_Autocannon_UAC5_2-Mydron",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
@@ -224,7 +247,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_LB10X_1-Western",
+      "ComponentDefID": "Weapon_Autocannon_LB5X_2-GM",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 1,
       "DamageLevel": "Functional",
@@ -234,7 +257,7 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftLeg",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -245,18 +268,7 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightLeg",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -267,8 +279,19 @@
       "GUID": null
     },
     {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -406,6 +429,17 @@
       "DamageLevel": "Functional",
       "prefabName": "",
       "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
       "SimGameUID": null,
       "GUID": null
     }

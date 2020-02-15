@@ -7,6 +7,6 @@
     "Settings": {
         "cost": 500000,
         "onceOnly": true ,
-        "trainingModuleRequired": true,
+        "trainingModuleRequired": true
     }
 }

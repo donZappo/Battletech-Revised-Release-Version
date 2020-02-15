@@ -75,7 +75,7 @@
 					"value" : "mechdef_kingcrab_KGC-V-0000",
 					"valueConstant" : null,
 					"additionalValues" : null
-				},				
+				}		
             ],
             "ForceEvents" : null,
             "TemporaryResult" : false,

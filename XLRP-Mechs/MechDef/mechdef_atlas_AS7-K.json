@@ -102,19 +102,8 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_cooling_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -168,6 +157,28 @@
       "GUID": null
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_300",
       "ComponentDefType": "HeatSink",
@@ -202,7 +213,7 @@
       "GUID": null
     },
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -213,7 +224,7 @@
       "GUID": null
     },
     {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

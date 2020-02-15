@@ -121,6 +121,6 @@
 			"pilot_unstable" : "Pilot's mood changes every day.",
 			"pilot_wealthy" : "Pilot generates extra fatigue per mission and has no maximum fatigue days. Reduced maintenance cost per month.",
 			"commander_player" : "Increased Resolve per turn if an Officer or Commander is in the lance."
-		},
+		}
 	}
 }

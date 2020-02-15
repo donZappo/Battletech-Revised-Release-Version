@@ -1,0 +1,273 @@
+{
+  "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower"
+    }
+  },
+  "FixedEquipment": [
+    {
+      "ComponentDefID": "EZ_MODE",
+      "ComponentDefType": "Upgrade",
+      "DamageLevel": "Functional",
+      "GUID": null,
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "MountedLocation": "CenterTorso",
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "prefabName": null
+    }  
+  ],
+  "Description": {
+    "Cost": 100,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "XLRP",
+    "Model": "",
+    "UIName": "The Programer",
+    "Id": "chassisdef_programer",
+    "Name": "The Programer",
+    "Details": "The Programer. Nuff Said",
+    "Icon": "Programer"
+  },
+  "VariantName": "PRG-01",
+  "StockRole": "Tester",
+  "YangsThoughts": "WTF?!? What is this?",
+  "PrefabIdentifier": "chrprfmech_bloodaspbase-001",
+  "PrefabBase": "bloodasp",
+  "Tonnage": 200,
+  "InitialTonnage": 20,
+  "weightClass": "LIGHT",
+  "BattleValue": 3910000,
+  "Heatsinks": 0,
+  "TopSpeed": 860,
+  "TurnRadius": 120,
+  "MaxJumpjets": 200,
+  "Stability": 1000,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 5,
+  "VisibilityMultiplier": 5,
+  "SensorRangeMultiplier": 5,
+  "Signature": 0,
+  "Radius": 20,
+  "PunchesWithLeftArm": true,
+  "EngageRangeModifier": 0,
+  "MeleeDamage": 200,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": -10,
+  "DFADamage": 400,
+  "DFAToHitModifier": -10,
+  "DFASelfDamage": 5,
+  "DFAInstability": 5,
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.83-0.63-0.79"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "MovementCapDefID": "movedef_programer",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_bloodasp",
+ "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 90,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 16,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 90,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": true
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ]
+}

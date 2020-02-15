@@ -1,0 +1,89 @@
+{
+	"Name": "XLRP-Tester",
+	"Author": "XSNomad",
+	"Website": "",
+
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
+	
+	"Manifest": [
+		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "AdvancedJSONMerge",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MEBonusDescriptions",
+			"Path": "MEBonusDescriptions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MECriticalEffects",
+			"Path": "MECriticalEffects",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCCategories",
+			"Path": "CCCategories",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "CCTagRestrictions",
+			"Path": "CCTagRestrictions",
+			"ShouldMergeJSON": false
+		},
+        {
+            "Type": "CCDefaults",
+            "Path": "CCDefaults",
+            "ShouldMergeJSON": false
+        },
+		{
+			"Type": "UpgradeDef",
+			"Path": "UpgradeDef",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "HeatSinkDef",
+			"ShouldMergeJSON": false
+		},	
+		{
+			"Type": "ItemCollectionDef",
+			"Path": "ItemCollectionDef",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "MovementCapabilitiesDef",
+			"Path": "MovementCapabilitiesDef",
+			"AddToDB": false
+		},
+		{
+		  "Type": "ChassisDef",
+		  "Path": "ChassisDef",
+		  "AddToDB": false
+		},
+		{
+		  "Type": "HardpointDataDef",
+		  "Path": "HardpointDataDef",
+		  "AddToDB": false
+		},
+		{
+		  "Type": "MechDef",
+		  "Path": "MechDef",
+		  "AddToDB": false
+		},
+		{
+		  "Type": "Sprite",
+		  "Path": "Sprite",
+		  "AddToDB": false
+		},
+		{
+		  "Type": "WeaponDef",
+		  "Path": "WeaponDef",
+		  "AddToDB": false
+		}
+	]
+}
