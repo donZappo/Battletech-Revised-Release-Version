@@ -52,7 +52,7 @@
         "Visible": true,
         "Toggle": true,
         "StartOnly": true,
-        "DefaultIndex": 1,
+        "DefaultIndex": 0,
         "Options": [
           {
             "ID": "diff_RNDMECHS_off",
@@ -136,7 +136,7 @@
             "Visible" : true,
             "Toggle" : false,
             "StartOnly" : true,
-            "DefaultIndex" : 0,
+            "DefaultIndex" : 2,
             "Options" : [
                 {
                     "ID" : "diff_MC_easy",
