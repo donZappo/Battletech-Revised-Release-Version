@@ -20,7 +20,7 @@
   "Tonnage": 20.0,
   "InitialTonnage": 2.0,
   "weightClass": "LIGHT",
-  "BattleValue": 1642000.0,
+  "BattleValue": 1642000,
   "Heatsinks": 0,
   "TopSpeed": 210,
   "TurnRadius": 90,

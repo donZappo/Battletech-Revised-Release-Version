@@ -6,8 +6,9 @@
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
-	"OptionallyDependsOn": [ "BT_Extended_Overrides" ],
-
+	"OptionallyDependsOn": [ 
+		"BT_Extended_Overrides" 
+	],
     "Settings": 
 	{
 		"StartingPirateActivity" : 25.0,
@@ -52,15 +53,15 @@
 			"AuriganPirates",
 			"NoFaction",
 			"Locals",
-			"ComStar",
+			"ComStar"
 			],
 		"DefensiveFactions": [
 			"Locals",
 			"NoFaction",
-			"ComStar",
+			"ComStar"
 			],
 		"ImmuneToWar" : [
-			"ComStar",
+			"ComStar"
 			],
 		"BonusAttackResources": {
 			"MagistracyOfCanopus" : 576,
@@ -72,7 +73,7 @@
 			"Locals" : 576,
 			"NoFaction" : 576,
 			"ComStar" : 0,
-			"AuriganPirates" : 0,
+			"AuriganPirates" : 0
 			},
 		"BonusDefensiveResources": {
 			"MagistracyOfCanopus" : 568,
@@ -84,7 +85,7 @@
 			"Locals" : 568,
 			"NoFaction" : 568,
 			"ComStar" : 0,
-			"AuriganPirates" : 0,
+			"AuriganPirates" : 0
 			},
 		"FactionNames": {
 			"Davion" : "The Federated Suns",
@@ -98,7 +99,7 @@
 			"ComStar" : "ComStar",
 			"Locals" : "Local Government",
 			"AuriganPirates" : "Pirates",
-			"NoFaction" : "Local Factions",
+			"NoFaction" : "Local Factions"
 			},
 		"FactionStrings": {
 			"Davion" : "Davion",
@@ -112,7 +113,7 @@
 			"ComStar" : "ComStar",
 			"Locals" : "Locals",
 			"NoFaction" : "NoFaction",
-			"AuriganPirates" : "AuriganPirates",
+			"AuriganPirates" : "AuriganPirates"
 			},
 		"FactionShopItems": {
 			"Davion" : "itemCollection_faction_Davion",
@@ -126,7 +127,7 @@
 			"NoFaction" : "itemCollection_minor_Locals",
 			"Locals" : "itemCollection_minor_Locals",
 			"AuriganDirectorate" : "itemCollection_minor_Locals",
-			"AuriganPirates" : "itemCollection_minor_Locals",
+			"AuriganPirates" : "itemCollection_minor_Locals"
 			},
 		"FactionShops": {
 			"Davion" : "itemCollection_minor_Davion",
@@ -139,7 +140,7 @@
 			"Steiner" : "itemCollection_minor_Steiner",
 			"Locals" : "itemCollection_minor_Locals",
 			"NoFaction" : "itemCollection_minor_Locals",
-			"AuriganPirates" : "itemCollection_minor_Locals",
+			"AuriganPirates" : "itemCollection_minor_Locals"
 			},
 		"FactionTags": {
 			"Davion" : "planet_faction_davion",
@@ -154,7 +155,7 @@
 			"Locals" : "planet_faction_independent",
 			"NoFaction" : "planet_faction_nofaction",
 			"AuriganDirectorate" : "planet_faction_directorate",
-			"AuriganPirates" : "planet_faction_auriganpirates",
+			"AuriganPirates" : "planet_faction_auriganpirates"
 			},
 		//*** SimpleBattle: 3, DestroyBase: 6, CaptureBase: 7, CaptureEscort: 8, Rescue: 9, Assassinate: 10,
 		//*** DefendBase: 11, EscortSingle: 12, AmbushConvoy: 15, FireMission: 50, ThreeWayBattle: 52, AttackDefend: 53, 
@@ -172,7 +173,7 @@
 			"ThreeWayBattle" : 0.6,
 			"AttackDefend" : 1.6,
 			"SoloDuel" : 0.4,
-			"DuoDuel" : 0.4,
+			"DuoDuel" : 0.4
 			},
 			
 			
@@ -195,7 +196,7 @@
 			"AuriganPirates",
 			"NoFaction",
 			"Locals",
-			"ComStar",
+			"ComStar"
 			],
 		"BonusAttackResources_ISM": {
 			"MagistracyOfCanopus" : 0,
@@ -209,7 +210,7 @@
 			"Locals" : 0,
 			"NoFaction" : 0,
 			"ComStar" : 0,
-			"AuriganPirates" : 0,
+			"AuriganPirates" : 0
 			},
 		"BonusDefensiveResources_ISM": {
 			"MagistracyOfCanopus" : 0,
@@ -223,7 +224,7 @@
 			"Locals" : 0,
 			"NoFaction" : 0,
 			"ComStar" : 0,
-			"AuriganPirates" : 0,
+			"AuriganPirates" : 0
 			},
 		"LogoNames": {
 			"Davion" : "davionLogo",
@@ -233,11 +234,11 @@
 			"MagistracyOfCanopus" : "magistracyLogo",
 			"AuriganRestoration" : "restorationLogo",
 			"Kurita" : "kuritaLogo",
-			"Steiner" : "steinerLogo",
+			"Steiner" : "steinerLogo"
 			},
 			
 			
 		"LongWarTesting" : false,
-		"Debug" : false,
+		"Debug" : false
     }
 }

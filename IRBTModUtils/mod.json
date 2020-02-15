@@ -10,6 +10,6 @@
     "DependsOn" : [ ],
     "Settings": { 
             "Debug" : true,
-            "Trace" : true,
+            "Trace" : true
     }
 }

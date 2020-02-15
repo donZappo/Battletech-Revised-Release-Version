@@ -62,16 +62,3 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Runtime ----------
 [Info] Patch out sensitive data log dumps
 [Info] LogLevel info
-Levels :Spam False :Debug False :Info True :Warn True
-[Info] Sorted in 6.5012 ms
-[Info] Sorted in 3.4947 ms
-[Info] Filter took 9.0851 ms and resulted in 145 -> 72 items
-[Info] Sorted in 5.0942 ms
-[Info] Sorted in 3.4661 ms
-[Info] Filter took 5.9068 ms and resulted in 145 -> 72 items
-[Info] Sorted in 93.7901 ms
-[Info] Sorted in 3.4639 ms
-[Info] Filter took 5.9769 ms and resulted in 145 -> 72 items
-[Info] Sorted in 5.1842 ms
-[Info] Sorted in 3.7259 ms
-[Info] Filter took 6.4263 ms and resulted in 145 -> 72 items

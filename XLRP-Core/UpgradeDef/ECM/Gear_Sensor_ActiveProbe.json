@@ -31,7 +31,7 @@
                 "effectTriggerType" : "OnActivation",
                 "effectTargetType" : "EnemiesWithinRange",
 				"alsoTargetsCreator" : true,
-                "forceVisRebuild" : true,
+                "forceVisRebuild" : true
             },
 			"effectType" : "ActiveAbility",
 			"Description" :
@@ -43,13 +43,12 @@
 			},
 			"activeAbilityEffectData" : 
 			{
-				"abilityName" : "AbilityDef_ActiveProbe_Ping",
-			},
-		},		
+				"abilityName" : "AbilityDef_ActiveProbe_Ping"
+			}
+		}
     ],
     "ComponentTags" : {
-        "items" : [
-        ],
+        "items" : [],
         "tagSetSourceFile" : ""
     }
 }

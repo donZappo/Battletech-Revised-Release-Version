@@ -26,7 +26,7 @@
             "SkirmishReset" : "true",
             "SpawnProtection" : "true",
             "StreamlinedMainMenu" : "true",
-            "WeaponTooltip" : "true",
+            "WeaponTooltip" : "true"
         },
         "Abilities" : {
             "MultiTargetId" : "AbilityDefG5"
