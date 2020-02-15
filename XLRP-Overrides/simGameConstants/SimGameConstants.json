@@ -17,14 +17,14 @@
     "HERALDRY_VERSION": 1
   },
   "Travel": {
-    "DefaultSystemTravelTime": 4,
-    "DefaultFuelTime": 3,
-    "FuelStationFuelTime": 3,
+    "DefaultSystemTravelTime": 2,
+    "DefaultFuelTime": 2,
+    "FuelStationFuelTime": 2,
     "MinMapX": 0,
     "MaxMapX": 0,
     "MinMapY": 0,
     "MaxMapY": 0,
-    "MaxJumpDistance": 30,
+    "MaxJumpDistance": 45,
     "StarSystemPrefix": "starsystemdef_",
     "HabitablePlanetTags": [
       "planet_climate_arctic",
@@ -371,10 +371,10 @@
       "5a3845b6623035d41400002a",
       "5a305324623035701c00002a"
     ],
-    "NotifLowFundsQtrRemainThreshold": 2,
-    "NotifLowFundsRecurrence": 14,
-    "NotifDangerLowFundsQtrRemainThreshold": 1,
-    "NotifDangerLowFundsRecurrence": 7,
+    "NotifLowFundsQtrRemainThreshold": 0,
+    "NotifLowFundsRecurrence": 31,
+    "NotifDangerLowFundsQtrRemainThreshold": 0,
+    "NotifDangerLowFundsRecurrence": 31,
     "NotifArgoUpgradesModuleThreshold": 6,
     "NotifArgoUpgradesRecurrence": 10,
     "NotifMechRepairsNeededRecurrence": 10,
