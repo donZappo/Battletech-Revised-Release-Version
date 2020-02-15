@@ -28,10 +28,10 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 140,
+      "CurrentArmor": 160,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 80,
-      "AssignedArmor": 140,
+      "AssignedArmor": 160,
       "AssignedRearArmor": -1
     },
     {
@@ -46,11 +46,11 @@
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 200,
-      "CurrentRearArmor": 55,
+      "CurrentArmor": 235,
+      "CurrentRearArmor": 60,
       "CurrentInternalStructure": 150,
-      "AssignedArmor": 200,
-      "AssignedRearArmor": 55
+      "AssignedArmor": 235,
+      "AssignedRearArmor": 60
     },
     {
       "DamageLevel": "Functional",
@@ -64,28 +64,28 @@
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 140,
+      "CurrentArmor": 160,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 80,
-      "AssignedArmor": 140,
+      "AssignedArmor": 160,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 130,
+      "CurrentArmor": 170,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 100,
-      "AssignedArmor": 130,
+      "AssignedArmor": 170,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 130,
+      "CurrentArmor": 170,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 100,
-      "AssignedArmor": 130,
+      "AssignedArmor": 170,
       "AssignedRearArmor": -1
     }
   ],
@@ -147,7 +147,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_300",
+      "ComponentDefID": "emod_engine_320",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": 0,
       "DamageLevel": "Functional",
