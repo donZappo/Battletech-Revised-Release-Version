@@ -1,0 +1,48 @@
+2020-02-15 06:38:30.432 - Assembly version: 0.5.6.0
+2020-02-15 06:38:30.432 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRTweaks
+2020-02-15 06:38:30.432 - mod.json settings are:({"Debug":true,"Trace":false,"Fixes":{"BulkPurchasing":"true","CombatLog":"true","DisableCampaign":"true","DisableCombatSaves":"false","ExtendedStats":"true","FlexibleSensorLock":"true","MultiTargetStat":"true","PreventHeadShots":"false","RandomStartByDifficulty":"false","ReduceSaveCompression":"true","SkipDeleteSavePopup":"true","SkirmishReset":"true","SpawnProtection":"true","StreamlinedMainMenu":"true","WeaponTooltip":"true"},"Abilities":{"MultiTargetId":"AbilityDefG5"},"Combat":{"PilotAttributesMax":14,"CalledShot":{"Modifier":9,"PilotTags":{"pilot_drunk":-2,"pilot_reckless":-1,"pilot_assassin":2}},"SpawnProtection":{"ApplyGuard":true,"EvasionPips":6,"ApplyToEnemies":true,"ApplyToAllies":true,"ApplyToNeutrals":true,"ApplyToReinforcements":true},"FlexibleSensorLock":{"FreeActionWithAbility":true,"AbilityId":"AbilityDefT8A"}},"Store":{"QuantityOnShift":5,"QuantityOnControl":20}})
+2020-02-15 06:38:30.433 - === MOD CONFIG BEGIN ===
+2020-02-15 06:38:30.433 -   DEBUG:True Trace:False
+2020-02-15 06:38:30.433 -   -- Fixes --
+2020-02-15 06:38:30.433 -   BulkPurchasing:True  CombatLog:True  DisableCombatSaves:False  ExtendedStats: True  FlexibleSensorLock:True  PreventCalledShots: False  RandomStartByDifficulty:False  SkirmishReset: True  SpawnProtection:TrueWeaponTooltips:TrueSkipDeleteSavePopup:TrueReduceSaveCompression:True
+2020-02-15 06:38:30.433 -   -- Called Shot --
+2020-02-15 06:38:30.433 -    CalledShotDefaultMod:9
+2020-02-15 06:38:30.433 -    CalledShotPilotModifier - tag:pilot_drunk modifier:-2
+2020-02-15 06:38:30.433 -    CalledShotPilotModifier - tag:pilot_reckless modifier:-1
+2020-02-15 06:38:30.433 -    CalledShotPilotModifier - tag:pilot_assassin modifier:2
+2020-02-15 06:38:30.433 -    CalledShotDefaultMod:9
+2020-02-15 06:38:30.433 -   -- Spawn Protection --
+2020-02-15 06:38:30.433 -    ApplyGuard:True  EvasionPips:6
+2020-02-15 06:38:30.433 -    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+2020-02-15 06:38:30.433 -    ApplyToReinforcements:True
+2020-02-15 06:38:30.433 -   -- Store --
+2020-02-15 06:38:30.433 -    QuantityOnShift:5  QuantityOnControl:20
+2020-02-15 06:38:30.433 -   -- Flexible Sensor Lock Options --
+2020-02-15 06:38:30.433 -    FreeActionWithAbility:True  AbilityId:AbilityDefT8A
+2020-02-15 06:38:30.433 - === MOD CONFIG END ===
+2020-02-15 06:38:30.433 - INFO: No errors reading settings file.
+2020-02-15 06:38:30.434 - Activating Fix: ExtendedStats
+2020-02-15 06:38:30.435 - Activating Fix: FlexibleSensorLock
+2020-02-15 06:38:30.447 - Activating Fix: SpawnProtection
+2020-02-15 06:38:30.449 - Activating Fix: SkirmishReset
+2020-02-15 06:38:30.450 - Activating Fix: MultiTargetStat
+2020-02-15 06:38:30.451 - Activating Fix: BulkPurchasing
+2020-02-15 06:38:30.455 - Activating Fix: CombatLog
+2020-02-15 06:38:30.470 - Activating Fix: StreamlinedMainMenu
+2020-02-15 06:38:30.476 - Activating Fix: WeaponTooltip
+2020-02-15 06:40:15.867 - TP_W:SD entered.
+2020-02-15 06:40:15.867 -   Updating weapon text.
+2020-02-15 06:40:15.895 - TP_W:SD entered.
+2020-02-15 06:40:15.895 -   Updating weapon text.
+2020-02-15 06:40:29.866 - TP_W:SD entered.
+2020-02-15 06:40:29.866 -   Updating weapon text.
+2020-02-15 06:50:09.160 - TP_W:SD entered.
+2020-02-15 06:50:09.160 -   Updating weapon text.
+2020-02-15 06:50:09.187 - TP_W:SD entered.
+2020-02-15 06:50:09.187 -   Updating weapon text.
+2020-02-15 06:50:09.204 - TP_W:SD entered.
+2020-02-15 06:50:09.205 -   Updating weapon text.
+2020-02-15 06:50:09.220 - TP_W:SD entered.
+2020-02-15 06:50:09.220 -   Updating weapon text.
+2020-02-15 06:50:09.260 - TP_W:SD entered.
+2020-02-15 06:50:09.260 -   Updating weapon text.
