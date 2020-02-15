@@ -7,7 +7,7 @@
 	"Hidden": true,
 	"DependsOn": ["CustomComponents", "MechEngineer"],
 	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
-	//"DLL": "XLRP_Core.dll",
+	"DLL": "XLRP_Core.dll",
 	
 	"Manifest": [
 		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
