@@ -16,39 +16,6 @@
   "simGameMechPartCost": 560000,
   "Version": 1.0,
   "Locations": [
-      {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_case",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_kit_dhs",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_case",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
     {
       "DamageLevel": "Functional",
       "Location": "Head",
@@ -123,6 +90,83 @@
     }
   ],
   "inventory": [
+      {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_kit_dhs",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_case",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
