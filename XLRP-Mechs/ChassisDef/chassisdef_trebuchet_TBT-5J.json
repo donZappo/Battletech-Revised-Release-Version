@@ -1,5 +1,5 @@
 {
-  "FixedEquipment": null,
+  "FixedEquipment": [],
   "Description": {
     "Cost": 4400000,
     "Rarity": 4,
@@ -20,7 +20,7 @@
   "Tonnage": 50.0,
   "InitialTonnage": 5.0,
   "weightClass": "MEDIUM",
-  "BattleValue": 4665000.0,
+  "BattleValue": 4665000,
   "Heatsinks": 0,
   "TopSpeed": 80,
   "TurnRadius": 90,
