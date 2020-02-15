@@ -7,7 +7,7 @@
 
     "Author": "Team Banzai",
 
-    "DependsOn": ["MechEnginer DLC Mechs","MechEnginer Vanilla Mechs", "XLRP-Mechs"],
+    "DependsOn": ["MechEngineer DLC Mechs","MechEngineer Vanilla Mechs", "XLRP-Mechs"],
     "ConflictsWith": [],
 
     "Manifest": [
