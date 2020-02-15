@@ -756,7 +756,7 @@
                 "Type" : "AC20",
                 "SlotChange" : {
                     "From" : 4,
-                    "By" : 6,
+                    "By" : 5,
                     "FromIsMin" : false,
                     "NewMin" : null
                 },

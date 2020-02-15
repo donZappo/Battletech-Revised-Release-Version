@@ -623,6 +623,153 @@
                     "NewMin" : null
                 }
             }
+        ],
+        "AutoFixWeaponDefSlotsChanges" : [
+            {
+                "Type" : "AC5",
+                "SlotChange" : {
+                    "From" : 2,
+                    "By" : 2,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "AC10",
+                "SlotChange" : {
+                    "From" : 3,
+                    "By" : 4,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "AC20",
+                "SlotChange" : {
+                    "From" : 4,
+                    "By" : 5,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "Gauss",
+                "SlotChange" : {
+                    "From" : 5,
+                    "By" : 2,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "LRM20",
+                "SlotChange" : {
+                    "From" : 4,
+                    "By" : 1,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "TAG",
+                "SlotChange" : {
+                    "From" : 3,
+                    "By" : -2,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "LB2X",
+                "SlotChange" : {
+                    "From" : 1,
+                    "By" : 3,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : {
+                    "From" : 5,
+                    "By" : 1,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                }
+            },
+            {
+                "Type" : "LB5X",
+                "SlotChange" : {
+                    "From" : 2,
+                    "By" : 3,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "LB10X",
+                "SlotChange" : {
+                    "From" : 4,
+                    "By" : 2,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "LB20X",
+                "SlotChange" : {
+                    "From" : 6,
+                    "By" : 5,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "UAC2",
+                "SlotChange" : {
+                    "From" : 1,
+                    "By" : 2,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "UAC5",
+                "SlotChange" : {
+                    "From" : 2,
+                    "By" : 3,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "UAC10",
+                "SlotChange" : {
+                    "From" : 3,
+                    "By" : 4,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            },
+            {
+                "Type" : "UAC20",
+                "SlotChange" : {
+                    "From" : 4,
+                    "By" : 6,
+                    "FromIsMin" : false,
+                    "NewMin" : null
+                },
+                "TonnageChange" : null
+            }
         ]
 	},
     "TagManager" : {
