@@ -25,7 +25,7 @@
       "name": "BattleTech.WeaponCategoryEnumeration",
       "path": "WeaponCategory.json"
     }
-  ],*/
+  ],
 	"Manifest": [
 		{ "Type": "AssetBundle", "Path": "assetbundles" },	
 		{ "Type": "AmmunitionDef", "Path": "ammunition\\" },
