@@ -5,28 +5,28 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_medBay2",
-        "Name" : "Med Bay 2",
-        "Details" : "This expanded field hospital allows for two MedTechs to work side by side, meaning more capacity to treat patients. The cost includes the salary of an additional skilled MedTech to treat your injured MechWarriors.",
+        "Name" : "Med Bay 2nd Shift",
+        "Details" : "Commander, investing in the Medbay should help get our medical treatment up to par.  We need to invest in fixing the broken equipment and routine maintenance of that equipment. Plus, we need another shift of med techs in order to reduce the strain put on our current staff. Cost includes maintenance and salaries for <color=#cc4125><b>+6 MedTechs</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay2"
     },
     "Illustration" : "uixTxrSpot_MedBay",
     "Location" : "SHIP",
     "Category" : "MED_BAY",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, the existing Med Bay is able to keep up, but just barely. Nobody's dying for lack of treatment, but our medics are overworked. Beta Pod has an entire additional medical bay, unused and waiting to be renovated and powered back up.",
+    "AssignedCastDescription": "Commander, the existing Med Bay is able to keep up, but just barely. Nobody's dying for lack of treatment, but our medics are overworked.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay1",
-			"argoUpgrade_pod2"
+			"argoUpgrade_power2"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 900000,
-    "AdditionalCost" : 13500,
+    "TechCost" : 14,
+    "PurchaseCost" : 300000,
+    "AdditionalCost" : 9000,
     "Tags" : {
         "items" : [
             "argo_medBay2"

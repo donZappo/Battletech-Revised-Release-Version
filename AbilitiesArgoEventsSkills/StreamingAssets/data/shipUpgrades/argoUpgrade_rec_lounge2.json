@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_lounge2",
         "Name" : "Upgraded Lounge",
-        "Details" : "A few couches and a table don't make for much of a social space. Drinks, 2-D video screens, and a sound system, on the other hand…",
+        "Details" : "I have a few suggestions for the lounge, Commander.  How does a bar sound to wet our whistles and cut the martain dust down our gullots? Maybe a pool table? How about Holo-projection theater? Ohhh Ohhh maybe even a Galaxy class sound system? The Upgraded Lounge adds <color=#ffd966><b>+3 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_loungeUpgrade"
     },
     "Illustration" : "uixTxrSpot_Lounge",
     "Location" : "SHIP",
     "Category" : "RECREATION",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "The, uh, the engineers were wondering if they could schedule a regular tri-vid event. There's this show, about mercenaries during the civil war, and their 'Mechs are supposed to be historically accurate. I'd— uh, they'd like a space to watch stuff like that.",
+    "AssignedCastDescription": "Commander, in order for the crew to fully vent their frustrations and get their downtime from this rigorous schedule, we need to have an outstanding rec room!",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_rec_lounge1",
@@ -24,9 +24,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
-    "PurchaseCost" : 450000,
-    "AdditionalCost" : 1700,
+    "TechCost" : 18,
+    "PurchaseCost" : 270000,
+    "AdditionalCost" : 600,
     "Tags" : {
         "items" : [
             "argo_rec_lounge2"

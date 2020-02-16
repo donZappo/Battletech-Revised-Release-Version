@@ -5,28 +5,29 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_medBay3",
-        "Name" : "Med Bay 3",
-        "Details" : "The fully upgraded field hospital has enough bed space, diagnostic equipment, and surgeries to allow fully half the company to be treated at once. The cost includes the salary of an additional skilled MedTech to treat your injured MechWarriors.",
+        "Name" : "Expanded Med Bay",
+                "Details" : "Welcome to the Med Bay Commander,  as you can see we have done a great job of treating the Mechwarriors.  Unfortunately, we are only using about half of the space available to us. Since, we have the power and sctructure in place, I would like permission to expand the facilities and staff in order to handle the injuries we are seeing. I can add another six beds and more support staff to handle it. The cost includes maintenance and salaries for <color=#cc4125><b>+6 Med Techs</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay3"
     },
     "Illustration" : "uixTxrSpot_MedBay",
     "Location" : "SHIP",
     "Category" : "MED_BAY",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "We're taking enough injuries to keep our current medical staff fully tasked, Commander, and that makes me worry about our future capacity. These battles aren't getting any easier. We have the space for another Med Bay, and I'm sure we'd find it useful.",
+    "AssignedCastDescription": "We're taking enough injuries to keep our current medical staff fully tasked, Commander, and that makes me worry about our future capacity. These battles aren't getting any easier. We have the space to expand the Med Bay, we should use it.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay2",
-			"argoUpgrade_pod3"
+			"argoUpgrade_structure2",
+			"argoUpgrade_power2"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
-    "PurchaseCost" : 1500000,
-    "AdditionalCost" : 9250,
+    "TechCost" : 36,
+    "PurchaseCost" : 900000,
+    "AdditionalCost" : 16500,
     "Tags" : {
         "items" : [
             "argo_medBay3"

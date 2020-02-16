@@ -6,28 +6,28 @@
         "UIName" : "",
         "Id" : "argoUpgrade_drive1",
         "Name" : "Drive Repairs",
-        "Details" : "The <i>Argo</i>'s drive was enough to get it off the surface of a low-gravity moon, but much of the supporting infrastructure was damaged in the escape, and running the drive at full power requires extensive repairs. Once the repairs are complete, the drive can generate 1.5 g of thrust.",
+        "Details" : "An extensive overhaul of the drive engines is the top priority.  Without it, it is quite possible that we will blow up in the vast reaches of space if we had to put any kind of load on them at all. Since the drive engines supply the ship's power, it is also imperative that we get them 'up to speed' in order to upgrade any other systems on the ship. Repairing the drive engines will increase drive output by <color=#2EFE9A><b>20%</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_drive1"
     },
     "Illustration" : "uixTxrSpot_ArgoDrive1",
     "Location" : "ENGINEERING",
     "Category" : "DRIVE_SYSTEM",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "The Argo's drive is only operating at a fraction of its potential, Commander. With some time and materials, I believe I can boost the output of the secondary fusion reactors - to put it simply, I'll make the Argo go faster.",
+    "AssignedCastDescription": "The Argo's drive is only operating at a fraction of its potential, Commander. With significant time and materials, I believe I can repair the output of the fusion reactors thereby cutting travel time to systems and allowing more systems to be powered up.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_drive0",
 			"argoUpgrade_power2",
-			"argoUpgrade_structure1"
+			"argoUpgrade_structure2"
 		],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 720000,
-    "AdditionalCost" : 1400,
+    "TechCost" : 30,
+    "PurchaseCost" : 1500000,
+    "AdditionalCost" : 5000,
     "Tags" : {
         "items" : [
             "argo_drive1"

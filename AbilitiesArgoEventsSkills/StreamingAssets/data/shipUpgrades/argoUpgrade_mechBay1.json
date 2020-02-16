@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay1",
         "Name" : "Mech Bay 1",
-        "Details" : "The <i>Argo</i>'s Mech Bay is vast, spacious, and meant to be entirely managed by complex automation. Currently, six of the 18 total 'Mech cubicles are powered and in working order, and almost none of the automation.",
+        "Details" : "The <i>Argo</i>'s Mech Bay is vast, spacious, and meant to be entirely managed by complex automation. Currently, six of the 18 Mech bays are powered and in working order, and none of the automation. Mechbay 1 brings the total number of Mechbays to <color=#04B404><b>6 and +2 Techs.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay1"
     },
     "Illustration" : "uixTxrSpot_MechBay",
@@ -25,7 +25,7 @@
     ],
     "TechCost" : 0,
     "PurchaseCost" : 0,
-    "AdditionalCost" : 0,
+    "AdditionalCost" : 10000,
     "Tags" : {
         "items" : [
             "argo_mechBay1"

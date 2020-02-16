@@ -5,15 +5,15 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_medBay_hospital",
-        "Name" : "Hospital Bay",
-        "Details" : "The original <i>Argo</i> specifications had room and infrastructure for actual hospital facilities, rather than just simple Med Bays. With a full hospital's worth of equipment and connections to the ship's library and databases, the MedTechs are able to perform near-miracles of healing. All Med Bays will be converted into Hospital Bays.",
+        "Name" : "Trauma Hospital",
+              "Details" : "The <i>Argo</i> has room and infrastructure for actual hospital facilities, by using the rest of our space.  If we can add a full trauma surgical team and have a dedicated and sterile operating room, we will exponentially, be able to save lives. This upgrade will be expensive but having real surgeons on call, is imperative to the longevity of our mission. Cost include maintenance and the salaries for the trauma team of <color=#cc4125><b>+4 Surgeons plus reduces Incapacitating deaths by 40% and Leathal deaths by 25%.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay4"
     },
     "Illustration" : "uixTxrSpot_MedBay",
     "Location" : "SHIP",
     "Category" : "MED_BAY",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, the medics are talking about all the advanced facilities, and we now have sufficient power to operate it all. We'd need to do a major overhaul of all our Med Bays, but we'd substantially increase our ability to treat severe injuries.",
+    "AssignedCastDescription": "Commander, the medics are excited about more advanced facilities, and we now have sufficient power to operate it all. Wow, Commander we have finally made it to the big time, we will have our own surgeons!",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay3",
@@ -24,9 +24,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 30,
+    "TechCost" : 75,
     "PurchaseCost" : 2700000,
-    "AdditionalCost" : 6700,
+    "AdditionalCost" : 35500,
     "Tags" : {
         "items" : [
             "argo_medbay_hospital"
@@ -43,13 +43,13 @@
 		{
 			"typeString" : "System.Single",
 			"name" : "IncapacitatedDeathChance",
-			"value" : -0.05,
+			"value" : -0.40,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Single",
 			"name" : "LethalDeathChance",
-			"value" : -0.05,
+			"value" : -0.25,
 			"valueConstant" : ""
 		}		
     ]

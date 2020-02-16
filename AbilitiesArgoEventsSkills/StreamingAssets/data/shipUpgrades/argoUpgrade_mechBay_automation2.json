@@ -6,28 +6,28 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_automation2",
         "Name" : "Improved Automation",
-        "Details" : "<b>• Allows Repair Bay 3 in Mech Bay 3 to repair at 100% efficiency.</b>\n\nRepairs to the Mech Bay have unearthed a much more extensive system of 'Mech maintenance automation than Yang previously suspected. Once it's back online, many common tasks will become trivial.",
+        "Details" : "Repairs to the Mech Bay have unearthed a much more extensive system of 'Mech maintenance automation than Yang previously suspected. Once it's back online, many common tasks will become trivial. Improved Automation requires lots of maintenance and adds <color=#04B404><b>+4 Techs.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_automationUpgrade"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "MECH_BAY",
     "Category" : "REPAIR_REFIT",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "There's machines hidden in the walls, under the floor panels—I don't even know what half of it does. But I turned one on and it built a 'Mech leg before I was able to shut it off. We make these work, we'll be moving 'Mechs out of repair in record time.",
+    "AssignedCastDescription": "There's are even more machines hidden in the walls and under the floor panels! Once, I get it figured out and you get me the specialized parts I need, We'll be turning out Mechs, in record time.",
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_mechBay_automation1",
 			"argoUpgrade_mechBay2",
-			"argoUpgrade_structure1"
+			"argoUpgrade_power3"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
+    "TechCost" : 32,
     "PurchaseCost" : 3000000,
-    "AdditionalCost" : 10000,
+    "AdditionalCost" : 13000,
     "Tags" : {
         "items" : [
             "argo_mechBay_automation2"

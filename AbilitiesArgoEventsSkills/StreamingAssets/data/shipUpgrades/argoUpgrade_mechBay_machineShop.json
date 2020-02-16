@@ -6,26 +6,26 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_machineShop",
         "Name" : "Machine Shop",
-        "Details" : "Maintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack.",
+        "Details" : "Maintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack. The Machine Shop requires maintenance and adds <color=#04B404><b>+3 Techs.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_machineshop"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "MECH_BAY",
     "Category" : "REPAIR_REFIT",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "Okay, what we've got here is a fully outfitted machine shop, and a whole lot of data on 'Mech specifications. Get this back online, and we'll be machining our own parts, probably better than the ones coming out of the Taurian factories. Faster, too.",
+    "AssignedCastDescription": "Okay, what we've got here is an empty machine shop, and a whole lot of data on 'Mech specifications. Get me some heavy machining equipment and we'll be machining our own parts, probably better than the ones coming out of the Taurian factories.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_mechBay3"
+			"argoUpgrade_mechBay2"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 30,
-    "PurchaseCost" : 1000000,
-    "AdditionalCost" : 4250,
+    "TechCost" : 28,
+    "PurchaseCost" : 750000,
+    "AdditionalCost" : 4000,
     "Tags" : {
         "items" : [
             "argo_mechBay_machineShop"
@@ -36,7 +36,7 @@
  		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 1000,
+			"value" : 3,
 			"valueConstant" : ""
 		}       
     ]

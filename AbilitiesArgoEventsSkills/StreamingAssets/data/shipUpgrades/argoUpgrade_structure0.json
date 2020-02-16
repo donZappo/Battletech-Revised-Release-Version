@@ -5,8 +5,8 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_structure0",
-        "Name" : "Structural Jury-Rigging",
-        "Details" : "The thrust from the main drive should have severed the spine of the ship when it pulled away from the crash site. Dr. Murad theorizes that the whole thing is being held together by the external hull plating.",
+        "Name" : "Structural Patch-Work",
+        "Details" : "The thrust from the main drive should have severed the spine of the ship when it pulled away from the crash site. Dr. Murad theorizes that the whole thing is barely being held together by the external hull plating. The ship could fall apart if much stress is put on it, I recommend upgrading the structure ASAP!",
         "Icon" : "uixSvgIcon_shipUpgrade_structure0"
     },
     "Illustration" : "uixTxrSpot_ArgoStructure0",

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_library2",
         "Name" : "Improved Library",
-        "Details" : "Active subscriptions to a variety of e-book services, periodicals, and tri-vid channels make the library even more appealing to everyone.",
+        "Details" : "Active subscriptions to a variety of e-book services, periodicals, and tri-vid channels make the library even more appealing to everyone. The improved Library adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_libraryUpgrade"
     },
     "Illustration" : "uixTxrSpot_Library",
@@ -16,15 +16,16 @@
     "AssignedCastDescription": "A JumpShip pilot told me there's an off-the-books digital distribution service. They get tri-vid and books from DropShips and sell them under the table. It would be more interesting than the decade-old 'Mech magazines Yang keeps putting in the library, anyway.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_rec_library1"
+			"argoUpgrade_rec_library1",
+			"argoUpgrade_power3"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 450000,
+    "TechCost" : 18,
+    "PurchaseCost" : 350000,
     "AdditionalCost" : 1700,
     "Tags" : {
         "items" : [

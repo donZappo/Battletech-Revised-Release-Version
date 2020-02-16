@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod3",
         "Name" : "Gamma Pod",
-        "Details" : "Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod still leaves plenty of space for other facilities.",
+        "Details" : "Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod will bring the pilot's barracks to a maximum capacity of eighteen. It is a pitty we can't field them all at the same time. With Gamma pod online you have room for <color=#58FAF4><b>18 'Mech Pilots</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podGamma"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",
     "Location" : "SHIP",
     "Category" : "HABITAT_POD",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, there are already a half dozen requests for new facilities for Gamma Pod, ranging from a swimming pool to a DropShip-sized bouncy castle. On a more practical note, we could also begin using the Gamma Pod medical facilities.",
+    "AssignedCastDescription": "Commander, there are already a half dozen requests for new facilities for the extra unused space in Gamma Pod, ranging from a swimming pool to a DropShip-sized bouncy castle. We leave these 'fun' decisions in your hands, Commander",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod2",
@@ -25,9 +25,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 30,
-    "PurchaseCost" : 2800000,
-    "AdditionalCost" : 8500,
+    "TechCost" : 8,
+    "PurchaseCost" : 850000,
+    "AdditionalCost" : 2000,
     "Tags" : {
         "items" : [
             "argo_pod3"
@@ -45,7 +45,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "BarracksPods_Display",
-			"value" : 24,
+			"value" : 18,
 			"set" : true,
 			"valueConstant" : ""
 		} 

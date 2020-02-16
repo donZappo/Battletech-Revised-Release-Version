@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_pool",
         "Name" : "Low-G Pool",
-        "Details" : "When you have a large space with nothing critical in it, where the gravity is too low for living quarters, the obvious choice is to fill it with chlorinated water.",
+        "Details" : "When you have a large space with nothing critical in it and need to keep your crew in tip top shape, the obvious choice is to make a pool and fill it with chlorinated water. The Low-G Pool adds <color=#ffd966><b>+3 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_pool"
     },
     "Illustration" : "uixTxrSpot_LowGPool",
     "Location" : "SHIP",
     "Category" : "RECREATION",
     "AssignedCastDefId": "castDef_SumireDefault",
-    "AssignedCastDescription": "Commander. Come on. LOW-GRAVITY SWIMMING POOL. I don't know what there even is to discuss here.",
+    "AssignedCastDescription": "Commander, our crews physical and mental conditioning is top priority. A low-g pool give the resistance needed to keep great muscle tone for our Mechwarriors.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod3"
@@ -23,8 +23,8 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
-    "PurchaseCost" : 450000,
+    "TechCost" : 23,
+    "PurchaseCost" : 750000,
     "AdditionalCost" : 1700,
     "Tags" : {
         "items" : [

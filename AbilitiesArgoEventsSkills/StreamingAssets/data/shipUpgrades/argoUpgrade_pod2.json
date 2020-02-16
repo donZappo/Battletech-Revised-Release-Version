@@ -6,27 +6,28 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod2",
         "Name" : "Beta Pod",
-        "Details" : "Beta Pod, once repaired, includes what was clearly once a hydroponics facility near the spine of the <i>Argo</i>, and a low-g gymnasium just above that. Neither survived exposure to hard vacuum and stellar radiation, but they're tantalizing indications of the luxuries the <i>Argo</i> once included.",
+        "Details" : "Beta Pod includes a barracks for eight more mechwarriors which will increase the lavatories and showers too. Plus there is unused space that would make a great hydroponics garden <i>Argo</i>, and a low-g gymnasium just above that. With Beta pod online you have room for <color=#58FAF4><b>12 'Mech Pilots</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podBeta"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",
     "Location" : "SHIP",
     "Category" : "HABITAT_POD",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "The crew has seen the Beta Pod rec facilities on the ship's floor plans, Commander, and it's all they can talk about. More practically, we'd be able to bring the Beta Pod medical facilities back online.",
+    "AssignedCastDescription": "Commander, we really need more space for more mechwarriors if we are ever to get them trained for the tenious times ahead, remember boot camp? That is what we need to do here find recruits and get them trained, asap.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod1",
-			"argoUpgrade_structure1"
+			"argoUpgrade_power2",
+			"argoUpgrade_structure2"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
-    "PurchaseCost" : 700000,
-    "AdditionalCost" : 1750,
+    "TechCost" : 6,
+    "PurchaseCost" : 650000,
+    "AdditionalCost" : 1500,
     "Tags" : {
         "items" : [
             "argo_pod2"
@@ -44,7 +45,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "BarracksPods_Display",
-			"value" : 16,
+			"value" : 12,
 			"set" : true,
 			"valueConstant" : ""
 		}

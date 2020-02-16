@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_refitHarness",
         "Name" : "Refit Harness",
-        "Details" : "'Mechs were not really meant to bear their own weight while being refitted with new equipment. The <i>Argo</i>'s Mech Bay includes harnesses meant to hoist the 'Mech up for easier access while refitting.",
+        "Details" : "Powered down 'Mechs cannot bear their own weight while being refitted with new equipment. The <i>Argo</i>'s Mech Bay include harnesses meant to hoist the 'Mech up for easier access while refitting. The refit harnesses requires maintenance and adds <color=#04B404><b>+2 Techs</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_refitharness"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "MECH_BAY",
     "Category" : "REPAIR_REFIT",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "You always see cables and stuff hanging down from the ceiling and think, 'What the hell are those for?' Right? Lifting and turning entire 'Mechs. We get them back online, and we can lift a whole 'Mech. I mean, honestly? I just want to see that happen.",
+    "AssignedCastDescription": "You always see cables and stuff hanging down from the ceiling and think, 'What the hell are those for?' Right? Lifting and turning entire 'Mechs. We get them back online, and we can lift a whole 'Mech.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_mechBay1",
@@ -24,9 +24,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
-    "PurchaseCost" : 850000,
-    "AdditionalCost" : 3850,
+    "TechCost" : 8,
+    "PurchaseCost" : 250000,
+    "AdditionalCost" : 2000,
     "Tags" : {
         "items" : [
             "argo_mechBay_refitHarness"

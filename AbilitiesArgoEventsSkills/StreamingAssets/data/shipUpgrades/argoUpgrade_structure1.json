@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_structure1",
         "Name" : "Structural Repair",
-        "Details" : "Crashing a ship into a moon causes all sorts of damage, both visible and hidden. Major support structures have been twisted and weakened, and need to be repaired before any ship system puts a serious load on them.",
+        "Details" : "Crashing a ship into a moon causes all sorts of damage, both visible and hidden. From the looks of this mess, the pirates also looted structure and key components of the ship. Because of this the <i>Argo</i> can only go at less than half her speed or she will break apart.",
         "Icon" : "uixSvgIcon_shipUpgrade_structure1"
     },
     "Illustration" : "uixTxrSpot_ArgoStructure1",
     "Location" : "SHIP",
     "Category" : "STRUCTURE",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "It's unclear which is more terrifying, Commander: the <i>Argo</i>'s power system or its internal structure. We can do very little to improve on the ship while it's still in danger of buckling under even the modest forces exerted by the grav deck and the drive.",
+    "AssignedCastDescription": "Commander: I have been able to make some basic structural repairs to the <i>Argo</i> to make it space worthy, but further repairs are a must if we are to upgrade other systems of the ship.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_structure0"
@@ -23,9 +23,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 750000,
-    "AdditionalCost" : 350,
+    "TechCost" : 14,
+    "PurchaseCost" : 390000,
+    "AdditionalCost" : 0,
     "Tags" : {
         "items" : [
             "argo_structure1"
