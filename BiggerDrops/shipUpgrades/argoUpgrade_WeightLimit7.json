@@ -16,7 +16,6 @@
     "AssignedCastDescription": "I wish I'd known you'd see this through before we started, Boss. I could have saved us some time and money if we'd just done this from the start.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
 			"argoUpgrade_WeightLimit6"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
         
     ],
     "TechCost" : 13,
-    "PurchaseCost" : 340000,
-    "AdditionalCost" : 12000,
+    "PurchaseCost" : 170000,
+    "AdditionalCost" : 6000,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit7"

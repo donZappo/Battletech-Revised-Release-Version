@@ -16,7 +16,9 @@
     "AssignedCastDescription": "There's a lot of work to do on this baby, but we can manage it.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard"
+            "argoUpgrade_JunkyardLeopard",
+			"argoUpgrade_mechBay_scaffolding",
+			"argoUpgrade_mechBay_refitHarness"
         ],
         "tagSetSourceFile" : ""
     },
@@ -24,8 +26,8 @@
         
     ],
     "TechCost" : 6,
-    "PurchaseCost" : 200000,
-    "AdditionalCost" : 5000,
+    "PurchaseCost" : 100000,
+    "AdditionalCost" : 2500,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit"

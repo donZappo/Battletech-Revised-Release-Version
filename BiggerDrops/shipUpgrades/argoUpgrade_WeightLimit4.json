@@ -16,7 +16,6 @@
     "AssignedCastDescription": "We've reached the limit of weight these engines can handle, Commander. It'll take some time to get them back up to spec.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
 			"argoUpgrade_WeightLimit3"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
         
     ],
     "TechCost" : 10,
-    "PurchaseCost" : 280000,
-    "AdditionalCost" : 9000,
+    "PurchaseCost" : 140000,
+    "AdditionalCost" : 4500,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit4"

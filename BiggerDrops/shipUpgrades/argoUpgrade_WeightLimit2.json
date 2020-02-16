@@ -16,12 +16,7 @@
     "AssignedCastDescription": "The interior is now fit to sleep in. Not that I have been... Anyways, now we can start work on all the problems we can't see.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
-			"argoUpgrade_DropSlot1",
-			"argoUpgrade_PilotSlot1",
-			"argoUpgrade_drive1",
-			"argoUpgrade_WeightLimit1",
-			"argoUpgrade_mechBay_refitHarness"			
+			"argoUpgrade_WeightLimit1"	
         ],
         "tagSetSourceFile" : ""
     },
@@ -29,8 +24,8 @@
         
     ],
     "TechCost" : 8,
-    "PurchaseCost" : 240000,
-    "AdditionalCost" : 7000,
+    "PurchaseCost" : 120000,
+    "AdditionalCost" : 3500,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit2"

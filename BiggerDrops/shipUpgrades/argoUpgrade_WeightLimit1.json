@@ -16,7 +16,6 @@
     "AssignedCastDescription": "After this she might look like there weren't a family of squatters throwing parties in her every night.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
 			"argoUpgrade_WeightLimit"			
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
         
     ],
     "TechCost" : 7,
-    "PurchaseCost" : 220000,
-    "AdditionalCost" : 6000,
+    "PurchaseCost" : 110000,
+    "AdditionalCost" : 3000,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit1"

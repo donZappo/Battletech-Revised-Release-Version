@@ -17,7 +17,7 @@
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_JunkyardLeopard",
-			"argoUpgrade_mechBay_automation1"
+			"argoUpgrade_mechBay_machineShop"
         ],
         "tagSetSourceFile" : ""
     },

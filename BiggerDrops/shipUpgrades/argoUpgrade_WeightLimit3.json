@@ -16,9 +16,7 @@
     "AssignedCastDescription": "Frankly I'm surprised there's been no disasters already, Boss. No one reported this to me. If you happen to notice any of my 'techs on septic tank duty over the coming weeks, I promise it's completely unrelated.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
-			"argoUpgrade_WeightLimit2",
-			"argoUpgrade_mechBay_scaffolding"		
+			"argoUpgrade_WeightLimit2"
         ],
         "tagSetSourceFile" : ""
     },
@@ -26,8 +24,8 @@
         
     ],
     "TechCost" : 9,
-    "PurchaseCost" : 260000,
-    "AdditionalCost" : 8000,
+    "PurchaseCost" : 130000,
+    "AdditionalCost" : 4000,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit3"

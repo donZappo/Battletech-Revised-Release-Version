@@ -16,7 +16,6 @@
     "AssignedCastDescription": "Almost at the home stretch, Commander. We've turned this ship from a home for rats into something I'd feel safe flying myself. Almost.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
 			"argoUpgrade_WeightLimit5"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
         
     ],
     "TechCost" : 12,
-    "PurchaseCost" : 320000,
-    "AdditionalCost" : 11000,
+    "PurchaseCost" : 160000,
+    "AdditionalCost" : 5500,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit6"

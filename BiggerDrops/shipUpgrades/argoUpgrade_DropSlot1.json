@@ -16,8 +16,7 @@
     "AssignedCastDescription": "This will use up the last of the parts that weren't salvaged, but at least we were able to keep the costs down, right?",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_DropSlot",		
-			"argoUpgrade_mechBay_automation2"
+            "argoUpgrade_DropSlot"
         ],
         "tagSetSourceFile" : ""
     },

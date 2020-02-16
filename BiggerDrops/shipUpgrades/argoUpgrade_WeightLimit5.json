@@ -16,7 +16,6 @@
     "AssignedCastDescription": "Tune the Engine and drop them hot, Boss.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_JunkyardLeopard",
 			"argoUpgrade_WeightLimit4"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
         
     ],
     "TechCost" : 11,
-    "PurchaseCost" : 300000,
-    "AdditionalCost" : 10000,
+    "PurchaseCost" : 150000,
+    "AdditionalCost" : 5000,
     "Tags" : {
         "items" : [
             "JunkyardLeopard_Weightlimit5"
