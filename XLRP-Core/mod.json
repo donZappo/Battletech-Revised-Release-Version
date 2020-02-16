@@ -9,6 +9,10 @@
 	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
 	"DLL": "XLRP_Core.dll",
 	
+	"Settings": {
+		"UpgradeDegradedOpFor": true,
+	},
+	
 	"Manifest": [
 		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
 		{
