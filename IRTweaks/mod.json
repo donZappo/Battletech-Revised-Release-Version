@@ -13,8 +13,8 @@
         "Trace" : false,
         "Fixes" : {
             "BulkPurchasing" : "true",
-            "CombatLog" : "true",
-            "DisableCampaign" : "true",
+            "CombatLog" : "false",
+            "DisableCampaign" : "false",
             "DisableCombatSaves" : "false",
             "ExtendedStats" : "true",
             "FlexibleSensorLock" : "true",
@@ -43,7 +43,7 @@
             },
             "SpawnProtection" : {
                 "ApplyGuard" : true,
-                "EvasionPips" : 6,
+                "EvasionPips" : 0,
                 "ApplyToEnemies" : true,
                 "ApplyToAllies" : true,
                 "ApplyToNeutrals" : true,
