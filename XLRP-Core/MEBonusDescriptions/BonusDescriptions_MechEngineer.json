@@ -72,12 +72,6 @@
             "Full" : "- {0} accuracy with all attack"
         },
         {
-            "Bonus" : "CoolingSystemDHS",
-            "Short" : "2 x Cooling",
-            "Long" : "2 x Cooling",
-            "Full" : "2 x cooling throughout the BattleMech"
-        },
-        {
             "Bonus" : "OverheatDamage",
             "Short" : "- Heat Prot.",
             "Long" : "- Heat Protection",
