@@ -1,4 +1,7 @@
 {
-  "AttackAfterCompletionDuration": 0.1,
-  "audioFadeDuration": 0.5
+	"AttackPreFireDuration" : 0,
+	"AttackAfterFireDelay" : 0,
+	"AttackAfterFireDuration" : 0,
+	"AttackAfterCompletionDuration" : 0.1,
+	"audioFadeDuration" : 0.5
 }

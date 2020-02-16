@@ -133,7 +133,7 @@
       "hasPrefabName": true,
       "SimGameUID": null,
       "GUID": null
-    }
+    },
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
