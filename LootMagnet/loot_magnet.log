@@ -1,0 +1,111 @@
+2020-02-17 20:24:04.680 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\LootMagnet
+2020-02-17 20:24:04.680 - mod.json settings are:({"Debug":true,"RollupMRBValue":[40000,60000,90000,130000,180000,240000],"RollupBlacklist":[],"Reputation":[{"Reputation":"LOATHED","RollupMultiComponent":0,"RollupMultiMech":0,"HoldbackTrigger":72,"HoldbackValueCapMulti":0.2},{"Reputation":"HATED","RollupMultiComponent":0,"RollupMultiMech":0,"HoldbackTrigger":48,"HoldbackValueCapMulti":0.3},{"Reputation":"DISLIKED","RollupMultiComponent":0,"RollupMultiMech":0,"HoldbackTrigger":32,"HoldbackValueCapMulti":0.4},{"Reputation":"INDIFFERENT","RollupMultiComponent":1,"RollupMultiMech":0,"HoldbackTrigger":16,"HoldbackValueCapMulti":0.6},{"Reputation":"LIKED","RollupMultiComponent":5,"RollupMultiMech":0,"HoldbackTrigger":8,"HoldbackValueCapMulti":0.8},{"Reputation":"FRIENDLY","RollupMultiComponent":9,"RollupMultiMech":20,"HoldbackTrigger":4,"HoldbackValueCapMulti":1},{"Reputation":"HONORED","RollupMultiComponent":13,"RollupMultiMech":30,"HoldbackTrigger":2,"HoldbackValueCapMulti":1.25},{"Reputation":"ALLIED","RollupMultiComponent":21,"RollupMultiMech":180,"HoldbackTrigger":1,"HoldbackValueCapMulti":2}],"Holdback":{"MechParts":[2,6],"ReputationRange":[2,6],"DisputePicks":[1,6],"DisputeSuccessBase":50.0,"DisputeMRBSuccessFactor":10.0,"DisputeSuccessRandomBound":0.2,"DisputeMRBFeeFactor":-0.1},"DialogText":{"DISPUTE_TITLE":"DISPUTED SALVAGE","DISPUTE_TEXT":"<b>I'm sorry commander, but Section A, Sub-Section 3, Paragraph ii...</b>\n\nAs the salvage crew picks over the battlefield, you are contacted by the {0} representative. They insist the contract terms allows them first rights to the following items:\n\n{1}\n\nThey offer to add the following to the <b>salvage pool</b> in exchange:\n\n{2}\n\nYou may choose to:\n<b>Refuse</b>: the disputed salvage is retained, you <b>lose</b> <color=#FF0000>{3}</color> rep.\n<b>Accept</b>: the disputed salvage is lost, exchanged items are added to the <b>salvage pool</b>, you gain <b>gain</b> <color=#00FF00>{4:+0}</color> rep.\n<b>Dispute</b>: you pay <color=#FF0000>{5}</color> in legal fees, and have:\n<line-indent=2px> - {6}% to keep the disputed salvage, and the salvage poolgains {7}-{8} from the compensation offer.\n<line-indent=2px> - {9}% to lose the disputed salvage, and an additional {10}-{11} selections in the salvage pool.\n","DISPUTE_FAIL_TITLE":"FAILED DISPUTE","DISPUTE_FAIL_TEXT":"<b>Judge</b>: Counselor, what evidence do you offer for this new plea of insanity?\n\n<b>Attorney</b>: Well, for one, they done hired me to represent them.\n\n<b>Judge</b>: Insanity plea is accepted.\n\n{0}'s legal team completely ran away with the proceeding, painting {1} in the worst possible light.You lose salvage rights to all of the following:\n\n{2}\n\nIn addition they claim the following as compensation for legal fees:\n\n{3}\n\n","DISPUTE_SUCCESS_TITLE":"SUCCESSFUL DISPUTE","DISPUTE_SUCCESS_TEXT":"<b>Cause 193 of the negotiated mercenary contract clearly states...</b>\n\nYour laywer deftly defend your claim with the MRB. You keep your salvage, and gain the following compensation items:\n\n{0}\n\n","ITEM_AND_QUANTITY":"{0} [QTY:{1}]","BUTTON_ACCEPT":"Accept","BUTTON_REFUSE":"Refuse","BUTTON_DISPUTE":"Dispute","BUTTON_OK":"Ok"}})
+2020-02-17 20:24:04.680 - === MOD CONFIG BEGIN ===
+2020-02-17 20:24:04.680 -   DEBUG: True
+2020-02-17 20:24:04.680 -   MRB Rollup Values: 40000.00, 60000.00, 90000.00, 130000.00, 180000.00, 240000.00
+2020-02-17 20:24:04.681 -   Rollup Blacklists: 
+2020-02-17 20:24:04.681 - FACTION REPUTATION VALUES
+2020-02-17 20:24:04.681 -   Reputation:LOATHED ComponentRollup:0 MechRollup:0 HoldbackTrigger:72%
+2020-02-17 20:24:04.681 -   Reputation:HATED ComponentRollup:0 MechRollup:0 HoldbackTrigger:48%
+2020-02-17 20:24:04.681 -   Reputation:DISLIKED ComponentRollup:0 MechRollup:0 HoldbackTrigger:32%
+2020-02-17 20:24:04.681 -   Reputation:INDIFFERENT ComponentRollup:1 MechRollup:0 HoldbackTrigger:16%
+2020-02-17 20:24:04.681 -   Reputation:LIKED ComponentRollup:5 MechRollup:0 HoldbackTrigger:8%
+2020-02-17 20:24:04.681 -   Reputation:FRIENDLY ComponentRollup:9 MechRollup:20 HoldbackTrigger:4%
+2020-02-17 20:24:04.681 -   Reputation:HONORED ComponentRollup:13 MechRollup:30 HoldbackTrigger:2%
+2020-02-17 20:24:04.681 -   Reputation:ALLIED ComponentRollup:21 MechRollup:180 HoldbackTrigger:1%
+2020-02-17 20:24:04.681 - HOLDBACK VALUES
+2020-02-17 20:24:04.681 -   Holdback Picks: 2 to 6
+2020-02-17 20:24:04.681 -   Rep Range: 2 to 6
+2020-02-17 20:24:04.681 -   Dispute Picks: 1 to 6
+2020-02-17 20:24:04.681 -   Dispute SuccessBase:50 MRBSuccessFactor:10 SuccessRandomBound:0.2 MRBFeeFactor:-0.1
+2020-02-17 20:24:04.681 - === MOD CONFIG END ===
+2020-02-17 20:24:04.681 - INFO: No errors reading settings file.
+2020-02-17 20:33:10.895 - At contract start, Player has MRB:-1  Employer:(AuriganPirates) EmployerRep:INDIFFERENT / EmployerAllied:False
+2020-02-17 20:37:44.697 - AAR_SS:CAAAS entered.
+2020-02-17 20:37:44.699 - Holdback roll:78% triggerChance:16% hasMechParts:True canHoldback:True
+2020-02-17 20:37:44.699 - Setting totalSalvageMadeAvailable = potentialSalvage: 10 - heldbackParts: 0
+2020-02-17 20:37:44.700 - rollup:40000 x multi:1 = result:40000
+2020-02-17 20:37:44.700 - rollup:40000 x multi:0 = result:0
+2020-02-17 20:37:44.700 - Found 3 of salvage:'Firestarter Partial Mech Salvage' / 'mechdef_firestarter_FS9-K' with rewardId:'CRewardRef_1'
+2020-02-17 20:37:44.700 - Found 8 of salvage:'Standard Jump Jet (S)' / 'Gear_JumpJet_Generic_Standard' with rewardId:'CRewardRef_7'
+2020-02-17 20:37:44.700 -   Rolling up 8 of component salvage:'Standard Jump Jet (S)' with value:30000 threshold:40000
+2020-02-17 20:37:44.700 -   threshold:40000 / cost:30000 = result:2
+2020-02-17 20:37:44.700 - count:8 / limit:2 = buckets:4, remainder:0
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Found 4 of salvage:'Standard Heat Sink' / 'Gear_HeatSink_Generic_Standard' with rewardId:'CRewardRef_15'
+2020-02-17 20:37:44.701 -   Rolling up 4 of component salvage:'Standard Heat Sink' with value:30000 threshold:40000
+2020-02-17 20:37:44.701 -   threshold:40000 / cost:30000 = result:2
+2020-02-17 20:37:44.701 - count:4 / limit:2 = buckets:2, remainder:0
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 30000, out 60000
+2020-02-17 20:37:44.701 - Found 2 of salvage:'S Laser' / 'Weapon_Laser_SmallLaser_0-STOCK' with rewardId:'CRewardRef_5'
+2020-02-17 20:37:44.701 -   Rolling up 2 of component salvage:'S Laser' with value:20000 threshold:40000
+2020-02-17 20:37:44.701 -   threshold:40000 / cost:20000 = result:2
+2020-02-17 20:37:44.701 - count:2 / limit:2 = buckets:1, remainder:0
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 20000, out 40000
+2020-02-17 20:37:44.701 - Found 3 of salvage:'Flamer' / 'Weapon_Flamer_Flamer_0-STOCK' with rewardId:'CRewardRef_10'
+2020-02-17 20:37:44.701 -   Rolling up 3 of component salvage:'Flamer' with value:20000 threshold:40000
+2020-02-17 20:37:44.701 -   threshold:40000 / cost:20000 = result:2
+2020-02-17 20:37:44.701 - count:3 / limit:2 = buckets:1, remainder:1
+2020-02-17 20:37:44.701 - Incoming for 2, Cost in 20000, out 40000
+2020-02-17 20:37:44.701 - Incoming for 1, Cost in 20000, out 20000
+2020-02-17 20:37:44.701 - CAAAS - created base traverse.
+2020-02-17 20:37:44.701 - CAAAS - found salvage selection.
+2020-02-17 20:37:44.718 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:37:44.763 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:37:44.772 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:37:44.780 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:37:44.867 - CAAAS - added all salvage entries.
+2020-02-17 20:37:44.867 - CAAAS - found salvage controllers
+2020-02-17 20:37:44.867 - CAAAS - updated salvageController count
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Fusion Core 210) has rewardID:(CRewardRef_4)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Flamer) has rewardID:(CRewardRef_10_c0_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Flamer) with rewardID:(CRewardRef_10_c0_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Flamer) has rewardID:(CRewardRef_10_c2_qty1) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Flamer) with rewardID:(CRewardRef_10_c2_qty1) will be given count: 1
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Firestarter Partial Mech Salvage) has rewardID:(CRewardRef_1)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Firestarter Partial Mech Salvage) has rewardID:(CRewardRef_1)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Firestarter Partial Mech Salvage) has rewardID:(CRewardRef_1)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Firestarter Partial Mech Salvage) has rewardID:(CRewardRef_17)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) has rewardID:(CRewardRef_7_c3_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) with rewardID:(CRewardRef_7_c3_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (L Laser) has rewardID:(CRewardRef_14)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (M Laser) has rewardID:(CRewardRef_18)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) has rewardID:(CRewardRef_7_c1_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) with rewardID:(CRewardRef_7_c1_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (MG) has rewardID:(CRewardRef_20)
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (S Laser) has rewardID:(CRewardRef_5_c0_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (S Laser) with rewardID:(CRewardRef_5_c0_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) has rewardID:(CRewardRef_7_c2_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) with rewardID:(CRewardRef_7_c2_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Heat Sink) has rewardID:(CRewardRef_15_c0_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Heat Sink) with rewardID:(CRewardRef_15_c0_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) has rewardID:(CRewardRef_7_c0_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Jump Jet (S)) with rewardID:(CRewardRef_7_c0_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:ATFS - entered.
+2020-02-17 20:38:31.497 -   Salvage (Standard Heat Sink) has rewardID:(CRewardRef_15_c1_qty2) with multiple quantities
+2020-02-17 20:38:31.497 -   Salvage (Standard Heat Sink) with rewardID:(CRewardRef_15_c1_qty2) will be given count: 2
+2020-02-17 20:38:31.497 - C:FS entered.
+2020-02-17 20:38:31.531 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:38:31.539 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:38:31.547 - LEC_SMP_NLV:RIOW - entered
+2020-02-17 20:38:31.556 - LEC_SMP_NLV:RIOW - entered

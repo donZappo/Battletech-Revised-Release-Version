@@ -3,7 +3,7 @@
 	"Author": "XSNomad",
 	"Website": "",
 
-	"Enabled": false,
+	"Enabled": true,
 	"Hidden": true,
 	"DependsOn": ["CustomComponents", "MechEngineer"],
 	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],

@@ -1,0 +1,5 @@
+2020-02-17 20:24:10.844 - Assembly version: 0.4.0.0
+2020-02-17 20:24:10.844 - mergedConfig is:Debug:False, ResistPerGuts:10, PenaltyPerHeadDamage:5, PenaltyPerAmmoExplosionRatio:1, PenaltyPerHeatDamageInjuryRatio:1, KnockdownDamage:6, TorsoDestroyedDamage:10, HeadHitArmorOnlyMulti:0.5 
+2020-02-17 20:30:51.185 - Head hit from weapon:LRM5(LRM)(STD) for 5 armor damage and 0 structure damage. Quality was:Solid with type:Weapon
+2020-02-17 20:30:51.185 - Head hit impacted armor only, reduced damage to:2
+2020-02-17 20:30:51.185 - Setting resist penalty to:2 x 5 = 10

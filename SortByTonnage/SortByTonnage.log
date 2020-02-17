@@ -240,3 +240,102 @@ StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTe
   at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
 Date: 2/14/2020 12:00:22 PM
 --------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:38:51 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:38:53 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:39:27 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:41:51 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:41:59 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:42:02 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:42:16 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:42:24 PM
+--------------------------------------------------------------------------------
+Message: Object reference not set to an instance of an object
+StackTrace:   at SortByTonnage.SortByTonnage+<>c.<SortMechDefs>b__10_7 (BattleTech.UI.IMechLabDraggableItem mech) [0x00006] in <c921d2c400e642339dd22da9deae6e46>:0 
+  at System.Linq.EnumerableSorter`2[TElement,TKey].ComputeKeys (TElement[] elements, System.Int32 count) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].ComputeMap (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.EnumerableSorter`1[TElement].Sort (TElement[] elements, System.Int32 count) [0x00000] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].SortedMap (System.Linq.Buffer`1[TElement] buffer) [0x00006] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.OrderedEnumerable`1[TElement].ToList () [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
+  at SortByTonnage.SortByTonnage.SortMechDefs (System.Collections.Generic.List`1[T] mechs) [0x001bf] in <c921d2c400e642339dd22da9deae6e46>:0 
+Date: 2/17/2020 3:44:27 PM
+--------------------------------------------------------------------------------
