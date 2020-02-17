@@ -12,6 +12,7 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
+		"WpnRecoil: 4",
         "IsGauss",
         "WeaponBoom: 70",
 		"LosTech"
@@ -24,17 +25,17 @@
   "Category": "Ballistic",
   "Type": "Gauss",
   "WeaponSubType": "Gauss",
-  "MinRange": 90,
+  "MinRange": 60,
   "MaxRange": 780,
   "RangeSplit": [
-    180,
-    360,
-    720
+    210,
+    450,
+    660
   ],
   "AmmoCategory": "GAUSS",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 3,
-  "Damage": 70,
+  "Damage": 75,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -47,11 +48,11 @@
   "APCriticalChanceMultiplier": 1.05,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 0,
+  "RefireModifier": 4,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
-  "Instability": 17.5,
+  "Instability": 20,
   "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
   "Description": {
     "Cost": 500000,

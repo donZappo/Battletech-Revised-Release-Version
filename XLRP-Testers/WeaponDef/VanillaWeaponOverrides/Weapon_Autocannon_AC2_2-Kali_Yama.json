@@ -7,7 +7,8 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 1",
+		"EvasionIgnore: 2",
+		"WpnRecoil: 2",
         "KaliYamaAC",
         "IsAC"
       ]
@@ -28,11 +29,11 @@
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 5,
-  "Damage": 29,
+  "HeatGenerated": 4,
+  "Damage": 12,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -42,11 +43,11 @@
   "APCriticalChanceMultiplier": 0.146,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 1,
+  "RefireModifier": 2,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 7.25,
+  "Instability": 7.50,
   "FireTerrainChance": 0.025,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {

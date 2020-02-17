@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 3",
         "Range: +20%",
         "DiverseOpticsLaser: 20%",
         "IsLaser"
@@ -29,10 +30,10 @@
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 12,
-  "Damage": 20,
+  "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 3,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

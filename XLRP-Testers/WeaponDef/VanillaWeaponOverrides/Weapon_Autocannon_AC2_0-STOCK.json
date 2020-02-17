@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"WpnRecoil: 1",	  
         "IsAC"
       ]
     },
@@ -26,8 +27,8 @@
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 2,
-  "Damage": 25,
+  "HeatGenerated": 3,
+  "Damage": 10,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
@@ -40,11 +41,11 @@
   "APCriticalChanceMultiplier": 0.125,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 0,
+  "RefireModifier": 1,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 6.25,
+  "Instability": 5,
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {

@@ -7,8 +7,8 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-	  	"EvasionIgnore: 1",
-		"WpnRecoil: 1",
+		"EvasionIgnore: 1",
+		"WpnRecoil: 2",	  
         "MydronAC:2",
         "IsAC"
       ]
@@ -29,11 +29,11 @@
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 3,
-  "Damage": 7.5,
+  "HeatGenerated": 6,
+  "Damage": 10,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -43,12 +43,12 @@
   "APCriticalChanceMultiplier": 0.125,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 1,
+  "RefireModifier": 2,
   "ShotsWhenFired": 2,
   "ShotsPerAmmo":2,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
-  "Instability": 3.0,
+  "Instability": 3.12,
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {

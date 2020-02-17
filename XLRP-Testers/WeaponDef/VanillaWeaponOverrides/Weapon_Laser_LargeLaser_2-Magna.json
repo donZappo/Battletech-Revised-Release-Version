@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
         "MagnaLaser: 20%",
         "IsLaser"
       ]
@@ -31,7 +32,7 @@
   "Damage": 48,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -66,7 +67,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
   "BattleValue": 0,
-  "InventorySize": 1,
+  "InventorySize": 2,
   "Tonnage": 5,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",

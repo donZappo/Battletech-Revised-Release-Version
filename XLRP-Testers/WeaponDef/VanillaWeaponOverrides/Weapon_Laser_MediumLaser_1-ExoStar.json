@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 1",
         "WpnAccuracy: +1",
         "ExostarLaser: 33%",
         "IsLaser"
@@ -28,11 +29,11 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 13,
-  "Damage": 20,
+  "HeatGenerated": 12,
+  "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -1,

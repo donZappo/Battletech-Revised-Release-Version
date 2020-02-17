@@ -2,7 +2,7 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "w/e/l/laser"
+        "CategoryID": "w/s/m/energy"
       }
     ],
     "BonusDescriptions": {
@@ -15,7 +15,7 @@
       "SortKey": "02002"
     }
   },
-  "Category": "Energy",
+  "Category": "AntiPersonnel",
   "Type": "Laser",
   "WeaponSubType": "SmallLaser",
   "MinRange": 0,
@@ -31,7 +31,7 @@
   "Damage": 20,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

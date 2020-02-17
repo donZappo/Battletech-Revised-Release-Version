@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
         "WpnAccuracy: +1",
         "Pulse",
         "MultiLaser",
@@ -31,10 +32,10 @@
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 36,
-  "Damage": 16,
+  "Damage": 15,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 1,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -2,

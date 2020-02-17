@@ -17,7 +17,7 @@
       "SortKey": "02003"
     }
   },
-  "Category": "Energy",
+  "Category": "AntiPersonnel",
   "Type": "Laser",
   "WeaponSubType": "SmallLaser",
   "MinRange": 0,
@@ -33,7 +33,7 @@
   "Damage": 16,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

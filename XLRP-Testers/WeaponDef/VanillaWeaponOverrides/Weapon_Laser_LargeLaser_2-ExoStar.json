@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
         "WpnCrits: 50%",
         "WpnAccuracy: +1",
         "ExostarLaser: 20%",
@@ -33,7 +34,7 @@
   "Damage": 40,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -1,
@@ -68,7 +69,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
   "BattleValue": 0,
-  "InventorySize": 1,
+  "InventorySize": 2,
   "Tonnage": 5,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",

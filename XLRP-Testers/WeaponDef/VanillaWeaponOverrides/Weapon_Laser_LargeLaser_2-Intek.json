@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
         "Range: -10%",
         "IntekLaser: -10%",
         "IsLaser"
@@ -28,11 +29,11 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 22,
+  "HeatGenerated": 18,
   "Damage": 36,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -67,7 +68,7 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
   "BattleValue": 0,
-  "InventorySize": 1,
+  "InventorySize": 2,
   "Tonnage": 5,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",

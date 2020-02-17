@@ -7,7 +7,8 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnCrits: 40%",
+		"EvasionIgnore: 1",
+		"WpnRecoil: 1",
         "FederatedAC2",
         "IsAC"
       ]
@@ -28,11 +29,11 @@
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 2,
-  "Damage": 22,
+  "HeatGenerated": 3,
+  "Damage": 9,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -42,7 +43,7 @@
   "APCriticalChanceMultiplier": 0.155,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 0,
+  "RefireModifier": 1,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,

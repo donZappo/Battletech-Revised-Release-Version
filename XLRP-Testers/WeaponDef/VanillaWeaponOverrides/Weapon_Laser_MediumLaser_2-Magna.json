@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
         "MagnaLaser: 15%",
         "IsLaser"
       ]
@@ -27,11 +28,11 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 11,
-  "Damage": 23,
+  "HeatGenerated": 10,
+  "Damage": 28,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

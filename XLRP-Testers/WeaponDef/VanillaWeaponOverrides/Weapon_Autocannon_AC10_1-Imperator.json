@@ -12,6 +12,7 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 1",	  
         "ImperatorAC",
 		"RapidFireAC: 40%",
 		"DakkaBoom: 60",
@@ -34,11 +35,11 @@
   ],
   "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 6,
-  "Damage": 60,
+  "HeatGenerated": 9,
+  "Damage": 50,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

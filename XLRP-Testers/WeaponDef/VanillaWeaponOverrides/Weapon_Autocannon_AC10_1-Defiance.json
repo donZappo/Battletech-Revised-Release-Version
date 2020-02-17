@@ -7,6 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 1",
         "Range: +30",
         "WpnRecoil: 2",
         "WeaponJAMFlat: 20%",
@@ -30,11 +31,11 @@
   ],
   "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 8,
-  "Damage": 60,
+  "HeatGenerated": 10,
+  "Damage": 50,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,

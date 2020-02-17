@@ -7,8 +7,9 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+		"EvasionIgnore: 2",
+        "WpnRecoil: 3",
         "Range: +50",
-        "WpnRecoil: 2",
         "WeaponJAMFlat: 25%",
         "DefianceAC",
         "IsAC"
@@ -30,11 +31,11 @@
   ],
   "AmmoCategory": "AC20",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 17,
+  "HeatGenerated": 24,
   "Damage": 100,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 2,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -44,7 +45,7 @@
   "APCriticalChanceMultiplier": 0.5,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 2,
+  "RefireModifier": 3,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,

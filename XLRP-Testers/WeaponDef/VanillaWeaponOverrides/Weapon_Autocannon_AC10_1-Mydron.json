@@ -7,6 +7,8 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+	  	"EvasionIgnore: 1",
+		"WpnRecoil: 3",
         "MydronAC:4",
         "IsAC"
       ]
@@ -27,11 +29,11 @@
   ],
   "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 8,
-  "Damage": 15,
+  "HeatGenerated": 9,
+  "Damage": 25,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 0,
+  "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
@@ -46,7 +48,7 @@
   "ShotsPerAmmo":4,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 3,
-  "Instability": 4,
+  "Instability": 5.5,
   "FlatJammingChance": 0.2,
   "GunneryJammingMult": 0.04,
   "GunneryJammingBase": 3,
