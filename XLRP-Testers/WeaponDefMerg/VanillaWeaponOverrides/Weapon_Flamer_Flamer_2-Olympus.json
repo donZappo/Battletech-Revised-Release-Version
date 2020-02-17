@@ -1,0 +1,177 @@
+{
+    "Custom": {
+        "Category": [
+			{ "CategoryID": "w/e/p/flamer" }
+		],
+        "BonusDescriptions": {
+            "Bonuses": [
+                "PipsIgnored: 2",
+                "OHDamage: 20%",
+				"AlwaysStartsFire",
+				"DmgFallOff: 25%",
+				"NoAA"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "02001"
+        }
+    },
+    "Category": "AntiPersonnel",
+    "Type": "Flamer",
+    "WeaponSubType": "Flamer",
+    "MinRange": 0,
+    "MaxRange": 180,
+    "RangeSplit": [
+        60,
+        90,
+        120
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 9,
+    "Damage": 6,
+    "OverheatedDamageMultiplier": 1.2,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 2,
+    "DamageVariance": 0,
+    "HeatDamage": 11,
+    "AccuracyModifier": -1,
+	"DistantVariance": 0.25,
+ "DistantVarianceReversed": false,
+  "isHeatVariation": true,
+  "isStabilityVariation": true,
+  "isDamageVariation": true,
+    "CriticalChanceMultiplier": 0.1,
+	"APArmorShardsMod": 0.1,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.01,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0,
+	"FireOnSuccessHit" : true,
+	"CantHitUnaffecedByPathing": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+    "Description": {
+        "Cost": 30000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Olympus",
+        "Model": "Heat Damage Flamethrower",
+        "UIName": "Flamer + +",
+        "Id": "Weapon_Flamer_Flamer_2-Olympus",
+        "Name": "Flamer + +",
+        "Details": "Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.",
+        "Icon": "dragon-breath"
+    },
+    "BonusValueA": "+ 5 Dmg. (H)",
+    "BonusValueB": "+ 1 Accuracy.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Flamer",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData" : {
+                "duration" : 10,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefFlamer",
+                "Name" : "ON FIRE",
+                "Details" : "This unit gains [AMT] Heat on its next activation (this effect stacks).",
+                "Icon" : "uixSvgIcon_statusOnFire"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "EndMoveHeat",
+                "operation" : "Int_Add",
+                "modValue" : "6",
+                "modType" : "System.Int32"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+			"durationData" : {
+                "duration" : 10,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+			"targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+			"effectType" : "VFXEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Inferno-VFX",
+                "Name" : "Inferno VFX",
+                "Details" : "Visual indicator of the Inferno effect",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+			"vfxData" : {
+				"vfxName" : "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+				"attachToImpactPoint" : true,
+				"location" : -1,
+				"isAttached" : true,
+				"facesAttacker" : false,
+				"isOneShot" : false,
+				"duration" : -1.0		
+			}
+		}
+	],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant2",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
