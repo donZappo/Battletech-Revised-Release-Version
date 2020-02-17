@@ -1,8 +1,4 @@
 {
-    "CompressFloatieMessages" : {
-        "Enabled" : false,
-        "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4"
-    },
     "AutoFixer" : {
         "Enabled" : true,
         "EnabledDescription" : "Fixes up mechs, chassis and components to adhere to CBT rules and defaults. Done programmatically to be compatible to new mechs in the future.",
@@ -788,6 +784,6 @@
             "component_type_stock",
             "component_type_variant",
             "component_type_lostech"
-        ],
+        ]
     }
 }
