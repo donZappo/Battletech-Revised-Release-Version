@@ -1,0 +1,200 @@
+Levels :Spam True :Debug True :Info True :Warn True
+[Info] Harmony? 1.2.0.1
+[Info] Unity? 2018.4.2f1
+[Info] Product? BATTLETECH-1.8.1-640R
+[Info] ModTek? 0.7.6.12
+[Info] Initialized com.github.m22spencer.BattletechPerformanceFix 2.12.0.29434
+[Info] Mod-Dir? C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\BattletechPerformanceFix
+[Info] BattletechPerformanceFix found BattleTech 1.8.1 and will now load
+[Info] Features ----------
+[Info] Feature MechlabFix is ON
+[Info] Feature LoadFixes is ON
+[Info] Feature NoSalvageSoftlock is ON
+[Info] Feature DataLoaderGetEntryCheck is ON
+[Info] Feature ShopTabLagFix is ON
+[Info] Feature ContractLagFix is ON
+[Info] Feature EnableLoggingDuringLoads is ON
+[Info] Feature ExtraLogging is ON
+[Info] Feature ShaderDependencyOverride is ON
+[Info] Feature DisableDeployAudio is OFF
+[Info] Feature RemovedFlashpointFix is ON
+[Info] Feature DisableSimAnimations is OFF
+[Info] Feature RemovedContractsFix is ON
+[Info] Patches ----------
+[Info] Feature MechlabFix:
+[Info] Patch: AAR_SalvageScreen.BeginSalvageScreen -> MechlabFix.BeginSalvageScreen_Pre
+[Info] Patch: MechLabPanel.PopulateInventory -> MechlabFix.PopulateInventory_Pre
+[Info] Patch: MechLabPanel.ConfirmRevertMech -> MechlabFix.ConfirmRevertMech_Pre
+[Info] Patch: MechLabPanel.ExitMechLab -> MechlabFix.ExitMechLab_Pre
+[Info] Patch: ScrollRect.LateUpdate -> MechlabFix.LateUpdate_Pre
+[Info] Patch: MechLabInventoryWidget.OnAddItem -> MechlabFix.OnAddItem_Pre
+[Info] Patch: MechLabInventoryWidget.OnRemoveItem -> MechlabFix.OnRemoveItem_Pre
+[Info] Patch: MechLabInventoryWidget.OnItemGrab -> MechlabFix.OnItemGrab_Pre
+[Info] Patch: MechLabInventoryWidget.ApplyFiltering -> MechlabFix.ApplyFiltering_Pre
+[Info] Patch: MechLabPanel.MechCanEquipItem -> MechlabFix.MechCanEquipItem_Pre
+[Info] Patch: MechLabInventoryWidget.ApplySorting -> MechlabFix.ApplySorting_Pre
+[Info] Feature LoadFixes:
+[Spam] CheckPatch is NYI
+[Info] Feature NoSalvageSoftlock:
+[Spam] CheckPatch is NYI
+[Info] Feature DataLoaderGetEntryCheck:
+[Spam] CheckPatch is NYI
+[Info] Feature ShopTabLagFix:
+[Spam] CheckPatch is NYI
+[Spam] CheckPatch is NYI
+[Info] Feature ContractLagFix:
+[Debug] EncounterLayerData ctors 1
+[Info] Feature EnableLoggingDuringLoads:
+[Info] Feature ExtraLogging:
+[Info] Patch: LanceOverride.RequestLance -> ExtraLogging.RequestLance_Pre
+[Info] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Pre
+[Info] Patch: SimGameState.PrepContract -> ExtraLogging.PrepContract_Post
+[Info] Patch: LanceSpawnerGameLogic.InitializeTaggedLance -> ExtraLogging.InitializeTaggedLance_Pre
+[Info] Feature ShaderDependencyOverride:
+[Info] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.GetManager
+[Info] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.GetManager
+[Info] Patch: AssetBundleManager.IsBundleLoaded -> ShaderDependencyOverride.WithShaderDeps
+[Info] Patch: AssetBundleManager.GenerateWebRequest -> ShaderDependencyOverride.WithShaderDeps
+[Info] Feature RemovedFlashpointFix:
+[Info] Patch: SimGameState.Rehydrate -> RemovedFlashpointFix.Rehydrate_Pre
+[Info] Feature RemovedContractsFix:
+[Info] Patch: SimGameState.Rehydrate -> RemovedContractsFix.Rehydrate_Pre
+[Info] Runtime ----------
+[Info] Patch out sensitive data log dumps
+[Info] LogLevel info
+Levels :Spam False :Debug False :Info True :Warn True
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Supply Convoy :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 1 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Supply Convoy :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Patrol :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 1 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Patrol :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Patrol :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Patrol :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
+[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
+[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
+[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Middle Management :contract.Difficulty 3 :GetDifficulty -1 :GlobalDifficulty 2 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Middle Management :contract.Difficulty 2 :contract.Override.finalDifficulty 2 :UIDifficulty 2
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Asset Retrieval :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Asset Retrieval :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Seek and Destroy :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Seek and Destroy :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
+[Info] Sorted in 1.6623 ms
+[Info] Sorted in 0.3444 ms
+[Info] Filter took 3.4872 ms and resulted in 18 -> 14 items
+[Info] Sorted in 0.3585 ms
+[Info] Filter took 0.5799 ms and resulted in 18 -> 0 items
+[Info] Sorted in 0.3704 ms
+[Info] Filter took 0.6655 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.353 ms
+[Info] Filter took 0.6237 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.3391 ms
+[Info] Filter took 0.6008 ms and resulted in 17 -> 3 items
+[Info] Sorted in 0.3435 ms
+[Info] Sorted in 0.245 ms
+[Info] Filter took 0.4704 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.2534 ms
+[Info] Filter took 0.4736 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.2979 ms
+[Info] Filter took 0.5358 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.3415 ms
+[Info] Filter took 0.6078 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.3248 ms
+[Info] Filter took 0.5886 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.2981 ms
+[Info] Filter took 0.5383 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.3634 ms
+[Info] Filter took 0.6343 ms and resulted in 18 -> 4 items
+[Info] Sorted in 0.3339 ms
+[Info] Filter took 0.5959 ms and resulted in 17 -> 3 items
+[Info] Sorted in 0.3246 ms
+[Info] Filter took 0.5805 ms and resulted in 17 -> 3 items
+[Info] Sorted in 0.2571 ms
+[Info] Filter took 0.4757 ms and resulted in 17 -> 3 items
+[Info] Sorted in 0.336 ms
+[Info] Filter took 0.5939 ms and resulted in 17 -> 3 items
+[Info] Sorted in 0.3463 ms
+[Info] Filter took 1.7766 ms and resulted in 17 -> 4 items
+[Info] Sorted in 0.3357 ms
+[Info] Filter took 0.6208 ms and resulted in 17 -> 4 items
+[Info] Sorted in 0.3534 ms
+[Info] Filter took 0.6313 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.3598 ms
+[Info] Filter took 0.6058 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.3399 ms
+[Info] Filter took 0.5855 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.3365 ms
+[Info] Filter took 0.5735 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.3366 ms
+[Info] Filter took 0.5694 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.2706 ms
+[Info] Filter took 0.5105 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.2751 ms
+[Info] Filter took 0.5112 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.2724 ms
+[Info] Filter took 0.509 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.3545 ms
+[Info] Filter took 0.6291 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.2723 ms
+[Info] Filter took 0.5361 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.3317 ms
+[Info] Filter took 0.5882 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.2986 ms
+[Info] Filter took 0.531 ms and resulted in 16 -> 1 items
+[Info] Sorted in 0.3239 ms
+[Info] Sorted in 0.2375 ms
+[Info] Filter took 0.4442 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.2444 ms
+[Info] Filter took 0.445 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.2605 ms
+[Info] Filter took 0.4774 ms and resulted in 17 -> 2 items
+[Info] Sorted in 0.4865 ms
+[Info] Filter took 0.7506 ms and resulted in 17 -> 1 items
+[Info] Sorted in 0.5346 ms
+[Info] Sorted in 0.3587 ms
+[Info] Filter took 0.9545 ms and resulted in 20 -> 14 items
+[Info] Sorted in 0.3801 ms
+[Info] Filter took 0.7374 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.3038 ms
+[Info] Filter took 0.6287 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.5262 ms
+[Info] Sorted in 0.3591 ms
+[Info] Filter took 2.6159 ms and resulted in 20 -> 14 items
+[Info] Sorted in 0.3901 ms
+[Info] Filter took 0.7414 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.3042 ms
+[Info] Filter took 0.6329 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.5354 ms
+[Info] Sorted in 0.3538 ms
+[Info] Filter took 2.5849 ms and resulted in 20 -> 14 items
+[Info] Sorted in 0.3819 ms
+[Info] Filter took 0.7328 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.3076 ms
+[Info] Filter took 0.6385 ms and resulted in 20 -> 6 items
+[Info] Sorted in 0.2954 ms
+[Info] Filter took 0.6086 ms and resulted in 19 -> 5 items
+[Info] Sorted in 0.3811 ms
+[Info] Filter took 0.6807 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.3723 ms
+[Info] Filter took 0.6387 ms and resulted in 19 -> 1 items
+[Info] Sorted in 0.2943 ms
+[Info] Filter took 0.5282 ms and resulted in 19 -> 1 items
+[Info] Sorted in 0.4205 ms
+[Info] Filter took 0.8296 ms and resulted in 19 -> 14 items
+[Info] Sorted in 0.3797 ms
+[Info] Filter took 0.6581 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.2975 ms
+[Info] Filter took 0.5592 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.2917 ms
+[Info] Filter took 0.5462 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.2889 ms
+[Info] Filter took 0.5453 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.2894 ms
+[Info] Filter took 0.5512 ms and resulted in 19 -> 3 items
+[Info] Sorted in 0.3821 ms
+[Info] Filter took 0.659 ms and resulted in 19 -> 1 items
+[Info] Sorted in 0.3815 ms
+[Info] Filter took 0.6852 ms and resulted in 19 -> 4 items
+[Info] Sorted in 0.2985 ms
+[Info] Filter took 0.5871 ms and resulted in 19 -> 4 items
+[Info] Sorted in 0.3003 ms
+[Info] Filter took 0.5782 ms and resulted in 19 -> 4 items

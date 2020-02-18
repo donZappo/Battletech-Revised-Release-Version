@@ -1,0 +1,337 @@
+2020-02-17 20:24:14.626 - Assembly version: 0.3.11.0
+2020-02-17 20:24:14.626 - === MOD CONFIG BEGIN ===
+2020-02-17 20:24:14.626 -   DEBUG: False Trace: False
+2020-02-17 20:24:14.626 - === MOVEMENT OPTIONS ===
+2020-02-17 20:24:14.626 - === HEAT OPTIONS ===
+2020-02-17 20:24:14.626 - === MOD CONFIG END ===
+2020-02-17 20:24:14.626 - INFO: No errors reading settings file.
+2020-02-17 20:26:30.750 - AA:IES entered- setting CanShootAfterSprinting for actor:Spider
+2020-02-17 20:26:30.754 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Spider__B0E88F52
+2020-02-17 20:26:31.416 - AA:IES entered- setting CanShootAfterSprinting for actor:Spider
+2020-02-17 20:26:31.431 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Spider_Legend Slayer_7B9F1E30
+2020-02-17 20:26:31.473 - AA:IES entered- setting CanShootAfterSprinting for actor:Shadow Hawk
+2020-02-17 20:26:31.473 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Shadow Hawk_FlyBoy_EC1A10DE
+2020-02-17 20:26:31.522 - AA:IES entered- setting CanShootAfterSprinting for actor:Blackjack
+2020-02-17 20:26:31.522 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Blackjack_Nomad_57245CBC
+2020-02-17 20:26:31.558 - AA:IES entered- setting CanShootAfterSprinting for actor:Vindicator
+2020-02-17 20:26:31.558 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Vindicator_Babby_BF79B444
+2020-02-17 20:26:31.634 - AA:IES entered- setting CanShootAfterSprinting for actor:Firestarter
+2020-02-17 20:26:31.635 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Firestarter_Recruit_BDB3FEEE
+2020-02-17 20:26:31.686 - AA:IES entered- setting CanShootAfterSprinting for actor:Firestarter
+2020-02-17 20:26:31.686 - Setting overheat threshold to 42 and maxHeat to 150 for actor:Firestarter_Recruit_124FB4F4
+2020-02-17 20:26:43.495 - Interleaved mode set to: REMAIN_INTERLEAVED
+2020-02-17 20:26:51.618 - T:GNAU invoked with null AA? False
+2020-02-17 20:26:54.279 - T:GNAU invoked with null AA? False
+2020-02-17 20:26:55.285 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:26:55.285 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:26:55.319 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:26:59.142 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:00.485 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:27:00.485 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:00.531 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:00.837 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:27:00.837 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:03.071 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:03.802 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:03.802 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:03.835 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:07.033 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:27:07.033 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:07.349 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:27:07.349 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:08.382 - TD:OTAAC invoked
+2020-02-17 20:27:08.382 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:08.382 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:08.382 - Incrementing ActiveTurnActor
+2020-02-17 20:27:08.700 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:08.700 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:08.750 - TD:OTAAC invoked
+2020-02-17 20:27:08.750 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:08.750 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:27:08.750 - Sending TurnActorActivateMessage
+2020-02-17 20:27:09.050 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:09.050 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:09.100 - TD:OTAAC invoked
+2020-02-17 20:27:09.100 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:09.100 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:09.100 - Incrementing ActiveTurnActor
+2020-02-17 20:27:10.216 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:12.784 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:14.101 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:27:14.101 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:14.145 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:14.420 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:27:14.420 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:16.440 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:17.268 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:27:17.268 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:17.302 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:19.355 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:20.168 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:20.168 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:20.213 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:20.486 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:20.486 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:23.850 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:27:23.850 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:23.885 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:24.582 - TD:OTAAC invoked
+2020-02-17 20:27:24.582 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:24.582 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:24.582 - Incrementing ActiveTurnActor
+2020-02-17 20:27:24.882 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:24.882 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:24.932 - TD:OTAAC invoked
+2020-02-17 20:27:24.932 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:24.932 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:27:24.932 - Sending TurnActorActivateMessage
+2020-02-17 20:27:25.217 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:25.217 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:25.266 - TD:OTAAC invoked
+2020-02-17 20:27:25.266 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:25.266 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:25.266 - Incrementing ActiveTurnActor
+2020-02-17 20:27:26.066 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:29.172 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:30.369 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:27:30.369 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:30.402 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:32.289 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:33.068 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:27:33.068 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:33.102 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:35.855 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:37.334 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:37.334 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:37.381 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:37.653 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:37.653 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:39.835 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:27:39.835 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:39.869 - AMS:OC TD is not interleaved and no enemies - autobracing 
+2020-02-17 20:27:39.890 - TD:OTAAC invoked
+2020-02-17 20:27:39.890 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:39.890 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:39.890 - Incrementing ActiveTurnActor
+2020-02-17 20:27:40.183 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:40.183 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:40.233 - TD:OTAAC invoked
+2020-02-17 20:27:40.233 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:40.233 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:27:40.233 - Sending TurnActorActivateMessage
+2020-02-17 20:27:40.533 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:27:40.533 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:40.583 - TD:OTAAC invoked
+2020-02-17 20:27:40.583 - TD isInterleaved: False  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:27:40.583 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:27:40.583 - Incrementing ActiveTurnActor
+2020-02-17 20:27:41.233 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:42.823 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:44.119 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:27:44.119 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:44.152 - AMS:OC TD is not interleaved but enemies are detected - disabling autobrace. 
+2020-02-17 20:27:47.623 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:47.623 -   IsInterleavePending - returning no available unit and deferring all units.
+2020-02-17 20:27:48.469 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:27:48.469 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:48.502 - AMS:OC TD is not interleaved but enemies are detected - disabling autobrace. 
+2020-02-17 20:27:49.622 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:49.622 -   IsInterleavePending - returning no available unit and deferring all units.
+2020-02-17 20:27:51.601 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:51.601 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:54.779 - T:GNAU invoked with null AA? False
+2020-02-17 20:27:54.779 -   IsInterleavePending - returning no available unit and deferring all units.
+2020-02-17 20:27:55.054 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:27:55.054 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:27:59.702 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:27:59.702 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:04.100 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:28:04.100 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:04.150 - TD:OTAAC invoked
+2020-02-17 20:28:04.150 - TD isInterleaved: False  isInterleavePending: True  isNonInterleavePending: False
+2020-02-17 20:28:04.150 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:28:04.150 - Incrementing ActiveTurnActor
+2020-02-17 20:28:07.849 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:28:07.849 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:07.888 - TD:OTAAC invoked
+2020-02-17 20:28:07.888 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:28:07.888 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:28:07.888 - Incrementing ActiveTurnActor
+2020-02-17 20:28:08.750 - T:GNAU invoked with null AA? False
+2020-02-17 20:28:17.303 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:28:17.303 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:17.330 - TD:OTAAC invoked
+2020-02-17 20:28:17.330 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:28:17.330 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:28:17.330 - Incrementing ActiveTurnActor
+2020-02-17 20:28:26.099 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:28:26.099 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:26.159 - TD:OTAAC invoked
+2020-02-17 20:28:26.159 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:28:26.159 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:28:26.159 - Incrementing ActiveTurnActor
+2020-02-17 20:28:26.816 - T:GNAU invoked with null AA? False
+2020-02-17 20:28:45.050 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:28:45.050 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:45.098 - TD:OTAAC invoked
+2020-02-17 20:28:45.098 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:28:45.098 - There are 2 unusedUnits in the current phase)
+2020-02-17 20:28:45.098 - Incrementing ActiveTurnActor
+2020-02-17 20:28:45.816 - T:GNAU invoked with null AA? False
+2020-02-17 20:28:54.900 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:28:54.900 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:28:54.946 - TD:OTAAC invoked
+2020-02-17 20:28:54.946 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:28:54.946 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:28:54.946 - Incrementing ActiveTurnActor
+2020-02-17 20:28:55.033 - T:GNAU invoked with null AA? False
+2020-02-17 20:29:07.516 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:29:07.516 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:07.556 - TD:OTAAC invoked
+2020-02-17 20:29:07.556 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:07.556 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:29:07.556 - Incrementing ActiveTurnActor
+2020-02-17 20:29:17.782 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:29:17.782 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:17.843 - TD:OTAAC invoked
+2020-02-17 20:29:17.843 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:17.843 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:29:17.843 - Incrementing ActiveTurnActor
+2020-02-17 20:29:18.383 - T:GNAU invoked with null AA? False
+2020-02-17 20:29:26.343 - [ERROR]ATTACK SEQUENCE FOR ID 72653340 IS NULL - SKIPPING!
+2020-02-17 20:29:26.583 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:29:26.583 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:26.629 - TD:OTAAC invoked
+2020-02-17 20:29:26.629 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:26.629 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:29:26.629 - Incrementing ActiveTurnActor
+2020-02-17 20:29:35.682 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:29:35.682 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:35.742 - TD:OTAAC invoked
+2020-02-17 20:29:35.742 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:35.742 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:29:35.742 - Incrementing ActiveTurnActor
+2020-02-17 20:29:36.416 - T:GNAU invoked with null AA? False
+2020-02-17 20:29:45.691 - [ERROR]ATTACK SEQUENCE FOR ID 64114149 IS NULL - SKIPPING!
+2020-02-17 20:29:47.200 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:29:47.200 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:47.925 - TD:OTAAC invoked
+2020-02-17 20:29:47.925 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:47.925 - There are 2 unusedUnits in the current phase)
+2020-02-17 20:29:47.925 - Incrementing ActiveTurnActor
+2020-02-17 20:29:48.566 - T:GNAU invoked with null AA? False
+2020-02-17 20:29:56.768 - [ERROR]ATTACK SEQUENCE FOR ID 93477054 IS NULL - SKIPPING!
+2020-02-17 20:29:58.616 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:29:58.616 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:29:58.658 - TD:OTAAC invoked
+2020-02-17 20:29:58.658 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:29:58.658 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:29:58.658 - Incrementing ActiveTurnActor
+2020-02-17 20:29:59.366 - T:GNAU invoked with null AA? False
+2020-02-17 20:30:09.884 - [ERROR]ATTACK SEQUENCE FOR ID 23437411 IS NULL - SKIPPING!
+2020-02-17 20:30:12.399 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:30:12.399 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:30:12.439 - TD:OTAAC invoked
+2020-02-17 20:30:12.439 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:30:12.439 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:30:12.439 - Incrementing ActiveTurnActor
+2020-02-17 20:30:19.133 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:30:22.916 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:30:22.916 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:30:22.988 - TD:OTAAC invoked
+2020-02-17 20:30:22.988 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:30:22.988 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:30:22.988 - Incrementing ActiveTurnActor
+2020-02-17 20:30:23.499 - T:GNAU invoked with null AA? False
+2020-02-17 20:30:31.326 - [ERROR]ATTACK SEQUENCE FOR ID 31453988 IS NULL - SKIPPING!
+2020-02-17 20:30:32.317 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:30:32.317 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:30:32.363 - TD:OTAAC invoked
+2020-02-17 20:30:32.363 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:30:32.363 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:30:32.363 - Incrementing ActiveTurnActor
+2020-02-17 20:30:38.400 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:30:41.665 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:30:41.665 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:30:41.738 - TD:OTAAC invoked
+2020-02-17 20:30:41.738 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:30:41.738 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:30:41.738 - Incrementing ActiveTurnActor
+2020-02-17 20:30:42.316 - T:GNAU invoked with null AA? False
+2020-02-17 20:30:55.299 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:30:55.299 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:30:55.349 - TD:OTAAC invoked
+2020-02-17 20:30:55.349 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:30:55.349 - There are 2 unusedUnits in the current phase)
+2020-02-17 20:30:55.349 - Incrementing ActiveTurnActor
+2020-02-17 20:30:56.150 - T:GNAU invoked with null AA? False
+2020-02-17 20:30:59.162 - [ERROR]ATTACK SEQUENCE FOR ID 48593281 IS NULL - SKIPPING!
+2020-02-17 20:31:02.182 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:31:02.182 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:31:02.231 - TD:OTAAC invoked
+2020-02-17 20:31:02.231 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:31:02.231 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:31:02.231 - Incrementing ActiveTurnActor
+2020-02-17 20:31:03.000 - T:GNAU invoked with null AA? False
+2020-02-17 20:31:18.366 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:31:18.366 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:31:18.407 - TD:OTAAC invoked
+2020-02-17 20:31:18.407 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:31:18.407 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:31:18.407 - Incrementing ActiveTurnActor
+2020-02-17 20:31:28.366 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:31:28.366 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:31:28.435 - TD:OTAAC invoked
+2020-02-17 20:31:28.435 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:31:28.435 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:31:28.435 - Incrementing ActiveTurnActor
+2020-02-17 20:31:28.816 - T:GNAU invoked with null AA? False
+2020-02-17 20:31:37.416 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:31:37.416 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:31:37.462 - TD:OTAAC invoked
+2020-02-17 20:31:37.462 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:31:37.462 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:31:37.462 - Incrementing ActiveTurnActor
+2020-02-17 20:31:38.232 - T:GNAU invoked with null AA? False
+2020-02-17 20:31:53.667 - [ERROR]ATTACK SEQUENCE FOR ID 28218504 IS NULL - SKIPPING!
+2020-02-17 20:31:55.015 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:31:55.015 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:31:55.057 - TD:OTAAC invoked
+2020-02-17 20:31:55.057 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:31:55.057 - There are 2 unusedUnits in the current phase)
+2020-02-17 20:31:55.057 - Incrementing ActiveTurnActor
+2020-02-17 20:31:55.749 - T:GNAU invoked with null AA? False
+2020-02-17 20:32:08.700 - [ERROR]ATTACK SEQUENCE FOR ID 42855762 IS NULL - SKIPPING!
+2020-02-17 20:32:10.882 - MHS - executing updated logic for state: Finished on actor:Blackjack_Nomad.
+2020-02-17 20:32:10.882 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:32:10.925 - TD:OTAAC invoked
+2020-02-17 20:32:10.925 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:32:10.925 - There are 1 unusedUnits in the current phase)
+2020-02-17 20:32:10.925 - Incrementing ActiveTurnActor
+2020-02-17 20:32:11.533 - T:GNAU invoked with null AA? False
+2020-02-17 20:32:35.449 - MHS - executing updated logic for state: Finished on actor:Vindicator_Babby.
+2020-02-17 20:32:35.449 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:32:35.489 - TD:OTAAC invoked
+2020-02-17 20:32:35.489 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:32:35.489 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:32:35.489 - Incrementing ActiveTurnActor
+2020-02-17 20:32:42.767 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:32:46.665 - MHS - executing updated logic for state: Finished on actor:Firestarter_Recruit.
+2020-02-17 20:32:46.665 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:32:46.728 - TD:OTAAC invoked
+2020-02-17 20:32:46.728 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:32:46.728 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:32:46.728 - Incrementing ActiveTurnActor
+2020-02-17 20:32:47.782 - T:GNAU invoked with null AA? False
+2020-02-17 20:32:53.919 - [ERROR]ATTACK SEQUENCE FOR ID 54493828 IS NULL - SKIPPING!
+2020-02-17 20:32:54.916 - MHS - executing updated logic for state: Finished on actor:Spider_Legend Slayer.
+2020-02-17 20:32:54.916 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:32:54.960 - TD:OTAAC invoked
+2020-02-17 20:32:54.960 - TD isInterleaved: True  isInterleavePending: False  isNonInterleavePending: False
+2020-02-17 20:32:54.960 - There are 0 unusedUnits in the current phase)
+2020-02-17 20:32:54.960 - Incrementing ActiveTurnActor
+2020-02-17 20:32:55.966 - T:GNAU invoked with null AA? False
+2020-02-17 20:33:06.914 - Intercepting lostContact state, allowing remainder of actors to move.
+2020-02-17 20:33:10.816 - MHS - executing updated logic for state: Finished on actor:Shadow Hawk_FlyBoy.
+2020-02-17 20:33:10.816 - AT END OF TURN - CHECKING EFFECTS
+2020-02-17 20:33:10.865 - TD:OTAAC invoked
