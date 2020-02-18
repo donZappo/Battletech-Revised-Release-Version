@@ -1,12 +1,7 @@
-2020-02-17 20:24:04.548 - Assembly version: 1.4.0.0
-2020-02-17 20:24:04.548 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRBTModUtils
-2020-02-17 20:24:04.548 - mod.json settings are:({"Debug":true,"Trace":true})
-2020-02-17 20:24:04.548 - === MOD CONFIG BEGIN ===
-2020-02-17 20:24:04.548 -   DEBUG: True Trace: True
-2020-02-17 20:24:04.548 - === DIALOGUE OPTIONS ===
-2020-02-17 20:24:04.548 - INFO: No errors reading settings file.
-2020-02-17 20:26:38.627 - Coordinator::OCHUDI - entered.
-2020-02-17 20:26:38.627 - Reading files from C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRBTModUtils\../../BattleTech_Data/StreamingAssets/data/nameLists/name_callsign.txt
-2020-02-17 20:26:38.629 - Callsign count is: 1565
-2020-02-17 20:26:38.629 - Coordinator::OCHUDI - exiting.
-2020-02-17 20:38:32.728 - Coordinator::OCGD - entered.
+2020-02-18 17:13:34.764 - Assembly version: 1.4.0.0
+2020-02-18 17:13:34.764 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRBTModUtils
+2020-02-18 17:13:34.764 - mod.json settings are:({"Debug":true,"Trace":true})
+2020-02-18 17:13:34.765 - === MOD CONFIG BEGIN ===
+2020-02-18 17:13:34.765 -   DEBUG: True Trace: True
+2020-02-18 17:13:34.765 - === DIALOGUE OPTIONS ===
+2020-02-18 17:13:34.765 - INFO: No errors reading settings file.
