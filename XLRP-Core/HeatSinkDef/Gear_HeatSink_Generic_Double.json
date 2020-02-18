@@ -12,7 +12,7 @@
         "Cost" : 200000,
         "Rarity" : 100,
         "Purchasable" : false,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "Lostech",
         "Model" : "Double",
         "UIName" : "Heat Sink (D)",
         "Id" : "Gear_HeatSink_Generic_Double",
