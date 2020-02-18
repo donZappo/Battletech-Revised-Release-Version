@@ -6,7 +6,7 @@
     "DLL": "Retrainer.dll",
     "Settings": {
         "cost": 500000,
-        "onceOnly": true ,
+        "onceOnly": false ,
         "trainingModuleRequired": true
     }
 }
