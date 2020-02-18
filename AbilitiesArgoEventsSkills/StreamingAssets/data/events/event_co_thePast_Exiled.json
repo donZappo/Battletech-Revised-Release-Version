@@ -89,8 +89,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 5000,
-                            "valueConstant" : "5000"
+                            "val" : 25000,
+                            "valueConstant" : "25000"
                         }
                     ]
                 }
@@ -122,7 +122,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-5000",
+                                    "value" : "-25000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
