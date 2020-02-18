@@ -928,7 +928,7 @@
       "Description": {
         "Id": "AbilityDefInspired",
         "Name": "INSPIRED",
-        "Details": "-1 DIFFICULTY TO ALL ROLLS",
+        "Details": "-1/-2/-3 DIFFICULTY TO ALL ROLLS BASED ON RESOLVE",
         "Icon": "uixSvgIcon_mwInspired"
       },
       "statisticData": {
@@ -1158,7 +1158,7 @@
     "MoraleBarDescription": {
       "Name": "Resolve",
       "Details":
-        "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%, your MechWarriors become Inspired, gaining a +1 bonus to Accuracy for all attacks."
+        "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%/75%/100% your MechWarriors become Inspired, gaining a +1/+2/+3 bonus to Accuracy for all attacks."
     },
     "FuryBarDescription": {
       "Name": "Fury",
