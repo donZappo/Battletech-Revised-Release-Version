@@ -1,341 +1,364 @@
-2020-02-17 20:24:04.566 - Assembly version: 0.5.6.0
-2020-02-17 20:24:04.566 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRTweaks
-2020-02-17 20:24:04.566 - mod.json settings are:({"Debug":true,"Trace":false,"Fixes":{"BulkPurchasing":"true","CombatLog":"false","DisableCampaign":"false","DisableCombatSaves":"false","ExtendedStats":"true","FlexibleSensorLock":"true","MultiTargetStat":"true","PreventHeadShots":"false","RandomStartByDifficulty":"false","ReduceSaveCompression":"true","SkipDeleteSavePopup":"true","SkirmishReset":"true","SpawnProtection":"true","StreamlinedMainMenu":"true","WeaponTooltip":"true"},"Abilities":{"MultiTargetId":"AbilityDefG5"},"Combat":{"PilotAttributesMax":14,"CalledShot":{"Modifier":9,"PilotTags":{"pilot_drunk":-2,"pilot_reckless":-1,"pilot_assassin":2}},"SpawnProtection":{"ApplyGuard":true,"EvasionPips":0,"ApplyToEnemies":true,"ApplyToAllies":true,"ApplyToNeutrals":true,"ApplyToReinforcements":true},"FlexibleSensorLock":{"FreeActionWithAbility":true,"AbilityId":"AbilityDefT8A"}},"Store":{"QuantityOnShift":5,"QuantityOnControl":20}})
-2020-02-17 20:24:04.567 - === MOD CONFIG BEGIN ===
-2020-02-17 20:24:04.567 -   DEBUG:True Trace:False
-2020-02-17 20:24:04.567 -   -- Fixes --
-2020-02-17 20:24:04.567 -   BulkPurchasing:True  CombatLog:False  DisableCombatSaves:False  ExtendedStats: True  FlexibleSensorLock:True  PreventCalledShots: False  RandomStartByDifficulty:False  SkirmishReset: True  SpawnProtection:TrueWeaponTooltips:TrueSkipDeleteSavePopup:TrueReduceSaveCompression:True
-2020-02-17 20:24:04.567 -   -- Called Shot --
-2020-02-17 20:24:04.567 -    CalledShotDefaultMod:9
-2020-02-17 20:24:04.567 -    CalledShotPilotModifier - tag:pilot_drunk modifier:-2
-2020-02-17 20:24:04.567 -    CalledShotPilotModifier - tag:pilot_reckless modifier:-1
-2020-02-17 20:24:04.567 -    CalledShotPilotModifier - tag:pilot_assassin modifier:2
-2020-02-17 20:24:04.567 -    CalledShotDefaultMod:9
-2020-02-17 20:24:04.567 -   -- Spawn Protection --
-2020-02-17 20:24:04.567 -    ApplyGuard:True  EvasionPips:0
-2020-02-17 20:24:04.567 -    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
-2020-02-17 20:24:04.567 -    ApplyToReinforcements:True
-2020-02-17 20:24:04.567 -   -- Store --
-2020-02-17 20:24:04.567 -    QuantityOnShift:5  QuantityOnControl:20
-2020-02-17 20:24:04.567 -   -- Flexible Sensor Lock Options --
-2020-02-17 20:24:04.567 -    FreeActionWithAbility:True  AbilityId:AbilityDefT8A
-2020-02-17 20:24:04.567 - === MOD CONFIG END ===
-2020-02-17 20:24:04.567 - INFO: No errors reading settings file.
-2020-02-17 20:24:04.568 - Activating Fix: ExtendedStats
-2020-02-17 20:24:04.570 - Activating Fix: FlexibleSensorLock
-2020-02-17 20:24:04.599 - Activating Fix: SpawnProtection
-2020-02-17 20:24:04.601 - Activating Fix: SkirmishReset
-2020-02-17 20:24:04.602 - Activating Fix: MultiTargetStat
-2020-02-17 20:24:04.603 - Activating Fix: BulkPurchasing
-2020-02-17 20:24:04.606 - Activating Fix: StreamlinedMainMenu
-2020-02-17 20:24:04.612 - Activating Fix: WeaponTooltip
-2020-02-17 20:24:52.019 - SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-2020-02-17 20:24:54.757 - SGNL:Start - adding new button.
-2020-02-17 20:24:54.757 -  - Creating store button
-2020-02-17 20:24:54.761 -  - Creating staff button
-2020-02-17 20:24:54.766 -  - Creating memorial button
-2020-02-17 20:25:20.104 - SGNB:OC - button clicked for ID: CMD_CENTER
-2020-02-17 20:25:20.104 - DEBUG - calling SetQueuedUIActivationID!
-2020-02-17 20:26:50.450 - Protecting lances on firstContact during first round:1
-2020-02-17 20:26:50.450 - Protecting units on first turn'
-2020-02-17 20:26:50.450 - Applying braced state to actor:Spider_Legend Slayer_7B9F1E30 of type:BattleTech.Mech
-2020-02-17 20:26:50.451 - Applying braced state to actor:Shadow Hawk_FlyBoy_EC1A10DE of type:BattleTech.Mech
-2020-02-17 20:26:50.451 - Applying braced state to actor:Blackjack_Nomad_57245CBC of type:BattleTech.Mech
-2020-02-17 20:26:50.452 - Applying braced state to actor:Vindicator_Babby_BF79B444 of type:BattleTech.Mech
-2020-02-17 20:26:50.452 - Applying braced state to actor:Firestarter_Recruit_BDB3FEEE of type:BattleTech.Mech
-2020-02-17 20:26:50.452 - Applying braced state to actor:Firestarter_Recruit_124FB4F4 of type:BattleTech.Mech
-2020-02-17 20:27:09.134 - Protecting lances on firstContact during first round:2
-2020-02-17 20:27:25.310 - Protecting lances on firstContact during first round:3
-2020-02-17 20:27:40.618 - Protecting lances on firstContact during first round:4
-2020-02-17 20:28:04.184 - Protecting lances on firstContact during first round:5
-2020-02-17 20:28:20.353 - Multi-Target stat exists
-2020-02-17 20:28:20.353 - Actor: Firestarter_Recruit_124FB4F4 has enableMultiTarget: false
-2020-02-17 20:29:07.618 - Protecting lances on firstContact during first round:6
-2020-02-17 20:29:11.644 - Multi-Target stat exists
-2020-02-17 20:29:11.644 - Actor: Firestarter_Recruit_BDB3FEEE has enableMultiTarget: false
-2020-02-17 20:29:29.534 - Multi-Target stat exists
-2020-02-17 20:29:29.534 - Actor: Firestarter_Recruit_124FB4F4 has enableMultiTarget: false
-2020-02-17 20:30:12.505 - Protecting lances on firstContact during first round:7
-2020-02-17 20:30:16.545 - Multi-Target stat exists
-2020-02-17 20:30:16.545 - Actor: Firestarter_Recruit_BDB3FEEE has enableMultiTarget: false
-2020-02-17 20:30:36.137 - Multi-Target stat exists
-2020-02-17 20:30:36.137 - Actor: Firestarter_Recruit_124FB4F4 has enableMultiTarget: false
-2020-02-17 20:31:18.469 - Protecting lances on firstContact during first round:8
-2020-02-17 20:31:22.665 - Multi-Target stat exists
-2020-02-17 20:31:22.665 - Actor: Firestarter_Recruit_124FB4F4 has enableMultiTarget: false
-2020-02-17 20:32:35.554 - Protecting lances on firstContact during first round:9
-2020-02-17 20:32:40.084 - Multi-Target stat exists
-2020-02-17 20:32:40.084 - Actor: Firestarter_Recruit_124FB4F4 has enableMultiTarget: false
-2020-02-17 20:37:44.973 - TP_W:SD entered.
-2020-02-17 20:37:44.973 -   Updating weapon text.
-2020-02-17 20:37:45.044 - TP_W:SD entered.
-2020-02-17 20:37:45.044 -   Updating weapon text.
-2020-02-17 20:37:45.612 - TP_W:SD entered.
-2020-02-17 20:37:45.612 -   Updating weapon text.
-2020-02-17 20:37:45.646 - TP_W:SD entered.
-2020-02-17 20:37:45.646 -   Updating weapon text.
-2020-02-17 20:38:02.329 - TP_W:SD entered.
-2020-02-17 20:38:02.329 -   Updating weapon text.
-2020-02-17 20:38:03.195 - TP_W:SD entered.
-2020-02-17 20:38:03.195 -   Updating weapon text.
-2020-02-17 20:38:13.961 - TP_W:SD entered.
-2020-02-17 20:38:13.961 -   Updating weapon text.
-2020-02-17 20:38:14.245 - TP_W:SD entered.
-2020-02-17 20:38:14.245 -   Updating weapon text.
-2020-02-17 20:38:15.395 - TP_W:SD entered.
-2020-02-17 20:38:15.395 -   Updating weapon text.
-2020-02-17 20:38:15.495 - TP_W:SD entered.
-2020-02-17 20:38:15.495 -   Updating weapon text.
-2020-02-17 20:38:28.478 - TP_W:SD entered.
-2020-02-17 20:38:28.479 -   Updating weapon text.
-2020-02-17 20:38:38.314 - SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
-2020-02-17 20:38:40.968 - SGNL:Start - adding new button.
-2020-02-17 20:38:40.968 -  - Creating store button
-2020-02-17 20:38:40.972 -  - Creating staff button
-2020-02-17 20:38:40.976 -  - Creating memorial button
-2020-02-17 20:38:50.502 - SGNB:OC - button clicked for ID: MECH_BAY
-2020-02-17 20:38:50.502 - DEBUG - calling SetQueuedUIActivationID!
-2020-02-17 20:39:36.865 - TP_W:SD entered.
-2020-02-17 20:39:36.865 -   Updating weapon text.
-2020-02-17 20:39:37.682 - TP_W:SD entered.
-2020-02-17 20:39:37.682 -   Updating weapon text.
-2020-02-17 20:39:38.032 - TP_W:SD entered.
-2020-02-17 20:39:38.033 -   Updating weapon text.
-2020-02-17 20:39:38.114 - TP_W:SD entered.
-2020-02-17 20:39:38.114 -   Updating weapon text.
-2020-02-17 20:39:38.149 - TP_W:SD entered.
-2020-02-17 20:39:38.149 -   Updating weapon text.
-2020-02-17 20:39:39.033 - TP_W:SD entered.
-2020-02-17 20:39:39.033 -   Updating weapon text.
-2020-02-17 20:39:39.200 - TP_W:SD entered.
-2020-02-17 20:39:39.200 -   Updating weapon text.
-2020-02-17 20:39:39.281 - TP_W:SD entered.
-2020-02-17 20:39:39.281 -   Updating weapon text.
-2020-02-17 20:39:39.931 - TP_W:SD entered.
-2020-02-17 20:39:39.931 -   Updating weapon text.
-2020-02-17 20:39:39.981 - TP_W:SD entered.
-2020-02-17 20:39:39.981 -   Updating weapon text.
-2020-02-17 20:39:40.032 - TP_W:SD entered.
-2020-02-17 20:39:40.032 -   Updating weapon text.
-2020-02-17 20:39:40.182 - TP_W:SD entered.
-2020-02-17 20:39:40.182 -   Updating weapon text.
-2020-02-17 20:39:40.198 - TP_W:SD entered.
-2020-02-17 20:39:40.198 -   Updating weapon text.
-2020-02-17 20:39:40.314 - TP_W:SD entered.
-2020-02-17 20:39:40.314 -   Updating weapon text.
-2020-02-17 20:39:40.331 - TP_W:SD entered.
-2020-02-17 20:39:40.332 -   Updating weapon text.
-2020-02-17 20:39:44.848 - TP_W:SD entered.
-2020-02-17 20:39:44.848 -   Updating weapon text.
-2020-02-17 20:39:44.997 - TP_W:SD entered.
-2020-02-17 20:39:44.997 -   Updating weapon text.
-2020-02-17 20:39:45.181 - TP_W:SD entered.
-2020-02-17 20:39:45.181 -   Updating weapon text.
-2020-02-17 20:39:45.265 - TP_W:SD entered.
-2020-02-17 20:39:45.265 -   Updating weapon text.
-2020-02-17 20:39:46.197 - TP_W:SD entered.
-2020-02-17 20:39:46.197 -   Updating weapon text.
-2020-02-17 20:39:46.247 - TP_W:SD entered.
-2020-02-17 20:39:46.247 -   Updating weapon text.
-2020-02-17 20:39:46.314 - TP_W:SD entered.
-2020-02-17 20:39:46.314 -   Updating weapon text.
-2020-02-17 20:39:49.330 - TP_W:SD entered.
-2020-02-17 20:39:49.330 -   Updating weapon text.
-2020-02-17 20:39:50.381 - TP_W:SD entered.
-2020-02-17 20:39:50.381 -   Updating weapon text.
-2020-02-17 20:39:52.380 - TP_W:SD entered.
-2020-02-17 20:39:52.380 -   Updating weapon text.
-2020-02-17 20:39:53.798 - TP_W:SD entered.
-2020-02-17 20:39:53.798 -   Updating weapon text.
-2020-02-17 20:39:53.847 - TP_W:SD entered.
-2020-02-17 20:39:53.848 -   Updating weapon text.
-2020-02-17 20:39:53.881 - TP_W:SD entered.
-2020-02-17 20:39:53.881 -   Updating weapon text.
-2020-02-17 20:39:54.081 - TP_W:SD entered.
-2020-02-17 20:39:54.082 -   Updating weapon text.
-2020-02-17 20:39:54.580 - TP_W:SD entered.
-2020-02-17 20:39:54.580 -   Updating weapon text.
-2020-02-17 20:39:58.898 - TP_W:SD entered.
-2020-02-17 20:39:58.898 -   Updating weapon text.
-2020-02-17 20:40:03.017 - TP_W:SD entered.
-2020-02-17 20:40:03.017 -   Updating weapon text.
-2020-02-17 20:40:04.581 - TP_W:SD entered.
-2020-02-17 20:40:04.581 -   Updating weapon text.
-2020-02-17 20:40:04.681 - TP_W:SD entered.
-2020-02-17 20:40:04.681 -   Updating weapon text.
-2020-02-17 20:40:14.398 - TP_W:SD entered.
-2020-02-17 20:40:14.398 -   Updating weapon text.
-2020-02-17 20:40:20.280 - TP_W:SD entered.
-2020-02-17 20:40:20.280 -   Updating weapon text.
-2020-02-17 20:40:20.330 - TP_W:SD entered.
-2020-02-17 20:40:20.330 -   Updating weapon text.
-2020-02-17 20:40:22.164 - TP_W:SD entered.
-2020-02-17 20:40:22.164 -   Updating weapon text.
-2020-02-17 20:40:24.614 - TP_W:SD entered.
-2020-02-17 20:40:24.614 -   Updating weapon text.
-2020-02-17 20:40:25.047 - TP_W:SD entered.
-2020-02-17 20:40:25.047 -   Updating weapon text.
-2020-02-17 20:40:25.180 - TP_W:SD entered.
-2020-02-17 20:40:25.180 -   Updating weapon text.
-2020-02-17 20:40:25.800 - TP_W:SD entered.
-2020-02-17 20:40:25.800 -   Updating weapon text.
-2020-02-17 20:40:26.148 - TP_W:SD entered.
-2020-02-17 20:40:26.148 -   Updating weapon text.
-2020-02-17 20:40:27.166 - TP_W:SD entered.
-2020-02-17 20:40:27.166 -   Updating weapon text.
-2020-02-17 20:40:27.498 - TP_W:SD entered.
-2020-02-17 20:40:27.498 -   Updating weapon text.
-2020-02-17 20:40:27.681 - TP_W:SD entered.
-2020-02-17 20:40:27.681 -   Updating weapon text.
-2020-02-17 20:40:27.847 - TP_W:SD entered.
-2020-02-17 20:40:27.847 -   Updating weapon text.
-2020-02-17 20:40:28.110 - TP_W:SD entered.
-2020-02-17 20:40:28.110 -   Updating weapon text.
-2020-02-17 20:40:29.100 - TP_W:SD entered.
-2020-02-17 20:40:29.100 -   Updating weapon text.
-2020-02-17 20:40:29.248 - TP_W:SD entered.
-2020-02-17 20:40:29.248 -   Updating weapon text.
-2020-02-17 20:40:29.697 - TP_W:SD entered.
-2020-02-17 20:40:29.697 -   Updating weapon text.
-2020-02-17 20:40:29.717 - TP_W:SD entered.
-2020-02-17 20:40:29.717 -   Updating weapon text.
-2020-02-17 20:40:29.733 - TP_W:SD entered.
-2020-02-17 20:40:29.733 -   Updating weapon text.
-2020-02-17 20:40:39.114 - TP_W:SD entered.
-2020-02-17 20:40:39.114 -   Updating weapon text.
-2020-02-17 20:40:39.697 - TP_W:SD entered.
-2020-02-17 20:40:39.697 -   Updating weapon text.
-2020-02-17 20:40:40.214 - TP_W:SD entered.
-2020-02-17 20:40:40.214 -   Updating weapon text.
-2020-02-17 20:40:46.597 - TP_W:SD entered.
-2020-02-17 20:40:46.597 -   Updating weapon text.
-2020-02-17 20:40:56.064 - TP_W:SD entered.
-2020-02-17 20:40:56.064 -   Updating weapon text.
-2020-02-17 20:40:56.597 - TP_W:SD entered.
-2020-02-17 20:40:56.598 -   Updating weapon text.
-2020-02-17 20:40:57.264 - TP_W:SD entered.
-2020-02-17 20:40:57.264 -   Updating weapon text.
-2020-02-17 20:40:58.948 - TP_W:SD entered.
-2020-02-17 20:40:58.948 -   Updating weapon text.
-2020-02-17 20:41:01.149 - TP_W:SD entered.
-2020-02-17 20:41:01.149 -   Updating weapon text.
-2020-02-17 20:41:01.448 - TP_W:SD entered.
-2020-02-17 20:41:01.448 -   Updating weapon text.
-2020-02-17 20:41:01.631 - TP_W:SD entered.
-2020-02-17 20:41:01.631 -   Updating weapon text.
-2020-02-17 20:41:22.449 - TP_W:SD entered.
-2020-02-17 20:41:22.449 -   Updating weapon text.
-2020-02-17 20:41:56.414 - TP_W:SD entered.
-2020-02-17 20:41:56.414 -   Updating weapon text.
-2020-02-17 20:42:14.313 - TP_W:SD entered.
-2020-02-17 20:42:14.313 -   Updating weapon text.
-2020-02-17 20:42:22.947 - TP_W:SD entered.
-2020-02-17 20:42:22.947 -   Updating weapon text.
-2020-02-17 20:42:38.599 - TP_W:SD entered.
-2020-02-17 20:42:38.599 -   Updating weapon text.
-2020-02-17 20:42:39.842 - TP_W:SD entered.
-2020-02-17 20:42:39.842 -   Updating weapon text.
-2020-02-17 20:42:41.297 - TP_W:SD entered.
-2020-02-17 20:42:41.297 -   Updating weapon text.
-2020-02-17 20:42:41.998 - TP_W:SD entered.
-2020-02-17 20:42:41.998 -   Updating weapon text.
-2020-02-17 20:42:43.631 - TP_W:SD entered.
-2020-02-17 20:42:43.631 -   Updating weapon text.
-2020-02-17 20:42:44.264 - TP_W:SD entered.
-2020-02-17 20:42:44.264 -   Updating weapon text.
-2020-02-17 20:42:45.397 - TP_W:SD entered.
-2020-02-17 20:42:45.398 -   Updating weapon text.
-2020-02-17 20:42:45.439 - TP_W:SD entered.
-2020-02-17 20:42:45.439 -   Updating weapon text.
-2020-02-17 20:42:56.331 - TP_W:SD entered.
-2020-02-17 20:42:56.331 -   Updating weapon text.
-2020-02-17 20:42:57.330 - TP_W:SD entered.
-2020-02-17 20:42:57.330 -   Updating weapon text.
-2020-02-17 20:43:04.597 - TP_W:SD entered.
-2020-02-17 20:43:04.597 -   Updating weapon text.
-2020-02-17 20:43:18.230 - TP_W:SD entered.
-2020-02-17 20:43:18.230 -   Updating weapon text.
-2020-02-17 20:43:23.347 - TP_W:SD entered.
-2020-02-17 20:43:23.347 -   Updating weapon text.
-2020-02-17 20:43:39.481 - TP_W:SD entered.
-2020-02-17 20:43:39.481 -   Updating weapon text.
-2020-02-17 20:43:40.147 - TP_W:SD entered.
-2020-02-17 20:43:40.147 -   Updating weapon text.
-2020-02-17 20:43:40.214 - TP_W:SD entered.
-2020-02-17 20:43:40.214 -   Updating weapon text.
-2020-02-17 20:43:40.901 - TP_W:SD entered.
-2020-02-17 20:43:40.901 -   Updating weapon text.
-2020-02-17 20:43:42.731 - TP_W:SD entered.
-2020-02-17 20:43:42.731 -   Updating weapon text.
-2020-02-17 20:43:43.064 - TP_W:SD entered.
-2020-02-17 20:43:43.064 -   Updating weapon text.
-2020-02-17 20:43:44.431 - TP_W:SD entered.
-2020-02-17 20:43:44.431 -   Updating weapon text.
-2020-02-17 20:43:45.414 - TP_W:SD entered.
-2020-02-17 20:43:45.414 -   Updating weapon text.
-2020-02-17 20:43:45.847 - TP_W:SD entered.
-2020-02-17 20:43:45.847 -   Updating weapon text.
-2020-02-17 20:43:47.414 - TP_W:SD entered.
-2020-02-17 20:43:47.414 -   Updating weapon text.
-2020-02-17 20:44:09.797 - TP_W:SD entered.
-2020-02-17 20:44:09.797 -   Updating weapon text.
-2020-02-17 20:44:10.130 - TP_W:SD entered.
-2020-02-17 20:44:10.130 -   Updating weapon text.
-2020-02-17 20:44:15.531 - TP_W:SD entered.
-2020-02-17 20:44:15.531 -   Updating weapon text.
-2020-02-17 20:44:22.081 - TP_W:SD entered.
-2020-02-17 20:44:22.081 -   Updating weapon text.
-2020-02-17 20:44:32.984 - SGNB:OC - button clicked for ID: SHIP
-2020-02-17 20:44:33.030 - SG_S_S:RBP entered with button:(ShopTypeSystem)
-2020-02-17 20:44:33.038 - SG_S_S:RBP entered with button:(FilterAll)
-2020-02-17 20:44:33.043 - SG_S_S:RBP entered with button:(FilterAll)
-2020-02-17 20:44:33.187 - DEBUG - calling SetQueuedUIActivationID!
-2020-02-17 20:44:33.375 - SG_S_S:RBP entered with button:(ShopTypeSystem)
-2020-02-17 20:44:33.551 - SG_S_S:RBP entered with button:(FilterAll)
-2020-02-17 20:44:36.529 - TP_W:SD entered.
-2020-02-17 20:44:36.529 -   Updating weapon text.
-2020-02-17 20:44:36.662 - TP_W:SD entered.
-2020-02-17 20:44:36.662 -   Updating weapon text.
-2020-02-17 20:44:37.062 - TP_W:SD entered.
-2020-02-17 20:44:37.062 -   Updating weapon text.
-2020-02-17 20:44:37.862 - TP_W:SD entered.
-2020-02-17 20:44:37.862 -   Updating weapon text.
-2020-02-17 20:44:37.878 - TP_W:SD entered.
-2020-02-17 20:44:37.879 -   Updating weapon text.
-2020-02-17 20:44:37.911 - TP_W:SD entered.
-2020-02-17 20:44:37.911 -   Updating weapon text.
-2020-02-17 20:44:39.145 - SG_S_S:RBP entered with button:(Capitalism)
-2020-02-17 20:44:39.145 - SG_S_S:RBP - processing a purchase.
-2020-02-17 20:44:39.145 - SG_S_S:RBP - maxCanPurchase:10 = funds:2604600 / price:237600.
-2020-02-17 20:44:39.145 - SG_S_S:RBP - maxCanPurchase:10 controllerQuantity:2 -> popupQuantity:2.
-2020-02-17 20:44:39.161 - SG_S_MPP:R entered.
-2020-02-17 20:44:39.161 - SG_S_MPP:R   value:237600 = costPerUnit:237600 x quantityBeingSold:1.
-2020-02-17 20:44:40.611 - SG_S_MPP:RCP entered.
-2020-02-17 20:44:40.611 -   MAX newQuantity = maxYouCanSell:2
-2020-02-17 20:44:40.612 - SG_S_MPP:R entered.
-2020-02-17 20:44:40.612 - SG_S_MPP:R   value:475200 = costPerUnit:237600 x quantityBeingSold:2.
-2020-02-17 20:44:41.578 - SG_S_MPP:RCP entered.
-2020-02-17 20:44:41.579 - BH:BMI entered.
-2020-02-17 20:44:41.579 - BH:BMI - itemPrice:237600 for purchaseType:Special
-2020-02-17 20:44:41.579 - BH:BMI - Store count below 1, removing!
-2020-02-17 20:44:41.580 - BH:BMI - Reduced store count by 2 to 0!
-2020-02-17 20:44:41.584 - BH:BMI - Reducing funds by -237600 and adding 1 of Weapon_LRM_LRM15_0-STOCK
-2020-02-17 20:44:41.584 - BH:BMI - reducing shop inventory by 1 to 1
-2020-02-17 20:44:41.588 - BH:BMI - Reducing funds by -237600 and adding 1 of Weapon_LRM_LRM15_0-STOCK
-2020-02-17 20:44:41.588 - BH:BMI - shop inventory below 1, removing!
-2020-02-17 20:44:41.655 - BH:BMI - Updating all money spots
-2020-02-17 20:44:41.656 - BH:BMI - triggering iron man save
-2020-02-17 20:44:41.659 - SG_S_MPP:R entered.
-2020-02-17 20:44:41.659 - SG_S_MPP:R   value:475200 = costPerUnit:237600 x quantityBeingSold:2.
-2020-02-17 20:44:41.912 - TP_W:SD entered.
-2020-02-17 20:44:41.912 -   Updating weapon text.
-2020-02-17 20:44:42.095 - TP_W:SD entered.
-2020-02-17 20:44:42.095 -   Updating weapon text.
-2020-02-17 20:44:42.328 - TP_W:SD entered.
-2020-02-17 20:44:42.328 -   Updating weapon text.
-2020-02-17 20:44:42.853 - TP_W:SD entered.
-2020-02-17 20:44:42.853 -   Updating weapon text.
-2020-02-17 20:44:45.825 - SGNB:OC - button clicked for ID: NAVIGATION
-2020-02-17 20:44:45.825 - DEBUG - calling SetQueuedUIActivationID!
-2020-02-17 20:44:51.489 - SGNB:OC - button clicked for ID: CMD_CENTER
-2020-02-17 20:44:51.489 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:13:34.790 - Assembly version: 0.5.6.0
+2020-02-18 17:13:34.790 - ModDir is:C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\IRTweaks
+2020-02-18 17:13:34.790 - mod.json settings are:({"Debug":true,"Trace":false,"Fixes":{"BulkPurchasing":"true","CombatLog":"false","DisableCampaign":"false","DisableCombatSaves":"false","ExtendedStats":"true","FlexibleSensorLock":"true","MultiTargetStat":"true","PreventHeadShots":"false","RandomStartByDifficulty":"false","ReduceSaveCompression":"true","SkipDeleteSavePopup":"true","SkirmishReset":"true","SpawnProtection":"true","StreamlinedMainMenu":"true","WeaponTooltip":"true"},"Abilities":{"MultiTargetId":"AbilityDefG5"},"Combat":{"PilotAttributesMax":14,"CalledShot":{"Modifier":9,"PilotTags":{"pilot_drunk":-2,"pilot_reckless":-1,"pilot_assassin":2}},"SpawnProtection":{"ApplyGuard":true,"EvasionPips":0,"ApplyToEnemies":true,"ApplyToAllies":true,"ApplyToNeutrals":true,"ApplyToReinforcements":true},"FlexibleSensorLock":{"FreeActionWithAbility":true,"AbilityId":"AbilityDefT8A"}},"Store":{"QuantityOnShift":5,"QuantityOnControl":20}})
+2020-02-18 17:13:34.791 - === MOD CONFIG BEGIN ===
+2020-02-18 17:13:34.791 -   DEBUG:True Trace:False
+2020-02-18 17:13:34.791 -   -- Fixes --
+2020-02-18 17:13:34.791 -   BulkPurchasing:True  CombatLog:False  DisableCombatSaves:False  ExtendedStats: True  FlexibleSensorLock:True  PreventCalledShots: False  RandomStartByDifficulty:False  SkirmishReset: True  SpawnProtection:TrueWeaponTooltips:TrueSkipDeleteSavePopup:TrueReduceSaveCompression:True
+2020-02-18 17:13:34.791 -   -- Called Shot --
+2020-02-18 17:13:34.791 -    CalledShotDefaultMod:9
+2020-02-18 17:13:34.791 -    CalledShotPilotModifier - tag:pilot_drunk modifier:-2
+2020-02-18 17:13:34.791 -    CalledShotPilotModifier - tag:pilot_reckless modifier:-1
+2020-02-18 17:13:34.791 -    CalledShotPilotModifier - tag:pilot_assassin modifier:2
+2020-02-18 17:13:34.791 -    CalledShotDefaultMod:9
+2020-02-18 17:13:34.791 -   -- Spawn Protection --
+2020-02-18 17:13:34.791 -    ApplyGuard:True  EvasionPips:0
+2020-02-18 17:13:34.791 -    ApplyToEnemies:True  ApplyToAllies:True  ApplyToNeutrals:True  
+2020-02-18 17:13:34.791 -    ApplyToReinforcements:True
+2020-02-18 17:13:34.791 -   -- Store --
+2020-02-18 17:13:34.791 -    QuantityOnShift:5  QuantityOnControl:20
+2020-02-18 17:13:34.791 -   -- Flexible Sensor Lock Options --
+2020-02-18 17:13:34.791 -    FreeActionWithAbility:True  AbilityId:AbilityDefT8A
+2020-02-18 17:13:34.791 - === MOD CONFIG END ===
+2020-02-18 17:13:34.791 - INFO: No errors reading settings file.
+2020-02-18 17:13:34.792 - Activating Fix: ExtendedStats
+2020-02-18 17:13:34.793 - Activating Fix: FlexibleSensorLock
+2020-02-18 17:13:34.807 - Activating Fix: SpawnProtection
+2020-02-18 17:13:34.809 - Activating Fix: SkirmishReset
+2020-02-18 17:13:34.810 - Activating Fix: MultiTargetStat
+2020-02-18 17:13:34.811 - Activating Fix: BulkPurchasing
+2020-02-18 17:13:34.815 - Activating Fix: StreamlinedMainMenu
+2020-02-18 17:13:34.821 - Activating Fix: WeaponTooltip
+2020-02-18 17:15:24.987 - SGNWL:I - entered with instanceType: BattleTech.UI.SGNavigationWidgetLeft.
+2020-02-18 17:15:27.803 - SGNL:Start - adding new button.
+2020-02-18 17:15:27.803 -  - Creating store button
+2020-02-18 17:15:27.807 -  - Creating staff button
+2020-02-18 17:15:27.812 -  - Creating memorial button
+2020-02-18 17:18:01.409 - SGNB:OC - button clicked for ID: CMD_CENTER
+2020-02-18 17:18:01.409 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:18:08.017 - SGNB:OC - button clicked for ID: SHIP
+2020-02-18 17:18:08.040 - SG_S_S:RBP entered with button:(ShopTypeSystem)
+2020-02-18 17:18:08.050 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:18:08.058 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:18:08.162 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:18:08.363 - SG_S_S:RBP entered with button:(ShopTypeSystem)
+2020-02-18 17:18:08.500 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:18:09.686 - SG_S_S:RBP entered with button:(ShopTypeBlackMarket)
+2020-02-18 17:18:09.912 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:18:13.354 - TP_W:SD entered.
+2020-02-18 17:18:13.354 -   Updating weapon text.
+2020-02-18 17:18:16.836 - TP_W:SD entered.
+2020-02-18 17:18:16.836 -   Updating weapon text.
+2020-02-18 17:18:16.853 - TP_W:SD entered.
+2020-02-18 17:18:16.853 -   Updating weapon text.
+2020-02-18 17:18:17.086 - TP_W:SD entered.
+2020-02-18 17:18:17.086 -   Updating weapon text.
+2020-02-18 17:18:17.369 - TP_W:SD entered.
+2020-02-18 17:18:17.369 -   Updating weapon text.
+2020-02-18 17:18:24.812 - TP_W:SD entered.
+2020-02-18 17:18:24.813 -   Updating weapon text.
+2020-02-18 17:18:24.840 - TP_W:SD entered.
+2020-02-18 17:18:24.840 -   Updating weapon text.
+2020-02-18 17:19:28.318 - TP_W:SD entered.
+2020-02-18 17:19:28.318 -   Updating weapon text.
+2020-02-18 17:19:29.612 - TP_W:SD entered.
+2020-02-18 17:19:29.612 -   Updating weapon text.
+2020-02-18 17:19:31.135 - TP_W:SD entered.
+2020-02-18 17:19:31.135 -   Updating weapon text.
+2020-02-18 17:19:40.235 - TP_W:SD entered.
+2020-02-18 17:19:40.235 -   Updating weapon text.
+2020-02-18 17:19:40.368 - TP_W:SD entered.
+2020-02-18 17:19:40.368 -   Updating weapon text.
+2020-02-18 17:19:44.234 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:19:44.234 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:19:45.185 - TP_W:SD entered.
+2020-02-18 17:19:45.185 -   Updating weapon text.
+2020-02-18 17:19:46.767 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:19:46.767 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:19:47.685 - TP_W:SD entered.
+2020-02-18 17:19:47.685 -   Updating weapon text.
+2020-02-18 17:19:49.167 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:19:49.167 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:19:50.385 - TP_W:SD entered.
+2020-02-18 17:19:50.385 -   Updating weapon text.
+2020-02-18 17:19:50.419 - TP_W:SD entered.
+2020-02-18 17:19:50.420 -   Updating weapon text.
+2020-02-18 17:19:51.169 - TP_W:SD entered.
+2020-02-18 17:19:51.169 -   Updating weapon text.
+2020-02-18 17:19:54.367 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:19:54.367 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:19:55.251 - TP_W:SD entered.
+2020-02-18 17:19:55.252 -   Updating weapon text.
+2020-02-18 17:19:58.084 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:19:58.084 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:19:59.119 - TP_W:SD entered.
+2020-02-18 17:19:59.119 -   Updating weapon text.
+2020-02-18 17:19:59.551 - TP_W:SD entered.
+2020-02-18 17:19:59.551 -   Updating weapon text.
+2020-02-18 17:20:00.684 - TP_W:SD entered.
+2020-02-18 17:20:00.684 -   Updating weapon text.
+2020-02-18 17:20:10.051 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:20:10.051 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:20:11.134 - TP_W:SD entered.
+2020-02-18 17:20:11.135 -   Updating weapon text.
+2020-02-18 17:20:11.168 - TP_W:SD entered.
+2020-02-18 17:20:11.168 -   Updating weapon text.
+2020-02-18 17:24:00.583 - TP_W:SD entered.
+2020-02-18 17:24:00.583 -   Updating weapon text.
+2020-02-18 17:24:00.649 - TP_W:SD entered.
+2020-02-18 17:24:00.649 -   Updating weapon text.
+2020-02-18 17:24:00.948 - TP_W:SD entered.
+2020-02-18 17:24:00.948 -   Updating weapon text.
+2020-02-18 17:24:01.099 - TP_W:SD entered.
+2020-02-18 17:24:01.099 -   Updating weapon text.
+2020-02-18 17:24:02.449 - TP_W:SD entered.
+2020-02-18 17:24:02.449 -   Updating weapon text.
+2020-02-18 17:24:03.639 - TP_W:SD entered.
+2020-02-18 17:24:03.639 -   Updating weapon text.
+2020-02-18 17:24:03.852 - TP_W:SD entered.
+2020-02-18 17:24:03.852 -   Updating weapon text.
+2020-02-18 17:24:08.032 - SGNB:OC - button clicked for ID: MECH_BAY
+2020-02-18 17:24:08.032 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:24:29.950 - TP_W:SD entered.
+2020-02-18 17:24:29.950 -   Updating weapon text.
+2020-02-18 17:24:29.983 - TP_W:SD entered.
+2020-02-18 17:24:29.983 -   Updating weapon text.
+2020-02-18 17:24:30.000 - TP_W:SD entered.
+2020-02-18 17:24:30.000 -   Updating weapon text.
+2020-02-18 17:24:30.649 - TP_W:SD entered.
+2020-02-18 17:24:30.650 -   Updating weapon text.
+2020-02-18 17:24:35.301 - TP_W:SD entered.
+2020-02-18 17:24:35.301 -   Updating weapon text.
+2020-02-18 17:24:35.317 - TP_W:SD entered.
+2020-02-18 17:24:35.317 -   Updating weapon text.
+2020-02-18 17:27:23.266 - SGNB:OC - button clicked for ID: SHIP
+2020-02-18 17:27:26.488 - SGNB:OC - button clicked for ID: ENGINEERING
+2020-02-18 17:27:26.488 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:27:39.265 - SGNB:OC - button clicked for ID: SHIP
+2020-02-18 17:27:44.720 - SGNB:OC - button clicked for ID: MECH_BAY
+2020-02-18 17:27:44.720 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:27:58.565 - TP_W:SD entered.
+2020-02-18 17:27:58.565 -   Updating weapon text.
+2020-02-18 17:28:16.924 - TP_W:SD entered.
+2020-02-18 17:28:16.924 -   Updating weapon text.
+2020-02-18 17:30:05.679 - TP_W:SD entered.
+2020-02-18 17:30:05.679 -   Updating weapon text.
+2020-02-18 17:30:38.629 - TP_W:SD entered.
+2020-02-18 17:30:38.629 -   Updating weapon text.
+2020-02-18 17:30:38.652 - TP_W:SD entered.
+2020-02-18 17:30:38.652 -   Updating weapon text.
+2020-02-18 17:30:48.779 - TP_W:SD entered.
+2020-02-18 17:30:48.779 -   Updating weapon text.
+2020-02-18 17:30:59.130 - TP_W:SD entered.
+2020-02-18 17:30:59.130 -   Updating weapon text.
+2020-02-18 17:31:02.563 - TP_W:SD entered.
+2020-02-18 17:31:02.563 -   Updating weapon text.
+2020-02-18 17:31:08.197 - TP_W:SD entered.
+2020-02-18 17:31:08.197 -   Updating weapon text.
+2020-02-18 17:31:20.945 - TP_W:SD entered.
+2020-02-18 17:31:20.946 -   Updating weapon text.
+2020-02-18 17:31:20.963 - TP_W:SD entered.
+2020-02-18 17:31:20.963 -   Updating weapon text.
+2020-02-18 17:31:40.779 - TP_W:SD entered.
+2020-02-18 17:31:40.779 -   Updating weapon text.
+2020-02-18 17:32:07.146 - TP_W:SD entered.
+2020-02-18 17:32:07.146 -   Updating weapon text.
+2020-02-18 17:32:07.196 - TP_W:SD entered.
+2020-02-18 17:32:07.196 -   Updating weapon text.
+2020-02-18 17:32:07.512 - TP_W:SD entered.
+2020-02-18 17:32:07.512 -   Updating weapon text.
+2020-02-18 17:32:09.329 - TP_W:SD entered.
+2020-02-18 17:32:09.329 -   Updating weapon text.
+2020-02-18 17:32:10.145 - TP_W:SD entered.
+2020-02-18 17:32:10.145 -   Updating weapon text.
+2020-02-18 17:32:30.630 - TP_W:SD entered.
+2020-02-18 17:32:30.630 -   Updating weapon text.
+2020-02-18 17:32:43.339 - TP_W:SD entered.
+2020-02-18 17:32:43.339 -   Updating weapon text.
+2020-02-18 17:32:46.495 - TP_W:SD entered.
+2020-02-18 17:32:46.495 -   Updating weapon text.
+2020-02-18 17:32:53.143 - TP_W:SD entered.
+2020-02-18 17:32:53.143 -   Updating weapon text.
+2020-02-18 17:32:54.061 - TP_W:SD entered.
+2020-02-18 17:32:54.061 -   Updating weapon text.
+2020-02-18 17:32:54.145 - TP_W:SD entered.
+2020-02-18 17:32:54.145 -   Updating weapon text.
+2020-02-18 17:32:54.195 - TP_W:SD entered.
+2020-02-18 17:32:54.195 -   Updating weapon text.
+2020-02-18 17:33:10.130 - TP_W:SD entered.
+2020-02-18 17:33:10.130 -   Updating weapon text.
+2020-02-18 17:33:10.202 - TP_W:SD entered.
+2020-02-18 17:33:10.202 -   Updating weapon text.
+2020-02-18 17:33:10.546 - TP_W:SD entered.
+2020-02-18 17:33:10.546 -   Updating weapon text.
+2020-02-18 17:33:12.346 - TP_W:SD entered.
+2020-02-18 17:33:12.346 -   Updating weapon text.
+2020-02-18 17:33:12.394 - TP_W:SD entered.
+2020-02-18 17:33:12.394 -   Updating weapon text.
+2020-02-18 17:33:12.443 - TP_W:SD entered.
+2020-02-18 17:33:12.443 -   Updating weapon text.
+2020-02-18 17:33:12.828 - TP_W:SD entered.
+2020-02-18 17:33:12.828 -   Updating weapon text.
+2020-02-18 17:33:13.015 - TP_W:SD entered.
+2020-02-18 17:33:13.015 -   Updating weapon text.
+2020-02-18 17:33:13.322 - TP_W:SD entered.
+2020-02-18 17:33:13.322 -   Updating weapon text.
+2020-02-18 17:33:13.430 - TP_W:SD entered.
+2020-02-18 17:33:13.430 -   Updating weapon text.
+2020-02-18 17:33:14.111 - TP_W:SD entered.
+2020-02-18 17:33:14.111 -   Updating weapon text.
+2020-02-18 17:33:14.162 - TP_W:SD entered.
+2020-02-18 17:33:14.162 -   Updating weapon text.
+2020-02-18 17:33:14.211 - TP_W:SD entered.
+2020-02-18 17:33:14.211 -   Updating weapon text.
+2020-02-18 17:33:14.578 - TP_W:SD entered.
+2020-02-18 17:33:14.578 -   Updating weapon text.
+2020-02-18 17:33:17.879 - TP_W:SD entered.
+2020-02-18 17:33:17.879 -   Updating weapon text.
+2020-02-18 17:33:17.912 - TP_W:SD entered.
+2020-02-18 17:33:17.912 -   Updating weapon text.
+2020-02-18 17:33:17.929 - TP_W:SD entered.
+2020-02-18 17:33:17.929 -   Updating weapon text.
+2020-02-18 17:33:17.946 - TP_W:SD entered.
+2020-02-18 17:33:17.946 -   Updating weapon text.
+2020-02-18 17:33:17.964 - TP_W:SD entered.
+2020-02-18 17:33:17.964 -   Updating weapon text.
+2020-02-18 17:33:20.411 - TP_W:SD entered.
+2020-02-18 17:33:20.411 -   Updating weapon text.
+2020-02-18 17:33:20.661 - TP_W:SD entered.
+2020-02-18 17:33:20.662 -   Updating weapon text.
+2020-02-18 17:33:29.545 - TP_W:SD entered.
+2020-02-18 17:33:29.545 -   Updating weapon text.
+2020-02-18 17:33:29.678 - TP_W:SD entered.
+2020-02-18 17:33:29.678 -   Updating weapon text.
+2020-02-18 17:33:30.061 - TP_W:SD entered.
+2020-02-18 17:33:30.061 -   Updating weapon text.
+2020-02-18 17:33:31.194 - TP_W:SD entered.
+2020-02-18 17:33:31.194 -   Updating weapon text.
+2020-02-18 17:33:31.329 - TP_W:SD entered.
+2020-02-18 17:33:31.329 -   Updating weapon text.
+2020-02-18 17:33:31.362 - TP_W:SD entered.
+2020-02-18 17:33:31.362 -   Updating weapon text.
+2020-02-18 17:33:42.062 - TP_W:SD entered.
+2020-02-18 17:33:42.062 -   Updating weapon text.
+2020-02-18 17:33:43.528 - TP_W:SD entered.
+2020-02-18 17:33:43.528 -   Updating weapon text.
+2020-02-18 17:33:46.561 - TP_W:SD entered.
+2020-02-18 17:33:46.561 -   Updating weapon text.
+2020-02-18 17:33:46.812 - TP_W:SD entered.
+2020-02-18 17:33:46.812 -   Updating weapon text.
+2020-02-18 17:33:47.061 - TP_W:SD entered.
+2020-02-18 17:33:47.061 -   Updating weapon text.
+2020-02-18 17:33:52.195 - TP_W:SD entered.
+2020-02-18 17:33:52.195 -   Updating weapon text.
+2020-02-18 17:33:52.895 - TP_W:SD entered.
+2020-02-18 17:33:52.895 -   Updating weapon text.
+2020-02-18 17:33:54.261 - TP_W:SD entered.
+2020-02-18 17:33:54.261 -   Updating weapon text.
+2020-02-18 17:34:01.077 - TP_W:SD entered.
+2020-02-18 17:34:01.077 -   Updating weapon text.
+2020-02-18 17:34:11.828 - TP_W:SD entered.
+2020-02-18 17:34:11.828 -   Updating weapon text.
+2020-02-18 17:34:11.844 - TP_W:SD entered.
+2020-02-18 17:34:11.844 -   Updating weapon text.
+2020-02-18 17:34:12.278 - TP_W:SD entered.
+2020-02-18 17:34:12.278 -   Updating weapon text.
+2020-02-18 17:34:21.066 - SGNB:OC - button clicked for ID: NAVIGATION
+2020-02-18 17:34:21.066 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:35:21.659 - SG_S_S:RBP entered with button:(ShopTypeSystem)
+2020-02-18 17:35:21.760 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:35:21.971 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:35:22.413 - SG_S_S:RBP entered with button:(ShopTypeSystem)
+2020-02-18 17:35:22.629 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:35:24.192 - SG_S_S:RBP entered with button:(ShopTypeBlackMarket)
+2020-02-18 17:35:24.422 - SG_S_S:RBP entered with button:(FilterAll)
+2020-02-18 17:35:27.976 - TP_W:SD entered.
+2020-02-18 17:35:27.976 -   Updating weapon text.
+2020-02-18 17:35:28.543 - TP_W:SD entered.
+2020-02-18 17:35:28.543 -   Updating weapon text.
+2020-02-18 17:35:29.575 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:35:29.575 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:35:29.575 - SG_S_S:RBP - maxCanPurchase:2 = funds:24605102 / price:11387600.
+2020-02-18 17:35:29.575 - SG_S_S:RBP - maxCanPurchase:2 controllerQuantity:2 -> popupQuantity:2.
+2020-02-18 17:35:29.590 - SG_S_MPP:R entered.
+2020-02-18 17:35:29.590 - SG_S_MPP:R   value:11387600 = costPerUnit:11387600 x quantityBeingSold:1.
+2020-02-18 17:35:30.942 - SG_S_MPP:RCP entered.
+2020-02-18 17:35:30.942 -   MAX newQuantity = maxYouCanSell:2
+2020-02-18 17:35:30.943 - SG_S_MPP:R entered.
+2020-02-18 17:35:30.943 - SG_S_MPP:R   value:22775200 = costPerUnit:11387600 x quantityBeingSold:2.
+2020-02-18 17:36:02.791 - SG_S_MPP:RCP entered.
+2020-02-18 17:36:02.792 - BH:BMI entered.
+2020-02-18 17:36:02.792 - BH:BMI - itemPrice:11387600 for purchaseType:Special
+2020-02-18 17:36:02.792 - BH:BMI - Store count below 1, removing!
+2020-02-18 17:36:02.792 - BH:BMI - Reduced store count by 2 to 0!
+2020-02-18 17:36:02.827 - BH:BMI - Reducing funds by -11387600 and adding 1 of mechdef_annihilator_ANH-1A
+2020-02-18 17:36:02.828 - BH:BMI - reducing shop inventory by 1 to 1
+2020-02-18 17:36:02.851 - BH:BMI - Reducing funds by -11387600 and adding 1 of mechdef_annihilator_ANH-1A
+2020-02-18 17:36:02.851 - BH:BMI - shop inventory below 1, removing!
+2020-02-18 17:36:02.970 - BH:BMI - Updating all money spots
+2020-02-18 17:36:02.970 - BH:BMI - triggering iron man save
+2020-02-18 17:36:02.975 - SG_S_MPP:R entered.
+2020-02-18 17:36:02.975 - SG_S_MPP:R   value:22775200 = costPerUnit:11387600 x quantityBeingSold:2.
+2020-02-18 17:36:07.175 - TP_W:SD entered.
+2020-02-18 17:36:07.175 -   Updating weapon text.
+2020-02-18 17:36:07.226 - TP_W:SD entered.
+2020-02-18 17:36:07.226 -   Updating weapon text.
+2020-02-18 17:36:07.375 - TP_W:SD entered.
+2020-02-18 17:36:07.375 -   Updating weapon text.
+2020-02-18 17:36:07.875 - TP_W:SD entered.
+2020-02-18 17:36:07.875 -   Updating weapon text.
+2020-02-18 17:36:09.642 - TP_W:SD entered.
+2020-02-18 17:36:09.642 -   Updating weapon text.
+2020-02-18 17:36:10.325 - TP_W:SD entered.
+2020-02-18 17:36:10.325 -   Updating weapon text.
+2020-02-18 17:36:10.441 - TP_W:SD entered.
+2020-02-18 17:36:10.441 -   Updating weapon text.
+2020-02-18 17:36:10.809 - TP_W:SD entered.
+2020-02-18 17:36:10.809 -   Updating weapon text.
+2020-02-18 17:36:11.208 - TP_W:SD entered.
+2020-02-18 17:36:11.208 -   Updating weapon text.
+2020-02-18 17:36:15.242 - TP_W:SD entered.
+2020-02-18 17:36:15.242 -   Updating weapon text.
+2020-02-18 17:36:15.258 - TP_W:SD entered.
+2020-02-18 17:36:15.258 -   Updating weapon text.
+2020-02-18 17:36:15.408 - TP_W:SD entered.
+2020-02-18 17:36:15.408 -   Updating weapon text.
+2020-02-18 17:36:15.442 - TP_W:SD entered.
+2020-02-18 17:36:15.442 -   Updating weapon text.
+2020-02-18 17:36:16.159 - TP_W:SD entered.
+2020-02-18 17:36:16.159 -   Updating weapon text.
+2020-02-18 17:36:16.275 - TP_W:SD entered.
+2020-02-18 17:36:16.275 -   Updating weapon text.
+2020-02-18 17:36:16.325 - TP_W:SD entered.
+2020-02-18 17:36:16.326 -   Updating weapon text.
+2020-02-18 17:36:29.495 - TP_W:SD entered.
+2020-02-18 17:36:29.495 -   Updating weapon text.
+2020-02-18 17:36:30.064 - TP_W:SD entered.
+2020-02-18 17:36:30.064 -   Updating weapon text.
+2020-02-18 17:36:35.774 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:36:35.774 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:36:39.174 - SG_S_S:RBP entered with button:(Capitalism)
+2020-02-18 17:36:39.174 - SG_S_S:RBP - processing a purchase.
+2020-02-18 17:36:45.150 - SGNB:OC - button clicked for ID: MECH_BAY
+2020-02-18 17:36:45.150 - DEBUG - calling SetQueuedUIActivationID!
+2020-02-18 17:37:09.493 - TP_W:SD entered.
+2020-02-18 17:37:09.493 -   Updating weapon text.
+2020-02-18 17:37:09.543 - TP_W:SD entered.
+2020-02-18 17:37:09.543 -   Updating weapon text.
+2020-02-18 17:37:09.643 - TP_W:SD entered.
+2020-02-18 17:37:09.643 -   Updating weapon text.
+2020-02-18 17:37:09.659 - TP_W:SD entered.
+2020-02-18 17:37:09.659 -   Updating weapon text.
+2020-02-18 17:37:09.892 - TP_W:SD entered.
+2020-02-18 17:37:09.892 -   Updating weapon text.
+2020-02-18 17:37:09.909 - TP_W:SD entered.
+2020-02-18 17:37:09.909 -   Updating weapon text.
+2020-02-18 17:37:09.959 - TP_W:SD entered.
+2020-02-18 17:37:09.959 -   Updating weapon text.
+2020-02-18 17:37:13.142 - TP_W:SD entered.
+2020-02-18 17:37:13.142 -   Updating weapon text.
+2020-02-18 17:37:13.176 - TP_W:SD entered.
+2020-02-18 17:37:13.176 -   Updating weapon text.
+2020-02-18 17:37:52.395 - SGNB:OC - button clicked for ID: SHIP
+2020-02-18 17:37:58.141 - SGNB:OC - button clicked for ID: MECH_BAY
+2020-02-18 17:37:58.141 - DEBUG - calling SetQueuedUIActivationID!

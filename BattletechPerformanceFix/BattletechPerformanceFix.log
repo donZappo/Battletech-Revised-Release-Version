@@ -63,138 +63,213 @@ Levels :Spam True :Debug True :Info True :Warn True
 [Info] Patch out sensitive data log dumps
 [Info] LogLevel info
 Levels :Spam False :Debug False :Info True :Warn True
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Supply Convoy :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 1 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Supply Convoy :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Patrol :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 1 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Patrol :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Patrol :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Patrol :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
-[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
-[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
-[Info] (CL) LanceOverride::RequestLance :contract.Name Patrol :requestedDifficulty 1 :lanceDifficultyAdjustment 0 :contract.Difficulty 1
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Middle Management :contract.Difficulty 3 :GetDifficulty -1 :GlobalDifficulty 2 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Middle Management :contract.Difficulty 2 :contract.Override.finalDifficulty 2 :UIDifficulty 2
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Asset Retrieval :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Asset Retrieval :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
-[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Seek and Destroy :contract.Difficulty 1 :GetDifficulty -2 :GlobalDifficulty 2 :ContractDifficultyVariance 2
-[Info] (CL) SimGameState::PrepContract(post) :contract.Name Seek and Destroy :contract.Difficulty 1 :contract.Override.finalDifficulty 1 :UIDifficulty 1
-[Info] Sorted in 1.6623 ms
-[Info] Sorted in 0.3444 ms
-[Info] Filter took 3.4872 ms and resulted in 18 -> 14 items
-[Info] Sorted in 0.3585 ms
-[Info] Filter took 0.5799 ms and resulted in 18 -> 0 items
-[Info] Sorted in 0.3704 ms
-[Info] Filter took 0.6655 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.353 ms
-[Info] Filter took 0.6237 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.3391 ms
-[Info] Filter took 0.6008 ms and resulted in 17 -> 3 items
-[Info] Sorted in 0.3435 ms
-[Info] Sorted in 0.245 ms
-[Info] Filter took 0.4704 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.2534 ms
-[Info] Filter took 0.4736 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.2979 ms
-[Info] Filter took 0.5358 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.3415 ms
-[Info] Filter took 0.6078 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.3248 ms
-[Info] Filter took 0.5886 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.2981 ms
-[Info] Filter took 0.5383 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.3634 ms
-[Info] Filter took 0.6343 ms and resulted in 18 -> 4 items
-[Info] Sorted in 0.3339 ms
-[Info] Filter took 0.5959 ms and resulted in 17 -> 3 items
-[Info] Sorted in 0.3246 ms
-[Info] Filter took 0.5805 ms and resulted in 17 -> 3 items
-[Info] Sorted in 0.2571 ms
-[Info] Filter took 0.4757 ms and resulted in 17 -> 3 items
-[Info] Sorted in 0.336 ms
-[Info] Filter took 0.5939 ms and resulted in 17 -> 3 items
-[Info] Sorted in 0.3463 ms
-[Info] Filter took 1.7766 ms and resulted in 17 -> 4 items
-[Info] Sorted in 0.3357 ms
-[Info] Filter took 0.6208 ms and resulted in 17 -> 4 items
-[Info] Sorted in 0.3534 ms
-[Info] Filter took 0.6313 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.3598 ms
-[Info] Filter took 0.6058 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.3399 ms
-[Info] Filter took 0.5855 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.3365 ms
-[Info] Filter took 0.5735 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.3366 ms
-[Info] Filter took 0.5694 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.2706 ms
-[Info] Filter took 0.5105 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.2751 ms
-[Info] Filter took 0.5112 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.2724 ms
-[Info] Filter took 0.509 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.3545 ms
-[Info] Filter took 0.6291 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.2723 ms
-[Info] Filter took 0.5361 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.3317 ms
-[Info] Filter took 0.5882 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.2986 ms
-[Info] Filter took 0.531 ms and resulted in 16 -> 1 items
-[Info] Sorted in 0.3239 ms
-[Info] Sorted in 0.2375 ms
-[Info] Filter took 0.4442 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.2444 ms
-[Info] Filter took 0.445 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.2605 ms
-[Info] Filter took 0.4774 ms and resulted in 17 -> 2 items
-[Info] Sorted in 0.4865 ms
-[Info] Filter took 0.7506 ms and resulted in 17 -> 1 items
-[Info] Sorted in 0.5346 ms
-[Info] Sorted in 0.3587 ms
-[Info] Filter took 0.9545 ms and resulted in 20 -> 14 items
-[Info] Sorted in 0.3801 ms
-[Info] Filter took 0.7374 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.3038 ms
-[Info] Filter took 0.6287 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.5262 ms
-[Info] Sorted in 0.3591 ms
-[Info] Filter took 2.6159 ms and resulted in 20 -> 14 items
-[Info] Sorted in 0.3901 ms
-[Info] Filter took 0.7414 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.3042 ms
-[Info] Filter took 0.6329 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.5354 ms
-[Info] Sorted in 0.3538 ms
-[Info] Filter took 2.5849 ms and resulted in 20 -> 14 items
-[Info] Sorted in 0.3819 ms
-[Info] Filter took 0.7328 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.3076 ms
-[Info] Filter took 0.6385 ms and resulted in 20 -> 6 items
-[Info] Sorted in 0.2954 ms
-[Info] Filter took 0.6086 ms and resulted in 19 -> 5 items
-[Info] Sorted in 0.3811 ms
-[Info] Filter took 0.6807 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.3723 ms
-[Info] Filter took 0.6387 ms and resulted in 19 -> 1 items
-[Info] Sorted in 0.2943 ms
-[Info] Filter took 0.5282 ms and resulted in 19 -> 1 items
-[Info] Sorted in 0.4205 ms
-[Info] Filter took 0.8296 ms and resulted in 19 -> 14 items
-[Info] Sorted in 0.3797 ms
-[Info] Filter took 0.6581 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.2975 ms
-[Info] Filter took 0.5592 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.2917 ms
-[Info] Filter took 0.5462 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.2889 ms
-[Info] Filter took 0.5453 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.2894 ms
-[Info] Filter took 0.5512 ms and resulted in 19 -> 3 items
-[Info] Sorted in 0.3821 ms
-[Info] Filter took 0.659 ms and resulted in 19 -> 1 items
-[Info] Sorted in 0.3815 ms
-[Info] Filter took 0.6852 ms and resulted in 19 -> 4 items
-[Info] Sorted in 0.2985 ms
-[Info] Filter took 0.5871 ms and resulted in 19 -> 4 items
-[Info] Sorted in 0.3003 ms
-[Info] Filter took 0.5782 ms and resulted in 19 -> 4 items
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Capture the Argo :contract.Difficulty 3 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Capture the Argo :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Liberation of Weldry :contract.Difficulty 5 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Liberation of Weldry :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 4
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Liberate: Panzyr :contract.Difficulty 4 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 1
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Liberate: Panzyr :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Manufacturing Facility :contract.Difficulty 4 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Manufacturing Facility :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 4
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Clean Out The Mercs :contract.Difficulty 6 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Clean Out The Mercs :contract.Difficulty 6 :contract.Override.finalDifficulty 6 :UIDifficulty 6
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Incomplete Intelligence :contract.Difficulty 6 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Incomplete Intelligence :contract.Difficulty 6 :contract.Override.finalDifficulty 6 :UIDifficulty 6
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Dead or Alive :contract.Difficulty 2 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Dead or Alive :contract.Difficulty 2 :contract.Override.finalDifficulty 2 :UIDifficulty 2
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Clash of Titans :contract.Difficulty 6 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Clash of Titans :contract.Difficulty 6 :contract.Override.finalDifficulty 6 :UIDifficulty 6
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Repossession :contract.Difficulty 5 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Repossession :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 5
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Hot Landing :contract.Difficulty 4 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Hot Landing :contract.Difficulty 4 :contract.Override.finalDifficulty 4 :UIDifficulty 4
+[Info] (CL) SimGameState::PrepContract(pre) :contract.Name Take the Bait :contract.Difficulty 5 :GetDifficulty 0 :GlobalDifficulty 4 :ContractDifficultyVariance 2
+[Info] (CL) SimGameState::PrepContract(post) :contract.Name Take the Bait :contract.Difficulty 5 :contract.Override.finalDifficulty 5 :UIDifficulty 6
+[Info] Sorted in 3.6225 ms
+[Info] Sorted in 1.6179 ms
+[Info] Filter took 6.7484 ms and resulted in 108 -> 68 items
+[Info] Sorted in 2.5476 ms
+[Info] Sorted in 1.6556 ms
+[Info] Filter took 4.4719 ms and resulted in 108 -> 68 items
+[Info] Sorted in 1.7369 ms
+[Info] Filter took 2.9491 ms and resulted in 108 -> 38 items
+[Info] Sorted in 1.5504 ms
+[Info] Filter took 2.4638 ms and resulted in 107 -> 37 items
+[Info] Sorted in 2.4703 ms
+[Info] Sorted in 119.9439 ms
+[Info] Filter took 120.8559 ms and resulted in 108 -> 38 items
+[Info] Sorted in 1.5641 ms
+[Info] Filter took 2.4261 ms and resulted in 108 -> 38 items
+[Info] Sorted in 1.4941 ms
+[Info] Filter took 2.3315 ms and resulted in 108 -> 38 items
+[Info] Sorted in 1.5502 ms
+[Info] Filter took 2.4653 ms and resulted in 107 -> 37 items
+[Info] Sorted in 2.5119 ms
+[Info] Sorted in 1.6508 ms
+[Info] Filter took 4.4855 ms and resulted in 108 -> 68 items
+[Info] Sorted in 2.5218 ms
+[Info] Sorted in 1.644 ms
+[Info] Filter took 4.5203 ms and resulted in 108 -> 68 items
+[Info] Sorted in 2.522 ms
+[Info] Sorted in 1.7036 ms
+[Info] Filter took 4.6009 ms and resulted in 108 -> 68 items
+[Info] Sorted in 1.7814 ms
+[Info] Filter took 2.7474 ms and resulted in 108 -> 38 items
+[Info] Sorted in 1.5282 ms
+[Info] Filter took 2.4489 ms and resulted in 107 -> 37 items
+[Info] Sorted in 1.5302 ms
+[Info] Filter took 2.4128 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5466 ms
+[Info] Filter took 2.4333 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5022 ms
+[Info] Filter took 2.3649 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.5136 ms
+[Info] Filter took 2.3714 ms and resulted in 104 -> 34 items
+[Info] Sorted in 2.2249 ms
+[Info] Sorted in 1.4588 ms
+[Info] Filter took 2.3003 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.484 ms
+[Info] Filter took 2.2751 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4827 ms
+[Info] Filter took 2.2942 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4737 ms
+[Info] Filter took 2.3264 ms and resulted in 104 -> 34 items
+[Info] Sorted in 1.604 ms
+[Info] Sorted in 1.4754 ms
+[Info] Filter took 2.2897 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4594 ms
+[Info] Filter took 2.261 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.447 ms
+[Info] Filter took 2.2653 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4688 ms
+[Info] Filter took 2.3179 ms and resulted in 104 -> 34 items
+[Info] Sorted in 1.587 ms
+[Info] Sorted in 1.4684 ms
+[Info] Filter took 2.3094 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4565 ms
+[Info] Filter took 2.2455 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4743 ms
+[Info] Filter took 2.2789 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4864 ms
+[Info] Filter took 2.3508 ms and resulted in 104 -> 34 items
+[Info] Sorted in 1.5998 ms
+[Info] Sorted in 1.4841 ms
+[Info] Filter took 2.3361 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.4692 ms
+[Info] Filter took 2.288 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.5258 ms
+[Info] Filter took 2.3277 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.525 ms
+[Info] Filter took 2.4003 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.6129 ms
+[Info] Sorted in 1.4972 ms
+[Info] Filter took 2.3395 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.458 ms
+[Info] Filter took 2.2587 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5042 ms
+[Info] Filter took 2.3178 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5205 ms
+[Info] Filter took 2.3915 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.6011 ms
+[Info] Filter took 2.5016 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5743 ms
+[Info] Filter took 2.4767 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5456 ms
+[Info] Filter took 2.4508 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5843 ms
+[Info] Filter took 2.4697 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.5547 ms
+[Info] Filter took 2.425 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.6028 ms
+[Info] Filter took 2.7353 ms and resulted in 106 -> 68 items
+[Info] Sorted in 1.6029 ms
+[Info] Filter took 2.4993 ms and resulted in 106 -> 36 items
+[Info] Sorted in 1.6303 ms
+[Info] Filter took 2.0401 ms and resulted in 106 -> 1 items
+[Info] Sorted in 1.5288 ms
+[Info] Filter took 1.9118 ms and resulted in 106 -> 1 items
+[Info] Sorted in 2.3701 ms
+[Info] Sorted in 1.5852 ms
+[Info] Filter took 4.4483 ms and resulted in 107 -> 68 items
+[Info] Sorted in 1.6262 ms
+[Info] Filter took 4.3048 ms and resulted in 107 -> 36 items
+[Info] Sorted in 1.5542 ms
+[Info] Filter took 4.2263 ms and resulted in 107 -> 36 items
+[Info] Sorted in 1.6558 ms
+[Info] Filter took 4.4097 ms and resulted in 107 -> 36 items
+[Info] Sorted in 1.5407 ms
+[Info] Filter took 4.1959 ms and resulted in 107 -> 36 items
+[Info] Sorted in 1.5435 ms
+[Info] Filter took 4.1936 ms and resulted in 107 -> 36 items
+[Info] Sorted in 1.547 ms
+[Info] Filter took 4.1987 ms and resulted in 106 -> 35 items
+[Info] Sorted in 1.6184 ms
+[Info] Filter took 2.1968 ms and resulted in 106 -> 13 items
+[Info] Sorted in 1.6213 ms
+[Info] Filter took 4.019 ms and resulted in 106 -> 21 items
+[Info] Sorted in 1.5084 ms
+[Info] Filter took 3.9636 ms and resulted in 105 -> 20 items
+[Info] Sorted in 1.5361 ms
+[Info] Filter took 3.9786 ms and resulted in 104 -> 19 items
+[Info] Sorted in 1.5559 ms
+[Info] Sorted in 1.5172 ms
+[Info] Filter took 3.9138 ms and resulted in 105 -> 20 items
+[Info] Sorted in 1.4941 ms
+[Info] Filter took 3.9614 ms and resulted in 105 -> 20 items
+[Info] Sorted in 1.5289 ms
+[Info] Filter took 4.042 ms and resulted in 105 -> 20 items
+[Info] Sorted in 1.4975 ms
+[Info] Filter took 3.9142 ms and resulted in 104 -> 19 items
+[Info] Sorted in 2.4564 ms
+[Info] Sorted in 1.5656 ms
+[Info] Filter took 4.5499 ms and resulted in 105 -> 68 items
+[Info] Sorted in 1.6184 ms
+[Info] Filter took 4.2604 ms and resulted in 105 -> 34 items
+[Info] Sorted in 1.5074 ms
+[Info] Filter took 4.1304 ms and resulted in 105 -> 34 items
+[Info] Sorted in 1.5062 ms
+[Info] Filter took 4.1213 ms and resulted in 104 -> 33 items
+[Info] Sorted in 1.5031 ms
+[Info] Filter took 4.1049 ms and resulted in 103 -> 32 items
+[Info] Sorted in 1.478 ms
+[Info] Filter took 4.0832 ms and resulted in 102 -> 31 items
+[Info] Sorted in 1.7653 ms
+[Info] Sorted in 1.463 ms
+[Info] Filter took 4.0668 ms and resulted in 103 -> 32 items
+[Info] Sorted in 1.4268 ms
+[Info] Filter took 4.1206 ms and resulted in 103 -> 32 items
+[Info] Sorted in 1.4712 ms
+[Info] Filter took 4.1844 ms and resulted in 103 -> 32 items
+[Info] Sorted in 150.516 ms
+[Info] Filter took 152.0193 ms and resulted in 103 -> 68 items
+[Info] Sorted in 1.5544 ms
+[Info] Filter took 2.188 ms and resulted in 103 -> 21 items
+[Info] Sorted in 1.5764 ms
+[Info] Filter took 4.2113 ms and resulted in 103 -> 32 items
+[Info] Sorted in 1.5798 ms
+[Info] Filter took 3.9896 ms and resulted in 103 -> 19 items
+[Info] Sorted in 1.683 ms
+[Info] Filter took 2.8385 ms and resulted in 103 -> 68 items
+[Info] Sorted in 1.595 ms
+[Info] Filter took 2.2493 ms and resulted in 103 -> 21 items
+[Info] Sorted in 1.5121 ms
+[Info] Filter took 2.116 ms and resulted in 102 -> 20 items
+[Info] Sorted in 2.3915 ms
+[Info] Sorted in 1.4955 ms
+[Info] Filter took 4.3757 ms and resulted in 104 -> 67 items
+[Info] Sorted in 1.5473 ms
+[Info] Filter took 2.443 ms and resulted in 104 -> 35 items
+[Info] Sorted in 1.575 ms
+[Info] Filter took 2.1705 ms and resulted in 104 -> 14 items
+[Info] Sorted in 1.4398 ms
+[Info] Filter took 1.9812 ms and resulted in 103 -> 13 items
+[Info] Sorted in 2.2643 ms
+[Info] Sorted in 1.5809 ms
+[Info] Filter took 4.5382 ms and resulted in 105 -> 67 items
+[Info] Sorted in 1.5924 ms
+[Info] Filter took 4.2635 ms and resulted in 105 -> 35 items
+[Info] Sorted in 1.6037 ms
+[Info] Filter took 2.2034 ms and resulted in 105 -> 14 items
+[Info] Sorted in 2.2309 ms
+[Info] Sorted in 1.5624 ms
+[Info] Filter took 5.1832 ms and resulted in 105 -> 67 items

@@ -1,6 +1,6 @@
-[MightyChargingJuggernaut @ 2/17/2020 3:24:08 PM] CLEANED UP
+[MightyChargingJuggernaut @ 2/18/2020 12:13:38 PM] CLEANED UP
 ----------------------------------------------------------------------------------------------------
-[MightyChargingJuggernaut @ 2/17/2020 3:24:08 PM] EXCEPTION:
+[MightyChargingJuggernaut @ 2/18/2020 12:13:38 PM] EXCEPTION:
 Message: Sequence contains no elements<br/>
 StackTrace:   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
   at Logger.OverrideDebugLevel (System.String modName) [0x0003b] in <508287bf010e434da86f17578257dc07>:0 
