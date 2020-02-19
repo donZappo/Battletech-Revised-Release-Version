@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_refitHarness",
         "Name" : "Refit Harness",
-        "Details" : "Powered down 'Mechs cannot bear their own weight while being refitted with new equipment. The <i>Argo</i>'s Mech Bay include harnesses meant to hoist the 'Mech up for easier access while refitting. The refit harnesses requires maintenance and adds <color=#04B404><b>+2 Techs</b></color>",
+        "Details" : "'Mechs were not really meant to bear their own weight while being refitted with new equipment. The <i>Argo</i>'s Mech Bay includes harnesses meant to hoist the 'Mech up for easier access while refitting.",
         "Icon" : "uixSvgIcon_shipUpgrade_refitharness"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

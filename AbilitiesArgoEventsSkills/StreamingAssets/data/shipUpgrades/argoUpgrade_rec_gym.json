@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_gym",
         "Name" : "Gymnasium",
-        "Details" : "MechWarriors have to maintain their physical condition, and doing so in their own quarters is claustrophobic and distracting. Luckily, the <i>Argo</i> has a full gymnasium, needing only repair and power. The Gymnasium adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "MechWarriors have to maintain their physical condition, and doing so in their own quarters is claustrophobic and distracting. Luckily, the <i>Argo</i> has a full gymnasium, needing only repair and power. The Gymnasium adds <color=#ffd966><b>+1 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_gym"
     },
     "Illustration" : "uixTxrSpot_Gym",
@@ -24,7 +24,7 @@
         
     ],
     "TechCost" : 15,
-    "PurchaseCost" : 225000,
+    "PurchaseCost" : 130000,
     "AdditionalCost" : 1250,
     "Tags" : {
         "items" : [

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_machineShop",
         "Name" : "Machine Shop",
-        "Details" : "Maintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack. The Machine Shop requires maintenance and adds <color=#04B404><b>+3 Techs.</b></color>",
+        "Details" : "Maintaining 'Mechs in the Succession War era is complicated by the relative rarity of precision-manufactured parts. The <i>Argo</i>'s machine shop, once repaired and brought online, can help address this lack.",
         "Icon" : "uixSvgIcon_shipUpgrade_machineshop"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
@@ -36,7 +36,7 @@
  		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 3,
+			"value" : 1000,
 			"valueConstant" : ""
 		}       
     ]

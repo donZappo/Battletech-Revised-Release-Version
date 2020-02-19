@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_arcade",
         "Name" : "Arcade",
-        "Details" : "That empty storage space in Gamma Pod, with some additional power conduits, could easily support some VR based gaming and a big screens for Solaris tournaments. The Arcade adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "That empty storage space in Gamma Pod, with some additional power conduits, could easily support some VR based gaming and a big screens for Solaris tournaments. The Arcade adds <color=#ffd966><b>+3 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_arcade"
     },
     "Illustration" : "uixTxrSpot_Arcade",
@@ -37,7 +37,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "Morale",
-			"value" : 2,
+			"value" : 3,
 			"valueConstant" : ""
 		}
     ]

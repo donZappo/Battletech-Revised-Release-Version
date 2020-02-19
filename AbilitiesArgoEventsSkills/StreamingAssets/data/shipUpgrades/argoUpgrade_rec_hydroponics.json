@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_hydroponics",
         "Name" : "Hydroponic Garden",
-        "Details" : "Near the spine, the spin of the pods isn't sufficient to generate any real apparent gravity. This makes those areas bad for living in, but excellent for growing hydroponic crops. They clean the air and add variety to mealtimes. The Hyproponics Garden adds <color=#ffd966><b>+3 to Crew Morale.</b></color>",
+        "Details" : "Near the spine, the spin of the pods isn't sufficient to generate any real apparent gravity. This makes those areas bad for living in, but excellent for growing hydroponic crops. They clean the air and add variety to mealtimes. The Hyproponics Garden adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_hydroponics"
     },
     "Illustration" : "uixTxrSpot_Hydroponics",
@@ -36,7 +36,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "Morale",
-			"value" : 1,
+			"value" : 2,
 			"valueConstant" : ""
 		}        
     ]

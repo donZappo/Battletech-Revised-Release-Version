@@ -114,7 +114,7 @@
     "IncapacitatedDamageCost": 180,
     "BaseInjuryDamageCost": 480,
     "IncapacitatedDeathChance": 0.9,
-    "LethalDeathChance": 1.4,
+    "LethalDeathChance": 0.95,
     "GutsDeathReduction": 0.05
   },
   "Salvage": {
@@ -178,7 +178,7 @@
     "DailyUpgradeValue": 1,
     "ArgoMechTechs": 0,
     "ArgoMedTechs": 0,
-    "MaxMechWarriorsPerPod": 7,
+    "MaxMechWarriorsPerPod": 6,
     "MaxMechsPerPod": 6,
     "StartingDropShip": "argo",
     "UpgradedDropShip": "argo",

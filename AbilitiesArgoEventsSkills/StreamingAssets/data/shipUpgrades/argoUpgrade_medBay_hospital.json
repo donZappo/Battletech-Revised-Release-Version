@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay_hospital",
         "Name" : "Trauma Hospital",
-              "Details" : "The <i>Argo</i> has room and infrastructure for actual hospital facilities, by using the rest of our space.  If we can add a full trauma surgical team and have a dedicated and sterile operating room, we will exponentially, be able to save lives. This upgrade will be expensive but having real surgeons on call, is imperative to the longevity of our mission. Cost include maintenance and the salaries for the trauma team of <color=#cc4125><b>+4 Surgeons plus reduces Incapacitating deaths by 40% and Leathal deaths by 25%.</b></color>",
+              "Details" : "The <i>Argo</i> has room and infrastructure for actual hospital facilities, by using the rest of our space.  If we can add a full trauma surgical team and have a dedicated and sterile operating room, we will exponentially, be able to save lives. This upgrade will be expensive but having real surgeons on call, is imperative to the longevity of our mission. Cost include maintenance and the salaries for the trauma team of <color=#cc4125><b>+4 surgeons plus reduces Incapacitating deaths by 15% and Leathal deaths by 10%.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay4"
     },
     "Illustration" : "uixTxrSpot_MedBay",
@@ -37,19 +37,19 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "MedTechSkill",
-			"value" : 2,
+			"value" : 4,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Single",
 			"name" : "IncapacitatedDeathChance",
-			"value" : -0.40,
+			"value" : -0.15,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Single",
 			"name" : "LethalDeathChance",
-			"value" : -0.25,
+			"value" : -0.10,
 			"valueConstant" : ""
 		}		
     ]

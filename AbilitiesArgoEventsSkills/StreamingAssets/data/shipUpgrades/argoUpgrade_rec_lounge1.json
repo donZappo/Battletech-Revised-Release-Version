@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_lounge1",
         "Name" : "Lounge",
-        "Details" : "A shared social space outside the barracks allows the crew to bond as a team. We can get some tables and couches and even some table games to improve eye hand cordination. The Lounge adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "A shared social space outside the barracks allows the crew to bond as a team. We can get some tables and couches and even some table games to improve eye hand cordination. The Lounge adds <color=#ffd966><b>+1 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_lounge"
     },
     "Illustration" : "uixTxrSpot_Lounge",

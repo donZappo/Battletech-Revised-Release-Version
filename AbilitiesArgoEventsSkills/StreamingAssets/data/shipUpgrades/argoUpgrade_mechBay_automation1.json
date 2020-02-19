@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_automation1",
         "Name" : "Automation",
-        "Details" : "Many of the <i>Argo</i>'s Mech Bay systems used with sophisticated Star League era automation. Bringing that even partially back online is a substantial force multiplier to Yang's skills. Mechbay Automation requires lots of maintenance and adds <color=#04B404><b>+4 Techs.</b></color>",
+        "Details" : "<b>• Allows Repair Bay 2 in Mech Bay 2 to repair at 100% efficiency.</b>\n\nMany of the <i>Argo</i>'s Mech Bay systems were only meant to be used with sophisticated Star League–era automation. Bringing that automation even partially back online is a substantial force multiplier to Yang's skills.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_scaffolding",
         "Name" : "Repair Scaffolding",
-        "Details" : "The <i>Argo</i>'s 'Mech bays used to have a complex system of movable walkways and scaffolds for accessing a damaged 'Mech. Those walkways, once brought online, make the job of repairing 'Mechs much simpler. Fixing the adjustable scaffolding requires maintenance and adds <color=#04B404><b>+2 Techs</b></color>",
+        "Details" : "The <i>Argo</i>'s 'Mech cubicles used to have a complex system of movable walkways and scaffolds for accessing any part of a damaged 'Mech. Those walkways, once brought online, make the job of repairing 'Mechs much simpler.",
         "Icon" : "uixSvgIcon_shipUpgrade_repairscaffold"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
