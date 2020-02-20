@@ -5,7 +5,7 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule1",
-        "Name" : "2 BattlePods",
+        "Name" : "Basic BattlePods",
         "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. <i><b>30XP per day upto 22K XP</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training1"
     },

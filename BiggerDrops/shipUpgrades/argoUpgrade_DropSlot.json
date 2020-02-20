@@ -5,8 +5,8 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_DropSlot",
-        "Name" : "Repaired Mechbay",
-        "Details" : "<b><color=#F79232>Allows the droppinng of 1 additional 'Mech.</color></b>\n\n<b><color=#F79232>Requires Command Console Upgrades to Control the Pilot!</color></b>\n\nSo it turns out the docking cradles were salvaged for parts and scrap, but the mounting points are still intact. I can get my techs to work ripping out those'Mech cradles, Commander, but it's gonna take a while to get everything bolted onto our Leopard. While I can handle the upgrades, we'll need further equipment and pilot training to be able to fully control the 'Mech. Until then, we'll have to let the pilot babysit the AI in the 'Mech.",
+        "Name" : "Repaired Mechbay 1",
+        "Details" : "<b><color=#F79232>Allows the droppinng of 1 additional 'Mech.</color></b>\n<b><color=#F79232>Requires Command Console Upgrades to Control the Pilot!</color></b>\nSo it turns out the docking cradles were salvaged for parts and scrap, but the mounting points are still intact. I can get my techs to work ripping out those'Mech cradles, Commander, but it's gonna take a while to get everything bolted onto our Leopard. While I can handle the upgrades, we'll need further equipment and pilot training to be able to fully control the 'Mech. Until then, we'll have to let the pilot babysit the AI in the 'Mech.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
