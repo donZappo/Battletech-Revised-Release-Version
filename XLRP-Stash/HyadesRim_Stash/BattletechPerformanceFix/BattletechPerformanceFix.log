@@ -1,0 +1,8 @@
+Levels :Spam True :Debug True :Info True :Warn True
+[Info] Harmony? 1.2.0.1
+[Info] Unity? 2018.4.2f1
+[Info] Product? BATTLETECH-1.9.0-680R
+[Info] ModTek? 
+[Info] Initialized com.github.m22spencer.BattletechPerformanceFix 2.12.0.29434
+[Info] Mod-Dir? C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\mods\Stash\HyadesRim_Stash\BattletechPerformanceFix
+[Error] BattletechPerformanceFix expected BattleTech (1.8), but found 1.9.0

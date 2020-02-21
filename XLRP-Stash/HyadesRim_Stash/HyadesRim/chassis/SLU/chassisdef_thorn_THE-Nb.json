@@ -1,0 +1,206 @@
+{
+    "Description": {
+        "Cost": 2100000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Thorn",
+        "Id": "chassisdef_thorn_THE-Nb",
+        "Name": "Royal Thorn",
+        "Details": "The advanced model employed by the SLDF changed the role of the 'Mech from a missile to an energy boat, replacing the LRM launcher with an ER Large Laser, retaining one medium laser and downgrading the other to a Small Laser. Dropping the no longer required CASE, the 'Mech also used a MASC system for temporary speed bursts and Double Heat Sinks to vent its increased waste heat output.",
+        "Icon": "uixTxrIcon_commando"
+    },
+    "MovementCapDefID": "movedef_commando_COM-2D",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_commando",
+    "PrefabIdentifier": "chrPrfMech_commandoBase-001",
+    "PrefabBase": "commando",
+    "Tonnage": 20,
+    "InitialTonnage": 9,
+    "weightClass": "LIGHT",
+    "BattleValue": 1642000,
+    "Heatsinks": 30,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 25,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+				{
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+				{
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 30,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": 25,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": 25,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 30,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "THE-Nb",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Support & Scout",
+    "YangsThoughts": "The Thorn was intended originally to be a scout ’Mech, but better serves in the role of a scout hunter."
+}

@@ -1,0 +1,32 @@
+{
+    "Allies" : [
+        "AuriganDirectorate",
+        "ComStar",
+		"TaurusMajorisMining",
+		"TaurusTerritorialIndustries",
+        "Marik"
+    ],
+    "Enemies" : [
+		"MajestyMetals",
+		"MagnaMetals",
+        "AuriganPirates",
+        "AuriganRestoration",
+        "MagistracyOfCanopus",
+        "Davion",
+        "Steiner",
+        "Liao",
+        "RimPirates",
+        "CapellanPirates",
+        "CorporatePirates",
+        "RenegadePirates",
+        "RoguePirates",
+        "ClusterPirates",
+        "TortugaPirates",
+        "SyrtisPirates",
+        "AntithesisCreed",
+        "CanopianPirates",
+        "Warboys",
+        "EvilEye",
+        "HarbingersOfDoom"
+    ]
+}

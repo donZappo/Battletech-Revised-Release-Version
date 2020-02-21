@@ -1,0 +1,215 @@
+{
+    "Description" : {
+        "Cost" : 4441858,
+        "Rarity" : 6,
+        "Purchasable" : true,
+        "Manufacturer" : "",
+        "Model" : "",
+        "UIName" : "Kyudo",
+        "Id" : "chassisdef_kyudo_KY2-D-02",
+        "Name" : "Kyudo",
+        "Details" : "The Kyudo was developed by Martinson Armaments early in the history of BattleMechs, having intended to support the Mackie, This version of the Kyudo served with the Hegemony Armed Forces throughout the Reunification War. Gradually it was reassigned to various militia and reserve forces until Martinson was destroyed during the Amaris Civil War and the Kyudo faded into obscurity.",
+        "Icon" : "uixTxrIcon_kyudo"
+    },
+    "MovementCapDefID" : "movedef_kyudo_KY2-D-02",
+    "PathingCapDefID" : "pathingdef_medium",
+    "HardpointDataDefID" : "hardpointdatadef_vindicator",
+    "PrefabIdentifier" : "chrPrfMech_vindicatorBase-001",
+    "PrefabBase" : "vindicator",
+    "Tonnage" : 45,
+    "InitialTonnage" : 19,
+    "weightClass" : "MEDIUM",
+    "Heatsinks" : 30,
+    "TopSpeed" : 120,
+    "TurnRadius" : 90,
+    "MaxJumpjets" : 5,
+    "Stability" : 130,
+    "StabilityDefenses" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier" : 1,
+    "VisibilityMultiplier" : 1,
+    "SensorRangeMultiplier" : 1,
+    "Signature" : 0,
+    "Radius" : 5,
+    "PunchesWithLeftArm" : true,
+    "MeleeDamage" : 55,
+    "MeleeInstability" : 45,
+    "MeleeToHitModifier" : 0,
+    "DFADamage" : 55,
+    "DFAToHitModifier" : 0,
+    "DFASelfDamage" : 55,
+    "DFAInstability" : 55,
+    "Locations" : [
+        {
+            "Location" : "Head",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Energy",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 1,
+            "MaxArmor" : 45,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 16
+        },
+        {
+            "Location" : "LeftArm",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Missile",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 8,
+            "MaxArmor" : 70,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 35
+        },
+        {
+            "Location" : "LeftTorso",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Energy",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 10,
+            "MaxArmor" : 110,
+            "MaxRearArmor" : 55,
+            "InternalStructure" : 55
+        },
+        {
+            "Location" : "CenterTorso",
+            "Hardpoints" : [
+                
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 140,
+            "MaxRearArmor" : 70,
+            "InternalStructure" : 70
+        },
+        {
+            "Location" : "RightTorso",
+            "Hardpoints" : [
+                
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 10,
+            "MaxArmor" : 110,
+            "MaxRearArmor" : 55,
+            "InternalStructure" : 55
+        },
+        {
+            "Location" : "RightArm",
+            "Hardpoints" : [
+                {
+                    "WeaponMount" : "Energy",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Energy",
+                    "Omni" : false
+                }
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 8,
+            "MaxArmor" : 70,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 35
+        },
+        {
+            "Location" : "LeftLeg",
+            "Hardpoints" : [
+                
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 110,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 55
+        },
+        {
+            "Location" : "RightLeg",
+            "Hardpoints" : [
+                
+            ],
+            "Tonnage" : 0,
+            "InventorySlots" : 4,
+            "MaxArmor" : 110,
+            "MaxRearArmor" : -1,
+            "InternalStructure" : 55
+        }
+    ],
+    "LOSSourcePositions" : [
+        {
+            "x" : 0,
+            "y" : 14,
+            "z" : 0
+        },
+        {
+            "x" : 3.5,
+            "y" : 13,
+            "z" : 0
+        },
+        {
+            "x" : -3.5,
+            "y" : 13,
+            "z" : 0
+        }
+    ],
+    "LOSTargetPositions" : [
+        {
+            "x" : 0,
+            "y" : 14,
+            "z" : 0
+        },
+        {
+            "x" : 3.5,
+            "y" : 13,
+            "z" : 0
+        },
+        {
+            "x" : -3.5,
+            "y" : 13,
+            "z" : 0
+        },
+        {
+            "x" : 3,
+            "y" : 5,
+            "z" : 0
+        },
+        {
+            "x" : -3,
+            "y" : 5,
+            "z" : 0
+        }
+    ],
+    "VariantName" : "KY2-D-02",
+    "ChassisTags": {
+        "items": [
+			
+		],
+        "tagSetSourceFile": ""
+    },
+    "StockRole" : "Skirmisher & Sniper",
+    "YangsThoughts" : "This Kyudo is Star League technology with its advanced LRM 20 with Artemis IV fire control and ER Large Laser."
+}
