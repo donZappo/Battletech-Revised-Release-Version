@@ -573,7 +573,7 @@
       },
       {
         "k": "CenterTorsoRear",
-        "v": 12
+        "v": 14
       },
       {
         "k": "LeftTorsoRear",
@@ -1322,6 +1322,7 @@
         "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
     },
     "InjuryStringAmmoExplosion": "killed by an ammo explosion",
+	"InjuryStringComponentExplosion": "killed by a component explosion",
     "InjuryStringArtillery": "caught in a massive explosion",
     "InjuryStringDFAEnemy": "jumped on by an enemy {KILLEDBY_UNIT.Description.Name}",
     "InjuryStringDFAEnemyGeneric": "jumped on by an enemy 'Mech",

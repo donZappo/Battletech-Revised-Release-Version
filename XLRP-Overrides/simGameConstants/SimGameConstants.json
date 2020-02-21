@@ -160,7 +160,8 @@
     "RareUpgradeChance": -3,
     "UpgradeChanceDivisor": 50,
     "ItemAutoCullLevel": 10,
-    "EquipMechOnSalvage": true
+    "EquipMechOnSalvage": true,
+	"UniqueSalvageTag" : "BUILT-IN"
   },
   "Story": {
     "CampaignStartDate": "3025-01-01T05:00:00Z",
@@ -867,6 +868,8 @@
     "LikedMaxContractDifficulty": 8,
     "FriendlyMaxContractDifficulty": 9,
     "HonoredMaxContractDifficulty": 12,
-    "StartWithRandomMechs": true
+    "StartWithRandomMechs": true,
+	"ArgoUpgradeCostMultiplier" : 1,
+	"ArgoMaintenanceMultiplier" : 1
   }
 }

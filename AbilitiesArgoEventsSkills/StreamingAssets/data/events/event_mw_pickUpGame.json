@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_pickUpGame",
         "Name" : "Pick-up Game",
-        "Details" : "As you're working out on a machine in the <i>Argo</i>'s gym, a small group of MechWarriors clears equipment out of the way and starts setting up a makeshift basketball court. A ventilation seal ring apparently makes a fine hoop.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] and [[TRT_MW,{TRT_MW.Callsign}]] approach you. \"Are you going to play this time, Commander? Two on two. You can be with [[SCN_MW,{SCN_MW.Callsign}]]\" The other MechWarriors cheer enthusiastically.",
+        "Details" : "As you're working out on a machine in the <i>Argo</i>'s gym, a small group of MechWarriors clears equipment out of the way and starts setting up a makeshift basketball court. A ventilation seal ring apparently makes a fine hoop.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] and [[TRT_MW,{TRT_MW.Callsign}]] approach you. \"Are you going to play this time, Commander? Two on two. You can be with [[SCN_MW,{SCN_MW.Callsign}]].\" The other MechWarriors cheer enthusiastically.",
         "Icon" : "uixTxrSpot_Gym.png"
     },
     "Scope" : "MechWarrior",
@@ -10,11 +10,11 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "items" : null,
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
-            "items" : null,
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : [
@@ -67,11 +67,11 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : [
@@ -89,11 +89,11 @@
             "Requirements" : {
                 "Scope" : "TertiaryMechWarrior",
                 "RequirementTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : [
@@ -113,7 +113,7 @@
                 "Id" : "outcome_0",
                 "Name" : "Decline the invitation.",
                 "Details" : "Non-participation",
-                "Icon" : ""
+                "Icon" : null
             },
             "RequirementList" : [],
             "ResultSets" : [
@@ -121,8 +121,8 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "nothing",
-                        "Details" : "\"I'm afraid not, [[TGT_MW,{TGT_MW.Callsign}]]. Darius has a full schedule for me today. I'll need to take a rain check.\"\r\n\r\n{TGT_MW.Subj_C} {TGT_MW.Gender?NonBinary:look|Default:looks} looks disappointed, \"No worries, Commander. Next time.\"\r\n\r\nLater, after you've finished your workout, you pass by the game and catch the final few minutes. Seeing the caliber of play on display\u2026 it's a toss-up as to how the game would have turned out.",
-                        "Icon" : ""
+                        "Details" : "\"I'm afraid not, [[TGT_MW,{TGT_MW.Callsign}]]. Darius has a full schedule for me today. I'll need to take a rain check.\"\r\n\r\n{TGT_MW.Subj_C} {TGT_MW.Gender?NonBinary:look|Default:looks} disappointed, \"No worries, Commander. Next time.\"\r\n\r\nLater, after you've finished your workout, you pass by the game and catch the final few minutes. Seeing the caliber of play on display\u2026 it's a toss-up as to how the game would have turned out.",
+                        "Icon" : null
                     },
                     "Weight" : 100,
                     "Results" : []
@@ -131,11 +131,11 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
@@ -169,7 +169,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -182,7 +182,7 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -207,7 +207,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -220,7 +220,7 @@
                             "Scope" : "TertiaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -256,7 +256,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -269,7 +269,7 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -290,11 +290,11 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
@@ -328,7 +328,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -341,7 +341,7 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -377,7 +377,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -390,7 +390,7 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -409,11 +409,11 @@
                             "Scope" : "Commander",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : [
@@ -436,7 +436,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "win - epic game",
-                        "Details" : "As the game progresses, the small group of fans grows into a crowd, as word spreads about the game.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] can't seem to miss a shot at range, and [[TRT_MW,{TRT_MW.Callsign}]]'s ball handling is deceptively effective.\r\n\r\nMeanwhile, [[SCN_MW,{SCN_MW.Callsign}]] rebounds like a machine for your team, constantly grabbing errant shots and tipping them in or  dishing out to you at the perimeter.\r\n\r\nThe final play comes down to one ill-considered pass from {TGT_MW.Callsign}, a stolen ball, and your layup rolls perilously around the rim before falling in.\r\n\r\nThe crowd goes wild.",
+                        "Details" : "As the game progresses, the small group of fans grows into a crowd, as word spreads about the game.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] can't seem to miss a shot at range, and [[TRT_MW,{TRT_MW.Callsign}]]'s ball handling is deceptively effective.\r\n\r\nMeanwhile, [[SCN_MW,{SCN_MW.Callsign}]] rebounds like a machine for your team, constantly grabbing errant shots and tipping them in or dishing out to you at the perimeter.\r\n\r\nThe final play comes down to one ill-considered pass from {TGT_MW.Callsign}, a stolen ball, and your layup rolls perilously around the rim before falling in.\r\n\r\nThe crowd goes wild.",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -451,7 +451,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -464,7 +464,7 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -489,7 +489,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -502,7 +502,7 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -527,7 +527,7 @@
                                 "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
@@ -540,7 +540,7 @@
                             "Scope" : "TertiaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
@@ -559,11 +559,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
-                                "items" : null,
+                                "items" : [],
                                 "tagSetSourceFile" : ""
                             },
                             "Stats" : [
@@ -586,11 +586,11 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
-                    "items" : null,
+                    "items" : [],
                     "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []

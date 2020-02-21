@@ -237,7 +237,7 @@
                     "Description" : {
                         "Id" : "outcome_1_2",
                         "Name" : "nothing happens",
-                        "Details" : "After an hour of somewhat indifferent searching by the customs crew, their officer approaches you, clipboard in hand. You can see mostly green check marks on the list.\r\n\r\nHe gives a click of his heels and a polite nod. \"Commander, you run a tight ship here. I'm prepared to let you enter the port. Thank-you for your cooperation.\"",
+                        "Details" : "After an hour of somewhat indifferent searching by the customs crew, their officer approaches you, clipboard in hand. You can see mostly green check marks on the list.\r\n\r\nHe gives a click of his heels and a polite nod. \"Commander, you run a tight ship here. I'm prepared to let you enter the port. Thank you for your cooperation.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,
