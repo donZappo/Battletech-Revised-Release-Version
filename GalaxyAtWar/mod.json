@@ -28,6 +28,7 @@
 		"ExternalHotSpots" : 5,
 		
 		"ChangeDifficulty" : true,
+		"ExpandedMap" : false,
 		"ResetMap" : false,
 		
 		"DeploymentMinDays" : 1,
