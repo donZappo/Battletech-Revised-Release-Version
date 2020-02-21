@@ -17,14 +17,14 @@
     "HERALDRY_VERSION": 1
   },
   "Travel": {
-    "DefaultSystemTravelTime": 2,
-    "DefaultFuelTime": 2,
-    "FuelStationFuelTime": 2,
+    "DefaultSystemTravelTime": 4,
+    "DefaultFuelTime": 3,
+    "FuelStationFuelTime": 3,
     "MinMapX": 0,
     "MaxMapX": 0,
     "MinMapY": 0,
     "MaxMapY": 0,
-    "MaxJumpDistance": 45,
+    "MaxJumpDistance": 30,
     "StarSystemPrefix": "starsystemdef_",
     "HabitablePlanetTags": [
       "planet_climate_arctic",
@@ -47,7 +47,7 @@
   "Time": {
     "DayElapseTimeSlow": 3,
     "DayElapseTimeNormal": 1.25,
-    "DayElapseTimeFast": 0.5
+    "DayElapseTimeFast": 0.33
   },
   "Finances": {
     "QuarterLength": 30,
@@ -61,13 +61,14 @@
     "GenerousCostModifier": 1.4,
     "ExtravagantCostModifier": 1.8,
     "JumpShipCost": 30000,
-    "MechWarriorBaseCostPerPoint": 1000.0,
-    "MechWarriorBonusCostPerPoint": 500.0,
-    "MechWarriorHiringCostPerPoint": 1500.0,
+    "MechWarriorBaseCostPerPoint": 1900.0,
+    "MechWarriorBonusCostPerPoint": 1000.0,
+    "MechWarriorHiringCostPerPoint": 2800.0,
     "DefaultShopRefreshRate": 14,
     "DefaultShopMaxInventory": 50,
     "DefaultShopMaxSpecials": 2,
     "ContractPricePerDifficulty": 200000,
+    /* ContractTypeMod's are now located in StreamingAssets/Enums/ContractType.json */
     "ContractPriceVariance": 0.15,
     "ContractFloorSalaryMultiplier": 0.1,
     "ContractFloorSalvageBonus": 3,
@@ -82,8 +83,8 @@
     "MechLabRefundModifier": 0.9,
     "RecoveredChassisShopModifier": 0.9,
     "LeopardBaseMaintenanceCost": 70000,
-    "ArgoBaseMaintenanceCost": 140000,
-    "QuartersYouCanAffordWithoutTriggeringWarning": 0,
+    "ArgoBaseMaintenanceCost": 80000,
+    "QuartersYouCanAffordWithoutTriggeringWarning": 2,
     "ContractBaseRepDifficultyMultiplier": 1.5,
     "ContractBaseReputationAddition": 0,
     "ContractNegotiableRepDifficultyMultiplier": 1,
@@ -120,7 +121,7 @@
     "IncapacitatedDamageCost": 180,
     "BaseInjuryDamageCost": 480,
     "IncapacitatedDeathChance": 0.9,
-    "LethalDeathChance": 0.95,
+    "LethalDeathChance": 1.4,
     "GutsDeathReduction": 0.05
   },
   "Salvage": {
@@ -180,12 +181,12 @@
     "SystemUseMilestoneTag": "SYSTEM_UseMilestone",
     "SystemMissionCompleteCountStat": "MissionsComplete",
     "StartingCBills": 1000000,
-    "StartingMechTechSkill": 3000,
+    "StartingMechTechSkill": 4,
     "StartingMedTechSkill": 6,
     "DailyUpgradeValue": 1,
     "ArgoMechTechs": 0,
     "ArgoMedTechs": 0,
-    "MaxMechWarriorsPerPod": 6,
+    "MaxMechWarriorsPerPod": 8,
     "MaxMechsPerPod": 6,
     "StartingDropShip": "argo",
     "UpgradedDropShip": "argo",
@@ -256,7 +257,7 @@
     "LikedRepShopAdjustment": 0,
     "FriendlyRepShopAdjustment": -0.05,
     "HonoredRepShopAdjustment": -0.1,
-    "StartingMorale": 20,
+    "StartingMorale": 28,
     "MaxMorale": 50,
     "MoraleLevelNames": [
       "Mutinous",
@@ -265,11 +266,11 @@
       "Spirited",
       "Resolute"
     ],
-    "SpartanMoraleModifier": -15,
-    "RestrictedMoraleModifier": -5,
+    "SpartanMoraleModifier": -4,
+    "RestrictedMoraleModifier": -2,
     "NormalMoraleModifier": 0,
-    "GenerousMoraleModifier": 5,
-    "ExtravagantMoraleModifier": 10,
+    "GenerousMoraleModifier": 1,
+    "ExtravagantMoraleModifier": 2,
     "BadFaithMoraleModifier": 1,
     "CatastropheMoraleModifier": 2,
     "MaxMechTechID": "MechTechHireLimit",
@@ -282,11 +283,11 @@
     "DefaultMedTechsPerSystem": 2,
     "DailyHealValue": 0,
     "MedTechSkillMod": 1,
-    "TargetRepSuccessMod": -0.5,
-    "TargetRepGoodFaithMod": -0.25,
+    "TargetRepSuccessMod": -0.8,
+    "TargetRepGoodFaithMod": -0.4,
     "TargetRepBadFaithMod": 0,
-    "EmployerRepSuccessMod": 1.1,
-    "EmployerRepGoodFaithMod": 0.6,
+    "EmployerRepSuccessMod": 1,
+    "EmployerRepGoodFaithMod": 0.5,
     "EmployerRepBadFaithMod": -2,
     "MRBSuccessMod": 1,
     "MRBGoodFaithMod": 0.5,
@@ -333,8 +334,8 @@
     "MaxMoralePowerLevelLimits": [
       12,
       24
-    ],
-    "MaxContractsPerSystem": 8,
+    ]
+    "MaxContractsPerSystem": 7,
     "ContractRenewalPerWeek": 0.5,
     "ContractSuccessReduction": 1.0,
     "MaxBreadcrumbsPerSystem": 2,
@@ -343,11 +344,11 @@
     "StartingTargetSystem": "Detroit",
     "StartingPassiveXPGainCap": 0,
     "StartingPassiveXPGain": 0,
-    "MechReadyTime": 7000,
-    "DefaultMechPartMax": 5,
+    "MechReadyTime": 7,
+    "DefaultMechPartMax": 3,
     "DefaultMechPartName": "Partial Mech Salvage",
     "DefaultFullMechName": "BattleMech",
-    "DefaultContractRefreshRate": 20,
+    "DefaultContractRefreshRate": 30,
     "ExternalMilestones": false,
     "MilestonePath": "",
     "TimeStartTag": "LeopardAcquired",
@@ -377,10 +378,10 @@
       "5a3845b6623035d41400002a",
       "5a305324623035701c00002a"
     ],
-    "NotifLowFundsQtrRemainThreshold": 0,
-    "NotifLowFundsRecurrence": 31,
-    "NotifDangerLowFundsQtrRemainThreshold": 0,
-    "NotifDangerLowFundsRecurrence": 31,
+    "NotifLowFundsQtrRemainThreshold": 2,
+    "NotifLowFundsRecurrence": 14,
+    "NotifDangerLowFundsQtrRemainThreshold": 1,
+    "NotifDangerLowFundsRecurrence": 7,
     "NotifArgoUpgradesModuleThreshold": 6,
     "NotifArgoUpgradesRecurrence": 10,
     "NotifMechRepairsNeededRecurrence": 10,
@@ -420,30 +421,30 @@
     "HighRepNotificationValue": 50
   },
   "MechLab": {
-    "StructureRepairTechPoints": 4,
-    "StructureRepairCost": 4,
-    "ComponentRepairTechPoints": 2000,
-    "ComponentRepairCost": 200,
-    "BallisticInstallTechPoints": 5000,
+    "StructureRepairTechPoints": 0.3,
+    "StructureRepairCost": 300,
+    "ComponentRepairTechPoints": 5,
+    "ComponentRepairCost": 500,
+    "BallisticInstallTechPoints": 10,
     "BallisticInstallCost": 500,
-    "MissileInstallTechPoints": 5000,
+    "MissileInstallTechPoints": 10,
     "MissileInstallCost": 500,
-    "EnergyInstallTechPoints": 5000,
+    "EnergyInstallTechPoints": 10,
     "EnergyInstallCost": 500,
-    "APInstallTechPoints": 2500,
+    "APInstallTechPoints": 5,
     "APInstallCost": 250,
-    "AmmoInstallTechPoints": 2500,
+    "AmmoInstallTechPoints": 5,
     "AmmoInstallCost": 100,
-    "JumpJetInstallTechPoints": 2500,
+    "JumpJetInstallTechPoints": 5,
     "JumpJetInstallCost": 250,
-    "HeatSinkInstallTechPoints": 2500,
+    "HeatSinkInstallTechPoints": 5,
     "HeatSinkInstallCost": 250,
     "ArmorInstallTechPoints": 0,
     "ArmorInstallCost": 0,
-    "OtherInstallTechPoints": 2500,
+    "OtherInstallTechPoints": 5,
     "OtherInstallCost": 500,
     "UninstallTechPoints": 0,
-    "ZeroStructureCBillModifier": 10.0,
+    "ZeroStructureCBillModifier": 4.0,
     "ZeroStructureTechPointModifier": 1.5,
     "LanceDropTonnageBrackets": [
       100,
@@ -534,24 +535,20 @@
         "AbilityDefG5"
       ],
       [
-        "TraitDefWeaponHit6",
-        "TraitDefRefireReduceOne"
+        "TraitDefWeaponHit6"
       ],
       [
-        "TraitDefWeaponHit7",
-        "TraitDefCalledShotImprove"
+        "TraitDefWeaponHit7"
       ],
       [
         "TraitDefWeaponHit8",
         "AbilityDefG8"
       ],
       [
-        "TraitDefWeaponHit9",
-        "TraitDefRefireReduceTwo"
+        "TraitDefWeaponHit9"
       ],
       [
-        "TraitDefWeaponHit10",
-        "TraitDefCalledShotMaster"
+        "TraitDefWeaponHit10"
       ]
     ],
     "PilotingSkills": [
@@ -574,20 +571,19 @@
       ],
       [
         "TraitDefMeleeHit6",
-        "TraitDefSprintIncrease10"
-      ],
-      [
-        "TraitDefMeleeHit7",
         "TraitDefEvasiveChargeAddOne"
       ],
       [
+        "TraitDefMeleeHit7",
+        "TraitDefSprintIncrease20"
+      ],
+      [
         "TraitDefMeleeHit8",
-        "TraitDefUnsteadySet80",
         "AbilityDefP8"
       ],
       [
         "TraitDefMeleeHit9",
-        "TraitDefSprintIncrease20"
+        "TraitDefUnsteadySet80"
       ],
       [
         "TraitDefMeleeHit10",
@@ -596,80 +592,64 @@
     ],
     "GutsSkills": [
       [
-        "TraitDefGuts1"
       ],
       [
-        "TraitDefGuts2"
       ],
       [
-        "TraitDefGuts3"
       ],
       [
-        "TraitDefGuts4"
-      ],
-      [
-        "TraitDefGuts5",
-        "AbilityDefGu5"
-      ],
-      [
-        "TraitDefGuts6",
         "TraitDefHealthAddOne"
       ],
       [
-        "TraitDefGuts7",
+        "TraitDefRefireReduceOne",
+        "AbilityDefGu5"
+      ],
+      [
         "TraitDefOverheatAddFifteen"
       ],
       [
-        "TraitDefGuts8",
-        "TraitDefHealthAddTwo",
+        "TraitDefHealthAddTwo"
+      ],
+      [
+        "TraitDefRefireReduceTwo",
         "AbilityDefGu8"
       ],
       [
-        "TraitDefGuts9",
         "TraitDefOverheatAddThirty"
       ],
       [
-        "TraitDefGuts10",
         "TraitDefHealthAddThree"
       ]
     ],
     "TacticsSkills": [
       [
-        "TraitDefTactics1"
       ],
       [
-        "TraitDefTactics2"
       ],
       [
-        "TraitDefTactics3",
+      ],
+      [
         "TraitDefIndirectReduceOne"
       ],
       [
-        "TraitDefTactics4",
-        "TraitDefIndirectReduceTwo"
-      ],
-      [
-        "TraitDefTactics5",
         "TraitDefMinRangeReduce45",
         "AbilityDefT5A"
       ],
       [
-        "TraitDefTactics6"
+        "TraitDefCalledShotImprove"
       ],
       [
-        "TraitDefTactics7",
-        "TraitDefIndirectReduceThree"
+        "TraitDefIndirectReduceTwo"
       ],
       [
-        "TraitDefTactics8",
+        "TraitDefMinRangeReduce90",
         "AbilityDefT8A"
       ],
       [
-        "TraitDefTactics9",
-        "TraitDefMinRangeReduce90"
+        "TraitDefCalledShotMaster"
       ],
       [
-        "TraitDefTactics10"
+        "TraitDefIndirectReduceThree"
       ]
     ],
     "SkillOrder": [
@@ -710,6 +690,7 @@
     "TacticsDefaultTooltip": "Tactics controls sensors and indirect fire accuracy.",
     "GutsDefaultTooltip": "Guts controls tolerance for heat and injuries."
   },
+  /* Mission Illustrations and Icons are now located in StreamingAssets/Enums/ContractType.json */
   "Flashpoints": {
     "MaxActiveFlashpoints": 5,
     "DefaultAvailableFlashpointTimeout": 180,
@@ -861,13 +842,13 @@
       "argoUpgrade_pod1",
       "argoUpgrade_structure0"
     ],
-    "LoathedMaxContractDifficulty": 2,
-    "HatedMaxContractDifficulty": 4,
-    "DislikedMaxContractDifficulty": 5,
+    "LoathedMaxContractDifficulty": 1,
+    "HatedMaxContractDifficulty": 2,
+    "DislikedMaxContractDifficulty": 3,
     "IndifferentMaxContractDifficulty": 6,
     "LikedMaxContractDifficulty": 8,
     "FriendlyMaxContractDifficulty": 9,
-    "HonoredMaxContractDifficulty": 12,
+    "HonoredMaxContractDifficulty": 10,
     "StartWithRandomMechs": true,
     "ArgoUpgradeCostMultiplier": 1,
     "ArgoMaintenanceMultiplier": 1

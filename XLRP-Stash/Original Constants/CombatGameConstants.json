@@ -29,35 +29,35 @@
     "TurretDefaultTactics": 1
   },
   "Heat": {
-    "OverheatLevel": 0.7,
-    "MaxHeat": 150,
+    "OverheatLevel": 0.6,
+    "MaxHeat": 100,
     "WalkHeat": 0,
     "SprintHeat": 5,
     "JumpHeatUnitSize": 6,
     "JumpHeatPerUnit": 1,
     "JumpHeatMin": 5,
     "EngineDamageHeat": 0,
-    "InternalHeatSinkCount": 0,
+    "InternalHeatSinkCount": 10,
     "DefaultHeatSinkDissipationCapacity": 3,
     "StartupSinkRatio": 0.75,
     "GlobalHeatIncreaseMultiplier": 1.0,
     "GlobalHeatSinkMultiplier": 1.0,
-    "CriticalHeatPerLocationLight": 0,
-    "CriticalHeatPerLocationMedium": 0,
-    "CriticalHeatPerLocationHeavy": 0,
-    "CriticalHeatPerLocationAssault": 0,
+    "CriticalHeatPerLocationLight": 4,
+    "CriticalHeatPerLocationMedium": 5,
+    "CriticalHeatPerLocationHeavy": 7,
+    "CriticalHeatPerLocationAssault": 10,
     "ShutdownCausesInjury": false,
     "ShowPeakHeat": false
   },
   "Visibility": {
-    "BaseSpotterDistance": 350.0,
-    "SpotterTacticsMultiplier": 25.0,
+    "BaseSpotterDistance": 300.0,
+    "SpotterTacticsMultiplier": 0.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
     "ShutDownVisibilityModifier": 0.0,
     "ShutDownSignatureModifier": -0.5,
-    "BaseSensorDistance": 500.0,
+    "BaseSensorDistance": 400.0,
     "UseAsymmetricalSensors": true,
     "ShowExtendedBlipsBeforeContact": false,
     "ExtendedSensorDistanceMultiplier": 1.0,
@@ -207,7 +207,7 @@
   "ToHit": {
     "FiringArcDegrees": 60.0,
     "ToHitBaseFloor": 0.75,
-    "ToHitGunneryDivisor": 50,
+    "ToHitGunneryDivisor": 40,
     "ToHitUseSteppedAlgorithm": true,
     "ToHitStepThresholds": [
       0,
@@ -220,8 +220,8 @@
     "ToHitModifierDivisor": 10,
     "ToHitAssault": 0,
     "ToHitHeavy": 0,
-    "ToHitMedium": 0,
-    "ToHitLight": 0,
+    "ToHitMedium": 1,
+    "ToHitLight": 3,
     "ToHitVehicleAssault": 0,
     "ToHitVehicleHeavy": 0,
     "ToHitVehicleMedium": 0,
@@ -230,7 +230,7 @@
     "ToHitTurretHeavy": -4,
     "ToHitTurretMedium": -4,
     "ToHitTurretLight": -4,
-    "ToHitElevationLevelHeight": 24,
+    "ToHitElevationLevelHeight": 16,
     "ToHitElevationModifierPerLevel": 1,
     "ToHitElevationUseMultipleLevels": true,
     "ToHitElevationApplyPenalties": false,
@@ -239,26 +239,26 @@
     "ToHitMediumRange": 0,
     "ToHitLongRange": 4,
     "ToHitMaximumRange": 4,
-    "ToHitCoverObstructed": 3,
+    "ToHitCoverObstructed": 2,
     "DamageResistanceObstructed": 1.0,
     "DamageResistanceIndirectFire": 1.0,
-    "ClusterChanceOriginalLocationMultiplier": 4,
-    "ClusterChanceAdjacentMultiplier": 3,
-    "ClusterChanceNonadjacentMultiplier": 2,
+    "ClusterChanceOriginalLocationMultiplier": 8,
+    "ClusterChanceAdjacentMultiplier": 4,
+    "ClusterChanceNonadjacentMultiplier": 1,
     "ClusterChanceNeverMultiplyHead": true,
     "ClusterChanceNeverClusterHead": true,
-    "ToHitIndirect": 5,
+    "ToHitIndirect": 3,
     "ToHitShutdownTargetBonus": -4,
     "ToHitShutdownTargetBonusMelee": -10,
     "ToHitProneTargetBonus": 0,
     "ToHitProneTargetBonusMelee": -10,
     "ToHitSelfOverheated": 1,
-    "ToHitSelfSprinted": 1,
-    "ToHitSelfWalkLight": 1,
-    "ToHitSelfWalkMedium": 1,
-    "ToHitSelfWalkHeavy": 1,
-    "ToHitSelfWalkAssault": 1,
-    "ToHitSelfWalkVehicle": 1,
+    "ToHitSelfSprinted": 4,
+    "ToHitSelfWalkLight": 0,
+    "ToHitSelfWalkMedium": 0,
+    "ToHitSelfWalkHeavy": 0,
+    "ToHitSelfWalkAssault": 0,
+    "ToHitSelfWalkVehicle": 0,
     "ToHitSelfStoodUp": 4,
     "ToHitSelfArmMountedWeapon": -1,
     "SensorLockStripsEvasivePips": true,
@@ -284,10 +284,10 @@
       4,
       6,
       8,
-      9,
       10,
-      11,
-      12
+      12,
+      14,
+      16
     ],
     "ToHitMovingTargetStrings": [
       "1 EVASIVE charge: +{0} Difficulty to hit this unit with ranged attacks.",
@@ -297,7 +297,7 @@
       "5 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
       "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
     ],
-    "ToHitSelfWeaponDamaged": 3,
+    "ToHitSelfWeaponDamaged": 2,
     "ToHitSelfWeaponLocationDamagedMinor": 0,
     "ToHitSelfWeaponLocationDamagedMajor": 0,
     "UseMultipleGuardLevels": true,
@@ -318,7 +318,7 @@
     "TacticsBaseFloor": 0.65,
     "TacticsDivisor": 20,
     "TacticsModifierDivisor": 10,
-    "ToHitOffensivePush": -2,
+    "ToHitOffensivePush": -4,
     "StrayShotsEnabled": true,
     "StrayShotsHitUnits": true,
     "StrayShotValidTargets": 0
@@ -334,7 +334,7 @@
     "DFAMissedPilotingModifier": 4.0,
     "MeleeDamageMultiplierTurret": 2.0,
     "MeleeDamageMultiplierVehicle": 2.0,
-    "DefaultUnsteadyThreshold": 61.0,
+    "DefaultUnsteadyThreshold": 41.0,
     "MeleeInstabilityNormalMultiplier": 1.5,
     "MeleeInstabilityChargeMultiplier": 1.5,
     "MeleeInstabilityDFAMultiplier": 1.5,
@@ -350,7 +350,7 @@
     "HeavyDamageThreshold": 100,
     "LowArmorThreshold": 0.25,
     "SolidBlowDamageMultiplier": 1.0,
-    "AICritChanceBaseMultiplier": 1.0,
+    "AICritChanceBaseMultiplier": 0.2,
     "NormalBlowDamageMultiplier": 0.8,
     "GlancingBlowDamageMultiplier": 0.6,
     "IneffectiveBlowDamageMultiplier": 0.4,
@@ -377,8 +377,8 @@
     "StabilityDumpDFA": -3,
     "StabilityDumpFalling": -3,
     "SearchForValidCritSlot": true,
-    "MinCritChance": 10,
-    "AllowTotalNegativeModifier": true,
+    "MinCritChance": 0.5,
+    "AllowTotalNegativeModifier": false,
     "COILUsesJumping": false,
     "COILMultipliesShots": false,
     "CoolantVentEffect": {
@@ -459,15 +459,15 @@
       },
       {
         "k": "CenterTorso",
-        "v": 14
+        "v": 16
       },
       {
         "k": "LeftTorso",
-        "v": 16
+        "v": 14
       },
       {
         "k": "RightTorso",
-        "v": 16
+        "v": 14
       },
       {
         "k": "LeftArm",
@@ -573,15 +573,15 @@
       },
       {
         "k": "CenterTorsoRear",
-        "v": 14
+        "v": 16
       },
       {
         "k": "LeftTorsoRear",
-        "v": 16
+        "v": 14
       },
       {
         "k": "RightTorsoRear",
-        "v": 16
+        "v": 14
       }
     ],
     "HitMechLocationFromTop": [
@@ -808,14 +808,14 @@
     ]
   },
   "PilotingConstants": {
-    "PilotingBaseFloor": 0.8,
-    "PilotingDivisor": 50,
+    "PilotingBaseFloor": 0.9,
+    "PilotingDivisor": 40,
     "PilotingModifierDivisor": 6.5,
     "PilotingDamageCTPenalizedModifier": 0.0,
     "PilotingDamageLegPenalizedModifier": 0.0,
     "PilotingDamageLegNonfunctionalModifier": 0.0,
     "PilotingDFAModifier": 6.0,
-    "LocationDestroyedPermanentStabilityLoss": 0.4,
+    "LocationDestroyedPermanentStabilityLoss": 0.2,
     "OnlyPermanentLossFromLegs": true,
     "SideTorsoBlackRelativeInstability": 0.0,
     "CenterTorsoYellowRelativeInstability": 0.0,
@@ -860,7 +860,7 @@
     "UseBaselineMoraleGainEachRound": true,
     "MoraleBaselineGainPerRound": 1,
     "MoraleBaselineMultiplyByActive": false,
-    "BaselineMultiplyByActiveElites": false,
+    "BaselineMultiplyByActiveElites": true,
     "BaselineAddFromSimGame": true,
     "BaselineAddFromSimGameThresholds": [
       0,
@@ -872,9 +872,9 @@
     "BaselineAddFromSimGameValues": [
       0,
       5,
-      10,
       15,
-      20
+      25,
+      35
     ],
     "BaselineAddMoraleMods": true,
     "BaselineModsOnlyBiggest": true,
@@ -893,10 +893,10 @@
     "ChangeEnemyMajorArmorDamage": 0,
     "ChangeEnemyKnockedDown": 0,
     "ChangeDFADealt": 0,
-    "ChangeEnemyDestroyedLight": 5,
-    "ChangeEnemyDestroyedMedium": 5,
-    "ChangeEnemyDestroyedHeavy": 5,
-    "ChangeEnemyDestroyedAssault": 5,
+    "ChangeEnemyDestroyedLight": 10,
+    "ChangeEnemyDestroyedMedium": 10,
+    "ChangeEnemyDestroyedHeavy": 10,
+    "ChangeEnemyDestroyedAssault": 10,
     "ChangeEnemyDestroyedMeleeAdditional": 0,
     "ChangeObjectiveCompleted": 0,
     "ChangeObjectiveFailed": 0,
@@ -913,7 +913,7 @@
     "ChangeAllyDestroyedHeavy": 0,
     "ChangeAllyDestroyedAssault": 0,
     "ChangeAllyDestroyedMeleeAdditional": 0,
-    "CanAIBeInspired": true,
+    "CanAIBeInspired": false,
     "InspirationAccelerationMultiplier": 0.0,
     "InspiredEffect": {
       "durationData": {
@@ -928,7 +928,7 @@
       "Description": {
         "Id": "AbilityDefInspired",
         "Name": "INSPIRED",
-        "Details": "-1/-2/-3 DIFFICULTY TO ALL ROLLS BASED ON RESOLVE",
+        "Details": "-1 DIFFICULTY TO ALL ROLLS",
         "Icon": "uixSvgIcon_mwInspired"
       },
       "statisticData": {
@@ -1125,7 +1125,7 @@
       },
       {
         "k": "range_close",
-        "v": "Close"
+        "v": "Short"
       },
       {
         "k": "default",
@@ -1134,11 +1134,11 @@
     ],
     "MoveDescription": {
       "Name": "MOVE",
-      "Details": "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +1 to-hit penalty. May also use to initiate a Melee attack on nearby enemies."
+      "Details": "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). May also use to initiate a Melee attack on nearby enemies."
     },
     "SprintDescription": {
       "Name": "SPRINT",
-      "Details": "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +2 to-hit penalty. Cannot Sprint if UNSTEADY, or if a leg is destroyed."
+      "Details": "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). Cannot Sprint if UNSTEADY, or if a leg is destroyed."
     },
     "BackwardDescription": {
       "Name": "REVERSE",
@@ -1146,7 +1146,7 @@
     },
     "JumpDescription": {
       "Name": "JUMP",
-      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +3 to-hit penalty. You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
+      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
     },
     "FireDescription": {
       "Name": "FIRE",
@@ -1154,7 +1154,7 @@
     },
     "MoraleBarDescription": {
       "Name": "Resolve",
-      "Details": "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%/75%/100% your MechWarriors become Inspired, gaining a +1/+2/+3 bonus to Accuracy for all attacks."
+      "Details": "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%, your MechWarriors become Inspired, gaining a +1 bonus to Accuracy for all attacks."
     },
     "FuryBarDescription": {
       "Name": "Fury",
@@ -1162,7 +1162,7 @@
     },
     "MoraleAttackDescription": {
       "Name": "PRECISION STRIKE",
-      "Details": "Take a Called Shot against a single target at -2 Difficulty. If the pilot has at least Tactics 6 the target's next Initiative is reduced by 1 (to a minimum of 1).\n"
+      "Details": "Take a Called Shot against a single target at -4 Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
     },
     "MoraleCostAttackDescription": {
       "Name": "PRECISION STRIKE COST",
@@ -1182,7 +1182,7 @@
     },
     "MoraleDefendDescription": {
       "Name": "VIGILANCE",
-      "Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. If the pilot has at least Tactics 4 its next Initiative is increased by 1 (to a maximum of 5).\n"
+      "Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. Your next Initiative is increased by 1 (to a maximum of 5).\n"
     },
     "MoraleCostDefendDescription": {
       "Name": "VIGILANCE COST",
@@ -1345,7 +1345,7 @@
     "EdgeAutoZoomSize": 0.05,
     "MinDistToFocalPoint": 50.0,
     "MinHeightAboveTerrain": 20.0,
-    "MaxHeightAboveTerrain": 800.0,
+    "MaxHeightAboveTerrain": 520.0,
     "MinAngle": 10.0,
     "MaxAngle": 75.0,
     "DefaultAngle": 40.0,
@@ -1805,7 +1805,7 @@
       "urbMdlBldn_Rubble_Medium",
       "urbMdlBldn_Rubble_Large",
       "urbMdlBldn_Rubble_Mega"
-    ],
+    ]
     "UrbanBuildingPropDestructionShockwaveSpeed": 50,
     "UrbanBuildingPropDestructionRadiusScale": 1.5,
     "UrbanUtilityPropDestructionStartingRadius": 10,
@@ -1833,10 +1833,10 @@
     "RotateInPlaceThreshold": 22.0,
     "MeleeDistance": 15.0,
     "DefaultMeleeEngageRange": 100.0,
-    "OverheatedMovePenalty": 0,
+    "OverheatedMovePenalty": 0.2,
     "LegDamageYellowPenalty": 0.0,
     "LegDamageRedPenalty": 0.0,
-    "LegDestroyedPenalty": 0.0,
+    "LegDestroyedPenalty": 0.4,
     "MinMoveSpeed": 0.25,
     "JumpjetVelocityMultiplier": 1.25,
     "DEBUG_UseJumpjetDuration": true,

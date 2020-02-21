@@ -1,0 +1,44 @@
+{
+	"Name": "FullRandomCareerStart",
+	"DLL": "RandomCareerStart.dll",
+	"Version": "2.0",
+	"Description": "Randomizes the starting mechwarriors and mechs.",
+	"Author": "donZappo and gnivler, based upon code and concept by mpstark",
+	"ConflictsWith": [
+		"RandomCampaignStart"
+	],
+	"Manifest": [
+        { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true }
+	],
+	
+	"Settings": {
+		"MinimumStartingWeight": 160,
+		"MaximumStartingWeight": 170,
+		"NumberRandomRonin": 0,
+		"NumberProceduralPilots": 3,
+		"MechPercentageStartingCost": 0,
+		"MechsAdhereToTimeline": true,
+		"StartYear": 3025,
+		
+        /* Maximum Lance Size = 6.*/
+		"MinimumLanceSize": 5,
+		"MaximumLanceSize": 6,
+		"MaximumMechWeight": 45,
+		"AllowDuplicateChassis": false,
+		"AllowCustomMechs": false,
+		
+		/* Specify which Ronin you want to have in your game to start. NumberRoninFromList will specify how many Ronin will be randomly selected from amongst this list. */
+		"NumberRoninFromList": 1,
+		"StartingRonin": [
+			"pilot_sim_starter_medusa",
+			"pilot_sim_starter_behemoth",
+			"pilot_sim_starter_dekker",
+			"pilot_sim_starter_glitch"
+		],
+		
+		/* Use mechdef name for this list. For example, "mechdef_locust_LCT-1M" to exclude the Locust-1M. */
+		"ExcludedMechs": [],
+		/* Dev toggles */
+		"Debug": false
+	}
+}
