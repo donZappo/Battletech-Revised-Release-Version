@@ -94,7 +94,7 @@
             "Visible" : true,
             "Toggle" : false,
             "StartOnly" : true,
-            "DefaultIndex" : 0,
+            "DefaultIndex" : 2,
             "Options" : [
                 {
                     "ID" : "diff_MC_easy",
@@ -177,6 +177,20 @@
                             "ConstantType" : "Story",
                             "ConstantName" : "DefaultMechPartMax",
                             "ConstantValue" : "8"
+                        }
+                    ]
+                }
+                {
+                    "ID" : "diff_MC_TCT",
+                    "Name" : "12",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : 0.25,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "12"
                         }
                     ]
                 }
