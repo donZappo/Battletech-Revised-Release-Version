@@ -1,0 +1,20 @@
+﻿{
+  "Name": "vfBattleTechMod-ProcGenStores",
+  "Author": "vengefire",
+  "Website": "https://github.com/vengefire/",
+
+  "Enabled": false,
+  "Hidden": false,
+  "DependsOn": [],
+  "CustomResourceTypes": [],
+  "DLL": "vfBattleTechMod-ProcGenStores.dll",
+
+  "Manifest": [
+  ],
+
+  "Settings": {
+    "Procedurally Generate Store Contents": {
+      "test": 777
+    }
+  }
+}
