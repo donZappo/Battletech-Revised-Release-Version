@@ -12,8 +12,8 @@
 	],
 	
 	"Settings": {
-		"MinimumStartingWeight": 160,
-		"MaximumStartingWeight": 170,
+		"MinimumStartingWeight": 150,
+		"MaximumStartingWeight": 160,
 		"NumberRandomRonin": 0,
 		"NumberProceduralPilots": 3,
 		"MechPercentageStartingCost": 0,

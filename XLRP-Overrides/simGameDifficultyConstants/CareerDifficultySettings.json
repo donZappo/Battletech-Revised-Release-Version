@@ -10,7 +10,7 @@
             "Visible" : true,
             "Toggle" : true,
             "StartOnly" : true,
-            "DefaultIndex" : 1,
+            "DefaultIndex" : 0,
             "Options" : [
                 {
                     "ID" : "diff_IM_off",
@@ -42,48 +42,6 @@
                 }
             ]
         },
-      {
-        "ID": "diff_rndStartingMechs",
-        "Name": "Randomize starting 'Mechs",
-        "TelemetryEventName": "",
-        "UIOrder": 0,
-        "Tooltip": "When active, this setting randomizes your starting set of five \u2019Mechs",
-        "Enabled": true,
-        "Visible": true,
-        "Toggle": true,
-        "StartOnly": true,
-        "DefaultIndex": 1,
-        "Options": [
-          {
-            "ID": "diff_RNDMECHS_off",
-            "Name": "Off",
-            "TelemetryEventDesc": "",
-            "DifficultyValue": 0,
-            "CareerScoreModifier" : -1,
-            "DifficultyConstants": [
-              {
-                "ConstantType": "CareerMode",
-                "ConstantName": "StartWithRandomMechs",
-                "ConstantValue": "False"
-              }
-            ]
-          },
-          {
-            "ID": "diff_RNDMECHS_on",
-            "Name": "On",
-            "TelemetryEventDesc": "",
-            "DifficultyValue": 0,
-            "CareerScoreModifier" : -1,
-            "DifficultyConstants": [
-              {
-                "ConstantType": "CareerMode",
-                "ConstantName": "StartWithRandomMechs",
-                "ConstantValue": "True"
-              }
-            ]
-          }
-        ]
-      },
 		{
             "ID" : "diff_equipNewMech",
             "Name" : "Unequipped 'Mechs",
@@ -280,6 +238,151 @@
                 }
             ]
         },
+		{
+			"ID": "diff_Starter",
+			"Name": "Starter Mech",
+			"UIOrder": 3,
+			"Tooltip": "Select your starter Mech.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 8,
+			"Options": [
+				{
+					"ID": "diff_start_locust",
+					"Name": "Locust",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_locust_LCT-1V"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_commando",
+					"Name": "Commando",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_commando_COM-2D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_spider",
+					"Name": "Spider",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_spider_SDR-5V"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_urbie",
+					"Name": "Urban Mech",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_urbanmech_UM-R60"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_firestarter",
+					"Name": "Firestarter",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_firestarter_FS9-H"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_jenner",
+					"Name": "Jenner",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_jenner_JR7-D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_panther",
+					"Name": "Panther",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_panther_PNT-9R"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_cicada",
+					"Name": "Cicada",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_cicada_CDA-2A"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_blackjack",
+					"Name": "Blackjack",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-1"
+						}
+					]
+				},		
+				{
+					"ID": "diff_start_vindicator",
+					"Name": "Vindicator",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_vindicator_VND-1R"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_random",
+					"Name": "Random",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_centurion_TARGETDUMMY"
+						}
+					]
+				}
+			]
+		},
         {
             "ID" : "diff_advancedPilots",
             "Name" : "Advanced MechWarriors",
