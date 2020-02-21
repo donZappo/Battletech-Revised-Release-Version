@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.2.5",
+    "Version": "4.2.6",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -175,6 +175,16 @@
 			"SoloDuel" : 0.4,
 			"DuoDuel" : 0.4
 			},
+		"LogoNames": {
+			"Davion" : "davionLogo",
+			"Marik" : "marikLogo",
+			"Liao" : "liaoLogo",
+			"TaurianConcordat" : "taurianLogo",
+			"MagistracyOfCanopus" : "magistracyLogo",
+			"AuriganRestoration" : "restorationLogo",
+			"Kurita" : "kuritaLogo",
+			"Steiner" : "steinerLogo"
+			},
 			
 			
 		"ISMCompatibility" : false,
@@ -226,17 +236,6 @@
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
-		"LogoNames": {
-			"Davion" : "davionLogo",
-			"Marik" : "marikLogo",
-			"Liao" : "liaoLogo",
-			"TaurianConcordat" : "taurianLogo",
-			"MagistracyOfCanopus" : "magistracyLogo",
-			"AuriganRestoration" : "restorationLogo",
-			"Kurita" : "kuritaLogo",
-			"Steiner" : "steinerLogo"
-			},
-			
 			
 		"LongWarTesting" : false,
 		"Debug" : false

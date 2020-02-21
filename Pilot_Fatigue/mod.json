@@ -1,7 +1,7 @@
 {
     "Name": "Pilot Fatigue",
     "Enabled": true,
-    "Version": "7.2",
+    "Version": "7.3",
     "Description": "Adds Pilot Fatigue",
     "Author": "don Zappo and gnivler",
     "Website": "",
@@ -32,6 +32,7 @@
 		"MaximumFatigueTime" : 14,
 		"AllowNegativeResolve" : false,
 		"pilot_wealthy_extra_fatigue" : 2,
-		"MechDamageMaxDays" : 5
+		"MechDamageMaxDays" : 5,
+		"BEXCE" : false
 	}
 }
