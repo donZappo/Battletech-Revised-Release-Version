@@ -1,0 +1,1017 @@
+{
+    "difficultyList" : [
+        {
+            "ID" : "diff_ironMan",
+            "Name" : "Ironman Mode",
+			"TelemetryEventName": "",
+            "UIOrder" : -1,
+            "Tooltip" : "Ironman Mode restricts you to only one save file. All consequences, including 'Mech loss, MechWarrior death, and failed missions are <i>permanent</i>. <color=#F79B26>Running out of funds <i>or</i> failing any Priority Mission will result in Career loss. This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_IM_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "IronManMode",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_IM_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : 0.2,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "IronmanMode",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+        "ID": "diff_rndStartingMechs",
+        "Name": "Starting lance and location",
+        "TelemetryEventName": "",
+        "UIOrder": 0,
+        "Tooltip": "When active, this setting randomizes the starting five \u2019Mechs, or it can be used to choose starting factions and locations.",
+        "Enabled": true,
+        "Visible": true,
+        "Toggle": true,
+        "StartOnly": true,
+        "DefaultIndex": 1,
+        "Options": [
+          {
+            "ID": "diff_RNDMECHS_off",
+            "Name": "Off",
+            "TelemetryEventDesc": "",
+            "DifficultyValue": 0,
+            "CareerScoreModifier" : -1,
+            "DifficultyConstants": [
+              {
+                "ConstantType": "CareerMode",
+                "ConstantName": "StartWithRandomMechs",
+                "ConstantValue": "False"
+              }
+            ]
+          },
+          {
+            "ID": "diff_RNDMECHS_on",
+            "Name": "On",
+            "TelemetryEventDesc": "",
+            "DifficultyValue": 0,
+            "CareerScoreModifier" : -1,
+            "DifficultyConstants": [
+              {
+                "ConstantType": "CareerMode",
+                "ConstantName": "StartWithRandomMechs",
+                "ConstantValue": "True"
+              }
+            ]
+          }
+        ]
+      },
+		{
+            "ID" : "diff_equipNewMech",
+            "Name" : "Unequipped 'Mechs",
+			"TelemetryEventName": "",
+            "UIOrder" : 1,
+            "Tooltip" : "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_EMS_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "EquipMechOnSalvage",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_EMS_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.2,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "EquipMechOnSalvage",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                }
+			]
+        },
+        {
+            "ID" : "diff_mechConstruction",
+            "Name" : "Parts for 'Mech Assembly",
+			"TelemetryEventName": "",
+            "UIOrder" : 2,
+            "Tooltip" : "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_MC_easy",
+                    "Name" : "3",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "3"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_easymed",
+                    "Name" : "4",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.05,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "4"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_med",
+                    "Name" : "5",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "5"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_medhard",
+                    "Name" : "6",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.15,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "6"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_hard",
+                    "Name" : "7",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.2,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "7"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MC_vhard",
+                    "Name" : "8",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : 0.25,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_contractDifficulty",
+            "Name" : "Enemy Force Strength",
+			"TelemetryEventName": "enemy_force_strength",
+            "UIOrder" : 3,
+            "Tooltip" : "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CMD_easy",
+                    "Name" : "Easy",
+                    "TelemetryEventDesc": "easy",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "-1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.05,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_hard",
+                    "Name" : "Hard",
+                    "TelemetryEventDesc": "hard",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_advancedPilots",
+            "Name" : "Advanced MechWarriors",
+			"TelemetryEventName": "advanced_mech_warriors",
+            "UIOrder" : 4,
+            "Tooltip" : "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CMD_easy",
+                    "Name" : "Often",
+                    "TelemetryEventDesc": "often",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.12"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.05,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.08"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CMD_hard",
+                    "Name" : "Rare",
+                    "TelemetryEventDesc": "rare",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantValue" : "0.04"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_mechDestruction",
+            "Name" : "'Mech Destruction",
+			"TelemetryEventName": "mech_destruction",
+            "UIOrder" : 5,
+            "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_MD_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 2,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_contractPayment",
+            "Name" : "Contract Payment",
+			"TelemetryEventName": "contract_payment",
+            "UIOrder" : 6,
+            "Tooltip" : "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_CP_easy",
+                    "Name" : "Generous",
+                    "TelemetryEventDesc": "generous",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "200000"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CP_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "180000"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_CP_hard",
+                    "Name" : "Stingy",
+                    "TelemetryEventDesc": "stingy",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.15,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractPricePerDifficulty",
+                            "ConstantValue" : "150000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_baseSalvage",
+            "Name" : "Salvage",
+			"TelemetryEventName": "salvage",
+            "UIOrder" : 7,
+            "Tooltip" : "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 1,
+            "Options" : [
+                {
+                    "ID" : "diff_BS_high",
+                    "Name" : "Generous",
+                    "TelemetryEventDesc": "generous",
+                    "DifficultyValue" : -1,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "4"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_BS_med",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "2"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_BS_low",
+                    "Name" : "Stingy",
+                    "TelemetryEventDesc": "hard",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.15,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Finances",
+                            "ConstantName" : "ContractFloorSalvageBonus",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_pilotProgression",
+            "Name" : "MechWarrior Progression",
+			"TelemetryEventName": "mech_warrior_progression",
+            "UIOrder" : 8,
+            "Tooltip" : "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_PP_easy",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "normal",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.05,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "400"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PP_med",
+                    "Name" : "Slow",
+                    "TelemetryEventDesc": "slow",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "200"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PP_hard",
+                    "Name" : "Very Slow",
+                    "TelemetryEventDesc": "very_slow",
+                    "DifficultyValue" : 2,
+                    "CareerScoreModifier" : 0.2,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "BaseXPGainPerMission",
+                            "ConstantValue" : "100"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_lethality",
+            "Name" : "Lethality",
+			"TelemetryEventName": "lethality",
+            "UIOrder" : 9,
+            "Tooltip" : "When this setting is enabled, MechWarriors that are incapacitated in combat will always be killed.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_LTH_off",
+                    "Name" : "Normal",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "IncapacitatedDeathChance",
+                            "ConstantValue" : "0.9"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "GutsDeathReduction",
+                            "ConstantValue" : "0.05"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_LTH_on",
+                    "Name" : "Lethal",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "IncapacitatedDeathChance",
+                            "ConstantValue" : "1.05"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "GutsDeathReduction",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_rareItems",
+            "Name" : "No Rare Salvage",
+			"TelemetryEventName": "no_rare_salvage",
+            "UIOrder" : 10,
+            "Tooltip" : "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_RI_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareWeaponChance",
+                            "ConstantValue" : "-3"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareUpgradeChance",
+                            "ConstantValue" : "-5"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareWeaponChance",
+                            "ConstantValue" : "-4"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareUpgradeChance",
+                            "ConstantValue" : "-6"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_RI_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareWeaponChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "RareUpgradeChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareWeaponChance",
+                            "ConstantValue" : "-10"
+                        },
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "VeryRareUpgradeChance",
+                            "ConstantValue" : "-10"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "ID" : "diff_startingLance",
+            "Name" : "Starting Lance",
+			"UIOrder" : 0,
+			"TelemetryEventName": "",
+            "Tooltip" : "Default gives the Career random starting 'Mechs, specific factions generate a lance of their canon 'Mechs and change company reputation accordingly at start.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_SF_default",
+                    "Name" : "Default",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+							"itemCollection_Mechs_Starting_0,itemCollection_Mechs_Starting_1,itemCollection_Mechs_Starting_2,itemCollection_Mechs_Starting_3,itemCollection_Mechs_Starting_4",
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_mercenary",
+                    "Name" : "Mercenary",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+							"itemCollection_Mechs_Starting_0_Periphery,itemCollection_Mechs_Starting_1_Periphery,itemCollection_Mechs_Starting_2_Periphery,itemCollection_Mechs_Starting_3_Periphery,itemCollection_Mechs_Starting_4_Periphery",
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:0,Kurita:0,Liao:0,Marik:0,Steiner:0,TaurianConcordat:0,MagistracyOfCanopus:0,AuriganRestoration:0,AuriganPirates:0"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_lostech",
+                    "Name" : "LosTech",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": "itemCollection_Mechs_Starting_0_LosTech,itemCollection_Mechs_Starting_1_LosTech,itemCollection_Mechs_Starting_2_LosTech,itemCollection_Mechs_Starting_3_LosTech,itemCollection_Mechs_Starting_4_LosTech,itemCollection_Mechs_Starting_5_LosTech"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:10,Kurita:-10,Liao:10,Marik:10,Steiner:10,TaurianConcordat:-10,MagistracyOfCanopus:-10,AuriganRestoration:0,AuriganPirates:-10"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_pirate",
+                    "Name" : "Pirate",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+							"itemCollection_Mechs_Starting_0_Pirate,itemCollection_Mechs_Starting_1_Pirate,itemCollection_Mechs_Starting_2_Pirate,itemCollection_Mechs_Starting_3_Pirate,itemCollection_Mechs_Starting_4_Pirate"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:-5,Kurita:0,Liao:0,Marik:-5,Steiner:0,TaurianConcordat:-5,MagistracyOfCanopus:-5,AuriganRestoration:0,AuriganPirates:20"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_davion",
+                    "Name" : "Davion",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+                            "itemCollection_Mechs_Davion_Medium,itemCollection_Mechs_Davion_Medium,itemCollection_Mechs_Davion_Light,itemCollection_Mechs_Davion_Light,itemCollection_Mechs_Davion_Light"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:20,Kurita:-10,Liao:-10,Marik:0,Steiner:10,TaurianConcordat:-10,MagistracyOfCanopus:10,AuriganRestoration:0,AuriganPirates:-10"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_kurita",
+                    "Name" : "Kurita",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+                            "itemCollection_Mechs_Kurita_Medium,itemCollection_Mechs_Kurita_Medium,itemCollection_Mechs_Kurita_Light,itemCollection_Mechs_Kurita_Light,itemCollection_Mechs_Kurita_Light"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:-10,Kurita:20,Liao:10,Marik:0,Steiner:-10,TaurianConcordat:-5,MagistracyOfCanopus:-5,AuriganRestoration:0,AuriganPirates:0"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_liao",
+                    "Name" : "Liao",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+                            "itemCollection_Mechs_Liao_Medium,itemCollection_Mechs_Liao_Medium,itemCollection_Mechs_Liao_Light,itemCollection_Mechs_Liao_Light,itemCollection_Mechs_Liao_Light"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:-10,Kurita:10,Liao:20,Marik:-10,Steiner:0,TaurianConcordat:0,MagistracyOfCanopus:0,AuriganRestoration:0,AuriganPirates:-10"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_marik",
+                    "Name" : "Marik",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+                            "itemCollection_Mechs_Marik_Medium,itemCollection_Mechs_Marik_Medium,itemCollection_Mechs_Marik_Light,itemCollection_Mechs_Marik_Light,itemCollection_Mechs_Marik_Light"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:0,Kurita:10,Liao:-15,Marik:20,Steiner:-15,TaurianConcordat:10,MagistracyOfCanopus:0,AuriganRestoration:0,AuriganPirates:-10"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_steiner",
+                    "Name" : "Steiner",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingRandomMechLists",
+                            "ConstantValue": 
+                            "itemCollection_Mechs_Steiner_Medium,itemCollection_Mechs_Steiner_Medium,itemCollection_Mechs_Steiner_Light,itemCollection_Mechs_Steiner_Light,itemCollection_Mechs_Steiner_Light"
+                        },
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "FactionReputation",
+                            "ConstantValue": 
+                            "Davion:10,Kurita:-15,Liao:0,Marik:-15,Steiner:20,TaurianConcordat:0,MagistracyOfCanopus:0,AuriganRestoration:0,AuriganPirates:0"
+                        }
+                    ]
+                }
+			]
+		},
+		{
+            "ID" : "diff_startingLocation",
+            "Name" : "Starting Location",
+			"UIOrder" : 1,
+			"TelemetryEventName": "",
+            "Tooltip" : "Default gives a random location, otherwise it is possible to select a specific starting system in the Hyades Rim.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_SF_default",
+                    "Name" : "Default",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                },
+                {
+                    "ID" : "diff_SF_illiushin",
+                    "Name" : "Illiushin",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Illiushin"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_lastpost",
+                    "Name" : "Lastpost",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Lastpost"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_cadiz",
+                    "Name" : "Cadiz",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Cadiz"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_cyrton",
+                    "Name" : "Cyrton",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Cyrton"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_charleston",
+                    "Name" : "Charleston",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Charleston"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_hanseta",
+                    "Name" : "Hanseta",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Hanseta"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_lameth",
+                    "Name" : "Lameth",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Lameth"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_neucratis",
+                    "Name" : "Neucratis",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Neucratis"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_SF_margaret",
+                    "Name" : "Margaret",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : -1,
+                    "DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "StartingSystems",
+                            "ConstantValue": "Margaret"
+                        }
+                    ]
+                }
+			]
+		}
+    ]
+}

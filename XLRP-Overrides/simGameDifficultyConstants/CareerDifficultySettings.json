@@ -42,48 +42,6 @@
                 }
             ]
         },
-      {
-        "ID": "diff_rndStartingMechs",
-        "Name": "Randomize starting 'Mechs",
-        "TelemetryEventName": "",
-        "UIOrder": 0,
-        "Tooltip": "When active, this setting randomizes your starting set of five \u2019Mechs",
-        "Enabled": true,
-        "Visible": true,
-        "Toggle": true,
-        "StartOnly": true,
-        "DefaultIndex": 0,
-        "Options": [
-          {
-            "ID": "diff_RNDMECHS_off",
-            "Name": "Off",
-            "TelemetryEventDesc": "",
-            "DifficultyValue": 0,
-            "CareerScoreModifier" : -1,
-            "DifficultyConstants": [
-              {
-                "ConstantType": "CareerMode",
-                "ConstantName": "StartWithRandomMechs",
-                "ConstantValue": "False"
-              }
-            ]
-          },
-          {
-            "ID": "diff_RNDMECHS_on",
-            "Name": "On",
-            "TelemetryEventDesc": "",
-            "DifficultyValue": 0,
-            "CareerScoreModifier" : -1,
-            "DifficultyConstants": [
-              {
-                "ConstantType": "CareerMode",
-                "ConstantName": "StartWithRandomMechs",
-                "ConstantValue": "True"
-              }
-            ]
-          }
-        ]
-      },
 		{
             "ID" : "diff_equipNewMech",
             "Name" : "Unequipped 'Mechs",
@@ -222,6 +180,20 @@
                         }
                     ]
                 }
+                {
+                    "ID" : "diff_MC_TCT",
+                    "Name" : "12",
+                    "TelemetryEventDesc": "",
+                    "DifficultyValue" : 3,
+                    "CareerScoreModifier" : 0.25,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "DefaultMechPartMax",
+                            "ConstantValue" : "12"
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -280,11 +252,156 @@
                 }
             ]
         },
+		{
+			"ID": "diff_Starter",
+			"Name": "Starter Mech",
+			"UIOrder": 3,
+			"Tooltip": "Select your starter Mech.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 8,
+			"Options": [
+				{
+					"ID": "diff_start_locust",
+					"Name": "Locust",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_locust_LCT-1V"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_commando",
+					"Name": "Commando",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_commando_COM-2D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_spider",
+					"Name": "Spider",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_spider_SDR-5V"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_urbie",
+					"Name": "Urban Mech",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_urbanmech_UM-R60"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_firestarter",
+					"Name": "Firestarter",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_firestarter_FS9-H"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_jenner",
+					"Name": "Jenner",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_jenner_JR7-D"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_panther",
+					"Name": "Panther",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_panther_PNT-9R"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_cicada",
+					"Name": "Cicada",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_cicada_CDA-2A"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_blackjack",
+					"Name": "Blackjack",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-1"
+						}
+					]
+				},		
+				{
+					"ID": "diff_start_vindicator",
+					"Name": "Vindicator",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_vindicator_VND-1R"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_random",
+					"Name": "Random",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_centurion_TARGETDUMMY"
+						}
+					]
+				}
+			]
+		},
         {
             "ID" : "diff_advancedPilots",
             "Name" : "Advanced MechWarriors",
-			"TelemetryEventName": "advanced_mech_warriors",
             "UIOrder" : 4,
+            "TelemetryEventName": "advanced_mech_warriors",
             "Tooltip" : "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
             "Enabled" : true,
             "Visible" : true,
@@ -301,7 +418,12 @@
                     "DifficultyConstants" : [
                         {
                             "ConstantType" : "Pilot",
-                            "ConstantName" : "ContractDifficultyMod",
+                            "ConstantName" : "AdvancedPilotDifficultyStep",
+                            "ConstantValue" : "0.02"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "AdvancedPilotBaseChance",
                             "ConstantValue" : "0.12"
                         }
                     ]
@@ -315,8 +437,13 @@
                     "DifficultyConstants" : [
                         {
                             "ConstantType" : "Pilot",
-                            "ConstantName" : "ContractDifficultyMod",
-                            "ConstantValue" : "0.08"
+                            "ConstantName" : "AdvancedPilotDifficultyStep",
+                            "ConstantValue" : "0.02"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "AdvancedPilotBaseChance",
+                            "ConstantValue" : "0.06"
                         }
                     ]
                 },
@@ -329,158 +456,60 @@
                     "DifficultyConstants" : [
                         {
                             "ConstantType" : "Pilot",
-                            "ConstantName" : "ContractDifficultyMod",
-                            "ConstantValue" : "0.04"
+                            "ConstantName" : "AdvancedPilotDifficultyStep",
+                            "ConstantValue" : "0.02"
+                        },
+                        {
+                            "ConstantType" : "Pilot",
+                            "ConstantName" : "AdvancedPilotBaseChance",
+                            "ConstantValue" : "0.02"
                         }
                     ]
                 }
             ]
         },
-		{
-			"ID": "diff_mechDestruction",
-			"Name": "'Mech Recovery Chance",
-			"UIOrder": 5,
-			"Tooltip": "This setting defines the additional chance to recover a destroyed 'Mech. <color=#F79B26>defines the chance of getting your own mech back for free</color>",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 5,
-			"Options": [
-				{
-					"ID": "diff_MD_100",
-					"Name": "100%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1.5"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_90",
-					"Name": "90%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1.4"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_80",
-					"Name": "80%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1.3"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_70",
-					"Name": "70%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1.2"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_60",
-					"Name": "60%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1.1"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_50",
-					"Name": "50%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "1"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_40",
-					"Name": "40%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "0.9"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_30",
-					"Name": "30%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "0.8"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_20",
-					"Name": "20%",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "0.7"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_10",
-					"Name": "10%",
-					"DifficultyValue": 1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "0.6"
-						}
-					]
-				},
-				{
-					"ID": "diff_MD_on",
-					"Name": "00%",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Salvage",
-							"ConstantName": "DestroyedMechRecoveryChance",
-							"ConstantValue": "0.5"
-						}
-					]
-				}
-			]
-		},
+        {
+            "ID" : "diff_mechDestruction",
+            "Name" : "'Mech Destruction",
+			"TelemetryEventName": "mech_destruction",
+            "UIOrder" : 5,
+            "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : false,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_MD_off",
+                    "Name" : "Off",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_on",
+                    "Name" : "On",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 2,
+                    "CareerScoreModifier" : 0.1,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "ID" : "diff_contractPayment",
             "Name" : "Contract Payment",
@@ -703,10 +732,10 @@
         },
         {
             "ID" : "diff_rareItems",
-            "Name" : "No Rare Salvage - Moot",
+            "Name" : "No Rare Salvage",
 			"TelemetryEventName": "no_rare_salvage",
             "UIOrder" : 10,
-            "Tooltip" : "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found.",
+            "Tooltip" : "This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found. Unique Flashpoint enemies are not affected by this setting.",
             "Enabled" : true,
             "Visible" : true,
             "Toggle" : true,
@@ -768,6 +797,58 @@
                             "ConstantType" : "Salvage",
                             "ConstantName" : "VeryRareUpgradeChance",
                             "ConstantValue" : "-10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID" : "diff_argoUpgradeCost",
+            "Name" : "Reduced Argo Upgrade Costs",
+            "TelemetryEventName": "argo_upgrade_cost",
+            "UIOrder" : 11,
+            "Tooltip" : "This setting controls the costs of Argo Upgrades. If this setting is Enabled, Argo Ship Upgrades will cost less for both the upfront Purchase Costs as well as the Additional Costs paid each month for completed upgrades.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_AUCR_off",
+                    "Name" : "Full Argo Upgrade Cost",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0.05,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "CareerMode",
+                            "ConstantName" : "ArgoUpgradeCostMultiplier",
+                            "ConstantValue" : "1"
+                        },
+                        {
+                            "ConstantType" : "CareerMode",
+                            "ConstantName" : "ArgoMaintenanceMultiplier",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_AUCR_on",
+                    "Name" : "Half Argo Upgrade Cost",
+                    "TelemetryEventDesc": "1",
+                    "DifficultyValue" : 1,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "CareerMode",
+                            "ConstantName" : "ArgoUpgradeCostMultiplier",
+                            "ConstantValue" : "0.5"
+                        },
+                        {
+                            "ConstantType" : "CareerMode",
+                            "ConstantName" : "ArgoMaintenanceMultiplier",
+                            "ConstantValue" : "0.5"
                         }
                     ]
                 }

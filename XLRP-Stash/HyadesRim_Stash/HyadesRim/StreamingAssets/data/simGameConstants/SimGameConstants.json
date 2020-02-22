@@ -1,0 +1,17 @@
+{
+   "CareerMode" : {
+		"GameLength" : 1500,
+   		"StartingSystems" : [
+			"Arn",
+			"Lyreton",
+			"Panzyr",
+			"NewAbilene",
+			"Illiushin",
+			"Independence",
+			"Lastpost",
+			"Neucratis",
+			"Cadiz",
+			"Margaret"
+		]
+	}
+}

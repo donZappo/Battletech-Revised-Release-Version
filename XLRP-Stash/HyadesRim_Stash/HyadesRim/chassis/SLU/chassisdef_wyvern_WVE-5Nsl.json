@@ -1,0 +1,239 @@
+{
+    "Description": {
+        "Cost": 4433200,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Wyvern",
+        "Id": "chassisdef_wyvern_WVE-5Nsl",
+        "Name": "Wyvern",
+        "Details": "This Star League Defense Force variant has been upgraded to use an ER Large Laser instead of the large laser, ten Double Heat Sinks, replaces the SRM-6 with three Streak SRM-2 launchers with a ton of ammo between them, and adds an additional small laser to the head.",
+        "Icon": "uixTxrIcon_wyvern"
+    },
+    "MovementCapDefID": "movedef_wyvern_WVE-5N",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_kintaro",
+    "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
+    "PrefabBase": "kintaro",
+    "Tonnage": 45,
+    "InitialTonnage": 14.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 4067000,
+    "Heatsinks": 30,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 55,
+    "MeleeInstability": 45,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 55,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 55,
+    "DFAInstability": 55,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "VariantName": "WVE-5Nsl",
+    "ChassisTags": {
+        "items": [
+			
+		],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Fire Support & Skirmisher",
+    "YangsThoughts": "This Wyvern has double heat sinks to help deal with the load of its upgraded SLDF weapons.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_General_Close_Quarters_Combat_Suite",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}
