@@ -1,20 +1,175 @@
 ﻿{
-  "Name": "vfBattleTechMod-ProcGenStores",
-  "Author": "vengefire",
-  "Website": "https://github.com/vengefire/",
+	"Name": "vfBattleTechMod-ProcGenStores",
+	"Author": "vengefire",
+	"Website": "https://github.com/vengefire/",
 
-  "Enabled": false,
-  "Hidden": false,
-  "DependsOn": [],
-  "CustomResourceTypes": [],
-  "DLL": "vfBattleTechMod-ProcGenStores.dll",
+	"Enabled": true,
+	"Hidden": false,
+	"DependsOn": [],
+	"CustomResourceTypes": [],
+	"DLL": "vfBattleTechMod-ProcGenStores.dll",
 
-  "Manifest": [
-  ],
+	"Manifest": [
+	],
 
-  "Settings": {
-    "Procedurally Generate Store Contents": {
-      "test": 777
-    }
-  }
+	"Settings": {
+		"SomeCoolSetting": "DefaultCoolSetting",
+		"Procedurally Generate Store Contents": {
+			"StoreItemSourceFile": "xlrp-store-content.xlsx",
+			"CascadeRollsOnFail": true,
+			"BlackMarketSettings": {
+				"BlackMarketMinBaseRarity": "VeryUncommon",
+				"BlackMarketMaxBaseRarity": "PracticallyExtinct",
+				"BlackMarketAppearanceModifier": 1.5,
+				"BlackMarketQuantityModifier": 0.5
+			},
+			"FactionMarketSettings": {
+				"MinBaseRarity": "VeryUncommon",
+				"MaxBaseRarity": "PracticallyExtinct",
+				"AppearanceModifier": 1.5,
+				"QuantityModifier": 0.5
+			},
+			"RarityBrackets": [
+				{
+					"Name": "Ubiquitous",
+					"ChanceToAppear": 1,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "Ubiquitous",
+						"LowCount": -1,
+						"HighCount": -1
+					},
+					"Order": 0
+				},
+				{
+					"Name": "VeryCommon",
+					"ChanceToAppear": 0.9,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "VeryCommon",
+						"LowCount": 10,
+						"HighCount": 25
+					},
+					"Order": 1
+				},
+				{
+					"Name": "Common",
+					"ChanceToAppear": 0.8,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "Common",
+						"LowCount": 5,
+						"HighCount": 10
+					},
+					"Order": 2
+				},
+				{
+					"Name": "Uncommon",
+					"ChanceToAppear": 0.5,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "Uncommon",
+						"LowCount": 1,
+						"HighCount": 5
+					},
+					"Order": 3
+				},
+				{
+					"Name": "VeryUncommon",
+					"ChanceToAppear": 0.35,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "VeryUncommon",
+						"LowCount": 1,
+						"HighCount": 2
+					},
+					"Order": 4
+				},
+				{
+					"Name": "Rare",
+					"ChanceToAppear": 0.15,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "Rare",
+						"LowCount": 1,
+						"HighCount": 2
+					},
+					"Order": 5
+				},
+				{
+					"Name": "VeryRare",
+					"ChanceToAppear": 0.05,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "VeryRare",
+						"LowCount": 1,
+						"HighCount": 1
+					},
+					"Order": 6
+				},
+				{
+					"Name": "PracticallyExtinct",
+					"ChanceToAppear": 0.01,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "PracticallyExtinct",
+						"LowCount": 1,
+						"HighCount": 1
+					},
+					"Order": 7
+				},
+				{
+					"Name": "Extinct",
+					"ChanceToAppear": 0.00,
+					"Description": "",
+					"QuantityBracket": {
+						"Name": "Extinct",
+						"LowCount": 0,
+						"HighCount": 0
+					},
+					"Order": 8
+				}
+			],
+			"PlanetTagModifiers": [
+				{
+					"Tag": "planet_pop_small",
+					"ChanceModifier": 0.75,
+					"QuantityModifier": 0.75,
+					"Description": "",
+					"AppliesToStock": true,
+					"AppliesToLosTech": false,
+					"AppliesToFaction": false
+				},
+				{
+					"Tag": "planet_pop_none",
+					"ChanceModifier": 0.0,
+					"QuantityModifier": 0.0,
+					"Description": "",
+					"AppliesToStock": true,
+					"AppliesToLosTech": false,
+					"AppliesToFaction": false
+				},
+				{
+					"Tag": "planet_pop_medium",
+					"ChanceModifier": 1,
+					"QuantityModifier": 1,
+					"Description": "",
+					"AppliesToStock": true,
+					"AppliesToLosTech": false,
+					"AppliesToFaction": false
+				},
+				{
+					"Tag": "planet_pop_large",
+					"ChanceModifier": 1.15,
+					"QuantityModifier": 1.15,
+					"Description": "",
+					"AppliesToStock": true,
+					"AppliesToLosTech": false,
+					"AppliesToFaction": false
+				}
+			],
+			"Enabled": true,
+			"MaxItemRarityForCascadeQualification" :  "Uncommon"
+		}
+	}
 }
