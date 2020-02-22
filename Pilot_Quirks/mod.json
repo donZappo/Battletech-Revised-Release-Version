@@ -42,7 +42,7 @@
 		"pilot_spacer_InjuryTimeReduction" : 0.9,
 		"pilot_wealthy_CostFactor" : 0.9,
 		"pilot_rebellious_ResolveMalus" : 2,
-		"pilot_military_XP" : 200000,
+		"pilot_military_XP" : 2000,
 		"pilot_mechwarrior_XP" : 4000,
 
 		"Tier1" : 5,
