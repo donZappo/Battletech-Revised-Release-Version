@@ -42,48 +42,6 @@
                 }
             ]
         },
-		{
-            "ID" : "diff_equipNewMech",
-            "Name" : "Unequipped 'Mechs",
-			"TelemetryEventName": "",
-            "UIOrder" : 1,
-            "Tooltip" : "When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
-            "Enabled" : true,
-            "Visible" : true,
-            "Toggle" : true,
-            "StartOnly" : true,
-            "DefaultIndex" : 1,
-            "Options" : [
-                {
-                    "ID" : "diff_EMS_off",
-                    "Name" : "Off",
-                    "TelemetryEventDesc": "",
-                    "DifficultyValue" : 0,
-                    "CareerScoreModifier" : 0,
-                    "DifficultyConstants" : [
-                        {
-                            "ConstantType" : "Salvage",
-                            "ConstantName" : "EquipMechOnSalvage",
-                            "ConstantValue" : "True"
-                        }
-                    ]
-                },
-                {
-                    "ID" : "diff_EMS_on",
-                    "Name" : "On",
-                    "TelemetryEventDesc": "",
-                    "DifficultyValue" : 1,
-                    "CareerScoreModifier" : 0.2,
-                    "DifficultyConstants" : [
-                        {
-                            "ConstantType" : "Salvage",
-                            "ConstantName" : "EquipMechOnSalvage",
-                            "ConstantValue" : "False"
-                        }
-                    ]
-                }
-			]
-        },
         {
             "ID" : "diff_mechConstruction",
             "Name" : "Parts for 'Mech Assembly",
@@ -397,6 +355,115 @@
 				}
 			]
 		},
+		{
+			"ID": "diff_StartFaction",
+			"Name": "Faction",
+			"UIOrder": 4,
+			"Tooltip": "Select your starting Faction.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 7,
+			"Options": [
+				{
+					"ID": "diff_system_arano",
+					"Name": "Arano",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "RyansFate"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_davion",
+					"Name": "Davion",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "Horsham"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_liao",
+					"Name": "Liao",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "Repulse"
+						}
+					]
+				},				
+				{
+					"ID": "diff_system_independent",
+					"Name": "Independent",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "LiusMemory"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_magistracy",
+					"Name": "Magistracy",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "CatesHold"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_marik",
+					"Name": "Marik",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "Calseraigne"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_taurian",
+					"Name": "Taurian",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "NewVallis"
+						}
+					]
+				},
+				{
+					"ID": "diff_system_random",
+					"Name": "Random",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "RyansFate,Horsham,Repulse,LiusMemory,CatesHold,Calseraigne,NewVallis"
+						}
+					]
+				}
+			]
+		},
         {
             "ID" : "diff_advancedPilots",
             "Name" : "Advanced MechWarriors",
@@ -473,16 +540,16 @@
             "Name" : "'Mech Destruction",
 			"TelemetryEventName": "mech_destruction",
             "UIOrder" : 5,
-            "Tooltip" : "When active, this setting will cause any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
+            "Tooltip" : "This setting will give a chance that any 'Mech disabled by the destruction of its center torso to be lost permanently. <color=#F79B26>This setting is intended for veterans and those seeking a significant challenge.</color>",
             "Enabled" : true,
             "Visible" : true,
-            "Toggle" : true,
+            "Toggle" : false,
             "StartOnly" : false,
-            "DefaultIndex" : 0,
+            "DefaultIndex" : 1,
             "Options" : [
                 {
                     "ID" : "diff_MD_off",
-                    "Name" : "Off",
+                    "Name" : "Never",
                     "TelemetryEventDesc": "0",
                     "DifficultyValue" : 0,
                     "CareerScoreModifier" : 0,
@@ -495,8 +562,22 @@
                     ]
                 },
                 {
+                    "ID" : "diff_MD_off",
+                    "Name" : "50% Chance",
+                    "TelemetryEventDesc": "0",
+                    "DifficultyValue" : 0,
+                    "CareerScoreModifier" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.5"
+                        }
+                    ]
+                },
+                {
                     "ID" : "diff_MD_on",
-                    "Name" : "On",
+                    "Name" : "Always",
                     "TelemetryEventDesc": "1",
                     "DifficultyValue" : 2,
                     "CareerScoreModifier" : 0.1,

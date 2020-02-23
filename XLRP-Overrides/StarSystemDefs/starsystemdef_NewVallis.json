@@ -1,0 +1,21 @@
+{
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_arctic",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_2a",
+            "planet_feature_gasgiant",
+            "planet_name_newvallis",
+            "planet_faction_taurian",
+            "planet_industry_electronics",
+			"planet_start_world"
+        ]
+    },
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        1
+    ]
+}
