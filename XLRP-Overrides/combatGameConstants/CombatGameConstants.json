@@ -32,7 +32,7 @@
     "OverheatLevel": 0.7,
     "MaxHeat": 150,
     "WalkHeat": 0,
-    "SprintHeat": 5,
+    "SprintHeat": 6,
     "JumpHeatUnitSize": 6,
     "JumpHeatPerUnit": 1,
     "JumpHeatMin": 5,
