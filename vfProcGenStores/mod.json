@@ -14,8 +14,11 @@
 
 	"Settings": {
 		"SomeCoolSetting": "DefaultCoolSetting",
+		"Rep Mod Features": {
+			"Enabled":  false
+		},
 		"Procedurally Generate Store Contents": {
-			"StoreItemSourceFile": "xlrp-store-content.xlsx",
+			"StoreItemSourceFile": "test-xlrp-store-content.xlsx",
 			"CascadeRollsOnFail": true,
 			"BlackMarketSettings": {
 				"BlackMarketMinBaseRarity": "VeryUncommon",
