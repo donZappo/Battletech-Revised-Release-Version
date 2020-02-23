@@ -1,0 +1,17 @@
+{
+    "Name": "Reputation Overhaul",
+    "Enabled": true,
+
+    "Version": "0.1",
+    "Author": "don Zappo and vengefire",
+    
+    "DLL": "ReputationOverhaul.dll",
+	"OptionallyDependsOn": [ "XLRP-Overrides" ],
+	"Manifest": [
+        { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true }
+   ],
+	
+    "Settings": 
+	{
+    }
+}
