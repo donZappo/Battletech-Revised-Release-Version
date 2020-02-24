@@ -29,8 +29,8 @@
     "FriendlyRepShopAdjustment": -0.1,
     "HonoredRepShopAdjustment": -0.15,
 	
-    "TargetRepSuccessMod": -0.5,
-    "TargetRepGoodFaithMod": -0.25,
+    "TargetRepSuccessMod": -0.22,
+    "TargetRepGoodFaithMod": -0.12,
     "TargetRepBadFaithMod": 0,
 	
     "EmployerRepSuccessMod": 1.1,
