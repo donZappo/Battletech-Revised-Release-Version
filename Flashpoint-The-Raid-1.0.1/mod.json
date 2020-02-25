@@ -6,7 +6,7 @@
     "Description": "Flashpoint - The Raid: Tiverton wants the Black Market out, are you in?",
     "Author": "amechwarrior",
 
-    "DependsOn": [],
+    "DependsOn": [ "CommunityBundles" ],
     "OptionallyDependsOn": [ "cFixes" ],
 
     "Manifest": [  

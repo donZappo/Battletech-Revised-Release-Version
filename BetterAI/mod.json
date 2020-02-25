@@ -9,7 +9,8 @@
 
     "OptionallyDependsOn": [
         "cFixes", 
-        "Z_Sab_JK_RarityTables"
+        "Z_Sab_JK_RarityTables",
+		"XLRP-Mechs"
     ],
 
     "Manifest": [
