@@ -1,0 +1,24 @@
+{
+    "Tags": {
+        "items": [
+            "planet_size_small",
+            "planet_climate_terran",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_3",
+            "planet_feature_moon01",
+            "planet_industry_recreation",
+            "planet_other_battlefield",
+            "planet_other_blackmarket",
+            "planet_other_moon",
+            "planet_name_cateshold",
+            "planet_faction_magistracy",
+			"planet_start_world"
+        ]
+    },
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        1
+    ]
+}

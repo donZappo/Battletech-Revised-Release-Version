@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay3",
         "Name" : "Mech Bay 3",
-        "Details" : "With the <i>Argo</i>'s power systems fully online, the final six 'Mech bays can be powered up and put to work. In the future we should get the automated systems online. Mechbay 3 brings the total number of Mech bays to <color=#04B404><b>18 and +2 Techs.</b></color>",
+        "Details" : "<b>• A third 'Mech can be repaired simultaneously at 33% efficiency</b> \nWith the <i>Argo</i>'s power systems fully online, and enough reinforcement to keep the active Bays from damaging the ship's spine, the final six 'Mech cubicles can be powered up and put to work.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay3"
     },
     "Illustration" : "uixTxrSpot_MechBay",

@@ -1,0 +1,98 @@
+{
+  "Story": {
+	"MaxContractsPerSystem": 4,
+    "StartingReputation": 0,
+    "LoathedReputation": -80,
+    "HatedReputation": -40,
+    "DislikedReputation": -20,
+    "LikedReputation": 20,
+    "FriendlyReputation": 40,
+    "HonoredReputation": 80,
+    "MaxReputation": 100,
+    "AllyReputationThreshold": 100,
+    "BreakAllianceReputationChange": -75,
+	
+	//* I believe this area is deprecated.
+    "LoathedRepPaymentAdjustment": -0.9,
+    "HatedRepPaymentAdjustment": -0.5,
+    "DislikedRepPaymentAdjustment": -0.1,
+    "IndifferentRepPaymentAdjustment": 0,
+    "LikedRepPaymentAdjustment": 0.05,
+    "FriendlyRepPaymentAdjustment": 0.1,
+    "HonoredRepPaymentAdjustment": 0.15,
+	//*
+	
+    "HatedRepShopAdjustment": 0.5,
+    "DislikedRepShopAdjustment": 0.15,
+    "IndifferentRepShopAdjustment": 0,
+    "LikedRepShopAdjustment": -0.05,
+    "FriendlyRepShopAdjustment": -0.1,
+    "HonoredRepShopAdjustment": -0.15,
+	
+    "TargetRepSuccessMod": -0.22,
+    "TargetRepGoodFaithMod": -0.12,
+    "TargetRepBadFaithMod": 0,
+	
+    "EmployerRepSuccessMod": 1.1,
+    "EmployerRepGoodFaithMod": 0.6,
+    "EmployerRepBadFaithMod": -2,
+	
+    "MRBSuccessMod": 1,
+    "MRBGoodFaithMod": 0.5,
+    "MRBFailureMod": -2.0,
+    "MRBRepCap": [
+      50,
+      200,
+      500,
+      700,
+      900
+    ],
+    "MRBRepMaxCap": 1000,
+    "MRBRepMod": [
+      5,
+      3,
+      2,
+      1,
+      0.5,
+      0.2
+    ],
+    "MRBLevelNames": [
+      "Unknown",
+      "Green",
+      "Regular",
+      "Veteran",
+      "Elite",
+      "Legendary"
+    ],
+    "MRBRepHiringPowerLevelLimits": [
+      12,
+      16,
+      20,
+      24,
+      28,
+      40
+    ],
+    "MoraleHiringThresholds": [
+      10,
+      35
+    ],
+    "MaxMoralePowerLevelLimits": [
+      12,
+      24
+    ],
+    "MaxContractsPerSystem": 8,
+    "AllianceBreakCooldown": 365,
+    "DaysBetweenFactionRepUpdateNotifications": 0,
+    "LowRepNotificationValue": -50,
+    "HighRepNotificationValue": 50
+  },
+  "CareerMode": {
+    "LoathedMaxContractDifficulty": 1,
+    "HatedMaxContractDifficulty": 2,
+    "DislikedMaxContractDifficulty": 3,
+    "IndifferentMaxContractDifficulty": 5,
+    "LikedMaxContractDifficulty": 7,
+    "FriendlyMaxContractDifficulty": 8,
+    "HonoredMaxContractDifficulty": 9,
+  }
+}

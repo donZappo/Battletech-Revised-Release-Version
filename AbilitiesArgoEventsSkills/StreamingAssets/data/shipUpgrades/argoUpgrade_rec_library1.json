@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_library1",
         "Name" : "Library",
-        "Details" : "A library is more than just a database and a stack of e-readers. It requires a dedicated space for quiet study and learning, as far from the raucous lounge as possible. The Library <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "A library is more than just a database and a stack of e-readers. It requires a dedicated space for quiet study and learning, as far from the raucous lounge as possible. The Library <color=#ffd966><b>+1 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_library"
     },
     "Illustration" : "uixTxrSpot_Library",

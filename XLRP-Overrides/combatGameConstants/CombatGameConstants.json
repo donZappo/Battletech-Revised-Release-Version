@@ -32,7 +32,7 @@
     "OverheatLevel": 0.7,
     "MaxHeat": 150,
     "WalkHeat": 0,
-    "SprintHeat": 5,
+    "SprintHeat": 6,
     "JumpHeatUnitSize": 6,
     "JumpHeatPerUnit": 1,
     "JumpHeatMin": 5,
@@ -573,7 +573,7 @@
       },
       {
         "k": "CenterTorsoRear",
-        "v": 12
+        "v": 14
       },
       {
         "k": "LeftTorsoRear",
@@ -1134,13 +1134,11 @@
     ],
     "MoveDescription": {
       "Name": "MOVE",
-      "Details":	
-        "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +1 to-hit penalty. May also use to initiate a Melee attack on nearby enemies."	
+      "Details": "Execute a normal move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +1 to-hit penalty. May also use to initiate a Melee attack on nearby enemies."
     },
     "SprintDescription": {
       "Name": "SPRINT",
-      "Details":	
-        "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +2 to-hit penalty. Cannot Sprint if UNSTEADY, or if a leg is destroyed."	
+      "Details": "Use this 'Mech's entire turn to move farther, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +2 to-hit penalty. Cannot Sprint if UNSTEADY, or if a leg is destroyed."
     },
     "BackwardDescription": {
       "Name": "REVERSE",
@@ -1148,8 +1146,7 @@
     },
     "JumpDescription": {
       "Name": "JUMP",
-      "Details":	
-        "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +3 to-hit penalty. You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."	
+      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +3 to-hit penalty. You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
     },
     "FireDescription": {
       "Name": "FIRE",
@@ -1157,18 +1154,15 @@
     },
     "MoraleBarDescription": {
       "Name": "Resolve",
-      "Details":
-        "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%/75%/100% your MechWarriors become Inspired, gaining a +1/+2/+3 bonus to Accuracy for all attacks."
+      "Details": "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%/75%/100% your MechWarriors become Inspired, gaining a +1/+2/+3 bonus to Accuracy for all attacks."
     },
     "FuryBarDescription": {
       "Name": "Fury",
-      "Details":
-        "Your lance gains Fury as bad things happen to it.\nWhen the bar fills, you can use it to perform a Precision Strike with one MechWarrior."
+      "Details": "Your lance gains Fury as bad things happen to it.\nWhen the bar fills, you can use it to perform a Precision Strike with one MechWarrior."
     },
     "MoraleAttackDescription": {
       "Name": "PRECISION STRIKE",
-      "Details":	
-        "Take a Called Shot against a single target at -2 Difficulty. If the pilot has at least Tactics 6 the target's next Initiative is reduced by 1 (to a minimum of 1).\n"	
+      "Details": "Take a Called Shot against a single target at -2 Difficulty. If the pilot has at least Tactics 6 the target's next Initiative is reduced by 1 (to a minimum of 1).\n"
     },
     "MoraleCostAttackDescription": {
       "Name": "PRECISION STRIKE COST",
@@ -1188,8 +1182,7 @@
     },
     "MoraleDefendDescription": {
       "Name": "VIGILANCE",
-      "Details":	
-        "Gain GUARDED and ENTRENCHED and remove all stability damage. If the pilot has at least Tactics 4 its next Initiative is increased by 1 (to a maximum of 5).\n"	
+      "Details": "Gain GUARDED and ENTRENCHED and remove all stability damage. If the pilot has at least Tactics 4 its next Initiative is increased by 1 (to a maximum of 5).\n"
     },
     "MoraleCostDefendDescription": {
       "Name": "VIGILANCE COST",
@@ -1209,13 +1202,11 @@
     },
     "DoneDescription": {
       "Name": "BRACE (END TURN)",
-      "Details":
-        "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (20% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
+      "Details": "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (20% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
     },
     "DoneDescriptionBulwark": {
       "Name": "BRACE (END TURN)",
-      "Details":
-        "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (40% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
+      "Details": "Remove UNSTEADY and end this 'Mech's turn. Gain GUARDED (40% damage reduction against ranged attacks to the front and side) and ENTRENCHED (50% stability damage reduction)."
     },
     "DoneDescriptionNoBrace": {
       "Name": "END TURN",
@@ -1223,8 +1214,7 @@
     },
     "EjectDescription": {
       "Name": "EJECT",
-      "Details":
-        "Eject your pilot. They will be saved from further injuries, but their 'Mech will be unusable for the rest of this mission, and its Head location will be destroyed."
+      "Details": "Eject your pilot. They will be saved from further injuries, but their 'Mech will be unusable for the rest of this mission, and its Head location will be destroyed."
     },
     "BadFaithRetreatDesc": {
       "Name": "WITHDRAW (BAD FAITH)",
@@ -1246,8 +1236,7 @@
     },
     "PoorlyMaintained75Desc": {
       "Name": "RAMSHACKLE",
-      "Details":
-        "This unit has been kept in such poor condition that it barely holds together. It carries only 25% of its normal armor.",
+      "Details": "This unit has been kept in such poor condition that it barely holds together. It carries only 25% of its normal armor.",
       "Icon": "uixSvgIcon_maint_Level2"
     },
     "DangerousLocationDesc": {
@@ -1268,8 +1257,7 @@
     },
     "MovementStageTwoTutorialDesc": {
       "Name": "Movement",
-      "Details":
-        "Move your mouse to the indicated point. Click once to select where you wish to move. Click again to choose which direction to face."
+      "Details": "Move your mouse to the indicated point. Click once to select where you wish to move. Click again to choose which direction to face."
     },
     "FiringTutorialDesc": {
       "Name": "Firing",
@@ -1277,8 +1265,7 @@
     },
     "MeleeTutorialDesc": {
       "Name": "Melee Attack",
-      "Details":
-        "Click the Melee targeting reticle on the enemy, or press V to cycle through Melee targets. Then, click the Attack button."
+      "Details": "Click the Melee targeting reticle on the enemy, or press V to cycle through Melee targets. Then, click the Attack button."
     },
     "MoraleAttackTutorialDesc": {
       "Name": "unused-filled in by morale constants",
@@ -1290,23 +1277,19 @@
     },
     "NonInterleaveIntroTutorialDesc": {
       "Name": "Team Movement",
-      "Details":
-        "Outside of combat, your entire lance moves in any order. You can even have multiple units moving at the same time."
+      "Details": "Outside of combat, your entire lance moves in any order. You can even have multiple units moving at the same time."
     },
     "InterleaveIntroTutorialDesc": {
       "Name": "Combat Phases",
-      "Details":
-        "Once combat has begun, different 'Mechs move in different Phases. Lighter units generally move earlier than heavier ones.\nTo Reserve all units' actions to a later Phase, use the Reserve button, or press the End key."
+      "Details": "Once combat has begun, different 'Mechs move in different Phases. Lighter units generally move earlier than heavier ones.\nTo Reserve all units' actions to a later Phase, use the Reserve button, or press the End key."
     },
     "MoraleGeneralTutorialDesc": {
       "Name": "Resolve",
-      "Details":
-        "Your lance's Resolve (the blue bar next to your pilots) increases in each round of combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
+      "Details": "Your lance's Resolve (the blue bar next to your pilots) increases in each round of combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
     },
     "MoraleGeneralStageTwoTutorialDesc": {
       "Name": "Resolve",
-      "Details":
-        "You can spend Resolve to use either of the Resolve abilities, {0} and {1}, located with the rest of the action buttons."
+      "Details": "You can spend Resolve to use either of the Resolve abilities, {0} and {1}, located with the rest of the action buttons."
     },
     "CameraStageOneTutorialDesc": {
       "Name": "Camera Movement",
@@ -1318,10 +1301,10 @@
     },
     "EvasiveTutorialDesc": {
       "Name": "Evasion",
-      "Details":
-        "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
+      "Details": "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
     },
     "InjuryStringAmmoExplosion": "killed by an ammo explosion",
+    "InjuryStringComponentExplosion": "killed by a component explosion",
     "InjuryStringArtillery": "caught in a massive explosion",
     "InjuryStringDFAEnemy": "jumped on by an enemy {KILLEDBY_UNIT.Description.Name}",
     "InjuryStringDFAEnemyGeneric": "jumped on by an enemy 'Mech",
@@ -1987,5 +1970,4 @@
   "Story2TutorialSlides2ID": "52a4d426-f166-484d-9c53-d56ca9095d7a",
   "Story2TutorialSlides3ID": "e2a4cd2e-638f-47d7-bdd5-1506637c1ae2",
   "Story2TutorialSlides4ID": "1f20029b-bcce-481c-ba50-fff26950b6a9"
-
 }

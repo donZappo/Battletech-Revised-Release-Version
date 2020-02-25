@@ -1,0 +1,23 @@
+{
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_tropical",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_3",
+            "planet_feature_moon03",
+            "planet_industry_agriculture",
+            "planet_other_moon",
+            "planet_name_repulse",
+            "planet_faction_liao",
+            "planet_industry_electronics",
+			"planet_start_world"
+        ]
+    },
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        1
+    ]
+}

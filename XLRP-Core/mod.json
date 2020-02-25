@@ -11,6 +11,11 @@
 	
 	"Settings": {
 		"UpgradeDegradedOpFor": true,
+		"JumpStopsCalledShot" : true,
+		"UpgradeItems" : true,
+		//** UpgradeItems will upgrade any item tagged with "component_type_stock"
+		"UpgradePilots" : true,
+		//** UpgradePilots matches pilots to their role more accurately.
 	},
 	
 	"Manifest": [

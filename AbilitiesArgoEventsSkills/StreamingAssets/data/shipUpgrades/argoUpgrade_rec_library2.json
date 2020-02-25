@@ -37,7 +37,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "Morale",
-			"value" : 1,
+			"value" : 2,
 			"valueConstant" : ""
 		}
     ]

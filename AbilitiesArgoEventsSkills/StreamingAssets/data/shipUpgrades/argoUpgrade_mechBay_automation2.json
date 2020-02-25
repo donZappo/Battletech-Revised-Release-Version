@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay_automation2",
         "Name" : "Improved Automation",
-        "Details" : "Repairs to the Mech Bay have unearthed a much more extensive system of 'Mech maintenance automation than Yang previously suspected. Once it's back online, many common tasks will become trivial. Improved Automation requires lots of maintenance and adds <color=#04B404><b>+4 Techs.</b></color>",
+        "Details" : "<b>• Allows Repair Bay 3 in Mech Bay 3 to repair at 100% efficiency.</b>\n\nRepairs to the Mech Bay have unearthed a much more extensive system of 'Mech maintenance automation than Yang previously suspected. Once it's back online, many common tasks will become trivial.",
         "Icon" : "uixSvgIcon_shipUpgrade_automationUpgrade"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

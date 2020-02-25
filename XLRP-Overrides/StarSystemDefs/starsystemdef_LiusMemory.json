@@ -1,0 +1,21 @@
+{
+    "Tags": {
+        "items": [
+            "planet_size_small",
+            "planet_climate_ice",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_2",
+            "planet_other_battlefield",
+            "planet_other_boreholes",
+            "planet_name_liusmemory",
+            "planet_faction_independent",
+			"planet_start_world"
+        ]
+    },
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        1
+    ]
+}

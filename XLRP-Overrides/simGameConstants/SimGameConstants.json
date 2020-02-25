@@ -35,8 +35,14 @@
       "planet_climate_tropical",
       "planet_climate_water"
     ],
-    "RestrictionTags": ["map_travel_2", "map_travel_3"],
-    "RestrictionTagMessages": ["Restricted until debt paid", "Travel Restricted"]
+    "RestrictionTags": [
+      "map_travel_2",
+      "map_travel_3"
+    ],
+    "RestrictionTagMessages": [
+      "Restricted until debt paid",
+      "Travel Restricted"
+    ]
   },
   "Time": {
     "DayElapseTimeSlow": 3,
@@ -114,7 +120,7 @@
     "IncapacitatedDamageCost": 180,
     "BaseInjuryDamageCost": 480,
     "IncapacitatedDeathChance": 0.9,
-    "LethalDeathChance": 1.4,
+    "LethalDeathChance": 0.95,
     "GutsDeathReduction": 0.05
   },
   "Salvage": {
@@ -160,7 +166,8 @@
     "RareUpgradeChance": -3,
     "UpgradeChanceDivisor": 50,
     "ItemAutoCullLevel": 10,
-    "EquipMechOnSalvage": true
+    "EquipMechOnSalvage": true,
+    "UniqueSalvageTag": "BUILT-IN"
   },
   "Story": {
     "CampaignStartDate": "3025-01-01T05:00:00Z",
@@ -178,7 +185,7 @@
     "DailyUpgradeValue": 1,
     "ArgoMechTechs": 0,
     "ArgoMedTechs": 0,
-    "MaxMechWarriorsPerPod": 7,
+    "MaxMechWarriorsPerPod": 6,
     "MaxMechsPerPod": 6,
     "StartingDropShip": "argo",
     "UpgradedDropShip": "argo",
@@ -388,8 +395,7 @@
     "TagAddedCompany": "Your Company has gained the following tags:",
     "TagAddedMWTemp": "[[RES_MW,{RES_MW.Callsign}]] has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedMechTemp": "[[RES_MECH,{RES_MECH.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
-    "TagAddedSystemTemp":
-      "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
+    "TagAddedSystemTemp": "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedCompanyTemp": "Your Company has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedMWTempEnd": "[[RES_MW,{RES_MW.Callsign}]]'s tag has expired:",
     "TagAddedMechTempEnd": "[[RES_MECH,{RES_MECH.Name}]]'s tag has expired:",
@@ -401,8 +407,7 @@
     "TagRemovedCompany": "Your Company has lost the following tags:",
     "TagRemovedMWTemp": "[[RES_MW,{RES_MW.Callsign}]] has lost the following tags for {RES_DURATION.ToString} days:",
     "TagRemovedMechTemp": "[[RES_MECH,{RES_MECH.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
-    "TagRemovedSystemTemp":
-      "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
+    "TagRemovedSystemTemp": "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
     "TagRemovedCompanyTemp": "Your Company has lost the following tags for {RES_DURATION.ToString} days:",
     "AARCompleteNotificationsDisabled": "AARCompleteNotificationsDisabled",
     "CampaignCommanderUpdateTags": [
@@ -413,7 +418,6 @@
     "DaysBetweenFactionRepUpdateNotifications": 0,
     "LowRepNotificationValue": -50,
     "HighRepNotificationValue": 50
-
   },
   "MechLab": {
     "StructureRepairTechPoints": 4,
@@ -510,8 +514,6 @@
       "argoUpgrade_pod1",
       "argoUpgrade_structure0"
     ]
-
-
   },
   "Progression": {
     "GunnerySkills": [
@@ -677,8 +679,7 @@
       "Tactics"
     ],
     "GeneralistName": "Recruit",
-    "ExpertiseNames":
-    [
+    "ExpertiseNames": [
       [
         "Gunner",
         "Skirmisher",
@@ -867,6 +868,8 @@
     "LikedMaxContractDifficulty": 8,
     "FriendlyMaxContractDifficulty": 9,
     "HonoredMaxContractDifficulty": 12,
-    "StartWithRandomMechs": true
+    "StartWithRandomMechs": true,
+    "ArgoUpgradeCostMultiplier": 1,
+    "ArgoMaintenanceMultiplier": 1
   }
 }

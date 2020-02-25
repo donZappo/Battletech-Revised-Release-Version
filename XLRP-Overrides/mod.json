@@ -11,6 +11,7 @@
     "Manifest": [
 		{ "Type": "CombatGameConstants", "Path": "combatGameConstants", "ShouldMergeJSON": true },
         { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true },
-        { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true }
+        { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true },
+		{ "Type": "StarSystemDef", "Path": "StarSystemDefs", "ShouldMergeJSON": true }
    ]
 }

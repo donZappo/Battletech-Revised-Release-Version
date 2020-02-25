@@ -1,0 +1,41 @@
+{
+    "Tags": {
+        "items": [
+			"planet_region_hyadesrim",
+            "planet_size_small",
+            "planet_climate_ice",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_2",
+            "planet_industry_mining",
+            "planet_industry_manufacturing",
+            "planet_other_battlefield",
+            "planet_other_boreholes",
+            "planet_name_liusmemory",
+            "planet_faction_independent"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "contractEmployerIDs": [
+        "Marik",
+        "Liao",
+        "MagistracyOfCanopus",
+        "Locals",
+        "ClusterPirates",
+		"InterstellarExpeditions",
+        "AuriganPirates",
+        "TortugaPirates"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Marik",
+        "Liao",
+        "MagistracyOfCanopus",
+        "ClusterPirates",
+        "RimPirates",
+        "Locals",
+        "Warboys",
+        "EvilEye",
+        "HarbingersOfDoom"
+    ]
+}

@@ -2,7 +2,7 @@
     "Name": "Repair Tonnage and Finances",
     "Enabled": true,
 
-    "Version": "0.1.1.1.dZ",
+    "Version": "1.0-dZ",
     "Description": "Repair times/costs are multiplied by tonnage. Also contains financial changes.",
 
     "DLL": "RepairTonnage.dll"

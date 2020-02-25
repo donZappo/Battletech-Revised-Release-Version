@@ -1,0 +1,34 @@
+{
+    "Tags": {
+        "items": [
+			"planet_region_hyadesrim",
+            "planet_size_large",
+            "planet_climate_rocky",
+            "planet_pop_none",
+            "planet_progress_2",
+            "planet_other_battlefield",
+            "planet_other_empty",
+            "planet_name_segerica",
+            "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "contractEmployerIDs": [
+        "Marik",
+        "Liao",
+        "AuriganPirates",
+		"AntithesisCreed",
+        "CanopianPirates",
+        "Warboys"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "Marik",
+        "Liao",
+		"AntithesisCreed",
+        "CanopianPirates",
+        "Warboys",
+        "EvilEye",
+        "HarbingersOfDoom"
+    ]
+}

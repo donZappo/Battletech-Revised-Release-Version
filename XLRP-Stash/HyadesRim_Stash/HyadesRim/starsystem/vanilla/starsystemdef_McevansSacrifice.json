@@ -1,0 +1,38 @@
+{
+    "Tags": {
+        "items": [
+			"planet_region_hyadesrim",
+            "planet_size_small",
+            "planet_climate_arctic",
+            "planet_pop_none",
+            "planet_progress_2",
+            "planet_other_pirate",
+            "planet_other_empty",
+            "planet_name_mcevanssacrifice",
+            "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "contractEmployerIDs": [
+        "MagistracyOfCanopus",
+        "TaurianConcordat",
+        "InterstellarExpeditions",
+		"SyrtisPirates",
+        "TortugaPirates",
+        "AuriganPirates",
+        "CanopianPirates",
+        "Warboys"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "MagistracyOfCanopus",
+        "TaurianConcordat",
+		"SyrtisPirates",
+        "ClusterPirates",
+        "RimPirates",
+        "CanopianPirates",
+        "Warboys",
+        "EvilEye",
+        "HarbingersOfDoom"
+    ]
+}

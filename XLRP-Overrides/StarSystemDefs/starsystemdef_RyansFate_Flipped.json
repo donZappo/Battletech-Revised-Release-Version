@@ -1,0 +1,21 @@
+{
+    "Tags": {
+        "items": [
+            "planet_size_medium",
+            "planet_climate_desert",
+            "planet_pop_small",
+            "planet_civ_periphery",
+            "planet_progress_2",
+            "planet_feature_comet",
+            "planet_name_ryansfate",
+            "planet_faction_restoration",
+            "planet_industry_electronics",
+			"planet_start_world"
+        ]
+    },
+    "DefaultDifficulty": 1,
+    "DifficultyList": [
+        1,
+        1
+    ]
+}

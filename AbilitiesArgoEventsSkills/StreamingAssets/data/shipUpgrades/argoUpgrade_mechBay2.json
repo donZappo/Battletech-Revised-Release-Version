@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay2",
         "Name" : "Mech Bay 2",
-        "Details" : "The repaired power conduits allow six more 'Mech bays to be powered up and made available. Now you can get the machine shop up and running after you clear out the Pirate's garbage! Mechbay 2 brings the total number of Mech bays to <color=#04B404><b>12 and +2 Techs.</b></color>",
+        "Details" : "<b>• A second 'Mech can be repaired simultaneously at 50% efficiency</b> \nThe repaired power conduits allow six more 'Mech cubicles to be powered up and made available. This also brings more of the Mech Bay's automated systems online, making Yang's job easier.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay2"
     },
     "Illustration" : "uixTxrSpot_MechBay",

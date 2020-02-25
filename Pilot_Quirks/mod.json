@@ -2,7 +2,7 @@
     "Name": "Pilot Quirks",
     "Enabled": true,
 
-    "Version": "5.1",
+    "Version": "5.3",
     "Description": "Adds pilot abilities based upon what tags they have.",
     "Author": "don Zappo",
     "Website": "",
@@ -42,6 +42,8 @@
 		"pilot_spacer_InjuryTimeReduction" : 0.9,
 		"pilot_wealthy_CostFactor" : 0.9,
 		"pilot_rebellious_ResolveMalus" : 2,
+		"pilot_military_XP" : 2000,
+		"pilot_mechwarrior_XP" : 4000,
 
 		"Tier1" : 5,
         "Tier2" : 15,

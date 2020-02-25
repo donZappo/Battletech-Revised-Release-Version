@@ -5,8 +5,8 @@
         "Purchasable" : true,
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule2",
-        "Name" : "+2 BattlePods",
-        "Details" : "Adding more Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>40XP per day upto 36K XP</b></i>",
+        "Name" : "Advanced BattlePods",
+        "Details" : "Upgrading to more Advanced Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>40XP per day upto 36K XP</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training2"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",
