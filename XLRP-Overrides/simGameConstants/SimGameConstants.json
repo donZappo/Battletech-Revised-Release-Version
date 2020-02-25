@@ -151,8 +151,8 @@
       2,
       3
     ],
-    "RareWeaponChance": -3,
-    "WeaponChanceDivisor": 25,
+    "RareWeaponChance": 0,
+    "WeaponChanceDivisor": 10,
     "VeryRareUpgradeLevel": [
       4,
       5
@@ -163,8 +163,8 @@
       2,
       3
     ],
-    "RareUpgradeChance": -3,
-    "UpgradeChanceDivisor": 50,
+    "RareUpgradeChance": 0,
+    "UpgradeChanceDivisor": 20,
     "ItemAutoCullLevel": 10,
     "EquipMechOnSalvage": true,
     "UniqueSalvageTag": "BUILT-IN"
@@ -861,12 +861,12 @@
       "argoUpgrade_pod1",
       "argoUpgrade_structure0"
     ],
-    "LoathedMaxContractDifficulty": 2,
-    "HatedMaxContractDifficulty": 4,
-    "DislikedMaxContractDifficulty": 5,
-    "IndifferentMaxContractDifficulty": 6,
-    "LikedMaxContractDifficulty": 8,
-    "FriendlyMaxContractDifficulty": 9,
+    "LoathedMaxContractDifficulty": 10,
+    "HatedMaxContractDifficulty": 10,
+    "DislikedMaxContractDifficulty": 10,
+    "IndifferentMaxContractDifficulty": 10,
+    "LikedMaxContractDifficulty": 10,
+    "FriendlyMaxContractDifficulty": 10,
     "HonoredMaxContractDifficulty": 12,
     "StartWithRandomMechs": true,
     "ArgoUpgradeCostMultiplier": 1,
