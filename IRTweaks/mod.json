@@ -12,7 +12,7 @@
         "Debug" : false,
         "Trace" : false,
         "Fixes" : {
-            "BulkPurchasing" : true,
+            "BulkPurchasing" : false,
             "CombatLog" : true,
             "DisableCampaign" : true,
             "DisableCombatSaves" : true,
