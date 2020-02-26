@@ -1,0 +1,213 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    }
+  ],
+  "Description": {
+    "Cost": 3500000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hermes II",
+    "Id": "chassisdef_hermesII_HER-5S",
+    "Name": "Hermes II",
+    "Details": "The 5S variant of the Hermes II was an upgrade of the design incorporating the recovery of lostech. Its standard chassis has been replaced with an Endo Steel one, freeing up mass for a number of changes. The original autocannon was replaced with an Ultra Autocannon/5, although it still only carries one ton of ammo, and the medium laser with a Medium Pulse Laser. The original flamer was kept, while the the heat sinks were replaced with double heat sinks. Although this change was met with some criticism since the original design was not know to cause heat management problems in the first place.",
+    "Icon": "uixTxrIcon_hermesII"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_grasshopper",
+  "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
+  "PrefabBase": "grasshopper",
+  "Tonnage": 40.0,
+  "InitialTonnage": 4.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3610000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 40,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 0.0
+    }
+  ],
+  "VariantName": "HER-5S",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.75-0.75-0.75",
+      "chassis_endo"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Sniper",
+  "YangsThoughts": "The Hermes II is aveage in firepower and speed, and carries a good amount of armor although the heart of this reconnaissance 'Mech is its Irian E.A.R. Communications System. Powerful enough to pierce through jamming and communicate with orbiting satellites."
+}

@@ -334,7 +334,7 @@
     "MaxMoralePowerLevelLimits": [
       12,
       24
-    ]
+    ],
     "MaxContractsPerSystem": 7,
     "ContractRenewalPerWeek": 0.5,
     "ContractSuccessReduction": 1.0,
@@ -396,7 +396,8 @@
     "TagAddedCompany": "Your Company has gained the following tags:",
     "TagAddedMWTemp": "[[RES_MW,{RES_MW.Callsign}]] has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedMechTemp": "[[RES_MECH,{RES_MECH.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
-    "TagAddedSystemTemp": "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
+    "TagAddedSystemTemp":
+      "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedCompanyTemp": "Your Company has gained the following tags for {RES_DURATION.ToString} days:",
     "TagAddedMWTempEnd": "[[RES_MW,{RES_MW.Callsign}]]'s tag has expired:",
     "TagAddedMechTempEnd": "[[RES_MECH,{RES_MECH.Name}]]'s tag has expired:",
@@ -408,7 +409,8 @@
     "TagRemovedCompany": "Your Company has lost the following tags:",
     "TagRemovedMWTemp": "[[RES_MW,{RES_MW.Callsign}]] has lost the following tags for {RES_DURATION.ToString} days:",
     "TagRemovedMechTemp": "[[RES_MECH,{RES_MECH.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
-    "TagRemovedSystemTemp": "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
+    "TagRemovedSystemTemp":
+      "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
     "TagRemovedCompanyTemp": "Your Company has lost the following tags for {RES_DURATION.ToString} days:",
     "AARCompleteNotificationsDisabled": "AARCompleteNotificationsDisabled",
     "CampaignCommanderUpdateTags": [
