@@ -1,7 +1,7 @@
 {
     "Name": "IRTweaks",
     "Enabled": true,
-    "Version": "0.5.4",
+    "Version": "0.6.1",
     "Description": "Miscellaneous Tweaks and Fixes",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/IRTweaks",
@@ -9,37 +9,54 @@
     "DLL": "IRTweaks.dll",
     "DependsOn" : [ "IRBTModUtils" ],
     "Settings": {
-        "Debug" : true,
+        "Debug" : false,
         "Trace" : false,
         "Fixes" : {
-            "BulkPurchasing" : "true",
-            "CombatLog" : "false",
-            "DisableCampaign" : "false",
-            "DisableCombatSaves" : "false",
-            "ExtendedStats" : "true",
-            "FlexibleSensorLock" : "true",
-            "MultiTargetStat" : "true",
-            "PreventHeadShots" : "false",
-            "RandomStartByDifficulty" : "false",
-            "ReduceSaveCompression" : "true",
-            "SkipDeleteSavePopup" : "true",
-            "SkirmishReset" : "true",
-            "SpawnProtection" : "true",
-            "StreamlinedMainMenu" : "true",
-            "WeaponTooltip" : "true"
+            "BulkPurchasing" : true,
+            "CombatLog" : true,
+            "DisableCampaign" : true,
+            "DisableCombatSaves" : true,
+            "ExtendedStats" : true,
+            "FlexibleSensorLock" : true,
+            "MultiTargetStat" : false,
+            "PainTolerance" : true,
+            "PreventHeadShots" : false,
+            "RandomStartByDifficulty" : false,
+            "ReduceSaveCompression" : true,
+            "ShowAllArgoUpgrades" : true,
+            "SkirmishAlwaysUnlimited" : true,
+            "SkirmishReset" : false,
+            "SkipDeleteSavePopup" : true,
+            "SpawnProtection" : true,
+            "StreamlinedMainMenu" : true,
+            "WeaponTooltip" : true,
         },
         "Abilities" : {
-            "MultiTargetId" : "AbilityDefG5"
+            "MultiTargetId" : ""
         },
         "Combat" : {
             "PilotAttributesMax" : 14,
             "CalledShot" : {
-                "Modifier" : 9,
+                "Modifier" : 0,
                 "PilotTags" : { 
-                    "pilot_drunk": -2,
-                    "pilot_reckless" : -1,
-                    "pilot_assassin" : 2
+                    "pilot_drunk": 0,
+                    "pilot_reckless" : 0,
+                    "pilot_assassin" : 0
                 }
+            },
+            "FlexibleSensorLock" : {
+                "FreeActionWithAbility" : true,
+                "AbilityId" : "AbilityDefT8A"
+            },
+            "PainTolerance" : {
+                "ResistPerGuts" : 10,
+                "PenaltyPerHeadDamage" : 5,
+                "PenaltyPerAmmoExplosionRatio" : 1,
+                "PenaltyPerHeatDamageInjuryRatio" : 1,
+                "KnockdownDamage" : 6,
+                "ShutdownDamage" : 12, 
+                "TorsoDestroyedDamage" : 10,
+                "HeadHitArmorOnlyMulti" : 0.5
             },
             "SpawnProtection" : {
                 "ApplyGuard" : true,
@@ -48,10 +65,6 @@
                 "ApplyToAllies" : true,
                 "ApplyToNeutrals" : true,
                 "ApplyToReinforcements" : true
-            },
-            "FlexibleSensorLock" : {
-                "FreeActionWithAbility" : true,
-                "AbilityId" : "AbilityDefT8A"
             }
         },
         "Store" : {

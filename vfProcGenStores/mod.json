@@ -18,13 +18,21 @@
 			"Enabled":  false
 		},
 		"Procedurally Generate Store Contents": {
-			"StoreItemSourceFile": "test-xlrp-store-content.xlsx",
+			"Enabled": true,
+			"StoreItemSourceFile": "./res/test-xlrp-store-content.xlsx",
 			"CascadeRollsOnFail": true,
+			"MaxItemRarityForCascadeQualification" :  "Uncommon",
+			"UseAdditiveForModifiers" :  false,
 			"BlackMarketSettings": {
 				"BlackMarketMinBaseRarity": "VeryUncommon",
 				"BlackMarketMaxBaseRarity": "PracticallyExtinct",
 				"BlackMarketAppearanceModifier": 1.5,
-				"BlackMarketQuantityModifier": 0.5
+				"BlackMarketQuantityModifier": 0.5,
+				"CircumventRequiredPlanetTags" : false,
+				"CircumventRestrictedPlanetTags" : false,
+				"CircumventFactionRestrictions" : false,
+				"CascadeRollsOnFail": true,
+				"MaxItemRarityForCascadeQualification" :  "Extinct"
 			},
 			"FactionMarketSettings": {
 				"MinBaseRarity": "VeryUncommon",
@@ -170,9 +178,7 @@
 					"AppliesToLosTech": false,
 					"AppliesToFaction": false
 				}
-			],
-			"Enabled": true,
-			"MaxItemRarityForCascadeQualification" :  "Uncommon"
+			]
 		}
 	}
 }
