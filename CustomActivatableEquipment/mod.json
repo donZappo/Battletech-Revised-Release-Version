@@ -1,6 +1,6 @@
 {
   "Name": "CustomActivatableEquipment",
-  "Enabled": false,
+  "Enabled": true,
 
   "Version": "0.0.60",
   "PackagedOn": "2019-01-31T00:00:00Z",
@@ -32,7 +32,7 @@
     "auraUpdateFix": "Never",
     "auraUpdateMinTimeDelta": 2,
     "auraUpdateMinPosDelta": 20,
-    "sensorsAura": null
+    "sensorsAura": {}
   },
   "Manifest": []
 }
