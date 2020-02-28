@@ -1,28 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_ferrosfibrous",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 3000000,
     "Rarity": 2,
@@ -85,11 +62,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -121,11 +100,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -139,11 +120,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

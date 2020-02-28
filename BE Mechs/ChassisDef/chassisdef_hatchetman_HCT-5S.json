@@ -1,62 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_xl_center",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_ferrosfibrous",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_engineslots_size3",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_engineslots_size3",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 7500000,
     "Rarity": 1,
@@ -119,7 +62,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -133,7 +77,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -156,7 +101,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -170,7 +116,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

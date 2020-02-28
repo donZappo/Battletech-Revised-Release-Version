@@ -1,18 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 10200000,
     "Rarity": 5,
@@ -84,7 +71,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -98,7 +86,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -112,7 +101,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -126,11 +116,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

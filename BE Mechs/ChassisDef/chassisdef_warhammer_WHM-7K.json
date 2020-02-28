@@ -1,17 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 6400000,
     "Rarity": 3,
@@ -65,11 +53,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -83,7 +73,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -97,11 +88,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -124,19 +117,23 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -150,7 +147,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

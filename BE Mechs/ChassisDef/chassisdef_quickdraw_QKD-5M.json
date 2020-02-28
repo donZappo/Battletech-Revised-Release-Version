@@ -1,28 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_ferrosfibrous",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_kit_dhs",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true,
-      "SimGameUID": null,
-      "GUID": null
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 6000000,
     "Rarity": 3,
@@ -85,7 +62,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -99,7 +77,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -113,7 +92,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -127,11 +107,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -145,7 +127,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

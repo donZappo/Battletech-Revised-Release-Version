@@ -1,42 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_TSM_Prototype_Bergan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_Sensor_Prototype_EWE",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TSM_Prototype_Bergan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 2500000,
     "Rarity": 5,
@@ -126,11 +89,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -144,19 +109,23 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

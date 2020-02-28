@@ -22,10 +22,10 @@
   "weightClass": "MEDIUM",
   "BattleValue": 5148000.0,
   "Heatsinks": 0,
-  "TopSpeed": 80.0,
-  "TurnRadius": 90.0,
+  "TopSpeed": 80,
+  "TurnRadius": 90,
   "MaxJumpjets": 20,
-  "Stability": 100.0,
+  "Stability": 100,
   "StabilityDefenses": [
     0,
     0,
@@ -40,13 +40,13 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 28.0,
-  "MeleeInstability": 14.0,
+  "MeleeDamage": 28,
+  "MeleeInstability": 14,
   "MeleeToHitModifier": 0,
-  "DFADamage": 55.0,
+  "DFADamage": 55,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 55.0,
-  "DFAInstability": 28.0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 28,
   "Locations": [
     {
       "Location": "Head",
@@ -62,11 +62,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -89,23 +91,33 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -119,11 +131,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -137,15 +151,18 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

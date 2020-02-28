@@ -22,10 +22,10 @@
   "weightClass": "ASSAULT",
   "BattleValue": 9642000.0,
   "Heatsinks": 0,
-  "TopSpeed": 105.0,
-  "TurnRadius": 90.0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
   "MaxJumpjets": 20,
-  "Stability": 200.0,
+  "Stability": 200,
   "StabilityDefenses": [
     0,
     0,
@@ -40,13 +40,13 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 45.0,
-  "MeleeInstability": 23.0,
+  "MeleeDamage": 45,
+  "MeleeInstability": 23,
   "MeleeToHitModifier": 0,
-  "DFADamage": 90.0,
+  "DFADamage": 90,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 90.0,
-  "DFAInstability": 45.0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 45,
   "Locations": [
     {
       "Location": "Head",
@@ -62,7 +62,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -76,19 +77,23 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -101,16 +106,24 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -124,19 +137,23 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -150,7 +167,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

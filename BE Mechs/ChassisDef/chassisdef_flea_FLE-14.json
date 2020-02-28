@@ -1,30 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_General_Targeting_Baffle",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_General_Targeting_Baffle",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null,
-      "IsFixed": true
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 1200000,
     "Rarity": 5,
@@ -87,7 +62,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -128,11 +104,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

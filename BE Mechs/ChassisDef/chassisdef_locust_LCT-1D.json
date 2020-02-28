@@ -1,18 +1,5 @@
 {
-  "FixedEquipment": [
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_1-MagnaFirestar",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": null,
-      "GUID": null,
-      "IsFixed": true
-    }
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 1500000,
     "Rarity": 1,
@@ -102,15 +89,18 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,

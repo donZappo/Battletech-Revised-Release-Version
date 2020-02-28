@@ -22,10 +22,10 @@
   "weightClass": "LIGHT",
   "BattleValue": 1642000.0,
   "Heatsinks": 0,
-  "TopSpeed": 210.0,
-  "TurnRadius": 90.0,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
   "MaxJumpjets": 20,
-  "Stability": 100.0,
+  "Stability": 100,
   "StabilityDefenses": [
     0,
     0,
@@ -40,13 +40,13 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 10.0,
-  "MeleeInstability": 5.0,
+  "MeleeDamage": 10,
+  "MeleeInstability": 5,
   "MeleeToHitModifier": 0,
-  "DFADamage": 20.0,
+  "DFADamage": 20,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 20.0,
-  "DFAInstability": 10.0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 10,
   "Locations": [
     {
       "Location": "Head",
@@ -62,11 +62,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -89,23 +91,33 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
-          "Omni": false
+          "WeaponMount": null,
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
@@ -128,11 +140,13 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": null
         }
       ],
       "Tonnage": 0.0,
