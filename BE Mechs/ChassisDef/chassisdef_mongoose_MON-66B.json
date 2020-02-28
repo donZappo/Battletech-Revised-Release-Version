@@ -10,7 +10,7 @@
     "Id": "chassisdef_mongoose_MON-66B",
     "Name": "__/Base_3061.chassisdef_mongoose_MON-66B.Name/__",
     "Details": "__/Base_3061.chassisdef_mongoose_MON-66B.Details/__",
-    "Icon": "mongoose"
+    "Icon": "uixTxrIcon_mongoose"
   },
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",

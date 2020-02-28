@@ -206,18 +206,6 @@
 	],
 	"FixedEquipment": [
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Crab",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
             "MountedLocation" : "CenterTorso",
             "ComponentDefID" : "emod_structureslots_standard",
             "ComponentDefType" : "Upgrade",

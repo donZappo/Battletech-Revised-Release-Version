@@ -331,7 +331,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

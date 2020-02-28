@@ -13,7 +13,7 @@
     },
     "MovementCapDefID": "movedef_heavymech",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "HardpointDataDefID": "hardpointdatadef_blackjack",
     "PrefabIdentifier": "chrprfmech_lancelotbase-001",
     "PrefabBase": "lancelot",
     "Tonnage": 60,

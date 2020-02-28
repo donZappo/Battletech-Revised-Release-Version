@@ -10,7 +10,7 @@
     "Id": "mechdef_mongoose_MON-70",
     "Name": "Mongoose",
     "Details": "The MON-70 dates to 2819 and is another variant of the standard MON-66 introduced following the loss of the active probe. ",
-    "Icon": "mongoose"
+    "Icon": "uixTxrIcon_mongoose"
   },
   "Locations": [
     {
