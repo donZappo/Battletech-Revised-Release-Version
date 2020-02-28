@@ -1,6 +1,6 @@
 {
 	"Name": "Custom Ammo Categories",
-	"Enabled": false,
+	"Enabled": true,
     "Locked": true,
 	"Version": "0.1.102",
 	"PackagedOn": "2019-05-20T00:00:00Z",
@@ -18,7 +18,6 @@
   ],
 	"Manifest": [
 		{ "Type": "DesignMaskDef", "Path": "designmask\\" },
-		{ "Type": "AbilityDef", "Path": "abilities\\" },
 		{ "Type": "SoundBankDef", "Path": "soundBanks\\" }
   ]
 }
