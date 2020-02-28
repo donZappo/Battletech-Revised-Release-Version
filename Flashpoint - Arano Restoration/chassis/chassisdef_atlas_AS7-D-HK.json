@@ -215,30 +215,6 @@
 	],
 	"FixedEquipment": [
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Quirk_Battlefists_Atlas",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Quirk_Battlefists_Atlas",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
             "MountedLocation" : "CenterTorso",
             "ComponentDefID" : "emod_structureslots_standard",
             "ComponentDefType" : "Upgrade",
