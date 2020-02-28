@@ -5,6 +5,7 @@
   "addDynamicNotFactionTagForUnits" : false,
   "addDynamicFactionTagForPilots" : false,
   "addDynamicNotFactionTagForPilots" : false,
+  "testToolsEnabled": "true"
 
    "loggerLevels" : [   
       {

@@ -1,0 +1,215 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 8700000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Highlander",
+    "Id": "chassisdef_highlander_HGN-733C",
+    "Name": "Highlander",
+    "Details": "The Highlander 733C is a simple variant of the 733 model that removes 2 tons of missile ammunition and upscales its AutoCannon 10 to an Autocannon 20.  This sacrifices some of its long range functionality, but give it a true brawler profile.",
+    "Icon": "uixTxrIcon_highlander"
+  },
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_highlander",
+  "PrefabIdentifier": "chrPrfMech_highlanderBase-001",
+  "PrefabBase": "highlander",
+  "Tonnage": 90.0,
+  "InitialTonnage": 9.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9642000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 115,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 115,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 60,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 17.0,
+      "z": 0.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": -1.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 17.0,
+      "z": 0.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": 3.5,
+      "y": 6.0,
+      "z": 1.0
+    },
+    {
+      "x": -3.5,
+      "y": 6.0,
+      "z": 1.0
+    }
+  ],
+  "VariantName": "HGN-733C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The Highlander 733C sacrifices some of the 733's long range ability to give it a more specialized close assault load-out.  Though I am kind of surprised they didn't add in some Machine Guns or Small Lasers to really give it that extra punch in melee."
+}

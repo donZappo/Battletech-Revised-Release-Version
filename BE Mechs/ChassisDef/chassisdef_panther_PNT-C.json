@@ -1,0 +1,218 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 1933490,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Panther",
+    "Id": "chassisdef_panther_PNT-C",
+    "Name": "Panther",
+    "Details": "The PNT-C is a modification of the -10K model and simply removes the Artemis IV for a C3 slave.",
+    "Icon": "uixTxrIcon_panther"
+  },
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_panther",
+  "PrefabIdentifier": "chrPrfMech_pantherBase-001",
+  "PrefabBase": "panther",
+  "Tonnage": 35.0,
+  "InitialTonnage": 3.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 3087000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 85.0,
+  "TurnRadius": 90.0,
+  "MaxJumpjets": 20,
+  "Stability": 100.0,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 18.0,
+  "MeleeInstability": 9.0,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 35.0,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 35.0,
+  "DFAInstability": 18.0,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 1.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "Omni": false
+        },
+        {
+          "Omni": false
+        },
+        {
+          "Omni": false
+        },
+        {
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.5,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 12.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.5,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.0,
+      "y": 4.0,
+      "z": 0.5
+    },
+    {
+      "x": 2.0,
+      "y": 4.0,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "PNT-C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "__/Base_3061.chassisdef_panther_PNT-C.StockRole/__",
+  "YangsThoughts": "__/Base_3061.chassisdef_panther_PNT-C.YangsThoughts/__"
+}
