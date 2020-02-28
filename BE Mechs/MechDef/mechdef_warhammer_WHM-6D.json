@@ -12,7 +12,6 @@
     "Details": "The 6D Warhammer seeks to optimize the base model for survivability by dropping a few weapons and piling on the armor. It definitely has more staying power, which lets it smash more PPC bolts into its targets.",
     "Icon": "uixTxrIcon_warhammer"
   },
-  "prefabOverride" : "chrPrfMech_warhammer_BlackWidowBase-001",
   "Locations": [
     {
       "DamageLevel": "Functional",
@@ -88,6 +87,28 @@
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "emod_arm_part_shoulder",

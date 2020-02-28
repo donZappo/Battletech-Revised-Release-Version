@@ -10,7 +10,7 @@
     "Id": "mechdef_mackie_MSK-8B",
     "Name": "Mackie",
     "Details": "This catchall series of Mackies was used to designate -6S's retrofitted with a wide variety of more modern components.  <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
-    "Icon": "uixTxrIcon_mackie"
+    "Icon": "mackie"
   },
   "Locations": [
     {
@@ -87,6 +87,28 @@
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "emod_arm_part_shoulder",

@@ -10,7 +10,7 @@
     "Id": "mechdef_mongoose_MON-69",
     "Name": "Mongoose",
     "Details": "A variant of the MON-66 introduced in 2819, the MON-69 replaced the LosTech active probe with an SRM-2 and one ton of reloads since the advanced electronics were difficult to come by during the Succession Wars.",
-    "Icon": "uixTxrIcon_mongoose"
+    "Icon": "mongoose"
   },
   "Locations": [
     {
@@ -88,6 +88,28 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_ferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "emod_arm_part_shoulder",
       "ComponentDefType": "Upgrade",
@@ -122,7 +144,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "emod_arm_part_hand",
+      "ComponentDefID": " emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -199,7 +221,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_part_hand",
+      "ComponentDefID": " emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
