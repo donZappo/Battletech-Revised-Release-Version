@@ -4,7 +4,7 @@
             "unit_mech",
             "unit_medium",
             "unit_role_brawler",
-            
+            "BLACKLISTED",
 			"unit_none",
 			"unit_none_MagistracyOfCanopus",
 			"unit_none_TaurianConcordat",

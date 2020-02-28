@@ -2,7 +2,7 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            
+            "BLACKLISTED",
             "unit_noncombatant",
             "unit_industrial",
             "unit_heavy", 

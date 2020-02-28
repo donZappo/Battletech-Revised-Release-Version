@@ -144,7 +144,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": " Gear_TargetingTrackingSystem_ARTEMISIV",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -353,7 +353,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": " Gear_TargetingTrackingSystem_ARTEMISIV",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

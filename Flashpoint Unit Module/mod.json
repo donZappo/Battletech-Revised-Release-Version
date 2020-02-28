@@ -1,6 +1,6 @@
 {
     "Name": "BT Advanced FP Module",
-    "Enabled": true,
+    "Enabled": false,
 	"Hidden": true,
 
 	"Version": "1.0",

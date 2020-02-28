@@ -2,7 +2,7 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            
+            "BLACKLISTED",
             "unit_armor_low",
             "NotDavion",
             "NotLiao",

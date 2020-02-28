@@ -25,30 +25,7 @@
     "CCTagRestrictions"
   ],
   "DataAddendumEntries": [],
-  "Manifest": [
-    {
-      "Path": "disabled test/categories/",
-      "Type": "CCCategories",
-      "Id": null,
-      "AddToAddendum": null,
-      "AssetBundleName": null,
-      "AssetBundlePersistent": null,
-      "ShouldMergeJSON": false,
-      "ShouldAppendText": false,
-      "AddToDB": true
-    },
-    {
-      "Path": "disabled test/defaults/",
-      "Type": "CCDefaults",
-      "Id": null,
-      "AddToAddendum": null,
-      "AssetBundleName": null,
-      "AssetBundlePersistent": null,
-      "ShouldMergeJSON": false,
-      "ShouldAppendText": false,
-      "AddToDB": true
-    }
-  ],
+  "Manifest": [],
   "RemoveManifestEntries": [],
   "Settings": {
     "LogLevel": "Debug",
