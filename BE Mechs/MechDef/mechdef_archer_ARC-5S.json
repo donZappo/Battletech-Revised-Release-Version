@@ -144,7 +144,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": " emod_arm_part_hand",
+      "ComponentDefID": "emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -342,7 +342,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": " emod_arm_part_hand",
+      "ComponentDefID": "emod_arm_part_hand",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -442,7 +442,8 @@
   ],
   "MechTags": {
     "items": [
-      "unit_release"
+      "unit_release",
+      "unit_heavy"
     ]
   }
 }

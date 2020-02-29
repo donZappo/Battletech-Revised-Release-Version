@@ -155,7 +155,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": " Gear_TargetingTrackingSystem_ArtemisIV",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_ArtemisIV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -332,7 +332,8 @@
   ],
   "MechTags": {
     "items": [
-      "unit_release"
+      "unit_release",
+      "unit_heavy"
     ]
   }
 }

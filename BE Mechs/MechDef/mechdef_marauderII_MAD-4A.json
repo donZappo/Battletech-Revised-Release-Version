@@ -497,7 +497,8 @@
   ],
   "MechTags": {
     "items": [
-      "unit_release"
+      "unit_release",
+      "unit_assault"
     ]
   }
 }
