@@ -1,14 +1,14 @@
 {
   "Name": "PanicSystem",
-
+	"Hidden": true,
   "Enabled": true,
-
-  "Version": "3.7",
+  "Version": "3.7.7",
   "Description": "Simulates MechWarrior and vehicle crew panic, and automatic ejections",
   "Website": "https://github.com/gnivler/PanicSystem",
-
   "DLL": "PanicSystem.dll",
   "DLLEntryPoint": "PanicSystem.PanicSystem.Init",
+
+  /* ModTek manifest for custom icons */
   "Manifest": [
     {
       "Type": "SVGAsset",
@@ -17,9 +17,37 @@
     }
   ],
   "Settings": {
-    "Debug": false,
-    "CombatLog": false,
+    "Debug": true,
+    "CombatLog": true,
 
+    /* custom strings for floaties */
+    "PanicStates": [
+      "CONFIDENT",
+      "UNSETTLED",
+      "STRESSED",
+      "PANICKED"
+    ],
+    "PanicSpamSaveString": "SAVE",
+    "PanicSpamFailString": "FAIL",
+    "PanicSpamRollString": "ROLL",
+    "PanicSpamCritSaveString": "CRIT SAVE!",
+    "PanicSpamNoWeaponsString": "NO WEAPONS!",
+    "PanicSpamAloneString": "ALONE!",
+    "PanicSpamEjectResistString": "EJECT RESIST!",
+    "PanicCritFailString": "PANIC LEVEL CRITICAL!",
+    "PanicImprovedString": "IMPROVED TO",
+    "PanicWorsenedString": "",
+    "PanicCritSaveString": "CRIT SAVE!",
+    
+    /* 0 is Confident.  Prevent manual ejection at this threshold status */
+    "LimitManualEjection": false,
+    "LimitManualEjectionLevel": 0,
+    
+    /* prevent manual ejection with these pilot tags */
+    "LimitManualEjectionTags": [
+      "pilot_example_tag",
+    ],
+    
     /* reads phrases.txt file and displays one randomly at eject */
     "EnableEjectPhrases": true,
     "EjectPhraseChance": 100,
@@ -36,16 +64,16 @@
     /* Panic Settings */
     "PlayersCanPanic": true,
     "EnemiesCanPanic": true,
-    "VehiclesCanPanic": false,
-    "ConsiderEjectingWithNoWeaps": false,
+    "VehiclesCanPanic": true,
+    "ConsiderEjectingWithNoWeaps": true,
     "LosingLimbAlwaysPanics": false,
 
     /* percent of remaining armor that must be destroyed to cause a panic save */
     "MinimumDamagePercentageRequired": 10,
 
     /* integer number of cumulative structure damage required to cause a panic save */
-    "MinimumStructureDamageRequired": 5,
-    "MinimumVehicleStructureDamageRequired": 0,
+    "MinimumMechStructureDamageRequired": 5,
+    "MinimumVehicleStructureDamageRequired": 25,
 
     /* Effect Modifiers */
     "UnsteadyModifier": 5,
@@ -57,27 +85,27 @@
     "WeaponlessModifier": 15,
     "AloneModifier": 5,
     "ResolveMaxModifier": 10,
-    "OverheatedModifier": 0,
-    "ShutdownModifier": 0,
-    "HeatDamageFactor": 0,
+    "OverheatedModifier": 2,
+    "ShutdownModifier": 4,
+    "HeatDamageFactor": 1,
 
     /* AI Resolve goes to 50 */
-    "MedianResolve": 50,
-    "VehicleResolveFactor": 0,
+    "MedianResolve": 30,
+    "VehicleResolveFactor": 0.2,
 
     /* factors that affect only panic saving throws based on existing panic state */
     "UnsettledPanicFactor": 1,
-    "StressedPanicFactor" : 0.66,
-    "PanickedPanicFactor" : 0.50,
+    "StressedPanicFactor" : 0.77,
+    "PanickedPanicFactor" : 0.44,
 
     /* Ejection Bonuses and Limits */
-    "GutsEjectionResistPerPoint": 3,
-    "TacticsEjectionResistPerPoint": 0,
-    "VehicleGutAndTacticsFactor": 0,
+    "GutsEjectionResistPerPoint": 1,
+    "TacticsEjectionResistPerPoint": 1,
+    "VehicleGutAndTacticsFactor": 1,
 
     /* subtracted from all eject saving throws */
-    "BaseEjectionResist": 75,
-    "BaseVehicleEjectionResist": 0,
+    "BaseEjectionResist": 60,
+    "BaseVehicleEjectionResist": 30,
 
     /* ceiling for eject saving throw */
     "MaxEjectChance": 100,
@@ -89,7 +117,7 @@
     "QuirksEnabled": true,
     "BraveModifier": 5,
     "DependableModifier": 5,
-    
+
     /* new Mech Quirk effects TBA */
     "DistractingModifier": 5,
 
