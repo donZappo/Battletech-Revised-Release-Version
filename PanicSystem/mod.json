@@ -2,7 +2,7 @@
   "Name": "PanicSystem",
 	"Hidden": true,
   "Enabled": true,
-  "Version": "3.7.7",
+  "Version": "3.7.8",
   "Description": "Simulates MechWarrior and vehicle crew panic, and automatic ejections",
   "Website": "https://github.com/gnivler/PanicSystem",
   "DLL": "PanicSystem.dll",
