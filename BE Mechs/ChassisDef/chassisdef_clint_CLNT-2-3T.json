@@ -1,0 +1,210 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 3600000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Clint",
+    "Id": "chassisdef_clint_CLNT-2-3T",
+    "Name": "Clint",
+    "Details": "Originally designed as a cheap recon 'Mech that could hold its own in a fight long enough to withdraw or be reinforced.  Armed with Armstrong Autocannon 5 and a pair of Martell Medium Lasers, the Clint 2-3T can put out a respectable amount of damage for its size, while its Jump Jets and modest sprinting speed let it keep pase with other recon elements.",
+    "Icon": "uixTxrIcon_clint"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_clint",
+  "PrefabIdentifier": "chrprfmech_clintbase-001",
+  "PrefabBase": "clint",
+  "Tonnage": 40.0,
+  "InitialTonnage": 4.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3610000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 50,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 0.0
+    }
+  ],
+  "VariantName": "CLNT-2-3T",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.15-1.05-1.05"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Recon & Fire Support",
+  "YangsThoughts": "I have to admit I have a soft spot for the Clint, reminds me of my days in the Lancers .. well, the better days at least.  My main issue with the Clint is that it can be a bear to repair due to a lack of their non-standardized parts.  Other than that, it is a scrappy recon 'Mech that would fit well in our unit."
+}

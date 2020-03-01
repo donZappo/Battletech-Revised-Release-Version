@@ -3,7 +3,7 @@
 	"Author": "XSNomad, Vengefire, donZappo",
 	"Website": "https://github.com/vengefire/XLRP-Complete",
 
-	"Enabled": true,
+	"Enabled": false,
 	"Hidden": true,
 	"DependsOn": ["CustomComponents", "MechEngineer", "XLRP-Core", "CommunityBundles"],
 	"Manifest": [

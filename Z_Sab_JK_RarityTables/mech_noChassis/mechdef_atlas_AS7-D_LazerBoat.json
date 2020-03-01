@@ -3,7 +3,7 @@
         "items" : [
             "test",
             "unit_mech",
-            
+            "BLACKLISTED",
 			"unit_none",
 			"unit_none_MagistracyOfCanopus",
 			"unit_none_TaurianConcordat",

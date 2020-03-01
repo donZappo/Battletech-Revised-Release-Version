@@ -1,0 +1,221 @@
+{
+  "FixedEquipment": null,
+  "Description": {
+    "Cost": 5600000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Lancelot",
+    "Id": "chassisdef_lancelot_LNC25-02",
+    "Name": "Lancelot",
+    "Details": "The Lancelot did not survive the loss of Star League technology well. With a new maximum speed of only 64.8 km/h the thin-skinned Lancelot makes for an easy target for other 'Mechs of its weight class, and the less efficient heat dissipation system makes it unable to unleash its full firepower safely and consistently.",
+    "Icon": "uixTxrIcon_lancelot"
+  },
+  "MovementCapDefID": "movedef_heavymech",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_blackjack",
+  "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+  "PrefabBase": "lancelot",
+  "Tonnage": 60.0,
+  "InitialTonnage": 6.0,
+  "weightClass": "HEAVY",
+  "BattleValue": 5383000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 40,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 13.0,
+      "z": 1.0
+    },
+    {
+      "x": 3.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 13.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 13.0,
+      "z": 1.0
+    },
+    {
+      "x": 3.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.0,
+      "y": 5.0,
+      "z": 0.0
+    }
+  ],
+  "VariantName": "LNC25-02",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.90-1.00-1.00"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Direct-Fire Support",
+  "YangsThoughts": "The Lancelot is an awesome star league platform that has suffered from the loss of the double heat sinks and smaller engine. As the 'Mech comes stock it is thinly armored and can't make use of all it's weapons consistently because of low heat dissipation. On the bright side, it has no ammo dependency, but still has massive potential fire power."
+}

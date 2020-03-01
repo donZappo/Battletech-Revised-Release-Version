@@ -1,0 +1,245 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 9500000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gausszilla",
+    "Id": "chassisdef_Gausszilla",
+    "Name": "Gausszilla",
+    "Details": "Could it be? Is this the long lost Gausszilla designed by Bryan Nystul? Commander thi was designed as a drunken joke on a bar napkin and was never intended to be built. I don't know who was crazy enough to spend the money to build this, but I wouldn't want to be the wrong side of any one of it's FIVE gauss rifles.",
+    "Icon": "uixTxrIcon_stonerhino"
+  },
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_stonerhino",
+  "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+  "PrefabBase": "stonerhino",
+  "Tonnage": 100.0,
+  "InitialTonnage": 10.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 0.0,
+  "Heatsinks": 0,
+  "TopSpeed": 0,
+  "TurnRadius": 0,
+  "MaxJumpjets": 6,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 200,
+  "MeleeInstability": 150,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 250,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 65,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 240,
+      "MaxRearArmor": -1,
+      "InternalStructure": 120
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 400,
+      "MaxRearArmor": 225,
+      "InternalStructure": 200
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 240,
+      "MaxRearArmor": -1,
+      "InternalStructure": 120
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 300,
+      "MaxRearArmor": -1,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 300,
+      "MaxRearArmor": -1,
+      "InternalStructure": 150
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 19.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.5,
+      "y": 16.0,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 16.0,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 19.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.5,
+      "y": 16.0,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 16.0,
+      "z": -0.5
+    },
+    {
+      "x": 3.0,
+      "y": 6.0,
+      "z": 1.0
+    },
+    {
+      "x": -3.0,
+      "y": 6.0,
+      "z": 1.0
+    }
+  ],
+  "VariantName": "GZA-00",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "Could it be? Is this the long lost Gausszilla designed by Bryan Nystul? Commander thi was designed as a drunken joke on a bar napkin and was never intended to be built. I don't know who was crazy enough to spend the money to build this, but I wouldn't want to be the wrong side of any one of it's FIVE gauss rifles."
+}

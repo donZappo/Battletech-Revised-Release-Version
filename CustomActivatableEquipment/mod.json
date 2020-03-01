@@ -86,7 +86,5 @@
       ]
     }
   },
-  "Manifest": [
-    { "Type": "UpgradeDef", "Path": "upgrades\\" }
-  ]
+  "Manifest": []
 }

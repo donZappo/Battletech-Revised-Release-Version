@@ -1,0 +1,259 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_xl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_ferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size3",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true,
+      "SimGameUID": null,
+      "GUID": null
+    }
+  ],
+  "Description": {
+    "Cost": 5200000,
+    "Rarity": 9,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Raven",
+    "Id": "chassisdef_raven_RVN-3M",
+    "Name": "Raven",
+    "Details": "This 3053 variant, based on the 3L variant, removed the SRM-6 launcher, the medium lasers, and the electronic warfare systems and TAG laser in order to turn the Raven into a long range fire support unit. This fire support is provided by a single 15-tubed Long Range Missile launcher. Additionally, the 'Mech sports two Small lasers and a Small Pulse Laser in the event any enemies get under the minimum range of its missile launcher.",
+    "Icon": "uixTxrIcon_raven"
+  },
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_raven",
+  "PrefabIdentifier": "chrPrfMech_ravenBase-001",
+  "PrefabBase": "raven",
+  "Tonnage": 35.0,
+  "InitialTonnage": 3.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 0.0,
+  "Heatsinks": 0,
+  "TopSpeed": 80,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 25,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "z": 3.0
+    },
+    {
+      "x": 1.0,
+      "y": 9.0,
+      "z": -2.0
+    },
+    {
+      "x": -1.0,
+      "y": 9.0,
+      "z": -2.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "z": 3.0
+    },
+    {
+      "x": 1.0,
+      "y": 9.0,
+      "z": -2.0
+    },
+    {
+      "x": -1.0,
+      "y": 9.0,
+      "z": -2.0
+    },
+    {
+      "x": 1.0,
+      "y": 5.0,
+      "z": -1.0
+    },
+    {
+      "x": -1.0,
+      "y": 5.0,
+      "z": -1.0
+    }
+  ],
+  "VariantName": "RVN-3M",
+  "ChassisTags": {
+    "items": [
+      "chassis_ferro",
+      "mech_case_left"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Recon & Electronic Warfare",
+  "YangsThoughts": "The Raven 3M is a combat role variant, designed to provide fire support. It does still sport a Narc Missile Beacon, but the Electronic Warfare equipment has been stripped."
+}

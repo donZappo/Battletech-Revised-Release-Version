@@ -1,0 +1,210 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 8330000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Snake",
+    "Id": "chassisdef_snake_SNK-1V",
+    "Name": "Snake",
+    "Details": "The Snake is a 'Mech that was built under the aegis of an Elemental hunter. With the power of hindsight though the Snake is clearly designed to hunt Inner Sphere Battle Armor suits. The 'Mech is built using a Vox 225 XL Engine to move at a top speed of 86.4 kph. The Snake also has a jumping capability of one hundred and fifty meters making it capable of outmaneuvering any battle armor suit and also keeping it on par with most medium 'Mechs.",
+    "Icon": "uixTxrIcon_snake"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_templar",
+  "PrefabIdentifier": "chrprfmech_templarbase-001",
+  "PrefabBase": "templar",
+  "Tonnage": 45.0,
+  "InitialTonnage": 4.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4067000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 50,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 55,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 55,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "SNK-1V",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.80-0.75-0.75",
+      "mech_case_right"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Hunter",
+  "YangsThoughts": "The Snake is a 'Mech built for light hunting. It was designed to be hunting Battle Armor, we don't get a lot of contracts like that but the Snake adequately takes out those fast, pesky lights and mediums."
+}

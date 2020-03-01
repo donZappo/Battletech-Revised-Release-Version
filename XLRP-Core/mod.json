@@ -2,19 +2,51 @@
 	"Name": "XLRP-Core",
 	"Author": "XSNomad, Vengefire, donZappo",
 	"Website": "https://github.com/vengefire/XLRP-Complete",
-
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer"],
-	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
+	"DependsOn": [
+		"CustomComponents",
+		"MechEngineer"
+	],
+	"CustomResourceTypes": [
+		"MEBonusDescriptions",
+		"MECriticalEffects"
+	],
 	"DLL": "XLRP_Core.dll",
-	
+	"DataAddendumEntries": [
+		{
+			"name": "BattleTech.FactionEnumeration",
+			"path": "Faction.json"
+		},
+		{
+			"name": "BattleTech.AmmoCategoryEnumeration",
+			"path": "AmmoCategory.json"
+		},
+		{
+			"name": "BattleTech.WeaponCategoryEnumeration",
+			"path": "WeaponCategory.json"
+		},
+		{
+			"name": "BattleTech.ContractTypeEnumeration",
+			"path": "ContractType.json"
+		}
+	],
 	"Settings": {
 		"UpgradeDegradedOpFor": true,
+		"JumpStopsCalledShot": true,
+		//** UpgradeItems will upgrade any item tagged with "component_type_stock"
+		"UpgradeItems": true,
+		//** UpgradePilots matches pilots to their role more accurately.
+		"UpgradePilots": true,
+		//** Set to false as it is covered by IRTweaks as well.
+		"ShowAllArgoUpgrades": false
 	},
-	
 	"Manifest": [
-		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
+		{
+			"Type": "AmmunitionBoxDef",
+			"Path": "AmmunitionBoxDef",
+			"AddToDB": false
+		},
 		{
 			"Type": "AdvancedJSONMerge",
 			"Path": "AdvancedJSONMerge",
@@ -40,11 +72,11 @@
 			"Path": "CCTagRestrictions",
 			"ShouldMergeJSON": false
 		},
-        {
-            "Type": "CCDefaults",
-            "Path": "CCDefaults",
-            "ShouldMergeJSON": false
-        },
+		{
+			"Type": "CCDefaults",
+			"Path": "CCDefaults",
+			"ShouldMergeJSON": false
+		},
 		{
 			"Type": "UpgradeDef",
 			"Path": "UpgradeDef",
@@ -54,7 +86,7 @@
 			"Type": "HeatSinkDef",
 			"Path": "HeatSinkDef",
 			"ShouldMergeJSON": false
-		},	
+		},
 		{
 			"Type": "ItemCollectionDef",
 			"Path": "ItemCollectionDef",

@@ -2,7 +2,7 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            
+            "BLACKLISTED",
             "KSBeta",
             "unit_heavy", 
             "unit_range_long",

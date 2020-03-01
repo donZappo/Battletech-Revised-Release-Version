@@ -1,0 +1,239 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 4000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Blackjack",
+    "Id": "chassisdef_blackjack_BJ-1X",
+    "Name": "Blackjack",
+    "Details": "This early Blackjack prototype started along a completely different path for the 'Mech.  Focusing on close in weapons, the BJ-1X has four Flamers and four Medium Lasers.  The BJ-1X also focused more on speed than jump maneuverability, increasing the engine size while removing the Jump Jets.",
+    "Icon": "uixTxrIcon_blackjack"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_blackjack",
+  "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
+  "PrefabBase": "blackjack",
+  "Tonnage": 45.0,
+  "InitialTonnage": 4.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4067000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 40,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 55,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 55,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "BJ-1X",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Disabler",
+  "YangsThoughts": "This one is interesting Commander, as it is an example of the design process.  You see, originally the Blackjack was designed as a close in brawler, sort of an overcharged Firestarter.  The designers decided to go for a faster engine, rather than the maneuverability of the JumpJets, which, as you know, is on the more common BJ-1 we see today, which is focused on range and mobility.  Man, I could talk about this sort of stuff for hours!  Uh, Commander, where are you going?"
+}

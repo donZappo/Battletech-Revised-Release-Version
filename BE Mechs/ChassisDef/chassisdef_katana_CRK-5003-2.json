@@ -1,0 +1,216 @@
+{
+  "FixedEquipment": null,
+  "Description": {
+    "Cost": 7900000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Katana",
+    "Id": "chassisdef_katana_CRK-5003-2",
+    "Name": "Katana",
+    "Details": "The Katana began its existence when the Draconis Combine was given several downgraded Crockett BattleMechs by ComStar as part of Operation Rosebud. Independence Weaponry went about reverse-engineering the weapons so they could produce copies at a nearby facility for sale to other Combine manufacturers and closely examined the Crocketts for several months. After making minor modifications these 'Mechs were renamed Katanas and used to replace Chargers in several DCMS units.",
+    "Icon": "uixTxrIcon_stalker"
+  },
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_executioner",
+  "PrefabIdentifier": "chrprfmech_executionerbase-001",
+  "PrefabBase": "executioner",
+  "Tonnage": 85.0,
+  "InitialTonnage": 8.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 8821000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 80,
+  "MeleeInstability": 85,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 105,
+  "DFAInstability": 105,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -3.5,
+      "y": 16.0,
+      "z": -1.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -3.5,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": 3.5,
+      "y": 6.0,
+      "z": 1.0
+    },
+    {
+      "x": -3.5,
+      "y": 6.0,
+      "z": 1.0
+    }
+  ],
+  "VariantName": "CRK-5003-2",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.95-0.90-0.95"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Cavalry",
+  "YangsThoughts": "It looks like the oddball Crockett because it more or less is.  But the Katana has significantly less armor, in return it has a recovered star league based LB10X and better heat efficiency. Primarily effective at close range, it also has jump capability to get there."
+}

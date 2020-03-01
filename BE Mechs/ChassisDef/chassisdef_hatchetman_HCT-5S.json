@@ -1,0 +1,202 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 7500000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hatchetman",
+    "Id": "chassisdef_hatchetman_HCT-5S",
+    "Name": "Hatchetman",
+    "Details": "The 5S is an upgrade of the 3F model introduced in 3049. The 5S replaces the fusion engine with an extralight model, while the weapons have also been stripped from the chassis and upgraded. The normal autocannon was replaced with an LB-X Autocannon/10 while the medium lasers were replaced with three Medium Pulse Lasers, one in each arm and the third in the left torso. Finally, the Hatchetman has been re-armored with eight and a half tons of Ferro-Fibrous armor.",
+    "Icon": "uixTxrIcon_hatchetman"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hatchetman",
+  "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
+  "PrefabBase": "hatchetman",
+  "Tonnage": 45.0,
+  "InitialTonnage": 4.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 0.0,
+  "Heatsinks": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 70,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 55,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 55,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "HCT-5S",
+  "ChassisTags": {
+    "items": [
+      "chassis_ferro",
+      "mech_case_right"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Skirmisher",
+  "YangsThoughts": "Hatchetman 5Ss doesn't have any more speed to get in and use that Hatchet. What it does have is more armor and more imposing fire power to back it up."
+}

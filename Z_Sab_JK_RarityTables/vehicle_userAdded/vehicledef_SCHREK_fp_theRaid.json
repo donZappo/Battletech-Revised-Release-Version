@@ -4,7 +4,7 @@
          "unit_vehicle",
          "unit_assault",
          "unit_tracks",
-			
+			"BLACKLISTED",
 		"unit_none",
 		"unit_none_MagistracyOfCanopus",
 		"unit_none_TaurianConcordat",

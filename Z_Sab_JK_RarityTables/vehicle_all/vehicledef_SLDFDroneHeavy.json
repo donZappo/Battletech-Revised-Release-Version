@@ -2,7 +2,7 @@
     "VehicleTags": {
         "items": [
             "unit_vehicle",
-               
+            "BLACKLISTED",   
             "unit_heavy",
             "unit_wheels",  
             "unit_range_long", 

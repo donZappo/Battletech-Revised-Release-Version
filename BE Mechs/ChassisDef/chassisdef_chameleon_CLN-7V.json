@@ -1,0 +1,221 @@
+{
+  "FixedEquipment": null,
+  "Description": {
+    "Cost": 4700000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Chameleon",
+    "Id": "chassisdef_chameleon_CLN-7V",
+    "Name": "Chameleon",
+    "Details": "Since the Terran Hegemony introduced it in 2510, the Chameleon has been the premiere training BattleMech for light- and medium-BattleMech Mechwarriors. Even in 3025, the Chameleon is widely used at academies and training cadres throughout the Inner Sphere.",
+    "Icon": "uixTxrIcon_chameleon"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_chameleon",
+  "PrefabIdentifier": "chrprfmech_arcticcheetahbase-001",
+  "PrefabBase": "arcticcheetah",
+  "Tonnage": 50.0,
+  "InitialTonnage": 5.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4124000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 65,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 65,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false,
+          "WeaponMountID": null
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 1.0
+    },
+    {
+      "x": 4.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 13.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 1.0
+    },
+    {
+      "x": 4.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 5.0,
+      "z": 2.0
+    },
+    {
+      "x": -3.0,
+      "y": 5.0,
+      "z": 2.0
+    }
+  ],
+  "VariantName": "CLN-7V",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.52-1.38-1.38"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Training 'Mech",
+  "YangsThoughts": "Hah, well it's been a while.  The Chameleon CLN-7V is not meant to see combat, it's the premiere training 'Mech for the Inner Sphere, and as such is a heat management nightmare.  Can't say I am surprised to see it be used in combat with types who will use whatever they get their hands on though."
+}

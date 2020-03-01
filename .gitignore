@@ -12,3 +12,5 @@ slnx.sqlite
 /.vs/VSWorkspaceState.json
 /ScorchedEarth/Saves
 /CustomProfiler
+/FakeCAB/
+modstate.json
