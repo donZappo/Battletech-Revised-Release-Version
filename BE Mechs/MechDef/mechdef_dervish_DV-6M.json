@@ -392,8 +392,10 @@
       "unit_medium",
       "unit_role_flanker",
       "unit_speed_low",
+      "unit_lance_assassin",
       "unit_indirectFire",
       "unit_range_long",
+      "unit_lance_support",
       "unit_range_medium"
     ]
   }

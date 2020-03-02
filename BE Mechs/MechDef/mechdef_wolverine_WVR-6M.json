@@ -390,7 +390,10 @@
       "unit_release",
       "unit_ready",
       "unit_medium",
+      "unit_armor_high",
+      "unit_lance_tank",
       "unit_role_brawler",
+      "unit_lance_vanguard",
       "unit_speed_low",
       "unit_range_medium"
     ]

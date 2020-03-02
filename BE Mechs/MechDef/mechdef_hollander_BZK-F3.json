@@ -315,7 +315,8 @@
       "unit_light",
       "unit_role_sniper",
       "unit_range_long",
-      "unit_speed_low"
+      "unit_speed_low",
+      "unit_lance_assassin"
     ]
   }
 }
