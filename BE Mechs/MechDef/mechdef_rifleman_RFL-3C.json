@@ -279,7 +279,9 @@
     "items": [
       "unit_release",
       "unit_heavy",
-      "unit_role_flanker"
+      "unit_role_flanker",
+      "unit_speed_low",
+      "unit_range_medium"
     ]
   }
 }

@@ -345,7 +345,10 @@
     "items": [
       "unit_release",
       "unit_medium",
-      "unit_role_brawler"
+      "unit_role_brawler",
+      "unit_speed_low",
+      "unit_range_medium",
+      "unit_range_short"
     ]
   }
 }

@@ -334,7 +334,8 @@
     "items": [
       "unit_release",
       "unit_medium",
-      "unit_role_flanker"
+      "unit_role_flanker",
+      "unit_speed_low"
     ]
   }
 }

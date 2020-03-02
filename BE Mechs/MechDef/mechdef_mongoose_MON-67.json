@@ -312,7 +312,10 @@
     "items": [
       "unit_release",
       "unit_light",
-      "unit_role_scout"
+      "unit_role_scout",
+      "unit_speed_high",
+      "unit_range_medium",
+      "unit_range_short"
     ]
   }
 }

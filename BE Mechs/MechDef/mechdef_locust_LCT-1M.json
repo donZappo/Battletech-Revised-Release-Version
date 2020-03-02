@@ -290,7 +290,11 @@
     "items": [
       "unit_release",
       "unit_light",
-      "unit_role_scout"
+      "unit_role_scout",
+      "unit_speed_high",
+      "unit_indirectFire",
+      "unit_range_long",
+      "unit_range_medium"
     ]
   }
 }

@@ -499,7 +499,9 @@
     "items": [
       "unit_release",
       "unit_assault",
-      "unit_role_brawler"
+      "unit_role_brawler",
+      "unit_speed_low",
+      "unit_range_medium"
     ]
   }
 }
