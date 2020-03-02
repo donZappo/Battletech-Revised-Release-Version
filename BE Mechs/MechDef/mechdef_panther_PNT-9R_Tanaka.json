@@ -410,8 +410,9 @@
   "MechTags": {
     "items": [
       "unit_release",
+      "unit_ready",
       "unit_light",
-      "unit_role_brawler",
+      "unit_role_flanker",
       "unit_speed_low",
       "unit_range_medium"
     ]
