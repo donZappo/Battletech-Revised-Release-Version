@@ -15,20 +15,12 @@
 	"DLL": "XLRP_Core.dll",
 	"DataAddendumEntries": [
 		{
-			"name": "BattleTech.FactionEnumeration",
-			"path": "Faction.json"
-		},
-		{
 			"name": "BattleTech.AmmoCategoryEnumeration",
 			"path": "AmmoCategory.json"
 		},
 		{
 			"name": "BattleTech.WeaponCategoryEnumeration",
 			"path": "WeaponCategory.json"
-		},
-		{
-			"name": "BattleTech.ContractTypeEnumeration",
-			"path": "ContractType.json"
 		}
 	],
 	"Settings": {
