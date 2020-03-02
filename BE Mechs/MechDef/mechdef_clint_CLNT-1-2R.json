@@ -278,7 +278,8 @@
   "MechTags": {
     "items": [
       "unit_release",
-      "unit_light"
+      "unit_light",
+      "unit_role_scout"
     ]
   }
 }

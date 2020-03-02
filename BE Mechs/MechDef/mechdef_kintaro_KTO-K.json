@@ -399,7 +399,8 @@
   "MechTags": {
     "items": [
       "unit_release",
-      "unit_medium"
+      "unit_medium",
+      "unit_role_flanker"
     ]
   }
 }

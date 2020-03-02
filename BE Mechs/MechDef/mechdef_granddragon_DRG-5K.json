@@ -322,7 +322,8 @@
   "MechTags": {
     "items": [
       "unit_release",
-      "unit_heavy"
+      "unit_heavy",
+      "unit_role_scout"
     ]
   }
 }

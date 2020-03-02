@@ -311,7 +311,8 @@
   "MechTags": {
     "items": [
       "unit_release",
-      ""
+      "",
+      "unit_role_scout"
     ]
   }
 }

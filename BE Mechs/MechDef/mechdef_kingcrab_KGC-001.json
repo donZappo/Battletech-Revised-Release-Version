@@ -377,7 +377,8 @@
   "MechTags": {
     "items": [
       "unit_release",
-      "unit_assault"
+      "unit_assault",
+      "unit_role_sniper"
     ]
   }
 }
