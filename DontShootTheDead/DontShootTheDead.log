@@ -1,7 +1,0 @@
-[DontShootTheDead @ 3/2/2020 8:05:54 PM] CLEANED UP
-----------------------------------------------------------------------------------------------------
-[DontShootTheDead @ 3/2/2020 8:05:54 PM] EXCEPTION:
-Message: Sequence contains no elements<br/>
-StackTrace:   at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00010] in <1b13ba6391c74847bbc3eddc86df7eee>:0 
-  at Logger.OverrideDebugLevel (System.String modName) [0x0003b] in <5dab2354d6bf479ab9a13ceb57a213ff>:0 
-----------------------------------------------------------------------------------------------------

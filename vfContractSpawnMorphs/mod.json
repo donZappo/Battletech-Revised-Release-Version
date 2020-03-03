@@ -1,0 +1,21 @@
+﻿{
+	"Name": "vfBattleTechMod-ContractSpawnMorphs",
+	"Author": "vengefire",
+	"Website": "https://github.com/vengefire/",
+
+	"Enabled": true,
+	"Hidden": false,
+	"DependsOn": [],
+	"CustomResourceTypes": [],
+	"DLL": "vfBattleTechMod_ContractSpawnMorphs.dll",
+
+	"Manifest": [
+	],
+
+	"Settings": {
+		"SomeCoolSetting": "DefaultCoolSetting",
+		"Procedurally Morph Contract Unit Spawns": {
+			"Enabled": true
+		}
+	}
+}

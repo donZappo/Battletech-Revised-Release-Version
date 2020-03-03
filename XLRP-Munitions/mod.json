@@ -12,12 +12,15 @@
   "Manifest": [
     {
       "Type": "AmmunitionDef",
-      "Path": "ammunition",
-      "ShouldMergeJSON": true
+      "Path": "ammunition"
     },
     {
       "Type": "AmmunitionBoxDef",
-      "Path": "ammunitionBox",
+      "Path": "ammunitionBox"
+    },
+	{
+      "Type": "AmmunitionBoxDef",
+      "Path": "ammunitionBox-merges",
       "ShouldMergeJSON": true
     },
     {
