@@ -1,0 +1,3087 @@
+Initing... C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\CustomActivatableEquipment version: 0.0.0.64
+VFXPhysics->VFXPhysics ignore collisions:True
+VFXPhysics->Terrain ignore collisions:False
+VFXPhysics->Utility ignore collisions:True
+VFXPhysics->Obstruction ignore collisions:True
+VFXPhysics->Combatant ignore collisions:False
+VFXPhysics->VFXOnly ignore collisions:False
+VFXPhysics->Decal ignore collisions:True
+VFXPhysics->Light ignore collisions:True
+VFXPhysics->World ignore collisions:True
+VFXPhysics->UI_InWorld ignore collisions:True
+VFXPhysics->UI_IgnoreMouseEvents ignore collisions:True
+VFXPhysics->Characters ignore collisions:False
+VFXPhysics->Space ignore collisions:True
+VFXPhysics->Road ignore collisions:True
+VFXPhysics->VFXPhysicsActive ignore collisions:True
+VFXPhysics->Reflector ignore collisions:True
+VFXPhysics->Head ignore collisions:True
+VFXPhysics->Starmap ignore collisions:True
+VFXPhysics->NoCollision ignore collisions:True
+VFXPhysics->NewTerrain ignore collisions:False
+VFXPhysics->ForceMouseEvents ignore collisions:True
+VFXPhysics-> ignore collisions:False
+VFXPhysics-> ignore collisions:False
+VFXPhysics-> ignore collisions:False
+Terrain->VFXPhysics ignore collisions:False
+Terrain->Terrain ignore collisions:False
+Terrain->Utility ignore collisions:False
+Terrain->Obstruction ignore collisions:False
+Terrain->Combatant ignore collisions:False
+Terrain->VFXOnly ignore collisions:True
+Terrain->Decal ignore collisions:False
+Terrain->Light ignore collisions:False
+Terrain->World ignore collisions:False
+Terrain->UI_InWorld ignore collisions:False
+Terrain->UI_IgnoreMouseEvents ignore collisions:False
+Terrain->Characters ignore collisions:False
+Terrain->Space ignore collisions:False
+Terrain->Road ignore collisions:False
+Terrain->VFXPhysicsActive ignore collisions:False
+Terrain->Reflector ignore collisions:False
+Terrain->Head ignore collisions:False
+Terrain->Starmap ignore collisions:False
+Terrain->NoCollision ignore collisions:True
+Terrain->NewTerrain ignore collisions:False
+Terrain->ForceMouseEvents ignore collisions:True
+Terrain-> ignore collisions:False
+Terrain-> ignore collisions:False
+Terrain-> ignore collisions:False
+Utility->VFXPhysics ignore collisions:True
+Utility->Terrain ignore collisions:False
+Utility->Utility ignore collisions:False
+Utility->Obstruction ignore collisions:False
+Utility->Combatant ignore collisions:False
+Utility->VFXOnly ignore collisions:True
+Utility->Decal ignore collisions:False
+Utility->Light ignore collisions:False
+Utility->World ignore collisions:False
+Utility->UI_InWorld ignore collisions:False
+Utility->UI_IgnoreMouseEvents ignore collisions:False
+Utility->Characters ignore collisions:False
+Utility->Space ignore collisions:False
+Utility->Road ignore collisions:False
+Utility->VFXPhysicsActive ignore collisions:True
+Utility->Reflector ignore collisions:False
+Utility->Head ignore collisions:False
+Utility->Starmap ignore collisions:False
+Utility->NoCollision ignore collisions:True
+Utility->NewTerrain ignore collisions:False
+Utility->ForceMouseEvents ignore collisions:True
+Utility-> ignore collisions:False
+Utility-> ignore collisions:False
+Utility-> ignore collisions:False
+Obstruction->VFXPhysics ignore collisions:True
+Obstruction->Terrain ignore collisions:False
+Obstruction->Utility ignore collisions:False
+Obstruction->Obstruction ignore collisions:False
+Obstruction->Combatant ignore collisions:False
+Obstruction->VFXOnly ignore collisions:True
+Obstruction->Decal ignore collisions:False
+Obstruction->Light ignore collisions:False
+Obstruction->World ignore collisions:False
+Obstruction->UI_InWorld ignore collisions:False
+Obstruction->UI_IgnoreMouseEvents ignore collisions:False
+Obstruction->Characters ignore collisions:False
+Obstruction->Space ignore collisions:False
+Obstruction->Road ignore collisions:False
+Obstruction->VFXPhysicsActive ignore collisions:False
+Obstruction->Reflector ignore collisions:False
+Obstruction->Head ignore collisions:False
+Obstruction->Starmap ignore collisions:False
+Obstruction->NoCollision ignore collisions:True
+Obstruction->NewTerrain ignore collisions:False
+Obstruction->ForceMouseEvents ignore collisions:True
+Obstruction-> ignore collisions:False
+Obstruction-> ignore collisions:False
+Obstruction-> ignore collisions:False
+Combatant->VFXPhysics ignore collisions:False
+Combatant->Terrain ignore collisions:False
+Combatant->Utility ignore collisions:False
+Combatant->Obstruction ignore collisions:False
+Combatant->Combatant ignore collisions:False
+Combatant->VFXOnly ignore collisions:True
+Combatant->Decal ignore collisions:False
+Combatant->Light ignore collisions:False
+Combatant->World ignore collisions:False
+Combatant->UI_InWorld ignore collisions:False
+Combatant->UI_IgnoreMouseEvents ignore collisions:False
+Combatant->Characters ignore collisions:False
+Combatant->Space ignore collisions:False
+Combatant->Road ignore collisions:False
+Combatant->VFXPhysicsActive ignore collisions:True
+Combatant->Reflector ignore collisions:False
+Combatant->Head ignore collisions:False
+Combatant->Starmap ignore collisions:False
+Combatant->NoCollision ignore collisions:True
+Combatant->NewTerrain ignore collisions:False
+Combatant->ForceMouseEvents ignore collisions:True
+Combatant-> ignore collisions:False
+Combatant-> ignore collisions:False
+Combatant-> ignore collisions:False
+VFXOnly->VFXPhysics ignore collisions:False
+VFXOnly->Terrain ignore collisions:True
+VFXOnly->Utility ignore collisions:True
+VFXOnly->Obstruction ignore collisions:True
+VFXOnly->Combatant ignore collisions:True
+VFXOnly->VFXOnly ignore collisions:True
+VFXOnly->Decal ignore collisions:False
+VFXOnly->Light ignore collisions:False
+VFXOnly->World ignore collisions:False
+VFXOnly->UI_InWorld ignore collisions:False
+VFXOnly->UI_IgnoreMouseEvents ignore collisions:False
+VFXOnly->Characters ignore collisions:False
+VFXOnly->Space ignore collisions:False
+VFXOnly->Road ignore collisions:False
+VFXOnly->VFXPhysicsActive ignore collisions:True
+VFXOnly->Reflector ignore collisions:False
+VFXOnly->Head ignore collisions:False
+VFXOnly->Starmap ignore collisions:False
+VFXOnly->NoCollision ignore collisions:True
+VFXOnly->NewTerrain ignore collisions:False
+VFXOnly->ForceMouseEvents ignore collisions:True
+VFXOnly-> ignore collisions:False
+VFXOnly-> ignore collisions:False
+VFXOnly-> ignore collisions:False
+Decal->VFXPhysics ignore collisions:True
+Decal->Terrain ignore collisions:False
+Decal->Utility ignore collisions:False
+Decal->Obstruction ignore collisions:False
+Decal->Combatant ignore collisions:False
+Decal->VFXOnly ignore collisions:False
+Decal->Decal ignore collisions:False
+Decal->Light ignore collisions:False
+Decal->World ignore collisions:False
+Decal->UI_InWorld ignore collisions:False
+Decal->UI_IgnoreMouseEvents ignore collisions:False
+Decal->Characters ignore collisions:False
+Decal->Space ignore collisions:False
+Decal->Road ignore collisions:False
+Decal->VFXPhysicsActive ignore collisions:True
+Decal->Reflector ignore collisions:False
+Decal->Head ignore collisions:False
+Decal->Starmap ignore collisions:False
+Decal->NoCollision ignore collisions:True
+Decal->NewTerrain ignore collisions:False
+Decal->ForceMouseEvents ignore collisions:True
+Decal-> ignore collisions:False
+Decal-> ignore collisions:False
+Decal-> ignore collisions:False
+Light->VFXPhysics ignore collisions:True
+Light->Terrain ignore collisions:False
+Light->Utility ignore collisions:False
+Light->Obstruction ignore collisions:False
+Light->Combatant ignore collisions:False
+Light->VFXOnly ignore collisions:False
+Light->Decal ignore collisions:False
+Light->Light ignore collisions:False
+Light->World ignore collisions:False
+Light->UI_InWorld ignore collisions:False
+Light->UI_IgnoreMouseEvents ignore collisions:False
+Light->Characters ignore collisions:False
+Light->Space ignore collisions:False
+Light->Road ignore collisions:False
+Light->VFXPhysicsActive ignore collisions:True
+Light->Reflector ignore collisions:False
+Light->Head ignore collisions:False
+Light->Starmap ignore collisions:False
+Light->NoCollision ignore collisions:True
+Light->NewTerrain ignore collisions:False
+Light->ForceMouseEvents ignore collisions:True
+Light-> ignore collisions:False
+Light-> ignore collisions:False
+Light-> ignore collisions:False
+World->VFXPhysics ignore collisions:True
+World->Terrain ignore collisions:False
+World->Utility ignore collisions:False
+World->Obstruction ignore collisions:False
+World->Combatant ignore collisions:False
+World->VFXOnly ignore collisions:False
+World->Decal ignore collisions:False
+World->Light ignore collisions:False
+World->World ignore collisions:False
+World->UI_InWorld ignore collisions:False
+World->UI_IgnoreMouseEvents ignore collisions:False
+World->Characters ignore collisions:False
+World->Space ignore collisions:False
+World->Road ignore collisions:False
+World->VFXPhysicsActive ignore collisions:True
+World->Reflector ignore collisions:False
+World->Head ignore collisions:False
+World->Starmap ignore collisions:False
+World->NoCollision ignore collisions:True
+World->NewTerrain ignore collisions:False
+World->ForceMouseEvents ignore collisions:True
+World-> ignore collisions:False
+World-> ignore collisions:False
+World-> ignore collisions:False
+UI_InWorld->VFXPhysics ignore collisions:True
+UI_InWorld->Terrain ignore collisions:False
+UI_InWorld->Utility ignore collisions:False
+UI_InWorld->Obstruction ignore collisions:False
+UI_InWorld->Combatant ignore collisions:False
+UI_InWorld->VFXOnly ignore collisions:False
+UI_InWorld->Decal ignore collisions:False
+UI_InWorld->Light ignore collisions:False
+UI_InWorld->World ignore collisions:False
+UI_InWorld->UI_InWorld ignore collisions:False
+UI_InWorld->UI_IgnoreMouseEvents ignore collisions:False
+UI_InWorld->Characters ignore collisions:False
+UI_InWorld->Space ignore collisions:False
+UI_InWorld->Road ignore collisions:False
+UI_InWorld->VFXPhysicsActive ignore collisions:True
+UI_InWorld->Reflector ignore collisions:False
+UI_InWorld->Head ignore collisions:False
+UI_InWorld->Starmap ignore collisions:False
+UI_InWorld->NoCollision ignore collisions:True
+UI_InWorld->NewTerrain ignore collisions:False
+UI_InWorld->ForceMouseEvents ignore collisions:True
+UI_InWorld-> ignore collisions:False
+UI_InWorld-> ignore collisions:False
+UI_InWorld-> ignore collisions:False
+UI_IgnoreMouseEvents->VFXPhysics ignore collisions:True
+UI_IgnoreMouseEvents->Terrain ignore collisions:False
+UI_IgnoreMouseEvents->Utility ignore collisions:False
+UI_IgnoreMouseEvents->Obstruction ignore collisions:False
+UI_IgnoreMouseEvents->Combatant ignore collisions:False
+UI_IgnoreMouseEvents->VFXOnly ignore collisions:False
+UI_IgnoreMouseEvents->Decal ignore collisions:False
+UI_IgnoreMouseEvents->Light ignore collisions:False
+UI_IgnoreMouseEvents->World ignore collisions:False
+UI_IgnoreMouseEvents->UI_InWorld ignore collisions:False
+UI_IgnoreMouseEvents->UI_IgnoreMouseEvents ignore collisions:False
+UI_IgnoreMouseEvents->Characters ignore collisions:False
+UI_IgnoreMouseEvents->Space ignore collisions:False
+UI_IgnoreMouseEvents->Road ignore collisions:False
+UI_IgnoreMouseEvents->VFXPhysicsActive ignore collisions:True
+UI_IgnoreMouseEvents->Reflector ignore collisions:False
+UI_IgnoreMouseEvents->Head ignore collisions:False
+UI_IgnoreMouseEvents->Starmap ignore collisions:False
+UI_IgnoreMouseEvents->NoCollision ignore collisions:True
+UI_IgnoreMouseEvents->NewTerrain ignore collisions:False
+UI_IgnoreMouseEvents->ForceMouseEvents ignore collisions:True
+UI_IgnoreMouseEvents-> ignore collisions:False
+UI_IgnoreMouseEvents-> ignore collisions:False
+UI_IgnoreMouseEvents-> ignore collisions:False
+Characters->VFXPhysics ignore collisions:False
+Characters->Terrain ignore collisions:False
+Characters->Utility ignore collisions:False
+Characters->Obstruction ignore collisions:False
+Characters->Combatant ignore collisions:False
+Characters->VFXOnly ignore collisions:False
+Characters->Decal ignore collisions:False
+Characters->Light ignore collisions:False
+Characters->World ignore collisions:False
+Characters->UI_InWorld ignore collisions:False
+Characters->UI_IgnoreMouseEvents ignore collisions:False
+Characters->Characters ignore collisions:False
+Characters->Space ignore collisions:False
+Characters->Road ignore collisions:False
+Characters->VFXPhysicsActive ignore collisions:True
+Characters->Reflector ignore collisions:False
+Characters->Head ignore collisions:False
+Characters->Starmap ignore collisions:False
+Characters->NoCollision ignore collisions:True
+Characters->NewTerrain ignore collisions:False
+Characters->ForceMouseEvents ignore collisions:True
+Characters-> ignore collisions:False
+Characters-> ignore collisions:False
+Characters-> ignore collisions:False
+Space->VFXPhysics ignore collisions:True
+Space->Terrain ignore collisions:False
+Space->Utility ignore collisions:False
+Space->Obstruction ignore collisions:False
+Space->Combatant ignore collisions:False
+Space->VFXOnly ignore collisions:False
+Space->Decal ignore collisions:False
+Space->Light ignore collisions:False
+Space->World ignore collisions:False
+Space->UI_InWorld ignore collisions:False
+Space->UI_IgnoreMouseEvents ignore collisions:False
+Space->Characters ignore collisions:False
+Space->Space ignore collisions:False
+Space->Road ignore collisions:False
+Space->VFXPhysicsActive ignore collisions:True
+Space->Reflector ignore collisions:False
+Space->Head ignore collisions:False
+Space->Starmap ignore collisions:False
+Space->NoCollision ignore collisions:True
+Space->NewTerrain ignore collisions:False
+Space->ForceMouseEvents ignore collisions:True
+Space-> ignore collisions:False
+Space-> ignore collisions:False
+Space-> ignore collisions:False
+Road->VFXPhysics ignore collisions:True
+Road->Terrain ignore collisions:False
+Road->Utility ignore collisions:False
+Road->Obstruction ignore collisions:False
+Road->Combatant ignore collisions:False
+Road->VFXOnly ignore collisions:False
+Road->Decal ignore collisions:False
+Road->Light ignore collisions:False
+Road->World ignore collisions:False
+Road->UI_InWorld ignore collisions:False
+Road->UI_IgnoreMouseEvents ignore collisions:False
+Road->Characters ignore collisions:False
+Road->Space ignore collisions:False
+Road->Road ignore collisions:False
+Road->VFXPhysicsActive ignore collisions:True
+Road->Reflector ignore collisions:False
+Road->Head ignore collisions:False
+Road->Starmap ignore collisions:False
+Road->NoCollision ignore collisions:True
+Road->NewTerrain ignore collisions:False
+Road->ForceMouseEvents ignore collisions:True
+Road-> ignore collisions:False
+Road-> ignore collisions:False
+Road-> ignore collisions:False
+VFXPhysicsActive->VFXPhysics ignore collisions:True
+VFXPhysicsActive->Terrain ignore collisions:False
+VFXPhysicsActive->Utility ignore collisions:True
+VFXPhysicsActive->Obstruction ignore collisions:False
+VFXPhysicsActive->Combatant ignore collisions:True
+VFXPhysicsActive->VFXOnly ignore collisions:True
+VFXPhysicsActive->Decal ignore collisions:True
+VFXPhysicsActive->Light ignore collisions:True
+VFXPhysicsActive->World ignore collisions:True
+VFXPhysicsActive->UI_InWorld ignore collisions:True
+VFXPhysicsActive->UI_IgnoreMouseEvents ignore collisions:True
+VFXPhysicsActive->Characters ignore collisions:True
+VFXPhysicsActive->Space ignore collisions:True
+VFXPhysicsActive->Road ignore collisions:True
+VFXPhysicsActive->VFXPhysicsActive ignore collisions:True
+VFXPhysicsActive->Reflector ignore collisions:False
+VFXPhysicsActive->Head ignore collisions:False
+VFXPhysicsActive->Starmap ignore collisions:False
+VFXPhysicsActive->NoCollision ignore collisions:True
+VFXPhysicsActive->NewTerrain ignore collisions:False
+VFXPhysicsActive->ForceMouseEvents ignore collisions:True
+VFXPhysicsActive-> ignore collisions:False
+VFXPhysicsActive-> ignore collisions:False
+VFXPhysicsActive-> ignore collisions:False
+Reflector->VFXPhysics ignore collisions:True
+Reflector->Terrain ignore collisions:False
+Reflector->Utility ignore collisions:False
+Reflector->Obstruction ignore collisions:False
+Reflector->Combatant ignore collisions:False
+Reflector->VFXOnly ignore collisions:False
+Reflector->Decal ignore collisions:False
+Reflector->Light ignore collisions:False
+Reflector->World ignore collisions:False
+Reflector->UI_InWorld ignore collisions:False
+Reflector->UI_IgnoreMouseEvents ignore collisions:False
+Reflector->Characters ignore collisions:False
+Reflector->Space ignore collisions:False
+Reflector->Road ignore collisions:False
+Reflector->VFXPhysicsActive ignore collisions:False
+Reflector->Reflector ignore collisions:False
+Reflector->Head ignore collisions:False
+Reflector->Starmap ignore collisions:False
+Reflector->NoCollision ignore collisions:True
+Reflector->NewTerrain ignore collisions:False
+Reflector->ForceMouseEvents ignore collisions:True
+Reflector-> ignore collisions:False
+Reflector-> ignore collisions:False
+Reflector-> ignore collisions:False
+Head->VFXPhysics ignore collisions:True
+Head->Terrain ignore collisions:False
+Head->Utility ignore collisions:False
+Head->Obstruction ignore collisions:False
+Head->Combatant ignore collisions:False
+Head->VFXOnly ignore collisions:False
+Head->Decal ignore collisions:False
+Head->Light ignore collisions:False
+Head->World ignore collisions:False
+Head->UI_InWorld ignore collisions:False
+Head->UI_IgnoreMouseEvents ignore collisions:False
+Head->Characters ignore collisions:False
+Head->Space ignore collisions:False
+Head->Road ignore collisions:False
+Head->VFXPhysicsActive ignore collisions:False
+Head->Reflector ignore collisions:False
+Head->Head ignore collisions:False
+Head->Starmap ignore collisions:False
+Head->NoCollision ignore collisions:True
+Head->NewTerrain ignore collisions:False
+Head->ForceMouseEvents ignore collisions:True
+Head-> ignore collisions:False
+Head-> ignore collisions:False
+Head-> ignore collisions:False
+Starmap->VFXPhysics ignore collisions:True
+Starmap->Terrain ignore collisions:False
+Starmap->Utility ignore collisions:False
+Starmap->Obstruction ignore collisions:False
+Starmap->Combatant ignore collisions:False
+Starmap->VFXOnly ignore collisions:False
+Starmap->Decal ignore collisions:False
+Starmap->Light ignore collisions:False
+Starmap->World ignore collisions:False
+Starmap->UI_InWorld ignore collisions:False
+Starmap->UI_IgnoreMouseEvents ignore collisions:False
+Starmap->Characters ignore collisions:False
+Starmap->Space ignore collisions:False
+Starmap->Road ignore collisions:False
+Starmap->VFXPhysicsActive ignore collisions:False
+Starmap->Reflector ignore collisions:False
+Starmap->Head ignore collisions:False
+Starmap->Starmap ignore collisions:False
+Starmap->NoCollision ignore collisions:True
+Starmap->NewTerrain ignore collisions:False
+Starmap->ForceMouseEvents ignore collisions:True
+Starmap-> ignore collisions:False
+Starmap-> ignore collisions:False
+Starmap-> ignore collisions:False
+NoCollision->VFXPhysics ignore collisions:True
+NoCollision->Terrain ignore collisions:True
+NoCollision->Utility ignore collisions:True
+NoCollision->Obstruction ignore collisions:True
+NoCollision->Combatant ignore collisions:True
+NoCollision->VFXOnly ignore collisions:True
+NoCollision->Decal ignore collisions:True
+NoCollision->Light ignore collisions:True
+NoCollision->World ignore collisions:True
+NoCollision->UI_InWorld ignore collisions:True
+NoCollision->UI_IgnoreMouseEvents ignore collisions:True
+NoCollision->Characters ignore collisions:True
+NoCollision->Space ignore collisions:True
+NoCollision->Road ignore collisions:True
+NoCollision->VFXPhysicsActive ignore collisions:True
+NoCollision->Reflector ignore collisions:True
+NoCollision->Head ignore collisions:True
+NoCollision->Starmap ignore collisions:True
+NoCollision->NoCollision ignore collisions:True
+NoCollision->NewTerrain ignore collisions:False
+NoCollision->ForceMouseEvents ignore collisions:True
+NoCollision-> ignore collisions:False
+NoCollision-> ignore collisions:False
+NoCollision-> ignore collisions:False
+NewTerrain->VFXPhysics ignore collisions:False
+NewTerrain->Terrain ignore collisions:False
+NewTerrain->Utility ignore collisions:False
+NewTerrain->Obstruction ignore collisions:False
+NewTerrain->Combatant ignore collisions:False
+NewTerrain->VFXOnly ignore collisions:False
+NewTerrain->Decal ignore collisions:False
+NewTerrain->Light ignore collisions:False
+NewTerrain->World ignore collisions:False
+NewTerrain->UI_InWorld ignore collisions:False
+NewTerrain->UI_IgnoreMouseEvents ignore collisions:False
+NewTerrain->Characters ignore collisions:False
+NewTerrain->Space ignore collisions:False
+NewTerrain->Road ignore collisions:False
+NewTerrain->VFXPhysicsActive ignore collisions:False
+NewTerrain->Reflector ignore collisions:False
+NewTerrain->Head ignore collisions:False
+NewTerrain->Starmap ignore collisions:False
+NewTerrain->NoCollision ignore collisions:False
+NewTerrain->NewTerrain ignore collisions:False
+NewTerrain->ForceMouseEvents ignore collisions:True
+NewTerrain-> ignore collisions:False
+NewTerrain-> ignore collisions:False
+NewTerrain-> ignore collisions:False
+ForceMouseEvents->VFXPhysics ignore collisions:True
+ForceMouseEvents->Terrain ignore collisions:True
+ForceMouseEvents->Utility ignore collisions:True
+ForceMouseEvents->Obstruction ignore collisions:True
+ForceMouseEvents->Combatant ignore collisions:True
+ForceMouseEvents->VFXOnly ignore collisions:True
+ForceMouseEvents->Decal ignore collisions:True
+ForceMouseEvents->Light ignore collisions:True
+ForceMouseEvents->World ignore collisions:True
+ForceMouseEvents->UI_InWorld ignore collisions:True
+ForceMouseEvents->UI_IgnoreMouseEvents ignore collisions:True
+ForceMouseEvents->Characters ignore collisions:True
+ForceMouseEvents->Space ignore collisions:True
+ForceMouseEvents->Road ignore collisions:True
+ForceMouseEvents->VFXPhysicsActive ignore collisions:True
+ForceMouseEvents->Reflector ignore collisions:True
+ForceMouseEvents->Head ignore collisions:True
+ForceMouseEvents->Starmap ignore collisions:True
+ForceMouseEvents->NoCollision ignore collisions:True
+ForceMouseEvents->NewTerrain ignore collisions:True
+ForceMouseEvents->ForceMouseEvents ignore collisions:True
+ForceMouseEvents-> ignore collisions:False
+ForceMouseEvents-> ignore collisions:False
+ForceMouseEvents-> ignore collisions:False
+->VFXPhysics ignore collisions:False
+->Terrain ignore collisions:False
+->Utility ignore collisions:False
+->Obstruction ignore collisions:False
+->Combatant ignore collisions:False
+->VFXOnly ignore collisions:False
+->Decal ignore collisions:False
+->Light ignore collisions:False
+->World ignore collisions:False
+->UI_InWorld ignore collisions:False
+->UI_IgnoreMouseEvents ignore collisions:False
+->Characters ignore collisions:False
+->Space ignore collisions:False
+->Road ignore collisions:False
+->VFXPhysicsActive ignore collisions:False
+->Reflector ignore collisions:False
+->Head ignore collisions:False
+->Starmap ignore collisions:False
+->NoCollision ignore collisions:False
+->NewTerrain ignore collisions:False
+->ForceMouseEvents ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+->VFXPhysics ignore collisions:False
+->Terrain ignore collisions:False
+->Utility ignore collisions:False
+->Obstruction ignore collisions:False
+->Combatant ignore collisions:False
+->VFXOnly ignore collisions:False
+->Decal ignore collisions:False
+->Light ignore collisions:False
+->World ignore collisions:False
+->UI_InWorld ignore collisions:False
+->UI_IgnoreMouseEvents ignore collisions:False
+->Characters ignore collisions:False
+->Space ignore collisions:False
+->Road ignore collisions:False
+->VFXPhysicsActive ignore collisions:False
+->Reflector ignore collisions:False
+->Head ignore collisions:False
+->Starmap ignore collisions:False
+->NoCollision ignore collisions:False
+->NewTerrain ignore collisions:False
+->ForceMouseEvents ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+->VFXPhysics ignore collisions:False
+->Terrain ignore collisions:False
+->Utility ignore collisions:False
+->Obstruction ignore collisions:False
+->Combatant ignore collisions:False
+->VFXOnly ignore collisions:False
+->Decal ignore collisions:False
+->Light ignore collisions:False
+->World ignore collisions:False
+->UI_InWorld ignore collisions:False
+->UI_IgnoreMouseEvents ignore collisions:False
+->Characters ignore collisions:False
+->Space ignore collisions:False
+->Road ignore collisions:False
+->VFXPhysicsActive ignore collisions:False
+->Reflector ignore collisions:False
+->Head ignore collisions:False
+->Starmap ignore collisions:False
+->NoCollision ignore collisions:False
+->NewTerrain ignore collisions:False
+->ForceMouseEvents ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+-> ignore collisions:False
+[20:05:54.746]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
+ None
+ Off
+ Loading
+ Loaded
+ Unloading
+[20:06:02.776]FinishedLoading
+ActivatableComponent constructor
+AbstractActor.InitEffectStats Spider:9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_engine_240)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999:Weapon_DFAAttack)
+ not activatable
+Body collider awake Spider:9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999
+registerComponentsForVFX Spider:9d49f203-c8eb-4705-a77e-eb187c3b8dde.9999999999
+ emod_armorslots_standard:a6ab7fdd-3db8-42af-b55a-3424821b21f8
+ emod_structureslots_standard:c729ab12-46c3-4582-a07e-74052ba74cae
+ emod_arm_part_shoulder:df320d8a-20a6-4aef-8ea3-dce0e5e005d1
+ emod_arm_part_upper:e3f741f3-305d-44ea-9393-a4ced4dcd953
+ emod_arm_part_lower:01828fdb-020a-4431-9092-7cd9a51dd6b1
+ emod_arm_part_hand:2d780076-972e-43ff-84cd-863f4d70c73e
+ Gear_JumpJet_Generic_Standard:adbc53bb-cde4-4395-a87f-bedc80bbaae8
+ Gear_JumpJet_Generic_Standard:26a7a78e-047b-4dca-9f70-df02d487bc90
+ Gear_JumpJet_Generic_Standard:21a92549-19ca-47c7-bdc2-d3d775d8af75
+ Gear_JumpJet_Generic_Standard:7ed69853-1b63-45e6-943f-f648bbd31069
+ Gear_JumpJet_Generic_Standard:8556ac07-28da-4088-a0e9-ca5f76bc7b11
+ Gear_JumpJet_Generic_Standard:77b1dd4f-2fd7-4c32-8f9f-c1b24c6cdd15
+ Gear_JumpJet_Generic_Standard:102edbad-0857-485f-a68b-0a31b6d1d15e
+ Gear_JumpJet_Generic_Standard:33efb21f-34e0-4fb9-8a86-891614ccafee
+ emod_arm_part_shoulder:548a4011-d0b1-4c71-a6b1-ecf4f0cead8f
+ emod_arm_part_upper:168e6e1d-0b7b-4a27-913d-5a82e9e6b9a0
+ emod_arm_part_lower:205800d0-1a9d-4ce7-b2e0-8eea1849f1e9
+ emod_arm_part_hand:def00f55-973c-47a2-a92a-e7fa547eaf6a
+ Weapon_Laser_MediumLaser_0-STOCK:c4d9a7aa-111a-472a-b443-7f7ca1f6539e
+ Weapon_Laser_MediumLaser_0-STOCK:a6d3af86-b404-4b34-b7d5-ee2c5a191896
+ Gear_Cockpit_Generic_Standard:4e08bf88-e778-42d2-9181-c2414b811a8f
+ Gear_HeatSink_Generic_Standard:f696bb74-b3ac-4025-b6fb-b48f4d94c170
+ emod_leg_hip:15772dbe-7145-467d-bde5-48c05a5eea37
+ emod_leg_hip:2220ae88-e4d5-46dc-a09d-6a4746a5a6f9
+ emod_engine_240:e6deff39-074c-4c4a-98ad-1c7b21d177b9
+ Gear_Cockpit_SensorsA_Standard:e689f100-8ea8-4398-a688-0a250cf6be5d
+ Gear_Cockpit_SensorsB_Standard:226f5f65-23ed-47c2-9058-fce775e86e0a
+ emod_kit_shs:a95e7236-6144-4cee-81d6-c4dd6a18ccec
+ Gear_Gyro_Generic_Standard:80976de9-b184-42f5-8208-936e852957e3
+ emod_engineslots_std_center:6057b2a0-0e07-4326-a9a5-fdebb0626675
+ emod_engine_cooling:67e965eb-e9f1-4b2c-bc55-7dffc44b28f9
+ emod_leg_upper:9fec8c73-2dd5-4ae1-9951-0bf9e9862c27
+ emod_leg_lower:4603024a-5411-45fb-a74f-cc554369ee40
+ emod_leg_foot:844f51a8-d1ec-49d8-8773-8c3efced29e5
+ emod_leg_upper:61e5fb70-5051-42a7-98eb-b8c48b43272b
+ emod_leg_lower:368b556b-4ee0-4d90-9b24-69e9214d5f88
+ emod_leg_foot:b18ac026-65a9-401f-ae9d-817a39410cc4
+ Mech_Default_Quirk:2a329468-376f-4d1a-a565-0116c1047320
+AbstractActor.InitEffectStats Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_structureslots_endosteel)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_AMS_Cal-Boeing)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Sensor_Beagle_Active_Probe)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:dummyplug)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_SmallLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engine_210)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+registerComponentsForVFX Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+ emod_armorslots_standard:39f90628-648b-4bee-a71f-44e0114453a4
+ emod_structureslots_endosteel:08e451cd-0607-4f03-b8f0-cfcbea28c06e
+ emod_arm_part_shoulder:4a7ab8c4-2f2d-49bb-8016-e579f10539a8
+ emod_arm_part_upper:daa0b1f8-0770-4af1-83bf-001b8d823a49
+ emod_arm_part_lower:b2512e04-3c43-4084-924c-37ea58d9e643
+ Weapon_Flamer_Flamer_0-STOCK:08895ad0-009a-463d-8457-6b6affa874a4
+ Weapon_Laser_MediumLaser_0-STOCK:5175bace-1c5b-4dd4-9378-5c6b52852256
+ Gear_JumpJet_Generic_Standard:2fed8b28-ae93-4656-90c5-8c91bbb4ac40
+ Gear_JumpJet_Generic_Standard:a45a1881-17f0-4a55-872a-3d2fd3cac612
+ Gear_JumpJet_Generic_Standard:9e38341c-eb95-4935-9732-b61dc9e3c31b
+ Gear_AMS_Cal-Boeing:018dab4a-d9cd-4b7b-8aff-ed1a8d60d053
+ Gear_Sensor_Beagle_Active_Probe:083de2e2-3de8-44f7-bd78-d9e6668ca335
+ dummyplug:0515d6c0-8e02-4ece-9e13-4e1b242fcb42
+ Gear_JumpJet_Generic_Standard:cd4ae265-8115-46ed-8fbd-b7eeb751b271
+ Gear_JumpJet_Generic_Standard:3930cbf1-3e75-4890-a595-73deffa9b56c
+ Gear_JumpJet_Generic_Standard:ce1f702e-9b5e-4ab0-95e1-11f94fb05e83
+ Weapon_Laser_SmallLaser_0-STOCK:7c969dcb-9511-40ce-85e3-29051dd6fae3
+ emod_arm_part_shoulder:44e7074a-ee85-4b6d-9ed2-2e4f2a90ef0f
+ emod_arm_part_upper:aad7d050-e9a1-4ca5-89b3-c4d2509a9f98
+ emod_arm_part_lower:f012cce7-93b0-4fed-85c6-c114d3e55d8e
+ Weapon_Flamer_Flamer_0-STOCK:7d94fd42-95c8-45a4-9723-b0b6af64e79a
+ Weapon_Laser_MediumLaser_0-STOCK:63c565cb-2173-4f4f-a9be-615bb36bde50
+ Weapon_Flamer_Flamer_0-STOCK:5a171156-80e1-42af-b114-ddbee41a53db
+ Weapon_Flamer_Flamer_0-STOCK:afd32710-6508-4385-a584-3b4534681470
+ Gear_Cockpit_Generic_Standard:b4d51666-006b-4d4f-8e26-8a950e866b04
+ emod_leg_hip:47975c81-b714-48f4-a6ca-fd4d64d3677d
+ Gear_HeatSink_Generic_Standard:f1c9d307-be47-48b8-8eaf-fdd9efa095e0
+ emod_leg_hip:30efe75d-0f6e-4beb-994f-da87cfbed8d7
+ Gear_HeatSink_Generic_Standard:de5436c5-f895-472e-b655-b3130772a31a
+ emod_engine_210:e2270069-8406-4a64-b8be-6fca9e1af23d
+ Gear_Cockpit_SensorsA_Standard:25fe0837-25d1-416b-a9ae-60eb90738562
+ Gear_Cockpit_SensorsB_Standard:6d8318fc-494b-4f28-a44b-195f25b36636
+ emod_kit_shs:52f1c373-fde9-4ab7-801c-5dea167ef07c
+ Gear_Gyro_Generic_Standard:c114ae5f-215c-4485-827c-0ad26c53f429
+ emod_engineslots_std_center:b3c727b9-721e-4f27-bcde-67064e1e3caa
+ emod_engine_cooling:dac5b963-bc50-4271-8ec9-cdcd37d693eb
+ emod_leg_upper:78ed1581-067f-4e6c-acc4-cc76034b9983
+ emod_leg_lower:8b39e7cd-2ab6-4891-9d61-a62512b31c4d
+ emod_leg_foot:39832d1b-6351-4e5e-b6d9-288aac3fa2aa
+ emod_leg_upper:d0d55d3c-4a07-482e-8b24-9afd52d09ecd
+ emod_leg_lower:09d10c5c-5ad7-4cdb-a7ff-26cffcaafb69
+ emod_leg_foot:f2a68522-c7c5-459f-833a-e7705a679e61
+ Mech_Default_Quirk:142d6e52-3ad9-4aba-ab8e-e8d08e0215aa
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+AbstractActor.InitEffectStats Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_structureslots_endosteel)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_AMS_Cal-Boeing)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_Sensor_Beagle_Active_Probe)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:dummyplug)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Laser_SmallLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_engine_210)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+registerComponentsForVFX Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+ emod_armorslots_standard:ba4ba767-5522-49d1-a078-b14a19798f64
+ emod_structureslots_endosteel:24ed174d-ecd0-4f87-b47f-65b988b9da28
+ emod_arm_part_shoulder:144dd15d-2382-4f92-8d81-393b8a4e9c8e
+ emod_arm_part_upper:1c0ee58b-3f89-4638-8405-225dcc3a6e18
+ emod_arm_part_lower:6b385540-8b2c-4941-b5dc-797cf4feda97
+ Weapon_Flamer_Flamer_0-STOCK:10cb78a3-b50a-4804-be8b-0f0efbce9fdb
+ Weapon_Laser_MediumLaser_0-STOCK:59f46f6b-97eb-4f2a-9159-5ad224f41852
+ Gear_JumpJet_Generic_Standard:486334d0-c7fd-47de-8a37-516a831c0320
+ Gear_JumpJet_Generic_Standard:ae2e96ab-f0de-43f3-a377-a506ef1afdb0
+ Gear_JumpJet_Generic_Standard:31a5d340-8169-4d45-940e-69f30884a84e
+ Gear_AMS_Cal-Boeing:202b56e5-5313-460a-9b4d-8f8187f3f732
+ Gear_Sensor_Beagle_Active_Probe:534f3e7f-c851-4ff4-ad82-7cc3d3675d09
+ dummyplug:25b6d089-be32-4f13-bbea-020f07d942f2
+ Gear_JumpJet_Generic_Standard:361a0005-7e62-4556-b369-44d1435ada9b
+ Gear_JumpJet_Generic_Standard:11ea80e0-1f51-46bc-a7dc-9526c817e029
+ Gear_JumpJet_Generic_Standard:7d68cad5-bb31-4045-bf37-109b95e2efe2
+ Weapon_Laser_SmallLaser_0-STOCK:b3a42ff9-7b13-40f9-9d66-364bd6d10d4c
+ emod_arm_part_shoulder:2a850217-4d48-4e07-9289-47531375f7e7
+ emod_arm_part_upper:94cf6c5a-eaba-4b10-ac44-ff545d320518
+ emod_arm_part_lower:114cb552-f30f-4e35-ad61-a56a306d9dbf
+ Weapon_Flamer_Flamer_0-STOCK:d7c91731-6cfb-4672-a51b-a53e91bd43e2
+ Weapon_Laser_MediumLaser_0-STOCK:db58ad09-d7c2-425c-901f-6e53f4f811fc
+ Weapon_Flamer_Flamer_0-STOCK:0a10e68a-5c17-4de5-9719-830c0d45569f
+ Weapon_Flamer_Flamer_0-STOCK:98af6017-f7d7-4191-858c-797e2ba5085f
+ Gear_Cockpit_Generic_Standard:cfed7320-fe8c-44df-babc-5cc1a2613da7
+ emod_leg_hip:980fc4f2-c4bc-4558-b240-304defa413f5
+ Gear_HeatSink_Generic_Standard:b3062a3b-0864-42ba-a1aa-c035288c85b3
+ emod_leg_hip:0c46d886-d075-4f97-86e2-15cfcc7fa719
+ Gear_HeatSink_Generic_Standard:c9f9d46f-8dba-48c7-b72c-ba0cc4e3d2a2
+ emod_engine_210:90353894-d1ad-426f-8c60-0770774b6c03
+ Gear_Cockpit_SensorsA_Standard:1628621c-810c-4776-bca4-b3b02a17ad33
+ Gear_Cockpit_SensorsB_Standard:c6f099d8-762e-49b2-a3bf-f4fb0243cffa
+ emod_kit_shs:7b467d02-e916-4824-a166-aa92f4640d3d
+ Gear_Gyro_Generic_Standard:bcd1d069-75bb-4dc1-b372-1cfcb939de31
+ emod_engineslots_std_center:a004fcfd-1d41-4250-8b83-f5be23378710
+ emod_engine_cooling:f2324e9d-6902-4e1b-b597-6ed52d8a5c1f
+ emod_leg_upper:abef1de4-853d-4980-ac36-b3b603469a91
+ emod_leg_lower:48275087-509c-4e97-b0b4-bd3fb6dc7e5d
+ emod_leg_foot:4be79f0f-9389-462a-ac67-b918cb24cd7e
+ emod_leg_upper:9a41e599-f0c0-4135-9a89-6b7b83c16579
+ emod_leg_lower:34f3baa8-194b-4a75-925d-3def76eb34cf
+ emod_leg_foot:1a852bf2-d17a-40e4-a9af-d0a934e68bb5
+ Mech_Default_Quirk:7b3e0c17-e3d1-408b-81bc-2a6b1d1d1a4e
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+AbstractActor.InitEffectStats Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_structureslots_endosteel)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_AMS_Cal-Boeing)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_Sensor_Beagle_Active_Probe)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:dummyplug)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Laser_SmallLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_engine_210)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+registerComponentsForVFX Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+ emod_armorslots_standard:d4e6c6fd-3236-4c54-aebd-bdbf11232fbb
+ emod_structureslots_endosteel:b92e5e32-17a1-4e3a-a9cb-daabbeb4a94c
+ emod_arm_part_shoulder:44be7c44-2785-4967-b3d2-117e8af3909b
+ emod_arm_part_upper:e6753a53-5dad-422a-b9e7-dcff2faff38e
+ emod_arm_part_lower:52e026e6-8a9c-4ead-8432-fa8b56e29775
+ Weapon_Flamer_Flamer_0-STOCK:67aa7006-7804-42cb-9680-a2676e35bbb4
+ Weapon_Laser_MediumLaser_0-STOCK:12a2b4bd-2872-49a2-835d-936cf5fb43e7
+ Gear_JumpJet_Generic_Standard:7eaa2a02-6e8a-47a9-ad5f-228c3a5da2db
+ Gear_JumpJet_Generic_Standard:7f340562-b1ff-46c7-9837-040c6430d1de
+ Gear_JumpJet_Generic_Standard:834db202-00a2-4342-bb61-900105cdaa84
+ Gear_AMS_Cal-Boeing:fa8d7170-a9d6-4140-bfab-fc6921d71788
+ Gear_Sensor_Beagle_Active_Probe:f651a346-2fc3-496c-ac52-a4a7cf169648
+ dummyplug:cfdf179c-dcbe-44ff-a7e6-69c3eebdf446
+ Gear_JumpJet_Generic_Standard:5c50cc0e-d1a8-4cae-a137-b7e6b5210f66
+ Gear_JumpJet_Generic_Standard:3148ecf7-195f-40bc-a081-b65f9a3fb3ec
+ Gear_JumpJet_Generic_Standard:e5cd7b19-e3c1-41c4-b998-bdfd292d4e51
+ Weapon_Laser_SmallLaser_0-STOCK:8d4ed9cb-5e5b-4803-a2ea-fa7cc12ce60b
+ emod_arm_part_shoulder:ed3e3d68-2612-4578-a535-42c7bb1da912
+ emod_arm_part_upper:76b6f794-529d-48be-ad8c-900e741dcbcf
+ emod_arm_part_lower:1ec96088-94d9-4f3e-b67a-46839bfaa67b
+ Weapon_Flamer_Flamer_0-STOCK:0fdd1d28-9e9c-4fbd-8b5e-1f95efa07802
+ Weapon_Laser_MediumLaser_0-STOCK:0c292f71-bbb3-4e6d-a865-6f9665326e75
+ Weapon_Flamer_Flamer_0-STOCK:53ba2f39-7814-43aa-9d98-7440a243a872
+ Weapon_Flamer_Flamer_0-STOCK:3260425f-8ce4-4d57-9aab-d84f127eb415
+ Gear_Cockpit_Generic_Standard:f91d4a66-ff44-4d52-8007-6edd19d4e9e9
+ emod_leg_hip:0c0e3f83-37de-4842-bdd1-27b2d9d412ef
+ Gear_HeatSink_Generic_Standard:679b361b-064a-4137-bea1-7a46026a8e32
+ emod_leg_hip:02456f86-8124-4ac1-945d-1c227f8ab364
+ Gear_HeatSink_Generic_Standard:eccee319-8973-4914-ad2f-be16e27267df
+ emod_engine_210:471404f3-fe6e-43f8-b72b-124ac1e69daf
+ Gear_Cockpit_SensorsA_Standard:7359b5c7-7d14-4583-9243-0a4aef2b59fa
+ Gear_Cockpit_SensorsB_Standard:04e09661-93ca-40c0-adc4-04049e9c7992
+ emod_kit_shs:6503688f-9028-4a87-a99b-28c502a572ae
+ Gear_Gyro_Generic_Standard:9d8bfe6f-6150-4398-8b6d-bfde73ecb247
+ emod_engineslots_std_center:b3c4c747-9673-433e-92fe-90268671b436
+ emod_engine_cooling:5e4e45a8-a9ad-4034-9a2f-9bacac8133a3
+ emod_leg_upper:5610d62a-16ca-4c3d-a212-8d3caf8c9719
+ emod_leg_lower:3f7f7c93-f3bb-47b1-bb0d-a0815e119e4a
+ emod_leg_foot:4c52deba-0c04-408b-b795-be37182e92ae
+ emod_leg_upper:7741d077-fca7-4b6e-8ffd-9cca6090ab85
+ emod_leg_lower:6ca8bc72-3bb7-4c99-b913-de147cce91cc
+ emod_leg_foot:14107eef-05e3-4924-bff2-7c8decf70192
+ Mech_Default_Quirk:89fad21d-2032-4f33-bfa8-4d7398fdfa57
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+AbstractActor.InitEffectStats Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_structureslots_endosteel)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_AMS_Cal-Boeing)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_Sensor_Beagle_Active_Probe)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:dummyplug)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Laser_SmallLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_Flamer_Flamer_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_engine_210)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(461141c2-f956-49a5-b2c6-6f951b957a94.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+registerComponentsForVFX Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+ emod_armorslots_standard:555007b8-28fd-4a77-b3a1-e6370a4a2f9d
+ emod_structureslots_endosteel:448c420d-c088-4a1e-bb50-230979e60fea
+ emod_arm_part_shoulder:a56dcbb9-8215-4571-8314-a1eadba5e4fc
+ emod_arm_part_upper:ca5f99aa-78f5-4973-98eb-3fe7fc24b0b1
+ emod_arm_part_lower:57ac8de4-9130-4938-ac93-af3f87fce87a
+ Weapon_Flamer_Flamer_0-STOCK:8c5587f6-67ae-4a6e-8395-9142b89992a7
+ Weapon_Laser_MediumLaser_0-STOCK:73b48f91-49d5-4b2f-a05a-cfd520dc1128
+ Gear_JumpJet_Generic_Standard:a61b4bb4-8eb0-4ab7-827e-bcd58b62b814
+ Gear_JumpJet_Generic_Standard:ec5464e5-36ab-47ce-8842-a2c6e41c65b2
+ Gear_JumpJet_Generic_Standard:ffdfe79c-2975-4104-9ed1-b8f30a4984dc
+ Gear_AMS_Cal-Boeing:3f4655c7-76a2-417a-a69e-52be8d48850a
+ Gear_Sensor_Beagle_Active_Probe:0a55cdef-e486-4253-8973-60f86f37137d
+ dummyplug:defc899b-c1d9-401e-af5b-71cedddec325
+ Gear_JumpJet_Generic_Standard:5a2cec96-ace2-40ba-bf21-cf45a882424c
+ Gear_JumpJet_Generic_Standard:6176ea9d-fbd6-4071-8a98-958d076b31c4
+ Gear_JumpJet_Generic_Standard:2516b64e-34c3-46b9-9295-b265580246b0
+ Weapon_Laser_SmallLaser_0-STOCK:67e8a2c8-d5e4-4056-aef5-4ae3d5382259
+ emod_arm_part_shoulder:e2f3836f-1de8-47c7-a52b-25d1c5e797a5
+ emod_arm_part_upper:be46d6f0-ac06-4982-af86-b9be0d8f1c04
+ emod_arm_part_lower:17d01403-000d-4731-8f71-4f0424c201e0
+ Weapon_Flamer_Flamer_0-STOCK:a0829453-78f5-4dcb-b29d-e94d37539534
+ Weapon_Laser_MediumLaser_0-STOCK:3da11906-1cbb-488c-8911-85f16a358324
+ Weapon_Flamer_Flamer_0-STOCK:b2723979-dafa-4368-bfb4-163a8b4d61b9
+ Weapon_Flamer_Flamer_0-STOCK:fe4af8e0-935b-4bfa-86f6-5d32e93d4e16
+ Gear_Cockpit_Generic_Standard:3638b2d8-7308-481f-8f73-7ce5cbe9175b
+ emod_leg_hip:9c743667-b5ab-45a8-a131-2ee4d8d938ab
+ Gear_HeatSink_Generic_Standard:0d499d2b-cb6f-402b-a033-94afcd2f5afe
+ emod_leg_hip:9c04a828-7e72-4946-aa80-07a09bb88221
+ Gear_HeatSink_Generic_Standard:2770cbce-106f-477b-88d9-3646e6f238dc
+ emod_engine_210:76bb9604-f5ca-4231-81cf-a8ba37f00dfa
+ Gear_Cockpit_SensorsA_Standard:376d0274-bd2f-417d-ae55-14e302df0015
+ Gear_Cockpit_SensorsB_Standard:8510e9ad-ffa0-4254-bfef-a4b6c946e93e
+ emod_kit_shs:dc006860-8e29-4fe7-ad0f-6efe67e52484
+ Gear_Gyro_Generic_Standard:a4521cdf-6881-4f33-a357-d8c5ea7d8744
+ emod_engineslots_std_center:c015c9ca-d473-46b7-94e1-d241e5f39b3a
+ emod_engine_cooling:bc924ba3-1d3d-448c-b0c5-ca0971962b13
+ emod_leg_upper:07f88fc4-9ed1-4323-b4a3-3e4ff17d37bc
+ emod_leg_lower:605c6e89-689c-494d-90c7-3e822ea451ba
+ emod_leg_foot:52ccb9b7-6fdd-45bd-bea9-20c8dc837573
+ emod_leg_upper:c85dc30c-e836-4050-a371-69f4db2b8146
+ emod_leg_lower:215f2918-008a-44f0-ae95-36a45836ecf2
+ emod_leg_foot:04116263-7ca2-43ef-ac71-e217bb0f98fb
+ Mech_Default_Quirk:f8e6aa73-d0ce-413c-8974-c5c3aadef904
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+AbstractActor.InitEffectStats Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_SRM)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_SRM_SRM4_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engine_245)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+registerComponentsForVFX Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ emod_armorslots_standard:a087faef-1fd8-46c9-9d6a-a24e95312bc2
+ emod_structureslots_standard:45b1230f-22cb-4537-ae84-1c9db0bd7f81
+ emod_arm_part_shoulder:ab22dd9d-8490-4cc9-a8f6-8aee86cb26ca
+ emod_arm_part_upper:065016c8-be23-4643-99bd-aa86c38365aa
+ Weapon_Laser_MediumLaser_0-STOCK:b0f1b4a6-2495-460f-a460-254dc36f8caa
+ Weapon_Laser_MediumLaser_0-STOCK:5ee7567e-6700-4a07-93fd-4fa9ce13298f
+ Gear_JumpJet_Generic_Standard:76a9f814-46ae-4dd7-9102-ac662848b411
+ Gear_JumpJet_Generic_Standard:3694d8bc-4af7-4b32-b709-e7621222715f
+ Gear_JumpJet_Generic_Standard:adbd4ff3-1148-4f1f-a8aa-b52104260bea
+ Gear_JumpJet_Generic_Standard:bfa9f749-b851-42bc-840c-c85c71ced679
+ Ammo_AmmunitionBox_Generic_SRM:91b1d848-1102-418f-878e-4ec946c83526
+ emod_arm_part_shoulder:1f5fbcc1-d34d-4539-9c46-d157d73b15d2
+ emod_arm_part_upper:bcdf93b9-592c-4bcc-bffc-da8ff0f57ffd
+ Weapon_Laser_MediumLaser_0-STOCK:8c256da5-61d5-4b41-9a57-99f7be357f87
+ Weapon_Laser_MediumLaser_0-STOCK:12bae92e-8159-4613-a3f0-214a5017a7c9
+ Gear_JumpJet_Generic_Standard:87b96cd9-9086-40f5-8450-08b0116a64dc
+ Weapon_SRM_SRM4_0-STOCK:b43b00e1-56dc-4b2d-9783-4a14dea81d81
+ Gear_Cockpit_Generic_Standard:5be0061a-1989-4db3-b2ee-1fcb89efd63b
+ Gear_HeatSink_Generic_Standard:3e82ad77-bac3-46eb-981c-fd1905e59389
+ emod_leg_hip:0628abaa-59b2-4339-b37a-b06a3d0a4bee
+ emod_leg_hip:e95793e2-ebca-48ec-9042-530008232c7f
+ emod_engine_245:1386eb8e-cef0-41cd-82df-5e0229838117
+ Gear_Cockpit_SensorsA_Standard:6750b5a3-2a25-450b-8159-8a151ed9e54e
+ Gear_Cockpit_SensorsB_Standard:ef720938-7c74-438e-9b7c-b37570ca3b81
+ emod_kit_shs:17bde70a-ff01-4600-a2ce-d6461c3cf9b8
+ Gear_Gyro_Generic_Standard:3cf291df-fe83-45ac-8c57-ccc070d32dab
+ emod_engineslots_std_center:c9c7dc93-b75a-41c5-ae8e-0aec3b711d63
+ emod_engine_cooling:3d527954-569c-464b-9e48-3685de7fb3af
+ emod_leg_upper:e440719e-4b2b-4642-b887-37dc5dfdedbc
+ emod_leg_lower:eb234669-bda1-4191-93dd-bbf84d559c76
+ emod_leg_foot:98cf8585-090a-41d1-a306-645c1f801348
+ emod_leg_upper:4f121f58-b6c6-4f84-ade2-a3e8c2eea54f
+ emod_leg_lower:b8d94acf-3ade-457f-9c85-14e3fac408bb
+ emod_leg_foot:0f4edf69-9e6f-4c0e-96b1-e219e0b0ca52
+ Mech_Default_Quirk:2046ce10-d78d-4c05-a052-4b46d1b369d8
+PilotableActorRepresentation.OnPlayerVisibilityChanged Jenner None
+AbstractActor.InitEffectStats Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_LRM_LRM15_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_LRM_LRM15_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_engine_250)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+registerComponentsForVFX Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+ emod_armorslots_standard:ab78081e-d321-440e-a7d0-3963bd459a70
+ emod_structureslots_standard:9bdfeece-2fee-4ef0-a4ed-86e5e93ccce3
+ emod_arm_part_shoulder:b7a66f98-abee-44dc-8e77-61a5e02c0d70
+ emod_arm_part_upper:44c3dce9-0489-423c-a5e9-1e49a527307f
+ emod_arm_part_lower:59609c23-4dcb-4c6b-ba15-5610f9b38aa8
+ emod_arm_part_hand:76ad9be8-d753-4aa4-833e-d2bab560ed72
+ Weapon_LRM_LRM15_0-STOCK:033b312b-94b5-4fba-b6ab-b7f31474b94a
+ Weapon_Laser_MediumLaser_0-STOCK:1d90673b-3797-42c0-941e-1b16ca024c88
+ Ammo_AmmunitionBox_Generic_LRM:7f5c045b-5041-474e-a722-f192ed78dbe4
+ Weapon_LRM_LRM15_0-STOCK:a563d5b0-56d3-4ca4-a06b-fc39d7bfb2f6
+ Ammo_AmmunitionBox_Generic_LRM:7a1b5047-feff-4721-81aa-a0061459463f
+ emod_arm_part_shoulder:2db63159-6a18-4b68-8b64-5a0fb2d6e6c7
+ emod_arm_part_upper:75af4423-0bc3-4e55-acd6-73ad9768ac40
+ emod_arm_part_lower:a34d3c5f-ebf1-402c-82fc-7f1c0447282c
+ Weapon_Laser_MediumLaser_0-STOCK:08b56754-a499-4559-b14c-e43eea36fd6c
+ Weapon_Laser_MediumLaser_0-STOCK:c00c9ee9-ac12-42e3-9e60-6f1ea1e57dbd
+ Gear_Cockpit_Generic_Standard:b5a5cb99-4c72-4f06-a5f1-e5542eb05438
+ emod_leg_hip:308202b8-a6bb-492b-838f-4df8a2ff4149
+ emod_leg_hip:12c266fa-0ba6-4c59-95b6-496aeb7ed193
+ emod_engine_250:76d80292-a8f7-42c9-a609-5eda7ca9b9f8
+ Gear_Cockpit_SensorsA_Standard:67251b80-cc34-4b09-aaf2-04ea3484e902
+ Gear_Cockpit_SensorsB_Standard:211bbd0e-ee86-4b6f-aefc-659911c2d7f7
+ emod_kit_shs:6736e4f9-0aa0-4eb4-b205-785126422432
+ Gear_Gyro_Generic_Standard:c268aac2-06c9-4215-ac23-051a5b927387
+ emod_engineslots_std_center:5d7b6623-ef77-4ca4-ae79-24efc4fe85b4
+ emod_engine_cooling:0302696a-34fb-4abe-970a-df12884913e2
+ emod_leg_upper:c57faed6-e7ea-447f-a3e0-0df7ab9c4e25
+ emod_leg_lower:f4cbdf97-5bc0-4965-807b-f505ce88f8d6
+ emod_leg_foot:ccadad6a-ef47-4cc3-b634-7c98811fb725
+ emod_leg_upper:78794b26-71d9-4fba-af5f-7dab22d09311
+ emod_leg_lower:72411243-20c6-48ef-92d5-a7c8a007c1e1
+ emod_leg_foot:08f2e766-c11c-49ec-b283-655ca304f932
+ Mech_Default_Quirk:48e1517a-5e83-452e-ae4c-d348f1ef7df1
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet None
+AbstractActor.InitEffectStats Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_LRM_LRM15_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_LRM_LRM15_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_engine_250)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+registerComponentsForVFX Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+ emod_armorslots_standard:3390f4d7-2242-453f-bc4d-c4b44166f6c1
+ emod_structureslots_standard:79e28951-4159-451e-9787-f95d3b43cba5
+ emod_arm_part_shoulder:94b19c72-8bca-468d-9459-979372d4c649
+ emod_arm_part_upper:b3bdb9c3-27ba-4f2c-93af-b349763bc1ab
+ emod_arm_part_lower:62999903-e08a-438a-917c-ac0926d92ad5
+ emod_arm_part_hand:fc6b3973-693f-415e-bc45-f164e4cd9833
+ Weapon_LRM_LRM15_0-STOCK:0f9ea72b-369b-44e5-97bd-07bd42bfc67b
+ Weapon_Laser_MediumLaser_0-STOCK:5bd337f2-abe0-47ab-8052-efb21db39aca
+ Ammo_AmmunitionBox_Generic_LRM:28c61615-03e8-4f3c-9a11-619d8afa5aa9
+ Weapon_LRM_LRM15_0-STOCK:f121cb70-5d3e-4319-96b9-c036e70bf8f0
+ Ammo_AmmunitionBox_Generic_LRM:1866b4f6-6639-4a06-9633-b9fca2521a9d
+ emod_arm_part_shoulder:e326c808-e27e-4c92-bb83-5d336cff97d8
+ emod_arm_part_upper:789a93fc-8e5f-49ca-9fc1-9df9f2c0c09d
+ emod_arm_part_lower:995ad20d-0661-4d74-8cb2-947ef0f99004
+ Weapon_Laser_MediumLaser_0-STOCK:479087c7-5a73-446a-9e8f-d684c854299e
+ Weapon_Laser_MediumLaser_0-STOCK:d661fac9-861f-4709-bda9-59494835ab40
+ Gear_Cockpit_Generic_Standard:346e8893-3c5b-41f9-a858-5c8ced16440a
+ emod_leg_hip:087501c4-36d7-4b83-8618-ad5c0bab4992
+ emod_leg_hip:d86717d1-0b79-4549-867f-cacae30823df
+ emod_engine_250:3c3fa693-143d-4ff6-a72b-306b21084931
+ Gear_Cockpit_SensorsA_Standard:0ca1ae26-36b9-4245-864f-765d6d28fd1e
+ Gear_Cockpit_SensorsB_Standard:fdc2c1b2-2aec-4c54-8529-1cf765279b64
+ emod_kit_shs:26660c89-a725-4787-8b63-100e15e0e3d1
+ Gear_Gyro_Generic_Standard:ed5607b7-5524-41bc-9716-537bf694b07a
+ emod_engineslots_std_center:40f429e1-5137-4504-9878-08ad2567ea71
+ emod_engine_cooling:db3f915c-4481-4acc-96e3-14d46bbdcdf3
+ emod_leg_upper:9b741097-3176-4d69-b1d6-615df52666cd
+ emod_leg_lower:aa5a8ca8-4814-4486-bddc-67d899cba6f8
+ emod_leg_foot:3de3a2ff-ff7c-44c5-8a35-ff64ec2a3234
+ emod_leg_upper:4597a408-d179-4d72-9223-b105440cd68f
+ emod_leg_lower:cef93454-b714-42d7-a185-d5a643880195
+ emod_leg_foot:21c4ae71-e130-484f-a478-36075d8b1f9d
+ Mech_Default_Quirk:d5154716-b46d-4730-a587-798c228bbb18
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet None
+AbstractActor.InitEffectStats Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+ StoodUpRollMod 0
+ ArmAbsenceStoodUpMod -0.1
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_armorslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_Autocannon_AC5_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Ammo_AmmunitionBox_Generic_AC5)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_Laser_LargeLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_LRM_LRM15_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_hip)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_HeatSink_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_engine_320)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Mech_Default_Quirk)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_MeleeAttack)
+ not activatable
+MechComponent.InitExplosionStats(a863316c-9380-462e-92b1-96e060e44cea.0:Weapon_DFAAttack)
+ not activatable
+Body collider awake Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+registerComponentsForVFX Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+ emod_armorslots_standard:83824c76-58ab-41a8-a56d-c4c779b5b38f
+ emod_structureslots_standard:ff74680c-ecf8-4d75-bbd8-691a959b71be
+ emod_arm_part_shoulder:58fcb56e-a436-4c90-9a61-bb41f9e9a4e2
+ emod_arm_part_upper:90cab425-c566-4c5e-85b6-d6ed24fe2b3d
+ emod_arm_part_lower:f7f6bc72-fcb9-4cdc-a462-6f906fc36026
+ Weapon_Autocannon_AC5_0-STOCK:d9609305-c07d-49a0-832a-31421ebcb005
+ Ammo_AmmunitionBox_Generic_AC5:c7b9ed96-838f-47c7-8513-facc7c9737d9
+ Weapon_Laser_LargeLaser_0-STOCK:84e30b06-3421-4656-aa84-0f9d37afce5b
+ Weapon_Laser_MediumLaser_0-STOCK:978d68a0-eab5-438f-9ab0-7fe9460124cd
+ Ammo_AmmunitionBox_Generic_LRM:b03fb37c-c7d7-4784-8b97-3929045d4142
+ emod_arm_part_shoulder:2f3c034e-bd09-47fb-a854-a08317ee96f3
+ emod_arm_part_upper:4750ef85-42f4-41d2-b3df-68538227e1ff
+ emod_arm_part_lower:dfa518b4-1223-44d5-b4cf-16e3cf8159e0
+ Weapon_LRM_LRM15_0-STOCK:a5e643eb-b076-48d5-bad5-740c0d9bd5cd
+ Gear_HeatSink_Generic_Standard:99b9160e-79cd-4faa-bc1a-6ebaf349d02c
+ Weapon_Laser_MediumLaser_0-STOCK:4a178415-2614-4cce-a4d0-97aaf45ff92f
+ Gear_Cockpit_Generic_Standard:69520600-0ce4-489e-a257-7c1f8a845b74
+ emod_leg_hip:1b4c3aff-7af5-42d1-8a70-de6e1aea81fc
+ Gear_HeatSink_Generic_Standard:1e15dfe9-86a3-4682-b214-de158eaa4cd6
+ Gear_HeatSink_Generic_Standard:7290f125-8492-4f06-9585-3e59501246d2
+ emod_leg_hip:b641bdde-ab29-4fc2-b05b-9d9b987b8a30
+ Gear_HeatSink_Generic_Standard:e3cb7900-625c-49c3-ae61-5236eeb59fc2
+ Gear_HeatSink_Generic_Standard:db6df557-6995-430c-9d1b-06f9677b067a
+ emod_engine_320:e17d8128-730a-4cdf-ac15-6bc468442231
+ Gear_Cockpit_SensorsA_Standard:8c4dcf0a-2b4d-498f-a1af-850290bb2137
+ Gear_Cockpit_SensorsB_Standard:8eeb096d-7b18-4eca-a478-db47485c1a33
+ emod_kit_shs:61b2c362-c241-4c0f-a077-59b4aa8e60f9
+ Gear_Gyro_Generic_Standard:1072ad5a-f7b0-4f2f-9226-98512e2c3860
+ emod_engineslots_std_center:b5f99d26-ffe0-479f-93cf-003a9cfa23a7
+ emod_engine_cooling:9fccf6ac-0a25-412c-a39a-340ceb598906
+ emod_leg_upper:776ffdb4-e936-4717-94ba-9b4ae35d48a3
+ emod_leg_lower:feccefb5-c26d-4050-951a-db4be6096c07
+ emod_leg_foot:f7b0cb65-e5c7-4e09-aa07-936709f40aab
+ emod_leg_upper:aebe01b3-2417-49ac-a84b-2e0bac7d1824
+ emod_leg_lower:7a1cc1f4-c417-4075-b523-adb34ad8aa7e
+ emod_leg_foot:02090e86-6da8-44da-a4d9-53bc74ea2a2a
+ Mech_Default_Quirk:4429baf3-6e8d-4d22-ac55-b94126604562
+PilotableActorRepresentation.OnPlayerVisibilityChanged Zeus None
+AddInWorldActorElements Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Aura collider awake Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_endosteel
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_AMS_Cal-Boeing
+ component: Gear_Sensor_Beagle_Active_Probe
+ component: dummyplug
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Weapon_Laser_SmallLaser_0-STOCK
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_engine_210
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+Aura collider awake Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_endosteel
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_AMS_Cal-Boeing
+ component: Gear_Sensor_Beagle_Active_Probe
+ component: dummyplug
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Weapon_Laser_SmallLaser_0-STOCK
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_engine_210
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+Aura collider awake Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_endosteel
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_AMS_Cal-Boeing
+ component: Gear_Sensor_Beagle_Active_Probe
+ component: dummyplug
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Weapon_Laser_SmallLaser_0-STOCK
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_engine_210
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+Aura collider awake Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_endosteel
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_AMS_Cal-Boeing
+ component: Gear_Sensor_Beagle_Active_Probe
+ component: dummyplug
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Weapon_Laser_SmallLaser_0-STOCK
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Weapon_Flamer_Flamer_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_engine_210
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Aura collider awake Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_standard
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Gear_JumpJet_Generic_Standard
+ component: Ammo_AmmunitionBox_Generic_SRM
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_JumpJet_Generic_Standard
+ component: Weapon_SRM_SRM4_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: emod_leg_hip
+ component: emod_engine_245
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+Aura collider awake Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_standard
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: emod_arm_part_hand
+ component: Weapon_LRM_LRM15_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_LRM
+ component: Weapon_LRM_LRM15_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_LRM
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: emod_leg_hip
+ component: emod_engine_250
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+Aura collider awake Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_standard
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: emod_arm_part_hand
+ component: Weapon_LRM_LRM15_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_LRM
+ component: Weapon_LRM_LRM15_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_LRM
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: emod_leg_hip
+ component: emod_engine_250
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+AddInWorldActorElements Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+Aura collider awake Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+ component: emod_armorslots_standard
+ component: emod_structureslots_standard
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_Autocannon_AC5_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_AC5
+ component: Weapon_Laser_LargeLaser_0-STOCK
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Ammo_AmmunitionBox_Generic_LRM
+ component: emod_arm_part_shoulder
+ component: emod_arm_part_upper
+ component: emod_arm_part_lower
+ component: Weapon_LRM_LRM15_0-STOCK
+ component: Gear_HeatSink_Generic_Standard
+ component: Weapon_Laser_MediumLaser_0-STOCK
+ component: Gear_Cockpit_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_leg_hip
+ component: Gear_HeatSink_Generic_Standard
+ component: Gear_HeatSink_Generic_Standard
+ component: emod_engine_320
+ component: Gear_Cockpit_SensorsA_Standard
+ component: Gear_Cockpit_SensorsB_Standard
+ component: emod_kit_shs
+ component: Gear_Gyro_Generic_Standard
+ component: emod_engineslots_std_center
+ component: emod_engine_cooling
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: emod_leg_upper
+ component: emod_leg_lower
+ component: emod_leg_foot
+ component: Mech_Default_Quirk
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Firestarter LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Jenner None
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet None
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet None
+PilotableActorRepresentation.OnPlayerVisibilityChanged Zeus None
+PilotableActorRepresentation.OnPlayerVisibilityChanged Jenner LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Trebuchet LOSFull
+PilotableActorRepresentation.OnPlayerVisibilityChanged Zeus LOSFull
+Collision enter Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 -> Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 r:90/41.75875
+Collision enter Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 -> Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 r:90/0
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 r:90/48.1474
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 r:90/41.57129
+Collision enter Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 -> Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 r:90/0
+Collision enter Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 -> Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 r:90/41.75875
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 r:90/24.00091
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 r:90/41.72128
+Collision enter Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/24.00091
+Collision enter Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/48.1474
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/0
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/24.23259
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/72.33611
+Collision enter Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/41.72128
+Collision enter Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/41.57129
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/24.23259
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/0
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/63.60089
+Collision enter Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/86.58556
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/72.33611
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/63.60089
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/0
+Collision enter Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/24.00765
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/41.90743
+Collision enter Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 -> Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 r:90/41.64496
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 r:90/86.58556
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 r:90/24.00765
+Collision enter Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 -> Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 r:90/0
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 r:90/24.7192
+Collision enter Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 -> Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 r:90/24.07545
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 r:90/41.64496
+Collision enter Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 -> Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 r:90/24.07545
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 r:90/42.29911
+Collision enter Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 -> Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 r:90/0
+Collision enter Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/41.90743
+Collision enter Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/24.7192
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/0
+Collision enter Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/42.29911
+Apply aura Sensors from Jenner to Firestarter ally:False
+ Applied effect:AuraEffect_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0_Sensors__0:1
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Firestarter ally:False
+ Applied effect:AuraEffect_226faa53-e63d-4d02-acd7-ff2fd68598f4.0_d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0_Sensors__0:1
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Zeus to Jenner ally:True
+ Floatie add(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Zeus to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Zeus to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Zeus to Zeus ally:True
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Jenner to Firestarter ally:False
+ Applied effect:AuraEffect_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0_Sensors__0:0
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Jenner ally:True
+ Floatie add(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Trebuchet ally:True
+Apply aura Sensors from Trebuchet to Zeus ally:True
+ Floatie add(Zeus FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+Apply aura Sensors from Firestarter to Firestarter ally:True
+Apply aura Sensors from Trebuchet to Jenner ally:True
+ Floatie add(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Trebuchet ally:True
+Apply aura Sensors from Trebuchet to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Trebuchet to Zeus ally:True
+ Floatie add(Zeus FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Jenner to Jenner ally:True
+Apply aura Sensors from Jenner to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Jenner to Trebuchet ally:True
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Jenner to Zeus ally:True
+ Floatie add(Zeus FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Jenner ally:False
+ Applied effect:AuraEffect_d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_Sensors__0:1
+ Floatie add(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Trebuchet ally:False
+ Applied effect:AuraEffect_d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0_226faa53-e63d-4d02-acd7-ff2fd68598f4.0_Sensors__0:1
+ Floatie add(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Firestarter ally:True
+ Floatie add(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Apply aura Sensors from Firestarter to Jenner ally:False
+ Applied effect:AuraEffect_ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_Sensors__0:0
+ Floatie add(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:False
+Aura:Firestarter:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Firestarter:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Firestarter:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Firestarter:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Jenner:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Trebuchet:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Trebuchet:Sensors src:null state:Persistent 90->90 speed:0
+Aura:Zeus:Sensors src:null state:Persistent 90->90 speed:0
+AbstractActor.OnNewRound(Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0)
+ not AI
+CommitDamageData Firestarter:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0)
+ not AI
+CommitDamageData Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0)
+ not AI
+CommitDamageData Firestarter:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0)
+ not AI
+CommitDamageData Firestarter:461141c2-f956-49a5-b2c6-6f951b957a94.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0)
+AI activatable coeffs:Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ visible targets:4
+ offenceCoeff:0.08431818
+ deffenceCoeff:0.5792728
+ heatCoeff:0
+ overheatCoeff:0
+ isAnyLocationExposed:False
+Components:
+ emod_armorslots_standard
+  can't be activated
+ emod_structureslots_standard
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Gear_JumpJet_Generic_Standard
+  can't be activated
+ Gear_JumpJet_Generic_Standard
+  can't be activated
+ Gear_JumpJet_Generic_Standard
+  can't be activated
+ Gear_JumpJet_Generic_Standard
+  can't be activated
+ Ammo_AmmunitionBox_Generic_SRM
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Gear_JumpJet_Generic_Standard
+  can't be activated
+ Weapon_SRM_SRM4_0-STOCK
+  can't be activated
+ Gear_Cockpit_Generic_Standard
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_engine_245
+  can't be activated
+ Gear_Cockpit_SensorsA_Standard
+  can't be activated
+ Gear_Cockpit_SensorsB_Standard
+  can't be activated
+ emod_kit_shs
+  can't be activated
+ Gear_Gyro_Generic_Standard
+  can't be activated
+ emod_engineslots_std_center
+  can't be activated
+ emod_engine_cooling
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ Mech_Default_Quirk
+  can't be activated
+Activation:
+ emod_armorslots_standard
+  not active
+ emod_structureslots_standard
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Gear_JumpJet_Generic_Standard
+  not active
+ Gear_JumpJet_Generic_Standard
+  not active
+ Gear_JumpJet_Generic_Standard
+  not active
+ Gear_JumpJet_Generic_Standard
+  not active
+ Ammo_AmmunitionBox_Generic_SRM
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Gear_JumpJet_Generic_Standard
+  not active
+ Weapon_SRM_SRM4_0-STOCK
+  not active
+ Gear_Cockpit_Generic_Standard
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ emod_leg_hip
+  not active
+ emod_leg_hip
+  not active
+ emod_engine_245
+  not active
+ Gear_Cockpit_SensorsA_Standard
+  not active
+ Gear_Cockpit_SensorsB_Standard
+  not active
+ emod_kit_shs
+  not active
+ Gear_Gyro_Generic_Standard
+  not active
+ emod_engineslots_std_center
+  not active
+ emod_engine_cooling
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ Mech_Default_Quirk
+  not active
+AI activatable time:17 msec
+CommitDamageData Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0)
+AI activatable coeffs:Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+ visible targets:4
+ offenceCoeff:0.1014204
+ deffenceCoeff:0.2397833
+ heatCoeff:0
+ overheatCoeff:0
+ isAnyLocationExposed:False
+Components:
+ emod_armorslots_standard
+  can't be activated
+ emod_structureslots_standard
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ emod_arm_part_hand
+  can't be activated
+ Weapon_LRM_LRM15_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Weapon_LRM_LRM15_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Gear_Cockpit_Generic_Standard
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_engine_250
+  can't be activated
+ Gear_Cockpit_SensorsA_Standard
+  can't be activated
+ Gear_Cockpit_SensorsB_Standard
+  can't be activated
+ emod_kit_shs
+  can't be activated
+ Gear_Gyro_Generic_Standard
+  can't be activated
+ emod_engineslots_std_center
+  can't be activated
+ emod_engine_cooling
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ Mech_Default_Quirk
+  can't be activated
+Activation:
+ emod_armorslots_standard
+  not active
+ emod_structureslots_standard
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ emod_arm_part_hand
+  not active
+ Weapon_LRM_LRM15_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Weapon_LRM_LRM15_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Gear_Cockpit_Generic_Standard
+  not active
+ emod_leg_hip
+  not active
+ emod_leg_hip
+  not active
+ emod_engine_250
+  not active
+ Gear_Cockpit_SensorsA_Standard
+  not active
+ Gear_Cockpit_SensorsB_Standard
+  not active
+ emod_kit_shs
+  not active
+ Gear_Gyro_Generic_Standard
+  not active
+ emod_engineslots_std_center
+  not active
+ emod_engine_cooling
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ Mech_Default_Quirk
+  not active
+AI activatable time:5 msec
+CommitDamageData Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0)
+AI activatable coeffs:Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+ visible targets:4
+ offenceCoeff:0.07990058
+ deffenceCoeff:0.1956167
+ heatCoeff:0
+ overheatCoeff:0
+ isAnyLocationExposed:False
+Components:
+ emod_armorslots_standard
+  can't be activated
+ emod_structureslots_standard
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ emod_arm_part_hand
+  can't be activated
+ Weapon_LRM_LRM15_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Weapon_LRM_LRM15_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Gear_Cockpit_Generic_Standard
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ emod_engine_250
+  can't be activated
+ Gear_Cockpit_SensorsA_Standard
+  can't be activated
+ Gear_Cockpit_SensorsB_Standard
+  can't be activated
+ emod_kit_shs
+  can't be activated
+ Gear_Gyro_Generic_Standard
+  can't be activated
+ emod_engineslots_std_center
+  can't be activated
+ emod_engine_cooling
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ Mech_Default_Quirk
+  can't be activated
+Activation:
+ emod_armorslots_standard
+  not active
+ emod_structureslots_standard
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ emod_arm_part_hand
+  not active
+ Weapon_LRM_LRM15_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Weapon_LRM_LRM15_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Gear_Cockpit_Generic_Standard
+  not active
+ emod_leg_hip
+  not active
+ emod_leg_hip
+  not active
+ emod_engine_250
+  not active
+ Gear_Cockpit_SensorsA_Standard
+  not active
+ Gear_Cockpit_SensorsB_Standard
+  not active
+ emod_kit_shs
+  not active
+ Gear_Gyro_Generic_Standard
+  not active
+ emod_engineslots_std_center
+  not active
+ emod_engine_cooling
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ Mech_Default_Quirk
+  not active
+AI activatable time:5 msec
+CommitDamageData Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0
+ DamagedLocations:
+AbstractActor.OnNewRound(Zeus:a863316c-9380-462e-92b1-96e060e44cea.0)
+AI activatable coeffs:Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+ visible targets:4
+ offenceCoeff:0.1127699
+ deffenceCoeff:0.1875652
+ heatCoeff:0
+ overheatCoeff:0
+ isAnyLocationExposed:False
+Components:
+ emod_armorslots_standard
+  can't be activated
+ emod_structureslots_standard
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ Weapon_Autocannon_AC5_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_AC5
+  can't be activated
+ Weapon_Laser_LargeLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ emod_arm_part_shoulder
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ Weapon_LRM_LRM15_0-STOCK
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ Weapon_Laser_MediumLaser_0-STOCK
+  can't be activated
+ Gear_Cockpit_Generic_Standard
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ emod_leg_hip
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ Gear_HeatSink_Generic_Standard
+  can't be activated
+ emod_engine_320
+  can't be activated
+ Gear_Cockpit_SensorsA_Standard
+  can't be activated
+ Gear_Cockpit_SensorsB_Standard
+  can't be activated
+ emod_kit_shs
+  can't be activated
+ Gear_Gyro_Generic_Standard
+  can't be activated
+ emod_engineslots_std_center
+  can't be activated
+ emod_engine_cooling
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ Mech_Default_Quirk
+  can't be activated
+Activation:
+ emod_armorslots_standard
+  not active
+ emod_structureslots_standard
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ Weapon_Autocannon_AC5_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_AC5
+  not active
+ Weapon_Laser_LargeLaser_0-STOCK
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ emod_arm_part_shoulder
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_lower
+  not active
+ Weapon_LRM_LRM15_0-STOCK
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ Weapon_Laser_MediumLaser_0-STOCK
+  not active
+ Gear_Cockpit_Generic_Standard
+  not active
+ emod_leg_hip
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ emod_leg_hip
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ Gear_HeatSink_Generic_Standard
+  not active
+ emod_engine_320
+  not active
+ Gear_Cockpit_SensorsA_Standard
+  not active
+ Gear_Cockpit_SensorsB_Standard
+  not active
+ emod_kit_shs
+  not active
+ Gear_Gyro_Generic_Standard
+  not active
+ emod_engineslots_std_center
+  not active
+ emod_engine_cooling
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_foot
+  not active
+ Mech_Default_Quirk
+  not active
+AI activatable time:6 msec
+CommitDamageData Zeus:a863316c-9380-462e-92b1-96e060e44cea.0
+ DamagedLocations:
+[20:07:03.645]CombatHUDEquipmentPanel.InitDisplayedEquipment unit:Firestarter pilot:pilot_kbeta_arclight
+ component:emod_armorslots_standard
+  not activatable
+ component:emod_structureslots_endosteel
+  not activatable
+ component:emod_arm_part_shoulder
+  not activatable
+ component:emod_arm_part_upper
+  not activatable
+ component:emod_arm_part_lower
+  not activatable
+ component:Weapon_Flamer_Flamer_0-STOCK
+  not activatable
+ component:Weapon_Laser_MediumLaser_0-STOCK
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Gear_AMS_Cal-Boeing
+  not activatable
+ component:Gear_Sensor_Beagle_Active_Probe
+  have ability
+ component:dummyplug
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Gear_JumpJet_Generic_Standard
+  not activatable
+ component:Weapon_Laser_SmallLaser_0-STOCK
+  not activatable
+ component:emod_arm_part_shoulder
+  not activatable
+ component:emod_arm_part_upper
+  not activatable
+ component:emod_arm_part_lower
+  not activatable
+ component:Weapon_Flamer_Flamer_0-STOCK
+  not activatable
+ component:Weapon_Laser_MediumLaser_0-STOCK
+  not activatable
+ component:Weapon_Flamer_Flamer_0-STOCK
+  not activatable
+ component:Weapon_Flamer_Flamer_0-STOCK
+  not activatable
+ component:Gear_Cockpit_Generic_Standard
+  not activatable
+ component:emod_leg_hip
+  not activatable
+ component:Gear_HeatSink_Generic_Standard
+  not activatable
+ component:emod_leg_hip
+  not activatable
+ component:Gear_HeatSink_Generic_Standard
+  not activatable
+ component:emod_engine_210
+  not activatable
+ component:Gear_Cockpit_SensorsA_Standard
+  not activatable
+ component:Gear_Cockpit_SensorsB_Standard
+  not activatable
+ component:emod_kit_shs
+  not activatable
+ component:Gear_Gyro_Generic_Standard
+  not activatable
+ component:emod_engineslots_std_center
+  not activatable
+ component:emod_engine_cooling
+  not activatable
+ component:emod_leg_upper
+  not activatable
+ component:emod_leg_lower
+  not activatable
+ component:emod_leg_foot
+  not activatable
+ component:emod_leg_upper
+  not activatable
+ component:emod_leg_lower
+  not activatable
+ component:emod_leg_foot
+  not activatable
+ component:Mech_Default_Quirk
+  not activatable
+[20:07:03.647]found wp_Slot1 parent:WeaponPanel
+[20:07:03.648]check_Image:RGBA(1.000, 1.000, 1.000, 1.000)
+[20:07:03.649]CombatHUDEquipmentSlotEx.Init Gear_Sensor_Beagle_Active_Probe
+ no extended description:This jury-rigged electronic warfare component was once a LosTech Beagle Active Probe. When activated, the probe performs a Sensor Lock against all enemies within its radius before entering a cooldown state.
+[20:07:03.650]CombatHUDEquipmentSlotEx.InitNewAbilitySlot Gear_Sensor_Beagle_Active_Probe
+[20:07:03.652]found uixPrfPanl_ElectronicWarfareToggles parent:WeaponPanel
+ found CombatHUDEquipmentSlot parent:uixPrfPanl_ElectronicWarfareToggles(Clone)
+[20:07:03.654]CombatHUDEquipmentSlotEx.Init Gear_Sensor_Beagle_Active_Probe abilities:1
+[20:07:06.551]CombatHUDAttackModeSelector.ShowFireButton mode:Engage
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CombatHUDAttackModeSelector_ShowFireButton.Postfix (BattleTech.UI.CombatHUDAttackModeSelector __instance, BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <6e45cb7d34d54b55b4b201a689c9a5a2>:0 
+  at BattleTech.UI.CombatHUDAttackModeSelector.ShowFireButton_Patch1 (System.Object , BattleTech.UI.CombatHUDFireButton+FireMode , System.String , System.Boolean ) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatHUD.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionState.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionStateMove.SetMeleeDest (UnityEngine.Vector3 worldPos) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionStateMoveBase.SetTarget (BattleTech.ICombatant target) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionStateMoveBase.ProcessClickedCombatant (BattleTech.ICombatant combatant) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessClickedActor () [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessInput_Patch1 (System.Object ) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.Update () [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+[20:07:06.553]CombatHUDAttackModeSelector.ShowFireButton mode:Engage
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CombatHUDAttackModeSelector_ShowFireButton.Postfix (BattleTech.UI.CombatHUDAttackModeSelector __instance, BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <6e45cb7d34d54b55b4b201a689c9a5a2>:0 
+  at BattleTech.UI.CombatHUDAttackModeSelector.ShowFireButton_Patch1 (System.Object , BattleTech.UI.CombatHUDFireButton+FireMode , System.String , System.Boolean ) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatHUD.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionState.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionStateMoveBase.SetTarget (BattleTech.ICombatant target) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.SelectionStateMoveBase.ProcessClickedCombatant (BattleTech.ICombatant combatant) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessClickedActor () [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessInput_Patch1 (System.Object ) [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+  at BattleTech.UI.CombatSelectionHandler.Update () [0x00000] in <df116403ef0e4a9a81b6bc12c851913b>:0 
+[20:07:07.584]CombatSelectionHandler.ProcessPressedButtons ActiveState:BattleTech.UI.SelectionStateMove
+ BTN_Charge
+Collision enter Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/84.2483
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0 r:90/84.2483
+Apply aura Sensors from Jenner to Firestarter ally:False
+ Applied effect:AuraEffect_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_Sensors__0:1
+ Floatie add cache(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Firestarter to Jenner ally:False
+ Applied effect:AuraEffect_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_bfdd72f9-395c-4cde-9f2b-dd28505242a1.0_Sensors__0:0
+ Floatie add cache(Jenner FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Collision enter Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/55.8402
+Collision enter Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/80.03429
+Collision enter Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 -> Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 r:90/78.86357
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Trebuchet:226faa53-e63d-4d02-acd7-ff2fd68598f4.0 r:90/55.8402
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Trebuchet:358c5692-25ee-433b-b9ce-bab9ae35528e.0 r:90/78.86357
+Collision enter Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0 -> Zeus:a863316c-9380-462e-92b1-96e060e44cea.0 r:90/80.03429
+Apply aura Sensors from Trebuchet to Firestarter ally:False
+ Applied effect:AuraEffect_226faa53-e63d-4d02-acd7-ff2fd68598f4.0_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_Sensors__0:0
+ Floatie add cache(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Firestarter to Trebuchet ally:False
+ Applied effect:AuraEffect_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_226faa53-e63d-4d02-acd7-ff2fd68598f4.0_Sensors__0:0
+ Floatie add cache(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Firestarter to Trebuchet ally:False
+ Applied effect:AuraEffect_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_358c5692-25ee-433b-b9ce-bab9ae35528e.0_Sensors__0:1
+ Floatie add cache(Trebuchet FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Firestarter to Zeus ally:False
+ Applied effect:AuraEffect_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_a863316c-9380-462e-92b1-96e060e44cea.0_Sensors__0:1
+ Floatie add cache(Zeus FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Trebuchet to Firestarter ally:False
+ Applied effect:AuraEffect_358c5692-25ee-433b-b9ce-bab9ae35528e.0_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_Sensors__0:0
+ Floatie add cache(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+Apply aura Sensors from Zeus to Firestarter ally:False
+ Applied effect:AuraEffect_a863316c-9380-462e-92b1-96e060e44cea.0_ebc06b6a-c5a8-4165-95ce-480bcf335570.0_Sensors__0:0
+ Floatie add cache(Firestarter FloatieAtEndOfMove:True forcedFloatie:False IsInterleaved:True
+ActorMovementSequence.ActorMovementSequence ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Firestarter
+Mech.TakeWeaponDamage Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Mech.TakeWeaponDamage Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Mech.TakeWeaponDamage Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Mech.TakeWeaponDamage Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Mech.TakeWeaponDamage Jenner:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+MechMeleeSequence.CompleteOrders ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Firestarter
+Component:emod_armorslots_standard is active for 0
+rollFail emod_armorslots_standard
+Component fail
+Component:emod_structureslots_endosteel is active for 0
+rollFail emod_structureslots_endosteel
+Component fail
+Component:emod_arm_part_shoulder is active for 0
+rollFail emod_arm_part_shoulder
+Component fail
+Component:emod_arm_part_upper is active for 0
+rollFail emod_arm_part_upper
+Component fail
+Component:emod_arm_part_lower is active for 0
+rollFail emod_arm_part_lower
+Component fail
+Component:Weapon_Flamer_Flamer_0-STOCK is active for 0
+rollFail Weapon_Flamer_Flamer_0-STOCK
+Component fail
+Component:Weapon_Laser_MediumLaser_0-STOCK is active for 0
+rollFail Weapon_Laser_MediumLaser_0-STOCK
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Gear_AMS_Cal-Boeing is active for 0
+rollFail Gear_AMS_Cal-Boeing
+Component fail
+Component:Gear_Sensor_Beagle_Active_Probe is active for 0
+rollFail Gear_Sensor_Beagle_Active_Probe
+Component fail
+Component:dummyplug is active for 0
+rollFail dummyplug
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Gear_JumpJet_Generic_Standard is active for 0
+rollFail Gear_JumpJet_Generic_Standard
+Component fail
+Component:Weapon_Laser_SmallLaser_0-STOCK is active for 0
+rollFail Weapon_Laser_SmallLaser_0-STOCK
+Component fail
+Component:emod_arm_part_shoulder is active for 0
+rollFail emod_arm_part_shoulder
+Component fail
+Component:emod_arm_part_upper is active for 0
+rollFail emod_arm_part_upper
+Component fail
+Component:emod_arm_part_lower is active for 0
+rollFail emod_arm_part_lower
+Component fail
+Component:Weapon_Flamer_Flamer_0-STOCK is active for 0
+rollFail Weapon_Flamer_Flamer_0-STOCK
+Component fail
+Component:Weapon_Laser_MediumLaser_0-STOCK is active for 0
+rollFail Weapon_Laser_MediumLaser_0-STOCK
+Component fail
+Component:Weapon_Flamer_Flamer_0-STOCK is active for 0
+rollFail Weapon_Flamer_Flamer_0-STOCK
+Component fail
+Component:Weapon_Flamer_Flamer_0-STOCK is active for 0
+rollFail Weapon_Flamer_Flamer_0-STOCK
+Component fail
+Component:Gear_Cockpit_Generic_Standard is active for 0
+rollFail Gear_Cockpit_Generic_Standard
+Component fail
+Component:emod_leg_hip is active for 0
+rollFail emod_leg_hip
+Component fail
+Component:Gear_HeatSink_Generic_Standard is active for 0
+rollFail Gear_HeatSink_Generic_Standard
+Component fail
+Component:emod_leg_hip is active for 0
+rollFail emod_leg_hip
+Component fail
+Component:Gear_HeatSink_Generic_Standard is active for 0
+rollFail Gear_HeatSink_Generic_Standard
+Component fail
+Component:emod_engine_210 is active for 0
+rollFail emod_engine_210
+Component fail
+Component:Gear_Cockpit_SensorsA_Standard is active for 0
+rollFail Gear_Cockpit_SensorsA_Standard
+Component fail
+Component:Gear_Cockpit_SensorsB_Standard is active for 0
+rollFail Gear_Cockpit_SensorsB_Standard
+Component fail
+Component:emod_kit_shs is active for 0
+rollFail emod_kit_shs
+Component fail
+Component:Gear_Gyro_Generic_Standard is active for 0
+rollFail Gear_Gyro_Generic_Standard
+Component fail
+Component:emod_engineslots_std_center is active for 0
+rollFail emod_engineslots_std_center
+Component fail
+Component:emod_engine_cooling is active for 0
+rollFail emod_engine_cooling
+Component fail
+Component:emod_leg_upper is active for 0
+rollFail emod_leg_upper
+Component fail
+Component:emod_leg_lower is active for 0
+rollFail emod_leg_lower
+Component fail
+Component:emod_leg_foot is active for 0
+rollFail emod_leg_foot
+Component fail
+Component:emod_leg_upper is active for 0
+rollFail emod_leg_upper
+Component fail
+Component:emod_leg_lower is active for 0
+rollFail emod_leg_lower
+Component fail
+Component:emod_leg_foot is active for 0
+rollFail emod_leg_foot
+Component fail
+Component:Mech_Default_Quirk is active for 0
+rollFail Mech_Default_Quirk
+Component fail
+Mech.ApplyHeatSinks:Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+AbstractActor.OnActivationEnd(Firestarter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0)
+ not AI

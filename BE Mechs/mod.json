@@ -5,7 +5,7 @@
 
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer", "MechEngineer DLC Mechs", "MechEngineer Vanilla Mechs"],
+	"DependsOn": ["CustomComponents", "MechEngineer"],
 	"Manifest": [
     {
       "Type": "ChassisDef",

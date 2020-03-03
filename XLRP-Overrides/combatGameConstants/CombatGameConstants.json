@@ -334,7 +334,7 @@
     "DFAMissedPilotingModifier": 4.0,
     "MeleeDamageMultiplierTurret": 2.0,
     "MeleeDamageMultiplierVehicle": 2.0,
-    "DefaultUnsteadyThreshold": 61.0,
+    "DefaultUnsteadyThreshold": 40.0,
     "MeleeInstabilityNormalMultiplier": 1.5,
     "MeleeInstabilityChargeMultiplier": 1.5,
     "MeleeInstabilityDFAMultiplier": 1.5,

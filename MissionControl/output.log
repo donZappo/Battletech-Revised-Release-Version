@@ -1,0 +1,428 @@
+MissionControl [LOG] Loading MissionControl settings
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Assault_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Heavy_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Light_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Medium_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Assault_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance_Elite'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Heavy_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Light_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Medium_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Reference_Example_Lance'
+MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+MissionControl [LOG] [MainMenuInitPatch Postfix] Patching Init
+MissionControl [DEBUG] [DataManager.LoadCustomContractTypeBuilds] Loaded contract type build 'DuoDuel'
+MissionControl [DEBUG] [DataManager.LoadCustomContractTypeBuilds] Loaded contract type build 'SoloDuel'
+MissionControl [DEBUG] [DataManager.LoadCustomContractTypes] Loading '2' custom contract type(s)
+MissionControl [DEBUG] [DataManager.AddContractType] Adding custom contract type: SoloDuel
+MissionControl [DEBUG] [DataManager.LoadCustomContractTypes] Loading 'C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\MissionControl/overrides/encounterLayers/soloduel\encounterLayer_soloDuel.mapStory_StoryEncounter9_vHigh.json' custom encounter layer
+MissionControl [DEBUG] [DataManager.AddContractType] Adding custom contract type: DuoDuel
+MissionControl [DEBUG] [DataManager.LoadCustomContractTypes] Loading 'C:\Program Files (x86)\Steam\steamapps\common\BATTLETECH\Mods\MissionControl/overrides/encounterLayers/duoduel\encounterLayer_duoDuel.mapStory_StoryEncounter9_vHigh.json' custom encounter layer
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for pilot_default
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for vehicledef_DEMOLISHER
+MissionControl [LOG] [ContractBeginPatch Postfix] Patching Begin
+MissionControl [LOG] [MissionControl] Setting contract ''
+MissionControl [LOG] [MissionControl] 'Use General Profile for Skirmish' is on. Using general config.
+MissionControl [LOG] [MissionControl] Contract map is 'mapArena_deathValley_aDes'
+MissionControl [LOG] [MissionControl] Setting contract type to 'ArenaSkirmish' and using Encounter Rule of 'DebugArenaSkirmishEncounterRules'
+MissionControl [LOG] [ExtendedBoundariesSettings] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [LOG] [DebugArenaSkirmishEncounterRules] Maximising Boundary Size for 'mapArena_deathValley_aDes.ArenaSkirmish' to '0.3'
+MissionControl [LOG] [DebugArenaSkirmishEncounterRules] Setting up rule object references
+MissionControl [LOG] [RandomSpawnsSettings] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [LOG] [DebugArenaSkirmishEncounterRules] Building spawns rules
+MissionControl [LOG] [DebugArenaSkirmishEncounterRules] Building additional lance rules
+MissionControl [LOG] [ExtendedLancesSettings] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [LOG] [AdditionalLances.GetValidContractTypes] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [DEBUG] [AreAdditionalLancesAllowed] for enemy: True
+MissionControl [LOG] [DebugArenaSkirmishEncounterRules] Additional Lances will be primary objectives? False
+MissionControl [LOG] [SelectNumberOfAdditionalLances] 0
+MissionControl [LOG] [ExtendedLancesSettings] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [LOG] [AdditionalLances.GetValidContractTypes] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [DEBUG] [AreAdditionalLancesAllowed] for allies: True
+MissionControl [LOG] [SelectNumberOfAdditionalLances] 0
+MissionControl [LOG] [ExtendedLancesSettings] Valid contracts are 'AmbushConvoy, Assassinate, CaptureBase, CaptureEscort, DefendBase, DestroyBase, Rescue, SimpleBattle, FireMission, AttackDefend, ThreeWayBattle, ArenaSkirmish'
+MissionControl [DEBUG] [FollowLanceBranchBuilder] Created CustomBehaviourTreeBranch
+MissionControl [LOG] [MissionControl] Clearing old contract data
+MissionControl [LOG] [ContractOveridePatch Prefix] Patching GenerateUnits
+MissionControl [LOG] [AddExtraLanceMembers] Adding extra lance units to lance
+MissionControl [DEBUG] [IncreaseLanceMembers] Faction 'INVALID_UNSET' lance size is '4
+MissionControl [DEBUG] [IncreaseLanceMembers] Faction 'Locals' lance size is '4
+MissionControl [LOG] [ContractBeginRequestResourcesPatch Postfix] Patching BeginRequestResources
+MissionControl [DEBUG] [PFM] Requesting path finder mech
+MissionControl [DEBUG] [PFM] Requesting path finder vehicle
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for chrPrfMech_spiderBase-001
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for chrPrfVhcl_demolisher
+MissionControl [LOG] [EncounterLayerParentInitializeContractPatch Prefix] Patching InitializeContract
+MissionControl [LOG] [AddExtraLanceSpawnPoints] Adding lance spawn points to match contract override data
+MissionControl [DEBUG] [IssueFollowLanceOrderTrigger] Running trigger
+MissionControl [LOG] [MapMetaDataExporterPatch Prefix] Patching LoadMapMetaDataV2
+MissionControl [LOG] [EncounterLayerParentFirstTimeInitializationPatch Prefix] Patching FirstTimeInitialization
+MissionControl [LOG] [MaximiseBoundarySize.Run] Setting Boundary Size to '0.3'
+MissionControl [LOG] [MaximiseBoundarySize.SetBoundarySizeToCustom] Increasing Boundary Size by '30%'
+MissionControl [LOG] [MaximiseBoundarySize.SetBoundarySizeToCustom] Boundary [X,Z] originally was [117.2681, 6.629578]
+MissionControl [LOG] [MaximiseBoundarySize.SetBoundarySizeToCustom] Boundary [X,Z] is now [0, 0]
+MissionControl [LOG] [SpawnLanceAnywhere] Attemping for 'Player2LanceSpawner'
+MissionControl [DEBUG] [SpawnLanceAnywhere] Orientation target of 'Player1LanceSpawner' at '(648.0, 168.1, 4.0)'. Attempting to get closest valid path finding hex.
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(648.0, 168.1, 4.0)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] --------
+MissionControl [DEBUG] [IsTooCloseToAnotherSpawn] Too close to another spawn. Focus target is '(648.0, 165.8, 0.0)' and checked against '(652.9, 169.9, 3.2)'
+MissionControl [DEBUG] [PFM] Position '(648.0, 165.8, 0.0)' is too close to another spawn point. Not a valid location.
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Adjacent point count is '37'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Removed already checked points & out of bounds points. Adjacent point count is now '37'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Testing an adjacent point of '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] --------
+MissionControl [DEBUG] [CheckEnteredCellsForRegions] MC is running so this is a pathfinder check. Ignoring so not to trigger regions.
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Path count is: '3', Current position is: '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Path count is: '3', Current position is: '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Last point is '(624.0, 0.0, 0.0)', Validity position is '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 13.44125 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 19.35769 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [OrientationTarget.Player1LanceSpawner] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [SpawnLanceAnywhere] Clustering lance 'Player2LanceSpawner'
+MissionControl [DEBUG] [SpawnLanceAnywhere] Finished clustering lance 'Player2LanceSpawner'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Path count is: '32', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Path count is: '32', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Last point is '(636.0, 0.0, 20.8)', Validity position is '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 17.73799 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [NewSpawnPosition.Player2LanceSpawner] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [SpawnLanceAnywhere] Attempting selection of random position in bounds. Selected position '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(334.4, 241.3, 527.1)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Path count is: '30', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Path count is: '30', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 17.73799 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint1' is '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Path count is: '30', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Path count is: '30', Current position is: '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 17.73799 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(322.4, 239.7, 506.3)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Path count is: '30', Current position is: '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Path count is: '30', Current position is: '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 11.60039 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint2' is '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Path count is: '30', Current position is: '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Path count is: '30', Current position is: '(312.0, 237.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 11.60039 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(298.4, 239.3, 506.3)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Path count is: '31', Current position is: '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Path count is: '31', Current position is: '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint3' is '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Path count is: '31', Current position is: '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Path count is: '31', Current position is: '(288.0, 236.8, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(298.4, 239.7, 547.9)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Path count is: '32', Current position is: '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Path count is: '32', Current position is: '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 11.90093 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 17.50237 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint4' is '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Path count is: '32', Current position is: '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Path count is: '32', Current position is: '(288.0, 240.8, 540.4)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Last point is '(564.0, 0.0, 20.8)', Validity position is '(588.0, 170.3, 20.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 11.90093 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 17.50237 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] END --------
+MissionControl [DEBUG] 
+MissionControl [LOG] [SpawnLanceAnywhere] Lance spawn complete
+MissionControl [DEBUG] [SpawnLanceAnywhere] CorrectLanceMemberSpawns to cloest hex lerped point on grid.
+MissionControl [LOG] [SpawnLanceAroundTarget] Attemping for 'Player1LanceSpawner'
+MissionControl [DEBUG] [SpawnLanceAroundTarget] Orientation target of 'Player2LanceSpawner' at '(324.0, 240.4, 519.6)'. Attempting to get closest valid path finding hex.
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] --------
+MissionControl [DEBUG] [IsTooCloseToAnotherSpawn] Too close to another spawn. Focus target is '(324.0, 240.4, 519.6)' and checked against '(324.0, 240.4, 519.6)'
+MissionControl [DEBUG] [PFM] Position '(324.0, 240.4, 519.6)' is too close to another spawn point. Not a valid location.
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Adjacent point count is '37'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Removed already checked points & out of bounds points. Adjacent point count is now '37'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Testing an adjacent point of '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Path count is: '32', Current position is: '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Path count is: '32', Current position is: '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Last point is '(636.0, 0.0, 20.8)', Validity position is '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [OrientationTarget.Player2LanceSpawner] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(276.0, 235.1, 478.0)'
+MissionControl [WARNING] [IsWithinBoundedDistanceOfTarget] Distance is 86.53325 and so not within bounds. Getting new random position
+MissionControl [WARNING] [GetRandomPositionFromTarget] Position is not within bounds. Getting new random position
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Path count is: '31', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Path count is: '31', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Last point is '(636.0, 0.0, 20.8)', Validity position is '(648.0, 165.8, 0.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [NewRandomSpawnPositionFromOrientationTarget.Player2LanceSpawner] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(412.9, 245.2, 497.6)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Path count is: '6', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Path count is: '6', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint1] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint1' is '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Path count is: '6', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Path count is: '6', Current position is: '(408.0, 243.4, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint1] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(408.1, 240.5, 478.2)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Path count is: '6', Current position is: '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Path count is: '6', Current position is: '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint2] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint2' is '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Path count is: '6', Current position is: '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Path count is: '6', Current position is: '(420.0, 249.3, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint2] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(393.4, 245.3, 502.4)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Path count is: '5', Current position is: '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Path count is: '5', Current position is: '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint3] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint3' is '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Path count is: '5', Current position is: '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Path count is: '5', Current position is: '(384.0, 244.0, 498.8)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint3] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] About to process with origin '(417.7, 247.8, 517.0)'
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Using pathfinding point '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Path count is: '7', Current position is: '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Path count is: '7', Current position is: '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [GetInvalidLanceMemberSpawns.PlayerLanceSpawnPoint4] END --------
+MissionControl [DEBUG] 
+MissionControl [DEBUG] [PathfindFromPointToPlayerSpawn] Spawn has been found valid by pathfinding '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [GetClosestValidPathFindingHex] Returning final point '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [SpawnLanceLogic.GetInvalidLanceMemberSpawns] Spawn point's closest hex lerped point on grid for 'PlayerLanceSpawnPoint4' is '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] 
+MissionControl [DEBUG] -------- [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] --------
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Path count is: '7', Current position is: '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Path count is: '7', Current position is: '(420.0, 241.5, 519.6)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Last point is '(300.0, 0.0, 478.0)', Validity position is '(276.0, 235.1, 478.0)'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Distance from last path to valdity position is: '24' and is it within zone radius? 'True'
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has valid long range path finding
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 10.91192 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.HasValidNeighbours] Cost of neighbour is 16.66823 with max pathfinder cost being 192
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has at least two valid neighbours
+MissionControl [DEBUG] [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] Has a valid path
+MissionControl [DEBUG] -------- END [PFM.IsSpawnValid] [PlayerLanceSpawnPoint4] END --------
+MissionControl [DEBUG] 
+MissionControl [LOG] [SpawnLanceAroundTarget] Lance spawn complete
+MissionControl [LOG] [LookAtTarget] For Player2LanceSpawner to look at Player1LanceSpawner
+MissionControl [DEBUG] [BehaviourTreeInitRootNodePatch Postfix] Patching InitRootNode for unit 'Jenner' with behaviour tree id 'CoreAITree'
+MissionControl [DEBUG] [FindNode] Found target from path 'comply_with_stay_inside_region_order'. Target found was 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [FollowLanceBranchBuilder] Injecting custom behaviour branch AFTER_SIBLING 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [BehaviourTreeInitRootNodePatch Postfix] Patching InitRootNode for unit 'Trebuchet' with behaviour tree id 'CoreAITree'
+MissionControl [DEBUG] [FindNode] Found target from path 'comply_with_stay_inside_region_order'. Target found was 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [FollowLanceBranchBuilder] Injecting custom behaviour branch AFTER_SIBLING 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [BehaviourTreeInitRootNodePatch Postfix] Patching InitRootNode for unit 'Trebuchet' with behaviour tree id 'CoreAITree'
+MissionControl [DEBUG] [FindNode] Found target from path 'comply_with_stay_inside_region_order'. Target found was 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [FollowLanceBranchBuilder] Injecting custom behaviour branch AFTER_SIBLING 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [BehaviourTreeInitRootNodePatch Postfix] Patching InitRootNode for unit 'Zeus' with behaviour tree id 'CoreAITree'
+MissionControl [DEBUG] [FindNode] Found target from path 'comply_with_stay_inside_region_order'. Target found was 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [FollowLanceBranchBuilder] Injecting custom behaviour branch AFTER_SIBLING 'comply_with_stay_inside_region_order'
+MissionControl [DEBUG] [TurnDirectorOnFirstContactPatch Postfix] Patching OnFirstContact
+MissionControl [DEBUG] [TurnDirectorOnFirstContactPatch Postfix] Current round is '0'
+MissionControl [DEBUG] [TurnDirectorOnFirstContactPatch Postfix] DoAnyUnitsHaveContactWithEnemy 'True'
+MissionControl [LOG] [ProtectHotDroppedLances] Protecting hot dropped lances'
+MissionControl [LOG] [ProtectHotDroppedLances] Adding '6' evasion pips
+MissionControl [LOG] [IssueCustomAIOrderResult] Triggered
+MissionControl [DEBUG] [AI] [Round '1' Phase '2' Unit Action '2'] ['Player 2' unit 'Jenner' AI type 'CoreAITree'] Log Node
+MissionControl [DEBUG] [AI] [HasFollowLanceTargetNode] False

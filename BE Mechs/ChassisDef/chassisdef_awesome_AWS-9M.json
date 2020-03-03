@@ -53,13 +53,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
@@ -73,8 +71,7 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
@@ -88,13 +85,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
@@ -108,13 +103,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
@@ -128,13 +121,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
@@ -148,13 +139,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false,
-          "WeaponMountID": null
+          "Omni": false
         }
       ],
       "Tonnage": 0.0,
