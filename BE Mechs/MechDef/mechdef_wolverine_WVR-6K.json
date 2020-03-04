@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5200000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wolverine WVR-6K",
@@ -12,6 +13,8 @@
     "Details": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "simGameMechPartCost": 5200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

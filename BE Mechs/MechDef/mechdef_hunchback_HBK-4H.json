@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4200000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hunchback HBK-4H",
@@ -12,6 +13,8 @@
     "Details": "A 'Swayback' variant, the 4H replaces the AC20 with the lighter AC10 and two Medium Lasers.  While this reduces its overall raw firepower, it gives the Hunchback some much needed ranged capabilities.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "simGameMechPartCost": 4200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

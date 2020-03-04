@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3400000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Jenner JR7-K",
@@ -12,6 +13,8 @@
     "Details": "The JR7-K frees up half a ton by upgrading the armor to Ferro-Fibrous. This provides virtually the same armor protection while allowing space for CASE to protect the SRM-4 ammunition.",
     "Icon": "uixTxrIcon_jenner"
   },
+  "simGameMechPartCost": 3400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

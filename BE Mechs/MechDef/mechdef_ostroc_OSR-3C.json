@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5800000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Ostroc OSR-3C",
@@ -12,6 +13,8 @@
     "Details": "The 3C variant looks to improve the long-range direct firepower of the Ostroc. Introduced in 2876, the two medium lasers and the SRM-4 have been removed in order to add a third large laser mounted in the right torso.",
     "Icon": "uixTxrIcon_ostroc"
   },
+  "simGameMechPartCost": 5800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

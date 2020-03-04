@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Blackjack BJ-1DB",
@@ -12,6 +13,8 @@
     "Details": "With the BJ-1DB, the Federated Suns have revised the Blackjack into a dedicated fire support 'Mech. The 1DB's two large lasers can burn through heavily-armored targets at long range without sacrificing a medium 'Mech's maneuverability.",
     "Icon": "uixTxrIcon_blackjack"
   },
+  "simGameMechPartCost": 3500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

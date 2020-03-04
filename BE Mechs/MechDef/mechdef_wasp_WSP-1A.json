@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wasp WSP-1A",
@@ -12,6 +13,8 @@
     "Details": "The WSP-1A Wasp was the first recon 'Mech to be mass-produced for the Terran military, and it is well suited for its scouting role. Since its initial production in 2471, the 'Mech has spread to all parts of Human-occupied space.",
     "Icon": "uixTxrIcon_wasp"
   },
+  "simGameMechPartCost": 1600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

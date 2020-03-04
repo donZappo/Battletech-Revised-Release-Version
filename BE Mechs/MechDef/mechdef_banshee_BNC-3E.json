@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Banshee BNC-3E",
@@ -12,6 +13,8 @@
     "Details": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "simGameMechPartCost": 10400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

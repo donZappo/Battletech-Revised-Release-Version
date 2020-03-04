@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6700000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cataphract CTF-1X",
@@ -12,6 +13,8 @@
     "Details": "We call the Cataphract a \"FrankenMech\" because it's got a little bit of everything stitched together on it. The 1X model works well at medium-long to closer range, with good armor and weaponry.",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "simGameMechPartCost": 6700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

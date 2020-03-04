@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Shadow Hawk SHD-2D",
@@ -12,6 +13,8 @@
     "Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "simGameMechPartCost": 5400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

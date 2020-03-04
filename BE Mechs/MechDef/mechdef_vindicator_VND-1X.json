@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3600000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Vindicator VND-1X",
@@ -12,6 +13,8 @@
     "Details": "A very minor modification, replacing the Small Laser with a pair of Machine Guns, giving it a little more punch in a close range fight.",
     "Icon": "uixTxrIcon_vindicator"
   },
+  "simGameMechPartCost": 3600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

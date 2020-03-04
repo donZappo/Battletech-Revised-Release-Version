@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hunchback HBK-4SP",
@@ -12,6 +13,8 @@
     "Details": "The 4SP variant of the Hunchback replaces the Autocannon with two SRM6 launchers. This has the potential of doing more damage than the standard model, though the damage is more spread out.  This firepower is supplemented by two Medium Lasers in each arm.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "simGameMechPartCost": 4400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

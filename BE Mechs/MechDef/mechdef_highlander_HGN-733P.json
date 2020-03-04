@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 9000000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Highlander HGN-733P",
@@ -12,6 +13,8 @@
     "Details": "The Highlander 733P is a variant of the 733 model that removes its Autocannon and replaces it with a PPC. It also handles heat buildup better.",
     "Icon": "uixTxrIcon_highlander"
   },
+  "simGameMechPartCost": 9000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

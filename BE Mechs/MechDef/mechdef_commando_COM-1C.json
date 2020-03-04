@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1900000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Commando COM-1C",
@@ -12,6 +13,8 @@
     "Details": "The Commando 1C is a recent variant that attempts to make a long range direct fire support unit, by removing the missiles and replacing them with a single AC2 in the right arm.",
     "Icon": "uixTxrIcon_commando"
   },
+  "simGameMechPartCost": 1900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

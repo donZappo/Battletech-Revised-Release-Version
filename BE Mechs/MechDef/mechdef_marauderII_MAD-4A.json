@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10400000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder II MAD-4A",
@@ -12,6 +13,8 @@
     "Details": "In 3010, the Dragoons approached Blackwell Corp with the project of modifying a standard Marauder into a 100 ton Assault 'Mech.  By 3012 the prototype was completed and it featured not only increased armor, but the ability to jump.  The armaments were close to the original, though the dependency of ammo was mitigated by replacing the AC5 with a Large Laser.",
     "Icon": "uixTxrIcon_marauderii"
   },
+  "simGameMechPartCost": 10400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

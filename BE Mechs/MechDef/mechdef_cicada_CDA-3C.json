@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3400000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cicada CDA-3C",
@@ -12,6 +13,8 @@
     "Details": "The Cicada 3C is slightly slower than the 2A but has more room for weaponry and armor. It still generally underperforms in most areas except speed, but it can put up more of a fight, with better survival rates.",
     "Icon": "uixTxrIcon_cicada"
   },
+  "simGameMechPartCost": 3400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 9600000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "BattleMaster BLR-1G",
@@ -12,6 +13,8 @@
     "Details": "Versatile and powerful, the BattleMaster 1G is one of the best known BattleMechs in existence. Normally mounting a varied array of Energy weapons, the BattleMaster can engage enemies at any range and packs a powerful punch.",
     "Icon": "uixTxrIcon_battlemaster"
   },
+  "simGameMechPartCost": 9600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

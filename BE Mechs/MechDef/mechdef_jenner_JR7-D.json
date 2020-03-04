@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3300000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Jenner JR7-D",
@@ -12,6 +13,8 @@
     "Details": "Jenner Ds run hot, and they run fast but can quickly bound into combat to deliver a knockout punch, even against heavier units. Their capability with speed and weaponry tends to come at the expense of lower armor capacity, though.",
     "Icon": "uixTxrIcon_jenner"
   },
+  "simGameMechPartCost": 3300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

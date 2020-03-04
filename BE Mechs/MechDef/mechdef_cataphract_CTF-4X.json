@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6700000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cataphract CTF-4X",
@@ -12,6 +13,8 @@
     "Details": "The CTF-4X is the latest variant of this prototype 'Mech.  The 4X downgrades the Engine, making for a slower ride, but adds more long range firepower with two Autocannon 5s, a Large Laser and LRM5.",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "simGameMechPartCost": 6700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 16700000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder MAD-5M",
@@ -12,6 +13,8 @@
     "Details": "The 5M variant of the Marauder was introduced in 3051 by Ronin Inc. and Free Worlds Defense Industries for the Free Worlds League. Compared to the original it replaced the standard fusion engine with an XL Engine and completely re-armed the 'Mech with recovered Star League-era weapons.",
     "Icon": "uixTxrIcon_marauder"
   },
+  "simGameMechPartCost": 16700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

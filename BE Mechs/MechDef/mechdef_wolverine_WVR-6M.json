@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5100000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wolverine WVR-6M",
@@ -12,6 +13,8 @@
     "Details": "The 6M boasts an increase in firepower and endurance as a raider by dropping the AC5 and replacing it with a Large Laser.  This also allowed for the addition of another Medium Laser and extra Heat Sinks.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "simGameMechPartCost": 5100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

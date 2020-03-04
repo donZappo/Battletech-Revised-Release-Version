@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7000000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder MAD-3L",
@@ -12,6 +13,8 @@
     "Details": "Built for House Liao in 2905, the 3L attempted to make the Marauder more heat efficient (and make up for a shortage in reliable PPCs) by replacing one of the arm-mounted particle cannons with a large laser. Additionally, two more heat sinks were added to further increase the Marauder's heat efficiency.",
     "Icon": "uixTxrIcon_marauder"
   },
+  "simGameMechPartCost": 7000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

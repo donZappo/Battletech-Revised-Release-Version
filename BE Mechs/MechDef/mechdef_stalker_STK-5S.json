@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 8400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Stalker STK-5S",
@@ -12,6 +13,8 @@
     "Details": "Outfitted with the relatively recently rediscovered Star League technology of circa 3050, the FedCom 5S can be characterized primarily by its tendency to overheat. The designers behind this variant took the simple expedient of upgrading its engine and firepower without taking heat build-up into consideration. The 'Mech has had its engine replaced with an XL Engine and the large lasers have been removed and replaced with two Large Pulse Lasers.",
     "Icon": "uixTxrIcon_stalker"
   },
+  "simGameMechPartCost": 8400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

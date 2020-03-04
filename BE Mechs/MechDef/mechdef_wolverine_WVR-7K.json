@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5000000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wolverine WVR-7K",
@@ -12,6 +13,8 @@
     "Details": "Another major upgrade of the Wolverine, this one for the Combine and first rolling off Marduk's production lines in 3050, the 7K model is also built with an XL Engine for power with the saved weight used to increase and upgrade its arsenal. The primary weapon is a Large Pulse Laser and a Small Pulse Laser in the right arm, which is backed up by a medium pulse laser in the head and two SRM-6 launchers in the left and right torsos. The 'Mech uses thirteen double heat sinks to dissipate the added heat from the laser arsenal.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "simGameMechPartCost": 5000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

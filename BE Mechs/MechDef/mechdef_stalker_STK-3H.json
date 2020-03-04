@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 8300000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Stalker STK-3H",
@@ -12,6 +13,8 @@
     "Details": "The Stalker 3H was intended as a seige 'Mech.  Replacing the twin LRM-10s and Large Lasers for paired LRM-20s, the STK-3H is a powerful fire support 'Mech.",
     "Icon": "uixTxrIcon_stalker"
   },
+  "simGameMechPartCost": 8300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

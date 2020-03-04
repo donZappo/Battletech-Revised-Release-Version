@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4300000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Centurion CN9-AL",
@@ -12,6 +13,8 @@
     "Details": "The AL variant of the Centurion tends to trade the larger burst damage of an Autocannon for more Energy weaponry and heavier armor. ALs can take an incredible amount of damage for their size but still pack a good punch.",
     "Icon": "uixTxrIcon_centurion"
   },
+  "simGameMechPartCost": 4300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

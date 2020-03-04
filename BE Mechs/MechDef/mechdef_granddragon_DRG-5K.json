@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 15800000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Grand Dragon DRG-5K",
@@ -12,6 +13,8 @@
     "Details": "The Grand Dragon is the successful follow-up to the Dragon BattleMech. The 'Mech was originally a simple variant of the Dragon with some modifications, chiefly replacing the autocannon with a particle projection cannon. The DGR-5K Grand Dragon introduced in 3050 incorporates a number of lostech improvements over the original DRG-1G.",
     "Icon": "uixTxrIcon_dragon"
   },
+  "simGameMechPartCost": 15800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

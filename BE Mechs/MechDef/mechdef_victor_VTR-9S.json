@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 8100000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Victor VTR-9S",
@@ -12,6 +13,8 @@
     "Details": "The Victor 9S trades some of its already subpar armor to mount more weaponry. It's terrifying for enemy forces to see this 'Mech rocketing over a hill to unleash its considerable firepower, but it also needs to really worry about any return fire.",
     "Icon": "uixTxrIcon_victor"
   },
+  "simGameMechPartCost": 8100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

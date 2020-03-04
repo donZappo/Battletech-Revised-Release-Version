@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1726730,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Mongoose MON-70",
@@ -12,6 +13,8 @@
     "Details": "The MON-70 dates to 2819 and is another variant of the standard MON-66 introduced following the loss of the active probe. ",
     "Icon": "uixTxrIcon_mongoose"
   },
+  "simGameMechPartCost": 1726730,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

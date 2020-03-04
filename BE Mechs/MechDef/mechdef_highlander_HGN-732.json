@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 9500000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Highlander HGN-732",
@@ -12,6 +13,8 @@
     "Details": "The Highlander is one of the most well-known Star League Defense Force assault 'Mechs, serving with distinction for almost two centuries since first entering service in 2592. The original 732 model features a variety of weaponry along with fifteen and a half tons of Ferro-Fibrous armor. The Highlander 732 carries a weapons mix that is more at home when fighting a ranged battle, but when the ranges close the 732 has the right equipment for the job.",
     "Icon": "uixTxrIcon_highlander"
   },
+  "simGameMechPartCost": 9500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 16900000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder MAD-5D",
@@ -12,6 +13,8 @@
     "Details": "The 5D Marauder was the first updated variant to be designed in the wake of the Helm Memory Core recovery, coming off the factory lines in 3051. A direct upgrade of the 3D model, the 5D's engine was replaced with a General Motors 300 XL Engine, retaining the same speed profile at a much-reduced weight, to allow the entire weapons payload to be stripped out and upgraded.",
     "Icon": "uixTxrIcon_marauder"
   },
+  "simGameMechPartCost": 16900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

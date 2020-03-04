@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1900000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Javelin JVN-10N",
@@ -12,6 +13,8 @@
     "Details": "The JVN-10N is a maneuverable recon 'Mech with two SRM-6s to discourage pursuit. The SRMs give it a strong alpha strike at short range, but the Javelin's light armor means it is better used to support hand-to-hand brawlers than to be one itself.",
     "Icon": "uixTxrIcon_javelin"
   },
+  "simGameMechPartCost": 1900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

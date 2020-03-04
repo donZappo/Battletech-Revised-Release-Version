@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 8300000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Zeus ZEU-9S",
@@ -12,6 +13,8 @@
     "Details": "The Zeus 9S is an upgrade using Star League technology, debuting in 3048. It replaced the standard heat sinks with double-strength models, the eleven tons of standard armor for the same weight in Ferro-Fibrous plating. The weapons have mostly seen a Star League tech upgrade.",
     "Icon": "uixTxrIcon_zeus"
   },
+  "simGameMechPartCost": 8300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

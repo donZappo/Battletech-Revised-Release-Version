@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 2200000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Valkyrie VLK-QF",
@@ -12,6 +13,8 @@
     "Details": "The QF model of the Valkyrie was first fielded in 2967, it trades in the medium laser for a Flamer. This allows the 'Mech to work in an incendiary role and also acts as an excellent deterrent to infantry attacks.",
     "Icon": "uixTxrIcon_valkyrie"
   },
+  "simGameMechPartCost": 2200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

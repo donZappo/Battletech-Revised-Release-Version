@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 9100000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cicada CDA-3G",
@@ -12,6 +13,8 @@
     "Details": "Based off of the same chassis as the 3F, the 3G was introduced in 3056 to transform the chassis into a more dedicated recon platform. It trades in the PPC for an ER Large Laser, a Beagle Active Probe, and additional armor.",
     "Icon": "uixTxrIcon_cicada"
   },
+  "simGameMechPartCost": 9100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

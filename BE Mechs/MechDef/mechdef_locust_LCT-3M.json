@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1900000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Locust LCT-3M",
@@ -12,6 +13,8 @@
     "Details": "The 3M Locust was built for the Free Worlds League in 3050, with production carried out at both Corean Enterprises on Stewart and Free Worlds Defense Industries on Gibson. It retained the medium laser but replaced the machine guns with four Small Lasers and added an Anti-Missile System in the left arm for missile defense. The armor was upgraded to Ferro-Fibrous with CASE in the left torso and utilized an Endo Steel chassis.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

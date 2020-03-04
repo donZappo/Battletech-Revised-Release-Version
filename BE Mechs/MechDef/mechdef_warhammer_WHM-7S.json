@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6400000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Warhammer WHM-7S",
@@ -12,6 +13,8 @@
     "Details": "The 7S Warhammer was the official upgraded version built for the Federated Commonwealth by Olivettie Weaponry. Built out of their Sudeten factory starting in 3050, the 7S retained the small lasers of the original but updated the rest of the weaponry. It carried two arm-mounted ER PPCs, two medium pulse lasers in the side torsos, and two Streak SRM-2 launchers in place of the SRM-6 launcher. Eighteen double heat sinks handled the additional waste heat and one ton of reloads for the Streak launchers was carried in the center torso.",
     "Icon": "uixTxrIcon_warhammer"
   },
+  "simGameMechPartCost": 6400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

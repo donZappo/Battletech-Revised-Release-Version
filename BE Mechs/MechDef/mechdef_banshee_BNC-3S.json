@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Banshee BNC-3S",
@@ -12,6 +13,8 @@
     "Details": "The Banshee 3S sacrifices its trademark speed for a large expansion in firepower. The 3S fills the role of a well armored sniper, sporting two PPCs and an AC10 while still being capable of inflicting heavy melee damage.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "simGameMechPartCost": 10400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

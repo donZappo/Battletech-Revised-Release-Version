@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Crab CRB-30",
@@ -12,6 +13,8 @@
     "Details": "Crab 30s are a complete overhaul of the old Crab design, upgrading its electronics, engine and weapons to the latest standards. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_crab"
   },
+  "simGameMechPartCost": 4400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

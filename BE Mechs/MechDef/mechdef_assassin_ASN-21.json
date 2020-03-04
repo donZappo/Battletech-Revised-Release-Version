@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3800000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Assassin ASN-21",
@@ -12,6 +13,8 @@
     "Details": "The ASN-21 lives up to its name, at least against lighter units. It has astounding jump capability in addition to its ground speed and a flexible weapons package. It has poor armor for its tonnage, however, so it's best at hit-and-run attacks.",
     "Icon": "uixTxrIcon_assassin"
   },
+  "simGameMechPartCost": 3800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

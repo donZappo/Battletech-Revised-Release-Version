@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1500000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Flea FLE-15",
@@ -12,6 +13,8 @@
     "Details": "The Flea FLE-15 is a diminutive 'Mech with good close-in firepower for its size. It moves fast and is very hard to hit, even compared to other lighter 'Mechs. Of course, its armor leaves a lot to be desired.",
     "Icon": "uixTxrIcon_flea"
   },
+  "simGameMechPartCost": 1500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

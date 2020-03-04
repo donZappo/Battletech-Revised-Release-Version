@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5200000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Rifleman RFL-3C",
@@ -12,6 +13,8 @@
     "Details": "The Rifleman's 3C variant packs a heavier per-shot punch while also improving the survival of the 'Mech by adding extra armor and helping its heat problems. The downside is that its heavier Autocannons force it to come somewhat closer to danger, making positioning and support from better-armored units critical.",
     "Icon": "uixTxrIcon_rifleman"
   },
+  "simGameMechPartCost": 5200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

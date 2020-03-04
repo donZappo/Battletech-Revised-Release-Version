@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 11011000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Mauler MAL-2R",
@@ -12,6 +13,8 @@
     "Details": "The -2R variant of the Mauler uses relatively new weapons. The standard AC/2s are replaced with Ultra versions, doubling their potential damage. Paired ER Medium Lasers are fitted in arms formerly housing the ER Large Lasers. The missile launchers are reduced to smaller LRM-10s. A heavier standard fusion engine is utilized instead of the expensive XL. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_mauler"
   },
+  "simGameMechPartCost": 11011000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

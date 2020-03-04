@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10200000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cyclops CP-10-Z",
@@ -12,6 +13,8 @@
     "Details": "Cyclops 10-Zs use their imposing presence and unique communications equipment to control the battlefield. While the 10-Z carries a lethal array of close range weaponry, its primary role is command and control, bolstering friendly units with its specialized battle computer.",
     "Icon": "uixTxrIcon_cyclops"
   },
+  "simGameMechPartCost": 10200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

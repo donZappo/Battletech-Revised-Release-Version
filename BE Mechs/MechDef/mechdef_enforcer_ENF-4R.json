@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4200000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Enforcer ENF-4R",
@@ -12,6 +13,8 @@
     "Details": "Enforcer 4R models combine the hefty power of an Autocannon and massive Laser with the mobility of Jump Jets—a deadly combination. Able to engage at medium-long all the way to point-blank range, these 'Mechs are flexible and surprising in combat.",
     "Icon": "uixTxrIcon_enforcer"
   },
+  "simGameMechPartCost": 4200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6200000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Thunderbolt TDR-7M",
@@ -12,6 +13,8 @@
     "Details": "Upgraded with Star League technology in 3049 by Earthwerks Incorporated, the 7M has been re-armored using Ferro-Fibrous armor, reducing the weight of the armor to eleven and a half tons while maintaining the same level of protection. The saved weight has allowed the 'Mech's weapons to be upgraded as well.",
     "Icon": "uixTxrIcon_thunderbolt"
   },
+  "simGameMechPartCost": 6200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

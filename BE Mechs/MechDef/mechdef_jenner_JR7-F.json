@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3100000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Jenner JR7-F",
@@ -12,6 +13,8 @@
     "Details": "The Jenner F drops the SRM in favor of increasing armor accross the entire 'Mech, producing a more durable striker.",
     "Icon": "uixTxrIcon_jenner"
   },
+  "simGameMechPartCost": 3100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

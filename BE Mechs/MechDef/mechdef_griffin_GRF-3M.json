@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10900000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Griffin GRF-3M",
@@ -12,6 +13,8 @@
     "Details": "The 3M Griffin was an upgraded version of the design built for House Marik by Earthwerks and Brigadier Corps starting in 3049. With production lines on Keystone and Oliver this variant sought to enhance the original's long-range capabilities. The engine was exchanged for a 275 extralight model and carried fourteen double heat sinks to improve heat management. The normal PPC was replaced by an ER PPC, for longer reach at the expense of more heat, and the LRM launcher had been upgraded to an LRM-20 launcher, for more indirect fire support capabilities.",
     "Icon": "uixTxrIcon_griffin"
   },
+  "simGameMechPartCost": 10900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

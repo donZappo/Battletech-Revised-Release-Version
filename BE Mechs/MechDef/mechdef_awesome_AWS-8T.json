@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7800000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Awesome AWS-8T",
@@ -12,6 +13,8 @@
     "Details": "The Awesome 8T is a superb fire support 'Mech, though its heavy armor is a bit wasted in that role. It can still put up a good fight at medium ranges, and it can crush smaller units outright with Melee attacks.",
     "Icon": "uixTxrIcon_awesome"
   },
+  "simGameMechPartCost": 7800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

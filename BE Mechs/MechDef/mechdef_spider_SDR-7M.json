@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 2600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Spider SDR-7M",
@@ -12,6 +13,8 @@
     "Details": "The 7M was Nimakachi's upgrade of the venerable Spider with recovered Star League technology. Released in 3051 it uses an Endo Steel chassis and three tons of Ferro-Fibrous armor, freeing up weight to replace the two medium lasers with two medium pulse lasers. Many of the components were also replaced with proprietary technology, one thing they could not do however was include an ejection system for the pilot.",
     "Icon": "uixTxrIcon_spider"
   },
+  "simGameMechPartCost": 2600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

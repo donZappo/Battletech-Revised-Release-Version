@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 8400000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Phoenix Hawk PXH-3K",
@@ -12,6 +13,8 @@
     "Details": "The 3K Phoenix Hawk was another upgrade of the design that used rediscovered technologies, built by Alshain Weapons and GKT Enterprises for House Kurita and the Free Rasalhague Republic respectively. Introduced in 3050, the engine was upgraded to an XL model, with the saved weight used to upgrade the weapons payload on the 'Mech, taking its cues from the 1K variant. Like the PXH-3D model the 3K carries carries two ER large lasers and two medium Lasers, but used Medium Pulse Lasers in place of the extended-range type.",
     "Icon": "uixTxrIcon_phoenixhawk"
   },
+  "simGameMechPartCost": 8400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

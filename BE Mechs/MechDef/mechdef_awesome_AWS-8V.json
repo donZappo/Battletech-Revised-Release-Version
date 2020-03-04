@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7800000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Awesome AWS-8V",
@@ -12,6 +13,8 @@
     "Details": "Seeking to address the issues with the 8R model, the AWS-8V is a blend of the 8R and 8Q.  This allows a pilot to provide indirect fire support, while still being a potent combatant with its PPC and Large Laser.",
     "Icon": "uixTxrIcon_awesome"
   },
+  "simGameMechPartCost": 7800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

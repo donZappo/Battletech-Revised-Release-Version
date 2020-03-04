@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wasp WSP-1L",
@@ -12,6 +13,8 @@
     "Details": "A variant of the Wasp produced by Hellespont for House Liao in 2799, the 1L replaced the medium laser and SRM-2 launcher with a single Holly SRM-4 launcher carried in the right arm supplied with a single ton of reloads in the right torso.",
     "Icon": "uixTxrIcon_wasp"
   },
+  "simGameMechPartCost": 1600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

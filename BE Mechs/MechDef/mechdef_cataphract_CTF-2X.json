@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6600000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cataphract CTF-2X",
@@ -12,6 +13,8 @@
     "Details": "The 2X replaces the PPC with a heavy laser, while the arm-mounted medium lasers are removed in favor of a SRM-4.  This reduction in heat load also allows for the removal of 2 heat sinks and adding armor in their stead.",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "simGameMechPartCost": 6600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

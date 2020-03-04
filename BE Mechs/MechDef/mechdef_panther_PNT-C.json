@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1933490,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Panther PNT-C",
@@ -12,6 +13,8 @@
     "Details": "The PNT-C is a modification of the -10K model and simply removes the Artemis IV for a C3 slave.",
     "Icon": "uixTxrIcon_panther"
   },
+  "simGameMechPartCost": 1933490,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

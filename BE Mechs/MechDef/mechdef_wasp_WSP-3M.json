@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wasp WSP-3M",
@@ -12,6 +13,8 @@
     "Details": "The post-Helm Memory Core House Marik variant introduced in 3051, the 3M Wasp upgrades the chassis to Endo Steel and the armor to Ferro-Fibrous. This variant carries a medium pulse laser in its right arm and a single SRM-2 launcher in the right torso.",
     "Icon": "uixTxrIcon_wasp"
   },
+  "simGameMechPartCost": 1600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

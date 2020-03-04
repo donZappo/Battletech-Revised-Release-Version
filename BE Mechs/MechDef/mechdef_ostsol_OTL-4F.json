@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5900000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Ostsol OTL-4F",
@@ -12,6 +13,8 @@
     "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
     "Icon": "uixTxrIcon_ostsol"
   },
+  "simGameMechPartCost": 5900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

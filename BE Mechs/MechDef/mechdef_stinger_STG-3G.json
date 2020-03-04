@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Stinger STG-3G",
@@ -12,6 +13,8 @@
     "Details": "The 3G Stinger was the only mainstream variant of the Stinger to achieve any sort of popularity throughout the Succession Wars. First debuting in 2581, it traded the two machine guns for a second medium laser mounted on the left arm. While this variant increased the Stinger's lethality against other 'Mechs, it also made heat management a little more complicated for less experienced MechWarriors.",
     "Icon": "uixTxrIcon_stinger"
   },
+  "simGameMechPartCost": 1500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

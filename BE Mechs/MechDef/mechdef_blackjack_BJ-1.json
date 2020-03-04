@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Blackjack [LEGACY] BJ-1",
@@ -12,6 +13,8 @@
     "Details": "This is your legacy family Blackjack, one of a kind upgrade and has seen 100's of years of battles; We can't replace this if it's lost commander.",
     "Icon": "uixTxrIcon_blackjack"
   },
+  "simGameMechPartCost": 3500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

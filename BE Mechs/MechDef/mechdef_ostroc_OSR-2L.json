@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5900000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Ostroc OSR-2L",
@@ -12,6 +13,8 @@
     "Details": "The 2L variant of the Ostroc introduced in 2884 is modified for long range combat. The SRM-4 launcher has been replaced with an LRM-5 launcher, increasing the 'Mechs long-range damage capabilities slightly by sacrificing some of its close range firepower.",
     "Icon": "uixTxrIcon_ostroc"
   },
+  "simGameMechPartCost": 5900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

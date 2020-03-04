@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5900000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Dragon DRG-1N",
@@ -12,6 +13,8 @@
     "Details": "The Dragon 1N is a beefy machine that can take a serious beating but tends to be a bit light on weaponry. It moves fast for a heavy 'Mech, though, which makes it well suited to closing for Melee attacks against slower targets.",
     "Icon": "uixTxrIcon_dragon"
   },
+  "simGameMechPartCost": 5900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

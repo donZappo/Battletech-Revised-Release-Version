@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 16600000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Marauder MAD-5S",
@@ -12,6 +13,8 @@
     "Details": "The 5S variant of the Marauder dates to the Clan Invasion, introduced in 3051 by Bowie Industries after the Draconis Combine captured plans for the 5D design. The variant was built around an XL engine to save weight and upgraded the heat sinks to double-strength models. Like the 5D, the 5S carried ER PPCs and medium pulse lasers, but replaced the autocannon with a Gauss Rifle.",
     "Icon": "uixTxrIcon_marauder"
   },
+  "simGameMechPartCost": 16600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

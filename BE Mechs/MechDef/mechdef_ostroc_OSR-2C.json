@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 5800000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Ostroc OSR-2C",
@@ -12,6 +13,8 @@
     "Details": "The Ostroc is a heavy 'Mech, weighing in at the lower end of its weight class, originally designed to act as an urban combatant.  Fast for its size, well-armored and boasting good medium- and short-range firepower, the Ostroc was capable as a heavy scout/raider.",
     "Icon": "uixTxrIcon_ostroc"
   },
+  "simGameMechPartCost": 5800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

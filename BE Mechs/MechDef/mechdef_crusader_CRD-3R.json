@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 6100000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Crusader CRD-3R",
@@ -12,6 +13,8 @@
     "Details": "The Crusader was initially designed as a close combat BattleMech but soon proved itself to be a very adaptable, multi-role design. Its versatility and large number of manufactures ensured the Crusader its place as one of the most common heavy 'Mechs in the Inner Sphere.",
     "Icon": "uixTxrIcon_crusader"
   },
+  "simGameMechPartCost": 6100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

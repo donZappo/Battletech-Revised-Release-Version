@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4000000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Blackjack BJ-1X",
@@ -12,6 +13,8 @@
     "Details": "This early Blackjack prototype started along a completely different path for the 'Mech.  Focusing on close in weapons, the BJ-1X has four Flamers and four Medium Lasers.  The BJ-1X also focused more on speed than jump maneuverability, increasing the engine size while removing the Jump Jets.",
     "Icon": "uixTxrIcon_blackjack"
   },
+  "simGameMechPartCost": 4000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

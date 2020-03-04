@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1726730,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Mongoose MON-69",
@@ -12,6 +13,8 @@
     "Details": "A variant of the MON-66 introduced in 2819, the MON-69 replaced the LosTech active probe with an SRM-2 and one ton of reloads since the advanced electronics were difficult to come by during the Succession Wars.",
     "Icon": "uixTxrIcon_mongoose"
   },
+  "simGameMechPartCost": 1726730,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1700000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Locust LCT-3V",
@@ -12,6 +13,8 @@
     "Details": "The Locust 3V trades off protection for more firepower, relying on its superior speed to avoid getting hit in the first place.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

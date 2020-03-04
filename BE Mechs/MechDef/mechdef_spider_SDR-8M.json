@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1685250,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Spider SDR-8M",
@@ -12,6 +13,8 @@
     "Details": "The 8M is a simple upgrade of the 7M developed by the FWLM in 3060, replacing the single heat sinks with double strength versions. Otherwise, both variants are completely identical. ",
     "Icon": "uixTxrIcon_spider"
   },
+  "simGameMechPartCost": 1685250,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

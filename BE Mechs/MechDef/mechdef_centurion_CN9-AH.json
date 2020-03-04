@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3900000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Centurion CN9-AH",
@@ -12,6 +13,8 @@
     "Details": "A somewhat radical departure from the stock Centurion, the CN9-AH Variant trades out the stock AC10 and Medium Lasers for a single AC20.  While this amounts to the same degree of firepower, it has the benefit of concentrating the damage to a single location.",
     "Icon": "uixTxrIcon_centurion"
   },
+  "simGameMechPartCost": 3900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

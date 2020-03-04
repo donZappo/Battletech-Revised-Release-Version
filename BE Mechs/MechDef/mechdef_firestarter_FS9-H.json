@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Firestarter FS9-H",
@@ -12,6 +13,8 @@
     "Details": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.",
     "Icon": "uixTxrIcon_firestarter"
   },
+  "simGameMechPartCost": 3400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

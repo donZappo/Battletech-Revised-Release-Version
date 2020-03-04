@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hatchetman HCT-5S",
@@ -12,6 +13,8 @@
     "Details": "The 5S is an upgrade of the 3F model introduced in 3049. The 5S replaces the fusion engine with an extralight model, while the weapons have also been stripped from the chassis and upgraded. The normal autocannon was replaced with an LB-X Autocannon/10 while the medium lasers were replaced with three Medium Pulse Lasers, one in each arm and the third in the left torso. Finally, the Hatchetman has been re-armored with eight and a half tons of Ferro-Fibrous armor.",
     "Icon": "uixTxrIcon_hatchetman"
   },
+  "simGameMechPartCost": 7500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

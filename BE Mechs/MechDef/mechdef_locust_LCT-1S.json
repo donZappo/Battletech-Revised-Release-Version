@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 1800000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Locust LCT-1S",
@@ -12,6 +13,8 @@
     "Details": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

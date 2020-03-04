@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7400000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Archer ARC-2W",
@@ -12,6 +13,8 @@
     "Details": "Carrying a pair of SRM-4s in place of two medium lasers, this was the trademark subvariant used by the Wolf's Dragoons, which they produce in an  assembly plant aboard their mobile space station, Hephaestus.  In the years since the Dragoons have appeared, the design has occasionally been emulated, especially by other mercenary companies.",
     "Icon": "uixTxrIcon_archer"
   },
+  "simGameMechPartCost": 7400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

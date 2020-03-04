@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 13300000,
     "Rarity": 5,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Black Knight BL-6B-KNT",
@@ -12,6 +13,8 @@
     "Details": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better—mostly thanks to its Double Heat Sinks, which are basically nonexistent these days.",
     "Icon": "uixTxrIcon_blackknight"
   },
+  "simGameMechPartCost": 13300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

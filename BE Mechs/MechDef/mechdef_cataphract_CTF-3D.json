@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 15200000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Cataphract CTF-3D",
@@ -12,6 +13,8 @@
     "Details": "Shortly after conquering Tikonov, the Federated Commonwealth began work on the CTF-3D, intended to stand toe-to-toe with an assault 'Mech and be as versatile as possible. Despite the upgrades the CTF-3D was only marginally deployed by the Armed Forces of the Federated Commonwealth and eventually relegated to the Crucis March Militia as an insult to the Capellans.",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "simGameMechPartCost": 15200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

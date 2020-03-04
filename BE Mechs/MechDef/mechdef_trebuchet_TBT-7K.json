@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4500000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Trebuchet TBT-7K",
@@ -12,6 +13,8 @@
     "Details": "Almost an entirely new 'Mech, the Trebuchet 7K moves away from its missile support to direct fire support, using a PPC and AC5 along with a SRM-2 for some close in support.",
     "Icon": "uixTxrIcon_trebuchet"
   },
+  "simGameMechPartCost": 4500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

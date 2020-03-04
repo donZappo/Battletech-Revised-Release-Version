@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3600000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Assassin ASN-101",
@@ -12,6 +13,8 @@
     "Details": "The ASN-101 is a rare Assassin variant that reduces jump capability and trims some of its already-thin armor to mount additional weapons. The extra punch meshes well with its advanced tracking systems.",
     "Icon": "uixTxrIcon_assassin"
   },
+  "simGameMechPartCost": 3600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

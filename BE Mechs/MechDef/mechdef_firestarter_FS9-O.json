@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 4100000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Firestarter Omni FS9-O",
@@ -12,6 +13,8 @@
     "Details": "The OmniMech Firestarter has proven to be a highly effective and flexible design. The only complaint many MechWarriors and technical crews have with the design is the sheer volume of fixed equipment the Firestarter carries, believing the permanently mounted jump jets, flamers and heat sinks unduly restricts the natural flexibility of the OmniMech.",
     "Icon": "uixTxrIcon_firestartero"
   },
+  "simGameMechPartCost": 4100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

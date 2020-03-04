@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Firebee FRB-2E",
@@ -12,6 +13,8 @@
     "Details": "The 2E Firebee mounts a Large Laser, giving it respectable firepower. Up close, four SRM-2 launcher can unleash eight missiles. Whether it is using Inferno rounds or not, something that its two tons of ammunition allows MechWarriors to utilize on a regular basis, the Firebee is a potent anti-vehicle platform.",
     "Icon": "uixTxrIcon_firebee"
   },
+  "simGameMechPartCost": 3400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Clint CLNT-2-3T",
@@ -12,6 +13,8 @@
     "Details": "Originally designed as a cheap recon 'Mech that could hold its own in a fight long enough to withdraw or be reinforced.  Armed with Armstrong Autocannon 5 and a pair of Martell Medium Lasers, the Clint 2-3T can put out a respectable amount of damage for its size, while its Jump Jets and modest sprinting speed let it keep pase with other recon elements.",
     "Icon": "uixTxrIcon_clint"
   },
+  "simGameMechPartCost": 3600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

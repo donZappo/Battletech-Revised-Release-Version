@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 11700000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Centurion CN9-D",
@@ -12,6 +13,8 @@
     "Details": "The D variant of the Centurion, introduced in 3049, is the first of many upgrades using Star League technology. The chassis was re-engineered to use Endo Steel construction techniques. Next the power plant was changed from the standard engine to a 300 extralight engine, increasing its maximum speed to 97.2 km/h. Finally, the weapons were upgraded. The Autocannon/10 was swapped for an LB-X Autocannon/10 and an Artemis IV fire control system was added to the LRM launcher.",
     "Icon": "uixTxrIcon_centurion"
   },
+  "simGameMechPartCost": 11700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

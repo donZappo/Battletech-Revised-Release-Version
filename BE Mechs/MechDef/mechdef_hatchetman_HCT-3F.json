@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 3700000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Hatchetman HCT-3F",
@@ -12,6 +13,8 @@
     "Details": "Hatchetman 3Fs are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Hatchetman. The Hatchetman's lighter armor requires it to rely on maneuvering and ambushing to stay in the fight.",
     "Icon": "uixTxrIcon_hatchetman"
   },
+  "simGameMechPartCost": 3700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

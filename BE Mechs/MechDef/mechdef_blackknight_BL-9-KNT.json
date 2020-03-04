@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 16980000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Black Knight BL-9-KNT",
@@ -12,6 +13,8 @@
     "Details": "One of the so-called Clanbuster refits developed by ComStar in the lead-up to the Battle of Tukayyid, this variant has been equipped with a 300 XL Engine, allowing it to mount an upgraded and heavier weapons load. The PPC was upgraded to an ER PPC, the medium lasers switched to Medium Pulse Lasers, a Large Pulse Laser added to the center torso, and both the small laser and Beagle Active Probe were removed.",
     "Icon": "uixTxrIcon_blackknight"
   },
+  "simGameMechPartCost": 16980000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

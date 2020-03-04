@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 9000000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Phoenix Hawk PXH-3S",
@@ -12,6 +13,8 @@
     "Details": "The 3S model of this 'Mech, first deployed in 3042, was another upgrade using rediscovered technology that attempted to make the Phoenix Hawk even more effective for reconnaissance. The engine was upgraded to an ExtraLight version and ten double heat sinks improved heat management. The overall armor protection was increased by one ton and replaced with Ferro-Fibrous armor.",
     "Icon": "uixTxrIcon_phoenixhawk"
   },
+  "simGameMechPartCost": 9000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

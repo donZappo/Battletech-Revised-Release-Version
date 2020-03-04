@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 10600000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Griffin GRF-1DS",
@@ -12,6 +13,8 @@
     "Details": "The 1DS variant of the Griffin, built by Defiance Industries, Kallon Industries and Norse BattleMech Works from their respective production lines starting in 3049, was intended to become the new standard model for the Federated Commonwealth. The engine was upgraded to a 275 extralight engine, fourteen double heat sinks improved cooling and the weapons were stripped from the chassis. The 'Mech now carried an LRM-20 launcher over the right shoulder and a Large Pulse Laser in the right arm.",
     "Icon": "uixTxrIcon_griffin"
   },
+  "simGameMechPartCost": 10600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

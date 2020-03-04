@@ -4,6 +4,7 @@
   "Description": {
     "Cost": 7500000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Orion ON1-K",
@@ -12,6 +13,8 @@
     "Details": "The Orion K was the first true heavy 'Mech. As a multirole brawler, the Orion can engage enemies at a variety of ranges, and with plenty of armor, it can survive combined fire for quite some time. Slow, yes—but powerful.",
     "Icon": "uixTxrIcon_orion"
   },
+  "simGameMechPartCost": 7500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",
