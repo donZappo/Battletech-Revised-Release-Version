@@ -6,7 +6,7 @@
     "Rarity": 3,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Catapult",
+    "UIName": "Catapult CPLT-C4",
     "Id": "mechdef_catapult_CPLT-C4",
     "Name": "Catapult",
     "Details": "All Catapult variants are fundamentally artillery platforms. The CPLT-C4 is optimized for massed LRM fire. That optimization costs it flexibility compared to the original C1. Lacking the C1's medium lasers, the C4 is usually kept at long range in a fire support role.",
