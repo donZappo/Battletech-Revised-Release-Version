@@ -2,7 +2,7 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "BLACKLISTED",
+            
             "unit_medium",
             "unit_jumpOK", 
             "unit_range_medium",
