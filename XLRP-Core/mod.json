@@ -18,6 +18,8 @@
 		"UpgradePilots" : true,
 		//** Set to false as it is covered by IRTweaks as well.
 		"ShowAllArgoUpgrades" : false,
+		//** Multiply heat from COILs by evasive pips. Required for proper heat from multiple shots from evasive pips. 
+		"COIL_Heat_Multiply_EP" : true,
 		
 		"Debug" : true,
 	},
