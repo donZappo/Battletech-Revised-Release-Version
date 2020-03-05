@@ -15,10 +15,10 @@
     "Contact": "message me at Nexus or Paradox sites",
 	
 	"Manifest": [
-        { "Type": "LanceDef", "Path": "lance", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "LanceDef", "Path": "lance_JK", "ShouldMergeJSON": false, "AddToDB": true },
-        { "Type": "ContractOverride", "Path": "contracts", "AddToDB": false },
-        { "Type": "ContractOverride", "Path": "contracts_JK", "AddToDB": true },
+        { "Type": "LanceDef", "Path": "xlance", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "LanceDef", "Path": "xlance_JK", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ContractOverride", "Path": "xcontracts", "AddToDB": false },
+        { "Type": "ContractOverride", "Path": "xcontracts_JK", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false },

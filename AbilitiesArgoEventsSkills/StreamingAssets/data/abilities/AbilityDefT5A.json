@@ -10,5 +10,6 @@
 	"ReqSkillLevel" : 5,
 	"ActivationTime" : "ConsumedByFiring",
     "Targeting" : "SensorLock",
-	"IsPrimaryAbility" : true
+	"IsPrimaryAbility" : true,
+	"ActivationCooldown": 1,
 }

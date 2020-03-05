@@ -25,7 +25,7 @@
     "DesignMaskBiomeLunarVacuum"
   ],
   "BurningForestStrength": 30,
-  "BurningForestBaseExpandChance": 0.5,
+  "BurningForestBaseExpandChance": 0.0,
   "DynamicDesignMasksDefs": [
     "DesignMaskCrystals",
     "DesignMaskForest",

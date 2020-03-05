@@ -43,7 +43,7 @@
     }
   },
   "ExtendedBoundaries": {
-    "Enable": true,
+    "Enable": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "IncreaseBoundarySizeByPercentage": 0.3,
     "Overrides": [

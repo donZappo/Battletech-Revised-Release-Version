@@ -24,7 +24,7 @@
         "EnabledDescription" : "Enables statistic effects for multiplying structure and armor values, happens before/after combat."
     },
     "ArmorStructureRatio" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "CBT rule enforcement, that armor at every mechs location is not more than 2 times the structure, head is allowed to be 3 times.",
         "SkipMechDefs" : [
             
@@ -268,7 +268,7 @@
         "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
     },
     "CompressFloatieMessages" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4"
     },
     "CriticalEffects" : {
