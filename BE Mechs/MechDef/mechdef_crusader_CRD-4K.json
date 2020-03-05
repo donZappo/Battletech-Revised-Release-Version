@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5900000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Crusader",
+    "UIName": "Crusader CRD-4K",
     "Id": "mechdef_crusader_CRD-4K",
     "Name": "Crusader",
     "Details": "A field modification kit based on the 3K variant and introduced for Kuritan forces in 3049, the 4K removes two heat sinks and replaces the two medium lasers of the 3K with medium pulse models.",
     "Icon": "uixTxrIcon_crusader"
   },
+  "simGameMechPartCost": 5900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

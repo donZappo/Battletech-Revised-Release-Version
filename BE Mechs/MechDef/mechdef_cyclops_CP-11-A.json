@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 10200000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Cyclops",
+    "UIName": "Cyclops CP-11-A",
     "Id": "mechdef_cyclops_CP-11-A",
     "Name": "Cyclops",
     "Details": "A common modification of the Cyclops that uses some rediscovered Star League technology, the 11-A was introduced in 3045 and replaces the massive Autocannon/20 for a Zeus Slingshot Gauss Rifle with two tons of ammo. Although doing slightly less damage it has a much larger effective range.",
     "Icon": "uixTxrIcon_cyclops"
   },
+  "simGameMechPartCost": 10200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

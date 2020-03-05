@@ -1,5 +1,5 @@
 {
-	"Name": "BE-Mechs",
+	"Name": "BE Mechs",
 	"Author": "XSNomad, Vengefire, donZappo, Azakael, NStriker",
 	"Website": "https://github.com/vengefire/XLRP-Complete",
 
@@ -22,6 +22,7 @@
 		"Path": "MovementCapabilitiesDef",
 		"AddToDB": false
 	},
+	{ "Type": "LanceDef", "Path": "LanceDef", "AddToDB": false},
 	{ "Type": "Sprite", "Path": "Sprite", "AddToDB": false },
 	{ "Type": "HardpointDataDef", "Path": "HardpointDataDef" },
 	

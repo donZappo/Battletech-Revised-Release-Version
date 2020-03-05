@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 7300000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Grasshopper",
+    "UIName": "Grasshopper GHR-5J",
     "Id": "mechdef_grasshopper_GHR-5J",
     "Name": "Grasshopper",
     "Details": "An upgrade of the Grasshopper using Star League technology, the 5J replaces the large laser with an ER Large Laser, replaces the SRM launcher with a Streak SRM-2 model, and removes the two torso-mounted medium lasers for an Anti-Missile System.",
     "Icon": "uixTxrIcon_grasshopper"
   },
+  "simGameMechPartCost": 7300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

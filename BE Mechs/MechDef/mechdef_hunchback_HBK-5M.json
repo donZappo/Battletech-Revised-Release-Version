@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4300000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Hunchback",
+    "UIName": "Hunchback HBK-5M",
     "Id": "mechdef_hunchback_HBK-5M",
     "Name": "Hunchback",
     "Details": "The Kali Yama-produced 5M Hunchback is a simple upgrade of the original 4G model that first saw production in 3046. The most notable changes saw the heat sinks upgraded to double-strength models, while the small laser was upgraded to a Small Pulse Laser, and CASE was added to protect against ammunition explosions. The extra weight required to add the newer systems forced Kali Yama to reduce ammunition to a single ton of reloads, making it unpopular with MechWarriors.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "simGameMechPartCost": 4300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

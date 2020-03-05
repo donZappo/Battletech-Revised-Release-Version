@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 3800000,
     "Rarity": 5,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Vindicator",
+    "UIName": "Vindicator VND-1R (Vong)",
     "Id": "mechdef_vindicator_VND-1R_Vong",
     "Name": "Vindicator",
     "Details": "Made in 3020, this customized Vindicator used by Major Choung Vong, in the Third Succession War, moved the head-mounted medium laser to the right arm, simply making the cockpit roomier for its brutally effective, but rather rotund pilot. It is by all accounts the same as the original 1R, retaining all its capabilities.",
     "Icon": "uixTxrIcon_vindicator"
   },
+  "simGameMechPartCost": 3800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

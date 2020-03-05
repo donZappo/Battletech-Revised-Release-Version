@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 6900000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Archer",
+    "UIName": "Archer ARC-2R",
     "Id": "mechdef_archer_ARC-2R",
     "Name": "Archer",
     "Details": "The well-known Archer is the epitome of the \"missile boat\" concept. It is commonly found hurling deadly swarms of LRMs at targets from behind the safety of a hill. It's not too shabby in closer-range fights, either. Its only real weakness is terrible heat management.",
     "Icon": "uixTxrIcon_archer"
   },
+  "simGameMechPartCost": 6900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

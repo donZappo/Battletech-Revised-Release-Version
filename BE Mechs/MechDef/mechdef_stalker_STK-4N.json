@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 8600000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Stalker",
+    "UIName": "Stalker STK-4N",
     "Id": "mechdef_stalker_STK-4N",
     "Name": "Stalker",
     "Details": "The Stalker STK-4N removes an LRM launcher in order to add more Heat Sinks.  While it doesn't add any additional weapons, the extra Heat Sinks allow for a more consistent output without overheating.",
     "Icon": "uixTxrIcon_stalker"
   },
+  "simGameMechPartCost": 8600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

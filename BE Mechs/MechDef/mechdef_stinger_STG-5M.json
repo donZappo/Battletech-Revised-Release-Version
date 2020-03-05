@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Stinger",
+    "UIName": "Stinger STG-5M",
     "Id": "mechdef_stinger_STG-5M",
     "Name": "Stinger",
     "Details": "The Stinger 5M was produced by Earthwerks Incorporated on Keystone and Calloway VI took advantage of several technologies that were rediscovered, thanks in part to the Helm Memory Core. The chassis was upgraded to an Endo Steel model, allowing it to carry an additional half-ton of armor. The 'Mech retained the medium laser but swapped the machine guns for an Anti-Missile System on its right arm and a Flamer on its left.",
     "Icon": "uixTxrIcon_stinger"
   },
+  "simGameMechPartCost": 1500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

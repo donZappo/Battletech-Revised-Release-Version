@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 8800000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Highlander",
+    "UIName": "Highlander HGN-733",
     "Id": "mechdef_highlander_HGN-733",
     "Name": "Highlander",
     "Details": "The Highlander 733 is one of the few jump-capable assault 'Mechs. A mixture of medium- and long-range weaponry ensures that while the Highlander excels at no particular role, it is decent at all of them.",
     "Icon": "uixTxrIcon_highlander"
   },
+  "simGameMechPartCost": 8800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

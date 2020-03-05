@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2600000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Panther",
+    "UIName": "Panther PNT-8Z",
     "Id": "mechdef_panther_PNT-8Z",
     "Name": "Panther",
     "Details": "An early version of the Panther that is occasionally seen in the Periphery, it is armed with the ancient Tronel Large Laser in place of the PPC.  This laser suffers from faulty heat exchangers and generates more heat than a standard Large Laser.  Most of these have long since been retrofitted.",
     "Icon": "uixTxrIcon_panther"
   },
+  "simGameMechPartCost": 2600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

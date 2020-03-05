@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 20640000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Emperor",
+    "UIName": "Emperor EMP-6A",
     "Id": "mechdef_emperor_EMP-6A",
     "Name": "Emperor",
     "Details": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502. The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets.",
     "Icon": "uixTxrIcon_emperor"
   },
+  "simGameMechPartCost": 20640000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

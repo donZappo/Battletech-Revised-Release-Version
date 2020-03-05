@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 6611000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Catapult",
+    "UIName": "Catapult CPLT-K5",
     "Id": "mechdef_catapult_CPLT-K5",
     "Name": "Catapult",
     "Details": "Another Kuritan variant, the -K5 goes back to its roots by carrying two MRM-30 launchers as its primary weapon. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
+  "simGameMechPartCost": 6611000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

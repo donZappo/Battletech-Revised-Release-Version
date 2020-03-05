@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1700000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Flea",
+    "UIName": "Flea FLE-17",
     "Id": "mechdef_flea_FLE-17",
     "Name": "Flea",
     "Details": "Focused on speed and firepower, the lightly armored Flea was an extremely rare sight until the design experienced a revival as an inexpensive recon and anti-personnel militia 'Mech. Extremely fast but lightly armored, the Flea does its job but don't ask it to fight much.",
     "Icon": "uixTxrIcon_flea"
   },
+  "simGameMechPartCost": 1700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

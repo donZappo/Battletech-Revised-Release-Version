@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 14900000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Caesar",
+    "UIName": "Caesar CES-3R",
     "Id": "mechdef_caesar_CES-3R",
     "Name": "Caesar",
     "Details": "Originally a reverse-engineered version of the Capellan Confederation's Cataphract intended to mask development of the Federated Commonwealth's fearsome Axman, the Caesar would turn out to be a good but not great BattleMech in its own right. The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries a primarily long-ranged armament.",
     "Icon": "uixTxrIcon_caesar"
   },
+  "simGameMechPartCost": 14900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

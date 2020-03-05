@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 10400000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Enforcer",
+    "UIName": "Enforcer ENF-5D",
     "Id": "mechdef_enforcer_ENF-5D",
     "Name": "Enforcer",
     "Details": "First walking off the production line in late 3050, the 5D Enforcer is a major upgrade to the standard 'Mech, meeting many of its pilots' desire for something faster, better-protected and with more endurance. The 200 engine has been removed and replaced with a 250 Extralight Engine, increasing the Enforcer's top speed to 86.4 km/h and the amount of space available for other additions.",
     "Icon": "uixTxrIcon_enforcer"
   },
+  "simGameMechPartCost": 10400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

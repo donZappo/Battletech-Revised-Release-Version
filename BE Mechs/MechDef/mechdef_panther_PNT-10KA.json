@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 3300000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Panther",
+    "UIName": "Panther PNT-10KA",
     "Id": "mechdef_panther_PNT-10KA",
     "Name": "Panther",
     "Details": "The 10KA Panther is a field refit of the Panther 10K. It removes the ER PPC and replaces it with a standard PPC to alleviate some heat problems.",
     "Icon": "uixTxrIcon_panther"
   },
+  "simGameMechPartCost": 3300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

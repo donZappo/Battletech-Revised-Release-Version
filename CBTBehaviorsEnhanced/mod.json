@@ -16,10 +16,10 @@
         "CharlesB"
     ],
     "Settings": {
-        "Debug": false,
-        "Trace": false,
+        "Debug": true,
+        "Trace": true,
         "Features": {
-            "BiomeBreaches": false,
+            "BiomeBreaches": true,
             "StartupChecks": false
         },
         "EnablePermanentEvasion": false,
@@ -27,24 +27,24 @@
         "ToHitSelfJumped": 2,
         "Heat": {
             "Movement": {
-                "15": -1,
-                "30": -2,
-                "45": -3,
-                "60": -4,
-                "75": -5,
-                "93": -6,
-                "111": -7,
-                "129": -8,
-                "147": -9
+                "15": 0,
+                "30": 0,
+                "45": 0,
+                "60": 0,
+                "75": 0,
+                "93": 0,
+                "111": 0,
+                "129": 0,
+                "147": 0
             },
             "Firing": {
-                "24": 1,
-                "39": 2,
-                "51": 3,
-                "72": 4,
-                "99": 5,
-                "123": 6,
-                "144": 7
+                "24": 0,
+                "39": 0,
+                "51": 0,
+                "72": 0,
+                "99": 0,
+                "123": 0,
+                "144": 0
             },
             "Shutdown": {
                 "42": 0.1,

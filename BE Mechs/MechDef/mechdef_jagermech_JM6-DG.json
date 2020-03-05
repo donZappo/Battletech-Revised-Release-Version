@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 13000000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "JagerMech",
+    "UIName": "JagerMech JM6-DG",
     "Id": "mechdef_jagermech_JM6-DG",
     "Name": "JagerMech",
     "Details": "This field refit was the result of inspired technicians working on JagerMechs undergoing major overhauls. Introduced in 3054 it replaces the autocannons with two Gauss Rifles and six tons of ammunition. In order to accommodate this change, the lasers were swapped out for ER Medium Lasers. The heat sinks were also upgraded to double-strength models.",
     "Icon": "uixTxrIcon_jagermech"
   },
+  "simGameMechPartCost": 13000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 25700000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Atlas",
+    "UIName": "Atlas AS7-K",
     "Id": "mechdef_atlas_AS7-K",
     "Name": "Atlas",
     "Details": "A 3050's Combine upgrade of the Atlas that used rediscovered Star League technology, the K model was built with a 300 XL Engine. The Star League based armament allowed the AS7-K to keep an enemy at range, though the continued use of twenty single heat sinks caused swift heat buildup if all weapons are fired repeatedly.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "simGameMechPartCost": 25700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

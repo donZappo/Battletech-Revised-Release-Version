@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5200000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Shadow Hawk",
+    "UIName": "Shadow Hawk SHD-5M",
     "Id": "mechdef_shadowhawk_SHD-5M",
     "Name": "Shadow Hawk",
     "Details": "The 5M Shadow Hawk is the first complete overhaul and upgrade of the design, unveiled in 3048 by Earthwerks for the Free Worlds League. The chassis has been upgraded to Endo Steel, the engine replaced with an XL, and the use of double heat sinks bring the Shadowhawk 5M at the front of the technological curve.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "simGameMechPartCost": 5200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

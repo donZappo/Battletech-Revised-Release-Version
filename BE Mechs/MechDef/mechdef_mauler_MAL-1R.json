@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 19600000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Mauler",
+    "UIName": "Mauler MAL-1R",
     "Id": "mechdef_mauler_MAL-1R",
     "Name": "Mauler",
     "Details": "The Mauler 1R is protected with eleven and a half tons of Ferro-Fibrous armor and has a maximum speed of 54 km/h. Built to engage targets at extremely long ranges, the 'Mech is armed almost solely with long range weaponry. While this left the Mauler vulnerable to rushing by 'Mechs armed with short range weaponry, a skilled MechWarrior can use the range advantage offered to minimize damage to the Mauler while simultaneously causing as much damage as possible to enemy combatants.",
     "Icon": "uixTxrIcon_mauler"
   },
+  "simGameMechPartCost": 19600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

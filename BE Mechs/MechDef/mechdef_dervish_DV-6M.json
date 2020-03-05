@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4900000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Dervish",
+    "UIName": "Dervish DV-6M",
     "Id": "mechdef_dervish_DV-6M",
     "Name": "Dervish",
     "Details": "The Dervish DV-6M was among the first 'Mechs mass-produced by the Great Houses and has served as a workhorse for their armies since its introduction. While regarded by some as a poor man's Archer, the Dervish's speed and weaponry nevertheless allow it to provide quick fire support and free larger 'Mechs for other duties.",
     "Icon": "uixTxrIcon_dervish"
   },
+  "simGameMechPartCost": 4900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

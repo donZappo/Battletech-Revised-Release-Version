@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 7698680,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Orion",
+    "UIName": "Orion ON1-MB",
     "Id": "mechdef_orion_ON1-MB",
     "Name": "Orion",
     "Details": "A second minor variant of the ON1-M introduced in 3058. The LB-X Autocannon/10 is swapped for a Light Gauss Rifle with a single ton of ammunition while the medium lasers are upgraded to extended range versions. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_orion"
   },
+  "simGameMechPartCost": 7698680,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

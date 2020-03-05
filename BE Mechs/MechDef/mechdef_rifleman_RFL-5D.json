@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5000000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Rifleman",
+    "UIName": "Rifleman RFL-5D",
     "Id": "mechdef_rifleman_RFL-5D",
     "Name": "Rifleman",
     "Details": "A recovered-technology version of the RFL-4D, the 5D was introduced in 3050 for the Federated Commonwealth. Based on the earlier 4D, it replaces the PPCs with ER PPC models and restores the original model's medium lasers to the side torsos. A 240-rated XL engine was used to free up weight for the mounting of seventeen double heat sinks and an increase in armor protection to nine tons. Production of this model was taken up by Kallon Industries on Talon, Trellshire Industires on Twycross and Red Devil Industries on Pandora.",
     "Icon": "uixTxrIcon_rifleman"
   },
+  "simGameMechPartCost": 5000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

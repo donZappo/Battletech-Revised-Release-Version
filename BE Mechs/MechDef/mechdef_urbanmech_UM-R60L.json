@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1900000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "UrbanMech",
+    "UIName": "UrbanMech UM-R60L",
     "Id": "mechdef_urbanmech_UM-R60L",
     "Name": "UrbanMech",
     "Details": "The UM-R60L is a modification of the standard R60 UrbanMech that replaces the AC/10 and 2 tons of armor with an AC/20 to double its firepower. With even less combat endurance than the R60, the R60L is favored in ambush or hit-and-run tactics.",
     "Icon": "uixTxrIcon_urbanmech"
   },
+  "simGameMechPartCost": 1900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

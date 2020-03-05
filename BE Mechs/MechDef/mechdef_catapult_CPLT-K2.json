@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5800000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Catapult",
+    "UIName": "Catapult CPLT-K2",
     "Id": "mechdef_catapult_CPLT-K2",
     "Name": "Catapult",
     "Details": "The Catapult K2 is an outside-the-box redesign that trades the indirect-fire capability for heavier direct-fire PPCs. It doesn't usually mount Jump Jets, though, so it can be a bit more restricted in its use.",
     "Icon": "uixTxrIcon_catapultk2"
   },
+  "simGameMechPartCost": 5800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

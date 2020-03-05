@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 11300000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Banshee",
+    "UIName": "Banshee BNC-3M",
     "Id": "mechdef_banshee_BNC-3M",
     "Name": "Banshee",
     "Details": "The Banshee 3M mounts respectable weaponry with better-than-average speed and armor. This comes at the cost of very poor heat management. It's good at hunting lighter units, especially if it can close to Melee range.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "simGameMechPartCost": 11300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 3400000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Wolfhound",
+    "UIName": "Wolfhound WLF-2",
     "Id": "mechdef_wolfhound_WLF-2",
     "Name": "Wolfhound",
     "Details": "Introduced in 3052 the WLF-2 Variant upgrades the 10 heat sinks to doubles and the Large laser is upgraded also to an ER version.",
     "Icon": "uixTxrIcon_wolfhound"
   },
+  "simGameMechPartCost": 3400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 6400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Champion",
+    "UIName": "Champion CHP-1N",
     "Id": "mechdef_champion_CHP-1N",
     "Name": "Champion",
     "Details": "The armament on the Champion 1N is considered by many to be feeble for its size. A LB-X Autocannon/10 with two tons of ammo is mounted in the right torso, while one SRM-6 Launcher mated to an Artemis IV Fire Control System with one ton of reloads is mounted in the left. These are backed up by two Medium Lasers in the left torso and two Small Lasers in the center torso. The excess heat produced by these weapons is barely kept in check through the use of ten single heat sinks, a result of Bergen trying to keep costs low, while eight tons of Ferro-Fibrous armor provides meager protection.",
     "Icon": "uixTxrIcon_champion"
   },
+  "simGameMechPartCost": 6400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

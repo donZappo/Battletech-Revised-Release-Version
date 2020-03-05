@@ -70,11 +70,6 @@
 			"Type": "ItemCollectionDef",
 			"Path": "ItemCollectionDef",
 			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "MovementCapabilitiesDef",
-			"Path": "MovementCapabilitiesDef",
-			"AddToDB": false
 		}
 	]
 }

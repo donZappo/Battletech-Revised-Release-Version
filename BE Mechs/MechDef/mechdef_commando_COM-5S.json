@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2300000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Commando",
+    "UIName": "Commando COM-5S",
     "Id": "mechdef_commando_COM-5S",
     "Name": "Commando",
     "Details": "The COM-5S was introduced in 3050 and was the first Commando to feature Star League technology. It adds an Artemis IV Fire Control System to the SRM-6, and exchanges the SRM-4 with a Streak SRM-2 launcher. Additionally, the chassis has been upgraded with Endo Steel, the armor has been upgraded to Ferro-Fibrous, and CASE has been added to protect the ammunition.",
     "Icon": "uixTxrIcon_commando"
   },
+  "simGameMechPartCost": 2300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

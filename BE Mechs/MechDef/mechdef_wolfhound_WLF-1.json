@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 3300000,
     "Rarity": 5,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Wolfhound",
+    "UIName": "Wolfhound WLF-1",
     "Id": "mechdef_wolfhound_WLF-1",
     "Name": "Wolfhound",
     "Details": "Following the success of the Hatchetman, Archon Katrina Steiner herself ordered TharHes to produce a 'Mech that could be used to hunt down enemy scouts, particularly the Jenner and Panther.  The final design, dubbed the Wolfhound, is armed with one Large and four Medium Lasers.",
     "Icon": "uixTxrIcon_wolfhound"
   },
+  "simGameMechPartCost": 3300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

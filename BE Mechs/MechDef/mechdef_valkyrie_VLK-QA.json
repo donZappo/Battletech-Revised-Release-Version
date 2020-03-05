@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2300000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Valkyrie",
+    "UIName": "Valkyrie VLK-QA",
     "Id": "mechdef_valkyrie_VLK-QA",
     "Name": "Valkyrie",
     "Details": "The Valkyrie has as its primary armament a LRM-10 launcher with one ton of reloads mounted in the left torso. While an unusual weapon on a light 'Mech, it gives the Valkyrie a long reach and respectable damage, especially against other light 'Mech hunters. As a back-up weapon the Valkyrie carries a Medium Laser in its right arm. This mix of long and short-range weapons allows the Valkyrie to soften up other 'Mechs from long range then move in for a kill.",
     "Icon": "uixTxrIcon_valkyrie"
   },
+  "simGameMechPartCost": 2300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

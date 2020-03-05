@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1490360,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Commando",
+    "UIName": "Commando COM-7S",
     "Id": "mechdef_commando_COM-7S",
     "Name": "Commando",
     "Details": "This update of the COM-5S introduced in 3059 is also built on an Endo Steel chassis but uses a new Light Fusion engine. The 'Mech carries two Streak SRM-2 launchers, an SRM-4 with an Artemis IV Fire Control System, and an ER Medium Laser in each arm",
     "Icon": "uixTxrIcon_commando"
   },
+  "simGameMechPartCost": 1490360,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4220640,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Kintaro",
+    "UIName": "Kintaro KTO-C",
     "Id": "mechdef_kintaro_KTO-C",
     "Name": "Kintaro",
     "Details": "A variant of the Combine's KTO-20, the KTO-C was one of the test bed 'Mechs for the C3 Slave Unit, one of the Medium Lasers being removed in order to free up the necessary weight.",
     "Icon": "uixTxrIcon_kintaro"
   },
+  "simGameMechPartCost": 4220640,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 7700000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Longbow",
+    "UIName": "Longbow LGB-7Q",
     "Id": "mechdef_longbow_LGB-7Q",
     "Name": "Longbow",
     "Details": "The Longbow is one of the most well-known fire support 'Mechs in existence.  It has long been a trusted and reliable machine that can be counted on to carry out the mission it is designed for. Combined, the LRM launchers can put a devastating barrage of up to fifty missiles down range, while its two Medium Lasers help to protect it from light scouts that venture too close.",
     "Icon": "uixTxrIcon_longbow"
   },
+  "simGameMechPartCost": 7700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 6400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Crusader",
+    "UIName": "Crusader CRD-5S",
     "Id": "mechdef_crusader_CRD-5S",
     "Name": "Crusader",
     "Details": "A production-model upgrade of the Crusader utilizing Star League equipment, the 5S is built by TharHes industries on Tharkad for FedCom forces since 3049. It varies little from the 3R model, instead removing the machine guns to make room for double heat sinks, CASE to protect the missile reloads, and the addition of a Flamer in the right arm.",
     "Icon": "uixTxrIcon_crusader"
   },
+  "simGameMechPartCost": 6400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

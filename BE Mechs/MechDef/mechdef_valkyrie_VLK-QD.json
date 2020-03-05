@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2300000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Valkyrie",
+    "UIName": "Valkyrie VLK-QD",
     "Id": "mechdef_valkyrie_VLK-QD",
     "Name": "Valkyrie",
     "Details": "The QD Valkyrie is a major overhaul of the design debuting in 3049. The chassis has been re-engineered to use Endo Steel construction and the armor has been upgraded to Ferro-Fibrous with CASE. This allowed the variant to update the laser to a Medium Pulse Laser and add an Artemis IV fire control system to the LRM-10.",
     "Icon": "uixTxrIcon_valkyrie"
   },
+  "simGameMechPartCost": 2300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

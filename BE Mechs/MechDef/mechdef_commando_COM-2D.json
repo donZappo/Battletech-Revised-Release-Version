@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2100000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Commando",
+    "UIName": "Commando COM-2D",
     "Id": "mechdef_commando_COM-2D",
     "Name": "Commando",
     "Details": "With all those SRMs, the COM-2D is like a small, highly mobile shotgun that can take down 'Mechs twice its size or bigger. You've gotta be careful with it, though, because it's not meant to take much of a beating.",
     "Icon": "uixTxrIcon_commando"
   },
+  "simGameMechPartCost": 2100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

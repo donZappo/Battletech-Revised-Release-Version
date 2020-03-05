@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Trebuchet",
+    "UIName": "Trebuchet TBT-5J",
     "Id": "mechdef_trebuchet_TBT-5J",
     "Name": "Trebuchet",
     "Details": "Trading off firepower for mobility, the Trebuchet 5J removes one of the LRM-15 launchers and adds in jump capabilities and 5 extra heat sinks.",
     "Icon": "uixTxrIcon_trebuchet"
   },
+  "simGameMechPartCost": 4400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

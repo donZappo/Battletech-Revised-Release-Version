@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5400000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Shadow Hawk",
+    "UIName": "Shadow Hawk SHD-2D2",
     "Id": "mechdef_shadowhawk_SHD-2D2",
     "Name": "Shadow Hawk",
     "Details": "The 2D2 is an upgrade of the -2D Shadow Hawk introduced in 3049, born of the Federated Commonwealth buying original-model 2Hs from Majesty Metals and refitting them for use by militia forces or for sale to mercenaries. Like the 2D this upgrade adds another SRM launcher to the center torso and a medium laser to the left arm, however both center torso and head launchers are Streak SRM-2s.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "simGameMechPartCost": 5400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

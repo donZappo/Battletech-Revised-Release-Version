@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2500000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Spider",
+    "UIName": "Spider SDR-5D",
     "Id": "mechdef_spider_SDR-5D",
     "Name": "Spider",
     "Details": "The 5D Spider is geared towards anti-infantry work, removing one of the medium lasers and replacing it with a Flamer in the right arm.  However, the combination of its speed with the Flamer can deliver an unpleasant surprise.",
     "Icon": "uixTxrIcon_spider"
   },
+  "simGameMechPartCost": 2500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

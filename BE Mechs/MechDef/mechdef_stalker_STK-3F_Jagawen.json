@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 8700000,
     "Rarity": 5,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Stalker",
+    "UIName": "Stalker STK-3F (Jagawen)",
     "Id": "mechdef_stalker_STK-3F_Jagawen",
     "Name": "Stalker",
     "Details": "The personal 'Mech of Sho-sho Jagawen Torisobo of the Eigth Sword of Light. Designed for close combat, this custom Stalker replaces the LRM launchers with twin SRM-6 racks in each torso and installed six additional heat sinks.",
     "Icon": "uixTxrIcon_stalker"
   },
+  "simGameMechPartCost": 8700000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

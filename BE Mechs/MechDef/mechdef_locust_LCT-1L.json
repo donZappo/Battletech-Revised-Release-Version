@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1600000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Locust",
+    "UIName": "Locust LCT-1L",
     "Id": "mechdef_locust_LCT-1L",
     "Name": "Locust",
     "Details": "The LCT-1L was an attempt to allow the 'Mech to operate at even higher speeds by adding Triple Strength Myomer to the design.  Initial testing has resulted in an increase in Melee Capabilities, and a minor boost to speed.   The LCT-1L load out is identical to that of the Locust 1V.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

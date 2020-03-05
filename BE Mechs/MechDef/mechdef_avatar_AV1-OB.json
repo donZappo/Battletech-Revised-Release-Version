@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 7100000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Avatar",
+    "UIName": "Avatar AV1-OB",
     "Id": "mechdef_avatar_AV1-OB",
     "Name": "Avatar",
     "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.",
     "Icon": "uixTxrIcon_avatar"
   },
+  "simGameMechPartCost": 7100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

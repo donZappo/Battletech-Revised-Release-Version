@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1600000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Locust",
+    "UIName": "Locust LCT-1V",
     "Id": "mechdef_locust_LCT-1V",
     "Name": "Locust",
     "Details": "The basic Locust 1V has one big advantage: speed. It's not meant to put up much of a fight, but you'd be hard-pressed to find a 'Mech that goes further and is harder to hit.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

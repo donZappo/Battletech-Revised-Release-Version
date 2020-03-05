@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5200000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Shadow Hawk",
+    "UIName": "Shadow Hawk SHD-2H",
     "Id": "mechdef_shadowhawk_SHD-2H",
     "Name": "Shadow Hawk",
     "Details": "The Shadow Hawk 2H is the perfect example of a 'jack-of-all-trades.' It supports weaponry for all ranges, has respectable speed and jump capability, and mounts decent armor. This comes at the cost of excelling at nothing in particular.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "simGameMechPartCost": 5200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

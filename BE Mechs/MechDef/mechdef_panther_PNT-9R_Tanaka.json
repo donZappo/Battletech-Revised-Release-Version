@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2600000,
     "Rarity": 5,
+    "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Panther",
+    "UIName": "Panther PNT-9R (Tanaka)",
     "Id": "mechdef_panther_PNT-9R_Tanaka",
     "Name": "Panther",
     "Details": "The personal 'Mech of Hohiro 'T-Bone' Tanaka, a Solaris Arena Pilot and member of the 'Mavericks'. His Panther has been modified for use in the close confines of the dueling arena. The PPC was removed from the right arm, and a large laser, medium laser, and one heat sink were installed.",
     "Icon": "uixTxrIcon_panther"
   },
+  "simGameMechPartCost": 2600000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

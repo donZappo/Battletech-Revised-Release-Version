@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 7400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Orion",
+    "UIName": "Orion ON1-V",
     "Id": "mechdef_orion_ON1-V",
     "Name": "Orion",
     "Details": "The Orion V trades some of the armor the K model is known for to mount additional weaponry. This increases its overall damage output, but many pilots consider the loss of armor to be risky.",
     "Icon": "uixTxrIcon_orion"
   },
+  "simGameMechPartCost": 7400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1800000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Locust",
+    "UIName": "Locust LCT-1E",
     "Id": "mechdef_locust_LCT-1E",
     "Name": "Locust",
     "Details": "The 1E Locust packs only Lasers for its armament, for better overall damage without the risk of ammo explosions. It runs quite a bit hotter than other variants, though, so it works best with hit-and-run attacks.",
     "Icon": "uixTxrIcon_locust"
   },
+  "simGameMechPartCost": 1800000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

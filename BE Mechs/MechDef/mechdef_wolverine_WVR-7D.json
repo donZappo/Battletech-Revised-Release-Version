@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 5000000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Wolverine",
+    "UIName": "Wolverine WVR-7D",
     "Id": "mechdef_wolverine_WVR-7D",
     "Name": "Wolverine",
     "Details": "The 7D variant of the Wolverine is a major upgrade to the design introduced in 3050 by the Federated Suns' new Nanking factory. The standard engine on the 'Mech was replaced with a 275 XL version and the armor has been upgraded to Ferro-Fibrous material with an extra half-ton added. To increase the Wolverine's speed, MASC has been added, allowing it to move up to 108 km/h in bursts. Finally, the weapons payload has been upgraded as well.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "simGameMechPartCost": 5000000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

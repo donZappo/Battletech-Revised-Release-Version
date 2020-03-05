@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 6300000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Thunderbolt",
+    "UIName": "Thunderbolt TDR-9S",
     "Id": "mechdef_thunderbolt_TDR-9S",
     "Name": "Thunderbolt",
     "Details": "Based on the older 5SS model, the 9S was built in 3050 by Olivetti Weaponry using off-the-shelf structural components and armor after extensive changes delayed production. The 'Mech is armed with an ER PPC in its right arm as its primary long-range firepower. This is supported at closer ranges by a SRM-6 in the left torso along with the original three medium lasers. While retaining the left arm machine guns, in the right torso it carries a pair of flamers and an Anti-Missile System along with one ton of AMS ammo.",
     "Icon": "uixTxrIcon_thunderbolt"
   },
+  "simGameMechPartCost": 6300000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

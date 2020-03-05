@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4400000,
     "Rarity": 4,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Hunchback",
+    "UIName": "Hunchback HBK-4N",
     "Id": "mechdef_hunchback_HBK-4N",
     "Name": "Hunchback",
     "Details": "Combining elements of the 4H and 4J 'Swaybacks', the HBK-4N uses an AC5 and two LRM-5s to give it range, while the four Medium Lasers give it punch up close.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "simGameMechPartCost": 4400000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

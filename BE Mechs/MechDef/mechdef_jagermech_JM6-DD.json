@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 12900000,
     "Rarity": 3,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "JagerMech",
+    "UIName": "JagerMech JM6-DD",
     "Id": "mechdef_jagermech_JM6-DD",
     "Name": "JagerMech",
     "Details": "The DD was the first variation incorporating technology recovered from the Gray Death Memory Core. The DD replaces the standard engine with an XL model and converts the armor to Ferro-Fibrous, adding an additional half-ton. The Autocannons are replaced by Ultra Autocannons, and the standard lasers are replaced with Medium Pulse Lasers.",
     "Icon": "uixTxrIcon_jagermech"
   },
+  "simGameMechPartCost": 12900000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

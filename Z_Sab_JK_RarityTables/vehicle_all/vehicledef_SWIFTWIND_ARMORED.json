@@ -2,7 +2,7 @@
     "VehicleTags": {
         "items": [
             "unit_vehicle",
-            "BLACKLISTED",  
+              
             "unit_weaponless",
             "unit_light",
             "unit_wheels", 

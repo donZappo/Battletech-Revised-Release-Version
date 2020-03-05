@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 4200000,
     "Rarity": 2,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Centurion",
+    "UIName": "Centurion CN9-A",
     "Id": "mechdef_centurion_CN9-A",
     "Name": "Centurion",
     "Details": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A models are able to engage at any range, but their damage curve increases as they approach a target.",
     "Icon": "uixTxrIcon_centurion"
   },
+  "simGameMechPartCost": 4200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

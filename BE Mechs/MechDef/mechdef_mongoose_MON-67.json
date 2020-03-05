@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 2200000,
     "Rarity": 0,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Mongoose",
+    "UIName": "Mongoose MON-67",
     "Id": "mechdef_mongoose_MON-67",
     "Name": "Mongoose",
     "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust.  Armed with one Small and three Medium Lasers, it packs more of a punch while keeping up with the Locust's speed.",
     "Icon": "uixTxrIcon_mongoose"
   },
+  "simGameMechPartCost": 2200000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

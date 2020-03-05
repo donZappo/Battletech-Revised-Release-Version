@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 1500000,
     "Rarity": 1,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Stinger",
+    "UIName": "Stinger STG-3R",
     "Id": "mechdef_stinger_STG-3R",
     "Name": "Stinger",
     "Details": "The STG-3R Stinger was the second mass-produced scout and recon 'Mech to be completed.  In 2479, the first Stingers came off the assembly line, and during the next four centuries nearly 200,000 more units would be constructed.  It's cheap, maneuverable, and makes for an excellent scout 'mech.",
     "Icon": "uixTxrIcon_stinger"
   },
+  "simGameMechPartCost": 1500000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 10100000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "BattleMaster",
+    "UIName": "BattleMaster BLR-3M",
     "Id": "mechdef_battlemaster_BLR-3M",
     "Name": "BattleMaster",
     "Details": "The 3M is a basic upgrade of the BattleMaster utilizing Star League technology. Introduced by Earthwerks Incorporated for the Free Worlds League in 3049, the 'Mech replaces the standard heat sinks with double heat sinks, upgrades its primary weapon to an ER PPC and removes one of the machine guns to add CASE to the design to protect itself in the event of an ammunition explosion.",
     "Icon": "uixTxrIcon_battlemaster"
   },
+  "simGameMechPartCost": 10100000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

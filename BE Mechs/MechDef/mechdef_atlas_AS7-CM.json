@@ -4,14 +4,17 @@
   "Description": {
     "Cost": 12111000,
     "Rarity": 5,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Atlas",
+    "UIName": "Atlas AS7-CM",
     "Id": "mechdef_atlas_AS7-CM",
     "Name": "Atlas",
     "Details": "Another modification of the K model of the Atlas introduced in 3050, the CM Atlas was designed to carry a C3 Master Computer into battle. In order to do this one of the ER Large Lasers was removed and in its place a C3 Master computer was installed, allowing it to coordinate a C3 lance.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "simGameMechPartCost": 12111000,
+  "Version": 1.0,
   "Locations": [
     {
       "DamageLevel": "Functional",

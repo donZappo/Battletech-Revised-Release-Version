@@ -23,7 +23,7 @@
     "AIDefenceUsefullCoeff": 0.2,
     "AIHeatCoeffCoeff": 0.9,
     "AIOverheatCoeffCoeff": 0.8,
-    "StartupByHeatControl": true,
+    "StartupByHeatControl": false,
     "StartupMinHeatRatio": 0.4,
     "StoodUpPilotingRoll": true,
     "StoodUpPilotingRollCoeff": 0.1,
