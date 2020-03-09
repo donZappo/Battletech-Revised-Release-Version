@@ -87,7 +87,7 @@
         "appliesEachTick" : false,
         "statName" : "DamageReductionMultiplierBallistic",
         "operation" : "Float_Multiply",
-        "modValue" : "1.125",
+        "modValue" : "1.0",
         "modType" : "System.Single"
       },
       "tagData" : null,

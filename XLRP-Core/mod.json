@@ -20,6 +20,7 @@
 		"ShowAllArgoUpgrades" : false,
 		//** Multiply heat from COILs by evasive pips. Required for proper heat from multiple shots from evasive pips. 
 		"COIL_Heat_Multiply_EP" : true,
+		"Tagged_Called_Shots" : true,
 		
 		"Debug" : true,
 	},
