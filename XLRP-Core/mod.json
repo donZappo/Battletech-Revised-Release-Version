@@ -70,6 +70,10 @@
 			"Type": "ItemCollectionDef",
 			"Path": "ItemCollectionDef",
 			"ShouldMergeJSON": false
-		}
+		},
+		{ 	"Type": "WeaponDef",
+			"Path": "weapons",
+			"AddToDB": true
+		},
 	]
 }
