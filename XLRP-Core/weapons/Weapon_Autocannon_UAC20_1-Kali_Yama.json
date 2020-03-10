@@ -11,7 +11,7 @@
   ],
   "AmmoCategory" : "AC20",
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 43.2,
+  "HeatGenerated" : 43.0,
   "Damage" : 100.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Details" : "Delivering unparalleled damage output, Ultra AC/20s issue nightmarish volleys of devastation. Like all Ultra Autocannon weaponry, UAC/20s suffer from substantial recoil effects from firing and consume two ammo per attack.",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA" : "- 10% Heat",
+  "BonusValueA" : "- 5 Heat",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

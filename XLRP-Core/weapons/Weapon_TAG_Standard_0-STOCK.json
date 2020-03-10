@@ -39,7 +39,7 @@
     "Details" : "Target Acquistion Gear—TAG—is a specialized piece of equipment that \"paints\" a target for better impact efficiency from damage-dealing weapons. In practical terms, this means that incoming damage from Ballistic, Energy, and Missile weapons is boosted against any target that has been hit with a TAG shot.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA" : "+ 10% Damage Mark",
+  "BonusValueA" : "Called Shot Against Target",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
@@ -87,7 +87,7 @@
         "appliesEachTick" : false,
         "statName" : "DamageReductionMultiplierBallistic",
         "operation" : "Float_Multiply",
-        "modValue" : "1.10",
+        "modValue" : "1.0",
         "modType" : "System.Single"
       },
       "tagData" : null,
@@ -133,7 +133,7 @@
         "appliesEachTick" : false,
         "statName" : "DamageReductionMultiplierEnergy",
         "operation" : "Float_Multiply",
-        "modValue" : "1.10",
+        "modValue" : "1.0",
         "modType" : "System.Single"
       },
       "tagData" : null,
@@ -179,7 +179,7 @@
         "appliesEachTick" : false,
         "statName" : "DamageReductionMultiplierMissile",
         "operation" : "Float_Multiply",
-        "modValue" : "1.10",
+        "modValue" : "1.0",
         "modType" : "System.Single"
       },
       "tagData" : null,

@@ -10,7 +10,7 @@
     270
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 6.4,
+  "HeatGenerated" : 5.0,
   "Damage" : 8.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.",
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA" : "- 20% Heat",
+  "BonusValueA" : "- 3 Heat",
   "BonusValueB" : "- 1 Acc.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

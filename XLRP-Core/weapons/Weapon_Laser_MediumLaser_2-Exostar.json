@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 12.0,
-  "Damage" : 18.0,
+  "Damage" : 17.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "+ 45 Range",
-  "BonusValueB" : "- 10% Dmg.",
+  "BonusValueB" : "- 3 Dmg.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "Laser",

@@ -11,7 +11,7 @@
   ],
   "AmmoCategory" : "SRM",
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 6.4,
+  "HeatGenerated" : 5.0,
   "Damage" : 8.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Details" : "A tiny rack of Short-Range Missiles, SRM4s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. The Streak Missile Launcher is a specialized version of the standard Short Range Missile launcher which withholds fire until it receives a solid lock ensuring all missiles will hit. If the launcher cannot gain a lock on the target the missiles won't fire.  Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA" : "- 20% Heat",
+  "BonusValueA" : "- 3 Heat",
   "BonusValueB" : "- 1 Acc.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

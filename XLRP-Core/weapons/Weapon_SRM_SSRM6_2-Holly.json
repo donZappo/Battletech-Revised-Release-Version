@@ -11,7 +11,7 @@
   ],
   "AmmoCategory" : "SRM",
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 13.2,
+  "HeatGenerated" : 14.0,
   "Damage" : 8.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -41,7 +41,7 @@
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA" : "+ 2 Acc.",
-  "BonusValueB" : "+ 10% Heat",
+  "BonusValueB" : "+ 2 Heat",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "SRM6",

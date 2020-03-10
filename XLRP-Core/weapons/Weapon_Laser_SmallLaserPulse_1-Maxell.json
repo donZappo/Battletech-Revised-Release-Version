@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 13.0,
-  "Damage" : 6.3,
+  "Damage" : 8.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -39,7 +39,7 @@
     "Details" : "An improvement upon standard Small Lasers, Small Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Small Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
-  "BonusValueA" : "+ 5% Dmg.",
+  "BonusValueA" : "+ 2 Dmg.",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

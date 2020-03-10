@@ -10,7 +10,7 @@
     450
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 17.6,
+  "HeatGenerated" : 18.0,
   "Damage" : 40.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA" : "- 20% Heat |+ 1 Ev.Pips.Ignored",
+  "BonusValueA" : "- 4 Heat |+ 1 Ev.Pips.Ignored",
   "BonusValueB" : "- 1 Acc.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

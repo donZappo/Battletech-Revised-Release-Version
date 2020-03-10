@@ -10,7 +10,7 @@
     585
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 11.2,
+  "HeatGenerated" : 9.0,
   "Damage" : 4.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "LRM15 Long-Range Missile racks deal substantial damage and stability impact over distance, often found in pairs on indirect-fire support units. Like all LRMs, LRM15s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA" : "- 20% Heat |+ 1 Acc.",
+  "BonusValueA" : "- 5 Heat |+ 1 Acc.",
   "BonusValueB" : "- 45 Range",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

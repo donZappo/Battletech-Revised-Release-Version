@@ -10,7 +10,7 @@
     270
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 8.8,
+  "HeatGenerated" : 9.5,
   "Damage" : 8.5,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA" : "+ 2 Acc. |+ 0.5 Dmg.",
-  "BonusValueB" : "+ 10% Heat",
+  "BonusValueB" : "+ 1.5 Heat",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "srm4",

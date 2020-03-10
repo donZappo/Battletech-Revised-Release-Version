@@ -11,7 +11,7 @@
   ],
   "AmmoCategory" : "AC10",
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 28.8,
+  "HeatGenerated" : 27.0,
   "Damage" : 65.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Details" : "Ultra AC/10s improve upon the already impressive capabilities of the standard models. Like all Ultra Autocannon weaponry, UAC/10s suffer from substantial recoil effects from firing and consume two ammo per attack.",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA" : "- 10% Heat",
+  "BonusValueA" : "- 5 Heat",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
