@@ -36,7 +36,7 @@
     "UIName" : "TAG +",
     "Id" : "Weapon_TAG_Standard_1-Mendham",
     "Name" : "Target Acquisition Gear +",
-    "Details" : "Target Acquistion Gear—TAG—is a specialized piece of equipment that \"paints\" a target for better impact efficiency from damage-dealing weapons. In practical terms, this means that incoming damage from Ballistic, Energy, and Missile weapons is boosted against any target that has been hit with a TAG shot.",
+	"Details" : "Target Acquistion Gear—TAG—is a specialized piece of equipment that \"paints\" a target for improved targeting from allies. In practical terms, this means that Called Shots can be made against any target that has been hit with a TAG shot.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "Called Shot Against Target",
@@ -79,7 +79,7 @@
       "Description" : {
         "Id" : "StatusEffect-TAG-BallisticDmgBonus",
         "Name" : "TAG MARKED",
-        "Details" : "This unit will take [AMT] more damage from Ballistic, Energy, and Missile attacks.",
+		"Details" : "This unit is susceptible to Called Shots.",
         "Icon" : "uixSvgIcon_statusMarked"
       },
       "nature" : "Debuff",
@@ -125,7 +125,7 @@
       "Description" : {
         "Id" : "StatusEffect-TAG-EnergyDmgBonus",
         "Name" : "TAG MARKED",
-        "Details" : "This unit will take [AMT] more damage from Ballistic, Energy, and Missile attacks.",
+        "Details" : "This unit is susceptible to Called Shots.",
         "Icon" : "uixSvgIcon_statusMarked"
       },
       "nature" : "Debuff",
@@ -171,7 +171,7 @@
       "Description" : {
         "Id" : "StatusEffect-TAG-MissileDmgBonus",
         "Name" : "TAG MARKED",
-        "Details" : "This unit will take [AMT] more damage from Ballistic, Energy, and Missile attacks.",
+        "Details" : "This unit is susceptible to Called Shots.",
         "Icon" : "uixSvgIcon_statusMarked"
       },
       "nature" : "Debuff",
