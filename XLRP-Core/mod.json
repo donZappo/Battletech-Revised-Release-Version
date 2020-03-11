@@ -35,7 +35,7 @@
 		"RareWeaponChance" : 0,
 		"WeaponChanceDivisor" : 10,
 		"EliteRareWeaponLevel" : [ 4 ],
-		"VeryRareWeaponLevel" [ 3 ]: ,
+		"VeryRareWeaponLevel" : [ 3 ]: ,
 		"RareWeaponLevel" : [ 2 ],
 		
 		"Debug" : true,
