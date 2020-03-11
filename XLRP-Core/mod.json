@@ -12,8 +12,6 @@
 	"Settings": {
 		"UpgradeDegradedOpFor": true,
 		"JumpStopsCalledShot" : true,
-		//** UpgradeItems will upgrade any item tagged with "component_type_stock"
-		"UpgradeItems" : true,
 		//** UpgradePilots matches pilots to their role more accurately.
 		"UpgradePilots" : true,
 		//** Set to false as it is covered by IRTweaks as well.
@@ -21,6 +19,24 @@
 		//** Multiply heat from COILs by evasive pips. Required for proper heat from multiple shots from evasive pips. 
 		"COIL_Heat_Multiply_EP" : true,
 		"Tagged_Called_Shots" : true,
+		
+		//** UpgradeItems will upgrade any item tagged with "component_type_stock"
+		"UpgradeItems" : true,
+		"EliteRareUpgradeChance" : -7,
+		"VeryRareUpgradeChance" : -3.5,
+		"RareUpgradeChance" : 0,
+		"UpgradeChanceDivisor" : 20,
+		"EliteRareUpgradeLevel" : [ 4 ],
+		"VeryRareUpgradeLevel" : [ 3 ],
+		"RareUpgradeLevel" : [ 2 ],
+		
+		"EliteRareWeaponChance" : -7,
+		"VeryRareWeaponChance" : -3.5,
+		"RareWeaponChance" : 0,
+		"WeaponChanceDivisor" : 10,
+		"EliteRareWeaponLevel" : [ 4 ],
+		"VeryRareWeaponLevel" [ 3 ]: ,
+		"RareWeaponLevel" : [ 2 ],
 		
 		"Debug" : true,
 	},

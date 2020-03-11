@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
   "Description" : {
     "Cost" : 500000,
-    "Rarity" : 100,
+    "Rarity" : 99,
     "Purchasable" : false,
     "Manufacturer" : "SCI",
     "Model" : "Medium Pulse Laser",

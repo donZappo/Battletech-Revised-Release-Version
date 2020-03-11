@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
   "Description" : {
     "Cost" : 150000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Imperator",
     "Model" : "Sniper Autocannon",

@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
   "Description" : {
     "Cost" : 1830000,
-    "Rarity" : 100,
+    "Rarity" : 4,
     "Purchasable" : false,
     "Manufacturer" : "BlazeFire",
     "Model" : "Extended-Range Large Laser",

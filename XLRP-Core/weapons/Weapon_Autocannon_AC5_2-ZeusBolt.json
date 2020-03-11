@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
     "Cost" : 240000,
-    "Rarity" : 4,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "ZeusBolt",
     "Model" : "Tactical Autocannon",

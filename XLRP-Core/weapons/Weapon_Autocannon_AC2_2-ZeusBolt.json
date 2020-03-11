@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
   "Description" : {
     "Cost" : 130000,
-    "Rarity" : 4,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "ZeusBolt",
     "Model" : "Sniper Autocannon",

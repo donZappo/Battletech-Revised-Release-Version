@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
     "Cost" : 340000,
-    "Rarity" : 99,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Ceres Arms",
     "Model" : "Particle Cluster Cannon",

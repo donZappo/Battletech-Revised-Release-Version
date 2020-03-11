@@ -16,7 +16,7 @@
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
   "DamageVariance" : 0,
-  "HeatDamage" : 1,
+  "HeatDamage" : 1.0,
   "AccuracyModifier" : 0,
   "CriticalChanceMultiplier" : 1.0,
   "AOECapable" : false,
@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
     "Cost" : 80000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Omicron",
     "Model" : "Twin Small Laser",

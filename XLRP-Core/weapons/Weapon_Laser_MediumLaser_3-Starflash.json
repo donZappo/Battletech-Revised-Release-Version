@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
   "Description" : {
     "Cost" : 120000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Starflash",
     "Model" : "Medium Laser",

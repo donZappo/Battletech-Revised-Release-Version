@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 320000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Exostar",
     "Model" : "Large Laser",

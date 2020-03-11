@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
   "Description" : {
     "Cost" : 2750000,
-    "Rarity" : 100,
+    "Rarity" : 4,
     "Purchasable" : false,
     "Manufacturer" : "ExoStar",
     "Model" : "Large Pulse Laser",

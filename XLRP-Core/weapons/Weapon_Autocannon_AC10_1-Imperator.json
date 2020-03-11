@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
   "Description" : {
     "Cost" : 230000,
-    "Rarity" : 0,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Imperator",
     "Model" : "Heavy Autocannon",

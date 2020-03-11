@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
     "Cost" : 430000,
-    "Rarity" : 99,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Magna",
     "Model" : "Particle Cluster Cannon",

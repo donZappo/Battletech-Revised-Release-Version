@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
   "Description" : {
     "Cost" : 190000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Mydron",
     "Model" : "Heavy Autocannon",

@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
   "Description" : {
     "Cost" : 30000,
-    "Rarity" : 0,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "VMI",
     "Model" : "Machine Gun",

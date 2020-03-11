@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 250000,
-    "Rarity" : 4,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Starflash",
     "Model" : "Large Laser",

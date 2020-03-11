@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
   "Description" : {
     "Cost" : 70000,
-    "Rarity" : 1,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Exostar",
     "Model" : "Medium Laser",

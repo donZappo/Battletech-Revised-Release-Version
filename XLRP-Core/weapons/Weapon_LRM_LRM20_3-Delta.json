@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
   "Description" : {
     "Cost" : 370000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Delta",
     "Model" : "Long-Range Missile Launcher",

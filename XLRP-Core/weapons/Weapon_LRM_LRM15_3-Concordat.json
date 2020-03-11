@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
   "Description" : {
     "Cost" : 290000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Concordat",
     "Model" : "Long-Range Missile Launcher",

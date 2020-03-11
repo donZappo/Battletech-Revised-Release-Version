@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Narc",
   "Description" : {
     "Cost" : 700000,
-    "Rarity" : 99,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Irian",
     "Model" : "Missile Tracking Launcher",

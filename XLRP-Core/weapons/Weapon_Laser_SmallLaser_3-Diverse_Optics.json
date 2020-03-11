@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
     "Cost" : 40000,
-    "Rarity" : 5,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Diverse Optics",
     "Model" : "Small Laser",

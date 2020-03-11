@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
   "Description" : {
     "Cost" : 310000,
-    "Rarity" : 4,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "ZeusBolt",
     "Model" : "Heavy Autocannon",
