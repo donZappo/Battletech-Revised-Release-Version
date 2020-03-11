@@ -10,7 +10,7 @@
     90
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 4.8,
+  "HeatGenerated" : 4.0,
   "Damage" : 10.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
-  "BonusValueA" : "- 20% Heat",
+  "BonusValueA" : "- 2 Heat",
   "BonusValueB" : "- 1 Acc.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

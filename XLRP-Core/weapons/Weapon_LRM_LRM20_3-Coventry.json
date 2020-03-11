@@ -10,7 +10,7 @@
     720
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 22.0,
+  "HeatGenerated" : 23.0,
   "Damage" : 4.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA" : "+ 90 Range |+ 0.25 Stb.Dmg.",
-  "BonusValueB" : "+ 10% Heat",
+  "BonusValueB" : "+ 3 Heat",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "lrm20",

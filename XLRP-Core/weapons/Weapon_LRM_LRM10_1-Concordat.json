@@ -10,7 +10,7 @@
     630
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 7.2,
+  "HeatGenerated" : 6.0,
   "Damage" : 4.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA" : "- 10% Heat",
+  "BonusValueA" : "- 2 Heat",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

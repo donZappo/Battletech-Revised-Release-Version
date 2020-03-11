@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 12.0,
-  "Damage" : 24.0,
+  "Damage" : 26.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -39,7 +39,7 @@
     "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA" : "+ 20% Dmg.",
+  "BonusValueA" : "+ 6 Dmg.",
   "BonusValueB" : "- 30 Range",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

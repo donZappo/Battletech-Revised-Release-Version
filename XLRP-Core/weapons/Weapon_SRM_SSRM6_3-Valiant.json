@@ -41,7 +41,7 @@
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
   "BonusValueA" : "+ 0.50 Stb.Dmg. |+ 1 Acc.",
-  "BonusValueB" : "+ 7.5% Tons",
+  "BonusValueB" : "+ 0.3 Tons",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "SRM6",

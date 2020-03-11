@@ -10,7 +10,7 @@
     450
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 13.2,
+  "HeatGenerated" : 15.999999999999998,
   "Damage" : 65.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 2 Str.Dmg.",
-  "BonusValueB" : "+ 10% Heat",
+  "BonusValueB" : "+ 4 Heat",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "AC10",

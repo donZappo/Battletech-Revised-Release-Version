@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 2.0,
-  "Damage" : 11.7,
+  "Damage" : 11.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 2 Acc.",
-  "BonusValueB" : "- 10% Dmg.",
+  "BonusValueB" : "- 2 Dmg.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "AC2",

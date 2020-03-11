@@ -10,7 +10,7 @@
     630
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 18.0,
+  "HeatGenerated" : 17.0,
   "Damage" : 4.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -39,7 +39,7 @@
     "Details" : "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
     "Icon" : "uixSvgIcon_weapon_Missile"
   },
-  "BonusValueA" : "- 10% Heat",
+  "BonusValueA" : "- 3 Heat",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

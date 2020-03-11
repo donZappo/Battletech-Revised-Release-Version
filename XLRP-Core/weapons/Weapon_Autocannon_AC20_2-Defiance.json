@@ -10,7 +10,7 @@
     270
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 23.1,
+  "HeatGenerated" : 25.0,
   "Damage" : 100.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 3 Str.Dmg.",
-  "BonusValueB" : "+ 10% Heat",
+  "BonusValueB" : "+ 4 Heat",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "AC20",

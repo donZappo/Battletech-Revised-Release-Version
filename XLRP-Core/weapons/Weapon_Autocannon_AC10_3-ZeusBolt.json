@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 12.0,
-  "Damage" : 60.125,
+  "Damage" : 57.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -25,7 +25,7 @@
   "ShotsWhenFired" : 1,
   "ProjectilesPerShot" : 3,
   "AttackRecoil" : 3,
-  "Instability" : 32.5,
+  "Instability" : 41.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
   "Description" : {
     "Cost" : 190000,
@@ -39,8 +39,8 @@
     "Details" : "One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA" : "+ 30% Stb.Dmg. |- 5% Tons",
-  "BonusValueB" : "- 7.5% Dmg.",
+  "BonusValueA" : "+ 16 Stb.Dmg. |- 5% Tons",
+  "BonusValueB" : "- 8 Dmg.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "AC10",
