@@ -1,0 +1,18 @@
+﻿{
+	"Name": "vfBattleTechMod-Core",
+	"Author": "vengefire",
+	"Website": "https://github.com/vengefire/",
+
+	"Enabled": true,
+	"Hidden": false,
+	"DependsOn": [],
+	"CustomResourceTypes": [],
+	"DLL": "vfBattleTechMod-Core.dll",
+
+	"Manifest": [
+	],
+
+	"Settings": {
+		"LogLevel": "Trace"
+	}
+}
