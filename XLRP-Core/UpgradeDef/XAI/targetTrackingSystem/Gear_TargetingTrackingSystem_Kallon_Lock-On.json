@@ -1,0 +1,88 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 3080000,
+        "Rarity" : 99,
+        "Purchasable" : true,
+        "Manufacturer" : "Kallon",
+        "Model" : "Lock-On",
+        "UIName" : "TTS-B ++++",
+        "Id" : "Gear_TargetingTrackingSystem_Kallon_Lock-On",
+        "Name" : "Kallon Lock-On TTS-B",
+        "Details" : "When it comes to Ballistic weapons target tracking, Kallon is among the best in the business. Kallon systems use MM Radar to track up to six individual targets. Integrating directly into the ballistic weapon of your choice gives precision control and the ultimate firing solution. Kallon Lock-On  gives a <color=#6aa84f>direct fire ballistic bonus.</color>",
+        "Icon" : "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA" : "+25% Targeting for",
+    "BonusValueB" : "Ballistic Weapons",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "Torso",
+    "DisallowedLocations" : "Head",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitBallistic-T3",
+                "Name" : "BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Ballistic weapon attacks have their hit improved by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-5.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant4"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

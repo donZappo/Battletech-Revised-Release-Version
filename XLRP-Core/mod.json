@@ -77,7 +77,7 @@
 		{
 			"Type": "UpgradeDef",
 			"Path": "UpgradeDef",
-			"ShouldMergeJSON": false
+			"AddToDB": true
 		},
 		{
 			"Type": "HeatSinkDef",

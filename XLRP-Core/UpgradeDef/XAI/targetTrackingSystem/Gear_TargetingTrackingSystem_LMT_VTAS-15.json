@@ -1,0 +1,291 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 350000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "LMT",
+        "Model" : "VTAS-15",
+        "UIName" : "VTAS",
+        "Id" : "Gear_TargetingTrackingSystem_LMT_VTAS-15",
+        "Name" : "Lockheed VTAS-15",
+        "Details" : "Lockheed Martin's <color=#85bb65>Visual Target Aquisition System</color> is a rotating gimbal that is mounted on a mech or vehicle and used to get visual target information. It has built in magnification optics and rangefinding, that can see in the day, night and inclimate weather.\r\n\r\n With its built in laser designator it can also help guide missiles with greater accuracy. The LMT-15 gives an <color=#6aa84f>bonus Visual Range & Targeting bonus for all weapons</color>",
+        "Icon" : "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA" : "+150m Visual TAS",
+    "BonusValueB" : "+5% All Weapons Targeting",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
+    "AllowedLocations" : "Torso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Spotting_Gain-T1",
+                "Name" : "SPOTTING DISTANCE INCREASED",
+                "Details" : "Increases spotting distance by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "SpotterDistanceAbsolute",
+                "operation" : "Float_Add",
+                "modValue" : "150.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+			},        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":-1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":true,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-IndirectAccuracy_Add-T2",
+                "Name":"MISSILE WEAPON INDIRECT HIT CHANCE IMPROVED",
+                "Details":"Indirect fire penalties reduced by [AMT].",
+                "Icon":"uixSvgIcon_equipment_Cockpit"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"ToHitIndirectModifier",
+                "operation":"Float_Add",
+                "modValue":"-1.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitMissile-T2",
+                "Name":"Missile WEAPON HIT CHANCE IMPROVED",
+                "Details":"Missile weapon attacks have their hit improved by [AMT].",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-1.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitBallistic-T1",
+                "Name":"BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details":"Ballistic weapon attacks have their hit improved by [AMT].",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-1.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Ballistic",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitEnergy-T2",
+                "Name":"ENERGY WEAPON HIT CHANCE IMPROVED",
+                "Details":"Energy weapon attacks have their hit improved by [AMT]",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-1.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Energy",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

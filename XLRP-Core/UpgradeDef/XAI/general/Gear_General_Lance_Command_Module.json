@@ -1,0 +1,286 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "XAIC",
+        "Model" : "",
+        "UIName" : "Lance Command Mod",
+        "Id" : "Gear_General_Lance_Command_Module",
+        "Name" : "Lance Command Module",
+        "Details" : "The Marauder's cockpit is state of the art and perfect for commanders. Using 3D imagery to create a near perfect situational awareness of the lance. The battlesuite also inludes the Hal-4000 Quantum computer system used for targeting the mechs weaponry.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "-1 lance init.",
+    "BonusValueB" : "+20% Wpn Tgt Mech",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 4,
+    "Tonnage" : 2,
+    "AllowedLocations" : "LeftTorso,RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects":[
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "AllLanceMates",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Initiative_Gain-MAD",
+                "Name" : "LANCE INITIATIVE INCREASED",
+                "Details" : "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
+                "Icon" : "uixSvgIcon_special_Equipment"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "BaseInitiative",
+                "operation" : "Int_Add",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":-1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":true,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-IndirectAccuracy_Add-T2",
+                "Name":"MISSILE WEAPON INDIRECT HIT CHANCE IMPROVED",
+                "Details":"Indirect fire penalties reduced by [ ]",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"ToHitIndirectModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitMissile-T2",
+                "Name":"Missile WEAPON HIT CHANCE IMPROVED",
+                "Details":"Missile weapon attacks have their hit improved by [AMT].",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitBallistic-T1",
+                "Name":"BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details":"Ballistic weapon attacks have their hit improved by [AMT].",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Ballistic",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-Attack_ToHitEnergy-T2",
+                "Name":"ENERGY WEAPON HIT CHANCE IMPROVED",
+                "Details":"Energy weapon attacks have their hit improved by [AMT]",
+                "Icon":"uixSvgIcon_equipment_TTS"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Energy",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
