@@ -10,6 +10,7 @@
 	"DLL": "XLRP_Core.dll",
 	
 	"Settings": {
+		"IsFriendlyBugSuppression" : true,
 		"UpgradeDegradedOpFor": true,
 		"JumpStopsCalledShot" : true,
 		//** UpgradePilots matches pilots to their role more accurately.
