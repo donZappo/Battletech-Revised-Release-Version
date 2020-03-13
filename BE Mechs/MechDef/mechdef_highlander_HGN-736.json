@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_highlander"
   },
   "simGameMechPartCost": 11920000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

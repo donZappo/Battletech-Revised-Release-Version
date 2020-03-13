@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_clint"
   },
   "simGameMechPartCost": 3300000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

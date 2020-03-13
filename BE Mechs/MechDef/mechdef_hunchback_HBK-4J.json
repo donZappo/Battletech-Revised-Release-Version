@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_hunchback"
   },
   "simGameMechPartCost": 4500000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_trebuchet"
   },
   "simGameMechPartCost": 10540000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

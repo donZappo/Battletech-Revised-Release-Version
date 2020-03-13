@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_orion"
   },
   "simGameMechPartCost": 17700000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

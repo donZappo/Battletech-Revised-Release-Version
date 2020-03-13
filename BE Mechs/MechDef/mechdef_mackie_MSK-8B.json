@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_mackie"
   },
   "simGameMechPartCost": 14061600,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

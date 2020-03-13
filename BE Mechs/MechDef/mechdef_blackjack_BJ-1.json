@@ -7,14 +7,14 @@
     "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Blackjack [LEGACY] BJ-1",
+    "UIName": "Blackjack BJ-1",
     "Id": "mechdef_blackjack_BJ-1",
-    "Name": "Blackjack [LEGACY]",
-    "Details": "This is your legacy family Blackjack, one of a kind upgrade and has seen 100's of years of battles; We can't replace this if it's lost commander.",
+    "Name": "Blackjack",
+    "Details": "Blackjack 1s are solid, well-rounded 'Mechs for their tonnage. They typically mount Jump Jets, which give them an extra edge by repositioning quickly to keep a direct line of fire for their Autocannons.",
     "Icon": "uixTxrIcon_blackjack"
   },
   "simGameMechPartCost": 3500000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",
@@ -28,71 +28,71 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 70,
+      "CurrentArmor": 60,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 60,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 70,
+      "CurrentArmor": 60,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "AssignedArmor": 60,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 35,
+      "CurrentArmor": 75,
+      "CurrentRearArmor": 30,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 35
+      "AssignedArmor": 75,
+      "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 35,
+      "CurrentArmor": 75,
+      "CurrentRearArmor": 30,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 35
+      "AssignedArmor": 75,
+      "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 95,
-      "CurrentRearArmor": 40,
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 70,
-      "AssignedArmor": 95,
-      "AssignedRearArmor": 40
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 45
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 95,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 95,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 95,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 55,
-      "AssignedArmor": 95,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1
     }
   ],
   "inventory": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_ferrosfibrous",
+      "ComponentDefID": "emod_armorslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -103,7 +103,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
+      "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -136,8 +136,8 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -147,8 +147,8 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -157,9 +157,9 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -168,9 +168,9 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -179,9 +179,42 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -213,8 +246,8 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_part_lower",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -224,41 +257,8 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_part_hand",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -268,8 +268,8 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -300,6 +300,28 @@
       "GUID": null
     },
     {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "emod_leg_hip",
       "ComponentDefType": "Upgrade",
@@ -311,8 +333,30 @@
       "GUID": null
     },
     {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false,
+      "SimGameUID": "",
+      "GUID": null
+    },
+    {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_360",
+      "ComponentDefID": "emod_engine_180",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -329,9 +373,10 @@
       "unit_medium",
       "unit_armor_high",
       "unit_lance_tank",
-      "unit_lance_vanguard",
-      "unit_role_scout",
-      "unit_speed_high"
+      "unit_role_flanker",
+      "unit_speed_low",
+      "unit_lance_assassin",
+      "unit_range_medium"
     ]
   }
 }

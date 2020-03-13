@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_warhammer"
   },
   "simGameMechPartCost": 6900000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

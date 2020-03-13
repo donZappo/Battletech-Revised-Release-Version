@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_trebuchet"
   },
   "simGameMechPartCost": 4400000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",
@@ -301,7 +301,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -334,7 +334,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -345,7 +345,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -367,7 +367,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -378,7 +378,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

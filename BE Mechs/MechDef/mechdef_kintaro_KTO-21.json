@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_kintaro"
   },
   "simGameMechPartCost": 4220640,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",
