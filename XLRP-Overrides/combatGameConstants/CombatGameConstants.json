@@ -1428,7 +1428,7 @@
       "cacheCount": 1
     },
     "mechDeath_engine": {
-      "name": "vfxPrfPrtl_mechDeathHeatShutdown",
+      "name": "vfxPrfPrtl_mechDeathHeatShutdown_loop",
       "cacheCount": 1
     },
     "mechDeath_legs": {
