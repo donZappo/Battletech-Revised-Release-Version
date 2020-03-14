@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_marauder"
   },
   "simGameMechPartCost": 16900000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -1,6 +1,6 @@
 {
 	"Name": "CustomUnits",
-	"Enabled": false,
+	"Enabled": true,
 	"Version": "0.0.20",
 	"PackagedOn": "2019-01-31T00:00:00Z",
 	"DLL": "CustomUnits.dll",

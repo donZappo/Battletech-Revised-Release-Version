@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_phoenixhawk"
   },
   "simGameMechPartCost": 4200000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

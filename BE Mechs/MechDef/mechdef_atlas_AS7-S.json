@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 11000000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

@@ -9,11 +9,11 @@
     "DLL": "IRTweaks.dll",
     "DependsOn" : [ "IRBTModUtils" ],
     "Settings": {
-        "Debug" : false,
-        "Trace" : false,
+        "Debug" : true,
+        "Trace" : true,
         "Fixes" : {
-            "BulkPurchasing" : false,
-            "CombatLog" : true,
+            "BulkPurchasing" : true,
+            "CombatLog" : false,
             "DisableCampaign" : true,
             "DisableCombatSaves" : true,
             "ExtendedStats" : true,

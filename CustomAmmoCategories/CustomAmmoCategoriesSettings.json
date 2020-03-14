@@ -172,7 +172,7 @@
   "FiringPreviewRecalcTrottle": 0,
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,
   "UpdateReticleTrottle": 8,
-  "showMissBehavior": "Default",
+  "showMissBehavior": "None",
   "extendedBraceBehavior": true,
   "DefaultAoEDamageMult": {
     "Building": {

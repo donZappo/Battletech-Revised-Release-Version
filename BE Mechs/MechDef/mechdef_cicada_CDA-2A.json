@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_cicada"
   },
   "simGameMechPartCost": 3000000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

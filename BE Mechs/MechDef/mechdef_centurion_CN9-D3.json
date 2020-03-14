@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_centurion"
   },
   "simGameMechPartCost": 3896640,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",

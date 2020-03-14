@@ -1,14 +1,15 @@
 {
   "Name": "CustomActivatableEquipment",
   "Enabled": true,
-
   "Version": "0.0.60",
   "PackagedOn": "2019-01-31T00:00:00Z",
   "DLL": "CustomActivatableEquipment.dll",
   "DLLEntryPoint": "CustomActivatableEquipment.Core.Init",
-  "DependsOn": ["CustomComponents", "Custom Ammo Categories"],
+  "DependsOn": [
+    "CustomComponents",
+    "Custom Ammo Categories"
+  ],
   "ConflictsWith": [],
-
   "Description": "Activatable equipment",
   "Author": "KMiSSioN",
   "Website": "https://www.nexusmods.com/battletech/mods/381",
@@ -25,66 +26,16 @@
     "AIOverheatCoeffCoeff": 0.8,
     "StartupByHeatControl": false,
     "StartupMinHeatRatio": 0.4,
-    "StoodUpPilotingRoll": true,
+    "StoodUpPilotingRoll": false,
     "StoodUpPilotingRollCoeff": 0.1,
     "DefaultArmsAbsenceStoodUpMod": -0.1,
     "LegAbsenceStoodUpMod": -0.1,
     "auraUpdateFix": "Never",
     "auraUpdateMinTimeDelta": 2,
     "auraUpdateMinPosDelta": 20,
-    "sensorsAura": {
-      "ReticleColor": "white",
-      "LineType": "Dots",
-      "isSpining": false,
-      "Id": "Sensors",
-      "Name": "Sensors",
-      "Range": 90,
-      "RangeStatistic": "CAE_SENSORS_RANGE",
-      "ApplySelf": false,
-      "HideOnNotSelected": false,
-      "EnemyStealthAffection": "NegativeOne",
-      "IsNegativeToEnemy": true,
-      "ownerVFX": [],
-      "targetVFX": [],
-      "removeOwnerVFX": [],
-      "removeTargetVFX": [],
-      "ownerSFX": [],
-      "targetSFX": [],
-      "removeOwnerSFX": [],
-      "removeTargetSFX": [],
-      "statusEffects": [
-        {
-          "durationData": {
-            "duration": -1,
-            "stackLimit": 1
-          },
-          "targetingData": {
-            "effectTriggerType": "Passive",
-            "specialRules": "NotSet",
-            "effectTargetType": "EnemiesWithinRange",
-            "range": 0.0,
-            "forcePathRebuild": false,
-            "forceVisRebuild": true,
-            "showInTargetPreview": false,
-            "showInStatusPanel": false
-          },
-          "effectType": "StatisticEffect",
-          "Description": {
-            "Id": "ECMStealth_SensorsEffect",
-            "Name": "ECM CARRIER",
-            "Details": "Some magical thingy-ma-jig",
-            "Icon": "uixSvgIcon_equipment_HeatBank"
-          },
-          "statisticData": {
-            "statName": "GhostEffectStacks",
-            "operation": "Int_Add",
-            "modValue": "-1",
-            "modType": "System.Int32"
-          },
-          "nature": "Buff"
-        }
-      ]
-    }
+    "sensorsAura": {}
   },
-  "Manifest": []
+  "Manifest": [
+	{ "Type": "UpgradeDef", "Path": "upgrades\\" }
+  ]
 }

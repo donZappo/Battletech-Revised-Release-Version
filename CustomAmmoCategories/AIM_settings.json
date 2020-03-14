@@ -288,7 +288,7 @@
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
 
-  "ToHitSelfJumped": 3,
+  "ToHitSelfJumped": 0,
 
   //
   // Net To Hit Modifiers
@@ -361,7 +361,7 @@
 
   /* Show the % margin of a missed attack in damage floatie. Smaller % = closer miss.  Default true. */
 
-  "ShowMissMargin": true,
+  "ShowMissMargin": false,
 
   //
   // Modifiers Preview

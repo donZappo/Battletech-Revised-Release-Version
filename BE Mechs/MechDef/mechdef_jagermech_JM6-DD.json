@@ -14,7 +14,7 @@
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 12900000,
-  "Version": 1.0,
+  "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",
