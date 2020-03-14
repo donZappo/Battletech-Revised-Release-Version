@@ -1,0 +1,6 @@
+{
+    "Id" : "ConceptMechWarning",
+    "Name" : "Performance Warning",
+    "Details" : "This 'Mech has one or more issues with its configuration such as missing ammo, damaged armor or internal structure, or having unutilized tonnage.\n\nRefit this 'Mech via the Mech Bay to review any issues.",
+    "Icon" : ""
+}
