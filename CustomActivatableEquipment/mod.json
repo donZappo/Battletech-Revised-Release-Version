@@ -35,5 +35,7 @@
     "auraUpdateMinPosDelta": 20,
     "sensorsAura": {}
   },
-  "Manifest": []
+  "Manifest": [
+	{ "Type": "UpgradeDef", "Path": "upgrades\\" }
+  ]
 }
