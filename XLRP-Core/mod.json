@@ -11,6 +11,7 @@
 	
 	"Settings": {
 		"IsFriendlyBugSuppression" : true,
+		"RepairRearm" : true,
 		"UpgradeDegradedOpFor": true,
 		"JumpStopsCalledShot" : true,
 		//** UpgradePilots matches pilots to their role more accurately.
