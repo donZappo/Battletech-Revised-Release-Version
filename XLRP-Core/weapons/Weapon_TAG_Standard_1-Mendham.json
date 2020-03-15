@@ -36,7 +36,7 @@
     "UIName" : "TAG +",
     "Id" : "Weapon_TAG_Standard_1-Mendham",
     "Name" : "Target Acquisition Gear +",
-	"Details" : "Target Acquistion Gear—TAG—is a specialized piece of equipment that \"paints\" a target for improved targeting from allies. In practical terms, this means that Called Shots can be made against any target that has been hit with a TAG shot.",
+    "Details" : "Target Acquistion Gear—TAG—is a specialized piece of equipment that \"paints\" a target for improved targeting from allies. In practical terms, this means that Called Shots can be made against any target that has been hit with a TAG shot.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "Called Shot Against Target",
@@ -79,7 +79,7 @@
       "Description" : {
         "Id" : "StatusEffect-TAG-BallisticDmgBonus",
         "Name" : "TAG MARKED",
-		"Details" : "This unit is susceptible to Called Shots.",
+        "Details" : "This unit is susceptible to Called Shots.",
         "Icon" : "uixSvgIcon_statusMarked"
       },
       "nature" : "Debuff",

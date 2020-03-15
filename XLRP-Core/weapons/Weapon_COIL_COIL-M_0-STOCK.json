@@ -27,6 +27,14 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 4,
   "Instability" : 0.0,
+  "ImprovedBallistic": true,
+  "ProjectileSpeedMultiplier": 0.05,	
+  "ProjectileSpeedMultiplier": 0.1,	
+  "FireDelayMultiplier": 0.05,
+  "ColorChangeRule": "Linear",	
+  "ColorsTable" :[
+  {"C":"#008080","I":5} ],
+  "HitGenerator" : "Streak",
   "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
   "Description" : {
     "Cost" : 200000,

@@ -27,6 +27,9 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 4,
   "Instability" : 50.0,
+  "ImprovedBallistic": true,		
+  "HitGenerator" : "Individual",
+  "FireDelayMultiplier": 3,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Ultra",
   "Description" : {
     "Cost" : 370000,

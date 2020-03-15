@@ -23,9 +23,12 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 1,
   "ShotsWhenFired" : 2,
-  "ProjectilesPerShot" : 6,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 2,
   "Instability" : 6.75,
+  "ImprovedBallistic": true,		
+  "HitGenerator" : "Individual",
+  "FireDelayMultiplier": 2,	    
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
     "Cost" : 270000,
