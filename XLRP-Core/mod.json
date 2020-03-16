@@ -90,7 +90,7 @@
 			"ShouldMergeJSON": false
 		},
 		{ 	"Type": "WeaponDef",
-			"Path": "weapons",
+			"Path": "WeaponDef",
 			"AddToDB": true
 		},
 	]
