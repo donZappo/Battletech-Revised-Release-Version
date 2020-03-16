@@ -1,0 +1,32 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_LBX10Cluster",
+      "Name" : "LB 10-X AC Cluster Ammo",
+      "UIName" : "Cluster",
+      "Details" : "Large caliber rounds capable of dealing heavy damage, and designed to be used in an LB 10-X AC.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "LBX10",
+   "AccuracyModifier" : -1,
+   "CriticalChanceMultiplier" : 0.5,
+   "DamageMultiplier" : 1,
+   "HitGenerator" : "Cluster",
+   "DamagePerShot": 0,
+   "Instability" : 0,
+   "AIBattleValue": 150,
+   "ShotsWhenFired" : 0,
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1,
+   "HasShells": true,
+   "UnseparatedDamageMult": 0.8,
+   "ProjectilesPerShot" : 9,
+   "MinShellsDistance": 30,
+   "MaxShellsDistance": 80
+}
