@@ -61,5 +61,15 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ColorSpeedChange" : 0.1,
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 1.2,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "#DC381F",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

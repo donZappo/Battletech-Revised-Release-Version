@@ -60,5 +60,8 @@
       "BLACKLISTED"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "FireDelayMultiplier" : 3,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual"
 }

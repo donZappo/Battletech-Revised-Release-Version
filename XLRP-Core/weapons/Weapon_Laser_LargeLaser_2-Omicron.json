@@ -60,5 +60,13 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "#1569C7",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

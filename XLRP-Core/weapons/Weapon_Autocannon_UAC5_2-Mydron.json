@@ -24,7 +24,7 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 4,
   "ShotsWhenFired" : 4,
-  "ProjectilesPerShot" : 2,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 2,
   "Instability" : 7.25,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5_Ultra",
@@ -61,5 +61,8 @@
       "BLACKLISTED"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "FireDelayMultiplier" : 2,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual"
 }

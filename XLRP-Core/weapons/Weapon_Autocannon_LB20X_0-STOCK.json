@@ -22,10 +22,10 @@
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 2,
-  "ShotsWhenFired" : 13,
-  "ProjectilesPerShot" : 1,
+  "ShotsWhenFired" : 1,
+  "ProjectilesPerShot" : 13,
   "AttackRecoil" : 4,
-  "Instability" : 5.0,
+  "Instability" : 65.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LB20X",
   "Description" : {
     "Cost" : 240000,
@@ -60,6 +60,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 6,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB20X"
 }

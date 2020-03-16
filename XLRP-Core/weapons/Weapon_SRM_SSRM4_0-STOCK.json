@@ -61,5 +61,8 @@
       "component_streak"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "ImprovedBallistic" : true,
+  "Streak" : true,
+  "HitGenerator" : "Streak"
 }

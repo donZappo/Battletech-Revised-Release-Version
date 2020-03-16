@@ -22,10 +22,10 @@
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 2,
-  "ShotsWhenFired" : 12,
-  "ProjectilesPerShot" : 1,
+  "ShotsWhenFired" : 1,
+  "ProjectilesPerShot" : 12,
   "AttackRecoil" : 3,
-  "Instability" : 3.0,
+  "Instability" : 36.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
   "Description" : {
     "Cost" : 230000,
@@ -60,6 +60,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 8,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB10X"
 }

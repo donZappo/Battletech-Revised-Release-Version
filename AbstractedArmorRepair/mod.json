@@ -1,0 +1,10 @@
+{
+    "Name": "Abstracted Armor Repair",
+    "Enabled": true,
+
+    "Version": "1.0",
+    "Description": "Abstracts armor damage for repair.",
+    "Author": "donZappo and gnivler",
+
+    "DLL": "AbstractedArmorRepair.dll"
+}

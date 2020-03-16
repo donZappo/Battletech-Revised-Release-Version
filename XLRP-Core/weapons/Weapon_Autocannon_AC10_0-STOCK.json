@@ -59,5 +59,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC10"
 }

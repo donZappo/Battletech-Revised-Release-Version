@@ -56,12 +56,21 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_close",
-      "BLACKLISTED"
+      "range_close"
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 0.1,
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 0.1,
+  "HitGenerator" : "Streak",
   "CanExplode" : true,
+  "ColorsTable" : [
+    {
+      "C" : "#E55B3C",
+      "I" : 5
+    }
+  ],
   "additionalData" : [
     {
       "statName" : "EvasiveExponent",

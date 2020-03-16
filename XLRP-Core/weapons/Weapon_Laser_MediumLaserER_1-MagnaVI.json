@@ -61,5 +61,14 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 1.3,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "orange",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

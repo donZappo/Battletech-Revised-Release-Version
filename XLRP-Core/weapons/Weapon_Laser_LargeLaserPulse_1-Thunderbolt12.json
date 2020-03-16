@@ -23,7 +23,7 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 0,
   "ShotsWhenFired" : 3,
-  "ProjectilesPerShot" : 3,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
@@ -61,5 +61,21 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 0.1,
+  "ColorSpeedChange" : 0.05,
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 0.1,
+  "ColorChangeRule" : "Linear",
+  "HitGenerator" : "Streak",
+  "ColorsTable" : [
+    {
+      "C" : "#7A5DC7",
+      "I" : 5
+    },
+    {
+      "C" : "#E55B3C",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

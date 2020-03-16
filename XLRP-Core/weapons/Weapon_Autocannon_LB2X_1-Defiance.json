@@ -23,10 +23,10 @@
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 1,
-  "ShotsWhenFired" : 10,
-  "ProjectilesPerShot" : 1,
+  "ShotsWhenFired" : 1,
+  "ProjectilesPerShot" : 10,
   "AttackRecoil" : 1,
-  "Instability" : 1.0,
+  "Instability" : 10.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LB2X",
   "Description" : {
     "Cost" : 190000,
@@ -62,6 +62,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 12,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB2X"
 }

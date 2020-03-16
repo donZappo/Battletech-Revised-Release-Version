@@ -10,7 +10,7 @@
     450
   ],
   "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 15.999999999999998,
+  "HeatGenerated" : 16.0,
   "Damage" : 65.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
@@ -23,7 +23,7 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 2,
   "ShotsWhenFired" : 1,
-  "ProjectilesPerShot" : 3,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 3,
   "Instability" : 33.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
@@ -60,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC10"
 }

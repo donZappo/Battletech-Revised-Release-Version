@@ -22,10 +22,10 @@
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 1,
-  "ShotsWhenFired" : 11,
-  "ProjectilesPerShot" : 1,
+  "ShotsWhenFired" : 1,
+  "ProjectilesPerShot" : 11,
   "AttackRecoil" : 2,
-  "Instability" : 2.0,
+  "Instability" : 22.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
   "Description" : {
     "Cost" : 200000,
@@ -61,6 +61,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 10,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB5X"
 }

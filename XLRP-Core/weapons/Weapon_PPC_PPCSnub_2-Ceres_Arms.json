@@ -22,10 +22,10 @@
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 0,
-  "ShotsWhenFired" : 5,
-  "ProjectilesPerShot" : 1,
+  "ShotsWhenFired" : 1,
+  "ProjectilesPerShot" : 5,
   "AttackRecoil" : 1,
-  "Instability" : 7.0,
+  "Instability" : 35.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
     "Cost" : 340000,
@@ -39,7 +39,7 @@
     "Details" : "A unique modification of a standard Particle Projector Cannon, the Snub PPC utilizes the same energy acceleration, but with a shortened range and a cluster of smaller projectiles. Like the standard model, Snub PPC shots impart a debilitating EM effect that degrades the firing capability of their target.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA" : "+ 1 Stb.Dmg.",
+  "BonusValueA" : "+ 5 Stb.Dmg.",
   "BonusValueB" : "+ 0.5 Tons",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
@@ -113,6 +113,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 1,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "NotSet"
 }

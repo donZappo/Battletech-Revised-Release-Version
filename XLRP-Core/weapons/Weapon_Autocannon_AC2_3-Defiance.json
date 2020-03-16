@@ -23,7 +23,7 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 1,
   "ShotsWhenFired" : 2,
-  "ProjectilesPerShot" : 3,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 1.25,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
@@ -60,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC2"
 }

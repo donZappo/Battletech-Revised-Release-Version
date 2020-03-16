@@ -1,0 +1,6 @@
+{
+    "Id" : "ConceptMechArmor",
+    "Name" : "Armor",
+    "Details" : "Armor equipped on a 'Mech is used to protect its vital internal structure, as well as its weapons, ammo, and other critical systems. Damaged armor does not stop a 'Mech from dropping, but needs to be repaired after battle to keep the 'Mech at an optimal fighting condition. A location's underlying structure can only support a certain amount of armor, depending on the 'Mech's weight class.",
+    "Icon" : ""
+}

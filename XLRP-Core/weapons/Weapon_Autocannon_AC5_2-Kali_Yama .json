@@ -23,7 +23,7 @@
   "IndirectFireCapable" : false,
   "RefireModifier" : 1,
   "ShotsWhenFired" : 2,
-  "ProjectilesPerShot" : 2,
+  "ProjectilesPerShot" : 1,
   "AttackRecoil" : 2,
   "Instability" : 7.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
@@ -60,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 2,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC5"
 }
