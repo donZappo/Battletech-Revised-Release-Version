@@ -311,17 +311,6 @@
       "GUID": null
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null
-    },
-    {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "emod_leg_hip",
       "ComponentDefType": "Upgrade",

@@ -190,17 +190,6 @@
       "GUID": null
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "GUID": null
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
       "ComponentDefType": "Weapon",
