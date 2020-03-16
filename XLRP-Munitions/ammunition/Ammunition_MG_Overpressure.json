@@ -1,0 +1,33 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_MG_Overpressure",
+      "Name" : "MG Ammo (Overpressure)",
+      "UIName" : "Overpressure",
+      "Details" : "Large bore belted ammunition for 'Mech-mounted machine guns.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "MG",
+   "AccuracyModifier" : 0,
+   "EvasivePipsIgnored": 0,
+   "CriticalChanceMultiplier" : 0.0,
+   "DamagePerShot": 1,
+   "HeatDamagePerShot": 0.0,
+   "MinRange": 0,
+   "MaxRange": 0,
+   "ShortRange": 0,
+   "MiddleRange": 0,
+   "LongRange": 0,
+   "Instability": 0,
+   "RefireModifier": 2,
+   "FlatJammingChance": 0,
+   "DamageMultiplier": 1,
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

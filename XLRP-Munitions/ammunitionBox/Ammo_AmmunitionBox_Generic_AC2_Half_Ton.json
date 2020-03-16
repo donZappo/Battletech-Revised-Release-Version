@@ -1,0 +1,41 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 8
+		}
+	},
+    "AmmoID" : "Ammunition_AC2",
+    "Capacity" : 12,
+    "Description" : {
+        "Cost" : 5000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "AC2",
+        "UIName" : "AC/2 Ammo [Half]",
+        "Id" : "Ammo_AmmunitionBox_Generic_AC2_Half_Ton",
+        "Name" : "AC/2 Ammo [Half]",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Half Ton AC/2 Ammo Bins each contain <color=#6aa84f>12 rounds</color> and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 8</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

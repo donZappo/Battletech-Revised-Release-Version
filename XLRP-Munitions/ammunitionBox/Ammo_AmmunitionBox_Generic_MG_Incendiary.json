@@ -1,0 +1,41 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4
+		}
+	},
+    "AmmoID" : "Ammunition_MG_Incendiary",
+    "Capacity" : 100,
+    "Description" : {
+        "Cost" : 20000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "MG",
+        "UIName" : "MG Ammo (I)",
+        "Id" : "Ammo_AmmunitionBox_Generic_MG_Incendiary",
+        "Name" : "MG Ammo (Icendiary)",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Incendiary MG Ammo Bins contain specialized incendiary ammunition which, similar to inferno missiles and flamers, <color=#f79924>transfers heat damage to the target at the expense of damage.</color> \r\n\r\nIncendiary MG ammo bins contain only <color=#6aa84f>100 rounds</color> of ammunition per ton, but <color=#dd7e6b>each shot deals twice as much damage to internal structure when the ammo bin explodes.</color>\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 4</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Support"
+    },
+    "BonusValueA" : "+1 Dmg.(H) per shot",
+    "BonusValueB" : "-50% Ammo, -35% Dmg.",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

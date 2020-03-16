@@ -1,0 +1,32 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_AC10_Precision",
+      "Name" : "AC/10 Ammo (Precision)",
+      "UIName" : "Precision",
+      "Details" : "Large caliber rounds capable of dealing heavy damage, and designed to be used in an AC/10.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "AC10",
+   "AccuracyModifier" : -2,
+   "EvasivePipsIgnored": 0,
+   "CriticalChanceMultiplier" : 0.0,
+   "DamagePerShot": 0,
+   "MinRange": 0,
+   "MaxRange": 0,
+   "ShortRange": 0,
+   "MiddleRange": 0,
+   "LongRange": 0,
+   "Instability": 0,
+   "RefireModifier": 0,
+   "FlatJammingChance": 0,
+   "DamageMultiplier": 0.9,
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

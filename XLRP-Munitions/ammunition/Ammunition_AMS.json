@@ -1,0 +1,19 @@
+{
+  "Description": {
+    "Id" : "Ammunition_AMS",
+    "Name" : "AMS Ammo",
+    "Details" : "Large bore belted ammunition for 'Mech-mounted Anti Missle System.",
+    "Icon" : null,
+    "Cost" : 0,
+    "Rarity" : 0,
+    "Purchasable" : false,
+    "UIName": "Normal"
+  },
+  "Type" : "Normal",
+  "Category" : "AntiMissle",
+  "HeatGenerated" : 0,
+  "HeatGeneratedModifier" : 1,
+  "ArmorDamageModifier" : 1,
+  "ISDamageModifier" : 1,
+  "CriticalDamageModifier" : 1
+}
