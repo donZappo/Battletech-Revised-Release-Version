@@ -27,9 +27,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 1.0,
-  "ImprovedBallistic": true,		
-  "HitGenerator" : "Individual",
-  "FireDelayMultiplier": 1,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2_Ultra",
   "Description" : {
     "Cost" : 390000,
@@ -64,5 +61,8 @@
       "BLACKLISTED"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual"
 }

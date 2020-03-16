@@ -26,14 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 0.0,
-  "ImprovedBallistic": true,
-  "ProjectileSpeedMultiplier": 0.05,	
-  "ProjectileSpeedMultiplier": 0.1,	
-  "FireDelayMultiplier": 0.05,
-  "ColorChangeRule": "Linear",	
-  "ColorsTable" :[
-  {"C":"#008080","I":5} ],
-  "HitGenerator" : "Streak",
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
   "Description" : {
     "Cost" : 1750000,
@@ -69,5 +61,16 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 0.05,
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 0.1,
+  "ColorChangeRule" : "Linear",
+  "HitGenerator" : "Streak",
+  "ColorsTable" : [
+    {
+      "C" : "#008080",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

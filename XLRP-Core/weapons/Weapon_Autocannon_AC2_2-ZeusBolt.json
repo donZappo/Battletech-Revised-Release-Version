@@ -26,9 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 1.5,
-  "ImprovedBallistic": true,		
-  "HitGenerator" : "Individual",
-  "FireDelayMultiplier": 1,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
   "Description" : {
     "Cost" : 130000,
@@ -63,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC2"
 }

@@ -25,11 +25,7 @@
   "ShotsWhenFired" : 1,
   "ProjectilesPerShot" : 5,
   "AttackRecoil" : 1,
-  "Instability" : 6.0,
-  "ImprovedBallistic": true,
-  "HasShells": true,
-  "BallisticDamagePerPallet": true,	
-  "HitGenerator" : "Cluster",
+  "Instability" : 30.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
     "Cost" : 340000,
@@ -117,6 +113,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 1,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "NotSet"
 }

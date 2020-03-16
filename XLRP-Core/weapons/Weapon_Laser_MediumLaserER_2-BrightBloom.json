@@ -26,12 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 0.0,
-  "ImprovedBallistic": true,
-  "ProjectileSpeedMultiplier": 1.3,		
-  "ColorChangeRule": "Linear",	
-  "ColorsTable" :[
-  {"C":"orange","I":5}
-  ],	
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Medium",
   "Description" : {
     "Cost" : 1230000,
@@ -67,5 +61,14 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 1.3,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "orange",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

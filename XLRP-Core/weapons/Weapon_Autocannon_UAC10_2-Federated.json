@@ -27,9 +27,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 3,
   "Instability" : 33.0,
-  "ImprovedBallistic": true,		
-  "HitGenerator" : "Individual",
-  "FireDelayMultiplier": 3,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Ultra",
   "Description" : {
     "Cost" : 520000,
@@ -64,5 +61,8 @@
       "BLACKLISTED"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "FireDelayMultiplier" : 3,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual"
 }

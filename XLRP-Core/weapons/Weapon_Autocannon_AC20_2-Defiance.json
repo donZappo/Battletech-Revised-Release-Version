@@ -26,9 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 4,
   "Instability" : 50.0,
-  "ImprovedBallistic": true,		
-  "HitGenerator" : "Individual",
-  "FireDelayMultiplier": 1,	    
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
   "Description" : {
     "Cost" : 370000,
@@ -63,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 1,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC20"
 }

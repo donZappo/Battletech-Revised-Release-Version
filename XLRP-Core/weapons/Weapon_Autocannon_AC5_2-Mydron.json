@@ -26,9 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 2,
   "Instability" : 6.75,
-  "ImprovedBallistic": true,		
-  "HitGenerator" : "Individual",
-  "FireDelayMultiplier": 2,	    
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
     "Cost" : 240000,
@@ -63,5 +60,8 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "FireDelayMultiplier" : 2,
+  "ImprovedBallistic" : true,
+  "HitGenerator" : "Individual",
   "ammoCategoryID" : "AC5"
 }

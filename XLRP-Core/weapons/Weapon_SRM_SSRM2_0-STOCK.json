@@ -27,9 +27,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 3.0,
-  "ImprovedBallistic": true,
-  "HitGenerator" : "Streak",
-  "Streak" : true,
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
   "Description" : {
     "Cost" : 30000,
@@ -64,5 +61,8 @@
       "component_streak"
     ],
     "tagSetSourceFile" : ""
-  }
+  },
+  "ImprovedBallistic" : true,
+  "Streak" : true,
+  "HitGenerator" : "Streak"
 }

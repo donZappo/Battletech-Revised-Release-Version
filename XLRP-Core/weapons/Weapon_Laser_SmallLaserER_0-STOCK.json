@@ -26,13 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 0.0,
-  "ImprovedBallistic": true,
-  "ProjectileSpeedMultiplier": 1.2,		
-  "ColorSpeedChange": 0.1,
-  "ColorChangeRule": "Linear",	
-  "ColorsTable" :[
-  {"C":"#DC381F","I":5}
-  ],
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
   "Description" : {
     "Cost" : 220000,
@@ -68,5 +61,15 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ColorSpeedChange" : 0.1,
+  "ImprovedBallistic" : true,
+  "ProjectileSpeedMultiplier" : 1.2,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "#DC381F",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }

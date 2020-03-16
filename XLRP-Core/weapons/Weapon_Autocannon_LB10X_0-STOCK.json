@@ -26,10 +26,6 @@
   "ProjectilesPerShot" : 12,
   "AttackRecoil" : 3,
   "Instability" : 36.0,
-  "ImprovedBallistic": true,
-  "HasShells": true,
-  "BallisticDamagePerPallet": true,	
-  "HitGenerator" : "Cluster",
   "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
   "Description" : {
     "Cost" : 230000,
@@ -64,6 +60,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 8,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB10X"
 }

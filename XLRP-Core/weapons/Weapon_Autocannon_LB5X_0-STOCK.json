@@ -26,10 +26,6 @@
   "ProjectilesPerShot" : 11,
   "AttackRecoil" : 2,
   "Instability" : 22.0,
-  "ImprovedBallistic": true,
-  "HasShells": true,
-  "BallisticDamagePerPallet": true,	
-  "HitGenerator" : "Cluster",
   "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
   "Description" : {
     "Cost" : 170000,
@@ -64,6 +60,10 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "HasShells" : true,
   "VolleyDivisor" : 10,
+  "HitGenerator" : "Cluster",
+  "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "LB5X"
 }

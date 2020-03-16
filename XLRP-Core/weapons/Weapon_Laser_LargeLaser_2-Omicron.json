@@ -26,10 +26,6 @@
   "ProjectilesPerShot" : 1,
   "AttackRecoil" : 1,
   "Instability" : 0.0,
-  "ImprovedBallistic": true,
-  "ColorChangeRule": "Linear",	
-  "ColorsTable" :[
-  {"C":"#1569C7","I":5} ],
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 250000,
@@ -64,5 +60,13 @@
     ],
     "tagSetSourceFile" : ""
   },
+  "ImprovedBallistic" : true,
+  "ColorChangeRule" : "Linear",
+  "ColorsTable" : [
+    {
+      "C" : "#1569C7",
+      "I" : 5
+    }
+  ],
   "ammoCategoryID" : "NotSet"
 }
