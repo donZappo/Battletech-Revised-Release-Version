@@ -147,7 +147,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -158,7 +158,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -169,7 +169,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -180,7 +180,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -191,7 +191,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
@@ -202,7 +202,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": "Gear_TSM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

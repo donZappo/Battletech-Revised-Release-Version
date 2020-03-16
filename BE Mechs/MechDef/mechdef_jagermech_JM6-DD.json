@@ -169,8 +169,8 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -213,8 +213,8 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,

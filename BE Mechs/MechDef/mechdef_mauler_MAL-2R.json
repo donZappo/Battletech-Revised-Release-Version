@@ -224,8 +224,8 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -290,8 +290,8 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,

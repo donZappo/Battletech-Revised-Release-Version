@@ -224,7 +224,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "dummyplug",
+      "ComponentDefID": " Gear_MASC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

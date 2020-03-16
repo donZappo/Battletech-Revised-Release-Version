@@ -279,8 +279,8 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -323,8 +323,8 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -356,8 +356,8 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_SRM_SSRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,

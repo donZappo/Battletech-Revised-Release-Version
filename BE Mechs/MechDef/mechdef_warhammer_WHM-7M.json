@@ -224,8 +224,8 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_AMS_Cal-Boeing",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": " Weapon_AMS",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
@@ -301,8 +301,8 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "dummyplug",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
       "prefabName": null,
