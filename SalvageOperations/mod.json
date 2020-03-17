@@ -1,0 +1,31 @@
+{
+    "Name": "SalvageOperations",
+    "DLL": "SalvageOperations.dll",
+
+    "Version": "4.1",
+    "Description": "Changes how mech salvage works.",
+    "Author": "mpstark",
+	"Modified By": "gnivler and donZappo",
+    "Website": "https://github.com/gnivler/SalvageOperations",
+
+    "ConflictsWith": [ "AdjustedMechAssembly", "AdjustedMechAssemblyCC", "AdjustedMechSalvage", "CustomSalvage" ],
+    "Settings": {
+		"ReadyMechDelayFactor": 1,
+		"CT_Value": 0.5,
+		"Other_Parts_Value": 0.0833333,
+		"Rounding_Cutoff": 0.75,
+        "SalvageValueUsesSellPrice": false,
+        "ReplaceMechSalvageLogic": true,
+		"DependsOnArgoUpgrade" : false,
+		"ArgoUpgrade" : "argoUpgrade_mechBay_machineShop",
+		"MechsMustHaveSameMass" : false,
+		"MechsMustHaveSameSpeed" : false,
+		"MinimumPartsForSalvage" : 1,
+		
+		"ExcludeVariantExceptions": true,
+		"VariantExceptions": [
+			],
+		
+        "Debug": false,
+    }
+}
