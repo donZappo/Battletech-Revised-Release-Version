@@ -16,10 +16,10 @@
         "CharlesB"
     ],
     "Settings": {
-        "Debug": true,
-        "Trace": true,
+        "Debug": false,
+        "Trace": false,
         "Features": {
-            "BiomeBreaches": true,
+            "BiomeBreaches": false,
             "StartupChecks": false
         },
         "EnablePermanentEvasion": false,
