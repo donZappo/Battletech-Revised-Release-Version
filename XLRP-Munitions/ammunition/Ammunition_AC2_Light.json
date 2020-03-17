@@ -1,0 +1,32 @@
+{
+   "Description" : {
+      "Id" : "Ammunition_AC2_Light",
+      "Name" : "AC/2 Ammo (Light)",
+      "UIName" : "Light",
+      "Details" : "Small caliber ammunition designed for long range fire in an AC/2.",
+      "Icon" : null,
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Type" : "Normal",
+   "Category" : "AC2",
+   "AccuracyModifier" : 0,
+   "EvasivePipsIgnored": 0,
+   "CriticalChanceMultiplier" : 0.0,
+   "DamagePerShot": 0,
+   "MinRange": 30,
+   "MaxRange": 90,
+   "ShortRange": 60,
+   "MiddleRange": 60,
+   "LongRange": 90,
+   "Instability": -3,
+   "RefireModifier": 0,
+   "FlatJammingChance": 0,
+   "DamageMultiplier": 1,
+   "HeatGenerated" : 0,
+   "HeatGeneratedModifier" : 1,
+   "ArmorDamageModifier" : 1,
+   "ISDamageModifier" : 1,
+   "CriticalDamageModifier" : 1
+}

@@ -7,6 +7,12 @@
 	"Hidden": true,
 	"DependsOn": ["CustomComponents", "MechEngineer"],
 	//"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
+	"DataAddendumEntries":[ 
+		{ 
+            "name":"BattleTech.AmmoCategoryEnumeration",
+            "path":"AmmoCategory.json"
+        }
+    ],
 	"DLL": "XLRP_Core.dll",
 	
 	"Settings": {
@@ -90,7 +96,7 @@
 			"ShouldMergeJSON": false
 		},
 		{ 	"Type": "WeaponDef",
-			"Path": "weapons",
+			"Path": "WeaponDef",
 			"AddToDB": true
 		},
 	]
