@@ -206,7 +206,9 @@
   ],
   "VariantName": "SDR-C",
   "ChassisTags": {
-    "items": [],
+    "items": [
+	  "JumpMech",
+	],
     "tagSetSourceFile": ""
   },
   "StockRole": "__/Base_3061.chassisdef_spider_SDR-C.StockRole/__",

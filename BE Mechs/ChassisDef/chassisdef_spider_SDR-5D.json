@@ -1,15 +1,5 @@
 {
-  "FixedEquipment": [
-	{
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "mech_quirk_efficient_thrust_form_factor",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": false
-    },
-  ],
+  "FixedEquipment": [],
   "Description": {
     "Cost": 2500000,
     "Rarity": 4,
@@ -195,7 +185,9 @@
   ],
   "VariantName": "SDR-5D",
   "ChassisTags": {
-    "items": [],
+    "items": [
+	  "JumpMech",
+	  ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Maneuverable Scout",
