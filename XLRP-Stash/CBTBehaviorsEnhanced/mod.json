@@ -24,7 +24,7 @@
         },
         "EnablePermanentEvasion": false,
         "dZ_Abilities": true,
-        "ToHitSelfJumped": 2,
+        "ToHitSelfJumped": 4,
         "Heat": {
             "Movement": {
                 "15": 0,
