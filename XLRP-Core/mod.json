@@ -6,7 +6,7 @@
 	"Enabled": true,
 	"Hidden": true,
 	"DependsOn": ["CustomComponents", "MechEngineer"],
-	//"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
+	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects"],
 	"DataAddendumEntries":[ 
 		{ 
             "name":"BattleTech.AmmoCategoryEnumeration",

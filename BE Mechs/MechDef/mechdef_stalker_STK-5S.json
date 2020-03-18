@@ -213,7 +213,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": " Weapon_AMS",
+      "ComponentDefID": "Weapon_AMS",
       "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
