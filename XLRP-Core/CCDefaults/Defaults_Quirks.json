@@ -1,5 +1,6 @@
 {
 	"Settings" : [
-		{ "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "Mech_Default_Quirk", "Location": "CenterTorso", "AddIfNotPresent": true, "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}}
+		{ "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "Mech_Default_Quirk", "Location": "CenterTorso", "AddIfNotPresent": true, "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "JumpMech", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_efficient_thrust_form_factor", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 	]
 }

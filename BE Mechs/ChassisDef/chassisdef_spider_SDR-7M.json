@@ -186,7 +186,8 @@
   "ChassisTags": {
     "items": [
       "chassis_endo",
-      "chassis_ferro"
+      "chassis_ferro",
+	  "JumpMech",
     ],
     "tagSetSourceFile": ""
   },

@@ -224,7 +224,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": " Gear_MASC",
+      "ComponentDefID": "Gear_MASC",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",

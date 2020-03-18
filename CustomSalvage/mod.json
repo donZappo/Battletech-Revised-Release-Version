@@ -1,0 +1,102 @@
+{
+    "Name": "CustomSalvage",
+    "Author": "Denadan",
+    "Website": "https://github.com/Denadan/CustomSalvage",
+
+    "Enabled": true,
+    "DependsOn": [ "CustomComponents" ],
+    "DLL": "CustomSalvage.dll",
+    "DLLEntryPoint": "CustomSalvage.Control.Init",
+
+    "Settings": {
+        "LogLevel": "Debug",
+        "RecoveryType": "PartDestroyed",
+        "PartCountType": "PartDestroyed",
+        "LostMechAction": "ReturnItemsToPlayer",
+        "RecoveryMod": 1,
+        "LimbRecoveryPenalty": 0.05,
+        "TorsoRecoveryPenalty": 0.1,
+        "HeadRecoveryPenaly": 0,
+        "EjectRecoveryBonus": 0.25,
+        "CenterTorsoDestroyedParts": 1,
+        "SalvageArmWeight": 0.75,
+        "SalvageLegWeight": 0.75,
+        "SalvageTorsoWeight": 1,
+        "SalvageHeadWeight": 0.25,
+        "SalvageCTWeight": 1.5,
+
+        "VACTDestroyedMod": 0.35,
+        "VABLDestroyedMod": 0.68,
+        "SalvageTurrets": true,
+        "SalvageTurretsComponentChance": 0.33,
+        "UpgradeSalvage": true,
+        "BGColors": [
+        {
+            "Tag": "unit_assault",
+            "Color": "#b2babb10"
+        },
+        {
+            "Tag": "unit_heavy",
+            "Color": "#f0b27a10"
+        },
+        {
+            "Tag": "unit_medium",
+            "Color": "#82e0aa10"
+        },
+        {
+            "Tag": "unit_light",
+            "Color": "#85c1e910"
+        }
+            ],
+        "StoredMechColor": "#7FFFD4",
+        "ReadyColor": "#32CD32",
+        "VariantsColor": "yellow",
+        "NotReadyColor": "white",
+        "ExcludedColor": "magenta",
+
+        "AssemblyVariants": true,
+        "MinPartsToAssembly": 0.5,
+        "ExcludeTags": [
+            "BLACKLISTED"
+            ],
+        "ExcludeVariants": [
+
+            ],
+        "MaxVariantsInDescription": 5,
+        "UnEquipedMech": false,
+        "BrokenMech": true,
+        "HeadRepaired": false,
+        "LeftArmRepaired": false,
+        "RightArmRepaired": false,
+        "CentralTorsoRepaired": false,
+        "LeftTorsoRepaired": false,
+        "RightTorsoRepaired": false,
+        "LeftLegRepaired": false,
+        "RightLegRepaired": false,
+        "RepairMechLimbs": true,
+        "RepairMechLimbsChance": 0.75,
+        "RandomStructureOnRepairedLimbs": true,
+        "MinStructure": 0.25,
+        "RepairMechComponents": true,
+        "RepairComponentsFunctionalThreshold": 0.25,
+        "RepairComponentsNonFunctionalThreshold": 0.5,
+        "AdaptPartBaseCost": 0.015,
+        "MaxAdaptMod": 5,
+        "AdaptModWeight": 2,
+        "AllowScrapToParts": true,
+        "MinScrapParts":  0.51,
+        "MaxScrapParts": 0.91,
+        "RepairChanceByTP": true,
+        "BaseTP": 10,
+        "LimbChancePerTp": 0.1,
+        "ComponentChancePerTp": 0.1,
+        "LimbMinChance": 0.1,
+        "LimbMaxChance": 0.9,
+        "ComponentMinChance": 0.2,
+        "ComponentMaxChance": 0.95
+    },
+
+    "Manifest": [
+
+        ]
+}

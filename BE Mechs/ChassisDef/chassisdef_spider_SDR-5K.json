@@ -186,7 +186,9 @@
   ],
   "VariantName": "SDR-5K",
   "ChassisTags": {
-    "items": [],
+    "items": [
+	  "JumpMech",
+	],
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Maneuverable Scout",
