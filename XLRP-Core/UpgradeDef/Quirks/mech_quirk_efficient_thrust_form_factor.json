@@ -8,7 +8,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "ImprovedJumpDistance: 100",
-        "ImprovedJumpHeatEfficiency: -50",
+        "ImprovedJumpHeatEfficiency: 50",
         "ReducedMaximumJumpJetCount: 50"
       ]
     },
