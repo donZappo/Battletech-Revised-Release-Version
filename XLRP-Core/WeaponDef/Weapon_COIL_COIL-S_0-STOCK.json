@@ -79,7 +79,7 @@
     },
     {
       "statName" : "HeatDivisor",
-      "statValue" : "1.0",
+      "statValue" : "1.5",
       "statType" : "System.Single"
     }
   ]

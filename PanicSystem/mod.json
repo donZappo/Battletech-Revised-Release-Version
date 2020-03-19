@@ -1,6 +1,6 @@
 {
   "Name": "PanicSystem",
-	"Hidden": true,
+  "Hidden": true,
   "Enabled": true,
   "Version": "3.7.8",
   "Description": "Simulates MechWarrior and vehicle crew panic, and automatic ejections",
