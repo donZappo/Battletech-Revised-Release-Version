@@ -1,22 +1,26 @@
 ﻿{
-	"Name": "vfBattleTechMod-ContractSpawnMorphs",
-	"Author": "vengefire",
-	"Website": "https://github.com/vengefire/",
-
-	"Enabled": true,
-	"Hidden": false,
-	"DependsOn": ["vfBattleTechMod-Core"],
-	"CustomResourceTypes": [],
-	"DLL": "vfBattleTechMod_ContractSpawnMorphs.dll",
-
-	"Manifest": [
-	],
-
-	"Settings": {
-		"SomeCoolSetting": "DefaultCoolSetting",
-		"LogLevel": "Trace",
-		"Procedurally Morph Contract Unit Spawns": {
-			"Enabled": true
-		}
-	}
+  "Name": "vfBattleTechMod-ContractSpawnMorphs",
+  "Author": "vengefire",
+  "Website": "https://github.com/vengefire/",
+  "Enabled": true,
+  "Hidden": false,
+  "DependsOn": [
+    "vfBattleTechMod-Core"
+  ],
+  "CustomResourceTypes": [],
+  "DLL": "vfBattleTechMod_ContractSpawnMorphs.dll",
+  "Manifest": [
+  ],
+  "Settings": {
+    "SomeCoolSetting": "DefaultCoolSetting",
+    "LogLevel": "Trace",
+    "Procedurally Morph Contract Unit Spawns": {
+      "RarityWeightingDaysDivisor": 30.0,
+      "MaxRarityWeighting": 6,
+      "CompressionFactorControlDate": "3028-04-28T00:00:00",
+      "CompressionFactorTargetDate": "3026-01-01T00:00:00",
+      "Enabled": true,
+      "LogLevel": "Trace"
+    }
+  }
 }
