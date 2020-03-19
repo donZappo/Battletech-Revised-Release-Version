@@ -343,7 +343,7 @@
     "StartingTargetSystem": "Detroit",
     "StartingPassiveXPGainCap": 0,
     "StartingPassiveXPGain": 0,
-    "MechReadyTime": 7000,
+    "MechReadyTime": 40000,
     "DefaultMechPartMax": 5,
     "DefaultMechPartName": "Partial Mech Salvage",
     "DefaultFullMechName": "BattleMech",
