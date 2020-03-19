@@ -57,12 +57,12 @@
 		},
 		{
 			"Type": "MEBonusDescriptions",
-			"Path": "MEBonusDescriptions/",
+			"Path": "MEBonusDescriptions",
 			"ShouldMergeJSON": false
 		},
 		{
 			"Type": "MECriticalEffects",
-			"Path": "MECriticalEffects/",
+			"Path": "MECriticalEffects",
 			"ShouldMergeJSON": false
 		},
 		{

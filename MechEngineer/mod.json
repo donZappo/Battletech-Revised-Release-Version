@@ -22,7 +22,7 @@
 		},
 		{
 			"Type": "MEBonusDescriptions",
-			"Path": "data/basic/bonusDescriptions/",
+			"Path": "MEBonusDescriptions/",
 			"ShouldMergeJSON": false
 		},
 		{
