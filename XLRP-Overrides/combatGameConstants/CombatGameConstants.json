@@ -29,10 +29,10 @@
     "TurretDefaultTactics": 1
   },
   "Heat": {
-    "OverheatLevel": 0.7,
-    "MaxHeat": 150,
+    "OverheatLevel": 0.6,
+    "MaxHeat": 100,
     "WalkHeat": 0,
-    "SprintHeat": 6,
+    "SprintHeat": 5,
     "JumpHeatUnitSize": 6,
     "JumpHeatPerUnit": 1,
     "JumpHeatMin": 5,
@@ -42,10 +42,10 @@
     "StartupSinkRatio": 0.75,
     "GlobalHeatIncreaseMultiplier": 1.0,
     "GlobalHeatSinkMultiplier": 1.0,
-    "CriticalHeatPerLocationLight": 0,
-    "CriticalHeatPerLocationMedium": 0,
-    "CriticalHeatPerLocationHeavy": 0,
-    "CriticalHeatPerLocationAssault": 0,
+    "CriticalHeatPerLocationLight": 4,
+    "CriticalHeatPerLocationMedium": 5,
+    "CriticalHeatPerLocationHeavy": 7,
+    "CriticalHeatPerLocationAssault": 10,
     "ShutdownCausesInjury": false,
     "ShowPeakHeat": false
   },
