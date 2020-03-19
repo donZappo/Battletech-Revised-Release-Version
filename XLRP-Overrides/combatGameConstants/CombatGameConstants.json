@@ -380,7 +380,7 @@
     "MinCritChance": 10,
     "AllowTotalNegativeModifier": true,
     "COILUsesJumping": false,
-    "COILMultipliesShots": true,
+    "COILMultipliesShots": false,
     "CoolantVentEffect": {
       "durationData": {
         "duration": 1,
