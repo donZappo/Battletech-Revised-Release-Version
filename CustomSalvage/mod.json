@@ -1,6 +1,6 @@
 {
     "Name": "CustomSalvage",
-    "Author": "Denadan",
+    "Author": "Denadan, modified by don Zappo",
     "Website": "https://github.com/Denadan/CustomSalvage",
 
     "Enabled": true,
@@ -12,7 +12,7 @@
         "LogLevel": "Debug",
         "RecoveryType": "PartDestroyed",
         "PartCountType": "PartDestroyed",
-        "LostMechAction": "ReturnItemsToPlayer",
+        "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,
         "LimbRecoveryPenalty": 0.05,
         "TorsoRecoveryPenalty": 0.1,
@@ -22,14 +22,14 @@
         "SalvageArmWeight": 0.75,
         "SalvageLegWeight": 0.75,
         "SalvageTorsoWeight": 1,
-        "SalvageHeadWeight": 0.25,
+        "SalvageHeadWeight": 0.5,
         "SalvageCTWeight": 1.5,
 
         "VACTDestroyedMod": 0.35,
         "VABLDestroyedMod": 0.68,
         "SalvageTurrets": true,
-        "SalvageTurretsComponentChance": 0.33,
-        "UpgradeSalvage": true,
+        "SalvageTurretsComponentChance": 0.5,
+        "UpgradeSalvage": false,
         "BGColors": [
         {
             "Tag": "unit_assault",
@@ -55,9 +55,9 @@
         "ExcludedColor": "magenta",
 
         "AssemblyVariants": true,
-        "MinPartsToAssembly": 0.5,
+        "MinPartsToAssembly": 0.25,
         "ExcludeTags": [
-            "BLACKLISTED"
+			"BLACKLISTED"
             ],
         "ExcludeVariants": [
 
@@ -65,18 +65,18 @@
         "MaxVariantsInDescription": 5,
         "UnEquipedMech": false,
         "BrokenMech": true,
-        "HeadRepaired": false,
-        "LeftArmRepaired": false,
-        "RightArmRepaired": false,
-        "CentralTorsoRepaired": false,
-        "LeftTorsoRepaired": false,
-        "RightTorsoRepaired": false,
-        "LeftLegRepaired": false,
-        "RightLegRepaired": false,
+        "HeadRepaired": true,
+        "LeftArmRepaired": true,
+        "RightArmRepaired": true,
+        "CentralTorsoRepaired": true,
+        "LeftTorsoRepaired": true,
+        "RightTorsoRepaired": true,
+        "LeftLegRepaired": true,
+        "RightLegRepaired": true,
         "RepairMechLimbs": true,
-        "RepairMechLimbsChance": 0.75,
-        "RandomStructureOnRepairedLimbs": true,
-        "MinStructure": 0.25,
+        "RepairMechLimbsChance": 1.0,
+        "RandomStructureOnRepairedLimbs": false,
+        "MinStructure": 1,
         "RepairMechComponents": true,
         "RepairComponentsFunctionalThreshold": 0.25,
         "RepairComponentsNonFunctionalThreshold": 0.5,
@@ -85,7 +85,7 @@
         "AdaptModWeight": 2,
         "AllowScrapToParts": true,
         "MinScrapParts":  0.51,
-        "MaxScrapParts": 0.91,
+        "MaxScrapParts": 1.0,
         "RepairChanceByTP": true,
         "BaseTP": 10,
         "LimbChancePerTp": 0.1,
@@ -93,7 +93,11 @@
         "LimbMinChance": 0.1,
         "LimbMaxChance": 0.9,
         "ComponentMinChance": 0.2,
-        "ComponentMaxChance": 0.95
+        "ComponentMaxChance": 0.95,
+		
+		"UseReadyDelay": true,
+		"AssembledTimeBonusFactor": 0.5,
+		"MaxRecoveryChance": 0.9,
     },
 
     "Manifest": [
