@@ -17,6 +17,10 @@
     "Procedurally Morph Contract Unit Spawns": {
       "RarityWeightingDaysDivisor": 30.0,
       "MaxRarityWeighting": 6,
+      "Enabled": true,
+      "LogLevel": "Trace"
+    },
+	"UnitAppearanceDateMorphFeature": {
       "CompressionFactorControlDate": "3028-04-28T00:00:00",
       "CompressionFactorTargetDate": "3026-01-01T00:00:00",
       "Enabled": true,
