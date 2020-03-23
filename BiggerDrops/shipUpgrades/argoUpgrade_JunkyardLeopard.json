@@ -11,7 +11,7 @@
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "UNKNOWN",
-    "Category" : "POWER_SYSTEM",
+    "Category" : "BDMechDrops",
     "AssignedCastDefId": "castDef_DariusDefault",
     "AssignedCastDescription": "If we grab this our tactical flexibility will take a big step up, Commander.",
     "RequiredModules" : {
