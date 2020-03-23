@@ -11,7 +11,7 @@
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "UNKNOWN",
-    "Category" : "BDDropTonnage",
+    "shipUpgradeCategoryID" : "BDDropTonnage",
     "AssignedCastDefId": "castDef_YangDefault",
     "AssignedCastDescription": "After this she might look like there weren't a family of squatters throwing parties in her every night.",
     "RequiredModules" : {
