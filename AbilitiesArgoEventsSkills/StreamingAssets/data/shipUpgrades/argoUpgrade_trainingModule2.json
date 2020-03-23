@@ -37,14 +37,14 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDay",
-			"value" : 30,
+			"value" : 40,
 			"set" : true,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDayCap",
-			"value" : 20000,
+			"value" : 36000,
 			"set" : true,
 			"valueConstant" : ""
 		}       

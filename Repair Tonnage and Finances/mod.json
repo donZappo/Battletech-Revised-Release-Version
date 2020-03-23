@@ -2,8 +2,14 @@
     "Name": "Repair Tonnage and Finances",
     "Enabled": true,
 
-    "Version": "1.0-dZ",
+    "Version": "2.0-dZ",
     "Description": "Repair times/costs are multiplied by tonnage. Also contains financial changes.",
 
-    "DLL": "RepairTonnage.dll"
+    "DLL": "RepairTonnage.dll",
+	
+	"Settings": 
+	{
+		"QuirksEnabled" : true,
+		"LocustRepairTechFactor" : 0.25,
+		"LocustRepairCostFactor" : 0.25,
 }

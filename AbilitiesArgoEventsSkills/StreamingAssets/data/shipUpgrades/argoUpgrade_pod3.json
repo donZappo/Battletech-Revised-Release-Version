@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod3",
         "Name" : "Gamma Pod",
-        "Details" : "Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod will bring the pilot's barracks to a maximum capacity of eighteen. It is a pitty we can't field them all at the same time. With Gamma pod online you have room for <color=#58FAF4><b>18 'Mech Pilots</b></color>.",
+        "Details" : "The Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod will bring the pilot's barracks to a maximum capacity of eighteen. It is a pity we can't field them all at the same time. With the Gamma pod online you have room for <color=#58FAF4><b>18 'Mech Pilots</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podGamma"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",
