@@ -1,0 +1,13 @@
+{
+	"Name": "BR_MechQuirks",
+	"Enabled": true,
+	"Version": "0.1",
+	"PackagedOn": "",
+	"DLL": "BR_MechQuirks.dll",
+	"ConflictsWith": [ ],
+	"DependsOn": [ ],
+	
+	"Settings": {
+		"BR_MQ_Commando": 1.5
+	}
+}

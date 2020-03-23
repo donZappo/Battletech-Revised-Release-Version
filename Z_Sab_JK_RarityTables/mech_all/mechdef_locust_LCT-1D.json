@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+			"BR_MQ_Locust",
             "unit_mech",
             "unit_light", 
             "unit_range_long",
