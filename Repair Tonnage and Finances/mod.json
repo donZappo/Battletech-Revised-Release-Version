@@ -12,4 +12,5 @@
 		"QuirksEnabled" : true,
 		"LocustRepairTechFactor" : 0.25,
 		"LocustRepairCostFactor" : 0.25,
+		}
 }
