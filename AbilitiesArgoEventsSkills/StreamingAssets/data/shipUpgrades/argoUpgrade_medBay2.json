@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay2",
         "Name" : "Med Bay 2nd Shift",
-        "Details" : "Commander, investing in the Medbay should help get our medical treatment up to par.  We need to invest in fixing the broken equipment and routine maintenance of that equipment. Plus, we need another shift of med techs in order to reduce the strain put on our current staff. Cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs</b></color>.",
+        "Details" : "Commander, investing in the Medbay should help get our medical treatment up to par. We need to invest in fixing the broken equipment and routine maintenance of that equipment. Plus, we need another shift of med techs in order to reduce the strain put on our current staff. Cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay2"
     },
     "Illustration" : "uixTxrSpot_MedBay",

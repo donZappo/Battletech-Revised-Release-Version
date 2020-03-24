@@ -13,7 +13,7 @@
     "Location" : "ENGINEERING",
     "Category" : "POWER_SYSTEM",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "I just finished the calculations for the future engine upgrade, and there is no way the existing power system handle the load, Commander.",
+    "AssignedCastDescription": "I just finished the calculations for the future engine upgrade and there is no way the existing power system can handle the load, Commander.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_power2"

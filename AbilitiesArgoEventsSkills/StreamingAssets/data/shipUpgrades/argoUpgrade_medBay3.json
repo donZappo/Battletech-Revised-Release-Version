@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay3",
         "Name" : "Expanded Med Bay",
-                "Details" : "Welcome to the Med Bay Commander,  as you can see we have done a great job of treating the Mechwarriors.  Unfortunately, we are only using about half of the space available to us. Since, we have the power and sctructure in place, I would like permission to expand the facilities and staff in order to handle the injuries we are seeing. I can add another six beds and more support staff to handle it. The cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs</b></color>.",
+                "Details" : "Welcome to the Med Bay Commander! As you can see we have done a great job of treating the Mechwarriors. Unfortunately, we are only using about half of the space available to us. Since we have the power and sctructure in place, I would like permission to expand the facilities and staff in order to handle the injuries we are seeing. I can add another six beds and more support staff to handle it. The cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay3"
     },
     "Illustration" : "uixTxrSpot_MedBay",
     "Location" : "SHIP",
     "Category" : "MED_BAY",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "We're taking enough injuries to keep our current medical staff fully tasked, Commander, and that makes me worry about our future capacity. These battles aren't getting any easier. We have the space to expand the Med Bay, we should use it.",
+    "AssignedCastDescription": "We're taking enough injuries to keep our current medical staff fully tasked, Commander, and that makes me worry about our future capacity. These battles aren't getting any easier. We have the space to expand the Med Bay and I think we should use it.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay2",

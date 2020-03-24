@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_drive2",
         "Name" : "Drive Upgrades",
-        "Details" : "The <i>Argo</i> reactors and engines are quite remarkable they can generate more thrust and ships power than I realized. By investing in a major upgrade to the core reactor and optimizing more subsystems we can increase thrust and power efficiency to get the <i>Argo</i> up to full power.  Upgrading the drive engines will increase drive output by <color=#2EFE9A><b>40%</b></color>",
+        "Details" : "The <i>Argo</i> reactors and engines are quite remarkable and they can generate more thrust and power than I realized. By investing in a major upgrade to the core reactor and optimizing more subsystems we can increase thrust and power efficiency to get the <i>Argo</i> up to full power. Upgrading the drive engines will increase drive output by <color=#2EFE9A><b>40%</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_drive2"
     },
     "Illustration" : "uixTxrSpot_ArgoDrive2",

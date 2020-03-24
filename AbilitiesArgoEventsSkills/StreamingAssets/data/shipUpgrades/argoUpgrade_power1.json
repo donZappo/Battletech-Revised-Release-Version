@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_power1",
         "Name" : "Makeshift Power Cabling",
-        "Details" : "Looks like the Pirates looted just about every system on the ship, for who know what. We have to run makeshift power cables throughout the ship to connect vital systems to one another, but it is only a temporary bandaid to the problem.",
+        "Details" : "Looks like the Pirates looted just about every system on the ship, for who knows what. We have to run makeshift power cables throughout the ship to connect vital systems to one another, but it is only a temporary bandaid to the problem.",
         "Icon" : "uixSvgIcon_shipUpgrade_power0"
     },
     "Illustration" : "uixTxrSpot_EngineeringInnards",
     "Location" : "ENGINEERING",
     "Category" : "POWER_SYSTEM",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "The <i>Argo</i>'s power system is a wreck, and we need to spend some C-bills to get to a minimal level of power to operate even the most basic of systems..let alone upgrades.",
+    "AssignedCastDescription": "The <i>Argo</i>'s power system is a wreck, and we need to spend some C-bills to get to a minimal level of power to operate even the most basic of systems... let alone any upgrades.",
     "RequiredModules" : {
         "items" : [
 		

@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_power2",
         "Name" : "Repaired Power Conduits",
-        "Details" : "Running power through patched-together runs of cable all over the decks isn’t reliable or safe. We will need to run new electrical cable in the existing conduits get more systems working on the <i>Argo</i> because you just can't run anymore patched power.",
+        "Details" : "Running power through patched-together cables all over the decks isn’t reliable or safe. We will need to run new electrical cable through the existing conduits in order to get more systems working on the <i>Argo.</i> If we keep you don't, we're liable to lose a Tech before too long!",
         "Icon" : "uixSvgIcon_shipUpgrade_power1"
     },
     "Illustration" : "uixTxrSpot_EngineeringInnards",
     "Location" : "ENGINEERING",
     "Category" : "POWER_SYSTEM",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "Notably, upgrading the power system will allow us to provide power to more parts of the ship reliably, which means more of the <i>Argo</i>'s systems are operational.",
+    "AssignedCastDescription": "Notably, upgrading the power system will allow us to provide power to more parts of the ship reliably, which means more of the <i>Argo</i>'s systems will be operational.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_power1",

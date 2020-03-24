@@ -13,7 +13,7 @@
     "Location" : "MECH_BAY",
     "Category" : "REPAIR_REFIT",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "There's are even more machines hidden in the walls and under the floor panels! Once, I get it figured out and you get me the specialized parts I need, We'll be turning out Mechs, in record time.",
+    "AssignedCastDescription": "There are even more machines hidden in the walls and under the floor panels! Once I get it figured out, and you get me the specialized parts I need, we'll be turning out Mechs in record time.",
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_mechBay_automation1",

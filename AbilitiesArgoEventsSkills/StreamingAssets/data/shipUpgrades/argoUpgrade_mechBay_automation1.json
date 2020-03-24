@@ -13,7 +13,7 @@
     "Location" : "MECH_BAY",
     "Category" : "REPAIR_REFIT",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "You want to speed things up around here, give me the resources to get these machines back online. Sure glad the pirates didn't find this equipment, it'll make me look like a miracle worker.",
+    "AssignedCastDescription": "If you want to speed things up around here, give me the resources to get these machines back online. Sure glad the pirates didn't find this equipment -- it'll make me look like a miracle worker.",
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_power3"
