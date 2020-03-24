@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+			"BR_MQ_Mongoose",
             "unit_mech",
             "unit_light", 
             "unit_range_medium",
