@@ -17,8 +17,9 @@
 	
 	"Settings": {
 		"IsFriendlyBugSuppression" : true,
-		"UpgradeDegradedOpFor": true,
+		"UpgradeDegradedOpFor" : true,
 		"JumpStopsCalledShot" : true,
+		"TacticsForJumpedCS" : 10,
 		//** UpgradePilots matches pilots to their role more accurately.
 		"UpgradePilots" : true,
 		//** Set to false as it is covered by IRTweaks as well.

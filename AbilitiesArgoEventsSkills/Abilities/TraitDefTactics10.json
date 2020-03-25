@@ -6,7 +6,7 @@
 		"Icon": ""
 	},
 	"Type": "TacticsEffects",
-	"ShortDesc": "+250m Spot Distance\nNo move/sprint/jump malus\n+2 Resolve per turn\n+1 Init. on Vigilance\nInit. Punch on Called Shot",
+	"ShortDesc": "+250m Spot Distance\nNo move/jump malus\n+2 Resolve per turn\n+1 Init. on Vigilance\nInit. Push on Called Shot\nJumping Called Shot",
 	"DisplayParams": "ShowInPilotToolTip",
 	"ActivationTime": "Passive",
 	"EffectData": []

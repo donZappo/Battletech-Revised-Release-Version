@@ -21,6 +21,6 @@
 		"usePilotStabilityCheck" : false,
         "PilotStabilityCheck" : 0.30,
         "ToHitSelfJumped": 2,
-		"TacticsSkillNegateJump": 10,
+		"TacticsSkillNegateJump": 8,
     }
 }
