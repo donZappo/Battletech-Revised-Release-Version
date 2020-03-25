@@ -1146,7 +1146,7 @@
     },
     "JumpDescription": {
       "Name": "JUMP",
-      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +3 to-hit penalty. You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
+      "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). +3 to-hit penalty. Pilot is unable to take a Called Shot after jumping. You may also use Jump to initiate a 'Death from Above' attack on nearby enemies."
     },
     "FireDescription": {
       "Name": "FIRE",

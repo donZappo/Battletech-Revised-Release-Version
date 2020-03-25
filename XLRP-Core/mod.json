@@ -45,7 +45,7 @@
 		"VeryRareWeaponLevel" : [ 3 ],
 		"RareWeaponLevel" : [ 2 ],
 		
-		"Debug" : true,
+		"Debug" : false,
 	},
 	
 	"Manifest": [
