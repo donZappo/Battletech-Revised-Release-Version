@@ -8,7 +8,8 @@
 	"DependsOn": [ ],
 	
 	"Settings": {
-		"BR_MQ_Commando" : 1.5,
+		"CommandoBonusDamage" : 1.5,
 		"MongooseLaserAccuracy" : -5,
+		"SRMAccuracyBoost" : -4,
 	}
 }
