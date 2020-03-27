@@ -1,0 +1,202 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 7370000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gallowglas",
+    "Id": "chassisdef_gallowglas_GAL-2GLS",
+    "Name": "Gallowglas",
+    "Details": "The 2GLS variant of the Gallowglas is modified to increase its long-range effectiveness. This is done by removing the ER PPC, a Medium Pulse Laser, the Small Laser, as well as eight double heat sinks and replacing them with a Gauss Rifle and two tons of ammunition. This modification greatly reduces the 'Mechs heat load and gives it a greater damage potential at long range.",
+    "Icon": "uixTxrIcon_gallowglas"
+  },
+  "MovementCapDefID": "movedef_heavymech",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_gallowglas",
+  "PrefabIdentifier": "chrprfmech_valkyrieiibase-001",
+  "PrefabBase": "valkyrieii",
+  "Tonnage": 70.0,
+  "InitialTonnage": 7.0,
+  "weightClass": "HEAVY",
+  "BattleValue": 0.0,
+  "Heatsinks": 0,
+  "TopSpeed": 0,
+  "TurnRadius": 0,
+  "MaxJumpjets": 4,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 100,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 90,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 1.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 1.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 5.0,
+      "z": 1.0
+    },
+    {
+      "x": -2.5,
+      "y": 5.0,
+      "z": 1.0
+    }
+  ],
+  "VariantName": "GAL-2GLS",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.95-1.00-1.00",
+      "chassis_endo",
+      "mech_case_right"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Long Range Assault",
+  "YangsThoughts": "The Gallowglas 2GLS is a nice alternative variant, mounting the awesome Gauss rifle to increase the hurt at range. It still has the Endo Steel chassis and double heat sinks, making this 'Mech one of the best to work with for it's weight."
+}

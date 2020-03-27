@@ -1,209 +1,214 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 2200000,
-    "Rarity": 0,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Mongoose",
-    "Id": "chassisdef_mongoose_MON-67",
-    "Name": "Mongoose",
-    "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust.  Armed with one Small and three Medium Lasers, it packs more of a punch while keeping up with the Locust's speed.",
-    "Icon": "uixTxrIcon_mongoose"
-  },
-  "MovementCapDefID": "movedef_lightmech",
-  "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_mongoose",
-  "PrefabIdentifier": "chrprfmech_mongoosebase-001",
-  "PrefabBase": "mongoose",
-  "Tonnage": 25.0,
-  "InitialTonnage": 2.5,
-  "weightClass": "LIGHT",
-  "BattleValue": 2061000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 85,
-  "TurnRadius": 90,
-  "MaxJumpjets": 0,
-  "Stability": 100,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 4,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 30,
-  "MeleeInstability": 25,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 30,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 30,
-  "DFAInstability": 30,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1505490, 
+        "Rarity": 0, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Mongoose", 
+        "Id": "chassisdef_mongoose_MON-67", 
+        "Name": "Mongoose", 
+        "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust.  Armed with one Small and three Medium Lasers, it packs more of a punch while keeping up with the Locust's speed.", 
+        "Icon": "uixTxrIcon_mongoose"
+    }, 
+    "VariantName": "MON-67", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "Must be something about those chicken legs boss, the Mongoose is one of the faster 'Mechs out there.  Combined with its firepower and durability, I think any of our Scouts would prefer this over a Locust.", 
+    "PrefabIdentifier": "chrprfmech_mongoosebase-001", 
+    "PrefabBase": "mongoose", 
+    "Tonnage": 25, 
+    "InitialTonnage": 2.5, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 2061000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 25, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 30, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 30, 
+    "DFAInstability": 30, 
+    "ChassisTags": {
+        "items": [
+            "mr-resize-1.05-1.05-1.05", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_mongoose", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": -1.5, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 1.5, 
+            "y": 3, 
+            "z": 0.5
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 40,
-      "MaxRearArmor": -1,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 60,
-      "MaxRearArmor": 30,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 60,
-      "MaxRearArmor": 30,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 40,
-      "MaxRearArmor": -1,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 10.0,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 8.0,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 8.0,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 10.0,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 8.0,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 8.0,
-      "z": -0.5
-    },
-    {
-      "x": -1.5,
-      "y": 3.0,
-      "z": 0.5
-    },
-    {
-      "x": 1.5,
-      "y": 3.0,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "MON-67",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.05-1.05-1.05"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Light Striker & Scout",
-  "YangsThoughts": "Must be something about those chicken legs boss, the Mongoose is one of the faster 'Mechs out there.  Combined with its firepower and durability, I think any of our Scouts would prefer this over a Locust."
+    ]
 }

@@ -1,205 +1,211 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 5200000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Shadow Hawk",
-    "Id": "chassisdef_shadowhawk_SHD-2K",
-    "Name": "Shadow Hawk",
-    "Details": "The Shadow Hawk 2K removes all the armaments of the original, aside from its LRM-5, and replaces them with a single PPC.  Five additional Heat Sinks are also added to help with the excess heat.",
-    "Icon": "uixTxrIcon_shadowhawk"
-  },
-  "MovementCapDefID": "movedef_mediummech",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_shadowhawk",
-  "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
-  "PrefabBase": "shadowhawk",
-  "Tonnage": 55.0,
-  "InitialTonnage": 5.5,
-  "weightClass": "MEDIUM",
-  "BattleValue": 5171000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 80,
-  "TurnRadius": 90,
-  "MaxJumpjets": 3,
-  "Stability": 130,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 5,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 85,
-  "MeleeInstability": 55,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 70,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 70,
-  "DFAInstability": 70,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 90,
-      "MaxRearArmor": -1,
-      "InternalStructure": 45
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 4180490, 
+        "Rarity": 5, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Shadow Hawk", 
+        "Id": "chassisdef_shadowhawk_SHD-2K", 
+        "Name": "Shadow Hawk", 
+        "Details": "The Shadow Hawk 2K removes all the armaments of the original, aside from its LRM-5, and replaces them with a single PPC.  Five additional Heat Sinks are also added to help with the excess heat.", 
+        "Icon": "uixTxrIcon_shadowhawk"
+    }, 
+    "VariantName": "SHD-2K", 
+    "StockRole": "Skirmisher & Cavalry", 
+    "YangsThoughts": "The 2K model is a poor man's Griffin, and is underarmed for its weight class.", 
+    "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001", 
+    "PrefabBase": "shadowhawk", 
+    "Tonnage": 55, 
+    "InitialTonnage": 5.5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 5171000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 80, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 7, 
+    "Stability": 130, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 85, 
+    "MeleeInstability": 55, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 70, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 70, 
+    "DFAInstability": 70, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_shadowhawk", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -4, 
+            "y": 15, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 2.5, 
+            "y": 6, 
+            "z": 2.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 6, 
+            "z": 2.5
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 90,
-      "MaxRearArmor": -1,
-      "InternalStructure": 45
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 15.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 2.5,
-      "y": 6.0,
-      "z": 2.5
-    },
-    {
-      "x": -2.5,
-      "y": 6.0,
-      "z": 2.5
-    }
-  ],
-  "VariantName": "SHD-2K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Skirmisher & Cavalry",
-  "YangsThoughts": "The 2K model is a poor man's Griffin, and is underarmed for its weight class."
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
+        }
+    ]
 }

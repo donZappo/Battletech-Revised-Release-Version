@@ -1,0 +1,220 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 22070000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Nightstar",
+    "Id": "chassisdef_nightstar_NSR-9J",
+    "Name": "Nightstar",
+    "Details": "The 2767 genesis of the Nightstar lies in the Amaris Civil War, when it was noticed that unit commanders, most of whom were piloting Marauder BattleMechs, were being targeted by troops loyal to Stefan Amaris. The 'Mech itself was only produced until the first year of the First Succession War, 2786, when both of the factories and engineers capable of producing the Nightstar were destroyed or killed.",
+    "Icon": "uixTxrIcon_nightstar"
+  },
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_nightstar",
+  "PrefabIdentifier": "chrprfmech_nightstarbase-001",
+  "PrefabBase": "nightstar",
+  "Tonnage": 95.0,
+  "InitialTonnage": 9.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9360000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 90,
+  "MeleeInstability": 80,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 48,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 17.0,
+      "z": 0.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": -1.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 17.0,
+      "z": 0.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": -1.0
+    },
+    {
+      "x": 3.5,
+      "y": 6.0,
+      "z": 1.0
+    },
+    {
+      "x": -3.5,
+      "y": 6.0,
+      "z": 1.0
+    }
+  ],
+  "VariantName": "NSR-9J",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler",
+  "YangsThoughts": "A Star League mech thought to be lost in recent times, we may be the only Mercenary unit with the 9J in their mech bay."
+}

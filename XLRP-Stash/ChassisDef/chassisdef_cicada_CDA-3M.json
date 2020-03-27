@@ -1,0 +1,212 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 8000000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Cicada",
+    "Id": "chassisdef_cicada_CDA-3M",
+    "Name": "Cicada",
+    "Details": "The 3M upgrade of this older BattleMech uses some of the newest technology available at its introduction in 3049. It uses an extralight version of the same Pitban 320 engine, freeing up extra space to upgrade the small laser to a Small Pulse Laser and adding an Ultra Autocannon/5 to the left torso.",
+    "Icon": "uixTxrIcon_cicada"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_cicada",
+  "PrefabIdentifier": "chrPrfMech_cicadaBase-001",
+  "PrefabBase": "cicada",
+  "Tonnage": 40.0,
+  "InitialTonnage": 4.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3610000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 8,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 25,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 12.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 0.0
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 0.0
+    }
+  ],
+  "VariantName": "CDA-3M",
+  "ChassisTags": {
+    "items": [
+      "mech_case_right"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Harasser",
+  "YangsThoughts": "One of the biggest issues with the old Cicada designs was the size of the engine, the chassis could barely fit anything else on it. For the 3M model they have replaced the engine with an XL version and all of a sudden it has room combat gear. Here they have used it to add an Ultra Autocannon, but I can't understand why they didn't sure up some of the armor."
+}

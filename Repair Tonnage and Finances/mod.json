@@ -10,7 +10,11 @@
 	"Settings": 
 	{
 		"QuirksEnabled" : true,
-		"LocustRepairTechFactor" : 0.25,
-		"LocustRepairCostFactor" : 0.25,
-		}
+		"LocustRepairFactor" : 0.25,
+		"MassProducedRepairFactor" : 0.5,
+		"ObsoleteRepairFactor" : 1.25,
+		"ShoddyRepairFactor" : 1.5,
+		"RareRepairFactor" : 2.0,
+		"MuseumItemRepairFactor" : 3.0
+	}
 }

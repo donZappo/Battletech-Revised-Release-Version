@@ -1,252 +1,258 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 3435960,
-    "Rarity": 1,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Clint",
-    "Id": "chassisdef_clint_CLNT-2-3U",
-    "Name": "Clint",
-    "Details": "The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well. With a top speed of 97.2 km/h and a jumping capability of one hundred and eighty meters, the Clint can easily keep up with other recon elements and maneuver through mountainous or urban terrain. The Clint 2-3U is a Capellan field upgrade of the Clint that strips all of the armaments from the chassis and replaces them with more potent and enduring weaponry, the most radical of which is the primary weapon. The AC/5 has been replaced with an ER PPC while both the Medium Lasers were replaced with Medium Pulse Lasers; as a result, it runs much hotter than the original. The 3U also packs double heat sinks in place of single models and is more deadly in combat. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
-    "Icon": "uixTxrIcon_clint"
-  },
-  "MovementCapDefID": "movedef_mediummech",
-  "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_clint",
-  "PrefabIdentifier": "chrprfmech_clintbase-001",
-  "PrefabBase": "clint",
-  "Tonnage": 40.0,
-  "InitialTonnage": 4.0,
-  "weightClass": "MEDIUM",
-  "BattleValue": 3087000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 85,
-  "TurnRadius": 90,
-  "MaxJumpjets": 20,
-  "Stability": 100,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 5,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 20,
-  "MeleeInstability": 10,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 40,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 40,
-  "DFAInstability": 20,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 1.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 3561240, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Clint", 
+        "Id": "chassisdef_clint_CLNT-2-3U", 
+        "Name": "Clint", 
+        "Details": "The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well. With a top speed of 97.2 km/h and a jumping capability of one hundred and eighty meters, the Clint can easily keep up with other recon elements and maneuver through mountainous or urban terrain. The Clint 2-3U is a Capellan field upgrade of the Clint that strips all of the armaments from the chassis and replaces them with more potent and enduring weaponry, the most radical of which is the primary weapon. The AC/5 has been replaced with an ER PPC while both the Medium Lasers were replaced with Medium Pulse Lasers; as a result, it runs much hotter than the original. The 3U also packs double heat sinks in place of single models and is more deadly in combat. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>", 
+        "Icon": "uixTxrIcon_clint"
+    }, 
+    "VariantName": "CLNT-2-3U", 
+    "StockRole": "__/Base_3061.chassisdef_clint_CLNT-2-3U.StockRole/__", 
+    "YangsThoughts": "__/Base_3061.chassisdef_clint_CLNT-2-3U.YangsThoughts/__", 
+    "PrefabIdentifier": "chrprfmech_clintbase-001", 
+    "PrefabBase": "clint", 
+    "Tonnage": 40, 
+    "InitialTonnage": 4, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 3087000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 20, 
+    "MeleeInstability": 10, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 40, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 40, 
+    "DFAInstability": 20, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_clint", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -3.5, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 12, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": -3.5, 
+            "y": 12, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": 3.5, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 4, 
+            "z": 0.5
+        }, 
+        {
+            "x": 2, 
+            "y": 4, 
+            "z": 0.5
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": 50,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 1, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
         {
-          "WeaponMount": null,
-          "Omni": false
-        },
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
+        }, 
         {
-          "WeaponMount": null,
-          "Omni": false
-        },
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "NotSet"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "NotSet"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "NotSet"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "NotSet"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
+        }, 
         {
-          "WeaponMount": null,
-          "Omni": false
-        },
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
+        }, 
         {
-          "WeaponMount": null,
-          "Omni": false
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 120,
-      "MaxRearArmor": 60,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": 50,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 12.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 12.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 12.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 12.0,
-      "z": 0.0
-    },
-    {
-      "x": -2.0,
-      "y": 4.0,
-      "z": 0.5
-    },
-    {
-      "x": 2.0,
-      "y": 4.0,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "CLNT-2-3U",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_clint_CLNT-2-3U.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_clint_CLNT-2-3U.YangsThoughts/__"
+    ]
 }

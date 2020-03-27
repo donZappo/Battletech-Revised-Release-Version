@@ -1,210 +1,216 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 7300000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Orion",
-    "Id": "chassisdef_orion_ON1-VA",
-    "Name": "Orion",
-    "Details": "Instead of sacrificing armor, the Orion VA trades out some of it's long range punch by removing the LRM-15.  This allows it to not only maintain the stock armor, but also add 6 Heat Sinks for better heat management.",
-    "Icon": "uixTxrIcon_orion"
-  },
-  "MovementCapDefID": "movedef_heavymech",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_orion",
-  "PrefabIdentifier": "chrPrfMech_orionBase-001",
-  "PrefabBase": "orion",
-  "Tonnage": 75.0,
-  "InitialTonnage": 7.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 7124000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 64,
-  "TurnRadius": 90,
-  "MaxJumpjets": 0,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": true,
-  "MeleeDamage": 95,
-  "MeleeInstability": 75,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 95,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 95,
-  "DFAInstability": 95,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 7352640, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Orion", 
+        "Id": "chassisdef_orion_ON1-VA", 
+        "Name": "Orion", 
+        "Details": "Instead of sacrificing armor, the Orion VA trades out some of it's long range punch by removing the LRM-15.  This allows it to not only maintain the stock armor, but also add 6 Heat Sinks for better heat management.", 
+        "Icon": "uixTxrIcon_orion"
+    }, 
+    "VariantName": "ON1-VA", 
+    "StockRole": "Brawler & Close Assault", 
+    "YangsThoughts": "Instead of sacrificing armor, the Orion VA trades out some of it's long range punch by removing the LRM-15.  This allows it to not only maintain the stock armor, but also add 6 Heat Sinks for better heat management.", 
+    "PrefabIdentifier": "chrPrfMech_orionBase-001", 
+    "PrefabBase": "orion", 
+    "Tonnage": 75, 
+    "InitialTonnage": 7.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 7124000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 64, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 5, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 95, 
+    "MeleeInstability": 75, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 95, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 95, 
+    "DFAInstability": 95, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_orion", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 16, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 3.5, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -3.5, 
+            "y": 15, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 230,
-      "MaxRearArmor": 115,
-      "InternalStructure": 115
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 16, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
+            "x": 3.5, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -3.5, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 60
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": 80, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 230, 
+            "MaxRearArmor": 115, 
+            "InternalStructure": 115
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": 80, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 60
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 15.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.0,
-      "y": 5.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.0,
-      "y": 5.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "ON1-VA",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Brawler & Close Assault",
-  "YangsThoughts": "Instead of sacrificing armor, the Orion VA trades out some of it's long range punch by removing the LRM-15.  This allows it to not only maintain the stock armor, but also add 6 Heat Sinks for better heat management."
+    ]
 }

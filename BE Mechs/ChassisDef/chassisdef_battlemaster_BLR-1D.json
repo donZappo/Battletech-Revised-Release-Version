@@ -1,223 +1,229 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 9500000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "BattleMaster",
-    "Id": "chassisdef_battlemaster_BLR-1D",
-    "Name": "BattleMaster",
-    "Details": "More of a refit than a production variant, the SRM-6 and two Medium Lasers are removed so that six Heat Sinks and an extra ton of armor could be added.  Making the BLR-1D a formidable opponent.",
-    "Icon": "uixTxrIcon_battlemaster"
-  },
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_battlemaster",
-  "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-  "PrefabBase": "battlemaster",
-  "Tonnage": 85.0,
-  "InitialTonnage": 8.5,
-  "weightClass": "ASSAULT",
-  "BattleValue": 8742000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 60,
-  "TurnRadius": 90,
-  "MaxJumpjets": 0,
-  "Stability": 200,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": true,
-  "MeleeDamage": 115,
-  "MeleeInstability": 85,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 105,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 105,
-  "DFAInstability": 105,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 10557210, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "BattleMaster", 
+        "Id": "chassisdef_battlemaster_BLR-1D", 
+        "Name": "BattleMaster", 
+        "Details": "More of a refit than a production variant, the SRM-6 and two Medium Lasers are removed so that six Heat Sinks and an extra ton of armor could be added.  Making the BLR-1D a formidable opponent.", 
+        "Icon": "uixTxrIcon_battlemaster"
+    }, 
+    "VariantName": "BLR-1D", 
+    "StockRole": "Heavy Brawler & Close Assault", 
+    "YangsThoughts": "Well boss, the 1D is a simple 'variant', it basically sacrifices some firepower and adds on Heat Sinks and Armor.  It makes the Battlemaster more durable and allows for more continuous fire.", 
+    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001", 
+    "PrefabBase": "battlemaster", 
+    "Tonnage": 85, 
+    "InitialTonnage": 8.5, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 8742000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 60, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 115, 
+    "MeleeInstability": 85, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 105, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 105, 
+    "DFAInstability": 105, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_battlemaster", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 16, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
+            "x": -5, 
+            "y": 16, 
+            "z": -1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 16, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 6, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 6, 
+            "z": 1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 270,
-      "MaxRearArmor": 135,
-      "InternalStructure": 135
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 270, 
+            "MaxRearArmor": 135, 
+            "InternalStructure": 135
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 90
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 180,
-      "MaxRearArmor": -1,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 180,
-      "MaxRearArmor": -1,
-      "InternalStructure": 90
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": 3.5,
-      "y": 6.0,
-      "z": 1.0
-    },
-    {
-      "x": -3.5,
-      "y": 6.0,
-      "z": 1.0
-    }
-  ],
-  "VariantName": "BLR-1D",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Brawler & Close Assault",
-  "YangsThoughts": "Well boss, the 1D is a simple 'variant', it basically sacrifices some firepower and adds on Heat Sinks and Armor.  It makes the Battlemaster more durable and allows for more continuous fire."
+    ]
 }

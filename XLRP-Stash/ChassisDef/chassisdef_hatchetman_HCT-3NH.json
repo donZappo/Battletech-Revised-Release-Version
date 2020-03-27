@@ -1,0 +1,198 @@
+{
+  "FixedEquipment": null,
+  "Description": {
+    "Cost": 3600000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hatchetman",
+    "Id": "chassisdef_hatchetman_HCT-3NH",
+    "Name": "Hatchetman",
+    "Details": "The Hatchetman 3NH (no Hatchet) is a deviation from the standard Hatchetman concept.  While it retains the appearance of its namesake Hatchet on its right arm, it does not possess the specialized actuators or structural reinforcements of the 3F model and therefore isn't nearly as dangerous to face in melee combat.  It uses the extra space to add 3 additional Heat Sinks and it appears that the designers had intended to allow for Anti-Personnel weaponry to be mounted in the arms, though never followed through with their intentions.  It is still a very under-armored and slow moving 'Mech for its weight class, so it must rely on cover whenever possible..",
+    "Icon": "uixTxrIcon_hatchetman"
+  },
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hatchetman",
+  "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
+  "PrefabBase": "hatchetman",
+  "Tonnage": 45.0,
+  "InitialTonnage": 4.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 0.0,
+  "Heatsinks": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 70,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 55,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 55,
+  "DFAInstability": 55,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 0.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "HCT-3NH",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Skirmisher",
+  "YangsThoughts": "Interesting concept they have here boss, not sure if it was meant as a deceptive element, being as the 3NH looks just like a standard 3F, but has a bit more heat durability.  Though, if they intended to focus on long range support and not entice the pilot to engage, then I think it might have been better served adding another ton of ammunition."
+}

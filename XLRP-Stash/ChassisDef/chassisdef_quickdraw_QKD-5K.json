@@ -1,0 +1,214 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 6000000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Quickdraw",
+    "Id": "chassisdef_quickdraw_QKD-5K",
+    "Name": "Quickdraw",
+    "Details": "The 5K Quickdraw is an upgraded variant using Star League technology produced by Luthien Armor Works in 3049. Carrying the same weaponry as the 5A model, its use of seventeen double heat sinks solves the problem of excessive waste heat. It also uses Ferro-Fibrous armor, giving the 5K superior armor protection to the 5A model, with no added weight.",
+    "Icon": "uixTxrIcon_quickdraw"
+  },
+  "MovementCapDefID": "movedef_heavymech",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_quickdraw",
+  "PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
+  "PrefabBase": "quickdraw",
+  "Tonnage": 60.0,
+  "InitialTonnage": 6.0,
+  "weightClass": "HEAVY",
+  "BattleValue": 6922000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 55,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.5,
+      "y": 13.0,
+      "z": 0.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.5,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.5,
+      "y": 13.0,
+      "z": 0.0
+    },
+    {
+      "x": 3.0,
+      "y": 5.0,
+      "z": 0.0
+    },
+    {
+      "x": -3.0,
+      "y": 5.0,
+      "z": 0.0
+    }
+  ],
+  "VariantName": "QKD-5K",
+  "ChassisTags": {
+    "items": [
+      "chassis_ferro"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker Cavalry",
+  "YangsThoughts": "The Quickdraw 5K has taken the design of the 5A and just pumped it up with the use of rediscovered Star League technology. Double heat sinks and ferro armor means it runs cooler, and with more protection than the 5A."
+}
