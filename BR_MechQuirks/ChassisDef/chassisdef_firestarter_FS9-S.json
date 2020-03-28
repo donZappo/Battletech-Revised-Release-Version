@@ -1,0 +1,235 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 2029440, 
+        "Rarity": 2, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Firestarter", 
+        "Id": "chassisdef_firestarter_FS9-S", 
+        "Name": "Firestarter", 
+        "Details": "The FS9-S is an overhaul of the FS9-H introduced in 3049. The structure has been upgraded to use an Endo Steel chassis. The weapons carried are four flamers, two medium lasers, and a single small laser. An Anti-Missile System with one ton of ammo has been added to protect against missile attacks, and an Active Probe has been installed to enhance the Firestarter's scouting role.", 
+        "Icon": "uixTxrIcon_firestarter"
+    }, 
+    "VariantName": "FS9-S", 
+    "StockRole": "Scout & Disabler", 
+    "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage\u2014carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. The FS9-H also makes a decent light 'Mech hunter-killer.", 
+    "PrefabIdentifier": "chrPrfMech_firestarterBase-001", 
+    "PrefabBase": "firestarter", 
+    "Tonnage": 35, 
+    "InitialTonnage": 3.5, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 3749000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 35, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 45, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 45, 
+    "DFAInstability": 45, 
+    "ChassisTags": {
+        "items": [
+            "chassis_endo", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_firestarter", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 12, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": -2, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 2, 
+            "y": 3, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 40
+        }
+    ]
+}

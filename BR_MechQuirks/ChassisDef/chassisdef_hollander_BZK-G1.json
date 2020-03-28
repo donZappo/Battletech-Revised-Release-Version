@@ -1,0 +1,211 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1914360, 
+        "Rarity": 2, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Hollander", 
+        "Id": "chassisdef_hollander_BZK-G1", 
+        "Name": "Hollander", 
+        "Details": "The G1 variant of the Hollander is built to address concerns about the Hollander's lack of back up weapons. First debuting in 3056 the 'Mech replaces the Gauss Cannon with an LB-X Autocannon/10 as its primary weapon, freeing up weight to mount two Medium Lasers in its arms as backup weapons and add two tons of Ferro-Fibrous armor. The G1 is an excellent 'Mech for vehicle hunting as well as anti-aircraft use with its LB-X cluster rounds.", 
+        "Icon": "uixTxrIcon_hollander"
+    }, 
+    "VariantName": "BZK-G1", 
+    "StockRole": "Light Fire Support", 
+    "YangsThoughts": "This Hollander variant, the G1 is a more close range support mech. Instead of the Gauss it has an LB10-X and 2 medium lasers. Still high firepower for it's size, they didn't make it any prettier though.", 
+    "PrefabIdentifier": "chrprfmech_hollanderbase-001", 
+    "PrefabBase": "hollander", 
+    "Tonnage": 35, 
+    "InitialTonnage": 3.5, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 3749000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 35, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 45, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 45, 
+    "DFAInstability": 45, 
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.95-0.95-0.95", 
+            "chassis_endo", 
+            "chassis_ferro", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_hollander", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 12, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 12, 
+            "z": -0.5
+        }, 
+        {
+            "x": -2, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 2, 
+            "y": 3, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 40
+        }
+    ]
+}

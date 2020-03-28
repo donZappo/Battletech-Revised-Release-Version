@@ -1,0 +1,192 @@
+{
+  "FixedEquipment": [],
+  "Description": {
+    "Cost": 5020000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Jackal",
+    "Id": "chassisdef_jackal_JA-KL-1532",
+    "Name": "Jackal",
+    "Details": "Developed by the Solaris VII based Vining Engineering and Salvage Team, the Jackal was designed to give as equal of a performance as possible to a Clan 'Mech of equal weight. While intended for the battlefield rather than the arenas, the prototype's stellar run on Solaris attracted the attention of number of 'Mech manufacturers, most notably Earthwerks Incorporated of Keystone.",
+    "Icon": "uixTxrIcon_jackal"
+  },
+  "MovementCapDefID": "movedef_lightmech",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_ostroc",
+  "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+  "PrefabBase": "ostroc",
+  "Tonnage": 30.0,
+  "InitialTonnage": 3.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 1892000.0,
+  "Heatsinks": 0,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 7,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 45,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 4,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 16,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0.0,
+      "InventorySlots": 6,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.0,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.0,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.0,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.0,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3.0,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3.0,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "JA-KL-1532",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.65-0.70-0.65",
+      "chassis_endo"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Defender",
+  "YangsThoughts": "The Jackal is armed with a simple but effective arsenal. The primary weapon carried by the 'Mech is an ER PPC which allows the Jackal to damage a target at extreme range. For close combat, the Jackal has a Streak SRM-2 missile launcher and to defend against missile attacks an Anti-Missile System in the 'Mechs head."
+}

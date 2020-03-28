@@ -1,0 +1,204 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 3155250, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Clint", 
+        "Id": "chassisdef_clint_CLNT-1-2R", 
+        "Name": "Clint", 
+        "Details": "The CLNT-1-2R was the original prototype of the Clint and carried the heavier Armstrong Buster Autocannon 10.  While no originals remain, some have taken to emulating the original design to gain a little more punch.  In order to retrofit in the larger cannon, the Jump Jets and one Medium Laser needed to be removed.", 
+        "Icon": "uixTxrIcon_clint"
+    }, 
+    "VariantName": "CLNT-1-2R", 
+    "StockRole": "Recon & Fire Support", 
+    "YangsThoughts": "If this were an original 1-2R, we'd be rich men, assuming we could find a buyer.  Only 20 were ever made.  This is a retrofit, and while I do like the concentrated punch of the AC/10, losing the maneuverability of the Jump Jets is a hard pill to swallow for a scout.  I can certainly see why they scrapped this idea early on.", 
+    "PrefabIdentifier": "chrprfmech_clintbase-001", 
+    "PrefabBase": "clint", 
+    "Tonnage": 40, 
+    "InitialTonnage": 4, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 3610000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 210, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 130, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 40, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 50, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 50, 
+    "DFAInstability": 50, 
+    "ChassisTags": {
+        "items": [
+            "mr-resize-1.15-1.05-1.05", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_clint", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 12, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": 2.5, 
+            "y": 6, 
+            "z": 0
+        }, 
+        {
+            "x": -2.5, 
+            "y": 6, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }
+    ]
+}

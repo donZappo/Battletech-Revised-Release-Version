@@ -10,21 +10,21 @@
     {
       "Type": "ChassisDef",
       "Path": "ChassisDef",
-      "AddToDB": false
+      "AddToDB": true
     },
     {
       "Type": "MechDef",
       "Path": "MechDef",
-      "AddToDB": false
+      "AddToDB": true
     },
 	{
 		"Type": "MovementCapabilitiesDef",
 		"Path": "MovementCapabilitiesDef",
-		"AddToDB": false
+		"AddToDB": true
 	},
-	{ "Type": "LanceDef", "Path": "LanceDef", "AddToDB": false},
-	{ "Type": "Sprite", "Path": "Sprite", "AddToDB": false },
-	{ "Type": "HardpointDataDef", "Path": "HardpointDataDef" },
+	{ "Type": "LanceDef", "Path": "LanceDef", "AddToDB": true},
+	{ "Type": "Sprite", "Path": "Sprite", "AddToDB": true },
+	{ "Type": "HardpointDataDef", "Path": "HardpointDataDef", "AddToDB": true },
 	
 	        { "Type": "AssetBundle", "Path": "assetbundles" },
 

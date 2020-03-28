@@ -1,0 +1,210 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1702360, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Javelin", 
+        "Id": "chassisdef_javelin_JVN-11B", 
+        "Name": "Javelin", 
+        "Details": "The 11B is a scout design introduced in 3054 that replaces the missiles launchers with twin SRM-4s so that it can mount a full Electronic Warfare suite. Additional Ferro-Fibrous armor gives the 11B more than a forty percent increase in protection, while the inclusion of CASE necessitated dropping the jump jets and an upgrade to double heat sinks provides ample cooling.", 
+        "Icon": "uixTxrIcon_javelin"
+    }, 
+    "VariantName": "JVN-11B", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "A full Electronic Warfare equiped Javelin, the 11B is a close-range support 'Mech that also has an ECM cloaking field and a Beagle Active Probe. Awkward enemies to deal with, could be useful to us.", 
+    "PrefabIdentifier": "chrPrfMech_javelinBase-001", 
+    "PrefabBase": "javelin", 
+    "Tonnage": 30, 
+    "InitialTonnage": 3, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 3907000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 40, 
+    "MeleeInstability": 30, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 40, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 40, 
+    "DFAInstability": 40, 
+    "ChassisTags": {
+        "items": [
+            "chassis_ferro", 
+            "mech_case_left", 
+            "mech_case_right", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_javelin", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 11, 
+            "z": 0
+        }, 
+        {
+            "x": -2.5, 
+            "y": 10, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 10, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 11, 
+            "z": 0
+        }, 
+        {
+            "x": -2.5, 
+            "y": 10, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 10, 
+            "z": -0.5
+        }, 
+        {
+            "x": -2, 
+            "y": 4, 
+            "z": 0.5
+        }, 
+        {
+            "x": 2, 
+            "y": 4, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": 35, 
+            "InternalStructure": 35
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": 35, 
+            "InternalStructure": 35
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 35
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 35
+        }
+    ]
+}

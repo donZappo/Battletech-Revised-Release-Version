@@ -5,7 +5,15 @@
 	"PackagedOn": "",
 	"DLL": "BR_MechQuirks.dll",
 	"ConflictsWith": [ ],
-	"DependsOn": [ ],
+	"DependsOn": [ "BE Mechs" ],
+	
+	"Manifest": [
+		{
+			"Type": "UpgradeDef",
+			"Path": "UpgradeDef",
+			"ShouldMergeJSON": true
+		},
+	],
 	
 	"Settings": {
 		"CommandoBonusDamage" : 1.5,
