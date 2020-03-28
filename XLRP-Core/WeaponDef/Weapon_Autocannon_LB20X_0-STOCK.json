@@ -11,7 +11,7 @@
   ],
   "StartingAmmoCapacity" : 0,
   "HeatGenerated" : 21.0,
-  "Damage" : 11.0,
+  "Damage" : 143.0,
   "OverheatedDamageMultiplier" : 0,
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
@@ -61,7 +61,7 @@
     "tagSetSourceFile" : ""
   },
   "ImprovedBallistic" : true,
-  "HasShells" : true,
+  "HasShells" : false,
   "VolleyDivisor" : 6,
   "HitGenerator" : "Cluster",
   "BallisticDamagePerPallet" : true,

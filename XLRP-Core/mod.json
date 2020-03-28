@@ -16,7 +16,7 @@
 	"DLL": "XLRP_Core.dll",
 	
 	"Settings": {
-		"IsFriendlyBugSuppression" : true,
+		"IsFriendlyBugSuppression" : false,
 		"UpgradeDegradedOpFor" : true,
 		"JumpStopsCalledShot" : true,
 		"TacticsForJumpedCS" : 10,
