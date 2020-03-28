@@ -20,7 +20,7 @@
 	{
 		"Type": "MovementCapabilitiesDef",
 		"Path": "MovementCapabilitiesDef",
-		"AddToDB": true
+		"AddToDB": false
 	},
 	{ "Type": "LanceDef", "Path": "LanceDef", "AddToDB": true},
 	{ "Type": "Sprite", "Path": "Sprite", "AddToDB": true },

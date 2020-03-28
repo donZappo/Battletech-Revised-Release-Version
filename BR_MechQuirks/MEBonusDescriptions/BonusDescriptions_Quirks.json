@@ -1,0 +1,28 @@
+{
+  "Settings": [
+	{
+      "Bonus": "ImprovedJumpDistance",
+      "Short": "{0}% Improved Jump Distance",
+      "Long": "{0}% Improved Jump Distance",
+      "Full": "Jump Distance increased by {0}%"
+    },
+    {
+      "Bonus": "ImprovedJumpHeatEfficiency",
+      "Short": "{0}% Improved Jump Heat",
+      "Long": "{0} Improved Jump Heat",
+      "Full": "Jump Heat reduced by {0}%"
+    },
+    {
+      "Bonus": "ReducedMaximumJumpJetCount",
+      "Short": "{0}% Maximum Jump Jets",
+      "Long": "{0}% Maximum Jump Jets",
+      "Full": "Maximum Jump Jets reduced by {0}%"
+    },
+    {
+      "Bonus": "TargetingBaffles",
+      "Short": "+{0} Harder To-Be-Hit",
+      "Long": "+{0} Harder To-Be-Hit",
+      "Full": "+{0} To-Hit Penalty when being targeted"
+    },
+  ]
+}

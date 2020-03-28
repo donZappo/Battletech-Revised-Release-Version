@@ -11,6 +11,21 @@
 		{
 			"Type": "UpgradeDef",
 			"Path": "UpgradeDef",
+			"ShouldMergeJSON": false
+		},
+		{
+            "Type": "CCDefaults",
+            "Path": "CCDefaults",
+            "ShouldMergeJSON": false
+        },
+		{
+			"Type": "MEBonusDescriptions",
+			"Path": "MEBonusDescriptions",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "ChassisDef",
 			"ShouldMergeJSON": true
 		},
 	],
