@@ -5,7 +5,8 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"TargetingBaffles: 2"
+				"BallisticWeaponBonus: -4",
+				"Rarity: 150"
       ]
         },
 		"Flags": {
@@ -30,10 +31,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Targeting Baffles",
-        "Id": "mech_quirk_targeting_baffles",
-        "Name": "Targeting Baffles",
-        "Details": "This 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
+        "UIName": "Enhanced Target Tracking",
+        "Id": "mech_quirk_enhanced_target_tracking",
+        "Name": "Enhanced Target Tracking",
+        "Details": "This 'Mech was optimized for Ballistic weapons ages ago. It is much more effective with ballistic weapons, but parts to repair it are hard to come by.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -51,36 +52,53 @@
         {
             "durationData" : {
                 "duration" : -1,
-                "stackLimit" : -1
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
                 "effectTargetType" : "Creator",
-                "showInTargetPreview" : true,
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TargBaff-HitDefense1",
-                "Name" : "TARGETING BAFFLES",
-                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Id" : "StatusEffect-Attack_ToHitBallistic-T4",
+                "Name" : "BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Ballistic weapon attacks have their hit improved by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
             },
+            "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "ToHitThisActor",
+                "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "2",
+                "modValue" : "-4.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },
-            "nature" : "Buff"
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
         }
     ],
     "ComponentTags": {

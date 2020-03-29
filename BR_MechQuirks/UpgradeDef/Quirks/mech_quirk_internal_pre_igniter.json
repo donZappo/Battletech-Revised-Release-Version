@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"TargetingBaffles: 2"
+				"InternalPreIgniter: 3"
       ]
         },
 		"Flags": {
@@ -30,11 +30,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Targeting Baffles",
-        "Id": "mech_quirk_targeting_baffles",
-        "Name": "Targeting Baffles",
-        "Details": "This 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
-        "Icon": "SpecialistSlot"
+        "UIName": "Internal Pre-Igniter",
+        "Id": "mech_quirk_internal_pre_igniter",
+        "Name": "Internal Pre-Igniter",
+        "Details": "Overriding some of the safeties on the 'Mech, each flamer is able to run significantly hotter and cause more heat damage per flamer."
     },
     "BonusValueA": "",
     "BonusValueB": "",
@@ -51,7 +50,7 @@
         {
             "durationData" : {
                 "duration" : -1,
-                "stackLimit" : -1
+                "stackLimit" : 1
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
@@ -61,22 +60,22 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TargBaff-HitDefense1",
-                "Name" : "TARGETING BAFFLES",
-                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
+                "Id" : "StatusEffect-OptimizedCapacitors-EnergyDmgBonus",
+                "Name" : "INTERNAL PRE IGNITERS",
+                "Details" : "Flamers on this unit deal [AMT] more heat damage.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "ToHitThisActor",
+                "statName" : "HeatDamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "2",
+                "modValue" : "3.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
+                "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
+                "targetWeaponType" : "Flamer",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },

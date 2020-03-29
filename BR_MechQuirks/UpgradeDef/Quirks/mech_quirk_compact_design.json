@@ -5,7 +5,8 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"TargetingBaffles: 2"
+				"TargetingBaffles: 3",
+				"FixedEngine"
       ]
         },
 		"Flags": {
@@ -30,10 +31,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Targeting Baffles",
-        "Id": "mech_quirk_targeting_baffles",
-        "Name": "Targeting Baffles",
-        "Details": "This 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
+        "UIName": "Compact Design",
+        "Id": "mech_quirk_compact_design",
+        "Name": "Compact Design",
+        "Details": "The compact nature of this 'Mech makes it harder to hit in combat, but causes the engine to be completely inaccessible making it unable to be upgraded.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -62,7 +63,7 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-TargBaff-HitDefense1",
-                "Name" : "TARGETING BAFFLES",
+                "Name" : "COMPACT DESIGN",
                 "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
@@ -71,7 +72,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "ToHitThisActor",
                 "operation" : "Float_Add",
-                "modValue" : "2",
+                "modValue" : "3",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

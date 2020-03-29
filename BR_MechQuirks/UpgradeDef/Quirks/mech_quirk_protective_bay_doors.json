@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"TargetingBaffles: 2"
+				"CriticalMod: 25"
       ]
         },
 		"Flags": {
@@ -30,10 +30,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Targeting Baffles",
-        "Id": "mech_quirk_targeting_baffles",
-        "Name": "Targeting Baffles",
-        "Details": "This 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
+        "UIName": "Protective LRM Bay Doors",
+        "Id": "mech_quirk_protective_bay_doors",
+        "Name": "Protective LRM Bay Doors",
+        "Details": "The reinforced LRM Bay Doors on this 'Mech afford it additional resistance to critical hits.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -47,31 +47,43 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects" : [
+    "statusEffects": [
         {
             "durationData" : {
                 "duration" : -1,
-                "stackLimit" : -1
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
                 "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
                 "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TargBaff-HitDefense1",
-                "Name" : "TARGETING BAFFLES",
-                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
+                "Id" : "StatusEffect-Reduced-Criticals",
+                "Name" : "RECEIVED CRITICAL HITS REDUCED",
+                "Details" : "Reduces effect of incoming critical hits.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
+            "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "ToHitThisActor",
+                "statName" : "CriticalHitChanceReceivedMultiplier",
                 "operation" : "Float_Add",
-                "modValue" : "2",
+                "modValue" : "-0.5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -80,9 +92,14 @@
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },
-            "nature" : "Buff"
-        }
-    ],
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+	],
     "ComponentTags": {
         "items": [
             "component_type_stock"

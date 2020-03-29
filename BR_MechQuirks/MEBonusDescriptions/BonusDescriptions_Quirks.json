@@ -4,13 +4,19 @@
       "Bonus": "ImprovedJumpDistance",
       "Short": "{0}% Improved Jump Distance",
       "Long": "{0}% Improved Jump Distance",
-      "Full": "Jump Distance increased by {0}%"
+      "Full": "Jump distance increased by {0}%"
+    },
+	{
+      "Bonus": "ImprovedJumpDamage",
+      "Short": "{0}% Improved Dmg. After Jump",
+      "Long": "{0}% Improved Dmg. After Jump",
+      "Full": "Damage increased by {0}% after jumping"
     },
     {
       "Bonus": "ImprovedJumpHeatEfficiency",
       "Short": "{0}% Improved Jump Heat",
-      "Long": "{0} Improved Jump Heat",
-      "Full": "Jump Heat reduced by {0}%"
+      "Long": "{0}% Improved Jump Heat",
+      "Full": "Jump heat reduced by {0}%"
     },
     {
       "Bonus": "ReducedMaximumJumpJetCount",
@@ -24,5 +30,161 @@
       "Long": "+{0} Harder To-Be-Hit",
       "Full": "+{0} To-Hit Penalty when being targeted"
     },
+    {
+      "Bonus": "Rarity",
+      "Short": "{0}% Repair Costs",
+      "Long": "{0}% Repair Costs",
+      "Full": "{0}% Total Repair Time and Costs"
+    },
+    {
+      "Bonus": "IntegratedCockpit",
+      "Short": "-{0} Tons",
+      "Long": "-{0} Tons",
+      "Full": "Fixed Cockpit, {0} Less Tons"
+    },
+    {
+      "Bonus": "PrecisionHarassment",
+      "Short": "+{0}% RA Weapon Damage",
+      "Long": "+{0}% RA Weapon Damage",
+      "Full": "Weapons in Right Arm do +{0}% Damage"
+    },
+    {
+      "Bonus": "CalibratedSRMMounts",
+      "Short": "+{0} SRM Accuracy",
+      "Long": "+{0} SRM Accuracy",
+      "Full": "SRMs have -{0} bonus to accuracy"
+    },
+    {
+      "Bonus": "HighPrecisionLaserTargeting",
+      "Short": "+{0} Laser Accuracy",
+      "Long": "+{0} Laser Accuracy",
+      "Full": "Lasers have -{0} bonus to accuracy"
+    },
+    {
+      "Bonus": "Retrofitted",
+      "Short": "No Bonus",
+      "Long": "No Bonus",
+      "Full": "No bonuses as this 'Mech has been redesigned"
+    },
+    {
+      "Bonus": "FixedEngine",
+      "Short": "Fixed Engine",
+      "Long": "Fixed Engine",
+      "Full": "Engine is unable to be replaced"
+    },
+    {
+      "Bonus": "TacticalOptics",
+      "Short": "+{0} Spotting Range",
+      "Long": "+{0} Spotting Range",
+      "Full": "+{0} Bonus to Spotting Range"
+    },
+    {
+      "Bonus": "RecoilCompensator",
+      "Short": "-{0} Refire Bonus",
+      "Long": "-{0} Refire Bonus",
+      "Full": "Bonus of -{0} to Refire Penalty"
+    },
+    {
+      "Bonus": "IntegratedInfernoFeeder",
+      "Short": "+{0} Inferno Ammo",
+      "Long": "+{0} Inferno Ammo",
+      "Full": "Contains {0} Rounds of integrated inferno ammo"
+    },
+    {
+      "Bonus": "InternalPreIgniter",
+      "Short": "+{0} Flamer Heat Damage",
+      "Long": "+{0} Flamer Heat Damage",
+      "Full": "+{0} Heat Damage from each equipped flamer"
+    },
+    {
+      "Bonus": "PPCDamageBonus",
+      "Short": "+{0} PPC Damage",
+      "Long": "+{0} PPC Damage",
+      "Full": "PPCs each have +{0} additional damage"
+    },
+    {
+      "Bonus": "PPCHeat",
+      "Short": "+{0} PPC Heat",
+      "Long": "+{0} PPC Heat",
+      "Full": "PPCs generate +{0} additional heat"
+    },
+    {
+      "Bonus": "RavenEW",
+      "Short": "Integrated ECM/BAP",
+      "Long": "Integrated ECM/BAP",
+      "Full": "Light-weight integrated BAP and ECM"
+    },
+    {
+      "Bonus": "EnergySpecializationBonus",
+      "Short": "-{0} To-Hit Bonus w/ Energy",
+      "Long": "-{0} To-Hit Bonus w/ Energy",
+      "Full": "Energy Weapons have a -{0} Bonus To-Hit"
+    },
+    {
+      "Bonus": "EnergySpecializationMalus",
+      "Short": "+{0} To-Hit Penalty Non-Energy",
+      "Long": "+{0} To-Hit Penalty Non-Energy",
+      "Full": "Non-Energy Weapons have a -{0} Penalty To-Hit"
+    },
+    {
+      "Bonus": "Claustrophobic",
+      "Short": "-{0} Resolve Per-Turn",
+      "Long": "-{0} Resolve Per-Turn",
+      "Full": "{0} Less Resolve generated per turn"
+    },
+    {
+      "Bonus": "InitiativeBonus",
+      "Short": "+{0} Initiative",
+      "Long": "+{0} Initiative",
+      "Full": "+{0} Initiative in combat"
+    },
+    {
+      "Bonus": "BallisticWeaponBonus",
+      "Short": "-{0} To-Hit Bonus w/ Ballistics",
+      "Long": "-{0} To-Hit Bonus w/ Ballistics",
+      "Full": "Ballistic Weapons have a -{0} Bonus To-Hit"
+    },
+    {
+      "Bonus": "AntiTankVehicleRole",
+      "Short": "+{0}% Damage to Vehicles",
+      "Long": "+{0}% Damage to Vehicles",
+      "Full": "+{0}% Damage to Vehicles with any weapon"
+    },
+    {
+      "Bonus": "SmallArmsFireControl",
+      "Short": "+{0} Dmg. Per Shot For AC/2",
+      "Long": "+{0} Dmg. Per Shot For AC/2",
+      "Full": "+{0} Damage Per Shot For all AC/2s"
+    },
+    {
+      "Bonus": "MeleeBonus",
+      "Short": "-{0} To-Hit Melee Bonus",
+      "Long": "-{0} To-Hit Melee Bonus",
+      "Full": "Melee Attacks have a bonus to-hit of -{0}"
+    },
+    {
+      "Bonus": "BattleAxe",
+      "Short": "Has Battle Axe",
+      "Long": "Has Battle Axe",
+      "Full": "This 'Mech wants to axe you a question"
+    },
+    {
+      "Bonus": "RefitTime",
+      "Short": "{0}% Refit",
+      "Long": "{0}% Refit",
+      "Full": "Refit times and costs are at {0}%"
+    },
+    {
+      "Bonus": "CriticalMod",
+      "Short": "{0}% Crit. Resistance",
+      "Long": "{0}% Crit. Resistance",
+      "Full": "Critical chance against reduced by {0}%"
+    },
+    {
+      "Bonus": "MeleeDamage",
+      "Short": "+{0} Melee Damage",
+      "Long": "+{0} Melee Damage",
+      "Full": "Additional +{0} Damage done in melee"
+    }
   ]
 }

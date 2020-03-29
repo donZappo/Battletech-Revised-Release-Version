@@ -4,9 +4,10 @@
             "CategoryID": "Quirks"
         }],
         "BonusDescriptions": {
-			"Bonuses": [
-				"TargetingBaffles: 2"
-      ]
+            "Bonuses": [
+				"TargetingBaffles: 1",
+				"Rarity: 75",
+			]
         },
 		"Flags": {
             "flags": [
@@ -30,10 +31,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Targeting Baffles",
-        "Id": "mech_quirk_targeting_baffles",
-        "Name": "Targeting Baffles",
-        "Details": "This 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
+        "UIName": "Abundant + Targeting Baffles",
+        "Id": "mech_quirk_abundant_baffles",
+        "Name": "Abundant + Targeting Baffles",
+        "Details": "This 'Mech is highly abundant throughout the Inner Sphere and repair parts are easy to come by. In addition, this 'Mech comes equipped with uniquely formed torso sections known as Targeting Baffles. These specialized sections scramble weapons targeting and make this 'Mech extremely difficult to hit, even compared to other light 'Mechs.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -71,7 +72,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "ToHitThisActor",
                 "operation" : "Float_Add",
-                "modValue" : "2",
+                "modValue" : "1",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
