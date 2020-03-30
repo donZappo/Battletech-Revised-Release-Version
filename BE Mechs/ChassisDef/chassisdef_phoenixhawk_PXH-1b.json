@@ -1,0 +1,237 @@
+{
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
+    "Description": {
+        "Cost": 3538490, 
+        "Rarity": 2, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Phoenix Hawk", 
+        "Id": "chassisdef_phoenixhawk_PXH-1b", 
+        "Name": "Phoenix Hawk", 
+        "Details": "The 3M variant of the 'Mech was also introduced in 3048, built by Earthwerks Incorporated from their Keystone factory and using upgrades based on rediscovered Star League technology. First, the internal structure of the 'Mech has been redesigned to utilize an Endo Steel chassis. The engine was then replaced with an XL and the heat sinks were upgraded to double heat sinks. This allowed the weapons payload to be changed extensively, with all of the original weapons being stripped from the chassis.", 
+        "Icon": "uixTxrIcon_phoenixhawk"
+    }, 
+    "VariantName": "PXH-1b", 
+    "StockRole": "Skirmisher", 
+    "YangsThoughts": "The 3D variant of the Phoenix Hawk is an upgrade used by the forces of House Davion of the 1D variant. The 'Mech utilized Endo Steel construction techniques and a Extra-Light engine to free up weight and space for a number of improvements, particularly its weaponry.", 
+    "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001", 
+    "PrefabBase": "phoenixhawk", 
+    "Tonnage": 45, 
+    "InitialTonnage": 4.5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 4200000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 130, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 45, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 55, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 55, 
+    "DFAInstability": 55, 
+    "ChassisTags": {
+        "items": [
+            "chassis_endo", 
+            "mech_case_left", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_phoenixhawk", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": -0.5
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": -0.5
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 5, 
+            "z": 1
+        }, 
+        {
+            "x": -2.5, 
+            "y": 5, 
+            "z": 1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 35
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 70, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 35
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }
+    ]
+}

@@ -14,7 +14,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "WVR-7H", 
+        "UIName": "Wolverine WVR-7H", 
         "Id": "mechdef_wolverine_WVR-7H", 
         "Name": "Wolverine", 
         "Details": "Similar in many ways to the 7D, the 7H variant - often referred to as the Wolverine II  -  was a workhorse in the SLDF. It utilizes an Endo Steel structure, Ferro-Fibrous Armor and double heatsinks. As with the 7D, the autocannon is upgraded to an Ultra AC model and the medium laser replaced by a pulse tech version, In addition, the SRM-6 launcher gets to utilize and Artemis IV Fire Control System to improve missile accuracy.", 
@@ -33,7 +33,7 @@
             "Location": "Head", 
             "CurrentArmor": 45, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 16, 
+            "CurrentInternalStructure": 18, 
             "AssignedArmor": 45, 
             "AssignedRearArmor": 0
         }, 
@@ -42,7 +42,7 @@
             "Location": "CenterTorso", 
             "CurrentArmor": 125, 
             "CurrentRearArmor": 40, 
-            "CurrentInternalStructure": 90, 
+            "CurrentInternalStructure": 99, 
             "AssignedArmor": 125, 
             "AssignedRearArmor": 40
         }, 
@@ -51,7 +51,7 @@
             "Location": "LeftTorso", 
             "CurrentArmor": 100, 
             "CurrentRearArmor": 35, 
-            "CurrentInternalStructure": 65, 
+            "CurrentInternalStructure": 72, 
             "AssignedArmor": 100, 
             "AssignedRearArmor": 35
         }, 
@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 100, 
             "CurrentRearArmor": 35, 
-            "CurrentInternalStructure": 65, 
+            "CurrentInternalStructure": 72, 
             "AssignedArmor": 100, 
             "AssignedRearArmor": 35
         }, 
@@ -69,7 +69,7 @@
             "Location": "LeftArm", 
             "CurrentArmor": 80, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 45, 
+            "CurrentInternalStructure": 50, 
             "AssignedArmor": 80, 
             "AssignedRearArmor": 0
         }, 
@@ -78,7 +78,7 @@
             "Location": "RightArm", 
             "CurrentArmor": 80, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 45, 
+            "CurrentInternalStructure": 50, 
             "AssignedArmor": 80, 
             "AssignedRearArmor": 0
         }, 
@@ -87,7 +87,7 @@
             "Location": "LeftLeg", 
             "CurrentArmor": 105, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 65, 
+            "CurrentInternalStructure": 72, 
             "AssignedArmor": 105, 
             "AssignedRearArmor": 0
         }, 
@@ -96,7 +96,7 @@
             "Location": "RightLeg", 
             "CurrentArmor": 105, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 65, 
+            "CurrentInternalStructure": 72, 
             "AssignedArmor": 105, 
             "AssignedRearArmor": 0
         }

@@ -1,208 +1,213 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 5400000,
-    "Rarity": 1,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Dervish",
-    "Id": "chassisdef_dervish_DV-7D",
-    "Name": "Dervish",
-    "Details": "The 7D Dervish is a 3047 upgrade of the design using Star League technology. The 'Mech is built with an Endo Steel chassis and also uses eight tons of Ferro-Fibrous armor with CASE for protection against ammunition explosions. With the saved weight, the SRM-2s have been upgraded to Streak SRMs and the 'Mech uses double heat sinks.",
-    "Icon": "uixTxrIcon_dervish"
-  },
-  "MovementCapDefID": "movedef_mediummech",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_dervish",
-  "PrefabIdentifier": "chrprfmech_dervishbase-001",
-  "PrefabBase": "dervish",
-  "Tonnage": 55.0,
-  "InitialTonnage": 5.5,
-  "weightClass": "MEDIUM",
-  "BattleValue": 6088000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 80,
-  "TurnRadius": 90,
-  "MaxJumpjets": 5,
-  "Stability": 130,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 5,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 50,
-  "MeleeInstability": 55,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 70,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 70,
-  "DFAInstability": 70,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 4140360, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Dervish", 
+        "Id": "chassisdef_dervish_DV-7D", 
+        "Name": "Dervish", 
+        "Details": "The 7D Dervish is a 3047 upgrade of the design using Star League technology. The 'Mech is built with an Endo Steel chassis and also uses eight tons of Ferro-Fibrous armor with CASE for protection against ammunition explosions. With the saved weight, the SRM-2s have been upgraded to Streak SRMs and the 'Mech uses double heat sinks.", 
+        "Icon": "uixTxrIcon_dervish"
+    }, 
+    "VariantName": "DV-7D", 
+    "StockRole": "Striker Cavalry", 
+    "YangsThoughts": "The DV-7D is pretty decent upgrade of the old 6M model, using both Endo and Ferro the old work horse has seen an armor upgrade, CASE protection and Streaks instead of the SRMs.", 
+    "PrefabIdentifier": "chrprfmech_dervishbase-001", 
+    "PrefabBase": "dervish", 
+    "Tonnage": 55, 
+    "InitialTonnage": 5.5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 6088000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 80, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 7, 
+    "Stability": 130, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 55, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 70, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 70, 
+    "DFAInstability": 70, 
+    "ChassisTags": {
+        "items": [
+            "chassis_endo", 
+            "chassis_ferro", 
+            "mech_case_left", 
+            "mech_case_right", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_dervish", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 90,
-      "MaxRearArmor": -1,
-      "InternalStructure": 45
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": 65, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 90, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 45
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 130, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 65
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 90,
-      "MaxRearArmor": -1,
-      "InternalStructure": 45
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 15.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.0,
-      "y": 5.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.0,
-      "y": 5.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "DV-7D",
-  "ChassisTags": {
-    "items": [
-      "chassis_endo",
-      "chassis_ferro",
-      "mech_case_left",
-      "mech_case_right"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Striker Cavalry",
-  "YangsThoughts": "The DV-7D is pretty decent upgrade of the old 6M model, using both Endo and Ferro the old work horse has seen an armor upgrade, CASE protection and Streaks instead of the SRMs."
+    ]
 }

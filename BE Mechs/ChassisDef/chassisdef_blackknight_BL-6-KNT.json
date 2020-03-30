@@ -1,226 +1,231 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 7800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Black Knight",
-    "Id": "chassisdef_blackknight_BL-6-KNT",
-    "Name": "Black Knight",
-    "Details": "The Black Knight was introduced in 2578 both as a front-line combatant and as a command BattleMech at the company and battalion level for the Star League Defense Force. Its advanced communications gear allowed the Black Knight to effortlessly coordinate an entire company of 'Mechs simultaneously, could easily link together the command frequencies of an entire parent regiment and connect with orbital support satellites.",
-    "Icon": "uixTxrIcon_blackknight"
-  },
-  "MovementCapDefID": "movedef_heavymech",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_blackknight",
-  "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
-  "PrefabBase": "blackknight",
-  "Tonnage": 75.0,
-  "InitialTonnage": 7.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 7124000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 64,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 95,
-  "MeleeInstability": 75,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 95,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 95,
-  "DFAInstability": 95,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 7560210, 
+        "Rarity": 5, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Black Knight", 
+        "Id": "chassisdef_blackknight_BL-6-KNT", 
+        "Name": "Black Knight", 
+        "Details": "The Black Knight was introduced in 2578 both as a front-line combatant and as a command BattleMech at the company and battalion level for the Star League Defense Force. Its advanced communications gear allowed the Black Knight to effortlessly coordinate an entire company of 'Mechs simultaneously, could easily link together the command frequencies of an entire parent regiment and connect with orbital support satellites.", 
+        "Icon": "uixTxrIcon_blackknight"
+    }, 
+    "VariantName": "BL-6-KNT", 
+    "StockRole": "Brawler & Ranged Assault", 
+    "YangsThoughts": "The Black Knight was introduced in 2578 both as a front-line combatant and as a command BattleMech at the company and battalion level for the Star League Defense Force. Its advanced communications gear allowed the Black Knight to effortlessly coordinate an entire company of 'Mechs simultaneously, could easily link together the command frequencies of an entire parent regiment and connect with orbital support satellites.", 
+    "PrefabIdentifier": "chrPrfMech_blackknightBase-001", 
+    "PrefabBase": "blackknight", 
+    "Tonnage": 75, 
+    "InitialTonnage": 7.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 7124000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 64, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 5, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 95, 
+    "MeleeInstability": 75, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 95, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 95, 
+    "DFAInstability": 95, 
+    "ChassisTags": {
+        "items": [
+            "chassis_endo", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_blackknight", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 18, 
+            "z": 1
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": 4, 
+            "y": 16, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 16, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": 0, 
+            "y": 18, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 16, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 16, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 6, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 6, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 60
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": 80, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 230, 
+            "MaxRearArmor": 115, 
+            "InternalStructure": 115
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": 80, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 120, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 60
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 230,
-      "MaxRearArmor": 115,
-      "InternalStructure": 115
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 18.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 16.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.0,
-      "y": 6.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.0,
-      "y": 6.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "BL-6-KNT",
-  "ChassisTags": {
-    "items": [
-      "chassis_endo"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Brawler & Ranged Assault",
-  "YangsThoughts": "The Black Knight was introduced in 2578 both as a front-line combatant and as a command BattleMech at the company and battalion level for the Star League Defense Force. Its advanced communications gear allowed the Black Knight to effortlessly coordinate an entire company of 'Mechs simultaneously, could easily link together the command frequencies of an entire parent regiment and connect with orbital support satellites."
+    ]
 }

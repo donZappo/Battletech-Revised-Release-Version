@@ -185,6 +185,12 @@
       "Short": "+{0} Melee Damage",
       "Long": "+{0} Melee Damage",
       "Full": "Additional +{0} Damage done in melee"
-    }
+    },
+    {
+      "Bonus": "ProtectiveHWMounting",
+      "Short": "+{0} RT Structure",
+      "Long": "+{0} RT Structure",
+      "Full": "Additional {0} Structure in Right Torso"
+    },
   ]
 }

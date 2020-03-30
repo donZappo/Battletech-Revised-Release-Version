@@ -1,213 +1,218 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 6300000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Crusader",
-    "Id": "chassisdef_crusader_CRD-3K",
-    "Name": "Crusader",
-    "Details": "Another variant of the Crusader concentrating on lessening its heat burden, the 3K was introduced by House Kurita in 2765. It downsized the LRM launchers to LRM-10 models and removed the machine guns to make room for an additional six heat sinks.",
-    "Icon": "uixTxrIcon_crusader"
-  },
-  "MovementCapDefID": "movedef_heavymech",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_crusader",
-  "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
-  "PrefabBase": "crusader",
-  "Tonnage": 65.0,
-  "InitialTonnage": 6.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 5514000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 120,
-  "TurnRadius": 90,
-  "MaxJumpjets": 0,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": true,
-  "MeleeDamage": 90,
-  "MeleeInstability": 65,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 80,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 80,
-  "DFAInstability": 80,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 6488640, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Crusader", 
+        "Id": "chassisdef_crusader_CRD-3K", 
+        "Name": "Crusader", 
+        "Details": "Another variant of the Crusader concentrating on lessening its heat burden, the 3K was introduced by House Kurita in 2765. It downsized the LRM launchers to LRM-10 models and removed the machine guns to make room for an additional six heat sinks.", 
+        "Icon": "uixTxrIcon_crusader"
+    }, 
+    "VariantName": "CRD-3K", 
+    "StockRole": "Fire Support", 
+    "YangsThoughts": "The Crusader is about as iconic as a Warhammer in the Heavy class of 'Mechs.  House Kurita made the 3K Variant more heat manageable by stripping out the machine guns and lowering the tubes for the LRM launchers.  That means for us we have more room in the arms to work with.", 
+    "PrefabIdentifier": "chrprfmech_crusaderhotd-001", 
+    "PrefabBase": "crusader", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5514000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 90, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 80, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 80, 
+    "DFAInstability": 80, 
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.95-0.95-0.95", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_crusader", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": -4, 
+            "y": 13, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 5, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 14.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 13.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 14.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": 2.0,
-      "y": 5.0,
-      "z": 0.0
-    },
-    {
-      "x": -2.0,
-      "y": 5.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "CRD-3K",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.95-0.95-0.95"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Fire Support",
-  "YangsThoughts": "The Crusader is about as iconic as a Warhammer in the Heavy class of 'Mechs.  House Kurita made the 3K Variant more heat manageable by stripping out the machine guns and lowering the tubes for the LRM launchers.  That means for us we have more room in the arms to work with."
+    ]
 }

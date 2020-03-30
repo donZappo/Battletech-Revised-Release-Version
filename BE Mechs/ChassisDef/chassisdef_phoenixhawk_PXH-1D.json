@@ -1,5 +1,28 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
         "Cost": 3436160, 
         "Rarity": 2, 
