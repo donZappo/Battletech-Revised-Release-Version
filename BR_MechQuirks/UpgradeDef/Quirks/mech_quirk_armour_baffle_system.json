@@ -5,8 +5,8 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"ImprovedJumpDistance: 20",
-				"ImprovedJumpDamage: 20"
+				"LegDamageReduction: 25",
+				"ArmDamageReduction: 25"
       ]
         },
 		"Flags": {
@@ -31,10 +31,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Vectored Thrust Kit",
-        "Id": "mech_quirk_vectored_thrust_kit",
-        "Name": "Vectored Thrust Kit",
-        "Details": "This 'Mech mounts Vectored Thrust Kits. Their specialized thrust system optimizes propulsion and control during flight. This provides superior poise for subsequent attacks, increasing the damage dealt by any shots fired.",
+        "UIName": "Armour Baffle System",
+        "Id": "mech_quirk_armour_baffle_system",
+        "Name": "Armour Baffle System",
+        "Details": "Specialized design of the arms and legs of this 'Mech reduce the damage that they receive.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -48,7 +48,7 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects" : [],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock"

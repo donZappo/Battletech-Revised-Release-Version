@@ -5,8 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"ImprovedJumpDistance: 20",
-				"ImprovedJumpDamage: 20"
+				"RobustDesign: 10"
       ]
         },
 		"Flags": {
@@ -31,10 +30,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Vectored Thrust Kit",
-        "Id": "mech_quirk_vectored_thrust_kit",
-        "Name": "Vectored Thrust Kit",
-        "Details": "This 'Mech mounts Vectored Thrust Kits. Their specialized thrust system optimizes propulsion and control during flight. This provides superior poise for subsequent attacks, increasing the damage dealt by any shots fired.",
+        "UIName": "Robust Design",
+        "Id": "mech_quirk_robust_design",
+        "Name": "Robust Design",
+        "Details": "This 'Mech was specially reinforced for the rigors of combat and has its overall structure increased.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -48,7 +47,7 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects" : [],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock"

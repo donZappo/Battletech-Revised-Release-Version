@@ -192,5 +192,71 @@
       "Long": "+{0} RT Structure",
       "Full": "Additional {0} Structure in Right Torso"
     },
+    {
+      "Bonus": "IntimidatingDesign",
+      "Short": "+{0} To-Be-Hit Penalty",
+      "Long": "+{0} To-Be-Hit Penalty",
+      "Full": "+{0} To-Hit Penalty when targeting this 'Mech"
+    },
+    {
+      "Bonus": "LRMClusteringBonus",
+      "Short": "Improved LRM Clustering",
+      "Long": "Improved LRM Clustering",
+      "Full": "LRMs have a bonus to missile clustering"
+    },
+    {
+      "Bonus": "SRMStabBonus",
+      "Short": "+{0}% SRM Stab. Dmg.",
+      "Long": "+{0}% SRM Stab. Dmg.",
+      "Full": "SRMs deal {0}% increased stability damage"
+    },
+    {
+      "Bonus": "EngineIssues",
+      "Short": "+{0}% Cost Engine Replacement",
+      "Long": "+{0}% Cost Engine Replacement",
+      "Full": "Engine swaps are +{0}% more expensive"
+    },
+    {
+      "Bonus": "SRMCriticals",
+      "Short": "-{0}% SRM Crit Chance",
+      "Long": "-{0}% SRM Crit Chance",
+      "Full": "SRMs have a reduced crit chance of {0}%"
+    },
+    {
+      "Bonus": "LegDamageReduction",
+      "Short": "-{0}% Leg Damage",
+      "Long": "-{0}% Leg Damage",
+      "Full": "Legs take {0}% less damage"
+    },
+    {
+      "Bonus": "ArmDamageReduction",
+      "Short": "-{0}% Arm Damage",
+      "Long": "-{0}% Arm Damage",
+      "Full": "Arms take {0}% less damage"
+    },
+    {
+      "Bonus": "NarcRangeIncrease",
+      "Short": "+{0}m Narc Range",
+      "Long": "+{0}m Narc Range",
+      "Full": "Narc Launchers have +{0}m bonus range"
+    },
+    {
+      "Bonus": "InjuryResistBonus",
+      "Short": "+{0} Injuries",
+      "Long": "+{0} Injuries",
+      "Full": "Can resist {0} Injuries"
+    },
+    {
+      "Bonus": "RobustDesign",
+      "Short": "+{0}% Structure",
+      "Long": "+{0}% Structure",
+      "Full": "Structure increased by {0}% in all locations"
+    },
+    {
+      "Bonus": "OmniRefit",
+      "Short": "Instant Refits",
+      "Long": "Instant Refits",
+      "Full": "No refit time for equipment changes"
+    },
   ]
 }

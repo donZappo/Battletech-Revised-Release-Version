@@ -29,6 +29,16 @@
 		{ "Tag": "GenericDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_generic_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "HeavyPlatform", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_heavy_platform", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "ProtectiveBayDoors", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_protective_bay_doors", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
-		{ "Tag": "ClubCoolingJacket", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_club_cooling_jacket", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}}
+		{ "Tag": "ClubCoolingJacket", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_club_cooling_jacket", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "ProtectiveHWMounting", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_protective_hw_mounting", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "IntimidatingDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_intimidating_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "MissilerySuite", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_missilery_suite", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "EngineShieldingIssues", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_engine_shielding_issues", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "SelfContainedSRMSystem", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_self_contained_srm_system", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "ArmourBaffleSystem", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_armour_baffle_system", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "ExtendedRangeNarc", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_extended_range_narc", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "EnhancedLifeSupport", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_enhanced_life_support", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "RobustDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_robust_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "OmniDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_omni_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 	]
 }
