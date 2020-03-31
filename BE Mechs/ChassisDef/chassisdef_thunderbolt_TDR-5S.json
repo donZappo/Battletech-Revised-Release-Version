@@ -1,219 +1,225 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 6200000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Thunderbolt",
-    "Id": "chassisdef_thunderbolt_TDR-5S",
-    "Name": "Thunderbolt",
-    "Details": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
-    "Icon": "uixTxrIcon_thunderbolt"
-  },
-  "MovementCapDefID": "movedef_heavymech",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_thunderbolt",
-  "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
-  "PrefabBase": "thunderbolt",
-  "Tonnage": 65.0,
-  "InitialTonnage": 6.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 6057000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 120,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 80,
-  "MeleeInstability": 65,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 80,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 80,
-  "DFAInstability": 80,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 6611000, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Thunderbolt", 
+        "Id": "chassisdef_thunderbolt_TDR-5S", 
+        "Name": "Thunderbolt", 
+        "Details": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.", 
+        "Icon": "uixTxrIcon_thunderbolt"
+    }, 
+    "VariantName": "TDR-5S", 
+    "StockRole": "Heavy Skirmisher & Brawler", 
+    "YangsThoughts": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.", 
+    "PrefabIdentifier": "chrPrfMech_thunderboltBase-001", 
+    "PrefabBase": "thunderbolt", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6057000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 80, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 80, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 80, 
+    "DFAInstability": 80, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_thunderbolt", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -4, 
+            "y": 13, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 14.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 13.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 14.0,
-      "z": 1.0
-    },
-    {
-      "x": 4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -4.0,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.0,
-      "y": 5.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.0,
-      "y": 5.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "TDR-5S",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Skirmisher & Brawler",
-  "YangsThoughts": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets."
+    ]
 }

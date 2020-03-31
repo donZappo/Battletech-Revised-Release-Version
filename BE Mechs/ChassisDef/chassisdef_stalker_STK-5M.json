@@ -1,220 +1,226 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 8400000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Stalker",
-    "Id": "chassisdef_stalker_STK-5M",
-    "Name": "Stalker",
-    "Details": "The Stalker 3F mounts a ridiculous amount of weaponry—even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
-    "Icon": "uixTxrIcon_stalker"
-  },
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_stalker",
-  "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
-  "PrefabBase": "stalker",
-  "Tonnage": 85.0,
-  "InitialTonnage": 8.5,
-  "weightClass": "ASSAULT",
-  "BattleValue": 8821000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 105,
-  "TurnRadius": 90,
-  "MaxJumpjets": 3,
-  "Stability": 200,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 80,
-  "MeleeInstability": 85,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 105,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 105,
-  "DFAInstability": 105,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 10461000, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Stalker", 
+        "Id": "chassisdef_stalker_STK-5M", 
+        "Name": "Stalker", 
+        "Details": "The Stalker 3F mounts a ridiculous amount of weaponry\u2014even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.", 
+        "Icon": "uixTxrIcon_stalker"
+    }, 
+    "VariantName": "STK-5M", 
+    "StockRole": "Juggernaut & Ranged Assault", 
+    "YangsThoughts": "The Stalker 5M still has a ridiculous amount of weaponry\u2014even for an assault 'Mech. The heat management is somewhat better because of the double heat sinks. This variant also carriest a Narc Missile Beacon and an ER Large Laser.", 
+    "PrefabIdentifier": "chrPrfMech_stalkerBase-001", 
+    "PrefabBase": "stalker", 
+    "Tonnage": 85, 
+    "InitialTonnage": 8.5, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 8821000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 105, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 80, 
+    "MeleeInstability": 85, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 105, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 105, 
+    "DFAInstability": 105, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_stalker", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 3.5, 
+            "y": 16, 
+            "z": -1
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": -3.5, 
+            "y": 16, 
+            "z": -1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 3.5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 6, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 6, 
+            "z": 1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 270, 
+            "MaxRearArmor": 135, 
+            "InternalStructure": 135
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 90
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 180, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 90
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 270,
-      "MaxRearArmor": 135,
-      "InternalStructure": 135
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 180,
-      "MaxRearArmor": -1,
-      "InternalStructure": 90
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 180,
-      "MaxRearArmor": -1,
-      "InternalStructure": 90
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -3.5,
-      "y": 16.0,
-      "z": -1.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -3.5,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": 3.5,
-      "y": 6.0,
-      "z": 1.0
-    },
-    {
-      "x": -3.5,
-      "y": 6.0,
-      "z": 1.0
-    }
-  ],
-  "VariantName": "STK-5M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Juggernaut & Ranged Assault",
-  "YangsThoughts": "The Stalker 5M still has a ridiculous amount of weaponry—even for an assault 'Mech. The heat management is somewhat better because of the double heat sinks. This variant also carriest a Narc Missile Beacon and an ER Large Laser."
+    ]
 }

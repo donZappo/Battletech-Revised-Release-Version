@@ -1,30 +1,30 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 7698680, 
-        "Rarity": 3, 
+        "Cost": 6733440, 
+        "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Stalker", 
-        "Id": "chassisdef_stalker_STK-4P", 
-        "Name": "Stalker", 
-        "Details": "Due to ongoing structural weakness issues with the aging Stalker chassis, it was necessary to reduce the load by 10 tons by removing a LRM launcher effectively reclassifying this variant as a Heavy 'Mech.", 
-        "Icon": "uixTxrIcon_stalker"
+        "UIName": "Thunderbolt", 
+        "Id": "chassisdef_thunderbolt_TDR-9SE", 
+        "Name": "Thunderbolt", 
+        "Details": "The 9SE variant of the Thunderbolt was introduced in 3050 as the Eridani Light Horse's update to the 5SE, based primarily around an energy weapons arsenal and maneuverability.", 
+        "Icon": "uixTxrIcon_thunderbolt"
     }, 
-    "VariantName": "STK-4P", 
-    "StockRole": "Juggernaut & Ranged Heavy", 
-    "YangsThoughts": "Even removing 10 tons of weight the Stalker 4P isn't really that much of a downgrade.  It manages to maintain the same armor, heat dissipation and almost the same weapon load-out.  About the only real loss is in its melee capabilities with the downgraded actuators, but you don't pilot a Stalker to throw down anyway.", 
-    "PrefabIdentifier": "chrPrfMech_stalkerBase-001", 
-    "PrefabBase": "stalker", 
-    "Tonnage": 75, 
-    "InitialTonnage": 7.5, 
+    "VariantName": "TDR-9SE", 
+    "StockRole": "Heavy Striker & Disabler", 
+    "YangsThoughts": "The Thunderbolt 9SE swaps out the ER PPC for a more accurate Large Pulse Laser and closes to disable or destroy its target with close-range weaponry.", 
+    "PrefabIdentifier": "chrPrfMech_thunderboltBase-001", 
+    "PrefabBase": "thunderbolt", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
     "weightClass": "HEAVY", 
-    "BattleValue": 8821000, 
+    "BattleValue": 6057000, 
     "Heatsinks": 0, 
-    "TopSpeed": 105, 
+    "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
+    "MaxJumpjets": 6, 
     "Stability": 160, 
     "StabilityDefenses": [
         0, 
@@ -42,65 +42,67 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 70, 
+    "MeleeDamage": 80, 
     "MeleeInstability": 65, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 95, 
+    "DFADamage": 80, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 95, 
-    "DFAInstability": 95, 
+    "DFASelfDamage": 80, 
+    "DFAInstability": 80, 
     "ChassisTags": {
         "items": [
+            "mech_case_left", 
+            "mech_case_right", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_heavymech", 
-    "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_stalker", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_thunderbolt", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 15, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
             "z": 0
         }, 
         {
-            "x": 3.5, 
-            "y": 16, 
-            "z": -1
-        }, 
-        {
-            "x": -3.5, 
-            "y": 16, 
-            "z": -1
+            "x": -4, 
+            "y": 13, 
+            "z": 0
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 15, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
             "z": 0
         }, 
         {
-            "x": 3.5, 
-            "y": 16, 
-            "z": -1
+            "x": -4, 
+            "y": 13, 
+            "z": 0
         }, 
         {
-            "x": -3.5, 
-            "y": 16, 
-            "z": -1
+            "x": 3, 
+            "y": 5, 
+            "z": 0
         }, 
         {
-            "x": 3.5, 
-            "y": 6, 
-            "z": 1
-        }, 
-        {
-            "x": -3.5, 
-            "y": 6, 
-            "z": 1
+            "x": -3, 
+            "y": 5, 
+            "z": 0
         }
     ], 
     "MechPartCount": 0, 
@@ -119,11 +121,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "AntiPersonnel"
                 }, 
                 {
                     "Omni": false, 
@@ -132,9 +130,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 120, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 60
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftTorso", 
@@ -149,55 +147,6 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Missile"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 160, 
-            "MaxRearArmor": 80, 
-            "InternalStructure": 80
-        }, 
-        {
-            "Location": "CenterTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 230, 
-            "MaxRearArmor": 115, 
-            "InternalStructure": 115
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 160, 
-            "MaxRearArmor": 80, 
-            "InternalStructure": 80
-        }, 
-        {
-            "Location": "RightArm", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
                     "WeaponMount": "Energy"
                 }, 
                 {
@@ -211,27 +160,76 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 120, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 60
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 160, 
+            "MaxArmor": 150, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 80
+            "InternalStructure": 75
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 160, 
+            "MaxArmor": 150, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 80
+            "InternalStructure": 75
         }
     ]
 }
