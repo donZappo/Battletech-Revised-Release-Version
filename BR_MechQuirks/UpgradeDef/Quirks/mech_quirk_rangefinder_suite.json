@@ -5,8 +5,9 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"EnergySpecializationBonus: 2",
-				"EnergySpecializationMalus: 2"
+				"TacticalOptics: 100",
+				"RecoilCompensator: 2",
+				"RangePenaltyBonus: 2"
       ]
         },
 		"Flags": {
@@ -31,10 +32,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Energy Weapon Specialization",
-        "Id": "mech_quirk_energy_specialization",
-        "Name": "Energy Weapon Specialization",
-        "Details": "Specialized for energy weapons, this 'Mech is optimized to use and receives bonuses with energy weapons, suffering penalties for other weapon systems.",
+        "UIName": "Tactical Optics",
+        "Id": "mech_quirk_rangefinder_suite",
+        "Name": "Tactical Optics",
+        "Details": "To support its role as an LRM harasser and to support LRM-based lances, this 'Mech has gear to increase its view distance.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -56,7 +57,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -73,22 +74,22 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
-                "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Energy weapon attacks have their to-hit improved by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Id" : "StatusEffect-RangefinderSuite-Spotting_Gain",
+                "Name" : "RANGEFINDER SUITE",
+                "Details" : "Increases spotting distance by [AMT]m, and reduces long range and recoil penalties by 2.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
+                "statName" : "SpotterDistanceAbsolute",
                 "operation" : "Float_Add",
-                "modValue" : "-2.0",
+                "modValue" : "100.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Energy",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
@@ -100,14 +101,14 @@
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
         },
-		{
+        {
             "durationData" : {
                 "duration" : -1,
                 "ticksOnActivations" : false,
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -124,124 +125,73 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
-                "Name" : "BALLISTIC WEAPON HIT CHANCE PENALTY",
-                "Details" : "Ballistic weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Id" : "StatusEffect-RangefinderSuite-LongRangePenaltyReduce",
+                "Name" : "LONG RANGE PENALTIES REDUCED",
+                "Details" : "Removes long range hit penalties.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
             },
-            "nature" : "Debuff",
+            "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
+                "statName" : "LongRangeModifier",
+                "operation" : "Float_Subtract",
                 "modValue" : "2.0",
                 "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-RangefinderSuite-RecoilPenaltyReduce",
+                "Name" : "RECOIL PENALTIES REDUCED",
+                "Details" : "Removes long range hit penalties.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "RefireModifier",
+                "operation" : "Int_Add",
+                "modValue" : "-2",
+                "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
-                "Name" : "MISSILE WEAPON HIT CHANCE PENALTY",
-                "Details" : "Missile weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Debuff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "2.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Missile",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
-                "Name" : "ANTIPERSONNEL WEAPON HIT CHANCE PENALTY",
-                "Details" : "Anti-Personnel weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Debuff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "2.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "AntiPersonnel",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"

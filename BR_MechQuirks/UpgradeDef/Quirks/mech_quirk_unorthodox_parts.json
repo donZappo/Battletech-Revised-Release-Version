@@ -1,0 +1,57 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "Quirks"
+        }],
+        "BonusDescriptions": {
+            "Bonuses": [
+				"RefitTime: 150",
+			]
+        },
+		"Flags": {
+            "flags": [
+                "ignore_damage",
+				"default",
+                "autorepair",
+                "not_broken"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        },
+        "MechConfiguration" : {}
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "S.C.S. Labs",
+        "Model": "",
+        "UIName": "Unorthodox Parts",
+        "Id": "mech_quirk_unorthodox_parts",
+        "Name": "Unorthodox and Non-Standard Parts",
+        "Details": "The awkward design of this 'Mech requires additional costs and longer times for any refit.",
+        "Icon": "SpecialistSlot"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

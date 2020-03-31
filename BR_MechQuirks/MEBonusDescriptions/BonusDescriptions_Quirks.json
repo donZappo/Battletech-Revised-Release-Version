@@ -127,10 +127,28 @@
       "Full": "Non-Energy Weapons have a -{0} Penalty To-Hit"
     },
     {
+      "Bonus": "PPCSpecializationBonus",
+      "Short": "-{0} To-Hit Bonus w/ PPCs",
+      "Long": "-{0} To-Hit Bonus w/ PPCs",
+      "Full": "PPC Weapons have a -{0} Bonus To-Hit"
+    },
+    {
+      "Bonus": "PPCSpecializationMalus",
+      "Short": "+{0} To-Hit Penalty Non-PPC",
+      "Long": "+{0} To-Hit Penalty Non-PPC",
+      "Full": "Non-PPC Weapons have a -{0} Penalty To-Hit"
+    },
+    {
       "Bonus": "Claustrophobic",
       "Short": "-{0} Resolve Per-Turn",
       "Long": "-{0} Resolve Per-Turn",
       "Full": "{0} Less Resolve generated per turn"
+    },
+    {
+      "Bonus": "ResolveGain",
+      "Short": "+{0} Resolve Per-Turn",
+      "Long": "+{0} Resolve Per-Turn",
+      "Full": "{0} More Resolve generated per turn"
     },
     {
       "Bonus": "InitiativeBonus",
@@ -139,10 +157,22 @@
       "Full": "+{0} Initiative in combat"
     },
     {
+      "Bonus": "InitiativePenalty",
+      "Short": "-{0} Initiative",
+      "Long": "-{0} Initiative",
+      "Full": "-{0} Initiative in combat"
+    },
+    {
       "Bonus": "BallisticWeaponBonus",
       "Short": "-{0} To-Hit Bonus w/ Ballistics",
       "Long": "-{0} To-Hit Bonus w/ Ballistics",
       "Full": "Ballistic Weapons have a -{0} Bonus To-Hit"
+    },
+    {
+      "Bonus": "BallisticWeaponProtection",
+      "Short": "-{0}% Less Dmg. From Ballistics",
+      "Long": "-{0}% Less Dmg. From Ballistics",
+      "Full": "Ballistics deal {0}% Less Damage to 'Mech"
     },
     {
       "Bonus": "AntiTankVehicleRole",
@@ -257,6 +287,66 @@
       "Short": "Instant Refits",
       "Long": "Instant Refits",
       "Full": "No refit time for equipment changes"
+    },
+    {
+      "Bonus": "StabilityEnhanced",
+      "Short": "+{0}% Stability",
+      "Long": "+{0}% Stability",
+      "Full": "Instability Damage Reduced by {0}%"
+    },
+    {
+      "Bonus": "WeakAnkles",
+      "Short": "+{0}% Stability Taken",
+      "Long": "+{0}% Stability Taken",
+      "Full": "Instability Damage Increased by {0}%"
+    },
+    {
+      "Bonus": "RangePenaltyBonus",
+      "Short": "-{0} Range Penalty Bonus",
+      "Long": "-{0} Range Penalty Bonus",
+      "Full": "Range Penalty reduced by {0}"
+    },
+    {
+      "Bonus": "MissilePods",
+      "Short": "+{0} Missile Hardpoints",
+      "Long": "+{0} Missile Hardpoints",
+      "Full": "{0} Bonus Missile Hardpoints"
+    },
+    {
+      "Bonus": "DFASelfDamageBonus",
+      "Short": "-{0} DFA Self Damage",
+      "Long": "-{0} DFA Self Damage",
+      "Full": "Takes {0} Less damage from DFA attacks"
+    },
+    {
+      "Bonus": "MassiveSearchLight",
+      "Short": "-{0} Lance To-Hit Bonus",
+      "Long": "-{0} Lance To-Hit Bonus",
+      "Full": "All 'Mechs in the Lance get -{0} Bonus To-Hit"
+    },
+    {
+      "Bonus": "GlobalWeaponDamage",
+      "Short": "+{0} Dmg. All Weapons",
+      "Long": "+{0} Dmg. All Weapons",
+      "Full": "All weapons do {0} additional damage"
+    },
+    {
+      "Bonus": "GlobalHeatNerf",
+      "Short": "+{0} Heat All Weapons",
+      "Long": "+{0} Heat All Weapons",
+      "Full": "All weapons generate {0} additional heat"
+    },
+    {
+      "Bonus": "SpaciousInterior",
+      "Short": "+{0} RT/LT Crit Slots",
+      "Long": "+{0} RT/LT Crit Slots",
+      "Full": "Additional {0} Crit Slots in each side torso"
+    },
+    {
+      "Bonus": "ChargerCharge",
+      "Short": "Can Sprint Melee",
+      "Long": "Can Sprint Melee",
+      "Full": "Can perform a melee attack after sprinting"
     },
   ]
 }

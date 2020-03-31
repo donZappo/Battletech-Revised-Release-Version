@@ -1,0 +1,58 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "Quirks"
+        }],
+        "BonusDescriptions": {
+			"Bonuses": [
+				"MeleeDamage: 35",
+				"DFASelfDamageBonus: 40"
+      ]
+        },
+		"Flags": {
+            "flags": [
+                "ignore_damage",
+				"default",
+                "autorepair",
+                "not_broken"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        },
+        "MechConfiguration" : {}
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "S.C.S. Labs",
+        "Model": "",
+        "UIName": "Reinforced Legs",
+        "Id": "mech_quirk_reinforced_legs",
+        "Name": "Reinforced Legs",
+        "Details": "The reinforced legs on this mech make it take less damage from DFA attacks while also significantly increasing its melee damage.",
+        "Icon": "SpecialistSlot"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

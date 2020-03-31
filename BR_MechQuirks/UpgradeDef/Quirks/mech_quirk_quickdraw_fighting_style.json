@@ -7,9 +7,10 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "ImprovedJumpDistance: 100",
-        "ImprovedJumpHeatEfficiency: 50",
-        "ReducedMaximumJumpJetCount: 50"
+        "ImprovedJumpDistance: 25",
+        "ImprovedJumpHeatEfficiency: 25",
+        "ReducedMaximumJumpJetCount: 20",
+		"WeakAnkles: 25"
       ]
     },
     "Flags": {
@@ -34,10 +35,10 @@
     "Purchasable": false,
     "Manufacturer": "S.C.S. Labs",
     "Model": "",
-    "UIName": "Efficient Thrust Form Factor",
-    "Id": "mech_quirk_efficient_thrust_form_factor",
-    "Name": "Efficient Thrust Form Factor",
-    "Details": "This mechs form factor and core internal design drastically improves the performance of mounted Jump Jets.",
+    "UIName": "Improved Jump Jets",
+    "Id": "mech_quirk_quickdraw_fighting_style",
+    "Name": "Improved Jump Jets",
+    "Details": "This 'Mech's design is focused on significantly increasing jump jet efficiency. The modified exhaust ports, however, make it more succeptible to stability damage.",
     "Icon": "SpecialistSlot"
   },
   "BonusValueA": "",
@@ -67,14 +68,14 @@
       "Description": {
         "Id": "StatusEffect-JumpHeat",
         "Name": "Jump Jet Heat",
-        "Details": "These Jump Jets Have 50% Less Heat Generation per Hex",
+        "Details": "These Jump Jets Have 25% Less Heat Generation per Hex",
         "Icon": "uixSvgIcon_equipment_ThermalExchanger"
       },
       "nature": "Buff",
       "statisticData": {
         "statName": "JumpHeat",
         "operation": "Float_Multiply",
-        "modValue": "0.5",
+        "modValue": "0.75",
         "modType": "System.Single"
       }
     },
@@ -104,14 +105,14 @@
       "Description": {
         "Id": "StatusEffect-Jump-DistanceBoost",
         "Name": "JUMP BOOSTER",
-        "Details": "Increases the distance this unit can travel when jumping by 100%.",
+        "Details": "Increases the distance this unit can travel when jumping by [AMT].",
         "Icon": "uixSvgIcon_action_jump"
       },
       "nature": "Buff",
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Add",
-        "modValue": "1.0",
+        "modValue": "0.25",
         "modType": "System.Single"
       }
     },
@@ -137,10 +138,61 @@
       "statisticData": {
         "statName": "JumpJetCountMultiplier",
         "operation": "Set",
-        "modValue": "0.5",
+        "modValue": "0.8",
         "modType": "System.Single"
       }
-    }
+    },
+	{
+		"durationData" : {
+			"duration" : -1,
+			"ticksOnActivations" : false,
+			"useActivationsOfTarget" : false,
+			"ticksOnEndOfRound" : false,
+			"ticksOnMovements" : false,
+			"stackLimit" : 1,
+			"clearedWhenAttacked" : false
+		},
+		"targetingData" : {
+			"effectTriggerType" : "Passive",
+			"triggerLimit" : 0,
+			"extendDurationOnTrigger" : 0,
+			"specialRules" : "NotSet",
+			"effectTargetType" : "Creator",
+			"range" : 0,
+			"forcePathRebuild" : false,
+			"forceVisRebuild" : false,
+			"showInTargetPreview" : false,
+			"showInStatusPanel" : true
+		},
+		"effectType" : "StatisticEffect",
+		"Description" : {
+			"Id" : "StatusEffect-Defense_WeakAnkles",
+			"Name" : "INCOMING STABILITY DAMAGE INCREASED",
+			"Details" : "Incoming stability damage increased by 25%.",
+			"Icon" : "uixSvgIcon_equipment_Gyro"
+		},
+		"nature" : "Buff",
+		"statisticData" : {
+			"appliesEachTick" : false,
+			"effectsPersistAfterDestruction" : false,
+			"statName" : "ReceivedInstabilityMultiplier",
+			"operation" : "Float_Multiply",
+			"modValue" : "1.25",
+			"modType" : "System.Single",
+			"additionalRules" : "NotSet",
+			"targetCollection" : "NotSet",
+			"targetWeaponCategory" : "NotSet",
+			"targetWeaponType" : "NotSet",
+			"targetAmmoCategory" : "NotSet",
+			"targetWeaponSubType" : "NotSet"
+		},
+		"tagData" : null,
+		"floatieData" : null,
+		"actorBurningData" : null,
+		"vfxData" : null,
+		"instantModData" : null,
+		"poorlyMaintainedEffectData" : null
+	}
   ],
   "ComponentTags": {
     "items": [
