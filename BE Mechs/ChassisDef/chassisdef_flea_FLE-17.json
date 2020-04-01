@@ -51,7 +51,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
-            "chassis_endo", 
+            "TargetingBaffles", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

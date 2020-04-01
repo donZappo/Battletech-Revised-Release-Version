@@ -1,223 +1,228 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 20640000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Emperor",
-    "Id": "chassisdef_emperor_EMP-6A",
-    "Name": "Emperor",
-    "Details": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502. The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets.",
-    "Icon": "uixTxrIcon_emperor"
-  },
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_emperor",
-  "PrefabIdentifier": "chrprfmech_emperorbase-001",
-  "PrefabBase": "emperor",
-  "Tonnage": 90.0,
-  "InitialTonnage": 9.0,
-  "weightClass": "ASSAULT",
-  "BattleValue": 9642000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 105,
-  "TurnRadius": 90,
-  "MaxJumpjets": 3,
-  "Stability": 200,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 85,
-  "MeleeInstability": 90,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 115,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 115,
-  "DFAInstability": 115,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 11011000, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Emperor", 
+        "Id": "chassisdef_emperor_EMP-6A", 
+        "Name": "Emperor", 
+        "Details": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502. The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets.", 
+        "Icon": "uixTxrIcon_emperor"
+    }, 
+    "VariantName": "EMP-6A", 
+    "StockRole": "Juggernaut & Heavy Cavalry", 
+    "YangsThoughts": "A Star League mech thought to be lost in recent times, we may be the only Mercenary unit with the 6A in their mech bay.", 
+    "PrefabIdentifier": "chrprfmech_emperorbase-001", 
+    "PrefabBase": "emperor", 
+    "Tonnage": 90, 
+    "InitialTonnage": 9, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 9642000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 105, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 85, 
+    "MeleeInstability": 90, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 115, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 115, 
+    "DFAInstability": 115, 
+    "ChassisTags": {
+        "items": [
+            "mech_case_left", 
+            "mech_case_right", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_emperor", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 6, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 6, 
+            "z": 1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 190, 
+            "MaxRearArmor": 95, 
+            "InternalStructure": 95
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 290, 
+            "MaxRearArmor": 145, 
+            "InternalStructure": 145
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 190, 
+            "MaxRearArmor": 95, 
+            "InternalStructure": 95
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 190, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 95
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 190, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 95
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 190,
-      "MaxRearArmor": 95,
-      "InternalStructure": 95
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 290,
-      "MaxRearArmor": 145,
-      "InternalStructure": 145
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 190,
-      "MaxRearArmor": 95,
-      "InternalStructure": 95
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 190,
-      "MaxRearArmor": -1,
-      "InternalStructure": 95
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 190,
-      "MaxRearArmor": -1,
-      "InternalStructure": 95
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 17.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 17.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": 3.5,
-      "y": 6.0,
-      "z": 1.0
-    },
-    {
-      "x": -3.5,
-      "y": 6.0,
-      "z": 1.0
-    }
-  ],
-  "VariantName": "EMP-6A",
-  "ChassisTags": {
-    "items": [
-      "mech_case_left",
-      "mech_case_right"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Juggernaut & Heavy Cavalry",
-  "YangsThoughts": "A Star League mech thought to be lost in recent times, we may be the only Mercenary unit with the 6A in their mech bay."
+    ]
 }

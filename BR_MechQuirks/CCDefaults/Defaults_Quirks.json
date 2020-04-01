@@ -56,5 +56,15 @@
 		{ "Tag": "HeavyDemotion", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_heavy_demotion", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "ConfiguredForAwesome", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_configured_for_awesome", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "ChargerCharge", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_charger_charge", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "NoHonour", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_no_honour", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "AllOrNothing", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_all_or_nothing", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "EnhancedCommandConsole", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_enhanced_command_console", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "UnderStress", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_under_stress", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "AdvancedCommandConsole", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_advanced_command_console", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "DesignedForDFA", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_designed_for_dfa", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "EnhancedBallistics", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_enhanced_ballistics", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "RareDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_rare_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "CrabClaws", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_crab_claws", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "MuseumDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_museum_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 	]
 }

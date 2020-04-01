@@ -1,0 +1,57 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "Quirks"
+        }],
+        "BonusDescriptions": {
+			"Bonuses": [
+				"DFASelfDamageBonus: 57.5"
+      ]
+        },
+		"Flags": {
+            "flags": [
+                "ignore_damage",
+				"default",
+                "autorepair",
+                "not_broken"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        },
+        "MechConfiguration" : {}
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "S.C.S. Labs",
+        "Model": "",
+        "UIName": "Designed for DFA",
+        "Id": "mech_quirk_designed_for_dfa",
+        "Name": "Designed for DFA",
+        "Details": "Feared across the Inner Sphere for its devastating Highlander Burials, this 'Mech has additional reinforcement throughout its entire structure. These reinforcements reduce the damage it takes from DFA attacks.",
+        "Icon": "SpecialistSlot"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

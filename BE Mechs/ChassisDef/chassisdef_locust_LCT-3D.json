@@ -51,9 +51,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
-            "chassis_endo", 
-            "chassis_ferro", 
-            "mech_case_centre", 
+            "AbundantBaffles", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

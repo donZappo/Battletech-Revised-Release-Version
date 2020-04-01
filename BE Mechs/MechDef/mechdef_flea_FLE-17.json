@@ -466,8 +466,8 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_MASC", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -477,8 +477,8 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_MASC", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_targeting_baffles", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

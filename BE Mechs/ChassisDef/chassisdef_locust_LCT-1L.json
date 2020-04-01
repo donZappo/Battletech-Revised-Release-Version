@@ -51,6 +51,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
+            "AbundantBaffles", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

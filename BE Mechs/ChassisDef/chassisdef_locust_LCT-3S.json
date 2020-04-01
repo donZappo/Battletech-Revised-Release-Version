@@ -13,7 +13,7 @@
         "Icon": "uixTxrIcon_locust"
     }, 
     "VariantName": "LCT-3S", 
-    "StockRole": "__/Base_3061.chassisdef_locust_LCT-3S.StockRole/__", 
+    "StockRole": "Light Striker & Scout", 
     "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-3S.YangsThoughts/__", 
     "PrefabIdentifier": "chrPrfMech_locustBase-001", 
     "PrefabBase": "locust", 
@@ -51,6 +51,7 @@
     "DFAInstability": 10, 
     "ChassisTags": {
         "items": [
+            "AbundantBaffles", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

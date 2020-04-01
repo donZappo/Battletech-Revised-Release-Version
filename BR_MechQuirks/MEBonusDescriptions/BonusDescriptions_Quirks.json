@@ -124,7 +124,7 @@
       "Bonus": "EnergySpecializationMalus",
       "Short": "+{0} To-Hit Penalty Non-Energy",
       "Long": "+{0} To-Hit Penalty Non-Energy",
-      "Full": "Non-Energy Weapons have a -{0} Penalty To-Hit"
+      "Full": "Non-Energy Weapons have a +{0} Penalty To-Hit"
     },
     {
       "Bonus": "PPCSpecializationBonus",
@@ -136,7 +136,7 @@
       "Bonus": "PPCSpecializationMalus",
       "Short": "+{0} To-Hit Penalty Non-PPC",
       "Long": "+{0} To-Hit Penalty Non-PPC",
-      "Full": "Non-PPC Weapons have a -{0} Penalty To-Hit"
+      "Full": "Non-PPC Weapons have a +{0} Penalty To-Hit"
     },
     {
       "Bonus": "Claustrophobic",
@@ -347,6 +347,30 @@
       "Short": "Can Sprint Melee",
       "Long": "Can Sprint Melee",
       "Full": "Can perform a melee attack after sprinting"
+    },
+    {
+      "Bonus": "PPCMinRange",
+      "Short": "No PPC Min. Range",
+      "Long": "No PPC Min. Range",
+      "Full": "No minimum range for PPC weapons"
+    },
+    {
+      "Bonus": "AC20BonusDamage",
+      "Short": "+{0}% Dmg. AC/20",
+      "Long": "+{0}% Dmg. AC/20",
+      "Full": "Damage from AC/20s increased by {0}%"
+    },
+    {
+      "Bonus": "AC20PenaltyToHit",
+      "Short": "+{0} AC/20 To-Hit Penalty",
+      "Long": "+{0} AC/20 To-Hit Penalty",
+      "Full": "AC/20s suffer a +{0} To-Hit Penalty"
+    },
+    {
+      "Bonus": "GlobalDamageReduction",
+      "Short": "-{0}% Dmg. Received (Lance)",
+      "Long": "-{0}% Dmg. Received (Lance)",
+      "Full": "Entire Lance receives {0}% Less Damage"
     },
   ]
 }

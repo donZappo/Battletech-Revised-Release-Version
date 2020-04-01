@@ -5,8 +5,8 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"FixedEngine",
-				"ChargerCharge"
+				"ChargerCharge",
+				"FixedEngine"
       ]
         },
 		"Flags": {
@@ -31,10 +31,10 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "Retrofitted",
-        "Id": "mech_quirk_retrofitted",
-        "Name": "Retrofitted",
-        "Details": "During the course of retrofitting this 'Mech all specialized gear was removed.",
+        "UIName": "CHARGE!",
+        "Id": "mech_quirk_charger_charge",
+        "Name": "CHARGE!",
+        "Details": "This 'Mech is designed to get up close and personal as quickly as possible. Every element of its design is focused on allowing it to conduct a melee attack after sprinting. However, this specialization prevents the engine from being upgraded.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
