@@ -51,8 +51,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
-            "chassis_endo", 
-            "chassis_ferro", 
+            "IntegratedCockpit", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

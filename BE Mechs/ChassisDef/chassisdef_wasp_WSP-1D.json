@@ -1,5 +1,18 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "IsFixed": true,
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }
+    ], 
     "Description": {
         "Cost": 1265250, 
         "Rarity": 1, 
@@ -51,6 +64,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
+            "IntegratedCockpit", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

@@ -73,10 +73,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Morale_Loss-T2",
+                "Id" : "StatusEffect-Claustrophobic-Q1",
                 "Name" : "MORALE GENERATION DECREASED",
-                "Details" : "Provides a penalty to actions that generate Resolve.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+                "Details" : "Provides a -2 penalty to resolve generation",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {

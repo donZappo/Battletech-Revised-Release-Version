@@ -67,15 +67,15 @@
 				"range": 0,
 				"forcePathRebuild": false,
 				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Spotting_Gain-T1",
+				"Id": "StatusEffect-Tactical-Optics-Q1",
 				"Name": "SPOTTING DISTANCE INCREASED",
 				"Details": "Increases spotting distance by 150m.",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
+				"Icon": "SpecialistSlot"
 			},
 			"nature": "Buff",
 			"statisticData": {

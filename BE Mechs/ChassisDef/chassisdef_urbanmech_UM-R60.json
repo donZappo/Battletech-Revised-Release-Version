@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+      {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_060", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }
+    ], 
     "Description": {
         "Cost": 1736640, 
         "Rarity": 0, 

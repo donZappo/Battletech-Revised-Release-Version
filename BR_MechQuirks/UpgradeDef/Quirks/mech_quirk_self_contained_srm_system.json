@@ -68,15 +68,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitMissile-T1",
+                "Id" : "StatusEffect-self-contained-SRM-Q1",
                 "Name" : "SRM HIT CHANCE IMPROVED",
-                "Details" : "SRM weapon attacks have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Details" : "SRM weapon attacks have their hit improved by 20%. SRM critical chance reduced by 25%.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -120,14 +120,14 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack-Missile_Crit_Chance",
+                "Id" : "StatusEffect-self-contained-SRM-Q2",
                 "Name" : "SRM CRIT CHANCE LOWERED",
                 "Details" : "SRM weapon attacks have their critical chances lowered by 25%.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

@@ -64,7 +64,7 @@
                 "Id" : "StatusEffect-TargBaff-HitDefense1",
                 "Name" : "TARGETING BAFFLES",
                 "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

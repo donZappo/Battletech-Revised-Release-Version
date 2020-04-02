@@ -56,15 +56,15 @@
             "targetingData" : {
                 "effectTriggerType" : "Passive",
                 "effectTargetType" : "AllLanceMates",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-LCM-DamageReduction",
+                "Id" : "StatusEffect-Advanced-CC-Q1",
                 "Name" : "LANCE COMMAND MODULE",
-                "Details" : "Units in this lance take [AMT] less damage.",
-                "Icon" : "uixSvgIcon_special_Equipment"
+                "Details" : "Units in this lance take 15% less damage.",
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

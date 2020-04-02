@@ -68,15 +68,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-Attack_AC20_Damage_Q1",
                 "Name" : "AC/20 WEAPON DAMAGE IMPROVED",
-                "Details" : "AC/20 weapon attacks have their damage improved by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Details" : "AC/20, UAC/20, and LB-20X weapon attacks have their damage improved by 20%. Each suffers a 20% penalty to-hit.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -85,57 +85,6 @@
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
                 "modValue" : "1.2",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "AC20"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Attack_AC20_ToHit_Q1",
-                "Name" : "AC/20 WEAPON TO-HIT PENALTY",
-                "Details" : "AC/20 weapon attacks have their to-hit penalized by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "4",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -176,9 +125,60 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-Attack_AC20_Damage_Q2",
+                "Name" : "AC/20 WEAPON TO-HIT PENALTY",
+                "Details" : "AC/20 weapon attacks have their to-hit penalized by 20%",
+                "Icon" : "SpecialistSlot"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "4",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "AC20"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_AC20_Damage_Q3",
                 "Name" : "AC/20 WEAPON DAMAGE IMPROVED",
                 "Details" : "AC/20 weapon attacks have their damage improved by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -226,10 +226,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_AC20_ToHit_Q2",
+                "Id" : "StatusEffect-Attack_AC20_Damage_Q4",
                 "Name" : "AC/20 WEAPON TO-HIT PENALTY",
                 "Details" : "AC/20 weapon attacks have their to-hit penalized by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -277,10 +277,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_AC20_Damage_Q3",
+                "Id" : "StatusEffect-Attack_AC20_Damage_Q5",
                 "Name" : "AC/20 WEAPON DAMAGE IMPROVED",
                 "Details" : "AC/20 weapon attacks have their damage improved by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -328,10 +328,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_AC20_ToHit_Q3",
+                "Id" : "StatusEffect-Attack_AC20_Damage_Q6",
                 "Name" : "AC/20 WEAPON TO-HIT PENALTY",
                 "Details" : "AC/20 weapon attacks have their to-hit penalized by 20%",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

@@ -60,10 +60,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-OptimizedCapacitors-EnergyDmgBonus",
+                "Id" : "StatusEffect-Pre-Igniter-Q1",
                 "Name" : "INTERNAL PRE IGNITERS",
                 "Details" : "Flamers on this unit deal [AMT] more heat damage.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

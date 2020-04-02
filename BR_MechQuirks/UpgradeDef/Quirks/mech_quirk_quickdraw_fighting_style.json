@@ -61,15 +61,15 @@
       "targetingData": {
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-JumpHeat",
+        "Id": "StatusEffect-Quickdraw-FS-Q1",
         "Name": "Jump Jet Heat",
-        "Details": "These Jump Jets Have 25% Less Heat Generation per Hex",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+        "Details": "Jump Jets are 25% more powerful. Takes 25% more stability damage.",
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {
@@ -103,10 +103,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Jump-DistanceBoost",
+        "Id": "StatusEffect-Quickdraw-FS-Q2",
         "Name": "JUMP BOOSTER",
         "Details": "Increases the distance this unit can travel when jumping by [AMT].",
-        "Icon": "uixSvgIcon_action_jump"
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {
@@ -132,11 +132,11 @@
         "Id": "StatusEffect-JumpAmount",
         "Name": "Jump Jet Amount",
         "Details": "Max Jump Jet Amount",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {
-        "statName": "JumpJetCountMultiplier",
+        "statName": "StatusEffect-Quickdraw-FS-Q3",
         "operation": "Set",
         "modValue": "0.8",
         "modType": "System.Single"
@@ -162,14 +162,14 @@
 			"forcePathRebuild" : false,
 			"forceVisRebuild" : false,
 			"showInTargetPreview" : false,
-			"showInStatusPanel" : true
+			"showInStatusPanel" : false
 		},
 		"effectType" : "StatisticEffect",
 		"Description" : {
-			"Id" : "StatusEffect-Defense_WeakAnkles",
+			"Id" : "StatusEffect-Quickdraw-FS-Q4",
 			"Name" : "INCOMING STABILITY DAMAGE INCREASED",
 			"Details" : "Incoming stability damage increased by 25%.",
-			"Icon" : "uixSvgIcon_equipment_Gyro"
+			"Icon" : "SpecialistSlot"
 		},
 		"nature" : "Buff",
 		"statisticData" : {

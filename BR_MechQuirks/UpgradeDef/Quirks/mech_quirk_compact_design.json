@@ -62,10 +62,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TargBaff-HitDefense1",
+                "Id" : "StatusEffect-Compact-Design-Q1",
                 "Name" : "COMPACT DESIGN",
                 "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

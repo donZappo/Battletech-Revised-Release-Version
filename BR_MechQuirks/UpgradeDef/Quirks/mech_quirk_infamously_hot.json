@@ -68,15 +68,15 @@
                 "range":0,
                 "forcePathRebuild":false,
                 "forceVisRebuild":false,
-                "showInTargetPreview":false,
-                "showInStatusPanel":false
+                "showInTargetPreview":true,
+                "showInStatusPanel":true
             },
             "effectType":"StatisticEffect",
             "Description":{
                 "Id":"StatusEffect-IndirectDamage-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -127,7 +127,7 @@
                 "Id":"StatusEffect-MissileDamage-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -178,7 +178,7 @@
                 "Id":"StatusEffect-BallisticDamage-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -229,7 +229,7 @@
                 "Id":"StatusEffect-EnergyDamage-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -280,7 +280,7 @@
                 "Id":"StatusEffect-IndirectHeat-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -331,7 +331,7 @@
                 "Id":"StatusEffect-MissileHeat-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -382,7 +382,7 @@
                 "Id":"StatusEffect-BallisticHeat-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -433,7 +433,7 @@
                 "Id":"StatusEffect-EnergyHeat-Q1",
                 "Name":"All Weapon Damage Improved",
                 "Details":"All Damage Increased by [AMT] per-shot. All heat increased by [AMT] total.",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{

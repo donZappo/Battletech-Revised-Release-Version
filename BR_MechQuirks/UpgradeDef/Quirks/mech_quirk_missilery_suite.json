@@ -62,10 +62,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-EnhMS-ClusterBonusLRM",
+                "Id" : "StatusEffect-Missilery-Q1",
                 "Name" : "MISSILERY SUITE",
                 "Details" : "Substantially increases the clustering of this unit's LRM weapons and boosts the stability damage of SRMs by 50%.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
@@ -96,10 +96,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-EnhMS-IncreasedStabDmgSRM",
+                "Id" : "StatusEffect-Missilery-Q2",
                 "Name" : "INCREASED STABILITY DAMAGE",
                 "Details" : "This unit deals additional stability damage from SRMs.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

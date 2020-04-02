@@ -51,6 +51,7 @@
     "DFAInstability": 13, 
     "ChassisTags": {
         "items": [
+            "TargetingBaffles", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -150,19 +151,19 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": null
+                    "WeaponMount": "NotSet"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": null
+                    "WeaponMount": "NotSet"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": null
+                    "WeaponMount": "NotSet"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": null
+                    "WeaponMount": "NotSet"
                 }
             ], 
             "Tonnage": 0, 

@@ -67,15 +67,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitMissile-T1",
+                "Id" : "StatusEffect-SRM_Mounts_Q1",
                 "Name" : "SRM HIT CHANCE IMPROVED",
                 "Details" : "SRM weapon attacks have their hit improved by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

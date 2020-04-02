@@ -67,15 +67,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitAC2-T4",
+                "Id" : "StatusEffect-Small-Arms-Fire-Control-Q1",
                 "Name" : "AC/2 WEAPON HIT CHANCE IMPROVED",
-                "Details" : "AC/2 weapon attacks have their hit improved by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Details" : "AC/2 weapon attacks have their to-hit improved by [AMT]",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

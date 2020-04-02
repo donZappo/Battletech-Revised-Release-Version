@@ -48,7 +48,42 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects" : [],
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vec-thrust-kits-Q1",
+                "Name" : "Vectored Thrust Kit",
+                "Details" : "Jump distance increased 20%. Melee attacks after jumping do 20% more damage.",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "0.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        }
+	],
     "ComponentTags": {
         "items": [
             "component_type_stock"

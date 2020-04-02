@@ -69,15 +69,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-RangefinderSuite-Spotting_Gain",
+                "Id" : "StatusEffect-RangefinderSuite-Q1",
                 "Name" : "RANGEFINDER SUITE",
                 "Details" : "Increases spotting distance by [AMT]m, and reduces long range and recoil penalties by 2.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -125,10 +125,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-RangefinderSuite-LongRangePenaltyReduce",
+                "Id" : "StatusEffect-RangefinderSuite-Q2",
                 "Name" : "LONG RANGE PENALTIES REDUCED",
                 "Details" : "Removes long range hit penalties.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -176,10 +176,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-RangefinderSuite-RecoilPenaltyReduce",
+                "Id" : "StatusEffect-RangefinderSuite-Q3",
                 "Name" : "RECOIL PENALTIES REDUCED",
                 "Details" : "Removes long range hit penalties.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

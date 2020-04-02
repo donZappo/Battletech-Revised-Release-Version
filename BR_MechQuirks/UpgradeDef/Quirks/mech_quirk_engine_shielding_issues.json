@@ -47,7 +47,42 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-engine-shielding-issues-Q1",
+                "Name" : "Engine Shielding Issues",
+                "Details" : "Engine changes cost 50% more.",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "0.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Debuff"
+        }
+	],
     "ComponentTags": {
         "items": [
             "component_type_stock"

@@ -56,15 +56,15 @@
             "targetingData" : {
                 "effectTriggerType" : "Passive",
                 "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-PPCNoMinimum",
+                "Id" : "StatusEffect-PPCNoMinimum-Q1",
                 "Name" : "No Honour",
                 "Details" : "No minimum firing distance for PPC weapons",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

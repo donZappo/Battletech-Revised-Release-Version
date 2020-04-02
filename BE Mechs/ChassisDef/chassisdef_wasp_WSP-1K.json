@@ -51,6 +51,7 @@
     "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
+            "IntegratedCockpit", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

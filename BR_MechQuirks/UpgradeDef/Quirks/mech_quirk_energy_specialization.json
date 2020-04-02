@@ -68,15 +68,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
+                "Id" : "StatusEffect-EnergySpecialization-Q1",
                 "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Energy weapon attacks have their to-hit improved by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Details" : "Energy weapon attacks have a to-hit bonus of [AMT]. Non-Energy weapon attackes have a to-hit penalty of 2.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -124,10 +124,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
+                "Id" : "StatusEffect-EnergySpecialization-Q2",
                 "Name" : "BALLISTIC WEAPON HIT CHANCE PENALTY",
                 "Details" : "Ballistic weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {
@@ -175,10 +175,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
+                "Id" : "StatusEffect-EnergySpecialization-Q3",
                 "Name" : "MISSILE WEAPON HIT CHANCE PENALTY",
                 "Details" : "Missile weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {
@@ -226,10 +226,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitEnergy-T1",
+                "Id" : "StatusEffect-EnergySpecialization-Q4",
                 "Name" : "ANTIPERSONNEL WEAPON HIT CHANCE PENALTY",
                 "Details" : "Anti-Personnel weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {

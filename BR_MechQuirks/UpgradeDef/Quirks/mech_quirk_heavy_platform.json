@@ -74,10 +74,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-RangefinderSuite-RecoilPenaltyReduce",
+                "Id" : "StatusEffect-Heavy-Platform-Q1",
                 "Name" : "RECOIL PENALTIES REDUCED",
-                "Details" : "Reduces refire penalties. Suffers resolve penalties per turn.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Details" : "Reduces refire penalties by 2. Loses 2 resolve penalties per turn. Fixed engine.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -125,10 +125,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Morale_Loss-T2",
+                "Id" : "StatusEffect-Heavy-Platform-Q2",
                 "Name" : "MORALE GENERATION DECREASED",
                 "Details" : "Provides a penalty to actions that generate Resolve. Bonus to ballistic refire capabilities.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {

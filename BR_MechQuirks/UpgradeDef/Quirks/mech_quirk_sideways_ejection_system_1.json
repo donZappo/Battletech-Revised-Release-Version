@@ -68,15 +68,15 @@
 				"range": 0,
 				"forcePathRebuild": false,
 				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Pilot_SidewaysEjection",
+				"Id": "StatusEffect-Pilot_SidewaysEjection-Q1",
 				"Name": "MAX INJURIES INCREASED",
-				"Details": "Prevents Injuries against a MechWarrior.",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
+				"Details": "Prevents 2 Injuries against a MechWarrior. Has 2 additional Missile Hardpoints.",
+				"Icon": "SpecialistSlot"
 			},
 			"nature": "Buff",
 			"statisticData": {

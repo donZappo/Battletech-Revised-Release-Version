@@ -72,10 +72,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Morale_Roomy_Cockpit",
+                "Id" : "StatusEffect-Morale_Roomy_Cockpit-Q1",
                 "Name" : "MORALE GENERATION INCREASED",
-                "Details" : "Provides a bonus to actions that generate Resolve.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+                "Details" : "Generates 2 additional resolve.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

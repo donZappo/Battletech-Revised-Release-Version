@@ -60,15 +60,15 @@
       "targetingData": {
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
+        "showInTargetPreview": true,
+        "showInStatusPanel": true
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-JumpHeat",
+        "Id": "StatusEffect-JumpHeat-Q1",
         "Name": "Jump Jet Heat",
-        "Details": "These Jump Jets Have 50% Less Heat Generation per Hex",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+        "Details": "Jump Jets are twice as effective.",
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {
@@ -102,10 +102,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-Jump-DistanceBoost",
+        "Id": "StatusEffect-JumpHeat-Q2",
         "Name": "JUMP BOOSTER",
         "Details": "Increases the distance this unit can travel when jumping by 100%.",
-        "Icon": "uixSvgIcon_action_jump"
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {
@@ -128,10 +128,10 @@
       },
       "effectType": "StatisticEffect",
       "Description": {
-        "Id": "StatusEffect-JumpAmount",
+        "Id": "StatusEffect-JumpHeat-Q3",
         "Name": "Jump Jet Amount",
         "Details": "Max Jump Jet Amount",
-        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+        "Icon": "SpecialistSlot"
       },
       "nature": "Buff",
       "statisticData": {

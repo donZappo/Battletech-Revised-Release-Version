@@ -73,10 +73,10 @@
             },
             "effectType":"StatisticEffect",
             "Description":{
-                "Id":"StatusEffect-IndirectAccuracy_Quirk",
+                "Id":"StatusEffect-Massive-Searchlight-Q1",
                 "Name":"MISSILE WEAPON INDIRECT HIT CHANCE IMPROVED",
-                "Details":"Indirect fire penalties reduced by 2",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Details":"All units in the lance have a bonus of 10% to-hit.",
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -120,14 +120,14 @@
                 "forcePathRebuild":false,
                 "forceVisRebuild":false,
                 "showInTargetPreview":false,
-                "showInStatusPanel":true
+                "showInStatusPanel":false
             },
             "effectType":"StatisticEffect",
             "Description":{
-                "Id":"StatusEffect-Attack_ToHitMissile-Quirk",
+                "Id":"StatusEffect-Massive-Searchlight-Q2",
                 "Name":"Missile WEAPON HIT CHANCE IMPROVED",
                 "Details":"Missile weapon attacks have their hit improved by [AMT].",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -171,14 +171,14 @@
                 "forcePathRebuild":false,
                 "forceVisRebuild":false,
                 "showInTargetPreview":false,
-                "showInStatusPanel":true
+                "showInStatusPanel":false
             },
             "effectType":"StatisticEffect",
             "Description":{
-                "Id":"StatusEffect-Attack_ToHitBallistic-quirk",
+                "Id":"StatusEffect-Massive-Searchlight-Q3",
                 "Name":"BALLISTIC WEAPON HIT CHANCE IMPROVED",
                 "Details":"Ballistic weapon attacks have their hit improved by [AMT].",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{
@@ -222,14 +222,14 @@
                 "forcePathRebuild":false,
                 "forceVisRebuild":false,
                 "showInTargetPreview":false,
-                "showInStatusPanel":true
+                "showInStatusPanel":false
             },
             "effectType":"StatisticEffect",
             "Description":{
-                "Id":"StatusEffect-Attack_ToHitEnergy-Quirk",
+                "Id":"StatusEffect-Massive-Searchlight-Q4",
                 "Name":"ENERGY WEAPON HIT CHANCE IMPROVED",
                 "Details":"Energy weapon attacks have their hit improved by [AMT]",
-                "Icon":"uixSvgIcon_equipment_TTS"
+                "Icon":"SpecialistSlot"
             },
             "nature":"Buff",
             "statisticData":{

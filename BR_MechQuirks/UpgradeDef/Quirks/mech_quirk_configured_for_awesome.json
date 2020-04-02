@@ -68,15 +68,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitPPC_Q1",
+                "Id" : "StatusEffect-Configured-For-Awesome-Q1",
                 "Name" : "PPC WEAPON HIT CHANCE IMPROVED",
-                "Details" : "PPC weapon attacks have their to-hit improved by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Details" : "PPC weapon attacks have their to-hit improved by [AMT]. Non-PPC weapon attacks have their to-hit decreased by 3.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -124,10 +124,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitPPC_Malus1",
+                "Id" : "StatusEffect-Configured-For-Awesome-Q2",
                 "Name" : "NON-PPC WEAPON HIT CHANCE PENALTY",
                 "Details" : "NON-PPC weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {
@@ -175,10 +175,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitPPC_Malus2",
+                "Id" : "StatusEffect-Configured-For-Awesome-Q3",
                 "Name" : "NON-PPC WEAPON HIT CHANCE PENALTY",
                 "Details" : "Non-PPC weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {
@@ -226,10 +226,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitPPC_Malus3",
+                "Id" : "StatusEffect-Configured-For-Awesome-Q4",
                 "Name" : "NON-PPC WEAPON HIT CHANCE PENALTY",
                 "Details" : "Non-PPC weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {
@@ -277,10 +277,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitPPC_Malus4",
+                "Id" : "StatusEffect-Configured-For-Awesome-Q5",
                 "Name" : "NON-PPC WEAPON HIT CHANCE PENALTY",
                 "Details" : "Non-PPC weapon attacks have their to-hit penalized by [AMT]",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {

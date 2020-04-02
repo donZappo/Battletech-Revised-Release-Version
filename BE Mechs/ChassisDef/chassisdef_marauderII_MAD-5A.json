@@ -1,28 +1,28 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 12555960, 
-        "Rarity": 5, 
+        "Cost": 11888640, 
+        "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "King Crab", 
-        "Id": "chassisdef_kingcrab_KGC-000", 
-        "Name": "King Crab", 
-        "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.", 
-        "Icon": "uixTxrIcon_kingcrab"
+        "UIName": "Marauder II", 
+        "Id": "chassisdef_marauderII_MAD-5A", 
+        "Name": "Marauder II", 
+        "Details": "With the Marauder already a powerful and popular 'Mech, the Dragoons goals with the Marauder II were to enhance its abilities by strengthening its chassis to carry a much heavier armor and weapons load. Retaining only the two Magna Mk II Medium Lasers, the 5A variant of the Marauder II carries as its primary weapons a pair of Magna Firestar ER PPCs in its arms which give it a powerful long range punch compared to the 4A.", 
+        "Icon": "uixTxrIcon_marauderii"
     }, 
-    "VariantName": "KGC-000", 
-    "StockRole": "Juggernaut & Close Assault", 
-    "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.", 
-    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001", 
-    "PrefabBase": "kingcrab", 
+    "VariantName": "MAD-5A", 
+    "StockRole": "Sniper & Ranged Assault", 
+    "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues.", 
+    "PrefabIdentifier": "chrprfmech_marauderiibase-001", 
+    "PrefabBase": "marauderii", 
     "Tonnage": 100, 
     "InitialTonnage": 10, 
     "weightClass": "ASSAULT", 
     "BattleValue": 10206000, 
     "Heatsinks": 0, 
-    "TopSpeed": 105, 
+    "TopSpeed": 50, 
     "TurnRadius": 90, 
     "MaxJumpjets": 4, 
     "Stability": 200, 
@@ -42,18 +42,15 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 165, 
+    "MeleeDamage": 125, 
     "MeleeInstability": 100, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 125, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 125, 
+    "DFASelfDamage": 100, 
     "DFAInstability": 125, 
     "ChassisTags": {
         "items": [
-            "chassis_ferro", 
-            "mech_case_left", 
-            "mech_case_right", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -61,49 +58,49 @@
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_assaultmech", 
     "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_kingcrab", 
+    "HardpointDataDefID": "hardpointdatadef_marauderii", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 14, 
-            "z": 0
+            "y": 18, 
+            "z": 1
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 16, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 16, 
+            "z": 0
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 14, 
-            "z": 0
+            "y": 18, 
+            "z": 1
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 16, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 16, 
+            "z": 0
         }, 
         {
-            "x": 3.5, 
+            "x": 3, 
             "y": 6, 
-            "z": -1
+            "z": 0
         }, 
         {
-            "x": -3.5, 
+            "x": -3, 
             "y": 6, 
-            "z": -1
+            "z": 0
         }
     ], 
     "MechPartCount": 0, 
@@ -122,11 +119,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -141,24 +138,7 @@
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 210, 
@@ -179,19 +159,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Ballistic"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
@@ -205,11 +177,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 

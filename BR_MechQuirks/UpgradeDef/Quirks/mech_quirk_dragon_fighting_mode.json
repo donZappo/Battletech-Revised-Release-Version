@@ -69,15 +69,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "reverse_angle_mobility_legs",
+                "Id" : "reverse_angle_mobility_legs-Q1",
                 "Name" : "INITIATIVE INCREASED",
-                "Details" : "Provides a [INVERSE_AMT] bonus to 'Mech Initiative.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
+                "Details" : "Provides a [INVERSE_AMT] bonus to 'Mech Initiative. Incoming stability damage reduced by 25%.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -121,14 +121,14 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Defense_StabilityAll-BR1",
+                "Id" : "reverse_angle_mobility_legs-Q2",
                 "Name" : "INCOMING STABILITY DAMAGE DECREASED",
                 "Details" : "Incoming stability damage reduced by 25%.",
-                "Icon" : "uixSvgIcon_equipment_Gyro"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

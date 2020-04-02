@@ -62,10 +62,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-PPCDmgBonus",
+                "Id" : "StatusEffect-PPC-InputLag-Q1",
                 "Name" : "PPC Input Lag",
-                "Details" : "Energy weapons on this unit deal [AMT] more damage, but generate additional heat.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Details" : "Energy weapons on this unit deal [AMT] more damage, but generate 5.0 additional heat.",
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
@@ -107,10 +107,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Heat_GenIncrease",
+                "Id" : "StatusEffect-PPC-InputLag-Q2",
                 "Name" : "PPC HEAT INCREASED",
                 "Details" : "PPC Heat increased by [AMT].",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Debuff",
             "statisticData" : {

@@ -72,10 +72,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Reduced-Criticals",
+                "Id" : "StatusEffect-Pro-Bay-Doors-Q1",
                 "Name" : "RECEIVED CRITICAL HITS REDUCED",
-                "Details" : "Reduces effect of incoming critical hits.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Details" : "Reduces effect of incoming critical hits by 50%.",
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {

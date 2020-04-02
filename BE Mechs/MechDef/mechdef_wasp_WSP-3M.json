@@ -31,73 +31,73 @@
         {
             "DamageLevel": "Functional", 
             "Location": "Head", 
-            "CurrentArmor": 35, 
+            "CurrentArmor": 40, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 16, 
-            "AssignedArmor": 35, 
+            "AssignedArmor": 40, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "CenterTorso", 
-            "CurrentArmor": 35, 
-            "CurrentRearArmor": 15, 
+            "CurrentArmor": 55, 
+            "CurrentRearArmor": 25, 
             "CurrentInternalStructure": 30, 
-            "AssignedArmor": 35, 
-            "AssignedRearArmor": 15
+            "AssignedArmor": 55, 
+            "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
-            "CurrentArmor": 30, 
-            "CurrentRearArmor": 15, 
+            "CurrentArmor": 50, 
+            "CurrentRearArmor": 25, 
             "CurrentInternalStructure": 25, 
-            "AssignedArmor": 30, 
-            "AssignedRearArmor": 15
+            "AssignedArmor": 50, 
+            "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
-            "CurrentArmor": 30, 
-            "CurrentRearArmor": 15, 
+            "CurrentArmor": 50, 
+            "CurrentRearArmor": 25, 
             "CurrentInternalStructure": 25, 
-            "AssignedArmor": 30, 
-            "AssignedRearArmor": 15
+            "AssignedArmor": 50, 
+            "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftArm", 
-            "CurrentArmor": 20, 
+            "CurrentArmor": 30, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 15, 
-            "AssignedArmor": 20, 
+            "AssignedArmor": 30, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightArm", 
-            "CurrentArmor": 20, 
+            "CurrentArmor": 30, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 15, 
-            "AssignedArmor": 20, 
+            "AssignedArmor": 30, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 25, 
+            "CurrentArmor": 35, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 20, 
-            "AssignedArmor": 25, 
+            "AssignedArmor": 35, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 25, 
+            "CurrentArmor": 35, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 20, 
-            "AssignedArmor": 25, 
+            "AssignedArmor": 35, 
             "AssignedRearArmor": 0
         }
     ], 
@@ -544,7 +544,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "ComponentDefID": "mech_quirk_integrated_cockpit", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -555,7 +555,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_Generic_Standard", 
+            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

@@ -62,10 +62,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TargBaff-HitDefense1",
+                "Id" : "StatusEffect-Abundant-Baffles-Q1",
                 "Name" : "TARGETING BAFFLES",
-                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
+                "Details" : "+[AMT] Difficulty to hit this unit with ranged attacks. Mech costs 25% less to repair.",
+                "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,

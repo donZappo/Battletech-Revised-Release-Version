@@ -51,6 +51,7 @@
     "DFAInstability": 40, 
     "ChassisTags": {
         "items": [
+            "CompactDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -138,6 +139,10 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
@@ -157,12 +162,7 @@
         }, 
         {
             "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 70, 

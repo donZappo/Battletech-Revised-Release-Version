@@ -1,43 +1,31 @@
 {
-    "FixedEquipment": [
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
-    ], 
+    "FixedEquipment": [], 
     "Description": {
-        "Cost": 1265250, 
-        "Rarity": 1, 
+        "Cost": 11888640, 
+        "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Stinger", 
-        "Id": "chassisdef_stinger_STG-3R", 
-        "Name": "Stinger", 
-        "Details": "The STG-3R Stinger was the second mass-produced scout and recon 'Mech to be completed.  In 2479, the first Stingers came off the assembly line, and during the next four centuries nearly 200,000 more units would be constructed.  It's cheap, maneuverable, and makes for an excellent scout 'mech.", 
-        "Icon": "uixTxrIcon_stinger"
+        "UIName": "Marauder II", 
+        "Id": "chassisdef_marauderII_MAD-5B", 
+        "Name": "Marauder II", 
+        "Details": "This 3050 variant carries the same weaponry as the standard Marauder II, but replaces the LB 10-X autocannon with a Gauss Rifle. To make room for this weapon, the MAD-5B only carries sixteen Double Heat Sinks.", 
+        "Icon": "uixTxrIcon_marauderii"
     }, 
-    "VariantName": "STG-3R", 
-    "StockRole": "Scout & Skirmisher", 
-    "YangsThoughts": "The Stinger is lightly armored and mounts limited weapons. Its speed and maneuverability, however, make it a difficult target and a tough 'Mech to pin down.", 
-    "PrefabIdentifier": "chrPrfMech_stingerHotD-001", 
-    "PrefabBase": "stinger", 
-    "Tonnage": 20, 
-    "InitialTonnage": 2, 
-    "weightClass": "LIGHT", 
-    "BattleValue": 1642000, 
+    "VariantName": "MAD-5B", 
+    "StockRole": "Sniper & Ranged Assault", 
+    "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues.", 
+    "PrefabIdentifier": "chrprfmech_marauderiibase-001", 
+    "PrefabBase": "marauderii", 
+    "Tonnage": 100, 
+    "InitialTonnage": 10, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 10206000, 
     "Heatsinks": 0, 
-    "TopSpeed": 120, 
+    "TopSpeed": 50, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
-    "Stability": 100, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -50,70 +38,69 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 4, 
+    "Radius": 8, 
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 25, 
-    "MeleeInstability": 20, 
+    "MeleeDamage": 125, 
+    "MeleeInstability": 100, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 25, 
+    "DFADamage": 125, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 25, 
-    "DFAInstability": 25, 
+    "DFASelfDamage": 100, 
+    "DFAInstability": 125, 
     "ChassisTags": {
         "items": [
-            "IntegratedCockpit", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_lightmech", 
-    "PathingCapDefID": "pathingdef_light", 
-    "HardpointDataDefID": "hardpointdatadef_stinger", 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_marauderii", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 10, 
-            "z": 0.5
+            "y": 18, 
+            "z": 1
         }, 
         {
-            "x": -2.5, 
-            "y": 8, 
-            "z": -0.5
+            "x": 4, 
+            "y": 16, 
+            "z": 0
         }, 
         {
-            "x": 2.5, 
-            "y": 8, 
-            "z": -0.5
+            "x": -4, 
+            "y": 16, 
+            "z": 0
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 10, 
-            "z": 0.5
+            "y": 18, 
+            "z": 1
         }, 
         {
-            "x": -2.5, 
-            "y": 8, 
-            "z": -0.5
+            "x": 4, 
+            "y": 16, 
+            "z": 0
         }, 
         {
-            "x": 2.5, 
-            "y": 8, 
-            "z": -0.5
+            "x": -4, 
+            "y": 16, 
+            "z": 0
         }, 
         {
-            "x": -1.5, 
-            "y": 3, 
-            "z": 0.5
+            "x": 3, 
+            "y": 6, 
+            "z": 0
         }, 
         {
-            "x": 1.5, 
-            "y": 3, 
-            "z": 0.5
+            "x": -3, 
+            "y": 6, 
+            "z": 0
         }
     ], 
     "MechPartCount": 0, 
@@ -132,7 +119,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -141,36 +132,45 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 30, 
+            "MaxArmor": 170, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 15
+            "InternalStructure": 85
         }, 
         {
             "Location": "LeftTorso", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 50, 
-            "MaxRearArmor": 25, 
-            "InternalStructure": 25
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
         }, 
         {
             "Location": "CenterTorso", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 60, 
-            "MaxRearArmor": 30, 
-            "InternalStructure": 30
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
         }, 
         {
             "Location": "RightTorso", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 50, 
-            "MaxRearArmor": 25, 
-            "InternalStructure": 25
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
         }, 
         {
             "Location": "RightArm", 
@@ -181,7 +181,7 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -190,27 +190,27 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 30, 
+            "MaxArmor": 170, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 15
+            "InternalStructure": 85
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 40, 
+            "MaxArmor": 210, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 20
+            "InternalStructure": 105
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 40, 
+            "MaxArmor": 210, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 20
+            "InternalStructure": 105
         }
     ]
 }

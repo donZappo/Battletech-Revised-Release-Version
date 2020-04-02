@@ -67,15 +67,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Narc_Range",
+                "Id" : "StatusEffect-Narc_Range-Q1",
                 "Name" : "NARC RANGE INCREASED",
                 "Details" : "Narc Launchers have their range increased by [AMT]m.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -123,10 +123,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Narc_Range-2",
+                "Id" : "StatusEffect-Narc_Range-Q2",
                 "Name" : "NARC RANGE INCREASED",
                 "Details" : "Narc Launchers have their range increased by [AMT]m.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
             "statisticData" : {
