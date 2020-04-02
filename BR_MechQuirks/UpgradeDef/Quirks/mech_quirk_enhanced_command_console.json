@@ -80,7 +80,9 @@
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "NotSet"
             },
-            "nature" : "Buff"],
+            "nature" : "Buff"
+		}
+	],
     "ComponentTags": {
         "items": [
             "component_type_stock"
