@@ -42,7 +42,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
+    "MeleeDamage": 90, 
     "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 65, 
@@ -51,6 +51,7 @@
     "DFAInstability": 65, 
     "ChassisTags": {
         "items": [
+            "ClubCoolingJacket", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

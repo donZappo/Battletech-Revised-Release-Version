@@ -51,8 +51,7 @@
     "DFAInstability": 45, 
     "ChassisTags": {
         "items": [
-            "chassis_ferro", 
-            "mech_case_left", 
+            "RavenEW", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

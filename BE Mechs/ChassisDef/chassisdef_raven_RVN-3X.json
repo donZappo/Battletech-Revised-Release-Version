@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_Sensor_Prototype_EWE", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
         "Cost": 1914360, 
         "Rarity": 5, 
@@ -51,7 +63,7 @@
     "DFAInstability": 35, 
     "ChassisTags": {
         "items": [
-            "PrototypeMech", 
+            "RavenEW", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

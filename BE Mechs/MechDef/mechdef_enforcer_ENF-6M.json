@@ -14,10 +14,10 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Enforcer III ENF-6M", 
+        "UIName": "Enforcer ENF-6M", 
         "Id": "mechdef_enforcer_ENF-6M", 
-        "Name": "Enforcer III", 
-        "Details": "The Enforcer has long been the workhorse medium-weight ’Mech for the Federated Suns and, later, the Federated Commonwealth. Considered a Davion design, the Enforcer is one of the most recognized ’Mechs in the Inner Sphere. The Enforcer III has become one of the flagship mechs of the AFFC.", 
+        "Name": "Enforcer", 
+        "Details": "The Enforcer has long been the workhorse medium-weight \u2019Mech for the Federated Suns and, later, the Federated Commonwealth. Considered a Davion design, the Enforcer is one of the most recognized \u2019Mechs in the Inner Sphere. The Enforcer III has become one of the flagship mechs of the AFFC.", 
         "Icon": "uixTxrIcon_enforcer"
     }, 
     "RequiredToSpawnCompanyTags": {

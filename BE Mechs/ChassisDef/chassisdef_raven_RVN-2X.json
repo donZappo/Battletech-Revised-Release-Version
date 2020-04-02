@@ -51,6 +51,7 @@
     "DFAInstability": 35, 
     "ChassisTags": {
         "items": [
+            "Retrofitted", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

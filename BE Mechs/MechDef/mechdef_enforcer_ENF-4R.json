@@ -488,10 +488,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -499,10 +499,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_club_cooling_jacket", 
             "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
+            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

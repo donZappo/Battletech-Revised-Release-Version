@@ -1,227 +1,232 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 25700000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Atlas",
-    "Id": "chassisdef_atlas_AS7-K",
-    "Name": "Atlas",
-    "Details": "A 3050's Combine upgrade of the Atlas that used rediscovered Star League technology, the K model was built with a 300 XL Engine. The Star League based armament allowed the AS7-K to keep an enemy at range, though the continued use of twenty single heat sinks caused swift heat buildup if all weapons are fired repeatedly.",
-    "Icon": "uixTxrIcon_atlas"
-  },
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_atlas",
-  "PrefabIdentifier": "chrPrfMech_atlasBase-001",
-  "PrefabBase": "atlas",
-  "Tonnage": 100.0,
-  "InitialTonnage": 10.0,
-  "weightClass": "ASSAULT",
-  "BattleValue": 10581000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 60,
-  "TurnRadius": 90,
-  "MaxJumpjets": 3,
-  "Stability": 200,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 140,
-  "MeleeInstability": 100,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 125,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 125,
-  "DFAInstability": 125,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 12222210, 
+        "Rarity": 5, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Atlas", 
+        "Id": "chassisdef_atlas_AS7-K", 
+        "Name": "Atlas", 
+        "Details": "A 3050's Combine upgrade of the Atlas that used rediscovered Star League technology, the K model was built with a 300 XL Engine. The Star League based armament allowed the AS7-K to keep an enemy at range, though the continued use of twenty single heat sinks caused swift heat buildup if all weapons are fired repeatedly.", 
+        "Icon": "uixTxrIcon_atlas"
+    }, 
+    "VariantName": "AS7-K", 
+    "StockRole": "Juggernaut & Long Range Assault", 
+    "YangsThoughts": "The Atlas K is the hotter and more formidable at range brother to the Atlas D. The firepower has been taken up a notch, although the heat asks too much of the single heat sinks installed as stock.", 
+    "PrefabIdentifier": "chrPrfMech_atlasBase-001", 
+    "PrefabBase": "atlas", 
+    "Tonnage": 100, 
+    "InitialTonnage": 10, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 10581000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 60, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 140, 
+    "MeleeInstability": 100, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 125, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 125, 
+    "DFAInstability": 125, 
+    "ChassisTags": {
+        "items": [
+            "mech_case_left", 
+            "mech_case_right", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_atlas", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "x": -5, 
+            "y": 16, 
+            "z": -1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 6, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 6, 
+            "z": 1
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 310,
-      "MaxRearArmor": 155,
-      "InternalStructure": 155
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 210,
-      "MaxRearArmor": -1,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 210,
-      "MaxRearArmor": -1,
-      "InternalStructure": 105
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 17.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 17.0,
-      "z": 0.0
-    },
-    {
-      "x": 5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": -5.0,
-      "y": 16.0,
-      "z": -1.0
-    },
-    {
-      "x": 3.5,
-      "y": 6.0,
-      "z": 1.0
-    },
-    {
-      "x": -3.5,
-      "y": 6.0,
-      "z": 1.0
-    }
-  ],
-  "VariantName": "AS7-K",
-  "ChassisTags": {
-    "items": [
-      "mech_case_left",
-      "mech_case_right"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Juggernaut & Long Range Assault",
-  "YangsThoughts": "The Atlas K is the hotter and more formidable at range brother to the Atlas D. The firepower has been taken up a notch, although the heat asks too much of the single heat sinks installed as stock."
+    ]
 }

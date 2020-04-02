@@ -9,7 +9,7 @@
         "UIName": "Enforcer", 
         "Id": "chassisdef_enforcer_ENF-6M", 
         "Name": "Enforcer", 
-        "Details": "The Enforcer has long been the workhorse medium-weight ’Mech for the Federated Suns and, later, the Federated Commonwealth. Considered a Davion design, the Enforcer is one of the most recognized ’Mechs in the Inner Sphere. The Enforcer III has become one of the flagship mechs of the AFFC.", 
+        "Details": "The Enforcer has long been the workhorse medium-weight \u2019Mech for the Federated Suns and, later, the Federated Commonwealth. Considered a Davion design, the Enforcer is one of the most recognized \u2019Mechs in the Inner Sphere. The Enforcer III has become one of the flagship mechs of the AFFC.", 
         "Icon": "uixTxrIcon_enforcer"
     }, 
     "VariantName": "ENF-6M", 
@@ -42,7 +42,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
+    "MeleeDamage": 90, 
     "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 65, 
