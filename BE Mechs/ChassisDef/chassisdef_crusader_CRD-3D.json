@@ -42,16 +42,16 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 90, 
+    "MeleeDamage": 125, 
     "MeleeInstability": 65, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 80, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 80, 
+    "DFASelfDamage": 40, 
     "DFAInstability": 80, 
     "ChassisTags": {
         "items": [
-            "mr-resize-0.95-0.95-0.95", 
+            "ReinforcedLegs", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

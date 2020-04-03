@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 7051000, 
-        "Rarity": 4, 
+        "Cost": 10364810, 
+        "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Avatar", 
-        "Id": "chassisdef_avatar_AV1-O", 
-        "Name": "Avatar", 
-        "Details": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs. The Avatar is used primarily by the Draconis Combine Mustered Soldiery, but has also been sold to the Lyran Alliance and ComStar.", 
-        "Icon": "uixTxrIcon_avatar"
+        "UIName": "BattleMaster", 
+        "Id": "chassisdef_battlemaster_BLR-1GB", 
+        "Name": "BattleMaster", 
+        "Details": "The 1GB is an upgraded BattleMaster that was used by the Terran Hegemony-based SLDF Royal units. Introduced in 2760 it was built on an Endo Steel chassis and used double heat sinks. It only retained the forward-facing medium lasers to which was added a pair of ER PPCs, one in each arm, and a Large Pulse Laser in the center torso.", 
+        "Icon": "uixTxrIcon_battlemaster"
     }, 
-    "VariantName": "AV1-O", 
-    "StockRole": "Heavy Skirmisher", 
-    "YangsThoughts": "A Draconis Combine Omni Mech, if you want to break the parts down in to Salvage I can rebuild her with a different set up. The original O design is a bit of everything, excelling at nothing.", 
-    "PrefabIdentifier": "chrprfmech_avatarbase-001", 
-    "PrefabBase": "avatar", 
-    "Tonnage": 70, 
-    "InitialTonnage": 7, 
-    "weightClass": "HEAVY", 
-    "BattleValue": 7602000, 
+    "VariantName": "BLR-1GB", 
+    "StockRole": "Heavy Brawler & Close Assault", 
+    "YangsThoughts": "The 1GB is an upgraded BattleMaster that was used by the Terran Hegemony-based SLDF Royal units. Introduced in 2760 it was built on an Endo Steel chassis and used double heat sinks. It only retained the forward-facing medium lasers to which was added a pair of ER PPCs, one in each arm, and a Large Pulse Laser in the center torso.", 
+    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001", 
+    "PrefabBase": "battlemaster", 
+    "Tonnage": 85, 
+    "InitialTonnage": 8.5, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 8742000, 
     "Heatsinks": 0, 
-    "TopSpeed": 120, 
+    "TopSpeed": 60, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
-    "Stability": 160, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -39,69 +39,68 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 8, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
-    "MeleeInstability": 70, 
+    "MeleeDamage": 115, 
+    "MeleeInstability": 85, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 90, 
+    "DFADamage": 105, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 90, 
-    "DFAInstability": 90, 
+    "DFASelfDamage": 105, 
+    "DFAInstability": 105, 
     "ChassisTags": {
         "items": [
-            "OmniDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_heavymech", 
-    "PathingCapDefID": "pathingdef_heavy", 
-    "HardpointDataDefID": "hardpointdatadef_avatar", 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_battlemaster", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 18, 
+            "y": 16, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 17, 
-            "z": 0
+            "x": 5, 
+            "y": 16, 
+            "z": -1
         }, 
         {
-            "x": -4, 
-            "y": 17, 
-            "z": 0
+            "x": -5, 
+            "y": 16, 
+            "z": -1
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 18, 
+            "y": 16, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 17, 
-            "z": 0
+            "x": 5, 
+            "y": 16, 
+            "z": -1
         }, 
         {
-            "x": -4, 
-            "y": 17, 
-            "z": 0
+            "x": -5, 
+            "y": 16, 
+            "z": -1
         }, 
         {
-            "x": 3, 
-            "y": 5, 
-            "z": 0
+            "x": 3.5, 
+            "y": 5.5, 
+            "z": 1
         }, 
         {
-            "x": -3, 
-            "y": 5, 
-            "z": 0
+            "x": -3.5, 
+            "y": 5.5, 
+            "z": 1
         }
     ], 
     "MechPartCount": 0, 
@@ -120,7 +119,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "AntiPersonnel"
                 }, 
                 {
                     "Omni": false, 
@@ -129,27 +128,27 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }, 
         {
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Missile"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 150, 
-            "MaxRearArmor": 75, 
-            "InternalStructure": 75
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
         }, 
         {
             "Location": "CenterTorso", 
@@ -157,6 +156,20 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 270, 
+            "MaxRearArmor": 135, 
+            "InternalStructure": 135
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -164,35 +177,17 @@
                 }
             ], 
             "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 220, 
-            "MaxRearArmor": 110, 
-            "InternalStructure": 110
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
-            "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 150, 
-            "MaxRearArmor": 75, 
-            "InternalStructure": 75
+            "MaxArmor": 180, 
+            "MaxRearArmor": 90, 
+            "InternalStructure": 90
         }, 
         {
             "Location": "RightArm", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -201,27 +196,27 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 150, 
+            "MaxArmor": 180, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 75
+            "InternalStructure": 90
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 150, 
+            "MaxArmor": 180, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 75
+            "InternalStructure": 90
         }
     ]
 }

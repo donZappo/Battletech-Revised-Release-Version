@@ -51,8 +51,7 @@
     "DFAInstability": 95, 
     "ChassisTags": {
         "items": [
-            "mech_case_left", 
-            "mech_case_right", 
+            "SpaciousInterior", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -147,7 +146,7 @@
                 }
             ], 
             "Tonnage": 0, 
-            "InventorySlots": 12, 
+            "InventorySlots": 15, 
             "MaxArmor": 160, 
             "MaxRearArmor": 80, 
             "InternalStructure": 80
@@ -170,7 +169,7 @@
                 }
             ], 
             "Tonnage": 0, 
-            "InventorySlots": 12, 
+            "InventorySlots": 15, 
             "MaxArmor": 160, 
             "MaxRearArmor": 80, 
             "InternalStructure": 80

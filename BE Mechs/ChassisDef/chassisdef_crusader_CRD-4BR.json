@@ -1,244 +1,226 @@
 {
-	"Description": {
-		"Cost": 8388000,
-		"Rarity": 3,
-		"Purchasable": true,
-		"Manufacturer": "",
-		"Model": "",
-		"UIName": "Crusader",
-		"Id": "chassisdef_crusader_CRD-4BR",
-		"Name": "Crusader",
-		"Details": "A Star League-tech retrofit of the classic CRD-3R developed by Bander BattleMechs for the mercenary market in 3054, the 4BR switches to double heat sinks and replaces the SRM-6 launchers with a pair of Streak SRM-2s. The weight saved allows an extra ton of LRM reloads for each launcher to be carried, protected by the addition of CASE in each torso.",
-		"Icon": "uixTxrIcon_crusader"
-	},
-	"MovementCapDefID": "movedef_crusader_CRD-3R",
-	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_crusader",
-	"PrefabIdentifier": "chrprfmech_crusaderhotd-001",
-	"PrefabBase": "crusader",
-	"Tonnage": 65,
-	"InitialTonnage": 6.5,
-	"weightClass": "HEAVY",
-	"BattleValue": 6057000,
-	"Heatsinks": 0,
-	"TopSpeed": 120,
-	"TurnRadius": 90,
-	"MaxJumpjets": 30,
-	"Stability": 160,
-	"StabilityDefenses": [
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	],
-	"SpotterDistanceMultiplier": 1,
-	"VisibilityMultiplier": 1,
-	"SensorRangeMultiplier": 1,
-	"Signature": 0,
-	"Radius": 8,
-	"PunchesWithLeftArm": false,
-	"MeleeDamage": 80,
-	"MeleeInstability": 80,
-	"MeleeToHitModifier": 0,
-	"DFADamage": 65,
-	"DFAToHitModifier": 0,
-	"DFASelfDamage": 65,
-	"DFAInstability": 33,
-	"Locations": [
-		{
-			"Location": "Head",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 45,
-			"MaxRearArmor": -1,
-			"InternalStructure": 16
-		},
-		{
-			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 100,
-			"MaxRearArmor": -1,
-			"InternalStructure": 50
-		},
-		{
-			"Location": "LeftTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 150,
-			"MaxRearArmor": 75,
-			"InternalStructure": 75
-		},
-		{
-			"Location": "CenterTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 15,
-			"MaxArmor": 210,
-			"MaxRearArmor": 105,
-			"InternalStructure": 105
-		},
-		{
-			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 150,
-			"MaxRearArmor": 75,
-			"InternalStructure": 75
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 100,
-			"MaxRearArmor": -1,
-			"InternalStructure": 50
-		},
-		{
-			"Location": "LeftLeg",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 150,
-			"MaxRearArmor": -1,
-			"InternalStructure": 75
-		},
-		{
-			"Location": "RightLeg",
-			"Hardpoints": [
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 150,
-			"MaxRearArmor": -1,
-			"InternalStructure": 75
-		}
-	],
-	"LOSSourcePositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -4,
-			"y": 13,
-			"z": 0
-		}
-	],
-	"LOSTargetPositions": [
-		{
-			"x": 0,
-			"y": 14,
-			"z": 1
-		},
-		{
-			"x": 4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": -4,
-			"y": 13,
-			"z": 0
-		},
-		{
-			"x": 3,
-			"y": 5,
-			"z": 0
-		},
-		{
-			"x": -3,
-			"y": 5,
-			"z": 0
-		}
-	],
-	"VariantName": "CRD-4BR",
-	"ChassisTags": {
-		"items": [
-			"OmniMech",
-			"mr-resize-0.8"
-		],
-		"tagSetSourceFile": ""
-	},
-	"StockRole": "Heavy Skirmisher & Brawler",
-	"YangsThoughts": "A Star League-tech retrofit of the classic CRD-3R developed by Bander BattleMechs for the mercenary market in 3054, the 4BR switches to double heat sinks and replaces the SRM-6 launchers with a pair of Streak SRM-2s. The weight saved allows an extra ton of LRM reloads for each launcher to be carried, protected by the addition of CASE in each torso.",
-	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Crusader",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": false
-		}
-	]
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 6611000, 
+        "Rarity": 4, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Crusader", 
+        "Id": "chassisdef_crusader_CRD-4BR", 
+        "Name": "Crusader", 
+        "Details": "The Crusader 4BR was designed for the mercenary market by Bander BattleMEchs and employed some Star League technology. It utilizes double heat sinks and replaces the SRM-6 launchers with Streak SRM-2s. The saved weight it used to double the ammunition for the LRM launchers and protect them with CASE.", 
+        "Icon": "uixTxrIcon_crusader"
+    }, 
+    "VariantName": "CRD-4BR", 
+    "StockRole": "Fire Support", 
+    "YangsThoughts": "The Crusader is about as iconic as a Warhammer in the Heavy class of 'Mechs.  Solid long range fire power, respectable punch up close and mounts good armor.  The only thing letting this mech down is heat issues that the various house variants tried to fix.", 
+    "PrefabIdentifier": "chrprfmech_crusaderhotd-001", 
+    "PrefabBase": "crusader", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5514000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": true, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 125, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 80, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 40, 
+    "DFAInstability": 80, 
+    "ChassisTags": {
+        "items": [
+            "ReinforcedLegs", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_crusader", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 5, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }
+    ]
 }

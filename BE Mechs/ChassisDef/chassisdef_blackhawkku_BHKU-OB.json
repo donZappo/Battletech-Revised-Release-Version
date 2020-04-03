@@ -62,23 +62,23 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": true
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": true
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "WeaponMount": "Ballistic",
+          "Omni": true
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "WeaponMount": "Missile",
+          "Omni": true
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "WeaponMount": "Missile",
+          "Omni": true
         }
       ],
       "Tonnage": 0.0,
@@ -118,8 +118,24 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
           "WeaponMount": "Ballistic",
-          "Omni": false
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": true
         }
       ],
       "Tonnage": 0.0,
