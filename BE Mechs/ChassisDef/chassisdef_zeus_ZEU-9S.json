@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_320", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
         "Cost": 9728640, 
         "Rarity": 4, 
@@ -51,8 +63,7 @@
     "DFAInstability": 100, 
     "ChassisTags": {
         "items": [
-            "chassis_ferro", 
-            "mech_case_right", 
+            "EnhancedAgilityDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
