@@ -7,7 +7,7 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Black Hawk-KU",
-    "Id": "chassisdef_blackhawk-ku_BHKU-OB",
+    "Id": "chassisdef_blackhawkku_BHKU-OD",
     "Name": "Black Hawk-KU",
     "Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart.",
     "Icon": "uixTxrIcon_blackhawkku"
@@ -61,23 +61,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -118,7 +106,15 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -191,7 +187,7 @@
       "z": 0.0
     }
   ],
-  "VariantName": "BHKU-OB",
+  "VariantName": "BHKU-OD",
   "ChassisTags": {
     "items": [
       "mr-resize-1.02-1.13-1.08",
