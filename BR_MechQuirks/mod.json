@@ -48,7 +48,7 @@
 		"BushwackerHSComponentFactor" : 1.5,
 		"ArmourBaffleFactor" : 0.8,
 		"NARCMaxRangeIncrease" : 120,
-		"OmniRefitFactor" : 0,
+		"OmniRefitValue" : 1,
 		"DragonInstabilityFactor" : 0.75,
 		"NonStandardPartsFactor" : 1.5,
 		"MassiveSearchLightTeamBonus" : -2,

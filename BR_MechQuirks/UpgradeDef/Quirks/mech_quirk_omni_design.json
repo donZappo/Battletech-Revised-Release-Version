@@ -33,7 +33,7 @@
         "UIName": "OmniMech",
         "Id": "mech_quirk_omni_design",
         "Name": "OmniMech",
-        "Details": "The modularity of this 'Mech allows refits to be trivially easy and take no time to complete.",
+        "Details": "The modularity of this 'Mech allows refits to be trivially easy and take no time to complete. In addition, yellow hardpoint numbers indicate that location uses omni hardpoints and can accept any type of weapon.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
