@@ -1,0 +1,72 @@
+{
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "LargeLaser",
+    "MinRange" : 0,
+    "MaxRange" : 495,
+    "RangeSplit" : [
+        345,
+        345,
+        495
+    ],
+    "AmmoCategoryID" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 48,
+    "Damage" : 80,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 2,
+    "DamageVariance" : 0,
+    "HeatDamage" : 4,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 2,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
+    "Description" : {
+        "Cost" : 270000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Magna",
+        "Model" : "Binary Laser Cannon",
+        "UIName" : "B Laser + +",
+        "Id" : "Weapon_Laser_BinaryLaserCannon_2-Magna",
+        "Name" : "B Laser + +",
+        "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased damage, the tonnage ended up being higher than two Large Lasers separately.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "+ 2 Ev.Pips.Ignored",
+    "BonusValueB" : "+4 Heat",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 9,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "ImprovedBallistic" : true,
+    "ColorChangeRule" : "Linear",
+    "ColorsTable" : [
+    {
+      "C" : "#1569C7",
+      "I" : 5
+    }
+  ],
+}
