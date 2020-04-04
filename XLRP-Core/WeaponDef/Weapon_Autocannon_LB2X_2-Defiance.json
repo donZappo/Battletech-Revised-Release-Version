@@ -67,5 +67,6 @@
   "VolleyDivisor" : 12,
   "HitGenerator" : "Cluster",
   "BallisticDamagePerPallet" : true,
+  "DamageNotDivided" : false,
   "ammoCategoryID" : "LB2X"
 }

@@ -50,7 +50,6 @@
 	},
 	
 	"Manifest": [
-		{ "Type": "AmmunitionBoxDef", "Path": "AmmunitionBoxDef", "AddToDB": false },
 		{
 			"Type": "AdvancedJSONMerge",
 			"Path": "AdvancedJSONMerge",

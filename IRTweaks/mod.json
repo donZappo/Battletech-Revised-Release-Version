@@ -30,7 +30,7 @@
             "SkipDeleteSavePopup" : true,
             "SpawnProtection" : true,
             "StreamlinedMainMenu" : true,
-            "WeaponTooltip" : true,
+            "WeaponTooltip" : false,
         },
         "Abilities" : {
             "MultiTargetId" : ""
