@@ -11,12 +11,10 @@
     "ConflictsWith": [],
     "Manifest": [
         { "Type": "CastDef", "Path": "cast" },
-        { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "ContractOverride", "Path": "contract/siege" },
         { "Type": "ContractOverride", "Path": "contract/storytime" },
         { "Type": "ItemCollectionDef", "Path": "data" },
         { "Type": "FlashpointDef", "Path": "flashpoints" },
-        { "Type": "MechDef", "Path": "mech" },
         { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
         { "Type": "Sprite", "Path": "portrait" }
     ]
