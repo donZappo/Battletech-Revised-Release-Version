@@ -1,0 +1,47 @@
+7-The hand slips quickly away and he escapes into the crowd and you return to your inner struggles.  Later that evening you feel inside your jacket pocket and come up with a note - it reads.
+"Commander {COMMANDER.LastName} it looks like you need a hand." 
+Turning the note over you notice a set of GPS Coordinates and a time - now long expired.  
+
+
+SimpleBattle_KickingTheNest
+MedTechSkill|System.Int32|-2
+Morale|System.Int32|-1
+MechTechSkill|System.Int32|-1
+MedTechSkill|System.Int32|-1
+
+ C:\Users\\AppData\LocalLow\Harebrained Schemes
+ 
+Title Card Banners
+WIP But here's a quick and dirty FP Icon in banner size I used for "The Raid" and you can use this to just apply on a layer on top of your own banner once it's flipped vertically. FP Icon Flipped.png
+.dds preferred
+750x300
+Flipped Vertically Only
+Filename prefixed by "uixTxrSpot_"
+castdef Portraits
+.png only
+512x512 stock size (practically this could be far smaller)
+not rotated or flipped
+Filename prefixed by "guiTxrPort_"
+Faction Emblems
+.dds only
+256x256 stock size
+Flipped Vertically Only
+Filename prefixed by "uixTxrIcon_"
+
+
+Tags
+fp_Legup_kickingTheNest_Complete, 
+fp_choice_cancel
+
+Set the convo GUID in 00_TalkForCancel StartConversation to  - 9c7a44dc5d282321dc0609e2
+
+ms_fp_legUp_kickingTheNest_100_MissionSim
+
+ms_fp_legUp_kickingTheNest_300_FP_Fail
+
+
+when things don't load do you know how to look at logs?
+they often have the errors in there
+BATTLETECH\Mods\.modtek\ModTek.log and BATTLETECH\Mods\.modtek\harmony_summary.log and (if you're using FYLS logger mod which is highly recommended you'll see a  BATTLETECH\Mods\cleaned_output_log.txt) and BATTLETECH\BattleTech_Data\output_log.txt
+try loading the mod up with your image - when it crashes - send me those logs
+

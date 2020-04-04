@@ -1,0 +1,206 @@
+{
+    "Description" : {
+        "Id" : "event_co_blackMarket_retry",
+        "Name" : "This feels familiar",
+        "Details" : "Your opponent looks from her cards, to growing pile of  \u20ACBills and back to her cards.\r\n  \r\n\"Raise,\" as she drops a crumped \u20AC20 note onto the growing pile. \"Come on {COMMANDER.FirstName} it's just you and me now, The rest have all folded.\"\r\n\r\nYou add a \u20AC20 note to hers. \"Call.\" Thinking you can stil take her.\r\n\r\nSlowly she fans her cards on the pile in the middle of the table.\r\n\"Full house.  Archons over `Mechs,\" she says triumphantly, laying down her cards.\r\n\r\n\"Three Dukes...that's it, I'm done, nothing is panning out as it should!\"  As you stand to leave she leans over and offers you a folded note.\r\n\r\n\"May be this will help?\"",
+        "Icon" : "uixTxrSpot_TheGamble.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 1000,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : [
+                "event_co_legup_missed"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : [
+                "fp_legUp_kickingTheNest_Complete",
+                "event_co_legup_NEVER"
+            ]
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Reputation.MercenaryReviewBoard",
+                "op" : "LessThan",
+                "val" : 50,
+                "valueConstant" : "50"
+            },
+            {
+                "obj" : "travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Commander",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "Tags/CommanderTags",
+                "items" : []
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Refuse the note",
+                "Details" : "Refuse the note",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Refusal",
+                        "Details" : "You really are stubborn aren't you Commander {COMMANDER.LastName}.\r\n\r\nTwice, we have offered you a leg up and part in a prosperous endeavour and twice, been refused.\r\n\r\nLooks like you'll have to do this the hard way, we won't offer this again.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : [
+                                    "event_co_legup_NEVER"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : []
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Accept the note.",
+                "Details" : "Grab Him",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Accept the Note",
+                        "Details" : "Well, it took long enough to get your attention Commander {COMMANDER.LastName} and it still looks like you need a hand.\r\n\r\n\"How do you know my name?  I never mentioned it.\"\r\n\r\n\"That doesn't much matter now does it?  Follow the instructions .. or not, the choice is yours. You still have time!\"\r\n\r\nCautiously, you arrive at the designated location at the allocated time  and a voice from the shadows says one word, <i>'Alloway'</i>, then turns and disappears into the darkness.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : []
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_legUp_kickingTheNest",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : [
+                                    "company_blackMarket_OFF",
+                                    "event_co_legup_ready"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : []
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "tagSetSourceFile" : "tags/EventTags",
+        "items" : []
+    }
+}

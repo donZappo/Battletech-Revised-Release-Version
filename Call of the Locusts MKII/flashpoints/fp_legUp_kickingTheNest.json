@@ -1,0 +1,65 @@
+{
+    "Description" : {
+        "Id" : "fp_legUp_kickingTheNest",
+        "Name" : "Call of the Locusts",
+        "Details" : "Unexpected Access.",
+        "Icon" : "uixTxrSpot_fp_BloodyInsects"
+    },
+    "Weight" : 1,
+    "InternalName" : "legUp_kickingTheNest",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 1,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "event_co_legup_NEVER",
+                    "fp_choice_cancel",
+                    "fp_Legup_kickingTheNest_Complete"
+                ],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_alloway"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "AuriganPirates"
+    ],
+    "TargetFaction" : "HostileMercenaries",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "SHORT",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_legUp_kickingTheNest",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_Weapons_fp_kickingTheNest",
+    "UnitDropTonnageHint" : "Light",
+    "LanceDropTonnageHint" : "Light",
+    "FlashpointShortDescription" : "Commander {COMMANDER.LastName}, You don't know us but, we know you and have been keeping an eye on your new company.  \r\n\r\nStay the course and we're sure we can both profit... ",
+    "FlashpointDescriberCastDefId" : "castDef_HM_unknownOrigin_GangsterDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "Flashpoint_CallOfTheLocusts",
+    "Enabled": true,
+	
+    "Version": "2.0.0",
+
+    "Author": "Carson Daut'rieve",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+	{ "Type": "CastDef", "Path": "cast" },
+	{ "Type": "ContractOverride", "Path": "contracts" }, 
+	{ "Type": "SimGameEventDef", "Path": "events" },	
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }
+    ]
+}
