@@ -56,8 +56,9 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "range_long"
+          "component_type_variant",
+          "component_type_variant2",
+          "range_long"
         ],
         "tagSetSourceFile" : ""
     },

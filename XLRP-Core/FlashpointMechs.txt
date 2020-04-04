@@ -1,5 +1,11 @@
 Flashpoints
 
+Vanilla Flashpoints:
+ON1-K: Orion
+ENF-4R: Enforcer
+BLR-1G: Battlemaster
+JR7-D: Jenner
+
 Arano Restoration:
 TDR-5SE: Custom Thunderbolt
 KGC-000v: King Crab

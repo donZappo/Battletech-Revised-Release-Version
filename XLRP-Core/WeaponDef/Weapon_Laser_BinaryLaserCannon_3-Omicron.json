@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 4 Refire |+ 12 Dmg.",
-    "BonusValueB" : "+ 0.7 Tons,
+    "BonusValueB" : "+ 0.7 Tons",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",
@@ -51,13 +51,12 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
-    "statusEffects" : [
-        
-    ],
+    "statusEffects" : [],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "range_long"
+          "component_type_variant",
+          "component_type_variant3",
+          "range_long"
         ],
         "tagSetSourceFile" : ""
     },

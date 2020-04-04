@@ -11,7 +11,7 @@
         "UIName" : "Heavy Sword",
         "Id" : "Gear_Actuator_BlackKnight_Sword",
         "Name" : "Defiance Type 3",
-        "Details" : "The Heavy Sword is a melee weapon equipped to the Black Knight to apply force multiplication benefits in close combat. The Defience Type 3 model is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can be repaired.",
+        "Details" : "The Heavy Sword is a melee weapon equipped to apply force multiplication benefits in close combat. The Defience Type 3 model is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can be repaired.",
         "Icon" : "UixSvgIcon_specialEquip_Melee"
     },
     "BonusValueA" : "+ 100 Melee Dmg.",

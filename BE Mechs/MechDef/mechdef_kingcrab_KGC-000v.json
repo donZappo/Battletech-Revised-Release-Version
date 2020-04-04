@@ -1,8 +1,8 @@
 {
     "MechTags": {
         "items": [
+            "unit_release", 
 			"unit_flashpoint",
-			"NOSALVAGE",
 			"BLACKLISTED",
 			"unit_notsacellum"
         ],
@@ -18,7 +18,7 @@
         "Model": null,
         "UIName": "King Crab KGC-000v",
         "Id": "mechdef_kingcrab_KGC-000v",
-        "Name": "King Crab",
+        "Name": "King Crab (A)",
         "Details": "This customized King Crab was driven by Victoria Espinosa, of the short-lived Aurigan Directorate. Armed with the best weaponry the Directorate could manage to acquire, it was an absolute death machine against anything it could see. Now, the power rests in your hands. Be bold, Commander.",
         "Icon": "uixTxrIcon_kingcrab"
     },

@@ -1,27 +1,38 @@
 {
+	"Custom": {
+		"ArmActuatorSupport": {
+			"LeftLimit": "Upper",
+			"RightLimit": "Upper"
+		},
+		"AssemblyVariant": {
+			"PrefabID": "RiflemanII",
+			"Exclude": true,
+			"Include": false
+		}
+	},
 	"Description": {
-		"Cost": 6888000,
-		"Rarity": 4,
+		"Cost": 5900000,
+		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Quickdraw",
-		"Id": "chassisdef_quickdraw_QKD-C",
-		"Name": "Quickdraw",
-		"Details": "A modification of the QKD-5K, the -C simply switches a Medium Laser for a C3 slave unit to better allow the Quickdraw to link up with fellow Combine mechs in a C3 net. Otherwise, it is the same as the -5K.",
-		"Icon": "uixTxrIcon_quickdraw"
+		"UIName": "Rifleman II",
+		"Id": "chassisdef_riflemanii_RFL-3N-2",
+		"Name": "Rifleman II",
+		"Details": "The extremely-rare Rifleman II was an upgrade fielded by the SLDF Royals in 2720, adding twenty tons to its overall mass. The Rifleman II used an Endo Steel structure and an XL Engine, and carried a pair of LB-X Autocannon/10s and Large Pulse Lasers, one in each arm, as well as a pair of Medium Lasers, a Beagle Active Probe, and fourteen Double Heat Sinks. It carried 12 Tons of regular Armor.",
+		"Icon": "uixTxrIcon_rifleman"
 	},
-	"MovementCapDefID": "movedef_quickdraw_QKD-4G",
+	"MovementCapDefID": "movedef_rifleman_RFL-3N",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_quickdraw",
-	"PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
-	"PrefabBase": "quickdraw",
-	"Tonnage": 60,
-	"InitialTonnage": 6,
-	"weightClass": "HEAVY",
-	"BattleValue": 6922000,
+	"HardpointDataDefID": "hardpointdatadef_rifleman",
+	"PrefabIdentifier": "chrPrfMech_riflemanBase-001",
+	"PrefabBase": "rifleman",
+	"Tonnage": 80,
+	"InitialTonnage": 8,
+	"weightClass": "ASSAULT",
+	"BattleValue": 5514000,
 	"Heatsinks": 0,
-	"TopSpeed": 150,
+	"TopSpeed": 120,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
 	"Stability": 160,
@@ -39,13 +50,13 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 75,
-	"MeleeInstability": 60,
+	"MeleeDamage": 85,
+	"MeleeInstability": 75,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 75,
+	"DFADamage": 90,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 75,
-	"DFAInstability": 75,
+	"DFASelfDamage": 90,
+	"DFAInstability": 90,
 	"Locations": [
 		{
 			"Location": "Head",
@@ -60,11 +71,15 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
 					"Omni": false
 				}
 			],
@@ -84,10 +99,6 @@
 				{
 					"WeaponMount": "Energy",
 					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -98,16 +109,7 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 16,
 			"MaxArmor": 200,
@@ -136,11 +138,15 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMount": "Energy",
+					"WeaponMount": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "Energy",
 					"Omni": false
 				}
 			],
@@ -172,58 +178,58 @@
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 15,
-			"z": 0
+			"y": 14,
+			"z": 0.5
 		},
 		{
-			"x": 3.5,
+			"x": 4.5,
 			"y": 13,
-			"z": 0
+			"z": -0.5
 		},
 		{
-			"x": -3.5,
+			"x": -4.5,
 			"y": 13,
-			"z": 0
+			"z": -0.5
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 15,
-			"z": 0
+			"y": 14,
+			"z": 0.5
 		},
 		{
-			"x": 3.5,
+			"x": 4.5,
 			"y": 13,
-			"z": 0
+			"z": -0.5
 		},
 		{
-			"x": -3.5,
+			"x": -4.5,
 			"y": 13,
-			"z": 0
+			"z": -0.5
 		},
 		{
-			"x": 3,
+			"x": 2.5,
 			"y": 5,
-			"z": 0
+			"z": 1.25
 		},
 		{
-			"x": -3,
+			"x": -2.5,
 			"y": 5,
-			"z": 0
+			"z": 1.25
 		}
 	],
-	"VariantName": "QKD-C",
+	"VariantName": "RFL-3N-2",
 	"ChassisTags": {
 		"items": [],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Striker Cavalry",
-	"YangsThoughts": "A modification of the QKD-5K, the -C simply switches a Medium Laser for a C3 slave unit to better allow the Quickdraw to link up with fellow Combine mechs in a C3 net. Otherwise, it is the same as the -5K.",
+	"StockRole": "Anti-Aircraft & Direct-Fire Support",
+	"YangsThoughts": "The extremely-rare Rifleman II was an upgrade fielded by the SLDF Royals in 2720, adding twenty tons to its overall mass. The Rifleman II used an Endo Steel structure and an XL Engine, and carried a pair of LB-X Autocannon/10s and Large Pulse Lasers, one in each arm, as well as a pair of Medium Lasers, a Beagle Active Probe, and fourteen Double Heat Sinks. It carried 12 Tons of regular Armor.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Quickdraw",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Rifleman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -235,7 +241,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
