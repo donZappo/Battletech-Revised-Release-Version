@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+      {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_400", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
         "Cost": 9728640, 
         "Rarity": 2, 
@@ -42,7 +54,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
+    "MeleeDamage": 220, 
     "MeleeInstability": 80, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 100, 

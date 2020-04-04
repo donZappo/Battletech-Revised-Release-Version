@@ -1,207 +1,211 @@
 {
-  "FixedEquipment": [],
-  "Description": {
-    "Cost": 6000000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Quickdraw",
-    "Id": "chassisdef_quickdraw_QKD-5M",
-    "Name": "Quickdraw",
-    "Details": "Technicron's replacement for the original 4G model, the 5M was introduced in 3049 as an answer to the original's heat problems by replacing the normal heat sinks with double-strength versions. It also improved the design's defenses by swapping out the regular armor with Ferro-Fibrous and installing CASE for the LRM's ammunition. The space necessary for these upgrades was provided for by removing the SRM launcher for a one-shot SRM-4 Launcher, a disposable missile launcher more commonly found on VTOLs, hovercraft and similar combat vehicles.",
-    "Icon": "uixTxrIcon_quickdraw"
-  },
-  "MovementCapDefID": "movedef_heavymech",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_quickdraw",
-  "PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
-  "PrefabBase": "quickdraw",
-  "Tonnage": 60.0,
-  "InitialTonnage": 6.0,
-  "weightClass": "HEAVY",
-  "BattleValue": 6922000.0,
-  "Heatsinks": 0,
-  "TopSpeed": 150,
-  "TurnRadius": 90,
-  "MaxJumpjets": 5,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 55,
-  "MeleeInstability": 60,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 75,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 75,
-  "DFAInstability": 75,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 4,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 5942360, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Quickdraw", 
+        "Id": "chassisdef_quickdraw_QKD-5M", 
+        "Name": "Quickdraw", 
+        "Details": "Technicron's replacement for the original 4G model, the 5M was introduced in 3049 as an answer to the original's heat problems by replacing the normal heat sinks with double-strength versions. It also improved the design's defenses by swapping out the regular armor with Ferro-Fibrous and installing CASE for the LRM's ammunition. The space necessary for these upgrades was provided for by removing the SRM launcher for a one-shot SRM-4 Launcher, a disposable missile launcher more commonly found on VTOLs, hovercraft and similar combat vehicles.", 
+        "Icon": "uixTxrIcon_quickdraw"
+    }, 
+    "VariantName": "QKD-5M", 
+    "StockRole": "Striker Cavalry", 
+    "YangsThoughts": "The Quickdraw 5M deal with the heat a little better because of the double heat sinks. The SRM launcher is downgraded to a one shot design not normally seen on 'Mechs but the rest of the mech is better for it.", 
+    "PrefabIdentifier": "chrPrfMech_quickdrawBase-001", 
+    "PrefabBase": "quickdraw", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6922000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 150, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 60, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 75, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 75, 
+    "DFAInstability": 75, 
+    "ChassisTags": {
+        "items": [
+            "QuickdrawFightingStyle", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_quickdraw", 
+    "LOSSourcePositions": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ], 
+    "LOSTargetPositions": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": 70,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
         }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 16,
-      "MaxArmor": 200,
-      "MaxRearArmor": 100,
-      "InternalStructure": 100
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 140,
-      "MaxRearArmor": 70,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0.0,
-      "InventorySlots": 12,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0.0,
-      "InventorySlots": 6,
-      "MaxArmor": 140,
-      "MaxRearArmor": -1,
-      "InternalStructure": 70
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 13.0,
-      "z": 0.0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 15.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.5,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.5,
-      "y": 13.0,
-      "z": 0.0
-    },
-    {
-      "x": 3.0,
-      "y": 5.0,
-      "z": 0.0
-    },
-    {
-      "x": -3.0,
-      "y": 5.0,
-      "z": 0.0
-    }
-  ],
-  "VariantName": "QKD-5M",
-  "ChassisTags": {
-    "items": [
-      "chassis_ferro",
-      "mech_case_left"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Striker Cavalry",
-  "YangsThoughts": "The Quickdraw 5M deal with the heat a little better because of the double heat sinks. The SRM launcher is downgraded to a one shot design not normally seen on 'Mechs but the rest of the mech is better for it."
+    ]
 }

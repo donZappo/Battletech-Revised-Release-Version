@@ -44,7 +44,7 @@
     "EngageRangeModifier": 0, 
     "MeleeDamage": 70, 
     "MeleeInstability": 45, 
-    "MeleeToHitModifier": 0, 
+    "MeleeToHitModifier": -2, 
     "DFADamage": 55, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 55, 

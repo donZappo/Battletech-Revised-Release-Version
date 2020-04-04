@@ -14,7 +14,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Challenger CGR-SB", 
+        "UIName": "Charger CGR-SB", 
         "Id": "mechdef_charger_CGR-SB", 
         "Name": "Charger", 
         "Details": "This radical modification looks to turn the Charger into a traditional assault 'Mech by reducing the 'Mechs speed to 54 km/h, which allows the use of a smaller engine (incidentally, the commonplace Pitban 240 reactor). The 'Mech is armored with fifteen and a half tons of armor and is armed with four Large Lasers, one in each arm and side torso, and a Medium Laser in its head; twenty-eight heat sinks kept the 'Mech cool.", 
@@ -49,55 +49,55 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
-            "CurrentArmor": 165, 
-            "CurrentRearArmor": 80, 
+            "CurrentArmor": 170, 
+            "CurrentRearArmor": 70, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 165, 
-            "AssignedRearArmor": 80
+            "AssignedArmor": 170, 
+            "AssignedRearArmor": 70
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
-            "CurrentArmor": 165, 
-            "CurrentRearArmor": 80, 
+            "CurrentArmor": 170, 
+            "CurrentRearArmor": 70, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 165, 
-            "AssignedRearArmor": 80
+            "AssignedArmor": 170, 
+            "AssignedRearArmor": 70
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftArm", 
-            "CurrentArmor": 130, 
+            "CurrentArmor": 125, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 65, 
-            "AssignedArmor": 130, 
+            "AssignedArmor": 125, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightArm", 
-            "CurrentArmor": 130, 
+            "CurrentArmor": 125, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 65, 
-            "AssignedArmor": 130, 
+            "AssignedArmor": 125, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 160, 
+            "CurrentArmor": 170, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 160, 
+            "AssignedArmor": 170, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 160, 
+            "CurrentArmor": 170, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 160, 
+            "AssignedArmor": 170, 
             "AssignedRearArmor": 0
         }
     ], 
@@ -499,17 +499,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_240", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
             "SimGameUID": "", 
@@ -536,17 +525,6 @@
             "ComponentDefID": "emod_kit_shs", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_Gyro_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -643,7 +621,18 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "ComponentDefID": "mech_quirk_charger_charge", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Gyro_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

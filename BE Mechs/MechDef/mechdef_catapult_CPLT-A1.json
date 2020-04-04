@@ -9,7 +9,7 @@
     "ChassisID": "chassisdef_catapult_CPLT-A1", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1297728, 
+        "Cost": 1322200, 
         "Rarity": 4, 
         "Purchasable": false, 
         "Manufacturer": null, 
@@ -455,8 +455,52 @@
             "hasPrefabName": false
         }, 
         {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "ComponentDefID": "mech_quirk_sideways_ejection_system_1", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -464,51 +508,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1297728
+    "simGameMechPartCost": 1322200
 }

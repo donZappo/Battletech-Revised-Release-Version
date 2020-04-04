@@ -1,0 +1,208 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1490360, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Commando", 
+        "Id": "chassisdef_commando_COM-1B-RV", 
+        "Name": "Commando", 
+        "Details": "In a bid to increase the combat viability of this venerable design, the COM-1B-RV replaces the iconic Large Laser with a COIL-L and the Medium Laser with a COIL-S. With this weapon refit, the SRM2 was dropped, allowing for additional tonnage to go towards bolstering the frontal armor to increase endurance.", 
+        "Icon": "uixTxrIcon_commando"
+    }, 
+    "VariantName": "COM-1B-RV", 
+    "StockRole": "Light Sniper & Scout", 
+    "YangsThoughts": "This 1B-RV relies on speed for its survivability, even at long range. Don't let the increased armor fool you however, mobility is the key to its damage output and capability to doge enemy fire. Oh and watch the heat on this 'Mech as it is notorious for running hot when continuously firing on the move.", 
+    "PrefabIdentifier": "chrPrfMech_commandoBase-001", 
+    "PrefabBase": "commando", 
+    "Tonnage": 25, 
+    "InitialTonnage": 2.5, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 2061000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 25, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 30, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 30, 
+    "DFAInstability": 30, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_commando", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 9.5, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8.5, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8.5, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 9.5, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8.5, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8.5, 
+            "z": -0.5
+        }, 
+        {
+            "x": -1.5, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 1.5, 
+            "y": 3, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }
+    ]
+}

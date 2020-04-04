@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [        
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_360", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+    ], 
     "Description": {
         "Cost": 6171000, 
         "Rarity": 5, 
@@ -51,7 +63,7 @@
     "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "mech_case_left", 
+            "DragonFightingMode", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

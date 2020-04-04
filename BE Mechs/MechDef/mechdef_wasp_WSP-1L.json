@@ -531,17 +531,6 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }
     ], 
     "simGameMechPartCost": 250432
 }

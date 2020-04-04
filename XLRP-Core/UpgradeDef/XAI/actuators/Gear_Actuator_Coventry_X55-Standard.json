@@ -8,7 +8,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "X55 Standard",
-        "UIName" : "Arm Hybrid +",
+        "UIName" : "Hybrid Arm",
         "Id" : "Gear_Actuator_Coventry_X55-Standard",
         "Name" : "Coventry X55 Standard Arm Mod",
           "Details" : "Coventry makes arm actuators for every industry in the IS, ranging from construction equipment to specialized Solaris close combat actuators.  Coventry takes a 'heavy handed' approach to arm actuators and believes the bigger the better. By increasing the size of servo actuators, motors, and pneumatics you can achieve the most damage. The X55 <color=#6aa84f>increases melee target and instability damage.</color>",

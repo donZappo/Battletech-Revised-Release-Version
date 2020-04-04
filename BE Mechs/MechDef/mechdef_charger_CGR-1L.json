@@ -14,8 +14,8 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Charger CGR-1L", 
-        "Id": "mechdef_charger_CGR-1L", 
+        "UIName": null, 
+        "Id": "mechdef_CUSTOM_78f1ecc6-de19-42c9-9634-876ca9c01d7b", 
         "Name": "Charger", 
         "Details": "An export model sold to the Capellan Confederation as part of the Kapteyn Accords, the CGR-1L was a simple modification of the Charger in an attempt to make it more effective following their disastrous use on Chara in 3023. In place of four and a half tons of armor and all five Small Lasers, the 1L mounts a Large Laser in its right arm and two medium lasers in either side torso. While more prone to overheating and less protected - mounting armor comparable to that of a traditional scout 'Mech - it was better capable of defending itself against other scout 'Mechs, and at the time that was good enough for the desperate warriors of the Capellan Confederation Armed Forces. Since then, the CGR-1L has remained in Capellan service as a training 'Mech and, according to rumor, punishment assignment for dissident soldiers.", 
         "Icon": "uixTxrIcon_charger"
@@ -49,20 +49,20 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
-            "CurrentArmor": 70, 
-            "CurrentRearArmor": 35, 
+            "CurrentArmor": 60, 
+            "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 70, 
-            "AssignedRearArmor": 35
+            "AssignedArmor": 60, 
+            "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
-            "CurrentArmor": 70, 
-            "CurrentRearArmor": 35, 
+            "CurrentArmor": 60, 
+            "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 70, 
-            "AssignedRearArmor": 35
+            "AssignedArmor": 60, 
+            "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
@@ -85,19 +85,19 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 40, 
+            "CurrentArmor": 55, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 40, 
+            "AssignedArmor": 55, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 40, 
+            "CurrentArmor": 55, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 85, 
-            "AssignedArmor": 40, 
+            "AssignedArmor": 55, 
             "AssignedRearArmor": 0
         }
     ], 
@@ -268,17 +268,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_400", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
             "SimGameUID": "", 
@@ -412,7 +401,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
+            "ComponentDefID": "mech_quirk_charger_charge", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

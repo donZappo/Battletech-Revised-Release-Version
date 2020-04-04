@@ -1,0 +1,214 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1505490, 
+        "Rarity": 0, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Mongoose", 
+        "Id": "chassisdef_mongoose_MON-66-RV", 
+        "Name": "Mongoose", 
+        "Details": "This Mongoose was designed as a deep recon 'Mech variant that eschewed two Medium Lasers for relatively new COIL-S close range energy weapon systems. As a direct competitor to the Locust, this variant is intended to deal increased damage while on the move and so far has proven adequate at this task.", 
+        "Icon": "uixTxrIcon_mongoose"
+    }, 
+    "VariantName": "MON-66-RV", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "Must be something about those chicken legs boss, the Mongoose is one of the faster 'Mechs out there.  Combined with its firepower and durability, I think any of our Scouts would prefer this over a Locust.", 
+    "PrefabIdentifier": "chrprfmech_mongoosebase-001", 
+    "PrefabBase": "mongoose", 
+    "Tonnage": 25, 
+    "InitialTonnage": 2.5, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 2061000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 85, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 25, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 30, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 30, 
+    "DFAInstability": 30, 
+    "ChassisTags": {
+        "items": [
+            "HighPrecisionLaserTargeting", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_mongoose", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": -1.5, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 1.5, 
+            "y": 3, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 30
+        }
+    ]
+}

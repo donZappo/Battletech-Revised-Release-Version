@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [        
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }
+    ], 
     "Description": {
         "Cost": 1331000, 
         "Rarity": 1, 

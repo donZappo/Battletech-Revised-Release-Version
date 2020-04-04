@@ -1,0 +1,208 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 1278360, 
+        "Rarity": 0, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Locust", 
+        "Id": "chassisdef_locust_LCT-1E-RV", 
+        "Name": "Locust", 
+        "Details": "Considered a failed refit initiative by pilots, the LCT-1E-RV swaps both Small Lasers for two COIL-S energy weapons to increase its striking capability when harassing other light 'Mechs. In order to maintain the top speed of the well-known Locust chassis this variant has dropped nearly a ton of armor and relocated two Heat Sinks to the Center Torso to maintain balance.", 
+        "Icon": "uixTxrIcon_locust"
+    }, 
+    "VariantName": "LCT-1E-RV", 
+    "StockRole": "Light Fire Support", 
+    "YangsThoughts": "The 1E-RV ditches the normal Small Lasers of its parent variant and replaces them with COIL-S weapons. It'll hit hard if you use 'Boom-N-Zoom' energy fighting tactics. It runs hot, has very little armor and should focus on hunting other light 'Mechs.", 
+    "PrefabIdentifier": "chrPrfMech_locustBase-001", 
+    "PrefabBase": "locust", 
+    "Tonnage": 20, 
+    "InitialTonnage": 2, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 1800000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 210, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 8, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 15, 
+    "MeleeInstability": 20, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 25, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 25, 
+    "DFAInstability": 25, 
+    "ChassisTags": {
+        "items": [
+            "AbundantBaffles", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_locust", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 8, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 8, 
+            "z": -1
+        }, 
+        {
+            "x": -2, 
+            "y": 8, 
+            "z": -1
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 8, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 8, 
+            "z": -1
+        }, 
+        {
+            "x": -2, 
+            "y": 8, 
+            "z": -1
+        }, 
+        {
+            "x": 1.5, 
+            "y": 3, 
+            "z": 0
+        }, 
+        {
+            "x": -1.5, 
+            "y": 3, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 30, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 15
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": 25, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": 25, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 30, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 15
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }
+    ]
+}

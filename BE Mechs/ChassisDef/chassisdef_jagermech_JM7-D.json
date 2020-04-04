@@ -1,0 +1,243 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 7311960, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "JagerMech", 
+        "Id": "chassisdef_jagermech_JM7-D", 
+        "Name": "JagerMech", 
+        "Details": "The first of the heavier JM7 JagerMech variants introduced in 3057, the D variation adds five tons of overall weight to the JM6-DD, four and one-half of which go directly to increased Ferro-Fibrous armor. The Autocannon/2s are replaced with ER Large Lasers.", 
+        "Icon": "uixTxrIcon_jagermech"
+    }, 
+    "VariantName": "JM7-D", 
+    "StockRole": "Sniper & Direct-Fire Support", 
+    "YangsThoughts": "The first of the heavier JM7 JagerMech variants introduced in 3057, the D variation adds five tons of overall weight to the JM6-DD, four and one-half of which go directly to increased Ferro-Fibrous armor. The Autocannon/2s are replaced with ER Large Lasers.", 
+    "PrefabIdentifier": "chrPrfMech_jagermechBase-001", 
+    "PrefabBase": "jagermech", 
+    "Tonnage": 70, 
+    "InitialTonnage": 7, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5514000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 5, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 65, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 90, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 90, 
+    "DFAInstability": 90, 
+    "ChassisTags": {
+        "items": [
+            "RangefinderSuite", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_jagermech", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 14, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 5, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 220, 
+            "MaxRearArmor": 110, 
+            "InternalStructure": 110
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }
+    ]
+}

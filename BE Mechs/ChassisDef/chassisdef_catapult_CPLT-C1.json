@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 6488640, 
+        "Cost": 6611000, 
         "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -51,6 +51,7 @@
     "DFAInstability": 80, 
     "ChassisTags": {
         "items": [
+            "SidewaysEjectionSystem1", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -118,8 +119,8 @@
             "Location": "LeftArm", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
+                    "WeaponMount": "Missile", 
+                    "Omni": false
                 }
             ], 
             "Tonnage": 0, 
@@ -132,12 +133,16 @@
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Energy", 
+                    "Omni": false
                 }, 
                 {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile", 
+                    "Omni": false
+                }, 
+                {
+                    "WeaponMount": "AntiPersonnel", 
+                    "Omni": false
                 }
             ], 
             "Tonnage": 0, 
@@ -150,12 +155,12 @@
             "Location": "CenterTorso", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Energy", 
+                    "Omni": false
                 }, 
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Energy", 
+                    "Omni": false
                 }
             ], 
             "Tonnage": 0, 
@@ -168,12 +173,16 @@
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Energy", 
+                    "Omni": false
                 }, 
                 {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile", 
+                    "Omni": false
+                }, 
+                {
+                    "WeaponMount": "AntiPersonnel", 
+                    "Omni": false
                 }
             ], 
             "Tonnage": 0, 
@@ -186,8 +195,8 @@
             "Location": "RightArm", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
+                    "WeaponMount": "Missile", 
+                    "Omni": false
                 }
             ], 
             "Tonnage": 0, 
