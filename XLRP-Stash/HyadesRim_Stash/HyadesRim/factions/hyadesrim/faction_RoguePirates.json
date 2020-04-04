@@ -38,7 +38,7 @@
         "RimPirates",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "factionID" : "RoguePirates",
   	"icon" : "uixTxrLogo_RoguePirates",
 	"DefaultCombatLeaderCastDefId" : "castDef_RoguePirateLeaderDefault",

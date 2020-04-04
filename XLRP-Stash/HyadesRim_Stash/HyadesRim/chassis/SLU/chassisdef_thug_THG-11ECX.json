@@ -1,8 +1,8 @@
 {
     "Description": {
         "Cost": 18888600,
-        "Rarity": 5,
-        "Purchasable": true,
+        "Rarity": 99,
+        "Purchasable": false,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Thug",
@@ -11,11 +11,11 @@
         "Details": "Piloted by mercenary Jose Magellan during the fall of the Star League, this Thug variant replaces the standard engine with an extralight model. The PPCs are replaced by ER Large Lasers. In the space freed, Magellan installed three more SRM-6 launchers, for a total of five. The cockpit adds a Command Console to allow a commander to see the entire battlefield. Four jump jets allow the Thug Jose to cover 120 meters at a time. Finally, a Null Signature System interfered with SLDF targeting systems.",
         "Icon": "uixTxrIcon_thug"
     },
-    "MovementCapDefID": "movedef_thug_THG-11E",
+    "MovementCapDefID": "movedef_thug_THG-11ECX",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_battlemaster",
-    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
-    "PrefabBase": "battlemaster",
+    "HardpointDataDefID": "hardpointdatadef_warhammer",
+    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
+    "PrefabBase": "warhammer",
     "Tonnage": 80,
     "InitialTonnage": 25,
     "weightClass": "ASSAULT",
@@ -217,7 +217,7 @@
     "YangsThoughts": "This 'Mech was built to hunt down and kill SLDF 'Mechs, specially commanders.",
     "FixedEquipment" : [
         {
-            "MountedLocation" : "CenterTorso",
+            "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Gear_General_Optimized_Capacitors",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
@@ -229,7 +229,7 @@
             "hasPrefabName" : false
         },
         {
-            "MountedLocation" : "RightTorso",
+            "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Sensor_Stealth_ECM",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",

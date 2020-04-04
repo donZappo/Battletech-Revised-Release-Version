@@ -1,14 +1,14 @@
 {
     "Description": {
         "Cost": 22454540,
-        "Rarity": 5,
-        "Purchasable": true,
+        "Rarity": 99,
+        "Purchasable": false,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Exterminator",
         "Id": "chassisdef_exterminator_EXT-4C",
         "Name": "Exterminator",
-        "Details": "The Exterminator a headhunter, with six jump jets and an XL engine to give it superior mobility. The EXT-4C also carries an ECM Stealth suite for the Exterminator to approach its targets undetected and double heat sinks.",
+        "Details": "The Exterminator is a headhunter, with six jump jets and an XL engine to give it superior mobility. The EXT-4C also carries an ECM Stealth suite for the Exterminator to approach its targets undetected and double heat sinks.",
         "Icon": "uixTxrIcon_exterminator"
     },
     "MovementCapDefID": "movedef_exterminator_EXT-4C",
@@ -208,7 +208,7 @@
     "YangsThoughts": "I keep wondering where the pirates are getting their LosTech.  This Exterminator is equipped not only with a stealth system, but with an upgraded engine that gives it extra movement and dissipation abilities.",
     "FixedEquipment" : [
         {
-            "MountedLocation" : "LeftTorso",
+            "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Gear_General_Intercept_System",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
@@ -220,7 +220,7 @@
             "hasPrefabName" : false
         },
         {
-            "MountedLocation" : "RightTorso",
+            "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "Gear_Sensor_Stealth_ECM",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",

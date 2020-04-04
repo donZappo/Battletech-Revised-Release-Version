@@ -64,7 +64,7 @@
                 {
                     "obj" : "Employer.RimPirates",
                     "op" : "Equal",
-                    "val" : 1,
+                    "val" : 0,
                     "valueConstant" : null
                 },
                 {

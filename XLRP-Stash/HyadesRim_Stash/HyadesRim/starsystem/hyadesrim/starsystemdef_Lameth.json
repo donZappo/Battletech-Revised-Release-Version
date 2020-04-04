@@ -18,7 +18,6 @@
 			"planet_pop_small",
 			"planet_civ_primitive",
 			"planet_industry_poor",
-			"planet_other_blackmarket",
 			"planet_climate_arctic",
 			"planet_faction_independent",
 			"planet_progress_2",
@@ -131,9 +130,7 @@
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": [
-        "itemCollection_faction_AuriganPirates"
-    ],
+    "BlackMarketShopItems": null,
     "CoreSystemID": "starsystemdef_Lameth",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",

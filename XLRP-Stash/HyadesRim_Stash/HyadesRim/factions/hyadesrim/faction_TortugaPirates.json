@@ -37,7 +37,7 @@
         "RimPirates",
         "InterstellarExpeditions",
     ],
-    "Presence" : 1,
+	"Presence": 0.7,
     "factionID" : "TortugaPirates",
   	"icon" : "uixTxrLogo_TortugaPirates",
 	"DefaultCombatLeaderCastDefId" : "castDef_TortugaPirateLeaderDefault",

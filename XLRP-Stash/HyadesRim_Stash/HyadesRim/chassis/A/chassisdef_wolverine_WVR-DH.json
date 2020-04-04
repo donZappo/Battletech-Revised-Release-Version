@@ -60,7 +60,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -213,7 +213,7 @@
     "YangsThoughts": "This Wolverine is equipped with a Tek BattleCom, in addition all its lasers and SRM launcher have been upgraded to extended range versions.",
     "FixedEquipment" : [
         {
-            "MountedLocation" : "Head",
+            "MountedLocation" : "CenterTorso",
             "ComponentDefID" : "Gear_Cockpit_Tek_BattleCom",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",

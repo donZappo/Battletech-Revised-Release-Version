@@ -2,7 +2,7 @@
     "ID" : "faction_InterstellarExpeditions",
     "Name" : "Interstellar Expeditions",
     "ShortName" : "IE",
-    "Description" : "Interstellar Expeditions is a group of archaeologists, historians and anthropologists founded by the idle wealthy to investigate unsolved mysteries of the galaxy. While the group is respected by its scientific work, IE has found itself in the middle of several controversial incidents, with some of its members accused of being 'mercenary archeologists' due to their engagement in blatant treasure hunting.",
+    "Description" : "Interstellar Expeditions is a group of archaeologists, historians and anthropologists founded by the idle wealthy to investigate unsolved mysteries of the galaxy. While their scientific work is mostly respected, IE has found itself in the middle of several controversial incidents, with some of its members accused of being 'mercenary archeologists' due to their engagement in blatant treasure hunting.",
     "Demonym" : "IE",
     "Government" : "corporation",
     "Allies" : [
@@ -23,7 +23,7 @@
         "SyrtisPirates",
         "RimPirates",
     ],
-	"Presence": 0.8,
+	"Presence": 0.5,
     "ReputationStatements" : [
         "We need to hire a reasonable mercenary company to protect our expeditions in this area.",
         "We need to hire a reasonable mercenary company to protect our expeditions in this area.",

@@ -6,9 +6,9 @@
     "Demonym" : "eye",
     "Government" : "gang",
     "Allies" : [
-        "AntithesisCreed"
     ],
     "Enemies" : [
+        "AntithesisCreed",
 		"Locals",
         "AuriganPirates",
         "Warboys",
@@ -39,7 +39,7 @@
 		"MagnaMetals",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "ReputationStatements" : [
         "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
         "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",

@@ -12,8 +12,8 @@
     },
     "Tags": {
         "items": [
-			"planet_other_fp_HM1",
 			"planet_region_hyadesrim",
+			"planet_pop_none",
             "planet_size_medium",
             "planet_climate_rocky",
             "planet_progress_2",

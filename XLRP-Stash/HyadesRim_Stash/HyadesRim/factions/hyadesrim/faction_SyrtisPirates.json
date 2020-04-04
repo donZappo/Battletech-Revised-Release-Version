@@ -39,7 +39,7 @@
         "RimPirates",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "factionID" : "SyrtisPirates",
   	"icon" : "uixTxrLogo_SyrtisPirates",
 	"DefaultCombatLeaderCastDefId" : "castDef_SyrtisPirateLeaderDefault",
@@ -66,6 +66,7 @@
     "DataManager" : null,
     "storePanelImage" : null,
     "factionStoreColor" : null,
+    "factionMapColor" : "rgba(255,220,107,1.0)",
     "StartingReputationValues" : [
         -15,
         -15,

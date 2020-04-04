@@ -1180,8 +1180,8 @@
 			"IsProceduralContractFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1203,8 +1203,8 @@
 			"IsProceduralContractFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1226,8 +1226,8 @@
 			"IsProceduralContractFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1249,8 +1249,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1272,8 +1272,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1295,8 +1295,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : false,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1318,8 +1318,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1341,8 +1341,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1364,8 +1364,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1387,8 +1387,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1410,8 +1410,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1433,8 +1433,8 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1456,8 +1456,31 @@
 			"IsPossibleAllyFallbackFaction" : true,
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
+			"HasAIBehaviorVariableScope" : false
+		},
+		{
+			"ID" : 679,
+			"Name" : "AutocracyOfLeh",
+			"FriendlyName" : "AutocracyOfLeh",
+			"Description" : "",
+			"FactionDefID" : "faction_AutocracyOfLeh",
+			"IsRealFaction" : true,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : false,
+			"CanAlly" : false,
+			"IsProceduralContractFaction" : false,
+			"IsPossibleNeutralToAllFaction" : false,
+			"IsPossibleHostileToAllFaction" : false,
+			"IsPossibleAllyFallbackFaction" : false,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : false,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1480,7 +1503,7 @@
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1503,7 +1526,7 @@
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1526,7 +1549,7 @@
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1549,7 +1572,7 @@
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -1572,7 +1595,7 @@
 			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{

@@ -18,7 +18,6 @@
 			"planet_climate_arid",
 			"planet_pop_small",
 			"planet_civ_periphery",
-			"planet_other_blackmarket",
 			"planet_other_hub",
 			"planet_industry_agriculture",
 			"planet_other_newcolony",
@@ -132,9 +131,7 @@
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": [
-        "itemCollection_faction_AuriganPirates"
-    ],
+    "BlackMarketShopItems": null,
     "CoreSystemID": "starsystemdef_BelleIsle",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",

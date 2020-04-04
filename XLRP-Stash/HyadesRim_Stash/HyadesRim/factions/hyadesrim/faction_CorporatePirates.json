@@ -1,8 +1,8 @@
 {
     "ID" : "faction_CorporatePirates",
-    "Name" : "Eagle Eye Inc.",
-    "ShortName" : "Eagle Eye",
-	"Description" : "Eagle Eye Incorporated was once a Marik company that provided security and debt recovery services throughout the Aurigan Reach.  Faced with growing losses and bankrupcy, its leaders decided to extend their activities to assassination, robbery, extorsion and ransom, and ended being declared a criminal organization by most governments.  The group mainly operates close to the Reach, often offering 'protection' services to both inhabitants and travellers.",
+    "Name" : "Unitron Incorporated",
+    "ShortName" : "Unitron",
+	"Description" : "Unitron Incorporated was once a Marik company that provided security and debt recovery services throughout the Aurigan Reach.  Faced with growing losses and bankrupcy, its leaders decided to extend their activities to assassination, robbery, extorsion and ransom, and ended being declared a criminal organization by most governments.  The group mainly operates close to the Reach, often offering 'protection' services to both inhabitants and travellers.",
     "Demonym" : "collector",
     "Government" : "gang",
     "Allies" : [
@@ -38,7 +38,7 @@
         "AuriganDirectorate",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "factionID" : "CorporatePirates",
   	"icon" : "uixTxrLogo_CorporatePirates",
 	"DefaultCombatLeaderCastDefId" : "castDef_CorporatePirateLeaderDefault",
@@ -65,6 +65,7 @@
     "DataManager" : null,
     "storePanelImage" : null,
     "factionStoreColor" : null,
+    "factionMapColor" : "rgba(200,146,255,1.0)",
     "StartingReputationValues" : [
         -15,
         -15,

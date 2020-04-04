@@ -1,8 +1,8 @@
 {
-    "ID" : "FireMission_Pirate_EveryFallingStar",
-    "contractName" : "Every Falling Star",
+    "ID" : "FireMission_Pirate_EveryFallingStar_Heavy",
+    "contractName" : "Earth Killer",
     "contractDisplayStyle" : "BaseCampaignNormal",
-    "difficulty" : 5,
+    "difficulty" : 8,
     "difficultyUIModifier" : 1,
     "weight" : 1,
     "scope" : "STANDARD",
@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "In the past we used an abandoned installion in {TGT_SYSTEM.name} to bury and hide a large cache of weapons. Unfortunately, the building was reocuppied by the {TEAM_TAR.FactionDef.ShortName} and there's now a {TEAM_TAR.FactionDef.Demonym} facility on top of it. It is too heavily guarded for direct assault but one of our dropships will capture an orbital meteor and release it in a trajectory to hit the facility, once you triangulate it but the window will be narrow and require a light sized lance for timely deployment. We would prefer for the cache to be destroyed without it ever be linked back to us, so we've filed with the MRB an additional bonus for completion of all objectives.",
+    "shortDescription" : "In the past we used an abandoned installion in {TGT_SYSTEM.name} to bury and hide a large cache of weapons. Unfortunately, the building was reocuppied by the {TEAM_TAR.FactionDef.ShortName} and there's now a {TEAM_TAR.FactionDef.Demonym} facility on top of it. It is too heavily guarded for direct assault but one of our dropships will capture an orbital meteor and release it in a trajectory to hit the facility, once you triangulate it but the window will be narrow.",
     "longDescription" : "I wonder what kinda pilot would even try that. And you can bet that there's something else than weapons buried there.",
     "salvagePotential" : 20,
     "requirementList" : [
@@ -139,7 +139,7 @@
                 {
                     "obj" : "Employer.RimPirates",
                     "op" : "Equal",
-                    "val" : 1,
+                    "val" : 0,
                     "valueConstant" : null
                 },
                 {

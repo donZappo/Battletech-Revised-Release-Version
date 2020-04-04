@@ -1,6 +1,6 @@
 {
     "ID" : "Assassinate_IE_BugHunt",
-    "contractName" : "Hunter the hunters",
+    "contractName" : "Hunt the hunters",
     "contractDisplayStyle" : "BaseCampaignNormal",
     "difficulty" : 2,
     "difficultyUIModifier" : 0,
@@ -48,12 +48,6 @@
                 },
                 {
                     "obj" : "Target.TortugaPirates",
-                    "op" : "Equal",
-                    "val" : 1,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Target.AntithesisCreed",
                     "op" : "Equal",
                     "val" : 1,
                     "valueConstant" : null

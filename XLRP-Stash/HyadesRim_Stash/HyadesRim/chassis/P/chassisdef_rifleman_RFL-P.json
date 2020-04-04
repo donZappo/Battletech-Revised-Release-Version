@@ -11,7 +11,7 @@
         "Details": "This pirate version of the Rifleman has four AC/2s instead of the larger autocannons and heavy lasers, with a a ton of armor also applied.",
         "Icon": "uixTxrIcon_rifleman"
     },
-    "MovementCapDefID": "movedef_rifleman_RFL-P",
+    "MovementCapDefID": "movedef_rifleman_RFL-3N",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_rifleman",
     "PrefabIdentifier": "chrPrfMech_riflemanBase-001",

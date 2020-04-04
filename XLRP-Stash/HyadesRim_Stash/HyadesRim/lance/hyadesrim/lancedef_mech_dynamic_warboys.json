@@ -29,19 +29,20 @@
          "unitTagSet" : {
             "items" : [
 				"unit_mech",
+				"Warboys"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
-               "unit_noncombatant",
+				"unit_noncombatant",
 				"NotWarboys"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -57,20 +58,20 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
-               "unit_noncombatant",
+				"unit_noncombatant",
 				"NotWarboys"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -86,20 +87,20 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
-               "unit_noncombatant",
+				"unit_noncombatant",
 				"NotWarboys"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -115,20 +116,20 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
-               "unit_noncombatant",
+				"unit_noncombatant",
 				"NotWarboys"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },

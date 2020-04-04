@@ -1,8 +1,8 @@
 {
     "Description": {
         "Cost": 3300000,
-        "Rarity": 1,
-        "Purchasable": true,
+        "Rarity": 99,
+        "Purchasable": false,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Spector",

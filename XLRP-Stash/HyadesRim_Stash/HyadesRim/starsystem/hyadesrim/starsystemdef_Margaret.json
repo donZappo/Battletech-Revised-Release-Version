@@ -14,6 +14,7 @@
         "items": [
             "planet_region_hyadesrim",
             "planet_size_small",
+			"planet_pop_small",
             "planet_climate_ice",
             "planet_progress_2",
             "planet_feature_moon03",

@@ -80,12 +80,6 @@
                     "valueConstant" : null
                 },
                 {
-                    "obj" : "Target.AntithesisCreed",
-                    "op" : "Equal",
-                    "val" : 0,
-                    "valueConstant" : null
-                },
-                {
                     "obj" : "Target.CanopianPirates",
                     "op" : "Equal",
                     "val" : 0,
@@ -141,12 +135,6 @@
                 },
                 {
                     "obj" : "Employer.TortugaPirates",
-                    "op" : "Equal",
-                    "val" : 0,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Employer.AntithesisCreed",
                     "op" : "Equal",
                     "val" : 0,
                     "valueConstant" : null

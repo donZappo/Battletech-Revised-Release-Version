@@ -5,11 +5,6 @@
         "Details": "This frozen world is made habitable by the constant geothermal activity that convulses its surface. This also makes it a source of highly valuable radioactive ores, and the Magistracy keeps a garrison on the planet to protect its interests there.",
         "Icon": ""
     },
-    "Position": {
-        "x": -62.84,
-        "y": -488.3,
-        "z": 0
-    },
     "Tags": {
         "items": [
             "planet_size_medium",

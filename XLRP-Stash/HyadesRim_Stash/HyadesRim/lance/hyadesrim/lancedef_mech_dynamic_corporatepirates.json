@@ -29,6 +29,7 @@
          "unitTagSet" : {
             "items" : [
 				"unit_mech",
+				"CorporatePirates"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },

@@ -61,7 +61,7 @@
                 {
                     "obj" : "Employer.RimPirates",
                     "op" : "Equal",
-                    "val" : 1,
+                    "val" : 0,
                     "valueConstant" : null
                 },
                 {
@@ -72,24 +72,6 @@
                 },
                 {
                     "obj" : "Employer.TortugaPirates",
-                    "op" : "Equal",
-                    "val" : 1,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Employer.AntithesisCreed",
-                    "op" : "Equal",
-                    "val" : 1,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Employer.CanopianPirates",
-                    "op" : "Equal",
-                    "val" : 1,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Employer.Warboys",
                     "op" : "Equal",
                     "val" : 1,
                     "valueConstant" : null

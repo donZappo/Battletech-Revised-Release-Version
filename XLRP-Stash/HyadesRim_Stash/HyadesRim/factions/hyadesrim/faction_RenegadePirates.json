@@ -38,7 +38,7 @@
         "RimPirates",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
 	"factionID": "RenegadePirates",
   	"icon" : "uixTxrLogo_RenegadePirates",
 	"DefaultCombatLeaderCastDefId": "castDef_RenegadePirateLeaderDefault",

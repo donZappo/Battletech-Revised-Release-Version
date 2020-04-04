@@ -36,7 +36,7 @@
 		"MajestyMetals",
 		"MagnaMetals",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "factionID": "CapellanPirates",
   	"icon" : "uixTxrLogo_CapellanPirates",
 	"DefaultCombatLeaderCastDefId" : "castDef_CapellanPirateLeaderDefault",
@@ -52,7 +52,7 @@
         "Mercenary. Your services we seek, if the terms are agreable to both."
     ],
     "MissionSuccessStatements" : [ 
-		"<i>Zuò dé hǎo</i>. Pleased is Victoria with results.",
+		"<i>Zuò dé hao</i>. Pleased is Victoria with results.",
     ], 
 	"GoodFaithFailureStatements" : [ 
 		"We are not lenient underling, so watch yourself next time.",
@@ -63,6 +63,7 @@
     "DataManager" : null,
     "storePanelImage" : null,
     "factionStoreColor" : null,
+    "factionMapColor" : "rgba(208,255,144,1.0)",
     "StartingReputationValues" : [
         -15,
         -15,

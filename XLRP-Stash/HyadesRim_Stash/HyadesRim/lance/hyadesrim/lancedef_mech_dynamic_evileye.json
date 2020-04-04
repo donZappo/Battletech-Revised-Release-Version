@@ -29,6 +29,7 @@
          "unitTagSet" : {
             "items" : [
 				"unit_mech",
+				"EvilEye"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -41,7 +42,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -57,7 +58,7 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -70,7 +71,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -86,7 +87,7 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -99,7 +100,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },
@@ -115,7 +116,7 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-				"unit_mech",
+				"unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -128,7 +129,7 @@
          },
          "pilotTagSet" : {
             "items" : [
-               "pilot_npc_d3"
+               
             ],
             "tagSetSourceFile" : "Tags/PilotTags"
          },

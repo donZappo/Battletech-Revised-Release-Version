@@ -37,7 +37,7 @@
         "AuriganDirectorate",
         "InterstellarExpeditions",
     ],
-	"Presence": 0.9,
+	"Presence": 0.7,
     "ReputationStatements" : [
         "Your Periphery lies in dust, my friend. Will you take this job to bring us glory?",
         "Your Periphery lies in dust, my friend. Will you take this job to bring us glory?",
@@ -64,6 +64,7 @@
   	"icon" : "uixTxrLogo_CanopianPirates",
     "storePanelImage" : null,
     "factionStoreColor" : null,
+    "factionMapColor" : "rgba(69,255,240,1.0)",
     "StartingReputationValues" : [
         -15,
         -15,

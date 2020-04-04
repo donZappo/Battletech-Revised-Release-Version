@@ -80,12 +80,6 @@
                     "valueConstant" : null
                 },
                 {
-                    "obj" : "Employer.AntithesisCreed",
-                    "op" : "Equal",
-                    "val" : 0,
-                    "valueConstant" : null
-                },
-                {
                     "obj" : "Employer.InterstellarExpeditions",
                     "op" : "Equal",
                     "val" : 0,

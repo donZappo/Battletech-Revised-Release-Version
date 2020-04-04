@@ -72,12 +72,6 @@
                     "valueConstant" : null
                 },
                 {
-                    "obj" : "Employer.AntithesisCreed",
-                    "op" : "Equal",
-                    "val" : 0,
-                    "valueConstant" : null
-                },
-                {
                     "obj" : "Employer.CanopianPirates",
                     "op" : "Equal",
                     "val" : 0,

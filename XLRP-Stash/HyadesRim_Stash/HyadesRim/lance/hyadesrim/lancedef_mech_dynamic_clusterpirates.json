@@ -29,6 +29,65 @@
          "unitTagSet" : {
             "items" : [
                "unit_mech",
+			   "ClusterPirates"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "NotClusterPirates"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+		 "dynamicDifficulty": true,
+         "unitTagSet" : {
+            "items" : [
+               "unit_mech"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "NotClusterPirates"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+		 "dynamicDifficulty": true,
+         "unitTagSet" : {
+            "items" : [
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -57,65 +116,7 @@
 		 "dynamicDifficulty": true,
          "unitTagSet" : {
             "items" : [
-               "unit_mech",
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant",
-               "NotClusterPirates"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-		 "dynamicDifficulty": true,
-         "unitTagSet" : {
-            "items" : [
-               "unit_mech",
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant",
-               "NotClusterPirates"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-		 "dynamicDifficulty": true,
-         "unitTagSet" : {
-            "items" : [
-               "unit_mech",
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
