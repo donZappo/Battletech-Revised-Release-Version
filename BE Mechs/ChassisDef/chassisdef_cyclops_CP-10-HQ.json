@@ -20,7 +20,7 @@
     "StockRole" : "Command & Fire Support",
     "YangsThoughts" : "The Cyclops 10-HQ is the ultimate command 'Mech. Though its weaponry is fairly light for its class, it provides unmatched benefits to friendly units in the form of improved communications, coordination, and battlefield awareness.",
     "Tonnage" : 90,
-    "InitialTonnage" : 49,
+    "InitialTonnage" : 9,
     "weightClass" : "ASSAULT",
     "Heatsinks" : 0,
     "TopSpeed" : 105,
@@ -61,7 +61,7 @@
                 
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 1,
+            "InventorySlots" : 4,
             "MaxArmor" : 45,
             "MaxRearArmor" : -1,
             "InternalStructure" : 16
@@ -83,7 +83,7 @@
                 }
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 8,
+            "InventorySlots" : 12,
             "MaxArmor" : 150,
             "MaxRearArmor" : -1,
             "InternalStructure" : 75
@@ -105,7 +105,7 @@
                 }
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 10,
+            "InventorySlots" : 12,
             "MaxArmor" : 190,
             "MaxRearArmor" : 95,
             "InternalStructure" : 95
@@ -119,7 +119,7 @@
                 }
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 4,
+            "InventorySlots" : 16,
             "MaxArmor" : 290,
             "MaxRearArmor" : 145,
             "InternalStructure" : 145
@@ -128,7 +128,7 @@
             "Location" : "RightTorso",
             "Hardpoints" : [],
             "Tonnage" : 0,
-            "InventorySlots" : 10,
+            "InventorySlots" : 12,
             "MaxArmor" : 190,
             "MaxRearArmor" : 95,
             "InternalStructure" : 95
@@ -150,7 +150,7 @@
                 }
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 8,
+            "InventorySlots" : 12,
             "MaxArmor" : 150,
             "MaxRearArmor" : -1,
             "InternalStructure" : 75
@@ -161,7 +161,7 @@
                 
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 4,
+            "InventorySlots" : 6,
             "MaxArmor" : 190,
             "MaxRearArmor" : -1,
             "InternalStructure" : 95
@@ -172,7 +172,7 @@
                 
             ],
             "Tonnage" : 0,
-            "InventorySlots" : 4,
+            "InventorySlots" : 6,
             "MaxArmor" : 190,
             "MaxRearArmor" : -1,
             "InternalStructure" : 95
@@ -222,30 +222,5 @@
             "z" : 1
         }
     ],
-    "FixedEquipment" : [
-        {
-            "MountedLocation" : "Head",
-            "ComponentDefID" : "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_General_Advanced_Command_Module",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        }
-    ]
+    "FixedEquipment" : []
 }

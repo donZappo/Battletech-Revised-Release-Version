@@ -30,9 +30,9 @@
         "Purchasable": false,
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
-        "UIName": "ReverseAngleMobilityLegs",
+        "UIName": "Reverse Angle Mobility Legs",
         "Id": "mech_quirk_reverse_angle_mobility_legs",
-        "Name": "ReverseAngleMobilityLegs",
+        "Name": "Reverse Angle Mobility Legs",
         "Details": "This 'Mech's extreme agility makes it able to act before other 'Mech's realize what is happening.",
         "Icon": "SpecialistSlot"
     },
