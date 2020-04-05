@@ -17,7 +17,7 @@
         "UIName": "Wolfhound WLF-1B", 
         "Id": "mechdef_wolfhound_WLF-1B", 
         "Name": "Wolfhound", 
-        "Details": "Another field refit, this model replaces the two side torso lasers with small COILs for close in work.", 
+        "Details": "Acting as another approved and common refit of the stock Wolfhound, the 1B variant takes the rear facing laser and repositions it to face forward. This differs from the 1A which simply removes it. The cooling repiping needed makes this refit more difficult in the field but it retains a high degree of popularity with its pilots.", 
         "Icon": "uixTxrIcon_wolfhound"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -390,17 +390,6 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
@@ -444,8 +433,19 @@
             "hasPrefabName": false
         }, 
         {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_energy_specialization", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Weapon_COIL_COIL-S_0-STOCK", 
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 
@@ -456,7 +456,7 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Weapon_COIL_COIL-S_0-STOCK", 
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 

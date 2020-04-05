@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1952640, 
+        "Cost": 3248640, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Wolfhound", 
-        "Id": "chassisdef_wolfhound_WLF-1B", 
-        "Name": "Wolfhound", 
-        "Details": "Acting as another approved and common refit of the stock Wolfhound, the 1B variant takes the rear facing laser and repositions it to face forward. This differs from the 1A which simply removes it. The cooling repiping needed makes this refit more difficult in the field but it retains a high degree of popularity with its pilots.", 
-        "Icon": "uixTxrIcon_wolfhound"
+        "UIName": "Cicada", 
+        "Id": "chassisdef_cicada_CDA-2A-RV", 
+        "Name": "Cicada", 
+        "Details": "This 2A-RV scout variant, officially built for Periphery governments, is based off of a chassis layout that prioritized speed with little room for any armament. This model replaces both Medium Lasers with a single COIL-M and shifts what little armor it has into a shield configuration to protect this weapon at the expense of other areas. Nicknamed the 'Murder-Cada', successful pilots learn to torso twist to bring the thickest armor to bear in order to get up close and unlease devastating attacks with their primary weapon. To maintain the appearance of uniform armor layout, areas with reduced protection are fitted with cosmetics to give the appearance of a symmetrical layout.", 
+        "Icon": "uixTxrIcon_cicada"
     }, 
-    "VariantName": "WLF-1B", 
-    "StockRole": "Sniper & Light Brawler", 
-    "YangsThoughts": "I've no idea what we have got our hands on here, looks like some kind of Steiner prototype.  Giving her a look over I would say this thing will put fear in to Jenner and Panther pilots. Yup, I say we start with that and think of something more impressive later.", 
-    "PrefabIdentifier": "chrprfmech_wolfhoundbase-001", 
-    "PrefabBase": "Wolfhound", 
-    "Tonnage": 35, 
-    "InitialTonnage": 3.5, 
-    "weightClass": "LIGHT", 
-    "BattleValue": 3087000, 
+    "VariantName": "CDA-2A-RV", 
+    "StockRole": "Scout & Harasser", 
+    "YangsThoughts": "In all honesty, Cicadas as a rule are very fragile and this variant which has shifted what little armor it has around its 'COIL' energy weapon, as if it were a micro Hunchback, is ridiculous. That said, if it can protect that weapon and get in close it sure is going to deliver a killing blow on any 'Mech lighter than it on the battlefield. Still, if you want to use it cautiously, it could be a fantastic bait 'Mech.", 
+    "PrefabIdentifier": "chrPrfMech_cicadaBase-001", 
+    "PrefabBase": "cicada", 
+    "Tonnage": 40, 
+    "InitialTonnage": 4, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 3610000, 
     "Heatsinks": 0, 
-    "TopSpeed": 85, 
+    "TopSpeed": 210, 
     "TurnRadius": 90, 
     "MaxJumpjets": 8, 
-    "Stability": 100, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,41 +38,41 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 4, 
+    "Radius": 5, 
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 25, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 35, 
+    "DFADamage": 50, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 35, 
-    "DFAInstability": 35, 
+    "DFASelfDamage": 50, 
+    "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
-            "EnergySpecialization", 
+            "ReverseAngleMobilityLegs", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_lightmech", 
-    "PathingCapDefID": "pathingdef_light", 
-    "HardpointDataDefID": "hardpointdatadef_wolfhound", 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_cicada", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 13, 
-            "z": 0
-        }, 
-        {
-            "x": -3.5, 
             "y": 12, 
             "z": 0
         }, 
         {
-            "x": 3.5, 
+            "x": 3, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
             "y": 12, 
             "z": 0
         }
@@ -80,28 +80,28 @@
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 13, 
-            "z": 0
-        }, 
-        {
-            "x": -3.5, 
             "y": 12, 
             "z": 0
         }, 
         {
-            "x": 3.5, 
+            "x": 3, 
             "y": 12, 
             "z": 0
         }, 
         {
-            "x": -2, 
-            "y": 4, 
-            "z": 0.5
+            "x": -3, 
+            "y": 12, 
+            "z": 0
         }, 
         {
-            "x": 2, 
-            "y": 4, 
-            "z": 0.5
+            "x": 2.5, 
+            "y": 6, 
+            "z": 0
+        }, 
+        {
+            "x": -2.5, 
+            "y": 6, 
+            "z": 0
         }
     ], 
     "MechPartCount": 0, 
@@ -109,7 +109,7 @@
         {
             "Location": "Head", 
             "Hardpoints": [], 
-            "Tonnage": 1, 
+            "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
             "MaxRearArmor": -1, 
@@ -133,14 +133,14 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 80, 
-            "MaxRearArmor": 40, 
-            "InternalStructure": 40
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
         }, 
         {
             "Location": "CenterTorso", 
@@ -152,13 +152,21 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
         }, 
         {
             "Location": "RightTorso", 
@@ -169,27 +177,18 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 80, 
-            "MaxRearArmor": 40, 
-            "InternalStructure": 40
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
         }, 
         {
             "Location": "RightArm", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 60, 
@@ -201,18 +200,18 @@
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 80, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 40
+            "InternalStructure": 50
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 80, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 40
+            "InternalStructure": 50
         }
     ]
 }

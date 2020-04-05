@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 9911000, 
-        "Rarity": 4, 
+        "Cost": 3859490, 
+        "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Hatamoto-Hi", 
-        "Id": "chassisdef_hatamotohi_HTM-27U", 
-        "Name": "Hatamoto-Hi", 
-        "Details": "Also known as the Hatamoto-Hi, it is nearly identical to the HTM-27T, but trades off the reliance on ammunition by trading out the SRM-6s for four Medium Pulse Lasers along with an extra Heat Sink.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "UIName": "Crab", 
+        "Id": "chassisdef_crab_CRB-27-RV", 
+        "Name": "Crab", 
+        "Details": "Re-engineered in 3031, the CRB-27-RV is based on the near mythical CRB-27 'Mech built in the last days of the Star League. This variant is officially licensed to select major Houses only and is virtually impossible to find on the secondary market. It eschews all traditional armament in favor of two COIL-L energy weapon platforms and also removes a single Heat Sink to maintain speed and armor.", 
+        "Icon": "uixTxrIcon_crab"
     }, 
-    "VariantName": "HTM-27U", 
-    "StockRole": "Heavy Sniper & Defender", 
-    "YangsThoughts": "I like the trade-out of the SRMs for MPLs, it really gives the 27U extra durability in the field.  But, I think I'd still lose one of those Pulse Lasers and add some more heat dissipation.", 
-    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001", 
-    "PrefabBase": "hatamotochi", 
-    "Tonnage": 80, 
-    "InitialTonnage": 8, 
-    "weightClass": "ASSAULT", 
-    "BattleValue": 7718000, 
+    "VariantName": "CRB-27-RV", 
+    "StockRole": "Direct-Fire Support", 
+    "YangsThoughts": "Based on a Star League model thought to be lost up until recent times, we may be the only unit outside of the ajor Houses with the 27-RV variant in their Mech Bay.", 
+    "PrefabIdentifier": "chrPrfMech_crabBase-001", 
+    "PrefabBase": "crab", 
+    "Tonnage": 50, 
+    "InitialTonnage": 5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 4124000, 
     "Heatsinks": 0, 
-    "TopSpeed": 105, 
+    "TopSpeed": 65, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
-    "Stability": 200, 
+    "MaxJumpjets": 8, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,77 +38,86 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 8, 
+    "Radius": 5, 
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
-    "MeleeInstability": 80, 
+    "MeleeDamage": 65, 
+    "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 100, 
+    "DFADamage": 65, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 100, 
-    "DFAInstability": 100, 
+    "DFASelfDamage": 65, 
+    "DFAInstability": 65, 
     "ChassisTags": {
         "items": [
-            "NoHonour", 
+            "GenericDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_assaultmech", 
-    "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_hatamotochi", 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_crab", 
     "LOSSourcePositions": [
         {
             "x": 0, 
             "y": 14, 
-            "z": 0
+            "z": 1
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 13, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 13, 
+            "z": 0
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
             "y": 14, 
-            "z": 0
+            "z": 1
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 13, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 13, 
+            "z": 0
         }, 
         {
-            "x": 3.5, 
-            "y": 6, 
-            "z": 1
+            "x": 3, 
+            "y": 5, 
+            "z": 2
         }, 
         {
-            "x": -3.5, 
-            "y": 6, 
-            "z": 1
+            "x": -3, 
+            "y": 5, 
+            "z": 2
         }
     ], 
     "MechPartCount": 0, 
     "Locations": [
         {
             "Location": "Head", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
@@ -121,51 +130,25 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 80, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 40
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
         }, 
         {
             "Location": "CenterTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 250, 
-            "MaxRearArmor": 125, 
-            "InternalStructure": 125
-        }, 
-        {
-            "Location": "RightTorso", 
             "Hardpoints": [
                 {
                     "Omni": false, 
@@ -181,10 +164,19 @@
                 }
             ], 
             "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": 80, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
         }, 
         {
             "Location": "RightArm", 
@@ -192,35 +184,31 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 80, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 40
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 120, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 60
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 120, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 60
         }
     ]
 }

@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 9911000, 
-        "Rarity": 4, 
+        "Cost": 3572640, 
+        "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Hatamoto-Hi", 
-        "Id": "chassisdef_hatamotohi_HTM-27U", 
-        "Name": "Hatamoto-Hi", 
-        "Details": "Also known as the Hatamoto-Hi, it is nearly identical to the HTM-27T, but trades off the reliance on ammunition by trading out the SRM-6s for four Medium Pulse Lasers along with an extra Heat Sink.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "UIName": "Blackjack", 
+        "Id": "chassisdef_blackjack_BJ-1DB-RV", 
+        "Name": "Blackjack", 
+        "Details": "With the BJ-1DB-RV, the Federated Suns have continued to iterate on an already impressive chassis with the newer COIL technology filtering in from the Periphery. It replaces all Lasers with twin COIL-L and COIL-S energy weapons, allowing this 'Mech to excel at the fire support role while on the move. One key takeaway with this variant is that the designers understood the value of retaining the classic Jump Jets on this chassis for quick escapes and flanking; all of which serves this 'Mech very well on the battlefield.", 
+        "Icon": "uixTxrIcon_blackjack"
     }, 
-    "VariantName": "HTM-27U", 
-    "StockRole": "Heavy Sniper & Defender", 
-    "YangsThoughts": "I like the trade-out of the SRMs for MPLs, it really gives the 27U extra durability in the field.  But, I think I'd still lose one of those Pulse Lasers and add some more heat dissipation.", 
-    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001", 
-    "PrefabBase": "hatamotochi", 
-    "Tonnage": 80, 
-    "InitialTonnage": 8, 
-    "weightClass": "ASSAULT", 
-    "BattleValue": 7718000, 
+    "VariantName": "BJ-1DB-RV", 
+    "StockRole": "Fire Support", 
+    "YangsThoughts": "A whole set of long range and short range COIL weapons at 45 tons! No need to pitch this 'Mech design; it's a no-brainer! Out of the box this 'Mech lays down withering firepower while on the move and has the ajility to keep enemies in whichever range band it wants.", 
+    "PrefabIdentifier": "chrPrfMech_blackjackBase-001", 
+    "PrefabBase": "blackjack", 
+    "Tonnage": 45, 
+    "InitialTonnage": 4.5, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 0, 
     "Heatsinks": 0, 
-    "TopSpeed": 105, 
+    "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
-    "Stability": 200, 
+    "MaxJumpjets": 8, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,28 +38,28 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 8, 
-    "PunchesWithLeftArm": true, 
+    "Radius": 5, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
-    "MeleeInstability": 80, 
+    "MeleeDamage": 40, 
+    "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 100, 
+    "DFADamage": 55, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 100, 
-    "DFAInstability": 100, 
+    "DFASelfDamage": 55, 
+    "DFAInstability": 55, 
     "ChassisTags": {
         "items": [
-            "NoHonour", 
+            "Retrofitted", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_assaultmech", 
-    "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_hatamotochi", 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_blackjack", 
     "LOSSourcePositions": [
         {
             "x": 0, 
@@ -68,13 +68,13 @@
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 14, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 14, 
+            "z": 0
         }
     ], 
     "LOSTargetPositions": [
@@ -85,23 +85,23 @@
         }, 
         {
             "x": 4, 
-            "y": 15, 
-            "z": -1
+            "y": 14, 
+            "z": 0
         }, 
         {
             "x": -4, 
-            "y": 15, 
-            "z": -1
+            "y": 14, 
+            "z": 0
         }, 
         {
-            "x": 3.5, 
+            "x": 2.5, 
             "y": 6, 
-            "z": 1
+            "z": 2.5
         }, 
         {
-            "x": -3.5, 
+            "x": -2.5, 
             "y": 6, 
-            "z": 1
+            "z": 2.5
         }
     ], 
     "MechPartCount": 0, 
@@ -124,14 +124,14 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 70, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 35
         }, 
         {
             "Location": "LeftTorso", 
@@ -142,27 +142,23 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
         }, 
         {
             "Location": "CenterTorso", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 250, 
-            "MaxRearArmor": 125, 
-            "InternalStructure": 125
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightTorso", 
@@ -173,18 +169,14 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
         }, 
         {
             "Location": "RightArm", 
@@ -195,32 +187,32 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 70, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 35
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 110, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 55
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 110, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 55
         }
     ]
 }

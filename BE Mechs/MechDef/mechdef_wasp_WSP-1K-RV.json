@@ -6,19 +6,19 @@
         ], 
         "tagSetSourceFile": ""
     }, 
-    "ChassisID": "chassisdef_mongoose_MON-66", 
+    "ChassisID": "chassisdef_wasp_WSP-1K-RV", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 301098, 
-        "Rarity": 0, 
+        "Cost": 255672, 
+        "Rarity": 1, 
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Mongoose MON-66", 
-        "Id": "mechdef_mongoose_MON-66", 
-        "Name": "Mongoose", 
-        "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust.  Armed with one Small and three Medium Lasers, it packs more of a punch while keeping up with the Locust's speed.", 
-        "Icon": "uixTxrIcon_mongoose"
+        "UIName": "Wasp WSP-1K-RV", 
+        "Id": "mechdef_wasp_WSP-1K-RV", 
+        "Name": "Wasp", 
+        "Details": "This approved -RV variant to the heavily used WSP-1K of House Kurita attempts to fix previous shortcomings in terms of firepower. It implements the new COIL-M energy weapon and removes the Jump Jets to fit it onto the chassis. It also adds two Machine Guns and an extra ton of ammo for extended length missions.", 
+        "Icon": "uixTxrIcon_wasp"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 
@@ -31,80 +31,80 @@
         {
             "DamageLevel": "Functional", 
             "Location": "Head", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 40, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 16, 
-            "AssignedArmor": 45, 
+            "AssignedArmor": 40, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "CenterTorso", 
-            "CurrentArmor": 65, 
+            "CurrentArmor": 55, 
             "CurrentRearArmor": 25, 
-            "CurrentInternalStructure": 40, 
-            "AssignedArmor": 65, 
+            "CurrentInternalStructure": 30, 
+            "AssignedArmor": 55, 
             "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
             "CurrentArmor": 50, 
-            "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 30, 
+            "CurrentRearArmor": 25, 
+            "CurrentInternalStructure": 25, 
             "AssignedArmor": 50, 
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
             "CurrentArmor": 50, 
-            "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 30, 
+            "CurrentRearArmor": 25, 
+            "CurrentInternalStructure": 25, 
             "AssignedArmor": 50, 
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 25
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftArm", 
-            "CurrentArmor": 40, 
+            "CurrentArmor": 30, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 20, 
-            "AssignedArmor": 40, 
+            "CurrentInternalStructure": 15, 
+            "AssignedArmor": 30, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightArm", 
-            "CurrentArmor": 40, 
+            "CurrentArmor": 30, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 20, 
-            "AssignedArmor": 40, 
+            "CurrentInternalStructure": 15, 
+            "AssignedArmor": 30, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 35, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 30, 
-            "AssignedArmor": 45, 
+            "CurrentInternalStructure": 20, 
+            "AssignedArmor": 35, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 35, 
             "CurrentRearArmor": 0, 
-            "CurrentInternalStructure": 30, 
-            "AssignedArmor": 45, 
+            "CurrentInternalStructure": 20, 
+            "AssignedArmor": 35, 
             "AssignedRearArmor": 0
         }
     ], 
     "inventory": [
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_armorslots_ferrosfibrous", 
+            "ComponentDefID": "emod_armorslots_standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -115,7 +115,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_structureslots_endosteel", 
+            "ComponentDefID": "emod_structureslots_standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -162,17 +162,6 @@
             "ComponentDefID": "emod_arm_part_hand", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -181,9 +170,9 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_Sensor_Beagle_Active_Probe", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -191,10 +180,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -202,10 +191,21 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -217,39 +217,6 @@
             "ComponentDefID": "emod_arm_part_lower", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_hand", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -280,7 +247,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_200", 
+            "ComponentDefID": "emod_engine_120", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -422,8 +389,19 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "mech_quirk_high_precision_laser_targeting", 
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -434,10 +412,21 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
+            "ComponentDefID": "emod_arm_part_upper", 
             "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 0, 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_integrated_cockpit", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
@@ -466,8 +455,8 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_COIL_COIL-M_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 
@@ -475,7 +464,51 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftLeg", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightLeg", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 301098
+    "simGameMechPartCost": 255672
 }

@@ -9,7 +9,7 @@
         "UIName": "Wolfhound", 
         "Id": "chassisdef_wolfhound_WLF-1B-RV", 
         "Name": "Wolfhound", 
-        "Details": "The Wolfound 1B-RV is fast becoming a common field refit of a refit thanks in no small part to a pirate  'Mech in this configuration being made popular during a recent unsanctioned episode of The Bounty Hunter that took place in Arigan space near the end of 3031. This variant is unique in that it replaces the Large Laser with a COIL-L energy platform while removing completely the two Center Torso mounted Medium Lasers and fitting an extra Heat Sink.", 
+        "Details": "The Wolfound 1B-RV is fast becoming a common field refit of a refit thanks in no small part to a pirate  'Mech in this configuration being made popular during a recent unsanctioned episode of The Bounty Hunter that took place in Aurigan space near the end of 3031. This variant is unique in that it replaces the Large Laser with a COIL-L energy platform while removing completely the two Center Torso mounted Medium Lasers and fitting an extra Heat Sink.", 
         "Icon": "uixTxrIcon_wolfhound"
     }, 
     "VariantName": "WLF-1B-RV", 

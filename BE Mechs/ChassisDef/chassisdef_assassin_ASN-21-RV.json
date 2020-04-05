@@ -1,31 +1,43 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Cramped_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
-        "Cost": 9911000, 
-        "Rarity": 4, 
+        "Cost": 3186360, 
+        "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Hatamoto-Hi", 
-        "Id": "chassisdef_hatamotohi_HTM-27U", 
-        "Name": "Hatamoto-Hi", 
-        "Details": "Also known as the Hatamoto-Hi, it is nearly identical to the HTM-27T, but trades off the reliance on ammunition by trading out the SRM-6s for four Medium Pulse Lasers along with an extra Heat Sink.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "UIName": "Assassin", 
+        "Id": "chassisdef_assassin_ASN-21-RV", 
+        "Name": "Assassin", 
+        "Details": "The ASN-21-RV lives up to its predecessor's name, especially against lighter tonnage 'Mechs. It has astounding jump capability in addition to its ground speed which it can use to power its COIL-M weapons platform. While up-armored, it still relies on speed for protection.", 
+        "Icon": "uixTxrIcon_assassin"
     }, 
-    "VariantName": "HTM-27U", 
-    "StockRole": "Heavy Sniper & Defender", 
-    "YangsThoughts": "I like the trade-out of the SRMs for MPLs, it really gives the 27U extra durability in the field.  But, I think I'd still lose one of those Pulse Lasers and add some more heat dissipation.", 
-    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001", 
-    "PrefabBase": "hatamotochi", 
-    "Tonnage": 80, 
-    "InitialTonnage": 8, 
-    "weightClass": "ASSAULT", 
-    "BattleValue": 7718000, 
+    "VariantName": "ASN-21-RV", 
+    "StockRole": "Scout / Hunter-Killer", 
+    "YangsThoughts": "This 'Mech is fast, real fast. It's best utilized with hit-and-run attackes with its COIL weaponry and when denied this, used to launch missiles from range.", 
+    "PrefabIdentifier": "chrPrfMech_assassinBase-001", 
+    "PrefabBase": "Assassin", 
+    "Tonnage": 40, 
+    "InitialTonnage": 4, 
+    "weightClass": "MEDIUM", 
+    "BattleValue": 0, 
     "Heatsinks": 0, 
-    "TopSpeed": 105, 
-    "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
-    "Stability": 200, 
+    "TopSpeed": 0, 
+    "TurnRadius": 0, 
+    "MaxJumpjets": 8, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,68 +50,68 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 8, 
+    "Radius": 5, 
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
-    "MeleeInstability": 80, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 100, 
+    "DFADamage": 50, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 100, 
-    "DFAInstability": 100, 
+    "DFASelfDamage": 50, 
+    "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
-            "NoHonour", 
+            "Claustrophobic", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_assaultmech", 
-    "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_hatamotochi", 
+    "MovementCapDefID": "movedef_mediummech", 
+    "PathingCapDefID": "pathingdef_medium", 
+    "HardpointDataDefID": "hardpointdatadef_assassin", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 13.5, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 15, 
-            "z": -1
+            "x": 3, 
+            "y": 12.5, 
+            "z": -0.5
         }, 
         {
-            "x": -4, 
-            "y": 15, 
-            "z": -1
+            "x": -3, 
+            "y": 12.5, 
+            "z": -0.5
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 13.5, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 15, 
-            "z": -1
+            "x": 3, 
+            "y": 12.5, 
+            "z": -0.5
         }, 
         {
-            "x": -4, 
-            "y": 15, 
-            "z": -1
+            "x": -3, 
+            "y": 12.5, 
+            "z": 0.5
         }, 
         {
-            "x": 3.5, 
+            "x": 2, 
             "y": 6, 
             "z": 1
         }, 
         {
-            "x": -3.5, 
+            "x": -2, 
             "y": 6, 
             "z": 1
         }
@@ -117,74 +129,57 @@
         }, 
         {
             "Location": "LeftArm", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 60, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 30
         }, 
         {
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
         }, 
         {
             "Location": "CenterTorso", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 250, 
-            "MaxRearArmor": 125, 
-            "InternalStructure": 125
+            "MaxArmor": 120, 
+            "MaxRearArmor": 60, 
+            "InternalStructure": 60
         }, 
         {
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 170, 
-            "MaxRearArmor": 85, 
-            "InternalStructure": 85
+            "MaxArmor": 100, 
+            "MaxRearArmor": 50, 
+            "InternalStructure": 50
         }, 
         {
             "Location": "RightArm", 
@@ -200,27 +195,27 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 130, 
+            "MaxArmor": 60, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 65
+            "InternalStructure": 30
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 50
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 170, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 85
+            "InternalStructure": 50
         }
     ]
 }
