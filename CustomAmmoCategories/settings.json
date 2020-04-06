@@ -436,8 +436,8 @@
 
   /* Should turrets and vehicles be killed when their ammo explodes?  Default true. */
 
-  "AmmoExplosionKillTurret": true,
-  "AmmoExplosionKillVehicle": true,
+  "AmmoExplosionKillTurret": false,
+  "AmmoExplosionKillVehicle": false,
 
   /* Check crit on last damaged location, following damage transfer.  Default true. */
 

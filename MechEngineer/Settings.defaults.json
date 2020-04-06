@@ -382,7 +382,7 @@
         ]
     },
     "ComponentExplosions" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
     },
     "CompressFloatieMessages" : {
@@ -769,7 +769,7 @@
         "ShutdownInjuryEnabled" : true
     },
     "TurretLimitedAmmo" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Turrets use up ammo and don't explode once ammo is gone."
     },
     "TurretMechComponents" : {
