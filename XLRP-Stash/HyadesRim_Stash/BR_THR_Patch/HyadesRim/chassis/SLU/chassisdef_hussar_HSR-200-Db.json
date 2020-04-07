@@ -1,0 +1,229 @@
+{
+    "Description": {
+        "Cost": 5520840,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hussar",
+        "Id": "chassisdef_hussar_HSR-200-Db",
+        "Name": "Hussar",
+        "Details": "The Hussar was one of the SLDF's most popular and used recon models, with an amazing speed capable of outrunning nearly any other 'Mechs, at the cost of only carrying a single Large Laser and little armor. The Royal version has an additional active probe and ECM Guardian suit and increases the armor to 5.5 tons.",
+        "Icon": "uixTxrIcon_spider"
+    },
+    "MovementCapDefID": "movedef_hussar_HSR-200-D",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_spider",
+    "PrefabIdentifier": "chrPrfMech_spiderBase-001",
+    "PrefabBase": "spider",
+    "Tonnage": 30,
+    "InitialTonnage": 15.87,
+    "weightClass": "LIGHT",
+    "BattleValue": 3907000,
+    "Heatsinks": 30,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 9,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 35,
+    "MeleeInstability": 30,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 40,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "HSR-200-Db",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Extremely Fast Scout",
+    "YangsThoughts": "The extra armor and the electronic warfare equipped added give this version extra survivability to match its huge speed.",
+    "FixedEquipment" : [
+		{
+			"MountedLocation" : "RightTorso",
+			"ComponentDefID" : "Gear_Sensor_Guardian_ECM",
+			"SimGameUID" : "",
+			"ComponentDefType" : "Upgrade",
+			"HardpointSlot" : -1,
+			"IsFixed" : true,
+			"GUID" : null,
+			"DamageLevel" : "Functional",
+			"prefabName" : null,
+			"hasPrefabName" : false
+		},
+		{
+			"MountedLocation" : "LeftTorso",
+			"ComponentDefID" : "Gear_Sensor_Beagle_Active_Probe",
+			"SimGameUID" : "",
+			"ComponentDefType" : "Upgrade",
+			"HardpointSlot" : -1,
+			"IsFixed" : true,
+			"GUID" : null,
+			"DamageLevel" : "Functional",
+			"prefabName" : null,
+			"hasPrefabName" : false
+		}
+    ]
+}

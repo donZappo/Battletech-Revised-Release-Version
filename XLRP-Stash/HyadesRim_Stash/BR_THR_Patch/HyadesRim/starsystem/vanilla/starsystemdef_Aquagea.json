@@ -1,0 +1,37 @@
+{
+    "Tags": {
+        "items": [
+			"planet_region_hyadesrim",
+            "planet_size_medium",
+            "planet_climate_desert",
+            "planet_pop_small",
+            "planet_civ_primitive",
+            "planet_progress_2",
+            "planet_feature_moon03",
+            "planet_industry_poor",
+            "planet_other_battlefield",
+            "planet_other_moon",
+            "planet_name_aquagea",
+            "planet_faction_independent"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "contractEmployerIDs": [
+        "ClusterPirates",
+        "Marik",
+        "MagistracyOfCanopus",
+        "Locals",
+		"InterstellarExpeditions",
+        "AuriganPirates",
+		"AntithesisCreed"
+    ],
+    "contractTargetIDs": [
+        "TortugaPirates",
+        "AuriganPirates",
+        "Marik",
+        "MagistracyOfCanopus",
+        "RimPirates",
+        "Locals",
+		"AntithesisCreed"
+    ]
+}

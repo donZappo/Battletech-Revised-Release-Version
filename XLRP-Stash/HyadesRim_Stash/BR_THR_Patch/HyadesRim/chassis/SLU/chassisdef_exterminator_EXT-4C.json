@@ -1,0 +1,235 @@
+{
+    "Description": {
+        "Cost": 22454540,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Exterminator",
+        "Id": "chassisdef_exterminator_EXT-4C",
+        "Name": "Exterminator",
+        "Details": "The Exterminator is a headhunter, with six jump jets and an XL engine to give it superior mobility. The EXT-4C also carries an ECM Stealth suite for the Exterminator to approach its targets undetected and double heat sinks.",
+        "Icon": "uixTxrIcon_exterminator"
+    },
+    "MovementCapDefID": "movedef_exterminator_EXT-4C",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_assassin",
+    "PrefabIdentifier": "chrPrfMech_assassinBase-001",
+    "PrefabBase": "assassin",
+    "Tonnage": 65,
+    "InitialTonnage": 35,
+    "weightClass": "HEAVY",
+    "BattleValue": 5514300,
+    "Heatsinks": 30,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 90,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 85,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 85,
+    "DFAInstability": 85,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+			],
+            "Tonnage": 0,
+            "InventorySlots": 2,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "EXT-4C",
+    "ChassisTags": {
+        "items": [
+			
+		],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Headhunter",
+    "YangsThoughts": "I keep wondering where the pirates are getting their LosTech.  This Exterminator is equipped not only with a stealth system, but with an upgraded engine that gives it extra movement and dissipation abilities.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_General_Intercept_System",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_Sensor_Stealth_ECM",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}

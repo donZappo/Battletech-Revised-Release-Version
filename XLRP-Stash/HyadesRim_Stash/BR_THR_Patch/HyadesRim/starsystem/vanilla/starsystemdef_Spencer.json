@@ -1,0 +1,42 @@
+{
+    "Tags": {
+        "items": [
+			"planet_region_hyadesrim",
+            "planet_size_medium",
+            "planet_climate_water",
+            "planet_pop_small",
+            "planet_civ_primitive",
+            "planet_progress_2",
+            "planet_feature_moon03",
+            "planet_industry_aquaculture",
+            "planet_industry_poor",
+            "planet_other_moon",
+            "planet_name_spencer",
+            "planet_faction_independent",
+            "planet_industry_chemicals"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "contractEmployerIDs": [
+        "MagistracyOfCanopus",
+        "Marik",
+        "Locals",
+        "AuriganPirates",
+        "TortugaPirates",
+		"AntithesisCreed",
+        "CanopianPirates",
+        "Warboys"
+    ],
+    "contractTargetIDs": [
+        "AuriganPirates",
+        "MagistracyOfCanopus",
+        "Marik",
+        "Locals",
+		"ClusterPirates",
+		"AntithesisCreed",
+        "CanopianPirates",
+        "Warboys",
+        "EvilEye",
+        "HarbingersOfDoom"
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "MechTags": {
+        "items": [
+			"BLACKLISTED",
+            "unit_mech",
+            "unit_medium",
+            "unit_jumpOK",
+            "unit_lance_assassin",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "unit_release",
+			"unit_range_medium",		
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_wolverine_WVR-F",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6290000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Wolverine WVR-F",
+        "Id": "mechdef_wolverine_WVR-F",
+        "Name": "Wolverine",
+        "Details": "The artillery carrying version of the Wolverine removes the SRM rack, an medium laser and a heat sink to install a 'Mech Mortar while retaining the laser weapons array of the -6K.",
+        "Icon": "uixTxrIcon_wolverine"
+    },
+    "simGameMechPartCost": 630000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 90,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_Mortar_MechMortar",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : false,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
+}
