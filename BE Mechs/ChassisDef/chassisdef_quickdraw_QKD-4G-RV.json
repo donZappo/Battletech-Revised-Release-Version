@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3470250, 
-        "Rarity": 2, 
+        "Cost": 5942360, 
+        "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Phoenix Hawk", 
-        "Id": "chassisdef_phoenixhawk_PXH-1K", 
-        "Name": "Phoenix Hawk", 
-        "Details": "The 1K variant was particularly favored by House Kurita, though when it was introduced in 2603 it represented a departure from the traditional thinking of the Phoenix Hawk. By removing all jump jets from the 'Mech, room is freed up to install three additional heat sinks and another one and a half tons of armor. The machine guns and ammunition have also been removed from the design and replaced with a single Small Laser carried in the center torso.", 
-        "Icon": "uixTxrIcon_phoenixhawk"
+        "UIName": "Quickdraw", 
+        "Id": "chassisdef_quickdraw_QKD-4G-RV", 
+        "Name": "Quickdraw", 
+        "Details": "Quickdraw 4G-RVs remain among the fastest and move maneuverable of the Heavy 'Mech class. Of all places, the RV variant originated as part of a COIL refit request from a Mercenary outfit on Detroit in the Periphery. While the contract fell through, the design was found to be profitable and so was put into full scale production. This variant removes all four Medium Lasers and the SRM4 launcher in order to mount twin COIL-M energy weapons. With the removal of more traditional weapons, the 'Mech tends to run much cooler and sports the most armor fitted to a production Quickdraw.", 
+        "Icon": "uixTxrIcon_quickdraw"
     }, 
-    "VariantName": "PXH-1K", 
-    "StockRole": "Scout & Skirmisher", 
-    "YangsThoughts": "Is it really a Phoenix Hawk if it can't fly? Some pilots appreciate the extra armor coverage but some people also like pineapple on their pizza. No accounting for taste.", 
-    "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001", 
-    "PrefabBase": "phoenixhawk", 
-    "Tonnage": 45, 
-    "InitialTonnage": 4.5, 
-    "weightClass": "MEDIUM", 
-    "BattleValue": 4200000, 
+    "VariantName": "QKD-4G-RV", 
+    "StockRole": "Striker Cavalry", 
+    "YangsThoughts": "Quickdraw 4G-RVs are heat efficient and very hard to kil, quite unlike their predecessorthey're a variant of. That said they do lack traditional punch and have to be piloted, on the ground, much like a light 'Mech to get the most out of their COIL energy weapons.", 
+    "PrefabIdentifier": "chrPrfMech_quickdrawBase-001", 
+    "PrefabBase": "quickdraw", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6922000, 
     "Heatsinks": 0, 
-    "TopSpeed": 120, 
+    "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
-    "Stability": 130, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,32 +38,32 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 5, 
-    "PunchesWithLeftArm": true, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 60, 
-    "MeleeInstability": 45, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 60, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 55, 
+    "DFADamage": 75, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 55, 
-    "DFAInstability": 55, 
+    "DFASelfDamage": 75, 
+    "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "Retrofitted", 
+            "QuickdrawFightingStyle", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_mediummech", 
-    "PathingCapDefID": "pathingdef_medium", 
-    "HardpointDataDefID": "hardpointdatadef_phoenixhawk", 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_quickdraw", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 15, 
             "z": 0
         }, 
         {
@@ -80,7 +80,7 @@
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 15, 
             "z": 0
         }, 
         {
@@ -121,6 +121,48 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
@@ -129,41 +171,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 70, 
-            "MaxRearArmor": -1, 
-            "InternalStructure": 35
-        }, 
-        {
-            "Location": "LeftTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
-        }, 
-        {
-            "Location": "CenterTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
             "MaxArmor": 140, 
             "MaxRearArmor": 70, 
             "InternalStructure": 70
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
         }, 
         {
             "Location": "RightArm", 
@@ -171,35 +181,31 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 70, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 35
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }
     ]
 }

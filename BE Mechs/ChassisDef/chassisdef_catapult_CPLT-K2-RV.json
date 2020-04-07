@@ -1,0 +1,226 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 6611000, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Catapult", 
+        "Id": "chassisdef_catapult_CPLT-K2-RV", 
+        "Name": "Catapult", 
+        "Details": "The Catapult K2-RV is a modification to an already outside-the-box redesign that fully deviates from indirect long range stationary fire to on-the-move devastating strikes. This variant which began to appear early in 3035 as a direct front line 'Mech built for the Taurian Concordat replaces both PPCs with COIL-L energy weapons and removes the other offensive capabilities for quad COIL-S weapons from the same manufacturer. Reportedly pilots love the new armament and the moderate armor increase that has lengthened the operation duration", 
+        "Icon": "uixTxrIcon_catapultk2"
+    }, 
+    "VariantName": "CPLT-K2-RV", 
+    "StockRole": "Sniper & Direct-Fire Support", 
+    "YangsThoughts": "What's more crazy than taking an indirect fire support 'Mech, adding more armor, swapping the weapons and sending it to the front lines? Well ... I dunno, the K2-RV probably but I was hoping you'd tell me. I'm still not sold on this concept.", 
+    "PrefabIdentifier": "chrPrfMech_catapultBase-001", 
+    "PrefabBase": "catapult", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 7150000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 64, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 60, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 80, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 80, 
+    "DFAInstability": 80, 
+    "ChassisTags": {
+        "items": [
+            "SidewaysEjectionSystem2", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_catapult", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 12, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 12, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 12, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }
+    ]
+}

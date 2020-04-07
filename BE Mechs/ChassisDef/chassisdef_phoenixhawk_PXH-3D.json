@@ -21,32 +21,10 @@
             "DamageLevel": "Functional", 
             "prefabName": "", 
             "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
         }
     ], 
     "Description": {
-        "Cost": 3436160, 
+        "Cost": 3470250, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -215,6 +193,10 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 

@@ -14,7 +14,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Phoenix Hawk PXH-1", 
+        "UIName": "Phoenixhawk PXH-1", 
         "Id": "mechdef_phoenixhawk_PXH-1", 
         "Name": "Phoenix Hawk", 
         "Details": "The PXH-1 is one of the most elegant and agile 'Mechs around, boasting good armor and decent weapons. Sadly, its heat buildup is also noteworthy. Savvy MechWarriors take advantage of this 'Mech's jump capability to land timely shots and then reposition to another vantage point.", 
@@ -466,10 +466,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_vectored_thrust_kit", 
             "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
+            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -477,10 +477,32 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "mech_quirk_vectored_thrust_kit", 
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

@@ -1,31 +1,31 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3470250, 
-        "Rarity": 2, 
+        "Cost": 6488640, 
+        "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Phoenix Hawk", 
-        "Id": "chassisdef_phoenixhawk_PXH-1K", 
-        "Name": "Phoenix Hawk", 
-        "Details": "The 1K variant was particularly favored by House Kurita, though when it was introduced in 2603 it represented a departure from the traditional thinking of the Phoenix Hawk. By removing all jump jets from the 'Mech, room is freed up to install three additional heat sinks and another one and a half tons of armor. The machine guns and ammunition have also been removed from the design and replaced with a single Small Laser carried in the center torso.", 
-        "Icon": "uixTxrIcon_phoenixhawk"
+        "UIName": "Crusader", 
+        "Id": "chassisdef_crusader_CRD-3L-RV", 
+        "Name": "Crusader", 
+        "Details": "The 3L-RV, an increasingly common field refit in recent years, is little different from the CRD-3L it deviates from. It maintains its LRM10 and SRM4 launchers though reduces the SRM ammo to a half ton; allowing the bin to be relocated to the Center Torso in order to simplify the feeding mechanism. To offset this decrease of close range firepower duration, both Machine Guns have been replaced by COIL-S energy platforms and the armor has seen a slight increase.", 
+        "Icon": "uixTxrIcon_crusader"
     }, 
-    "VariantName": "PXH-1K", 
-    "StockRole": "Scout & Skirmisher", 
-    "YangsThoughts": "Is it really a Phoenix Hawk if it can't fly? Some pilots appreciate the extra armor coverage but some people also like pineapple on their pizza. No accounting for taste.", 
-    "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001", 
-    "PrefabBase": "phoenixhawk", 
-    "Tonnage": 45, 
-    "InitialTonnage": 4.5, 
-    "weightClass": "MEDIUM", 
-    "BattleValue": 4200000, 
+    "VariantName": "CRD-3L-RV", 
+    "StockRole": "Fire Support", 
+    "YangsThoughts": "The Crusader RV remains about as iconic as a Warhammer in the Heavy class of 'Mechs.  House Liao looked around at the changing landscape of war and decided to make some subtle increases to the close range firepower should it run into an enemy 'Mech up close. An increase of armor and retention of Jump Jets certainly doesnt hurt either.", 
+    "PrefabIdentifier": "chrprfmech_crusaderhotd-001", 
+    "PrefabBase": "crusader", 
+    "Tonnage": 65, 
+    "InitialTonnage": 6.5, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5514000, 
     "Heatsinks": 0, 
     "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
-    "Stability": 130, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -38,41 +38,41 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 5, 
+    "Radius": 8, 
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 60, 
-    "MeleeInstability": 45, 
+    "MeleeDamage": 125, 
+    "MeleeInstability": 65, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 55, 
+    "DFADamage": 80, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 55, 
-    "DFAInstability": 55, 
+    "DFASelfDamage": 40, 
+    "DFAInstability": 80, 
     "ChassisTags": {
         "items": [
-            "Retrofitted", 
+            "ReinforcedLegs", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_mediummech", 
-    "PathingCapDefID": "pathingdef_medium", 
-    "HardpointDataDefID": "hardpointdatadef_phoenixhawk", 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_crusader", 
     "LOSSourcePositions": [
         {
             "x": 0, 
             "y": 14, 
-            "z": 0
+            "z": 1
         }, 
         {
-            "x": 3.5, 
+            "x": 4, 
             "y": 13, 
             "z": 0
         }, 
         {
-            "x": -3.5, 
+            "x": -4, 
             "y": 13, 
             "z": 0
         }
@@ -81,25 +81,25 @@
         {
             "x": 0, 
             "y": 14, 
-            "z": 0
+            "z": 1
         }, 
         {
-            "x": 3.5, 
+            "x": 4, 
             "y": 13, 
             "z": 0
         }, 
         {
-            "x": -3.5, 
+            "x": -4, 
             "y": 13, 
             "z": 0
         }, 
         {
-            "x": 3, 
+            "x": 2, 
             "y": 5, 
             "z": 0
         }, 
         {
-            "x": -3, 
+            "x": -2, 
             "y": 5, 
             "z": 0
         }
@@ -120,86 +120,99 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }, 
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 70, 
-            "MaxRearArmor": -1, 
-            "InternalStructure": 35
-        }, 
-        {
-            "Location": "LeftTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
-        }, 
-        {
-            "Location": "CenterTorso", 
-            "Hardpoints": [
+                }, 
                 {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 140, 
-            "MaxRearArmor": 70, 
-            "InternalStructure": 70
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
         }, 
         {
             "Location": "RightTorso", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
         }, 
         {
             "Location": "RightArm", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }, 
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 70, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 35
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 150, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 75
         }, 
         {
             "Location": "RightLeg", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 150, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 75
         }
     ]
 }

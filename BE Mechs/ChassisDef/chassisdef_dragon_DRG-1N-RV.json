@@ -1,43 +1,43 @@
 {
     "FixedEquipment": [
-      {
+        {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_100", 
+            "ComponentDefID": "emod_engine_300", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
+            "prefabName": "", 
+            "hasPrefabName": true
         }
     ], 
     "Description": {
-        "Cost": 4119960, 
-        "Rarity": 4, 
+        "Cost": 6056640, 
+        "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Bombard", 
-        "Id": "chassisdef_bombard_BMB-010", 
-        "Name": "Bombard", 
-        "Details": "The original Bombard mounted a pair of massive Autocannon/20s in place of the Thunderbolt launchers as well as standard Medium Lasers instead of the MBM-013's ER lasers. ", 
-        "Icon": "uixTxrIcon_bombard"
+        "UIName": "Dragon", 
+        "Id": "chassisdef_dragon_DRG-1N-RV", 
+        "Name": "Dragon", 
+        "Details": "The Dragon 1N-RV keeps a certain pedigree of being a beefy 'Mech that can seriously take a beating but is light on weaponry. With this approved variant however, that weaponry is more focused on newer COIL energy platforms in an effort to turn this often ridiculed but rugged chassis into a larger threat on the battlefield. It still moves fast for its weight which lends it well to closing for Melee attacks and getting the msot out of its new weapon systems.", 
+        "Icon": "uixTxrIcon_dragon"
     }, 
-    "VariantName": "BMB-010", 
-    "StockRole": "__/Base_3061.chassisdef_bombard_BMB-010.StockRole/__", 
-    "YangsThoughts": "Well, that Bombard certainly is something special. Even much heavier opponents can not approach the BMB-010 straight on with a frontal assault and not worry about getting blown to pieces. But it's slow and ponderous and experienced pilots will just pick it apart with ranged weapons or try to flank it and get into the rear.", 
-    "PrefabIdentifier": "chrprfmech_bombardbase-001", 
-    "PrefabBase": "bombard", 
-    "Tonnage": 50, 
-    "InitialTonnage": 5, 
-    "weightClass": "MEDIUM", 
-    "BattleValue": 4048000, 
+    "VariantName": "DRG-1N-RV", 
+    "StockRole": "Skirmisher & Brawler", 
+    "YangsThoughts": "Bottom line up front; it is terrifying to see a Dragon sprinting across the battlefield to engage in close quarters combat. When that 'Mech is the new RV variant with energy weapons charged up during that process ... more terrifying. The only way it isn't is if you're in the cockpit of this ungainly but devastating machine.", 
+    "PrefabIdentifier": "chrPrfMech_dragonBase-001", 
+    "PrefabBase": "dragon", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5383000, 
     "Heatsinks": 0, 
-    "TopSpeed": 65, 
+    "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
-    "Stability": 100, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -50,41 +50,41 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 5, 
+    "Radius": 8, 
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 25, 
-    "MeleeInstability": 13, 
+    "MeleeDamage": 90, 
+    "MeleeInstability": 60, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 50, 
+    "DFADamage": 75, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 50, 
-    "DFAInstability": 25, 
+    "DFASelfDamage": 75, 
+    "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "HeavyPlatform", 
+            "DragonFightingMode", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_mediummech", 
-    "PathingCapDefID": "pathingdef_medium", 
-    "HardpointDataDefID": "hardpointdatadef_bombard", 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_dragon", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 13, 
             "z": 1
         }, 
         {
-            "x": 4, 
+            "x": 3, 
             "y": 13, 
             "z": 0
         }, 
         {
-            "x": -4, 
+            "x": -3, 
             "y": 13, 
             "z": 0
         }
@@ -92,28 +92,28 @@
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 13, 
             "z": 1
         }, 
         {
-            "x": 4, 
-            "y": 13, 
-            "z": 0
-        }, 
-        {
-            "x": -4, 
-            "y": 13, 
-            "z": 0
-        }, 
-        {
             "x": 3, 
-            "y": 5, 
-            "z": 2
+            "y": 13, 
+            "z": 0
         }, 
         {
             "x": -3, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
             "y": 5, 
-            "z": 2
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 5, 
+            "z": 0
         }
     ], 
     "MechPartCount": 0, 
@@ -132,22 +132,18 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Missile"
+                    "WeaponMount": "Energy"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 80, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 40
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftTorso", 
@@ -158,61 +154,17 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 120, 
-            "MaxRearArmor": 60, 
-            "InternalStructure": 60
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
         }, 
         {
             "Location": "CenterTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 160, 
-            "MaxRearArmor": 80, 
-            "InternalStructure": 80
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }
-            ], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 120, 
-            "MaxRearArmor": 60, 
-            "InternalStructure": 60
-        }, 
-        {
-            "Location": "RightArm", 
             "Hardpoints": [
                 {
                     "Omni": false, 
@@ -220,6 +172,29 @@
                 }, 
                 {
                     "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
                     "WeaponMount": "Ballistic"
                 }, 
                 {
@@ -229,27 +204,27 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 80, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 40
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 120, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 60
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 120, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 60
+            "InternalStructure": 70
         }
     ]
 }

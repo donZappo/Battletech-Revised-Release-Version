@@ -1,54 +1,31 @@
 {
-    "FixedEquipment": [
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
-    ], 
+    "FixedEquipment": [], 
     "Description": {
-        "Cost": 3504360, 
+        "Cost": 6056640, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Phoenix Hawk", 
-        "Id": "chassisdef_phoenixhawk_PXH-1-RV", 
-        "Name": "Phoenix Hawk", 
-        "Details": "This factory built PHX-1-RV variant retains the elegant and agile features of a well-known chassis, boasting improved armor and new COIL energy weapon technology. With the ability to jump great distances and deliver increased damage potential this is an excellent harasser focused mech.", 
-        "Icon": "uixTxrIcon_phoenixhawk"
+        "UIName": "Rifleman", 
+        "Id": "chassisdef_rifleman_RFL-3N-RV", 
+        "Name": "Rifleman", 
+        "Details": "The RFL-3N-RV is an official variation of a well-known staple across the Inner Sphere which retains a terrible armor rating though it has seen a marginal increase. It swaps Large Lasers and Medium Lasers for COIL-M and COIL-S energy weapons in a bid to bolster its defenses against enemy 'Mechs that reach close range. With this deviation in configuration and installation of three additional HEat Sinks the chassis should perform better but most commanders have found that with heat still an issue the performance is uninspiring in practice.", 
+        "Icon": "uixTxrIcon_rifleman"
     }, 
-    "VariantName": "PXH-1-RV", 
-    "StockRole": "Skirmisher", 
-    "YangsThoughts": "Being able to maneuver confidently and land timely shots before repositioning to another vantage point is what this 'Mech chassis is known for and this variant is no different.", 
-    "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001", 
-    "PrefabBase": "phoenixhawk", 
-    "Tonnage": 45, 
-    "InitialTonnage": 4.5, 
-    "weightClass": "MEDIUM", 
+    "VariantName": "RFL-3N-RV", 
+    "StockRole": "Sniper", 
+    "YangsThoughts": "Rifleman are notorious 'Mechs that run hot, are forced to fight ground targets more often that Aerospace assets and are prone to crumpling under concentrated firepower. The RV aims to fix some of those deficiencies but at the end of the day it's still a Rifleman so your mileage will be less than expected.", 
+    "PrefabIdentifier": "chrPrfMech_riflemanBase-001", 
+    "PrefabBase": "rifleman", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
     "BattleValue": 0, 
     "Heatsinks": 0, 
     "TopSpeed": 0, 
     "TurnRadius": 0, 
-    "MaxJumpjets": 8, 
-    "Stability": 130, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -61,41 +38,41 @@
     "VisibilityMultiplier": 1, 
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
-    "Radius": 5, 
+    "Radius": 8, 
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
     "MeleeDamage": 55, 
-    "MeleeInstability": 45, 
+    "MeleeInstability": 60, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 55, 
+    "DFADamage": 75, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 55, 
-    "DFAInstability": 55, 
+    "DFASelfDamage": 75, 
+    "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "VectoredThrustKit", 
+            "RangefinderSuite", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_mediummech", 
-    "PathingCapDefID": "pathingdef_medium", 
-    "HardpointDataDefID": "hardpointdatadef_phoenixhawk", 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_rifleman", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 13, 
-            "z": 0
+            "y": 14, 
+            "z": 0.5
         }, 
         {
-            "x": 3.5, 
+            "x": 4.5, 
             "y": 13, 
             "z": -0.5
         }, 
         {
-            "x": -3.5, 
+            "x": -4.5, 
             "y": 13, 
             "z": -0.5
         }
@@ -103,28 +80,28 @@
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 13, 
-            "z": 0
+            "y": 14, 
+            "z": 0.5
         }, 
         {
-            "x": 3.5, 
+            "x": 4.5, 
             "y": 13, 
             "z": -0.5
         }, 
         {
-            "x": -3.5, 
+            "x": -4.5, 
             "y": 13, 
             "z": -0.5
         }, 
         {
             "x": 2.5, 
             "y": 5, 
-            "z": 1
+            "z": 1.25
         }, 
         {
             "x": -2.5, 
             "y": 5, 
-            "z": 1
+            "z": 1.25
         }
     ], 
     "MechPartCount": 0, 
@@ -148,47 +125,16 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 70, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 35
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
-        }, 
-        {
-            "Location": "CenterTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 140, 
-            "MaxRearArmor": 70, 
-            "InternalStructure": 70
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
-        }, 
-        {
-            "Location": "RightArm", 
             "Hardpoints": [
                 {
                     "Omni": false, 
@@ -196,6 +142,29 @@
                 }, 
                 {
                     "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
                     "WeaponMount": "Energy"
                 }, 
                 {
@@ -205,27 +174,45 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 70, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 35
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 110, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 70
         }
     ]
 }
