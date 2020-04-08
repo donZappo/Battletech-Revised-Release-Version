@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 20
+			"ExplosionDamagePerAmmo": 4.2
 		}
 	},
     "AmmoID" : "Ammunition_AC20_Tracer",
@@ -15,7 +15,7 @@
         "UIName" : "AC/20 Ammo (T)",
         "Id" : "Ammo_AmmunitionBox_Generic_AC20_Tracer",
         "Name" : "AC/20 Ammo (Tracer)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Tracer Ammo Bins each contain <color=#6aa84f>6 rounds</color> and may feed multiple weapons.\r\n\r\nTracer ammunition makes it easier for the pilot to see where their shots are going, making it easier to hit moving targets. Tracer ammunition does, however, generate more heat when fired.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 28</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. AC/20 Tracer Ammo Bins each contain <color=#6aa84f>6 rounds</color> and may feed multiple weapons.\r\n\r\nTracer ammunition makes it easier for the pilot to see where their shots are going, making it easier to hit moving targets. Tracer ammunition does, however, generate more heat when fired.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 4.2</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "+1 Evasive Pips ignored",

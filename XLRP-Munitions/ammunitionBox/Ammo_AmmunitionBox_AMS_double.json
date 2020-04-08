@@ -1,57 +1,39 @@
 {
-    "Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/s/a/ams" }
-		],
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 1
-        },
-        "BonusDescriptions": {
-            "Bonuses": [
-                "Doubled",
-                "AMSAmmo: 500"
-            ]
-        },
-        "InventorySorter": {
-            "SortKey": "000032"
-        }
-    },
-    "AmmoID": "Ammunition_AMS",
-    "Capacity": 500,
-    "Description": {
-        "Cost": 30000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": "Generic",
-        "Model": "AMS",
-        "UIName": "AMS Ammo [DBL]",
-        "Id": "Ammo_AmmunitionBox_AMS_double",
-        "Name": "AMS Ammo",
-        "Details": "Doubled Ammo Bins replace one ammo bins feeding and storing mechanism to 25% more shots into one location. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. \n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
-        "Icon": "uixSvgIcon_ammoBox_Support"
-    },
-    "BonusValueA": "",
-    "BonusValueB": "",
-    "ComponentType": "AmmunitionBox",
-    "ComponentSubType": "Ammunition",
-    "PrefabIdentifier": "",
-    "BattleValue": 0,
-    "InventorySize": 2,
-    "Tonnage": 2,
-    "AllowedLocations": "All",
-    "DisallowedLocations": "All",
-    "CriticalComponent": false,
-    "statusEffects": [],
-    "ComponentTags": {
-        "items": [
-            "component_type_stock"
-        ],
-        "tagSetSourceFile": ""
+  "AmmoID": "Ammunition_AMS",
+  "Capacity": 180,
+  "Description": {
+    "Cost": 40000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Generic",
+    "Model": "AMS",
+    "UIName": "AMS Ammo (Double)",
+    "Id": "Ammo_AmmunitionBox_Generic_AMS_double",
+    "Name": "AMS Ammo (Double)",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Double ton AMS Ammo Bins each contain 180 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
+    "Icon": "uixSvgIcon_ammoBox_Support"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "AmmunitionBox",
+  "ComponentSubType": "Ammunition",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Custom": {
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 0.2083
     }
+  }
 }

@@ -1,30 +1,42 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_300", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
     "Description": {
-        "Cost": 6920640, 
-        "Rarity": 5, 
+        "Cost": 6113810, 
+        "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Caesar", 
-        "Id": "chassisdef_caesar_CES-3R", 
-        "Name": "Caesar", 
-        "Details": "Originally a reverse-engineered version of the Capellan Confederation's Cataphract intended to mask development of the Federated Commonwealth's fearsome Axman, the Caesar would turn out to be a good but not great BattleMech in its own right. The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries a primarily long-ranged armament.", 
-        "Icon": "uixTxrIcon_caesar"
+        "UIName": "Champion", 
+        "Id": "chassisdef_champion_CHP-2N-RV", 
+        "Name": "Champion", 
+        "Details": "The 2N-RV is a relatively recent variant being manufactured under dubious legal means due to the manufacturing rights being auctioned multiple times by different sellers in 3027. This variant replaces both Medium Lasers with a single COIL-L energy weapon and removes one ton of AC/10 Ammo in favor of a much needed armor increase to the 'Mech. Reports from recent engagements involving the 'Mech indicate a marked combat performance improvement.", 
+        "Icon": "uixTxrIcon_champion"
     }, 
-    "VariantName": "CES-3R", 
-    "StockRole": "Brawler & Close Assault", 
-    "YangsThoughts": "Pretty obvious what the Federated Suns copied with the design for the Caesar 3R.  It's a good mech too in it's own right, hell of a punch at range but the XL engine means it doesn't want to be taking too much of the heat.", 
-    "PrefabIdentifier": "chrPrfMech_cataphractBase-001", 
-    "PrefabBase": "cataphract", 
-    "Tonnage": 70, 
-    "InitialTonnage": 7, 
+    "VariantName": "CHP-2N-RV", 
+    "StockRole": "Heavy Recon and Striker", 
+    "YangsThoughts": "The 2N-RV, while an improvement, remains a downgraded version from the Star League era. That said, with the armor increases and new COIL weapon on board, it tends to have a knack for not being a pushover anymore.", 
+    "PrefabIdentifier": "chrprfmech_championbase-001", 
+    "PrefabBase": "champion", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
     "weightClass": "HEAVY", 
-    "BattleValue": 6577000, 
+    "BattleValue": 5383000, 
     "Heatsinks": 0, 
-    "TopSpeed": 120, 
+    "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
+    "MaxJumpjets": 6, 
     "Stability": 160, 
     "StabilityDefenses": [
         0, 
@@ -42,17 +54,16 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 90, 
-    "MeleeInstability": 70, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 60, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 90, 
+    "DFADamage": 60, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 90, 
-    "DFAInstability": 90, 
+    "DFASelfDamage": 60, 
+    "DFAInstability": 30, 
     "ChassisTags": {
         "items": [
-            "mr-resize-0.93-1.07-1.00", 
-            "mech_case_right", 
+            "EnhancedAgilityDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -60,47 +71,47 @@
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_heavymech", 
     "PathingCapDefID": "pathingdef_heavy", 
-    "HardpointDataDefID": "hardpointdatadef_cataphract", 
+    "HardpointDataDefID": "hardpointdatadef_champion", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 15, 
+            "y": 13, 
             "z": 1
         }, 
         {
-            "x": 4, 
-            "y": 14, 
+            "x": 3, 
+            "y": 13, 
             "z": 0
         }, 
         {
-            "x": -4, 
-            "y": 14, 
+            "x": -3, 
+            "y": 13, 
             "z": 0
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 15, 
+            "y": 13, 
             "z": 1
         }, 
         {
-            "x": 4, 
-            "y": 14, 
-            "z": 0
-        }, 
-        {
-            "x": -4, 
-            "y": 14, 
-            "z": 0
-        }, 
-        {
             "x": 3, 
-            "y": 5, 
+            "y": 13, 
             "z": 0
         }, 
         {
             "x": -3, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
             "y": 5, 
             "z": 0
         }
@@ -121,18 +132,14 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 110, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftTorso", 
@@ -143,23 +150,40 @@
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 150, 
-            "MaxRearArmor": 75, 
-            "InternalStructure": 75
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
         }, 
         {
             "Location": "CenterTorso", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 220, 
-            "MaxRearArmor": 110, 
-            "InternalStructure": 110
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
         }, 
         {
             "Location": "RightTorso", 
@@ -167,53 +191,45 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Ballistic"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 150, 
-            "MaxRearArmor": 75, 
-            "InternalStructure": 75
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightArm", 
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
-            "MaxArmor": 110, 
+            "MaxArmor": 100, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 55
+            "InternalStructure": 50
         }, 
         {
             "Location": "LeftLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 150, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 75
+            "InternalStructure": 70
         }, 
         {
             "Location": "RightLeg", 
             "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
-            "MaxArmor": 150, 
+            "MaxArmor": 140, 
             "MaxRearArmor": -1, 
-            "InternalStructure": 75
+            "InternalStructure": 70
         }
     ]
 }

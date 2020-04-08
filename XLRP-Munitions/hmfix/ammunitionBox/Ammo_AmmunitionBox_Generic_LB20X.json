@@ -1,6 +1,6 @@
 {
     "AmmoID" : "Ammunition_LB20X",
-    "Capacity" : 30,
+    "Capacity" : 6,
     "Description" : {
         "Cost" : 50000,
         "Rarity" : 0,
@@ -10,7 +10,7 @@
         "UIName" : "LB 20-X Ammo",
         "Id" : "Ammo_AmmunitionBox_Generic_LB20X",
         "Name" : "LB 20-X Ammo",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nLB 20-X Ammo Bins each contain 5 rounds and may feed multiple weapons.",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\n\nLB 20-X Ammo Bins each contain 6 rounds and may feed multiple weapons.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 4.1</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "",
@@ -35,5 +35,10 @@
             "BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
-    }
+    },
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 4.167
+		}
+	}
 }

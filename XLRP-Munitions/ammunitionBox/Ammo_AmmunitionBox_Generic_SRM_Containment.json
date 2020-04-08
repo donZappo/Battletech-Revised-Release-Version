@@ -1,11 +1,11 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 1
+			"ExplosionDamagePerAmmo": 0.25
 		}
 	},
     "AmmoID" : "Ammunition_SRM",
-    "Capacity" : 72,
+    "Capacity" : 75,
     "Description" : {
         "Cost" : 15000,
         "Rarity" : 0,
@@ -15,7 +15,7 @@
         "UIName" : "SRM Ammo (Cont.)",
         "Id" : "Ammo_AmmunitionBox_Generic_SRM_Containment",
         "Name" : "SRM Ammo (Containment)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Containment SRM Ammo Bins are reinforced to contain half of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>72 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 1</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Containment SRM Ammo Bins are reinforced to contain half of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>75 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "-25% Ammo",

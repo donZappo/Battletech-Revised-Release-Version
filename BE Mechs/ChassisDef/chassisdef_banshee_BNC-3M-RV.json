@@ -1,0 +1,253 @@
+{
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_380", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
+    "Description": {
+        "Cost": 11985960, 
+        "Rarity": 5, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Banshee", 
+        "Id": "chassisdef_banshee_BNC-3M-RV", 
+        "Name": "Banshee", 
+        "Details": "The BNC-3M-RV is a variant first identified i 3025 as the lead 'Mech of the infamous \"Absolution's Gap\" mercenary company which assisted Lady Arano in retaking power during the Aurigan Reach civil war. This variant replaces all default weapons with a single BLaser backed by five COIL-S energy weapons. While many may argue this weapon configuration puts the pilot and 'Mech at extreme risk, even with an increase to the armor, it has proven extremely effective against enemy 'Mechs and vehicles of medium tonnage or less. As a result, refit procedures for this variant were drawn up by the Aurigan Coalition to procure, repair and salvage available Banshee chassis in order to bolster their existing mechanized forces. In practice, this means that the details of the refit and the methods to perform it have been sold to other Periphery states for profit and the little used BLaser has seen a localized resurgence.", 
+        "Icon": "uixTxrIcon_banshee"
+    }, 
+    "VariantName": "BNC-3M-RV", 
+    "StockRole": "Heavy Brawler & Sniper", 
+    "YangsThoughts": "The Banshee 3M-RV mounts some truly terrifying firepower and retains better-than-average speed and armor for a 95 ton 'Mech! At range the cooling systems are capable of dissipating each shot of the BLaser, just barely. However, when facing anything in a weight class lighter than it, take a page out of the mercenary's playbook that created this monstrosity and charge!", 
+    "PrefabIdentifier": "chrPrfMech_bansheeBase-001", 
+    "PrefabBase": "banshee", 
+    "Tonnage": 95, 
+    "InitialTonnage": 9.5, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 9360000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 260, 
+    "MeleeInstability": 95, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 120, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 120, 
+    "DFAInstability": 120, 
+    "ChassisTags": {
+        "items": [
+            "ChargerCharge", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_banshee", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
+        {
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
+        {
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 5.5, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 5.5, 
+            "z": 1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 300, 
+            "MaxRearArmor": 150, 
+            "InternalStructure": 150
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 160, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 80
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 100
+        }
+    ]
+}

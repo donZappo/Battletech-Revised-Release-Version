@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 2
+			"ExplosionDamagePerAmmo": 0.125
 		}
 	},
     "AmmoID" : "Ammunition_MG_Overpressure",
@@ -15,7 +15,7 @@
         "UIName" : "MG Ammo (OP)",
         "Id" : "Ammo_AmmunitionBox_Generic_MG_Overpressure",
         "Name" : "MG Ammo (Overpressure)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Overpressure MG Ammo contains a more powerful propellant charge and <color=#f79924>deals +1 damage per shot, but generates +2 recoil.</color> \r\n\r\nOverpressure MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 2</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Overpressure MG Ammo contains a more powerful propellant charge and <color=#f79924>deals +1 damage per shot, but generates +2 recoil.</color> \r\n\r\nOverpressure MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "+1 Dmg.",

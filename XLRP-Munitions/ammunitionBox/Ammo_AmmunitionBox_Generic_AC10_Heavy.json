@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 18
+			"ExplosionDamagePerAmmo": 2.5
 		}
 	},
     "AmmoID" : "Ammunition_AC10_Heavy",
@@ -15,7 +15,7 @@
         "UIName" : "AC/10 Ammo (H)",
         "Id" : "Ammo_AmmunitionBox_Generic_AC10_Heavy",
         "Name" : "AC/10 Ammo (Heavy)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\r\n\r\nAC/10 Heavy Ammo is modified for maximum stability impact. On the downside, this type of ammunition has reduced effective range. AC/10 Heavy ammo bins contain <color=#6aa84f>10 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 18</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.\r\n\r\nAC/10 Heavy Ammo is modified for maximum stability impact. On the downside, this type of ammunition has reduced effective range. AC/10 Heavy ammo bins contain <color=#6aa84f>10 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 2.5</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "+12 Stb.Dmg.",

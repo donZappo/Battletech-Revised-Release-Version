@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 2
+			"ExplosionDamagePerAmmo": 0.125
 		}
 	},
     "AmmoID" : "Ammunition_MG_Light",
@@ -15,7 +15,7 @@
         "UIName" : "MG Ammo (L)",
         "Id" : "Ammo_AmmunitionBox_Generic_MG_Light",
         "Name" : "MG Ammo (Lightweight)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Lightweight MG Ammo utilizes lightweight materials to improve ballistic properties, <color=#f79924>increasing maximum weapon range by 60 meters.</color> This comes at the cost of </color>35% less damage damage output.</color> \r\n\r\nLightweight MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 2</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Lightweight MG Ammo utilizes lightweight materials to improve ballistic properties, <color=#f79924>increasing maximum weapon range by 60 meters.</color> This comes at the cost of </color>35% less damage damage output.</color> \r\n\r\nLightweight MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "+60m Range",

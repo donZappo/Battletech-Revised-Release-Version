@@ -21,15 +21,17 @@
 	{
       "Type": "AmmunitionBoxDef",
       "Path": "ammunitionBox-merges",
-      "ShouldMergeJSON": true
+      "ShouldMergeJSON": false
     },
     {
       "Type": "AmmunitionDef",
-      "Path": "hmfix/ammunition"
+      "Path": "hmfix/ammunition",
+      "ShouldMergeJSON": false
     },
     {
       "Type": "AmmunitionBoxDef",
-      "Path": "hmfix/ammunitionBox"
+      "Path": "hmfix/ammunitionBox",
+      "ShouldMergeJSON": false
     }
   ]
 }

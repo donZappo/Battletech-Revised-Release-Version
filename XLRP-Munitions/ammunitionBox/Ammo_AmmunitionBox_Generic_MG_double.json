@@ -1,57 +1,41 @@
 {
-    "Custom": {
-		"Category" : [
-			{ "CategoryID" : "a/a/o/mg" }
-		],
-        "Flags": {
-            "flags": [
-                "not_broken"
-            ]
-        },
-        "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 0.5
-        },
-        "BonusDescriptions": {
-            "Bonuses": [
-                "Doubled",
-                "MGAmmo: 500"
-            ]
-        },
-        "InventorySorter": {
-            "SortKey": "000032"
-        }
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 0.125
+		}
+	},
+    "AmmoID" : "Ammunition_MG",
+    "Capacity" : 300,
+    "Description" : {
+        "Cost" : 30000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "MG",
+        "UIName" : "MG Ammo (Double)",
+        "Id" : "Ammo_AmmunitionBox_Generic_MG_double",
+        "Name" : "MG Ammo (Double)",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. MG ammo bins contain <color=#6aa84f>300 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Support"
     },
-    "AmmoID": "Ammunition_MG",
-    "Capacity": 500,
-    "Description": {
-        "Cost": 30000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": "Generic",
-        "Model": "MG",
-        "UIName": "MG Ammo [DBL]",
-        "Id": "Ammo_AmmunitionBox_Generic_MG_double",
-        "Name": "MG Ammo",
-        "Details": "Doubled Ammo Bins replace one ammo bins feeding and storing mechanism to 25% more shots into one location. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. \n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
-        "Icon": "uixSvgIcon_ammoBox_Support"
-    },
-    "BonusValueA": "",
-    "BonusValueB": "",
-    "ComponentType": "AmmunitionBox",
-    "ComponentSubType": "Ammunition",
-    "PrefabIdentifier": "",
-    "BattleValue": 0,
-    "InventorySize": 2,
-    "Tonnage": 2,
-    "AllowedLocations": "All",
-    "DisallowedLocations": "All",
-    "CriticalComponent": false,
-    "statusEffects": [],
-    "ComponentTags": {
-        "items": [
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
             "component_type_stock"
         ],
-        "tagSetSourceFile": ""
+        "tagSetSourceFile" : ""
     }
 }

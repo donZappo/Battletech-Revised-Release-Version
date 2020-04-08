@@ -1,40 +1,28 @@
 {
-    "FixedEquipment": [
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_400", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
-    ], 
+    "FixedEquipment": [], 
     "Description": {
         "Cost": 9728640, 
-        "Rarity": 2, 
+        "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Charger", 
-        "Id": "chassisdef_charger_CGR-1A1", 
-        "Name": "Charger", 
-        "Details": "The Charger is seen as an example of abject failure in BattleMech design. Wells Technologies originally wanted to produce an ultra-heavy scout 'Mech for the Star League Defense Force that was not only fast but could survive contact with the enemy. This was done by building the Charger on an 80-ton frame, making it the heaviest scout 'Mech in existence, and powering it with a massive LTV 400 fusion engine that took up almost sixty percent of the Charger's mass. With a top speed which allowed it to outrun most other 'Mechs the Charger was then given ten tons of Durallex Heavy armor, enough to survive repeated hits from a Class 20 Autocannon. However these features left very little room for offensive capability, an intentional deficiency on the part of the design team as they saw any task other than gathering data a distraction.", 
-        "Icon": "uixTxrIcon_charger"
+        "UIName": "Victor", 
+        "Id": "chassisdef_victor_VTR-9B-RV", 
+        "Name": "Victor", 
+        "Details": "The Victor 9B-RV is a radical shift for the chassis in weapons layout and armor placement and took quite a bit of convincing to get production approved. One thing to note up front however is that it retains the rare feature of Jump Jets on an assault 'Mech. This variant prioritizes protection more than previous configurations and has received a truly astonishing increase in armor; perhaps the most eer fielded on a Victor. It does this however at the cost of losing an SRM4 launcher, two Medium Lasers and two Heat Sinks all in order to mount a COIL-M and a single Small Laser. So far the feedback from pilots is positive and the battlefield results have proven out the designer's hopes of increasing the endurance of the 'Mech.", 
+        "Icon": "uixTxrIcon_victor"
     }, 
-    "VariantName": "CGR-1A1", 
-    "StockRole": "Heavy Scout & Harasser", 
-    "YangsThoughts": "Because the designers of the Charger wanted to discourage any activities that would put the 'Mech in danger, the engineers at Wells Technologies equipped the Charger with one Magna Mk I Small Laser and two COIL-S, mounted in its arms, torso and head. As these leave the 'Mech dangerously undergunned, arguably its most potent weapons are its fists; if the Charger is able to close the distance and get within hand-to-hand combat, it is more than capable of pounding to pieces other 'Mechs, especially lightweight ones.  I mean, can you imagine this thing with five small lasers instead?", 
-    "PrefabIdentifier": "chrprfmech_chargerhotd-001", 
-    "PrefabBase": "charger", 
+    "VariantName": "VTR-9B-RV", 
+    "StockRole": "Heavy Cavalry", 
+    "YangsThoughts": "Few assault 'Mechs mount Jump Jets and traditionally that would be the big advantage for the Victor, though this variant has almost twice armor than a standard 9B and COIL weapons to boot. Long story short? Ground pound away and bail if you need to. This thing is going to tank!", 
+    "PrefabIdentifier": "chrPrfMech_victorBase-001", 
+    "PrefabBase": "victor", 
     "Tonnage": 80, 
     "InitialTonnage": 8, 
     "weightClass": "ASSAULT", 
-    "BattleValue": 7718000, 
+    "BattleValue": 8924000, 
     "Heatsinks": 0, 
-    "TopSpeed": 150, 
+    "TopSpeed": 120, 
     "TurnRadius": 90, 
     "MaxJumpjets": 5, 
     "Stability": 200, 
@@ -51,10 +39,10 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 8, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 220, 
+    "MeleeDamage": 100, 
     "MeleeInstability": 80, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 100, 
@@ -63,7 +51,7 @@
     "DFAInstability": 100, 
     "ChassisTags": {
         "items": [
-            "ChargerCharge", 
+            "Retrofitted", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -71,48 +59,48 @@
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_assaultmech", 
     "PathingCapDefID": "pathingdef_assault", 
-    "HardpointDataDefID": "hardpointdatadef_charger", 
+    "HardpointDataDefID": "hardpointdatadef_victor", 
     "LOSSourcePositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 17, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 15, 
+            "x": 5, 
+            "y": 16, 
             "z": -1
         }, 
         {
-            "x": -4, 
-            "y": 15, 
+            "x": -5, 
+            "y": 16, 
             "z": -1
         }
     ], 
     "LOSTargetPositions": [
         {
             "x": 0, 
-            "y": 14, 
+            "y": 17, 
             "z": 0
         }, 
         {
-            "x": 4, 
-            "y": 15, 
+            "x": 5, 
+            "y": 16, 
             "z": -1
         }, 
         {
-            "x": -4, 
-            "y": 15, 
+            "x": -5, 
+            "y": 16, 
             "z": -1
         }, 
         {
             "x": 3.5, 
-            "y": 6, 
+            "y": 5.5, 
             "z": 1
         }, 
         {
             "x": -3.5, 
-            "y": 6, 
+            "y": 5.5, 
             "z": 1
         }
     ], 
@@ -120,16 +108,7 @@
     "Locations": [
         {
             "Location": "Head", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
@@ -139,6 +118,14 @@
         {
             "Location": "LeftArm", 
             "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
                 {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
@@ -155,11 +142,11 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Energy"
+                    "WeaponMount": "Missile"
                 }, 
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
@@ -179,16 +166,7 @@
         }, 
         {
             "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 170, 
@@ -200,7 +178,15 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
