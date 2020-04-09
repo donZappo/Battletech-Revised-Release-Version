@@ -22,5 +22,6 @@
         "PilotStabilityCheck" : 0.30,
         "ToHitSelfJumped": 2,
 		"TacticsSkillNegateJump": 8,
+		"UsingSemiPermanentEvasion": true
     }
 }
