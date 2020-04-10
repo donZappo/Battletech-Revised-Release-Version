@@ -176,5 +176,9 @@
             "component_type_variant",
             "component_type_lostech"
         ]
-    }
+    },
+    "TurretLimitedAmmo" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Turrets use up ammo and don't explode once ammo is gone."
+    },
 }
