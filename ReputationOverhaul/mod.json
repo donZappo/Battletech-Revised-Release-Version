@@ -2,7 +2,7 @@
     "Name": "Reputation Overhaul",
     "Enabled": true,
 
-    "Version": "0.1",
+    "Version": "1.0",
     "Author": "don Zappo and vengefire",
     
     "DLL": "ReputationOverhaul.dll",

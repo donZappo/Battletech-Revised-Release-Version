@@ -115,8 +115,8 @@
 
     /* Pilot Quirk Effects https://www.nexusmods.com/battletech/mods/282/ */
     "QuirksEnabled": true,
-    "BraveModifier": 5,
-    "DependableModifier": 5,
+    "BraveModifier": 25,
+    "DependableModifier": 25,
 
     /* new Mech Quirk effects TBA */
     "DistractingModifier": 5,
