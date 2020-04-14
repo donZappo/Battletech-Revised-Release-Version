@@ -40,8 +40,8 @@
     "PanicCritSaveString": "CRIT SAVE!",
     
     /* 0 is Confident.  Prevent manual ejection at this threshold status */
-    "LimitManualEjection": false,
-    "LimitManualEjectionLevel": 0,
+    "LimitManualEjection": true,
+    "LimitManualEjectionLevel": 1,
     
     /* prevent manual ejection with these pilot tags */
     "LimitManualEjectionTags": [
