@@ -12,9 +12,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM",
-        "UIName" : "SRM Ammo",
-        "Id" : "Ammo_AmmunitionBox_Generic_SRM",
-        "Name" : "SRM Ammo",
+        "UIName" : "SRM Ammo (Half)",
+        "Id" : "Ammo_AmmunitionBox_Generic_SRM_half",
+        "Name" : "SRM Ammo (Half)",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. SRM ammo bins contain <color=#6aa84f>50 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.25</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
