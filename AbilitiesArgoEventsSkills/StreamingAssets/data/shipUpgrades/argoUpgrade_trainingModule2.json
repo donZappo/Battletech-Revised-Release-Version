@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule2",
         "Name" : "Advanced BattlePods",
-        "Details" : "Upgrading to more Advanced Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>40XP per day upto 36K XP</b></i>",
+        "Details" : "Upgrading to more Advanced Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>30XP per day up to 20K XP and Pilots may gain the Dependable or Brave Quirks.</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training2"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",
@@ -37,14 +37,14 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDay",
-			"value" : 40,
+			"value" : 30,
 			"set" : true,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDayCap",
-			"value" : 36000,
+			"value" : 20000,
 			"set" : true,
 			"valueConstant" : ""
 		}       

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule1",
         "Name" : "Basic BattlePods",
-        "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. <i><b>30XP per day upto 22K XP</b></i>",
+        "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. <i><b>20XP per day upto 10K XP and Pilots may gain one bonus Quirk.</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training1"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",
@@ -37,14 +37,14 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDay",
-			"value" : 30,
+			"value" : 20,
 			"set" : true,
 			"valueConstant" : ""
 		},
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDayCap",
-			"value" : 22000,
+			"value" : 10000,
 			"set" : true,
 			"valueConstant" : ""
 		}        

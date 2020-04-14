@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_library2",
         "Name" : "Improved Library",
-        "Details" : "Active subscriptions to a variety of e-book services, periodicals, and tri-vid channels make the library even more appealing to everyone. The improved Library adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "Active subscriptions to a variety of e-book services, periodicals, and tri-vid channels make the library even more appealing to everyone. The improved Library adds <color=#ffd966><b>+2 to Crew Morale and pilots may gain the LosTech Quirk.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_libraryUpgrade"
     },
     "Illustration" : "uixTxrSpot_Library",

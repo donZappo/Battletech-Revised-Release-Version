@@ -37,6 +37,7 @@
 		"pilot_spacer_InjuryTimeReduction" : 0.8,
 		"pilot_tech_TechBonus" : 150,
 		"pilot_XP_change" : 0.15,
+		"ArgoUpgradesAddQuirks" : true,
 		
         "IsSaveGame": false,
 		

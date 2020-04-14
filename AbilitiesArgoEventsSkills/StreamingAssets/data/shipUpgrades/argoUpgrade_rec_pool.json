@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_pool",
         "Name" : "Low-G Pool",
-        "Details" : "When you have a large space with nothing critical in it and need to keep your crew in tip top shape, the obvious choice is to make a pool and fill it with chlorinated water. The Low-G Pool adds <color=#ffd966><b>+3 to Crew Morale.</b></color>",
+        "Details" : "When you have a large space with nothing critical in it and need to keep your crew in tip top shape, the obvious choice is to make a pool and fill it with chlorinated water. The Low-G Pool adds <color=#ffd966><b>+3 to Crew Morale and can reduce Fatigue Time by one day.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_pool"
     },
     "Illustration" : "uixTxrSpot_LowGPool",
