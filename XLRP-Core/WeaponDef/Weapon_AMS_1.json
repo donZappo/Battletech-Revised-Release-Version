@@ -1,0 +1,83 @@
+{
+  "Category" : "AntiPersonnel",
+  "Type" : "MachineGun",
+  "WeaponSubType" : "MachineGun",
+  "MinRange" : 0,
+  "MaxRange" : 100,
+  "RangeSplit" : [
+    100,
+    100,
+    100
+  ],
+  "AmmoCategory" : "AntiMissile",
+  "StartingAmmoCapacity" : 0,
+  "HeatGenerated" : 0.0,
+  "Damage" : 0.0,
+  "OverheatedDamageMultiplier" : 0,
+  "EvasiveDamageMultiplier" : 0,
+  "EvasivePipsIgnored" : 0,
+  "DamageVariance" : 0,
+  "HeatDamage" : 0.0,
+  "AccuracyModifier" : 0,
+  "CriticalChanceMultiplier" : 1.5,
+  "AOECapable" : false,
+  "IndirectFireCapable" : false,
+  "RefireModifier" : 0,
+  "ShotsWhenFired" : 0,
+  "ProjectilesPerShot" : 1,
+  "AttackRecoil" : 0,
+  "Instability" : 0.0,
+  "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+  "Description" : {
+    "Cost" : 200000,
+    "Rarity" : 2,
+    "Purchasable" : true,
+    "Manufacturer" : "Lindblad",
+    "Model" : "Anti-Missile System",
+    "UIName" : "AMS +",
+    "Id" : "Weapon_AMS_1",
+    "Name" : "AMS +",
+    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nArea: <color=#ffcc00>10 shots, 10% of missiles destroyed per shot, also protects friendly units in range</color>\r\nOff: <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nWill fire at every missile salvo during the round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
+    "Icon" : "uixSvgIcon_weapon_Support"
+  },
+  "BonusValueA" : "Area Fire Mode",
+  "BonusValueB" : "",
+  "ComponentType" : "Weapon",
+  "ComponentSubType" : "Weapon",
+  "PrefabIdentifier" : "MachineGun",
+  "BattleValue" : 0,
+  "InventorySize" : 1,
+  "Tonnage" : 0.5,
+  "AllowedLocations" : "LeftTorso",
+  "DisallowedLocations" : "All",
+  "CriticalComponent" : false,
+  "statusEffects" : [ ],
+  "ComponentTags" : {
+    "items" : [
+      "component_type_variant",
+      "component_type_variant1",
+      "range_close"
+    ],
+    "tagSetSourceFile" : ""
+  },
+  "Modes" : [
+    {
+      "Id" : "Area",
+      "UIName" : "Area",
+      "isBaseMode" : true,
+      "ShotsWhenFired" : 10,
+      "AMSHitChance" : 0.10,
+      "IsAAMS" : true
+    },
+    {
+      "Id" : "Off",
+      "UIName" : "Off",
+      "isBaseMode" : false,
+      "ShotsWhenFired" : 0,
+      "AMSHitChance" : 0.0
+    }
+  ],
+  "AMSShootsEveryAttack" : true,
+  "IsAMS" : true,
+  "NotUseInMelee" : true
+}

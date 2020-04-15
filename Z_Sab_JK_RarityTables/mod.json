@@ -20,13 +20,9 @@
         { "Type": "ContractOverride", "Path": "xcontracts", "AddToDB": false },
         { "Type": "ContractOverride", "Path": "xcontracts_JK", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech_overwrite_3039", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_overwrite_3039", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech_overwrite_3050", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_overwrite_3050", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech_userAdded", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_userAdded", "ShouldMergeJSON": true, "AddToDB": false },
 		{ "Type": "TurretDef", "Path": "turret_all","ShouldMergeJSON": true, "AddToDB": false}
     ]
