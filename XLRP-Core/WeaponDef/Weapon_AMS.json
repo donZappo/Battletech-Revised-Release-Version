@@ -3,7 +3,7 @@
   "Type" : "MachineGun",
   "WeaponSubType" : "MachineGun",
   "MinRange" : 0,
-  "MaxRange" : 120,
+  "MaxRange" : 90,
   "RangeSplit" : [
     90,
     90,
@@ -19,7 +19,7 @@
   "DamageVariance" : 0,
   "HeatDamage" : 0.0,
   "AccuracyModifier" : 0,
-  "CriticalChanceMultiplier" : 1.0,
+  "CriticalChanceMultiplier" : 1.5,
   "AOECapable" : false,
   "IndirectFireCapable" : false,
   "RefireModifier" : 0,
@@ -29,22 +29,22 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
   "Description" : {
-    "Cost" : 330000,
-    "Rarity" : 2,
+    "Cost" : 100000,
+    "Rarity" : 0,
     "Purchasable" : true,
-    "Manufacturer" : "Yankee Weapon Systems",
-    "Model" : "McArthur",
+    "Manufacturer" : "Lindblad",
+    "Model" : "Anti-Missile System",
     "UIName" : "AMS",
     "Id" : "Weapon_AMS",
     "Name" : "AMS",
-    "Details" : "The Anti-Missile System is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. \n\n<b><color=#ffcc00>Uses AMS Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
-    "Icon" : "AMS"
+    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nOn: <color=#ffcc00>10 shots, maximum 27% of missiles destroyed, protects this unit</color>\r\nArea: <color=#ffcc00>10 shots, maximum 18% of missiles destroyed, also protects friendly units in range</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.</b>",
+    "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
-  "PrefabIdentifier" : "AMS",
+  "PrefabIdentifier" : "MachineGun",
   "BattleValue" : 0,
   "InventorySize" : 1,
   "Tonnage" : 0.5,
@@ -64,23 +64,16 @@
       "Id" : "On",
       "UIName" : "On",
       "isBaseMode" : true,
-      "IsAMS" : true,
       "ShotsWhenFired" : 10,
-      "AMSHitChance" : 0.3,
-      "AMSShootsEveryAttack" : false
+      "AMSHitChance" : 0.03
     },
     {
-      "Id" : "Overload",
-      "UIName" : "Overload",
+      "Id" : "Area",
+      "UIName" : "Area",
       "isBaseMode" : false,
-      "IsAMS" : true,
-      "ShotsWhenFired" : 20,
-      "AMSHitChance" : 0.3,
-      "FlatJammingChance" : 0.4,
-      "GunneryJammingMult" : 0.06,
-      "GunneryJammingBase" : 5,
-      "HeatGenerated" : 2,
-      "AMSShootsEveryAttack" : true
+      "ShotsWhenFired" : 10,
+      "AMSHitChance" : 0.02,
+      "IsAAMS" : true
     },
     {
       "Id" : "Off",
@@ -88,63 +81,9 @@
       "isBaseMode" : false,
       "ShotsWhenFired" : 0,
       "AMSHitChance" : 0.0
-    },
-    {
-      "Id" : "MG",
-      "UIName" : "MG",
-      "isBaseMode" : false,
-      "DamagePerShot" : 1.0,
-      "HeatGenerated" : 6,
-      "ShotsWhenFired" : 5,
-      "FlatJammingChance" : 0.1,
-      "GunneryJammingMult" : 0.015,
-      "GunneryJammingBase" : 5
     }
   ],
-  "APMaxArmorThickness" : 1,
-  "APArmorShardsMod" : 0,
-  "NotUseInMelee" : true,
-  "Custom" : {
-    "Category" : [
-      {
-        "CategoryID" : "AMS"
-      },
-      {
-        "CategoryID" : "w/s/a/ams"
-      }
-    ],
-    "BonusDescriptions" : {
-      "Bonuses" : [
-        "AMS",
-        "AMSAcc: 30%",
-        "AMSShots: 10",
-        "AMSHeat: 0",
-        "OLAMSANY",
-        "OLAMSShots: 20",
-        "OLAMSHeat: 2",
-        "OLAMSJam: 40%",
-        "OLAMSRange: 90",
-        "AMSDirectMG: 5"
-      ]
-    },
-    "InventorySorter" : {
-      "SortKey" : "00025"
-    }
-  },
-  "Auras" : [
-    {
-      "Id" : "AMS",
-      "Name" : "AMS",
-      "ReticleColor" : "#cc9900",
-      "Range" : 10,
-      "RemoveOnSensorLock" : false,
-      "State" : "Persistent",
-      "ApplySelf" : false,
-      "HideOnNotSelected" : true,
-      "AllyStealthAffection" : "None",
-      "EnemyStealthAffection" : "None",
-      "IsPositiveToAlly" : false
-    }
-  ],
-  "APCriticalChanceMultiplier" : 0.5
+  "AMSShootsEveryAttack" : true,
+  "IsAMS" : true,
+  "NotUseInMelee" : true
 }
