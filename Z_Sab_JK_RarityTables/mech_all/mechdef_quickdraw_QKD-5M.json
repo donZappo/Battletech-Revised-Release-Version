@@ -1,0 +1,60 @@
+{
+
+  "MechTags": {
+    "items": [
+      
+      "unit_release",
+      "unit_ready",
+      "unit_heavy",
+      
+      "unit_role_flanker",
+      "unit_speed_high",
+      "unit_lance_support",
+      
+      "unit_armor_low",
+      "unit_indirectFire",
+      "unit_range_long",
+      
+      "unit_uncommon",           
+      "unit_very_rare_Davion",
+      "unit_uncommon_Kurita",
+      "unit_uncommon_Liao",
+      "unit_uncommon_Marik",
+      "unit_very_rare_Steiner",
+      "unit_very_rare_ComStar",            
+      "unit_rare_GrayDeathLegion",            
+      "unit_rare_KellHounds",
+
+      "unit_very_rare_Locals",
+      "unit_very_rare_HostileMercenaries",            
+      "unit_very_rare_MagistracyOfCanopus",
+      "unit_very_rare_TaurianConcordat",   
+      "unit_very_rare_AuriganDirectorate",   
+      "unit_very_rare_AuriganRestoration",
+      "unit_very_rare_AuriganMercenaries",
+
+      "unit_ext_rare_AuriganPirates",
+      "unit_ext_rare_NoFaction",
+      "unit_ext_rare_Betrayers",
+      "unit_ext_rare_BlackCalderaDefense",
+      "unit_ext_rare_BlackCalderaDefense_Hidden",
+      "unit_ext_rare_DuchyOfAndurien", 
+      "unit_ext_rare_EmeraldDawn",
+      "unit_ext_rare_FlakJackals",
+      "unit_ext_rare_HouseNakano",
+      "unit_ext_rare_HouseKhulan",
+      "unit_ext_rare_LocalsBrockwayRefugees",
+      "unit_ext_rare_MajestyMetals",
+      "unit_ext_rare_MasonsMarauders",       
+      "unit_ext_rare_MercenaryReviewBoard",
+      "unit_ext_rare_PaladinProtectionLLC",
+      "unit_ext_rare_RazorbackMercs",
+      "unit_ext_rare_RedHareRegiment",
+      "unit_ext_rare_SecuritySolutionsInc",
+      "unit_ext_rare_SelfEmployed",
+      "unit_ext_rare_SianTriumphant",
+      "unit_ext_rare_SteelBeast",
+      "unit_ext_rare_NoFaction"
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "BR_MQ_ArmourBaffleSystem",
             "unit_mech",
             "unit_fallback",
             "unit_medium",

@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "BR_MQ_Charger",
             "unit_mech",
             "unit_assault", 
             "unit_range_medium",

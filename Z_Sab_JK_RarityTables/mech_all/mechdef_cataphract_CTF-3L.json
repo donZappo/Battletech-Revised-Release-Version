@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "BR_MQ_GenericDesign",
             "unit_mech",
             "unit_heavy", 
             "unit_range_long",
