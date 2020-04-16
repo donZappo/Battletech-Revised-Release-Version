@@ -37,7 +37,7 @@
     "UIName" : "LB 2-X + +",
     "Id" : "Weapon_Autocannon_LB2X_2-Defiance",
     "Name" : "LB 2-X + +",
-    "Details" : "Paradoxically a \"long-range shotgun\", the LB 2-X is ideal for delivering Critical Hits from afar or peppering away light armor. Like all LB-X Autocannons, the LB 2-X fires cluster munitions and suffers recoil from continuous fire.",
+    "Details" : "Paradoxically a \"long-range shotgun\", the LB 2-X is ideal for delivering Critical Hits from afar or peppering away light armor. Like all LB-X Autocannons, the LB 2-X fires cluster munitions and suffers recoil from continuous fire.<color=#ffcc00><b>\r\n\r\n• Each shot breaks into 10 separate projectiles.\r\n• Projectiles either all hit or all miss.\r\n• Projectiles do 4 damage each.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 1 Acc.",

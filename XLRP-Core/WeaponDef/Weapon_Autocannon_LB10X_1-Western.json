@@ -36,7 +36,7 @@
     "UIName" : "LB 10-X +",
     "Id" : "Weapon_Autocannon_LB10X_1-Western",
     "Name" : "LB 10-X +",
-    "Details" : "The LB 10-X sands away considerable amounts of armor and severely destabilizes targets with its large-gauge scatter shots and high stability damage. Like all LB-X Autocannons, the LB 10-X fires cluster munitions and suffers recoil from continuous fire.",
+    "Details" : "The LB 10-X sands away considerable amounts of armor and severely destabilizes targets with its large-gauge scatter shots and high stability damage. Like all LB-X Autocannons, the LB 10-X fires cluster munitions and suffers recoil from continuous fire.<color=#ffcc00><b>\r\n\r\n• Each shot breaks into 12 separate projectiles.\r\n• Projectiles either all hit or all miss.\r\n• Projectiles do 8 damage each.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 3.6 Stb.Dmg.",

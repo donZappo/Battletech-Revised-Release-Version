@@ -36,7 +36,7 @@
     "UIName" : "LB 5-X +",
     "Id" : "Weapon_Autocannon_LB5X_1-GM",
     "Name" : "LB 5-X +",
-    "Details" : "The LB 5-X is ideal for battering lighter targets with its shogtun-like hits, which deal substantially more stability damage than the weapon's standard counterpart. Like all LB-X Autocannons, the LB 5-X fires cluster munitions and suffers recoil from continuous fire.",
+    "Details" : "The LB 5-X is ideal for battering lighter targets with its shogtun-like hits, which deal substantially more stability damage than the weapon's standard counterpart. Like all LB-X Autocannons, the LB 5-X fires cluster munitions and suffers recoil from continuous fire.<color=#ffcc00><b>\r\n\r\n• Each shot breaks into 11 separate projectiles.\r\n• Projectiles either all hit or all miss.\r\n• Projectiles do 6 damage each.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "+ 1 Acc.",

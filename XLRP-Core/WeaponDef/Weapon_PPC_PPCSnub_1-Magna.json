@@ -36,7 +36,7 @@
     "UIName" : "Snub PPC +",
     "Id" : "Weapon_PPC_PPCSnub_1-Magna",
     "Name" : "Snub PPC +",
-    "Details" : "A unique modification of a standard Particle Projector Cannon, the Snub PPC utilizes the same energy acceleration, but with a shortened range and a cluster of smaller projectiles. Like the standard model, Snub PPC shots impart a debilitating EM effect that degrades the firing capability of their target.",
+    "Details" : "A unique modification of a standard Particle Projector Cannon, the Snub PPC utilizes the same energy acceleration, but with a shortened range and a cluster of smaller projectiles. Like the standard model, Snub PPC shots impart a debilitating EM effect that degrades the firing capability of their target.<color=#ffcc00><b>\r\n\r\n• Each shot breaks into 5 separate projectiles.\r\n• Projectiles either all hit or all miss.\r\n• Projectiles do 15 damage each.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "+ 30 Range",

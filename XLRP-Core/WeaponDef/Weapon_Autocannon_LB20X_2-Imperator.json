@@ -36,7 +36,7 @@
     "UIName" : "LB 20-X + +",
     "Id" : "Weapon_Autocannon_LB20X_2-Imperator",
     "Name" : "LB 20-X + +",
-    "Details" : "Delivering massive cluster rounds of stability damage with each volley, the LB 20-X smashes its opponents into the ground at short range and strips armor away in hunks. Like all LB-X Autocannons, the LB 20-X fires cluster munitions and suffers recoil from continuous fire.",
+    "Details" : "Delivering massive cluster rounds of stability damage with each volley, the LB 20-X smashes its opponents into the ground at short range and strips armor away in hunks. Like all LB-X Autocannons, the LB 20-X fires cluster munitions and suffers recoil from continuous fire.<color=#ffcc00><b>\r\n\r\n• Each shot breaks into 13 separate projectiles.\r\n• Projectiles either all hit or all miss.\r\n• Projectiles do 11 damage each.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "- 5 Stb.Dmg.",
