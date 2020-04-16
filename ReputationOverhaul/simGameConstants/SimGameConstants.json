@@ -9,7 +9,7 @@
     "FriendlyReputation": 40,
     "HonoredReputation": 80,
     "MaxReputation": 100,
-    "AllyReputationThreshold": 100,
+    "AllyReputationThreshold": 75,
     "BreakAllianceReputationChange": -75,
 	
 	//* I believe this area is deprecated.

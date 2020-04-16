@@ -7,7 +7,7 @@
 	"Website": "https://www.nexusmods.com/battletech/mods/473",
 	"Contact": " aadlg@rocketmail.com",
     "DLL": "LogoReplacement.dll",
-    "ConflictsWith": [ "Z_Sab_JK_RarityTables", "JK_SUCKos", "JK_VariantsCampaign", "JK_VariantsDLC", "BT Advanced Core", "BT_Extended_3025", "Jinxed", "The Periphery Is A Harsh Mistress", "It Came From The Rim" ],
+    "ConflictsWith": [ "JK_SUCKos", "JK_VariantsCampaign", "JK_VariantsDLC", "BT Advanced Core", "BT_Extended_3025", "Jinxed", "The Periphery Is A Harsh Mistress", "It Came From The Rim" ],
 	
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
