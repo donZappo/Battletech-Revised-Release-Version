@@ -234,7 +234,7 @@
     "FriendlyReputation": 40,
     "HonoredReputation": 80,
     "MaxReputation": 100,
-    "AllyReputationThreshold": 100,
+    "AllyReputationThreshold": 75,
     "BreakAllianceReputationChange": -75,
     "LoathedMaxContractDifficulty": -3,
     "HatedMaxContractDifficulty": -2,
@@ -334,7 +334,7 @@
       12,
       24
     ],
-    "MaxContractsPerSystem": 8,
+    "MaxContractsPerSystem": 5,
     "ContractRenewalPerWeek": 0.5,
     "ContractSuccessReduction": 1.0,
     "MaxBreadcrumbsPerSystem": 2,
