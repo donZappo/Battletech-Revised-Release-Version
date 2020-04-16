@@ -63,7 +63,7 @@
   },
   "ImprovedBallistic" : true,
   "HasShells" : false,
-  "VolleyDivisor" : 10,
+  "VolleyDivisor" : 1,
   "HitGenerator" : "Cluster",
   "BallisticDamagePerPallet" : true,
   "DamageNotDivided" : false,
