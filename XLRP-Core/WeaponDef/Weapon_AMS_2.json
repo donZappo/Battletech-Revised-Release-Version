@@ -1,7 +1,7 @@
 {
   "Category" : "AntiPersonnel",
   "Type" : "MachineGun",
-  "WeaponSubType" : "MachineGun",
+  "WeaponSubType" : "AMS",
   "MinRange" : 0,
   "MaxRange" : 100,
   "RangeSplit" : [
@@ -34,10 +34,10 @@
     "Purchasable" : true,
     "Manufacturer" : "Lindblad",
     "Model" : "Anti-Missile System",
-    "UIName" : "AMS + +",
+    "UIName" : "RISC APDS +",
     "Id" : "Weapon_AMS_2",
-    "Name" : "AMS + +",
-    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\n\r\nArea:  <color=#ffcc00>10 shots, 10% of missiles destroyed per shot, also protects friendly units in range</color>Self: <color=#ffcc00>10 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff: <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nWill fire at every missile salvo during the round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
+    "Name" : "RISC APDS + (AMS + +)",
+    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. The Advanced Point Defense System, which is also known as APD or APDS, is an Anti-Missile System designed to protect multiple units from incoming missile fire. The weapon system has two variants: the Standard and the Battlesuit variant.\r\n\r\n<b>Firing modes:</b>\r\n\r\nArea:  <color=#ffcc00>10 shots, 10% of missiles destroyed per shot, also protects friendly units in range</color>Self: <color=#ffcc00>10 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff: <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nWill fire at every missile salvo during the round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "Togglable Fire Modes",

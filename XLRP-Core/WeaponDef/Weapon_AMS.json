@@ -1,7 +1,7 @@
 {
   "Category" : "AntiPersonnel",
   "Type" : "MachineGun",
-  "WeaponSubType" : "MachineGun",
+  "WeaponSubType" : "AMS",
   "MinRange" : 0,
   "MaxRange" : 100,
   "RangeSplit" : [
