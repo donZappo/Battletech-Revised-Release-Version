@@ -684,18 +684,6 @@
       {
         "k": "RightLeg",
         "v": 8
-      },
-      {
-        "k": "CenterTorsoRear",
-        "v": 8
-      },
-      {
-        "k": "LeftTorsoRear",
-        "v": 4
-      },
-      {
-        "k": "RightTorsoRear",
-        "v": 4
       }
     ],
     "HitVehicleLocationFromFront": [

@@ -12,11 +12,11 @@
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 60,
-    "Damage" : 30,
+    "Damage" : 10,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 20,
+    "DamageVariance" : 10,
     "HeatDamage" : 0,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
@@ -26,17 +26,17 @@
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 3,
-    "Instability" : 20,
+    "Instability" : 50,
     "WeaponEffectID" : "WeaponEffect-Artillery_MechMortar",
     "Description" : {
         "Cost" : 3000000,
         "Rarity" : 99,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Western",
         "Model" : "Heavy Autocannon",
-        "UIName" : "MechMortar",
+        "UIName" : "AC/10",
         "Id" : "Weapon_Mortar_MechMortar",
-        "Name" : "MechMortar",
+        "Name" : "AC/10",
         "Details" : "MISSING",
         "Icon" : "uixSvgIcon_artillery"
     },
@@ -50,14 +50,14 @@
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
+	"isStabilityVariation": true,
+	"isDamageVariation" : true,
     "statusEffects" : [
         
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "range_long",
-            "BLACKLISTED"
+            "range_long"
         ],
         "tagSetSourceFile" : ""
     }
