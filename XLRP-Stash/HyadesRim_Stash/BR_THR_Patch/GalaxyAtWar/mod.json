@@ -350,7 +350,7 @@
 			},
 		
 		"HyadesRimCompatible" : true,
-		"HyadesPirates": {
+		"HyadesPirates": [
 			"CorporatePirates",
 			"EvilEye",
 			"HarbingersOfDoom",
@@ -369,13 +369,13 @@
 			"CanopianPirates",
 			"CapellanPirates",
 			"ClusterPirates"
-		},
-		"HyadesFlashpointSystems" : {
+		],
+		"HyadesFlashpointSystems" : [
 			"planet_name_serenity",
 			"planet_name_katinka",
 			"planet_name_sterope",
 			"planet_name_argos"
-		},
+		],
 			
 			
 		//This region allows for a separate set of values that *must* be changed if you are including more than the base factions.
