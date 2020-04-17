@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"AntiTankVehicleRole: 25"
+				"AntiTankVehicleRole: 5"
       ]
         },
 		"Flags": {
@@ -33,7 +33,7 @@
         "UIName": "Anti-Vehicle Role",
         "Id": "mech_quirk_anti_tank_vehicle_role",
         "Name": "Anti-Vehicle Role",
-        "Details": "This mech was designed with the cockpit and weapons in a position to better engage targets smaller than it, such as tanks and infantry. Bonus damage to all Vehicles.",
+        "Details": "This mech was designed with the cockpit and weapons in a position to better engage targets smaller than it, such as tanks and infantry. Bonus to-hit against all Vehicles.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -63,7 +63,7 @@
             "Description" : {
                 "Id" : "StatusEffect-anti-tank-Q1",
                 "Name" : "Anti-Tank Role",
-                "Details" : "Weapons do 25% more damage to vehicles.",
+                "Details" : "Weapons have a 25% bonus to-hit vehicles.",
                 "Icon" : "SpecialistSlot"
             },
             "statisticData" : {

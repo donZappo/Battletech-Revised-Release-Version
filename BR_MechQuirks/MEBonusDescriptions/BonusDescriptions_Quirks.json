@@ -176,9 +176,9 @@
     },
     {
       "Bonus": "AntiTankVehicleRole",
-      "Short": "+{0}% Damage to Vehicles",
-      "Long": "+{0}% Damage to Vehicles",
-      "Full": "+{0}% Damage to Vehicles with any weapon"
+      "Short": "-{0} To-Hit Bonus to Vehicles",
+      "Long": "-{0} To-Hit Bonus to Vehicles",
+      "Full": "All Weapons have a -{0} Bonus To-Hit Vehicles"
     },
     {
       "Bonus": "SmallArmsFireControl",
