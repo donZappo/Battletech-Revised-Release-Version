@@ -348,7 +348,34 @@
 			"SoloDuel" : 0.4,
 			"DuoDuel" : 0.4
 			},
-			
+		
+		"HyadesRimCompatible" : true,
+		"HyadesPirates": {
+			"CorporatePirates",
+			"EvilEye",
+			"HarbingersOfDoom",
+			"InterstellarExpeditions",
+			"MagnaMetals",
+			"RenegadePirates",
+			"RimPirates",
+			"RoguePirates",
+			"SyrtisPirates",
+			"TaurusMajorisMining",
+			"TaurusTerritorialIndustries",
+			"TortugaPirates",
+			"Warboys",
+			"AlphardTradingCompany",
+			"AntithesisCreed",
+			"CanopianPirates",
+			"CapellanPirates",
+			"ClusterPirates"
+		},
+		"HyadesFlashpointSystems" : {
+			"planet_name_serenity",
+			"planet_name_katinka",
+			"planet_name_sterope",
+			"planet_name_argos"
+		},
 			
 			
 		//This region allows for a separate set of values that *must* be changed if you are including more than the base factions.
