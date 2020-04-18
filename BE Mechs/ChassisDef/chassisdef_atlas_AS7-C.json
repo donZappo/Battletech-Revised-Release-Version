@@ -124,11 +124,7 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
+                }                
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -142,6 +138,10 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Missile"
+                },
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
                 }
             ], 
             "Tonnage": 0, 

@@ -433,7 +433,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Weapon_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 

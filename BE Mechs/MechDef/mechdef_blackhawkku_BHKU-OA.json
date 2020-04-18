@@ -279,6 +279,17 @@
             "hasPrefabName": false
         }, 
         {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK", 
+            "SimGameUID": null, 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
             "SimGameUID": "", 
@@ -422,17 +433,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "LeftLeg", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS", 
             "SimGameUID": "", 
@@ -445,7 +445,7 @@
         }, 
         {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Weapon_AMS", 
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK", 
             "SimGameUID": null, 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 

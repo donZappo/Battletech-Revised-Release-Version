@@ -3,12 +3,15 @@
         "items": [
             "unit_mech",
             "unit_assault", 
+            "unit_speed_high",
+            "unit_indirectFire", 
+            "unit_armor_low",
             "unit_range_long",
-            "unit_lance_tank",
-            "unit_role_brawler",
+            "unit_lance_support",
+            "unit_role_sniper",
             "unit_release",
+          
             "unit_very_rare",
-            "unit_era_2900",
             "unit_SLDF",
             "unit_LosTech",
             "unit_very_rare_Davion",

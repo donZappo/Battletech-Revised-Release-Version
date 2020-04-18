@@ -169,7 +169,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Weapon_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
