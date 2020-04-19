@@ -2275,7 +2275,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "mechdef_griffin_GRF-4N",
+						"unitDefId": "mechdef_griffin_GRF-3M",
 						"unitTagSet": {
 							"items": [
 								"unit_mech",
@@ -2850,11 +2850,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "mechdef_centurion_CN9-AS",
+						"unitDefId": "mechdef_centurion_CN9-A",
 						"unitTagSet": {
 							"items": [
-								"unit_heavy",
-								"unit_jumpOK",
 								"unit_mech"
 							],
 							"tagSetSourceFile": "Tags/UnitTags"
@@ -3179,7 +3177,7 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "mechdef_griffin_GRF-4N",
+						"unitDefId": "mechdef_griffin_GRF-3M",
 						"unitTagSet": {
 							"items": [
 								"unit_light",

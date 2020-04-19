@@ -191,7 +191,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-6000",
+                                    "value" : "-6",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -268,7 +268,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -397,7 +397,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-6000",
+                                    "value" : "-6",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -474,7 +474,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -642,7 +642,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-3000",
+                                    "value" : "-3",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -694,7 +694,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -880,7 +880,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-3000",
+                                    "value" : "-3",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -931,8 +931,8 @@
                             "Stats" : [],
                             "Actions" : null,
                             "ForceEvents" : null,
-                            "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 600
                         }
                     ]
                 }

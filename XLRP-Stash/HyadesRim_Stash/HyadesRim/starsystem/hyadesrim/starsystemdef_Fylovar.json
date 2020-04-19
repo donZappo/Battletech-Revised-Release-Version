@@ -148,6 +148,8 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+		"HarbingersOfDoom",
+        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "SyrtisPirates",
@@ -165,6 +167,8 @@
 		"EvilEye"
     ],
     "contractTargetIDs": [
+		"HarbingersOfDoom",
+        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "RimPirates",

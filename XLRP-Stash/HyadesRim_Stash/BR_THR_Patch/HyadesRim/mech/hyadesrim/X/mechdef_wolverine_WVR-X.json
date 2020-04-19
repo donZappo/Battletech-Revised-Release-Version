@@ -37,6 +37,8 @@
 			"NotTaurusTerritorialIndustries",
 			"NotMajestyMetals",
 			"NotMagnaMetals",
+			"NotAutocracyOfLeh",
+			"GhostRiders",
 			"NotBaumannGroup",
 			"NotBlackWidowCompany",
 			"NotBountyHunterAssociates",
@@ -68,7 +70,7 @@
         "UIName": "Wolverine WVR-X",
         "Id": "mechdef_wolverine_WVR-X",
         "Name": "Wolverine",
-        "Details": "Wolverine 6K models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
+        "Details": "Wolverine -X models don't usually include Jump Jets in order to mount more Energy weaponry, Heat Sinks, and armor.",
         "Icon": "uixTxrIcon_wolverine"
     },
     "simGameMechPartCost": 630000,

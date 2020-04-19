@@ -139,13 +139,14 @@
     "DefaultDifficulty": 1,
     "DifficultyList": [
         1,
-        2
+        5
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
+		"AlphardTradingCompany",
         "Davion",
         "TaurianConcordat",
         "AuriganPirates",
@@ -155,7 +156,9 @@
         "CanopianPirates"
     ],
     "contractTargetIDs": [
+		"AlphardTradingCompany",
         "AuriganPirates",
+        "RimPirates",
         "Davion",
         "TaurianConcordat",
         "ClusterPirates",

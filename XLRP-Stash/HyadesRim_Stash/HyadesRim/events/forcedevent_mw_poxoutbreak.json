@@ -268,7 +268,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -474,7 +474,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -694,7 +694,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 600
                         }
                     ]
                 }
@@ -931,8 +931,8 @@
                             "Stats" : [],
                             "Actions" : null,
                             "ForceEvents" : null,
-                            "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 600
                         }
                     ]
                 }

@@ -5,19 +5,19 @@
 
     "Settings": {
 		"SetContractParticipants" : false,
-        "MapWidth": 200,
-        "MapHeight": 200,
+        "MapWidth": 180,
+        "MapHeight": 180,
 
-        "MapMargin": 50,
+        "MapMargin": 5,
         "MapBottomMargin": 100,
         
         "MinFov": 20,
-        "MaxFov": 125,
+        "MaxFov": 100,
 
         "UseSmoothZoom": true,
         "SmoothZoomTime": 0.15,
 
-        "StarHitboxSize": 2,
+        "StarHitboxSize": 10,
         "BorderMargin": 5,
 
         "FactionColors": {

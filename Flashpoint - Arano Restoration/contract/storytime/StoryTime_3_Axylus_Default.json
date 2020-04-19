@@ -1627,7 +1627,7 @@
                         "customUnitName": "Grim Sybil",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_quickdraw_QKD-4G",
+                        "unitDefId": "mechdef_quickdraw_QKD-4G_hero_grimS",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": ""

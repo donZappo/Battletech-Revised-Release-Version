@@ -1,2 +1,26 @@
 {
+   "Flashpoints" : {
+		"MaxActiveFlashpoints" : 7,
+   },
+   "CareerMode" : {
+   		"StartingSystems" : [
+			"Arn",
+			"Lyreton",
+			"Panzyr",
+			"NewAbilene",
+			"Illiushin",
+			"Independence",
+			"Lastpost",
+			"Neucratis",
+			"Cadiz",
+			"Margaret"
+		],
+		"StartingRandomMechLists" : [
+			"itemCollection_Mechs_Starting_0_Periphery",
+			"itemCollection_Mechs_Starting_1_Periphery",
+			"itemCollection_Mechs_Starting_2_Periphery",
+			"itemCollection_Mechs_Starting_3_Periphery",
+			"itemCollection_Mechs_Starting_4_Periphery",
+		],
+	}
 }

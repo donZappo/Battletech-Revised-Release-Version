@@ -1,19 +1,22 @@
 {
 	"Custom": {
+		"CASE": {
+			"MaximumDamage": 25
+		},
 		"Category" : { 
 			"CategoryID" : "CASE" 
 		}
 	},
     "Description" : {
         "Cost" : 50000,
-        "Rarity" : 0,
-        "Purchasable" : false,
-        "Manufacturer" : "Lostech",
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "StarSlab",
         "Model" : "Standard",
         "Id" : "emod_case",
         "UIName" : "CASE",
         "Name" : "C.A.S.E.",
-        "Details" : "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from travelling to adjecent mech compartments. While it does not prevent damage to occur in the protected area, it does prevent it from passing through, helping to prevent ammo explosions to reach the center torso of a mech.",
+        "Details" : "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from travelling to adjecent mech compartments, while limiting the total damage to 25 points within the section.",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",

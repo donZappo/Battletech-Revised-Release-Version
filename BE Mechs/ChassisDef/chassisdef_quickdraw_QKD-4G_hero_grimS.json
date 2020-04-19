@@ -1,0 +1,210 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 5942360, 
+        "Rarity": 5, 
+        "Purchasable": false, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Quickdraw QKD-4G", 
+        "Id": "chassisdef_quickdraw_QKD-4G_hero_grimS", 
+        "Name": "Grim Sybil", 
+        "Details": "Quickdraw 4Gs are among the fastest and most maneuverable of heavy 'Mechs, with decent weaponry. They suffer from problematic heat buildup when using all their features at once, so some caution is needed.", 
+        "Icon": "uixTxrIcon_quickdraw"
+    }, 
+    "VariantName": "QKD-4G", 
+    "StockRole": "Striker Cavalry", 
+    "YangsThoughts": "Quickdraw 4Gs are among the fastest and most maneuverable of heavy 'Mechs, with decent weaponry. They suffer from problematic heat buildup when using all their features at once, so some caution is needed.", 
+    "PrefabIdentifier": "chrPrfMech_quickdrawBase-001", 
+    "PrefabBase": "quickdraw", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6922000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 150, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 60, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 75, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 75, 
+    "DFAInstability": 75, 
+    "ChassisTags": {
+        "items": [
+            "QuickdrawFightingStyle", 
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_quickdraw", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 0
+        }, 
+        {
+            "x": 3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3.5, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 3, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 5, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }
+    ]
+}

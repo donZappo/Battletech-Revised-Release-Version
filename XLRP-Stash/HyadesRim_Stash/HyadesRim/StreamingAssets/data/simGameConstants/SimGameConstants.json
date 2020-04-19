@@ -1,6 +1,8 @@
 {
+   "Flashpoints" : {
+		"MaxActiveFlashpoints" : 7,
+   },
    "CareerMode" : {
-		"GameLength" : 1500,
    		"StartingSystems" : [
 			"Arn",
 			"Lyreton",
@@ -19,6 +21,6 @@
 			"itemCollection_Mechs_Starting_2_Periphery",
 			"itemCollection_Mechs_Starting_3_Periphery",
 			"itemCollection_Mechs_Starting_4_Periphery",
-		]
+		],
 	}
 }

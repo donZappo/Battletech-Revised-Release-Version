@@ -156,9 +156,11 @@
 		"AntithesisCreed"
     ],
     "contractTargetIDs": [
-		"Locals",
-        "TaurianConcordat",
 		"AlphardTradingCompany",
+        "Locals",
+        "TortugaPirates",
+		"HarbingersOfDoom",
+        "RimPirates",
         "AuriganPirates",
         "ClusterPirates",
         "TortugaPirates",

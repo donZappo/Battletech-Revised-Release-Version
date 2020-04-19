@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Baltar",
         "Name": "Baltar",
-        "Details": "This former Taurian system was once abandoned due to limited resources and an almost non-existant atmosphere. It has recentely been reoccupied by deep space settlers, with a series of orbital colonies being built around the moon of one of the system's gas giants.",
+        "Details": "This former Taurian system was once abandoned due to limited resources and an almost non-existant atmosphere. It has recentely been reoccupied by deep space travellers, with a series of orbital colonies reactivated around the moon of one of the system's gas giants. There are reports of a refugee movement into arriving at Baltar, all originating from the Deep Periphery.",
         "Icon": ""
     },
     "Position": {
@@ -18,7 +18,7 @@
 			"planet_climate_lunar",
 			"planet_pop_small",
 			"planet_industry_mining",
-			"planet_civ_primitive",
+			"planet_civ_periphery",
 			"planet_feature_gasgiant",
 			"planet_feature_moon03",
 			"planet_industry_manufacturing",
@@ -168,6 +168,7 @@
 		"InterstellarExpeditions"
     ],
     "contractTargetIDs": [
+		"AlphardTradingCompany",
 		"TaurusMajorisMining",
 		"TaurusTerritorialIndustries",
         "AuriganPirates",

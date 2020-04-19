@@ -1,7 +1,7 @@
 {
     "Name": "The Hyades Rim",
     "Enabled": true,
-    "Version": "4.9.3",
+    "Version": "5.0",
     "Description": "Adds the Hyades Rim expansion to the vanilla game.",	
     "Author": "Hobbes",
 	"Website": "https://www.nexusmods.com/battletech/mods/473",
@@ -56,6 +56,7 @@
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/C" },
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/F" },
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/I" },
+		{ "Type": "MechDef", "Path": "mech/hyadesrim/M" },
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/P" },
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/Q" },
 		{ "Type": "MechDef", "Path": "mech/hyadesrim/SL" },
@@ -72,10 +73,11 @@
 		{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 		{ "Type": "Sprite", "Path": "portraits" },
         { "Type": "Sprite", "Path": "sprites" },
-		{ "Type": "StarSystemDef", "Path": "starsystem/hyadesrim" },
+		{ "Type": "StarSystemDef", "Path": "starsystem/hyadesrim", "AddToDB": true },
 		{ "Type": "StarSystemDef", "Path": "starsystem/vanilla", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "Texture2D", "Path": "sprites" },
 		{ "Type": "UpgradeDef", "Path": "upgrades" },
+		{ "Type": "UpgradeDef", "Path": "upgrades/disabled_inert" },
 		{ "Type": "WeaponDef", "Path": "weapon" }
     ]
 }

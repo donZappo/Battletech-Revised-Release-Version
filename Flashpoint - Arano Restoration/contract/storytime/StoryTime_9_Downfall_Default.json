@@ -863,7 +863,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "heraldrydef_restoration",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_atlas_AS7-D-HK",
+                        "unitDefId": "mechdef_atlas_AS7-D-HK_hero_kamea",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": ""
@@ -1053,7 +1053,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_kingcrab_KGC-000v",
+                        "unitDefId": "mechdef_kingcrab_KGC-000v_hero_vespinosa",
                         "unitTagSet": {
                             "items": [
                                 "unit_heavy",

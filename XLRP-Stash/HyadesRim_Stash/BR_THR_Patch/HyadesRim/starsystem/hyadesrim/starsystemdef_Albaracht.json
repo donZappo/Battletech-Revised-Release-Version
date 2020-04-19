@@ -146,6 +146,7 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
+		"AlphardTradingCompany",
         "AuriganPirates",
         "TaurianConcordat",
         "SyrtisPirates",
@@ -163,6 +164,7 @@
 		"EvilEye"
     ],
     "contractTargetIDs": [
+		"AlphardTradingCompany",
         "AuriganPirates",
         "TaurianConcordat",
         "RimPirates",
