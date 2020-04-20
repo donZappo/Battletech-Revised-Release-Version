@@ -1,0 +1,239 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 12555960, 
+        "Rarity": 5, 
+        "Purchasable": false, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "King Crab KGC-0000", 
+        "Id": "chassisdef_kingcrab_KGC-0000_hero_clamps", 
+        "Name": "Clamps", 
+        "Details": "This highly customized and upgraded version of the King Crab 0000 is capable of delivering a devastating amount of damage at close and medium range. The installed  pair of heavy Autocannons are backed up by two SRM6 launchers and two ER medium lasers. Even though it might not up be to par with what many other assault class mechs can bring to bear at long ranges, the two ER large lasers give this version enough long-range punch to keep an enemy busy while it tries closing in on them.", 
+        "Icon": "uixTxrIcon_kingcrab"
+    }, 
+    "VariantName": "KGC-0000", 
+    "StockRole": "Juggernaut & Close Assault", 
+    "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, this heavily upgraded King Crab 0000 is a beast that you simply don't want to be anywhere near you. At close and medium ranges, the Clamp will shred most enemy units to pieces within moments. Only the rather mediocre long-range offensive capabilities, leave the enemy a potential opening.", 
+    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001", 
+    "PrefabBase": "kingcrab", 
+    "Tonnage": 100, 
+    "InitialTonnage": 10, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 10206000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 105, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 165, 
+    "MeleeInstability": 100, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 125, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 125, 
+    "DFAInstability": 125, 
+    "ChassisTags": {
+        "items": [], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_kingcrab", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 14.5, 
+            "z": 0
+        }, 
+        {
+            "x": 4, 
+            "y": 15, 
+            "z": -1
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": -1
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 14.5, 
+            "z": 0
+        }, 
+        {
+            "x": 4, 
+            "y": 15, 
+            "z": -1
+        }, 
+        {
+            "x": -4, 
+            "y": 15, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 5.5, 
+            "z": -1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 5.5, 
+            "z": -1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
+        }
+    ]
+}

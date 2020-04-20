@@ -706,7 +706,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_blackknight_BL-6-KNT_fp_theRaid",
+                        "unitDefId" : "mechdef_blackknight_BL-6-KNT_veteran",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -739,7 +739,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_kingcrab_KGC-0000_fp_theRaid",
+                        "unitDefId" : "mechdef_kingcrab_KGC-0000_hero_clamps",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -772,7 +772,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_stalker_STK-3F_fp_theRaid",
+                        "unitDefId" : "mechdef_stalker_STK-3F_veteran",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -805,7 +805,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_cyclops_CP-10-Z_fp_theRaid",
+                        "unitDefId" : "mechdef_cyclops_CP-10-Z_hero_jupiter",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1022,7 +1022,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_atlas_AS7-D-HT_fp_theRaid",
+                        "unitDefId" : "mechdef_atlas_AS7-D-HT_hero_muscle",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

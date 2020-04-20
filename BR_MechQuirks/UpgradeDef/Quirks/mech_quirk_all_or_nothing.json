@@ -6,7 +6,8 @@
         "BonusDescriptions": {
 			"Bonuses": [
 				"AC20BonusDamage: 20",
-				"AC20PenaltyToHit: 4"
+				"AC20PenaltyToHit: 4",
+				"MinimumEP: 2"
       ]
         },
 		"Flags": {
@@ -34,7 +35,7 @@
         "UIName": "All or Nothing",
         "Id": "mech_quirk_all_or_nothing",
         "Name": "All or Nothing",
-        "Details": "Any AC/20, UAC/20, or LB-20X fitted to this 'Mech does 20% more damage but has 20% less chance to hit as pilots tend to bet it all on the perfect shot.",
+        "Details": "Any AC/20, UAC/20, or LB-20X fitted to this 'Mech does 20% more damage but has 20% less chance to hit as pilots tend to bet it all on the perfect shot. In addition, the enhanced agility of this 'Mech will allow its last 2 Evasive Pips to not be lost.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",

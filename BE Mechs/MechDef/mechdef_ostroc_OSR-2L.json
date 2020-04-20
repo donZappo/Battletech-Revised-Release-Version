@@ -467,7 +467,7 @@
         }, 
         {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Half_Ton", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 

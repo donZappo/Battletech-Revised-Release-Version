@@ -372,5 +372,11 @@
       "Long": "-{0}% Dmg. Received (Lance)",
       "Full": "Entire Lance receives {0}% Less Damage"
     },
+    {
+      "Bonus": "MinimumEP",
+      "Short": "{0} Evasive Pips Kept",
+      "Long": "{0} Evasive Pips Kept",
+      "Full": "Will not lose the last {0} Evasive Pips"
+    },
   ]
 }

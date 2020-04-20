@@ -353,7 +353,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "We detected The Muscles DropShip is feeling! Tiverton is free from these criminals and pirates once and for all.",
+                    "words" : "We detected The Muscles DropShip is fleeing! Tiverton is free from these criminals and pirates once and for all.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1007,7 +1007,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_CARRIER_LRM_fp_theRaid",
+                        "unitDefId" : "vehicledef_CARRIER_LRM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1040,7 +1040,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_atlas_AS7-D_fp_theRaid",
+                        "unitDefId" : "mechdef_atlas_AS7-D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1073,7 +1073,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_stalker_STK-3F_fp_theRaid2",
+                        "unitDefId" : "mechdef_stalker_STK-3F_hero_thunderbird",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1106,7 +1106,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_grasshopper_GHR-5H_fp_theRaid",
+                        "unitDefId" : "mechdef_grasshopper_GHR-5H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1165,7 +1165,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_DEMOLISHER_fp_theRaid",
+                        "unitDefId" : "vehicledef_DEMOLISHER",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1198,7 +1198,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_SCHREK_fp_theRaid",
+                        "unitDefId" : "vehicledef_SCHREK",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1231,7 +1231,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_battlemaster_BLR-1G_fp_theRaid",
+                        "unitDefId" : "mechdef_battlemaster_BLR-1G",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1264,7 +1264,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_victor_VTR-9B_fp_theRaid",
+                        "unitDefId" : "mechdef_victor_VTR-9B_veteran",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1323,7 +1323,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_firestarter_FS9-H_fp_theRaid",
+                        "unitDefId" : "mechdef_firestarter_FS9-H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1356,7 +1356,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_shadowhawk_SHD-2D_fp_theRaid",
+                        "unitDefId" : "mechdef_shadowhawk_SHD-2D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1389,7 +1389,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_griffin_GRF-1N_fp_theRaid",
+                        "unitDefId" : "mechdef_griffin_GRF-1N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1422,7 +1422,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolverine_WVR-6R_fp_theRaid",
+                        "unitDefId" : "mechdef_wolverine_WVR-6R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
