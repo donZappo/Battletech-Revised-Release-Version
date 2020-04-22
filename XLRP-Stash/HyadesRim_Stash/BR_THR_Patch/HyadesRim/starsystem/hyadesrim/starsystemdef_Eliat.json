@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Eliat",
         "Name": "Eliat",
-        "Details": "Eliat disappeared from the navigational records until a disappeared DropShip was rediscovered during the last century. Unable to return to civilization because their JumpShip lost their recharging sail, the survivors were able to send an emergency transmission.  Unfortunately, when the signal was finally received decades later, the crew was long dead when the rescue party arrived, although only a few lived long lives.",
+        "Details": "Eliat disappeared from the navigational records until a DropShip crash landed on the fourth planet on the last century. Unable to return to civilization because their JumpShip lost their recharging sail, the survivors were able to jury rig an emergency transmission beacon.  Unfortunately, when the signal was finally received decades later, the crew was long dead when the rescue party arrived, although only a few lived long lifes.",
         "Icon": ""
     },
     "Position": {
@@ -157,7 +157,6 @@
         "RoguePirates",
         "ClusterPirates",
         "EvilEye",
-        "RimPirates",
         "HarbingersOfDoom"
     ]
 }

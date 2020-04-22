@@ -21,7 +21,7 @@
 			"planet_other_ruins",
 			"planet_other_pirate",
 			"planet_other_battlefield",
-			"planet_faction_independent",
+			"planet_faction_warboys",
             "planet_name_prestes"
         ],
         "tagSetSourceFile": ""
@@ -42,7 +42,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 8,
-    "ownerID": "Locals",
+    "ownerID": "Warboys",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,
@@ -143,7 +143,7 @@
     "DefaultDifficulty": 1,
     "DifficultyList": [
         2,
-        8
+        7
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
@@ -161,8 +161,6 @@
     "contractTargetIDs": [
 		"AlphardTradingCompany",
         "Locals",
-		"HarbingersOfDoom",
-        "RimPirates",
         "AuriganPirates",
 		"ClusterPirates",
         "SyrtisPirates",

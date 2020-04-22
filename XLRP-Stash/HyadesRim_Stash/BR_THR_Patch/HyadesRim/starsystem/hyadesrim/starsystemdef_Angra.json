@@ -20,7 +20,7 @@
 			"planet_pop_none",
 			"planet_other_ruins",
 			"planet_other_empty",
-			"planet_faction_nofaction",
+			"planet_faction_clusterpirates",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -42,7 +42,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 6,
-    "ownerID": "NoFaction",
+    "ownerID": "ClusterPirates",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,

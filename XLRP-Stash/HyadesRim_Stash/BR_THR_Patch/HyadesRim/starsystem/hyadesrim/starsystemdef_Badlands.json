@@ -2,7 +2,7 @@
     "Description": {
     "Id": "starsystemdef_Badlands",
     "Name": "Badlands",
-    "Details": "A former Taurian colony founded inside the Badlands cluster, which contains over a hundred stars, the inhabitants of this small marginal Martian like planet eventually went pirate as a way to 'acquire' needed resources for survival.  The Badlands is a pirate world dominated by local groups, and also with the presence of Tortugan marauders and other raiding bands who use the system as a temporary base for operations in the Rim."
+    "Details": "A former Taurian colony founded inside the Badlands cluster, which contains over a hundred stars, the inhabitants of this small marginal Martian like planet eventually went pirate as a way to 'acquire' needed resources for survival.  The Badlands has been a pirate enclave since then, including regular visits from Tortugan and other raiding bands who use the system as a temporary base for operations in the Rim."
     },
     "Position": {
         "x": 421.692,
@@ -18,7 +18,7 @@
 			"planet_pop_small",
 			"planet_civ_primitive",
 			"planet_industry_poor",
-			"planet_faction_independent",
+			"planet_faction_clusterpirates",
 			"planet_other_factionhq_kurita",
 			"planet_other_blackmarket",
 			"planet_progress_2"
@@ -39,7 +39,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 5,
-    "ownerID": "Locals",
+    "ownerID": "ClusterPirates",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,
@@ -150,7 +150,6 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
-		"AlphardTradingCompany",
         "Davion",
         "TaurianConcordat",
         "ClusterPirates",
@@ -160,7 +159,6 @@
 		"AntithesisCreed"
     ],
     "contractTargetIDs": [
-		"AlphardTradingCompany",
         "Davion",
         "TaurianConcordat",
         "ClusterPirates",

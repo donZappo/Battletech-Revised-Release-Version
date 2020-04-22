@@ -191,7 +191,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-6",
+                                    "value" : "-6000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -397,7 +397,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-6",
+                                    "value" : "-6000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -642,7 +642,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-3",
+                                    "value" : "-3000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -880,7 +880,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MechTechSkill",
-                                    "value" : "-3",
+                                    "value" : "-3000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }

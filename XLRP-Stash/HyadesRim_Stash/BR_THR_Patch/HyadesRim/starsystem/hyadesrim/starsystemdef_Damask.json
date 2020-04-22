@@ -20,7 +20,7 @@
 			"planet_other_volcanic",
 			"planet_feature_rings",
 			"planet_other_empty",
-			"planet_faction_nofaction",
+			"planet_faction_tortugapirates",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -39,7 +39,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 8,
-    "ownerID": "NoFaction",
+    "ownerID": "TortugaPirates",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,

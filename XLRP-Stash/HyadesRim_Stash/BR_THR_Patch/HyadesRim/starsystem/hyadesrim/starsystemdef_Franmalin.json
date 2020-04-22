@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Franmalin",
         "Name": "Franmalin",
-        "Details": "Another recently discovered world, Franmalin's atmosphere is loaded with spores released from the extensive fungus fields that cover most of its land area, causing severe lung damage to explorers lacking proper breathing apparatus.",
+        "Details": "Another recently discovered world, Fylovar's atmosphere is loaded with spores released from the extensive fungus fields that cover most of its land area, causing severe lung damage to explorers lacking proper breathing apparatus.",
         "Icon": ""
     },
     "Position": {
@@ -18,9 +18,10 @@
 			"planet_climate_tropical",
 			"planet_other_fungus",
 			"planet_feature_moon02",
+			"planet_pop_none",
 			"planet_other_empty",
 			"planet_other_taintedair",
-			"planet_faction_nofaction",
+			"planet_faction_warboys",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -41,7 +42,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 7,
-    "Owner": "NoFaction",
+    "ownerID": "Warboys",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,
@@ -146,9 +147,6 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
-		"AlphardTradingCompany",
-		"HarbingersOfDoom",
-        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "SyrtisPirates",
@@ -166,9 +164,6 @@
 		"EvilEye"
     ],
     "contractTargetIDs": [
-		"AlphardTradingCompany",
-		"HarbingersOfDoom",
-        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "RimPirates",

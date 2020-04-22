@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Padrao",
         "Name": "Padrao",
-        "Details": "Padrao was mapped by the first human expeditions into the Hyades Rim, and has been used for centuries as a waypoint for JumpShips to recharge before jumping deeper into the Periphery.  Its surface contains a stone marker left by the first survey expedition sent from Terra, marking the furthest ever advanced into space at that time.",
+        "Details": "Padrao was mapped by the first human expeditions into the Hyades Rim, and has been used for centuries as a waypoint for Jumpships to recharge before jumping deeper into the Periphery.  Its surface contains a stone marker left by the first survey expedition sent from Terra, marking the furthest ever advanced into space at that time.",
         "Icon": ""
     },
     "Position": {
@@ -17,9 +17,8 @@
 			"planet_size_small",
 			"planet_climate_lunar",
 			"planet_feature_moon02",
-			"planet_pop_none",
 			"planet_other_empty",
-			"planet_faction_nofaction",
+			"planet_faction_warboys",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -36,8 +35,8 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "NoFaction",
+    "JumpDistance": 8,
+    "ownerID": "Warboys",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,

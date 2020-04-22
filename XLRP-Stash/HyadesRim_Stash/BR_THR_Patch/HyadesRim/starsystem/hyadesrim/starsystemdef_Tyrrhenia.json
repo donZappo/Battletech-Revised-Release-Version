@@ -23,7 +23,7 @@
 			"planet_civ_periphery",
 			"planet_other_blackmarket",
 			"planet_other_hub",
-			"planet_faction_independent",
+			"planet_faction_warboys",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -43,7 +43,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 8,
-    "ownerID": "Locals",
+    "ownerID": "Warboys",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,

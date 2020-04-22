@@ -143,7 +143,7 @@
     "DefaultDifficulty":  1,
     "DifficultyList": [
         2,
-        6
+        3
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
@@ -163,8 +163,10 @@
     "contractTargetIDs":  [
 		"AlphardTradingCompany",
         "Locals",
+        "MagistracyOfCanopus",
+        "TaurianConcordat",
         "TortugaPirates",
-		"HarbingersOfDoom",
         "RimPirates",
+        "SyrtisPirates"
     ]
 }

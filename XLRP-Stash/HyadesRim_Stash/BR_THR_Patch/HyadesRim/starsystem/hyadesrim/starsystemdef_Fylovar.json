@@ -19,7 +19,7 @@
 			"planet_feature_moon02",
 			"planet_pop_none",
 			"planet_other_empty",
-			"planet_faction_nofaction",
+			"planet_faction_warboys",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -43,7 +43,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 11,
-    "Owner": "NoFaction",
+    "ownerID": "Warboys",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,
@@ -148,8 +148,6 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
-		"HarbingersOfDoom",
-        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "SyrtisPirates",
@@ -167,8 +165,6 @@
 		"EvilEye"
     ],
     "contractTargetIDs": [
-		"HarbingersOfDoom",
-        "RimPirates",
         "AuriganPirates",
         "TaurianConcordat",
         "RimPirates",

@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Neucratis",
         "Name": "Neucratis",
-        "Details": "Neucratis is a satellite of one of the system's planets, and is used by pirates to drop off the crew and passengers of captured Jumpships, if they are not spaced or sold as slaves at a bandit kingdom instead.  There are also a number of human settlements, mostly based around the former prison complex once run by the Taurians and usually turned into the palace and headquarters of the local bandit king.",
+        "Details": "Neucratis is a satellite of one of the system's planets, and is used by pirates to drop off the crew and passengers of captured Jumpships, if they are not spaced or sold as slaves at a bandit kingdom instead.  There are also a number of human settlements, mostly based around the former prison complex once run by the Taurians and now turned into the palace of the local bandit king.",
         "Icon": ""
 		},
     "Position": {
@@ -19,7 +19,7 @@
 			"planet_other_prison",
 			"planet_climate_arid",
 			"planet_pop_small",
-			"planet_faction_independent",
+			"planet_faction_clusterpirates",
 			"planet_progress_2"
         ],
         "tagSetSourceFile": ""
@@ -39,7 +39,7 @@
     },
     "FuelingStation": false,
     "JumpDistance": 3,
-    "ownerID": "Locals",
+    "ownerID": "ClusterPirates",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 9,

@@ -2,7 +2,7 @@
     "Description": {
         "Id": "starsystemdef_Luderitz",
         "Name": "Luderitz",
-        "Details": "Luderitz was only partly terraformed when it was deemed uneconomical to continue the project due to budget reallocations, as the New Vandenburg Uprising cancelled all Star League colony building operations in the Hyades Rim. The human enclaves are now divided into city states who continue fighting over the dwindling resources and liveable areas of the system.",
+        "Details": "Luderitz was only partly terraformed when it was deemed uneconomical to continue the project due to budget reallocations. The human enclaves are now divided into city states fighting over the dwindling resources.",
         "Icon": ""
 		},
     "Position": {
@@ -145,7 +145,7 @@
     "DefaultDifficulty": 2,
     "DifficultyList": [
         2,
-        7
+        4
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
@@ -169,7 +169,6 @@
         "RoguePirates",
 		"AntithesisCreed",
         "EvilEye",
-		"HarbingersOfDoom",
-        "RimPirates",
+        "HarbingersOfDoom"
     ]
 }

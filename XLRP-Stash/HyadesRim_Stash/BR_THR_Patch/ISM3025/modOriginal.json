@@ -23,15 +23,24 @@
         "FactionColors": {
             "Kurita": [0.863, 0.078, 0.235, 1],
             "Steiner": [0.255, 0.412, 0.882, 1],
-            "TortugaPirates": [0.863, 0.078, 0.235, 1],
-            "Warboys": [0.862, 0.078, 0.615, 1],
-            "ClusterPirates": [0.850, 0.078, 0.862, 1],
-            "CorporatePirates": [0.255, 0.412, 0.882, 1],
-            "RenegadePirates": [0.254, 0.709, 0.882, 1],
-            "RoguePirates": [0.254, 0.882, 0.882, 1],
-            "SyrtisPirates": [0.580, 0.905, 0.113, 1],
-            "CanopianPirates": [0.858, 0.905, 0.113, 1],
-            "CapellanPirates": [0.905, 0.647, 0.113, 1]			
+            "EvilEye": [0.255, 0.412, 0.882, 1],
+            "HarbingersOfDoom": [0.255, 0.412, 0.882, 1],
+            "InterstellarExpeditions": [0.255, 0.412, 0.882, 1],
+            "MagnaMetals": [0.255, 0.412, 0.882, 1],
+            "RenegadePirates": [0.255, 0.412, 0.882, 1],
+            "RimPirates": [0.255, 0.412, 0.882, 1],
+            "RoguePirates": [0.255, 0.412, 0.882, 1],
+            "SyrtisPirates": [0.255, 0.412, 0.882, 1],
+            "TaurusMajorisMining": [0.255, 0.412, 0.882, 1],
+            "TaurusTerritorialIndustries": [0.255, 0.412, 0.882, 1],
+            "TortugaPirates": [0.255, 0.412, 0.882, 1],
+            "Warboys": [0.255, 0.412, 0.882, 1],
+            "AlphardTradingCompany": [0.255, 0.412, 0.882, 1],
+            "AntithesisCreed": [0.255, 0.412, 0.882, 1],
+            "CanopianPirates": [0.255, 0.412, 0.882, 1],
+            "CapellanPirates": [0.255, 0.412, 0.882, 1],
+            "ClusterPirates": [0.255, 0.412, 0.882, 1]
+			
         },
 
         "LogoScalar": 0.75,
@@ -39,15 +48,25 @@
         "FactionLogoPaths": {
             "Kurita": "Logos/kuritaLogo.png",
             "Steiner": "Logos/steinerLogo.png",
-			"TortugaPirates" : "Logos/tortugapiratesLogo.png",
-			"Warboys" : "Logos/warboysLogo.png",
-			"ClusterPirates" : "Logos/clusterpiratesLogo.png",
 			"CorporatePirates" : "Logos/corporatepiratesLogo.png",
+			"EvilEye" : "Logos/evileyeLogo.png",
+			"HarbingersOfDoom" : "Logos/harbingersofdoomLogo.png",
+			"InterstellarExpeditions" : "Logos/interstellarexpeditionsLogo.png",
+			"MagnaMetals" : "Logos/magnametalsLogo.png",
 			"RenegadePirates" : "Logos/renegadepiratesLogo.png",
+			"RimPirates" : "Logos/rimpiratesLogo.png",
 			"RoguePirates" : "Logos/roguepiratesLogo.png",
 			"SyrtisPirates" : "Logos/syrtispiratesLogo.png",
+			"TaurusMajorisMining" : "Logos/taurusmajorisminingLogo.png",
+			"TaurusTerritorialIndustries" : "Logos/taurusterritorialindustriesLogo.png",
+			"TortugaPirates" : "Logos/tortugapiratesLogo.png",
+			"Warboys" : "Logos/warboysLogo.png",
+			"AlphardTradingCompany" : "Logos/alphardtradingcompanyLogo.png",
+			"AntithesisCreed" : "Logos/antithesiscreedLogo.png",
 			"CanopianPirates" : "Logos/canopianpiratesLogo.png",
-			"CapellanPirates" : "Logos/capellanpiratesLogo.png"
+			"CapellanPirates" : "Logos/capellanpiratesLogo.png",
+			"ClusterPirates" : "Logos/clusterpiratesLogo.png"
+			
         },
 
         "NavRoomScreenTexturePath": "uixTxrSpot_fp_HyadesRim.PNG",
