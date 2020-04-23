@@ -555,7 +555,7 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_AMS_Lindblad", 
+            "ComponentDefID": "Weapon_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 2, 

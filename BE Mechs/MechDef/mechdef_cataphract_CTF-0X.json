@@ -445,7 +445,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_RemoteSensorDispenser", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-1000", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

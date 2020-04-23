@@ -390,7 +390,7 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_Sensor_Beagle_ActiveProbe", 
+            "ComponentDefID": "Gear_Sensor_Beagle_Active_Probe", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
