@@ -6,6 +6,12 @@
             "Long" : " "
         },
         {
+            "Bonus" : "EngineLimit",
+            "Short" : "{0} Engine or Higher",
+            "Long" : "{0} Engine or Higher",
+            "Full" : "Requires an engine rating of {0} or higher"
+        },
+        {
             "Bonus" : "EngineHSFreeExt",
             "Short" : "- {0} HS ton",
             "Long" : "- {0} HS ton",

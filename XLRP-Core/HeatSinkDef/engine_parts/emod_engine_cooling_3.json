@@ -6,7 +6,8 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"Whitespace",
-				"EngineHSAdd: 3"
+				"EngineHSAdd: 3",
+				"EngineLimit: 325"
 			]
 		},
 		"WorkOrderCosts": {

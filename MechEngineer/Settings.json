@@ -177,12 +177,16 @@
             "component_type_lostech"
         ]
     },
-    "TurretLimitedAmmo" : {
-        "Enabled" : false,
-        "EnabledDescription" : "Turrets use up ammo and don't explode once ammo is gone."
-    },
     "ComponentExplosions" : {
         "Enabled" : true,
         "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
+    },
+	"OverrideTonnage" : {
+        "UnderweightWarningThreshold" : 1,
+        "UnderweightWarningThresholdDescription" : "How many tons a mech has to be underweight to show a warning"
+    },
+    "TurretLimitedAmmo" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Turrets use up ammo and don't explode once ammo is gone."
     },
 }
