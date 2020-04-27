@@ -326,7 +326,51 @@
 			"GhostRiders" : "planet_faction_clusterpirates",
 			"MajestyMetals" : "planet_faction_clusterpirates"
 			},
-		"LogoNames": {
+		"FactionsAlwaysAllies": {
+			"AutocracyOfLeh" : [
+				"GhostRiders"
+			],
+			"GhostRiders" : [
+				"AutocracyOfLeh"
+			],
+			"HarbingersOfDoom" : [
+				"RimPirates"
+			],
+			"RimPirates" : [
+				"HarbingersOfDoom"
+			],
+			
+			
+			"davionLogo",
+			"Marik" : "marikLogo",
+			"Liao" : "liaoLogo",
+			"TaurianConcordat" : "taurianLogo",
+			"MagistracyOfCanopus" : "magistracyLogo",
+			"AuriganRestoration" : "restorationLogo",
+			"Kurita" : "kuritaLogo",
+			"Steiner" : "steinerLogo",
+			"CorporatePirates" : "corporatepiratesLogo",
+			"EvilEye" : "evileyeLogo",
+			"HarbingersOfDoom" : "harbingersofdoomLogo",
+			"InterstellarExpeditions" : "interstellarexpeditionsLogo",
+			"MagnaMetals" : "magnametalsLogo",
+			"RenegadePirates" : "renegadepiratesLogo",
+			"RimPirates" : "rimpiratesLogo",
+			"RoguePirates" : "roguepiratesLogo",
+			"SyrtisPirates" : "syrtispiratesLogo",
+			"TaurusMajorisMining" : "taurusmajorisminingLogo",
+			"TaurusTerritorialIndustries" : "taurusterritorialindustriesLogo",
+			"TortugaPirates" : "tortugapiratesLogo",
+			"Warboys" : "warboysLogo",
+			"AlphardTradingCompany" : "alphardtradingcompanyLogo",
+			"AntithesisCreed" : "antithesiscreedLogo",
+			"CanopianPirates" : "canopianpiratesLogo",
+			"CapellanPirates" : "capellanpiratesLogo",
+			"ClusterPirates" : "clusterpiratesLogo",
+			"AutocracyOfLeh" : "clusterpiratesLogo",
+			"GhostRiders" : "clusterpiratesLogo",
+			"MajestyMetals" : "clusterpiratesLogo"
+			},"LogoNames": {
 			"Davion" : "davionLogo",
 			"Marik" : "marikLogo",
 			"Liao" : "liaoLogo",
@@ -400,11 +444,40 @@
 			"GhostRiders",
 			"MajestyMetals"
 		],
+		"HyadesNeverControl": [
+			"EvilEye",
+			"HarbingersOfDoom",
+			"InterstellarExpeditions",
+			"MagnaMetals",
+			"RimPirates",
+			"TaurusMajorisMining",
+			"TaurusTerritorialIndustries",
+			"AlphardTradingCompany",
+			"AntithesisCreed",
+			"AutocracyOfLeh",
+			"GhostRiders",
+			"MajestyMetals"
+		],
+		"HyadesAppearingPirates": [
+			"CorporatePirates",
+			"RenegadePirates",
+			"RoguePirates",
+			"SyrtisPirates",
+			"CanopianPirates",
+			"CapellanPirates"
+		],
 		"HyadesFlashpointSystems" : [
-			"planet_name_serenity",
-			"planet_name_katinka",
-			"planet_name_sterope",
-			"planet_name_argos"
+			"Serenity",
+			"Katinka",
+			"Sterope",
+			"Argos"
+		],
+		"HyadesEmployersOnly": [
+		],
+		"HyadesTargetsOnly" : [
+			"RimPirates",
+			"HarbingersOfDoom",
+			"GhostRiders"
 		],
 			
 			
