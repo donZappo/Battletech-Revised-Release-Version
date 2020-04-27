@@ -326,51 +326,7 @@
 			"GhostRiders" : "planet_faction_clusterpirates",
 			"MajestyMetals" : "planet_faction_clusterpirates"
 			},
-		"FactionsAlwaysAllies": {
-			"AutocracyOfLeh" : [
-				"GhostRiders"
-			],
-			"GhostRiders" : [
-				"AutocracyOfLeh"
-			],
-			"HarbingersOfDoom" : [
-				"RimPirates"
-			],
-			"RimPirates" : [
-				"HarbingersOfDoom"
-			],
-			
-			
-			"davionLogo",
-			"Marik" : "marikLogo",
-			"Liao" : "liaoLogo",
-			"TaurianConcordat" : "taurianLogo",
-			"MagistracyOfCanopus" : "magistracyLogo",
-			"AuriganRestoration" : "restorationLogo",
-			"Kurita" : "kuritaLogo",
-			"Steiner" : "steinerLogo",
-			"CorporatePirates" : "corporatepiratesLogo",
-			"EvilEye" : "evileyeLogo",
-			"HarbingersOfDoom" : "harbingersofdoomLogo",
-			"InterstellarExpeditions" : "interstellarexpeditionsLogo",
-			"MagnaMetals" : "magnametalsLogo",
-			"RenegadePirates" : "renegadepiratesLogo",
-			"RimPirates" : "rimpiratesLogo",
-			"RoguePirates" : "roguepiratesLogo",
-			"SyrtisPirates" : "syrtispiratesLogo",
-			"TaurusMajorisMining" : "taurusmajorisminingLogo",
-			"TaurusTerritorialIndustries" : "taurusterritorialindustriesLogo",
-			"TortugaPirates" : "tortugapiratesLogo",
-			"Warboys" : "warboysLogo",
-			"AlphardTradingCompany" : "alphardtradingcompanyLogo",
-			"AntithesisCreed" : "antithesiscreedLogo",
-			"CanopianPirates" : "canopianpiratesLogo",
-			"CapellanPirates" : "capellanpiratesLogo",
-			"ClusterPirates" : "clusterpiratesLogo",
-			"AutocracyOfLeh" : "clusterpiratesLogo",
-			"GhostRiders" : "clusterpiratesLogo",
-			"MajestyMetals" : "clusterpiratesLogo"
-			},"LogoNames": {
+		"LogoNames": {
 			"Davion" : "davionLogo",
 			"Marik" : "marikLogo",
 			"Liao" : "liaoLogo",
@@ -444,7 +400,28 @@
 			"GhostRiders",
 			"MajestyMetals"
 		],
-		"HyadesNeverControl": [
+		"HyadesFlashpointSystems" : [
+			"Serenity",
+			"Katinka",
+			"Sterope",
+			"Argos"
+		],
+		"HyadesAppearingPirates" : [
+			"CorporatePirates",
+			"RenegadePirates",
+			"RoguePirates",
+			"SyrtisPirates",
+			"CanopianPirates",
+			"CapellanPirates"
+		],
+		"HyadesEmployersOnly" : [
+		],
+		"HyadesTargetsOnly" : [
+			"HarbingersOfDoom",
+			"RimPirates",
+			"AutocracyOfLeh"
+		],
+		"HyadesNeverControl" : [
 			"EvilEye",
 			"HarbingersOfDoom",
 			"InterstellarExpeditions",
@@ -458,29 +435,20 @@
 			"GhostRiders",
 			"MajestyMetals"
 		],
-		"HyadesAppearingPirates": [
-			"CorporatePirates",
-			"RenegadePirates",
-			"RoguePirates",
-			"SyrtisPirates",
-			"CanopianPirates",
-			"CapellanPirates"
-		],
-		"HyadesFlashpointSystems" : [
-			"Serenity",
-			"Katinka",
-			"Sterope",
-			"Argos"
-		],
-		"HyadesEmployersOnly": [
-		],
-		"HyadesTargetsOnly" : [
-			"RimPirates",
-			"HarbingersOfDoom",
-			"GhostRiders"
-		],
-			
-			
+		"FactionsAlwaysAllies" : {
+			"HarbingersOfDoom" : [
+				"RimPirates"
+			],
+			"RimPirates" : [
+				"HarbingersOfDoom"
+			],
+			"GhostRiders" : [
+				"AutocracyofLeh"
+			],
+			"AutocracyofLeh" : [
+				"GhostRiders"
+			],
+		},
 		//This region allows for a separate set of values that *must* be changed if you are including more than the base factions.
 		//Values still need to be changed above, but having excess values in the areas above will not cause issues when running GaW.
 		"ISMCompatibility" : false,
@@ -534,7 +502,7 @@
 			},
 			
 			
-		"LongWarTesting" : true,
+		"LongWarTesting" : false,
 		"Debug" : false
     }
 }
