@@ -2,13 +2,12 @@
     "MechTags": {
         "items": [
 			"BR_MQ_Commando",
+            "unit_release",   
             "unit_mech",        
             "unit_light",
-          
             "unit_range_long",
             "unit_role_scout",
             "unit_lance_assassin",
-          
             "Steiner",            
             "unit_common",
             "unit_common_Steiner",
@@ -18,8 +17,6 @@
             "unit_rare_Marik",
             "unit_very_rare_Liao",
             "unit_rare_Davion",
-            
-            
             "unit_very_rare_Locals",
             "unit_very_rare_HostileMercenaries",            
             "unit_none_MagistracyOfCanopus",
@@ -27,7 +24,6 @@
             "unit_none_AuriganDirectorate",                       
             "unit_none_AuriganRestoration",
             "unit_none_AuriganMercenaries",
-             
             "unit_none_AuriganPirates",
             "unit_none_NoFaction",
             "unit_none_Betrayers",
