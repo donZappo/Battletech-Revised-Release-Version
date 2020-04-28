@@ -15,7 +15,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Catapult CPLT-C1", 
+        "UIName": "Catapult CPLT-C1 (Occam)", 
         "Id": "mechdef_catapult_CPLT-C1_hero_occam", 
         "Name": "Occam's Missile", 
         "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.", 

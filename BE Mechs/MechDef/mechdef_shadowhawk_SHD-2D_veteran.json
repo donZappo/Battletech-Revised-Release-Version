@@ -15,7 +15,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Shadow Hawk SHD-2D", 
+        "UIName": "Shadow Hawk SHD-2D (Vet)", 
         "Id": "mechdef_shadowhawk_SHD-2D_veteran", 
         "Name": "Shadow Hawk", 
         "Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so\u2026 I guess you can be the judge.", 

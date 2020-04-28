@@ -15,7 +15,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "JagerMech JM6-S", 
+        "UIName": "JagerMech JM6-S (Hero)", 
         "Id": "mechdef_jagermech_JM6-S_hero_gaussJ", 
         "Name": "GaussJager", 
         "Details": "The JagerMech S model is highly specialized at long-range Autocannon fire support. It doesn't have much in the way of protection or closer-range weapons, though, so keep it distant and out of harm's way.", 
