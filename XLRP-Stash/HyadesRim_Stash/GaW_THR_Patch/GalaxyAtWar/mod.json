@@ -72,7 +72,10 @@
 			"AntithesisCreed",
 			"CanopianPirates",
 			"CapellanPirates",
-			"ClusterPirates"
+			"ClusterPirates",
+			"AutocracyOfLeh",
+			"GhostRiders",
+			"MajestyMetals"
 			],
 		"DefensiveFactions": [
 			"Locals",
@@ -93,24 +96,27 @@
 			"NoFaction" : 576,
 			"ComStar" : 0,
 			"AuriganPirates" : 0,
-			"CorporatePirates" : 0,
-			"EvilEye" : 0,
-			"HarbingersOfDoom" : 0,
-			"InterstellarExpeditions" : 0,
-			"MagnaMetals" : 0,
-			"RenegadePirates" : 0,
-			"RimPirates" : 0,
-			"RoguePirates" : 0,
-			"SyrtisPirates" : 0,
-			"TaurusMajorisMining" : 0,
-			"TaurusTerritorialIndustries" : 0,
-			"TortugaPirates" : 0,
-			"Warboys" : 0,
-			"AlphardTradingCompany" : 0,
-			"AntithesisCreed" : 0,
-			"CanopianPirates" : 0,
-			"CapellanPirates" : 0,
-			"ClusterPirates" : 0
+			"CorporatePirates" : 1000,
+			"EvilEye" : 1000,
+			"HarbingersOfDoom" : 1000,
+			"InterstellarExpeditions" : 1000,
+			"MagnaMetals" : 1000,
+			"RenegadePirates" : 1000,
+			"RimPirates" : 1000,
+			"RoguePirates" : 1000,
+			"SyrtisPirates" : 1000,
+			"TaurusMajorisMining" : 1000,
+			"TaurusTerritorialIndustries" : 1000,
+			"TortugaPirates" : 1000,
+			"Warboys" : 1000,
+			"AlphardTradingCompany" : 1000,
+			"AntithesisCreed" : 1000,
+			"CanopianPirates" : 1000,
+			"CapellanPirates" : 1000,
+			"ClusterPirates" : 1000,
+			"AutocracyOfLeh" : 1000,
+			"GhostRiders" : 1000,
+			"MajestyMetals" : 1000
 			},
 		"BonusDefensiveResources": {
 			"MagistracyOfCanopus" : 568,
@@ -140,7 +146,10 @@
 			"AntithesisCreed" : 0,
 			"CanopianPirates" : 0,
 			"CapellanPirates" : 0,
-			"ClusterPirates" : 0
+			"ClusterPirates" : 0,
+			"AutocracyOfLeh" : 0,
+			"GhostRiders" : 0,
+			"MajestyMetals" : 0
 			},
 		"FactionNames": {
 			"Davion" : "The Federated Suns",
@@ -172,7 +181,10 @@
 			"AntithesisCreed" : "Antithesis Creed",
 			"CanopianPirates" : "Jinxie and the Banshees",
 			"CapellanPirates" : "14k Triad",
-			"ClusterPirates" : "Badlands Horde"
+			"ClusterPirates" : "Badlands Horde",
+			"AutocracyOfLeh" : "Autocracy Of Leh",
+			"GhostRiders" : "Ghost Riders",
+			"MajestyMetals" : "Majesty Metals & Manufacturing"
 			},
 		"FactionStrings": {
 			"Davion" : "Davion",
@@ -204,7 +216,10 @@
 			"AntithesisCreed" : "AntithesisCreed",
 			"CanopianPirates" : "CanopianPirates",
 			"CapellanPirates" : "CapellanPirates",
-			"ClusterPirates" : "ClusterPirates"
+			"ClusterPirates" : "ClusterPirates",
+			"AutocracyOfLeh" : "AutocracyOfLeh",
+			"GhostRiders" : "GhostRiders",
+			"MajestyMetals" : "MajestyMetals"
 			},
 		"FactionShopItems": {
 			"Davion" : "itemCollection_faction_Davion",
@@ -236,7 +251,10 @@
 			"AntithesisCreed" : "itemCollection_minor_Locals",
 			"CanopianPirates" : "itemCollection_minor_Locals",
 			"CapellanPirates" : "itemCollection_minor_Locals",
-			"ClusterPirates" : "itemCollection_minor_Locals"
+			"ClusterPirates" : "itemCollection_minor_Locals",
+			"AutocracyOfLeh" : "itemCollection_minor_Locals",
+			"GhostRiders" : "itemCollection_minor_Locals",
+			"MajestyMetals" : "itemCollection_minor_Locals"
 			},
 		"FactionShops": {
 			"Davion" : "itemCollection_minor_Davion",
@@ -267,7 +285,10 @@
 			"AntithesisCreed" : "itemCollection_minor_Locals",
 			"CanopianPirates" : "itemCollection_minor_Locals",
 			"CapellanPirates" : "itemCollection_minor_Locals",
-			"ClusterPirates" : "itemCollection_minor_Locals"
+			"ClusterPirates" : "itemCollection_minor_Locals",
+			"AutocracyOfLeh" : "itemCollection_minor_Locals",
+			"GhostRiders" : "itemCollection_minor_Locals",
+			"MajestyMetals" : "itemCollection_minor_Locals"
 			},
 		"FactionTags": {
 			"Davion" : "planet_faction_davion",
@@ -300,7 +321,10 @@
 			"AntithesisCreed" : "planet_faction_antithesiscreed",
 			"CanopianPirates" : "planet_faction_canopianpirates",
 			"CapellanPirates" : "planet_faction_capellanpirates",
-			"ClusterPirates" : "planet_faction_clusterpirates"
+			"ClusterPirates" : "planet_faction_clusterpirates",
+			"AutocracyOfLeh" : "planet_faction_clusterpirates",
+			"GhostRiders" : "planet_faction_clusterpirates",
+			"MajestyMetals" : "planet_faction_clusterpirates"
 			},
 		"LogoNames": {
 			"Davion" : "davionLogo",
@@ -328,7 +352,10 @@
 			"AntithesisCreed" : "antithesiscreedLogo",
 			"CanopianPirates" : "canopianpiratesLogo",
 			"CapellanPirates" : "capellanpiratesLogo",
-			"ClusterPirates" : "clusterpiratesLogo"
+			"ClusterPirates" : "clusterpiratesLogo",
+			"AutocracyOfLeh" : "clusterpiratesLogo",
+			"GhostRiders" : "clusterpiratesLogo",
+			"MajestyMetals" : "clusterpiratesLogo"
 			},
 		//*** SimpleBattle: 3, DestroyBase: 6, CaptureBase: 7, CaptureEscort: 8, Rescue: 9, Assassinate: 10,
 		//*** DefendBase: 11, EscortSingle: 12, AmbushConvoy: 15, FireMission: 50, ThreeWayBattle: 52, AttackDefend: 53, 
@@ -348,9 +375,82 @@
 			"SoloDuel" : 0.4,
 			"DuoDuel" : 0.4
 			},
-			
-			
-			
+		
+		"HyadesRimCompatible" : true,
+		"HyadesPirates": [
+			"CorporatePirates",
+			"EvilEye",
+			"HarbingersOfDoom",
+			"InterstellarExpeditions",
+			"MagnaMetals",
+			"RenegadePirates",
+			"RimPirates",
+			"RoguePirates",
+			"SyrtisPirates",
+			"TaurusMajorisMining",
+			"TaurusTerritorialIndustries",
+			"TortugaPirates",
+			"Warboys",
+			"AlphardTradingCompany",
+			"AntithesisCreed",
+			"CanopianPirates",
+			"CapellanPirates",
+			"ClusterPirates",
+			"AutocracyOfLeh",
+			"GhostRiders",
+			"MajestyMetals"
+		],
+		"HyadesFlashpointSystems" : [
+			"Serenity",
+			"Katinka",
+			"Sterope",
+			"Argos"
+		],
+		"HyadesAppearingPirates" : [
+			"CorporatePirates",
+			"RenegadePirates",
+			"RoguePirates",
+			"SyrtisPirates",
+			"CanopianPirates",
+			"CapellanPirates"
+		],
+		"HyadesEmployersOnly" : [
+		    "AutocracyofLeh"
+		],
+		"HyadesTargetsOnly" : [
+			"HarbingersOfDoom",
+			"RimPirates",
+			"AutocracyOfLeh",
+			"EvilEye"
+		],
+		"HyadesNeverControl" : [
+			"EvilEye",
+			"HarbingersOfDoom",
+			"InterstellarExpeditions",
+			"MagnaMetals",
+			"RimPirates",
+			"TaurusMajorisMining",
+			"TaurusTerritorialIndustries",
+			"AlphardTradingCompany",
+			"AntithesisCreed",
+			"AutocracyOfLeh",
+			"GhostRiders",
+			"MajestyMetals"
+		],
+		"FactionsAlwaysAllies" : {
+			"HarbingersOfDoom" : [
+				"RimPirates"
+			],
+			"RimPirates" : [
+				"HarbingersOfDoom"
+			],
+			"GhostRiders" : [
+				"AutocracyofLeh"
+			],
+			"AutocracyofLeh" : [
+				"GhostRiders"
+			],
+		},
 		//This region allows for a separate set of values that *must* be changed if you are including more than the base factions.
 		//Values still need to be changed above, but having excess values in the areas above will not cause issues when running GaW.
 		"ISMCompatibility" : false,

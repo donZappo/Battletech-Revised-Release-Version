@@ -23,15 +23,15 @@
         "FactionColors": {
             "Kurita": [0.863, 0.078, 0.235, 1],
             "Steiner": [0.255, 0.412, 0.882, 1],
-            "TortugaPirates": [0.863, 0.078, 0.235, 1],
-            "Warboys": [0.862, 0.078, 0.615, 1],
-            "ClusterPirates": [0.850, 0.078, 0.862, 1],
-            "CorporatePirates": [0.255, 0.412, 0.882, 1],
-            "RenegadePirates": [0.254, 0.709, 0.882, 1],
-            "RoguePirates": [0.254, 0.882, 0.882, 1],
-            "SyrtisPirates": [0.580, 0.905, 0.113, 1],
-            "CanopianPirates": [0.858, 0.905, 0.113, 1],
-            "CapellanPirates": [0.905, 0.647, 0.113, 1]			
+            "TortugaPirates": [0.254, 0.882, 0.847, 1],
+            "Warboys": [0.882, 0.254, 0.760, 1],
+            "ClusterPirates": [0.976, 0.968, 0.223, 1],
+            "CorporatePirates": [0.380, 0.882, 0.254, 1],
+            "RenegadePirates": [0.882, 0.658, 0.254, 1],
+            "RoguePirates": [0.882, 0.262, 0.254, 1],
+            "SyrtisPirates": [0.254, 0.882, 0.611, 1],
+            "CanopianPirates": [0.552, 0.882, 0.254, 1],
+            "CapellanPirates": [0.255, 0.412, 0.882, 1]			
         },
 
         "LogoScalar": 0.75,

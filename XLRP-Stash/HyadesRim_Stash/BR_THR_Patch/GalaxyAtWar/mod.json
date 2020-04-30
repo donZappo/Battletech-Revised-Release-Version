@@ -415,11 +415,13 @@
 			"CapellanPirates"
 		],
 		"HyadesEmployersOnly" : [
+		    "AutocracyofLeh"
 		],
 		"HyadesTargetsOnly" : [
 			"HarbingersOfDoom",
 			"RimPirates",
-			"AutocracyOfLeh"
+			"AutocracyOfLeh",
+			"EvilEye"
 		],
 		"HyadesNeverControl" : [
 			"EvilEye",

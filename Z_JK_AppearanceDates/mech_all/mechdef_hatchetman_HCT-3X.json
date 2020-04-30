@@ -1,8 +1,3 @@
 {
-    "MinAppearanceDate" : "3025-06-28T00:00:00Z",
-	"RequiredToSpawnCompanyTags": {
-	    "items": [
-		    "flashpoint_longRoad_complete"
-		]
-	},
+	"MinAppearanceDate" : "3030-01-01T00:00:00Z",
 }
