@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_APC_Vargr",
+    "Name": "Vargr",
+    "Details": "",
+    "Icon": "",
+    "Cost": 564,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_APC_Vargr",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_heavy",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_high",
+      "unit_release",
+      "Davion",
+      "Liao",
+      "Marik",
+      "Steiner",
+      "Kurita",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "unit_common",
+      "unit_common_Davion",
+      "unit_common_Liao",
+      "unit_common_Marik",
+      "unit_common_Steiner",
+      "unit_common_Kurita",
+      "unit_common_MagistracyOfCanopus",
+      "unit_common_TaurianConcordat",
+      "unit_common_AuriganDirectorate",
+      "unit_common_AuriganRestoration",
+      "unit_common_ComStar",
+      "unit_common_MercenaryReviewBoard",
+      "unit_common_DuchyOfAndurien",
+      "unit_common_AuriganMercenaries",
+      "unit_common_AuriganPirates",
+      "unit_common_Locals",
+      "unit_common_Betrayers",
+      "unit_common_MajestyMetals",
+      "unit_common_KellHounds",
+      "unit_common_GrayDeathLegion",
+      "unit_common_FlakJackals",
+      "unit_common_LocalsBrockwayRefugees",
+      "unit_common_SelfEmployed",
+      "unit_common_MasonsMarauders",
+      "unit_common_SteelBeast",
+      "unit_common_RazorbackMercs",
+      "unit_common_RedHareRegiment",
+      "unit_common_EmeraldDawn",
+      "unit_common_SianTriumphant",
+      "unit_common_BlackCalderaDefense",
+      "unit_common_BlackCalderaDefense_Hidden",
+      "unit_common_SecuritySolutionsInc",
+      "unit_common_PaladinProtectionLLC",
+      "unit_common_HouseNakano",
+      "unit_common_HouseKhulan",
+      "unit_common_ProfHorvat",
+      "unit_common_EdCorbu",
+      "unit_common_HostileMercenaries",
+      "unit_common_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 250,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 250,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 220,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 220,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 230,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 230,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2944-01-01T00:00:00Z"
+}

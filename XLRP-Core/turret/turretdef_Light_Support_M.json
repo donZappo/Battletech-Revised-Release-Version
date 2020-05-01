@@ -1,0 +1,46 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "turretdef_Light_Support_M",
+      "Name" : "Light Support Turret",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "turretchassisdef_Light_Support_M",
+   "TurretTags": {
+      "items": [
+         "unit_turret",
+         "unit_light",
+         "unit_range_long",
+         "unit_common_Marik"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "CurrentArmor" : 160,
+   "CurrentInternalStructure" : 125,
+   "AssignedArmor" : 160,
+   "DamageLevel" : "Functional",
+   "inventory" : [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+	  "DamageLevel" : "Functional"
+    }
+   ]
+}

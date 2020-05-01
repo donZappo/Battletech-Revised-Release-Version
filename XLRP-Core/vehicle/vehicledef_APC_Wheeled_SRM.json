@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_APC_Wheeled_SRM",
+    "Name": "Wheeled APC SRM",
+    "Details": "",
+    "Icon": "",
+    "Cost": 564,
+    "Rarity": 1,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_APC_Wheeled_SRM",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_apc",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_armor_low",
+      "unit_release",
+      "Davion",
+      "Liao",
+      "Marik",
+      "Steiner",
+      "Kurita",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "unit_common",
+      "unit_uncommon_Davion",
+      "unit_uncommon_Liao",
+      "unit_uncommon_Marik",
+      "unit_common_Steiner",
+      "unit_uncommon_Kurita",
+      "unit_uncommon_MagistracyOfCanopus",
+      "unit_uncommon_TaurianConcordat",
+      "unit_uncommon_AuriganDirectorate",
+      "unit_uncommon_AuriganRestoration",
+      "unit_rare_ComStar",
+      "unit_uncommon_MercenaryReviewBoard",
+      "unit_uncommon_DuchyOfAndurien",
+      "unit_uncommon_AuriganMercenaries",
+      "unit_uncommon_AuriganPirates",
+      "unit_uncommon_Locals",
+      "unit_uncommon_Betrayers",
+      "unit_uncommon_MajestyMetals",
+      "unit_uncommon_KellHounds",
+      "unit_uncommon_GrayDeathLegion",
+      "unit_uncommon_FlakJackals",
+      "unit_uncommon_LocalsBrockwayRefugees",
+      "unit_uncommon_SelfEmployed",
+      "unit_uncommon_MasonsMarauders",
+      "unit_uncommon_SteelBeast",
+      "unit_uncommon_RazorbackMercs",
+      "unit_uncommon_RedHareRegiment",
+      "unit_uncommon_EmeraldDawn",
+      "unit_uncommon_SianTriumphant",
+      "unit_uncommon_BlackCalderaDefense",
+      "unit_uncommon_BlackCalderaDefense_Hidden",
+      "unit_uncommon_SecuritySolutionsInc",
+      "unit_uncommon_PaladinProtectionLLC",
+      "unit_uncommon_HouseNakano",
+      "unit_uncommon_HouseKhulan",
+      "unit_rare_ProfHorvat",
+      "unit_uncommon_EdCorbu",
+      "unit_uncommon_HostileMercenaries",
+      "unit_uncommon_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 60,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 5,
+      "AssignedArmor": 30,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
+}

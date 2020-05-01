@@ -16,6 +16,10 @@
 		{
             "Type": "ItemCollectionDef",
             "Path": "itemCollections"
-        }
+        },
+		{ 	"Type": "WeaponDef",
+			"Path": "WeaponDef",
+			"ShouldMergeJSON": true
+		},
    ]
 }

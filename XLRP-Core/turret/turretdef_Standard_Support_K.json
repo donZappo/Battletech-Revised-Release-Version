@@ -1,0 +1,58 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "turretdef_Standard_Support_K",
+      "Name" : "Standard Support Turret",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "turretchassisdef_Standard_Support_K",
+   "TurretTags": {
+      "items": [
+         "unit_turret",
+         "unit_medium",
+         "unit_range_long",
+         "unit_common_Kurita"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "CurrentArmor" : 240,
+   "CurrentInternalStructure" : 250,
+   "AssignedArmor" : 240,
+   "DamageLevel" : "Functional",
+   "inventory" : [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 3,
+	  "DamageLevel" : "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+	  "DamageLevel" : "Functional"
+    }
+   ]
+}

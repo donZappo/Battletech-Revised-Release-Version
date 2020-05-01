@@ -110,7 +110,7 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "NotSet"
+                    "WeaponMount": "Missile"
                 }
             ], 
             "Tonnage": 0, 
@@ -121,7 +121,12 @@
         }, 
         {
             "Location": "LeftArm", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+              {
+					"WeaponMount": "Energy",
+					"Omni": false
+				}
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 90, 
@@ -132,17 +137,9 @@
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }
+					"WeaponMount": "Ballistic",
+					"Omni": false
+				}
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -152,7 +149,12 @@
         }, 
         {
             "Location": "CenterTorso", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+                {
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
+            ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
             "MaxArmor": 180, 
@@ -163,13 +165,9 @@
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }
+					"WeaponMount": "Missile",
+					"Omni": false
+				}
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -181,13 +179,13 @@
             "Location": "RightArm", 
             "Hardpoints": [
                 {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 

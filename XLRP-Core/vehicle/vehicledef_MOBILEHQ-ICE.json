@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_MOBILEHQ-ICE",
+    "Name": "Mobile HQ I.C.E.",
+    "Details": "",
+    "Icon": "",
+    "Cost": 564,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_MOBILEHQ-ICE",
+  "VehicleTags": {
+    "items": [
+      "unit_vehicle",
+      "unit_vehicle_mobileHQ",
+      "unit_light",
+      "unit_wheels",
+      "unit_noncombatant",
+      "unit_range_medium",
+      "unit_release",
+      "MagistracyOfCanopus",
+      "TaurianConcordat",
+      "unit_uncommon",
+      "unit_rare_Davion",
+      "unit_rare_Liao",
+      "unit_rare_Marik",
+      "unit_rare_Steiner",
+      "unit_rare_Kurita",
+      "unit_uncommon_MagistracyOfCanopus",
+      "unit_uncommon_TaurianConcordat",
+      "unit_rare_AuriganDirectorate",
+      "unit_uncommon_AuriganRestoration",
+      "unit_very_rare_ComStar",
+      "unit_uncommon_MercenaryReviewBoard",
+      "unit_rare_DuchyOfAndurien",
+      "unit_uncommon_AuriganMercenaries",
+      "unit_uncommon_AuriganPirates",
+      "unit_uncommon_Locals",
+      "unit_uncommon_Betrayers",
+      "unit_uncommon_MajestyMetals",
+      "unit_uncommon_KellHounds",
+      "unit_uncommon_GrayDeathLegion",
+      "unit_uncommon_FlakJackals",
+      "unit_uncommon_LocalsBrockwayRefugees",
+      "unit_uncommon_SelfEmployed",
+      "unit_uncommon_MasonsMarauders",
+      "unit_uncommon_SteelBeast",
+      "unit_uncommon_RazorbackMercs",
+      "unit_uncommon_RedHareRegiment",
+      "unit_uncommon_EmeraldDawn",
+      "unit_rare_SianTriumphant",
+      "unit_uncommon_BlackCalderaDefense",
+      "unit_uncommon_BlackCalderaDefense_Hidden",
+      "unit_uncommon_SecuritySolutionsInc",
+      "unit_uncommon_PaladinProtectionLLC",
+      "unit_uncommon_HouseNakano",
+      "unit_uncommon_HouseKhulan",
+      "unit_very_rare_ProfHorvat",
+      "unit_uncommon_EdCorbu",
+      "unit_uncommon_HostileMercenaries",
+      "unit_uncommon_NoFaction"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 95,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 95,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 80,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 50,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 50,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ],
+  "MinAppearanceDate": "2850-01-01T00:00:00Z"
+}
