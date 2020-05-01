@@ -31,10 +31,10 @@
     "Cost" : 320000,
     "Rarity" : 4,
     "Purchasable" : true,
-    "Manufacturer" : "Exostar",
+    "Manufacturer" : "ExoStar",
     "Model" : "Large Laser",
     "UIName" : "L Laser + + +",
-    "Id" : "Weapon_Laser_LargeLaser_3-Exostar",
+    "Id" : "Weapon_Laser_LargeLaser_3-ExoStar",
     "Name" : "L Laser + + +",
     "Details" : "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Energy"

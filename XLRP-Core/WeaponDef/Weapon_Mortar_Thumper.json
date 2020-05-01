@@ -37,7 +37,7 @@
         "UIName" : "AC/10",
         "Id" : "Weapon_Mortar_Thumper",
         "Name" : "AC/10",
-        "Details" : "MISSING",
+        "Details" : "A fearsome Mortar embedded directly into certain Bullshark designs. This weapon damages 'Mechs within a large area, doing 30 damage to multiple locations on all 'Mechs. Each Thumper comes equipped for two shots.",
         "Icon" : "uixSvgIcon_artillery"
     },
     "BonusValueA" : "",
@@ -55,7 +55,6 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
             "range_long",
             "BLACKLISTED"
         ],

@@ -31,10 +31,10 @@
     "Cost" : 60000,
     "Rarity" : 2,
     "Purchasable" : true,
-    "Manufacturer" : "Exostar",
+    "Manufacturer" : "ExoStar",
     "Model" : "Twin Small Laser",
     "UIName" : "Twin S Laser +",
-    "Id" : "Weapon_Laser_TwinSmallLaser_1-Exostar",
+    "Id" : "Weapon_Laser_TwinSmallLaser_1-ExoStar",
     "Name" : "Twin S Laser +",
     "Details" : "Twin Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Support"

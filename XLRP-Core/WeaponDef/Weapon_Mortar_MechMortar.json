@@ -34,10 +34,10 @@
         "Purchasable" : true,
         "Manufacturer" : "Western",
         "Model" : "Heavy Autocannon",
-        "UIName" : "AC/10",
+        "UIName" : "Mortar",
         "Id" : "Weapon_Mortar_MechMortar",
-        "Name" : "AC/10",
-        "Details" : "MISSING",
+        "Name" : "Mortar",
+        "Details" : "A newly designed weapon that has started to appear in the Inner Sphere. This weapon damages 'Mechs within a large area, doing 10 damage to multiple locations on all 'Mechs. Each Mortar comes equipped for two shots.",
         "Icon" : "uixSvgIcon_artillery"
     },
     "BonusValueA" : "",
@@ -57,6 +57,7 @@
     ],
     "ComponentTags" : {
         "items" : [
+            "component_type_stock",
             "range_long"
         ],
         "tagSetSourceFile" : ""

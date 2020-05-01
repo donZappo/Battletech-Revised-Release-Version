@@ -19,7 +19,7 @@
         },
 		{ 	"Type": "WeaponDef",
 			"Path": "WeaponDef",
-			"ShouldMergeJSON": true
+			"AddToDB": true
 		},
    ]
 }

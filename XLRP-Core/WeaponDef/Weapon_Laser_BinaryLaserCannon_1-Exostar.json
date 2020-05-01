@@ -32,10 +32,10 @@
         "Cost" : 270000,
         "Rarity" : 2,
         "Purchasable" : true,
-        "Manufacturer" : "Exostar",
+        "Manufacturer" : "ExoStar",
         "Model" : "Binary Laser Cannon",
         "UIName" : "B Laser +",
-        "Id" : "Weapon_Laser_BinaryLaserCannon_1-Exostar",
+        "Id" : "Weapon_Laser_BinaryLaserCannon_1-ExoStar",
         "Name" : "B Laser +",
         "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased damage, the tonnage ended up being higher than two Large Lasers separately.",
         "Icon" : "uixSvgIcon_weapon_Energy"
