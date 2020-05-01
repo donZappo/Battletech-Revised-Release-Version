@@ -66,7 +66,7 @@
       "UIName" : "Area",
       "isBaseMode" : true,
       "ShotsWhenFired" : 10,
-      "AMSHitChance" : 0.10,
+      "AMSHitChance" : 0.1,
       "IsAAMS" : true
     },
     {

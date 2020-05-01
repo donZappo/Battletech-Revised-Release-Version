@@ -39,7 +39,7 @@
     "Details" : "This slightly shorter-barrelled AC/20 was designed to fit inside the claws of the King Crab.",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
-  "BonusValueA" : "- 1 Crt.Slt.",
+  "BonusValueA" : "- 1 Crit Slot",
   "BonusValueB" : "- 5 Stb.Dmg.",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",

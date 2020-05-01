@@ -113,10 +113,10 @@
     "tagSetSourceFile" : ""
   },
   "ImprovedBallistic" : true,
+  "DamageNotDivided" : false,
   "HasShells" : false,
   "VolleyDivisor" : 1,
   "HitGenerator" : "Cluster",
   "BallisticDamagePerPallet" : true,
-  "DamageNotDivided" : false,
   "ammoCategoryID" : "NotSet"
 }
