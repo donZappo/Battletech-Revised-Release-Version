@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 440000,
         "Rarity" : 99,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Hovertec",
         "Model" : "Napalm Missile Launcher",
         "UIName" : "Infernos + +",
@@ -143,7 +143,6 @@
     "ComponentTags" : {
         "items" : [
             "range_standard",
-            "component_type_lostech",
             "BLACKLISTED"
         ],
         "tagSetSourceFile" : ""

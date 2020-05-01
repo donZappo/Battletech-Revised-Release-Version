@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 190000,
         "Rarity" : 3,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Donal",
         "Model" : "Particle Projector Cannon",
         "UIName" : "PPC +",

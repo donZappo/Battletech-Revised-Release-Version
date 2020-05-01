@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 90000,
         "Rarity" : 1,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "LongFire",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "LRM5 +",

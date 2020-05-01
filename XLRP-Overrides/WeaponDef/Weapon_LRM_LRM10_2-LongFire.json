@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 170000,
         "Rarity" : 2,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "LongFire",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "LRM10 + +",
