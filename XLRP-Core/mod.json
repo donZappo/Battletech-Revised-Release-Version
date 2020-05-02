@@ -103,5 +103,6 @@
 		{ "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
 		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
 		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true }
 	]
 }
