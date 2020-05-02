@@ -13,6 +13,6 @@
 	],
 
 	"Settings": {
-		"LogLevel": "Trace"
+		"LogLevel": "Error"
 	}
 }

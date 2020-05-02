@@ -13,7 +13,7 @@
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",
-    "LogLevel": "Trace",
+    "LogLevel": "Error",
     "Procedurally Generate Store Contents": {
       "Enabled": true,
       "StoreItemSourceFile": "./res/test-xlrp-store-content.xlsx",

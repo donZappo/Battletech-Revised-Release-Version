@@ -17,8 +17,8 @@
     }
   ],
   "Settings": {
-    "Debug": true,
-    "CombatLog": true,
+    "Debug": false,
+    "CombatLog": false,
 
     /* custom strings for floaties */
     "PanicStates": [
