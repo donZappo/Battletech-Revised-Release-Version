@@ -11,7 +11,7 @@
         "UIName" : "Gyro ++",
         "Id" : "Gear_Gyro_Coventry_Mark-65",
         "Name" : "Coventry Mark 65 Gyro",
-        "Details" : "Conventry precision twin axis Gyros improve your mechs physical combat abilities on the ground and greatly improves the precision of the real time telemetry information fed to the mechs computer. The Mark 65 improves your <color=#6aa84f>Melee attack by 30%</color>",
+        "Details" : "Conventry precision twin axis Gyros improve your mechs physical combat abilities on the ground and greatly improves the precision of the real time telemetry information fed to the mechs computer. The Mark 65 improves your <color=#6aa84f>Melee attack by 20%</color>",
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA" : "+20% Melee Hit",
