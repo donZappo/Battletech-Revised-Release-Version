@@ -36,7 +36,7 @@
     "UIName" : "S Laser + +",
     "Id" : "Weapon_Laser_SmallLaser_2-Starflash",
     "Name" : "S Laser + +",
-    "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.",
+    "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons. In order to reduce tonnage, cutbacks in the annular focusing reduces accuracy for consecutive shots.",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "- 0.15 Tons",

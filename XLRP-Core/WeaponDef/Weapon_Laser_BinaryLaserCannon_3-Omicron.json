@@ -36,7 +36,7 @@
     "UIName" : "B Laser + + +",
     "Id" : "Weapon_Laser_BinaryLaserCannon_3-Omicron",
     "Name" : "B Laser + + +",
-    "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased damage, the tonnage ended up being higher than two Large Lasers separately.",
+    "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased damage, the tonnage ended up being higher than two Large Lasers separately. Modifications to the laser tracking systems allow consecutive shots to be fired with improved accuracy.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "+ 4 Refire |+ 12 Dmg.",

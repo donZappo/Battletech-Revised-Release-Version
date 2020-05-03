@@ -36,7 +36,7 @@
     "UIName" : "M Laser + + +",
     "Id" : "Weapon_Laser_MediumLaser_3-Starflash",
     "Name" : "M Laser + + +",
-    "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.",
+    "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons. In order to reduce tonnage and heat generation, cutbacks in the annular focusing reduces accuracy for consecutive shots.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "- 0.2 Tons |- 2 Heat",

@@ -36,7 +36,7 @@
     "UIName" : "S Laser +",
     "Id" : "Weapon_Laser_SmallLaser_1-Omicron",
     "Name" : "S Laser +",
-    "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.",
+    "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons. Modifications to the laser tracking systems allow consecutive shots to be fired with improved accuracy.",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "+ 2 Refire",

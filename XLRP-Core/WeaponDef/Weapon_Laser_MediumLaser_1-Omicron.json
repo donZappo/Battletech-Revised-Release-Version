@@ -36,7 +36,7 @@
     "UIName" : "M Laser +",
     "Id" : "Weapon_Laser_MediumLaser_1-Omicron",
     "Name" : "M Laser +",
-    "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.",
+    "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons. Modifications to the laser tracking systems allow consecutive shots to be fired with improved accuracy.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA" : "+ 2 Refire",
