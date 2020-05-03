@@ -13,8 +13,8 @@
     "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Double ton AMS Ammo Bins each contain 180 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
     "Icon": "uixSvgIcon_ammoBox_Support"
   },
-  "BonusValueA": "",
-  "BonusValueB": "",
+  "BonusValueA" : "+ 1 Ton",
+  "BonusValueB" : "+ 50% Ammo",
   "ComponentType": "AmmunitionBox",
   "ComponentSubType": "Ammunition",
   "PrefabIdentifier": "",
