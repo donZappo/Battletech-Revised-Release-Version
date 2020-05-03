@@ -26,9 +26,9 @@
     },
     {
       "Bonus": "TargetingBaffles",
-      "Short": "+{0} Harder To-Be-Hit",
-      "Long": "+{0} Harder To-Be-Hit",
-      "Full": "+{0} To-Hit Penalty when being targeted"
+      "Short": "{0} Harder To-Be-Hit",
+      "Long": "{0} Harder To-Be-Hit",
+      "Full": "-{0} To-Hit Penalty when being targeted"
     },
     {
       "Bonus": "Rarity",
@@ -52,13 +52,13 @@
       "Bonus": "CalibratedSRMMounts",
       "Short": "+{0} SRM Accuracy",
       "Long": "+{0} SRM Accuracy",
-      "Full": "SRMs have -{0} bonus to accuracy"
+      "Full": "SRMs have +{0} bonus to accuracy"
     },
     {
       "Bonus": "HighPrecisionLaserTargeting",
       "Short": "+{0} Laser Accuracy",
       "Long": "+{0} Laser Accuracy",
-      "Full": "Lasers have -{0} bonus to accuracy"
+      "Full": "Lasers have +{0} bonus to accuracy"
     },
     {
       "Bonus": "Retrofitted",
@@ -80,9 +80,9 @@
     },
     {
       "Bonus": "RecoilCompensator",
-      "Short": "-{0} Refire Bonus",
-      "Long": "-{0} Refire Bonus",
-      "Full": "Bonus of -{0} to Refire Penalty"
+      "Short": "{0} Refire Bonus",
+      "Long": "{0} Refire Bonus",
+      "Full": "Refire Penalty Reduced by {0}"
     },
     {
       "Bonus": "IntegratedInfernoFeeder",
@@ -116,27 +116,27 @@
     },
     {
       "Bonus": "EnergySpecializationBonus",
-      "Short": "-{0} To-Hit Bonus w/ Energy",
-      "Long": "-{0} To-Hit Bonus w/ Energy",
-      "Full": "Energy Weapons have a -{0} Bonus To-Hit"
+      "Short": "+{0} To-Hit Bonus w/ Energy",
+      "Long": "+{0} To-Hit Bonus w/ Energy",
+      "Full": "Energy Weapons have a +{0} Bonus To-Hit"
     },
     {
       "Bonus": "EnergySpecializationMalus",
-      "Short": "+{0} To-Hit Penalty Non-Energy",
-      "Long": "+{0} To-Hit Penalty Non-Energy",
-      "Full": "Non-Energy Weapons have a +{0} Penalty To-Hit"
+      "Short": "-{0} To-Hit Penalty Non-Energy",
+      "Long": "-{0} To-Hit Penalty Non-Energy",
+      "Full": "Non-Energy Weapons have a -{0} Penalty To-Hit"
     },
     {
       "Bonus": "PPCSpecializationBonus",
-      "Short": "-{0} To-Hit Bonus w/ PPCs",
-      "Long": "-{0} To-Hit Bonus w/ PPCs",
-      "Full": "PPC Weapons have a -{0} Bonus To-Hit"
+      "Short": "+{0} To-Hit Bonus w/ PPCs",
+      "Long": "+{0} To-Hit Bonus w/ PPCs",
+      "Full": "PPC Weapons have a +{0} Bonus To-Hit"
     },
     {
       "Bonus": "PPCSpecializationMalus",
-      "Short": "+{0} To-Hit Penalty Non-PPC",
-      "Long": "+{0} To-Hit Penalty Non-PPC",
-      "Full": "Non-PPC Weapons have a +{0} Penalty To-Hit"
+      "Short": "-{0} To-Hit Penalty Non-PPC",
+      "Long": "-{0} To-Hit Penalty Non-PPC",
+      "Full": "Non-PPC Weapons have a -{0} Penalty To-Hit"
     },
     {
       "Bonus": "Claustrophobic",
@@ -164,9 +164,9 @@
     },
     {
       "Bonus": "BallisticWeaponBonus",
-      "Short": "-{0} To-Hit Bonus w/ Ballistics",
-      "Long": "-{0} To-Hit Bonus w/ Ballistics",
-      "Full": "Ballistic Weapons have a -{0} Bonus To-Hit"
+      "Short": "+{0} To-Hit Bonus w/ Ballistics",
+      "Long": "+{0} To-Hit Bonus w/ Ballistics",
+      "Full": "Ballistic Weapons have a +{0} Bonus To-Hit"
     },
     {
       "Bonus": "BallisticWeaponProtection",
@@ -176,9 +176,9 @@
     },
     {
       "Bonus": "AntiTankVehicleRole",
-      "Short": "-{0} To-Hit Bonus to Vehicles",
-      "Long": "-{0} To-Hit Bonus to Vehicles",
-      "Full": "All Weapons have a -{0} Bonus To-Hit Vehicles"
+      "Short": "+{0} To-Hit Bonus to Vehicles",
+      "Long": "+{0} To-Hit Bonus to Vehicles",
+      "Full": "All Weapons have a +{0} Bonus To-Hit Vehicles"
     },
     {
       "Bonus": "SmallArmsFireControl",
@@ -188,9 +188,9 @@
     },
     {
       "Bonus": "MeleeBonus",
-      "Short": "-{0} To-Hit Melee Bonus",
-      "Long": "-{0} To-Hit Melee Bonus",
-      "Full": "Melee Attacks have a bonus to-hit of -{0}"
+      "Short": "+{0} To-Hit Melee Bonus",
+      "Long": "+{0} To-Hit Melee Bonus",
+      "Full": "Melee Attacks have a bonus to-hit of +{0}"
     },
     {
       "Bonus": "BattleAxe",
@@ -224,9 +224,9 @@
     },
     {
       "Bonus": "IntimidatingDesign",
-      "Short": "+{0} To-Be-Hit Penalty",
-      "Long": "+{0} To-Be-Hit Penalty",
-      "Full": "+{0} To-Hit Penalty when targeting this 'Mech"
+      "Short": "-{0} To-Be-Hit Penalty",
+      "Long": "-{0} To-Be-Hit Penalty",
+      "Full": "-{0} To-Hit Penalty when targeting this 'Mech"
     },
     {
       "Bonus": "LRMClusteringBonus",
@@ -320,9 +320,9 @@
     },
     {
       "Bonus": "MassiveSearchLight",
-      "Short": "-{0} Lance To-Hit Bonus",
-      "Long": "-{0} Lance To-Hit Bonus",
-      "Full": "All 'Mechs in the Lance get -{0} Bonus To-Hit"
+      "Short": "+{0} Lance To-Hit Bonus",
+      "Long": "+{0} Lance To-Hit Bonus",
+      "Full": "All 'Mechs in the Lance get +{0} Bonus To-Hit"
     },
     {
       "Bonus": "GlobalWeaponDamage",
@@ -362,9 +362,9 @@
     },
     {
       "Bonus": "AC20PenaltyToHit",
-      "Short": "+{0} AC/20 To-Hit Penalty",
-      "Long": "+{0} AC/20 To-Hit Penalty",
-      "Full": "AC/20s suffer a +{0} To-Hit Penalty"
+      "Short": "-{0} AC/20 To-Hit Penalty",
+      "Long": "-{0} AC/20 To-Hit Penalty",
+      "Full": "AC/20s suffer a -{0} To-Hit Penalty"
     },
     {
       "Bonus": "GlobalDamageReduction",
