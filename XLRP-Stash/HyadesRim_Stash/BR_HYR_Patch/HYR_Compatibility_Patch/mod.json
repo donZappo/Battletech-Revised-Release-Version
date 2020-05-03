@@ -1,0 +1,16 @@
+{
+    "Name": "The Hyades Rim + BattleTech Revised Compatibility Patch",
+    "Enabled": true,
+    "Version": "5.0",
+    "Description": "Compatability Patch for HYR and BR",	
+    "Author": "donZappo",
+	
+	"DependsOn": [ "The Hyades Rim" ],
+    "ConflictsWith": [],
+	
+	"Manifest": [	
+        { "Type": "SimGameEventDef", "Path": "events" },
+		{ "Type": "StarSystemDef", "Path": "starsystem/hyadesrim" },
+		{ "Type": "UpgradeDef", "Path": "upgrades/disabled_inert" }
+    ]
+}
