@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 100, 
             "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 84, 
+            "CurrentInternalStructure": 100, 
             "AssignedArmor": 100, 
             "AssignedRearArmor": 20
         }, 
