@@ -6,6 +6,7 @@
             "unit_mech",
           
             "unit_light",
+            "unit_fallback",
             "unit_speed_high",
             
             "unit_range_medium",
