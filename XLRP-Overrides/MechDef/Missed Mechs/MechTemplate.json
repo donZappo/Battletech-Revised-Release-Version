@@ -1,0 +1,25 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "MechTemplate",
+      "Name" : "",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "",
+   "MechTags": {
+      "items": [
+         ""
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+   
+   ],
+   "inventory" : [
+      
+   ]
+}
