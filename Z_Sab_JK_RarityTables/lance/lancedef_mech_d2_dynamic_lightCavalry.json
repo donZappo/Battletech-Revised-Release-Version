@@ -44,9 +44,6 @@
                     "unit_ext_rare_{CUR_TEAM.faction}",
                     "unit_none_{CUR_TEAM.faction}",
                     "unit_hero_{CUR_TEAM.faction}",
-                    "unit_LosTech",
-                    "unit_era_2750",
-                    "unit_era_2900",
                     "unit_clan"
                 ],
                 "tagSetSourceFile" : "Tags/UnitTags"
@@ -86,9 +83,6 @@
                     "unit_ext_rare_{CUR_TEAM.faction}",
                     "unit_none_{CUR_TEAM.faction}",
                     "unit_hero_{CUR_TEAM.faction}",
-                    "unit_LosTech",
-                    "unit_era_2750",
-                    "unit_era_2900",
                     "unit_clan"
                 ],
                 "tagSetSourceFile" : "Tags/UnitTags"
@@ -126,9 +120,6 @@
                     "unit_ext_rare_{CUR_TEAM.faction}",
                     "unit_none_{CUR_TEAM.faction}",
                     "unit_hero_{CUR_TEAM.faction}",
-                    "unit_LosTech",
-                    "unit_era_2750",
-                    "unit_era_2900",
                     "unit_clan"
                 ],
                 "tagSetSourceFile" : "Tags/UnitTags"
