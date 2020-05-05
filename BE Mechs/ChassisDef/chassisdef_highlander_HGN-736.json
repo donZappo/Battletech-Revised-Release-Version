@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 45, 
-    "MeleeInstability": 23, 
+    "MeleeDamage": 115, 
+    "MeleeInstability": 90, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 90, 
+    "DFADamage": 115, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 90, 
-    "DFAInstability": 45, 
+    "DFASelfDamage": 57.5, 
+    "DFAInstability": 115, 
     "ChassisTags": {
         "items": [
             "DesignedForDFA", 
