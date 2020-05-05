@@ -4,7 +4,7 @@
 
     "DependsOn": ["BE Mechs"],
 
-    "OptionallyDependsOn": [ "cFixes", "CommunityBundles",  "LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025" , "BT_Extended_3025_Plus", "JK_VariantsCAB", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign", "BE-Mechs" ],
+    "OptionallyDependsOn": [ "cFixes", "CommunityBundles",  "LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025" , "BT_Extended_3025_Plus", "JK_VariantsCAB", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign" ],
 
 	"Version": "1.8.0.0",
 	"PackagedOn": "2019-09-27T16:45:00Z",
@@ -16,7 +16,7 @@
 	
 	"Manifest": [
         { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
+        //{ "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false }
     ]
 }
