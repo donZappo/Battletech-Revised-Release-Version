@@ -1,0 +1,240 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 12444680, 
+        "Rarity": 99, 
+        "Purchasable": false, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Atlas II AS7-D-HT", 
+        "Id": "chassisdef_atlas_AS7-D-HT", 
+        "Name": "Atlas II", 
+        "Details": "Known as the 'Atlas II,' the D-HT model carries more Energy weaponry and usually a lighter, more flexible Autocannon. It still has unbelievable protection and the same crushing Melee ability as other Atlas models.", 
+        "Icon": "uixTxrIcon_atlas"
+    }, 
+    "VariantName": "AS7-D-HT", 
+    "StockRole": "Juggernaut & Long Range Assault", 
+    "YangsThoughts": "The Atlas II is designed to fight at longer range than the original Atlas, though it punches just as hard.", 
+    "PrefabIdentifier": "chrPrfMech_atlasBase-001", 
+    "PrefabBase": "atlas", 
+    "Tonnage": 100, 
+    "InitialTonnage": 10, 
+    "weightClass": "ASSAULT", 
+    "BattleValue": 10581000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 60, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 4, 
+    "Stability": 200, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 140, 
+    "MeleeInstability": 100, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 125, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 125, 
+    "DFAInstability": 125, 
+    "ChassisTags": {
+        "items": [
+            "mech_case_left", 
+            "mech_case_right", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_assaultmech", 
+    "PathingCapDefID": "pathingdef_assault", 
+    "HardpointDataDefID": "hardpointdatadef_atlas", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
+        {
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 17, 
+            "z": 0
+        }, 
+        {
+            "x": 5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": -5, 
+            "y": 16, 
+            "z": -1
+        }, 
+        {
+            "x": 3.5, 
+            "y": 6, 
+            "z": 1
+        }, 
+        {
+            "x": -3.5, 
+            "y": 6, 
+            "z": 1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": 105, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 170, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 85
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 210, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 105
+        }
+    ]
+}

@@ -1,9 +1,9 @@
 {
     "MechTags": {
         "items": [
-			"unit_flashpoint",
-			"BLACKLISTED",
-			"unit_notsacellum"
+            "unit_release",
+            "unit_flashpoint",
+            "BLACKLISTED",
         ],
         "tagSetSourceFile": ""
     },
@@ -11,13 +11,13 @@
     "HeraldryID": null,
     "Description": {
         "Cost": 13900000,
-        "Rarity": 5,
-        "Purchasable": true,
+        "Rarity": 99,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "King Crab KGC-000v",
         "Id": "mechdef_kingcrab_KGC-000v",
-        "Name": "King Crab (A)",
+        "Name": "Victoria's King Crab",
         "Details": "This customized King Crab was driven by Victoria Espinosa, of the short-lived Aurigan Directorate. Armed with the best weaponry the Directorate could manage to acquire, it was an absolute death machine against anything it could see. Now, the power rests in your hands. Be bold, Commander.", 
         "Icon": "uixTxrIcon_kingcrab"
     }, 
@@ -402,7 +402,7 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_Autocannon_AC5_3-Kali_Yama", 
+            "ComponentDefID": "Weapon_Autocannon_AC5_3-Kali_Yama ", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 1, 
@@ -413,7 +413,7 @@
         }, 
         {
             "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Weapon_Autocannon_AC5_3-Kali_Yama", 
+            "ComponentDefID": "Weapon_Autocannon_AC5_3-Kali_Yama ", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 1, 
