@@ -17,7 +17,7 @@
         "UIName": "Kintaro KTO-19b", 
         "Id": "mechdef_kintaro_KTO-19b", 
         "Name": "Kintaro", 
-        "Details": "Introduced in 2587 for the SLDF, the Kintaro 19 was designed with one sole mission: tagging enemy units with a Narc Missile Beacon. As such, it is a 'Mech that is intended to work in a team with a missile-heavy lance. After it delivers its deadly package to the enemy, the Kintaro disengages and lets its lance mates do most of the work as their missiles track the signal from the beacon. ", 
+        "Details": "Introduced in 2587 for the SLDF, the Kintaro 19's mission is: tag enemy units with a Narc Missile Beacon. As such, it is intended to work in a team with a missile-heavy lance. After it delivers its deadly package to the enemy, the Kintaro disengages while its lance mates lock missiles on the signal from the beacon. The 19b variant uses an XL engine with DHS to upgrade the LRM-5 to an LRM-15 with CASE armor, providing additional fire support and survivability.", 
         "Icon": "uixTxrIcon_kintaro"
     }, 
     "RequiredToSpawnCompanyTags": {
