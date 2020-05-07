@@ -47,6 +47,7 @@
         "pilot_assassin_CalledShotBonus" : 0,
         "pilot_spacer_DecreasedCost" : 0,
         "pilot_dishonest_MoralePenalty" : 0,
+		"pilot_comstar_TechBonus" : 0,
 		//************************************
 
 		//Mech Bonding Area
