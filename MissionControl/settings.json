@@ -1,5 +1,5 @@
 {
-  "DebugMode": true,
+  "DebugMode": false,
   "VersionCheck": true,
   "DebugSkirmishMode": true,
   "DisableIfFlashpointContract": true,
