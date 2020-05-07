@@ -40,8 +40,6 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
-          "unit_rare",
-          "unit_very_rare",
           "unit_ext_rare",
           "unit_none",
           "unit_hero",
@@ -76,8 +74,6 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
-          "unit_very_rare",
-          "unit_ext_rare",
           "unit_none",
           "unit_hero",
           "unit_LosTech",
@@ -111,8 +107,6 @@
       "excludedUnitTagSet": {
         "items": [
           "unit_noncombatant",
-          "unit_uncommon",
-          "unit_rare",
           "unit_very_rare",
           "unit_ext_rare",
           "unit_none",

@@ -35,7 +35,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_rare_MagistracyOfCanopus",
 				"unit_very_rare_MagistracyOfCanopus",
 				"unit_ext_rare_MagistracyOfCanopus",
 				"unit_none_MagistracyOfCanopus",
@@ -72,7 +71,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_very_rare_MagistracyOfCanopus",
 				"unit_ext_rare_MagistracyOfCanopus",
 				"unit_none_MagistracyOfCanopus",
 				"unit_hero_MagistracyOfCanopus",
@@ -109,8 +107,6 @@
             "items" : [
 				"unit_noncombatant",
 				"unit_uncommon_MagistracyOfCanopus",
-				"unit_rare_MagistracyOfCanopus",
-				"unit_very_rare_MagistracyOfCanopus",
 				"unit_ext_rare_MagistracyOfCanopus",
 				"unit_none_MagistracyOfCanopus",
 				"unit_hero_MagistracyOfCanopus",

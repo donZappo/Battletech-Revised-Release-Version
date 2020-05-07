@@ -37,45 +37,6 @@
             "items" : [
                "unit_noncombatant",
 			   "unit_urbie",
-            "unit_rare_{CUR_TEAM.faction}",
-            "unit_very_rare_{CUR_TEAM.faction}",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "pilotTagSet" : {
-            "items" : [
-               "pilot_npc_d8"
-            ],
-            "tagSetSourceFile" : "Tags/PilotTags"
-         },
-         "excludedPilotTagSet" : {
-            "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
-         }
-      },
-      {
-         "unitType" : "Mech",
-         "unitId" : "Tagged",
-         "pilotId" : "Tagged",
-         "unitTagSet" : {
-            "items" : [
-               "unit_heavy",
-               "unit_mech",
-			   "unit_role_brawler"
-            ],
-            "tagSetSourceFile" : "Tags/UnitTags"
-         },
-         "excludedUnitTagSet" : {
-            "items" : [
-               "unit_noncombatant",
-			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -115,6 +76,42 @@
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_ext_rare_{CUR_TEAM.faction}",
+            "unit_none_{CUR_TEAM.faction}",
+            "unit_hero_{CUR_TEAM.faction}",
+            "unit_LosTech",
+            "unit_era_2750",
+            "unit_era_2900",
+            "unit_clan"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d8"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_heavy",
+               "unit_mech",
+			   "unit_role_brawler"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie",
             "unit_none_{CUR_TEAM.faction}",
             "unit_hero_{CUR_TEAM.faction}",
             "unit_LosTech",
@@ -151,7 +148,6 @@
             "items" : [
                "unit_noncombatant",
 			   "unit_urbie",
-            "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
             "unit_hero_{CUR_TEAM.faction}",

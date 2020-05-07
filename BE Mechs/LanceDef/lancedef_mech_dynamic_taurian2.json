@@ -35,8 +35,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_rare_TaurianConcordat",
-				"unit_very_rare_TaurianConcordat",
 				"unit_ext_rare_TaurianConcordat",
 				"unit_none_TaurianConcordat",
 				"unit_hero_TaurianConcordat",
@@ -72,7 +70,6 @@
          "excludedUnitTagSet" : {
             "items" : [
 				"unit_noncombatant",
-				"unit_very_rare_TaurianConcordat",
 				"unit_ext_rare_TaurianConcordat",
 				"unit_none_TaurianConcordat",
 				"unit_hero_TaurianConcordat",
@@ -110,8 +107,6 @@
 				"unit_noncombatant",
 				"unit_uncommon_TaurianConcordat",
 				"unit_rare_TaurianConcordat",
-				"unit_very_rare_TaurianConcordat",
-				"unit_ext_rare_TaurianConcordat",
 				"unit_none_TaurianConcordat",
 				"unit_hero_TaurianConcordat",
 				"unit_LosTech",
