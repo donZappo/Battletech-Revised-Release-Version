@@ -25,7 +25,7 @@
 		  "Type": "MechDef",
 		  "Path": "MechDef",
 		  "AddToDB": true
-		},,
+		},
 		{
 		  "Type": "ChassisDef",
 		  "Path": "ChassisDef",
