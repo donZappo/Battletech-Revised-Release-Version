@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_TAG",
   "Description" : {
-    "Cost" : 340000,
+    "Cost" : 850000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Garret",

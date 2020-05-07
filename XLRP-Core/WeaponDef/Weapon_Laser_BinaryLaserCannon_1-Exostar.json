@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
-    "Cost" : 270000,
+    "Cost" : 1000000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "ExoStar",

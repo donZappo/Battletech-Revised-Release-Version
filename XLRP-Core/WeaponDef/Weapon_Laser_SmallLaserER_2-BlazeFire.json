@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
   "Description" : {
-    "Cost" : 660000,
+    "Cost" : 220000,
     "Rarity" : 4,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "BlazeFire",
     "Model" : "Extended-Range Small Laser",
     "UIName" : "ER S Laser + +",

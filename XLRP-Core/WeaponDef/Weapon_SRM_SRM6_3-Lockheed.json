@@ -28,7 +28,7 @@
   "Instability" : 2.75,
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
   "Description" : {
-    "Cost" : 140000,
+    "Cost" : 1800000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Lockheed",

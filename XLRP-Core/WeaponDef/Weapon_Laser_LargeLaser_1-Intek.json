@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
-    "Cost" : 180000,
+    "Cost" : 700000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Intek",

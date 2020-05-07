@@ -28,7 +28,7 @@
   "Instability" : 30.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
-    "Cost" : 330000,
+    "Cost" : 1300000,
     "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Donal",

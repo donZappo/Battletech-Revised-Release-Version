@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
   "Description" : {
-    "Cost" : 1750000,
+    "Cost" : 800000,
     "Rarity" : 4,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Magna 400P",
     "Model" : "Medium Pulse Laser",
     "UIName" : "M Pulse + +",

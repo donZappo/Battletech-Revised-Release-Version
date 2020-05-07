@@ -29,7 +29,7 @@
   "Instability" : 3.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
   "Description" : {
-    "Cost" : 30000,
+    "Cost" : 100000,
     "Rarity" : 99,
     "Purchasable" : true,
     "Manufacturer" : "Holly",

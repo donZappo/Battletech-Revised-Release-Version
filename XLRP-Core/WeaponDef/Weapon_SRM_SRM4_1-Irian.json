@@ -28,7 +28,7 @@
   "Instability" : 3.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
   "Description" : {
-    "Cost" : 70000,
+    "Cost" : 300000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Irian",

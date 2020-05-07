@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
   "Description" : {
-    "Cost" : 15000,
+    "Cost" : 50000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "VMI",

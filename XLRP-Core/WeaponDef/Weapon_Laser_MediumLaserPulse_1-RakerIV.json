@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
   "Description" : {
-    "Cost" : 1100000,
+    "Cost" : 400000,
     "Rarity" : 3,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Raker IV",
     "Model" : "Medium Pulse Laser",
     "UIName" : "M Pulse +",

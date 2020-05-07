@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
   "Description" : {
-    "Cost" : 800000,
+    "Cost" : 210000,
     "Rarity" : 4,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Firmir",
     "Model" : "Small Pulse Laser",
     "UIName" : "S Pulse + +",

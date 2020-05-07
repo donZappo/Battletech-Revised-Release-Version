@@ -28,9 +28,9 @@
   "Instability" : 25.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
   "Description" : {
-    "Cost" : 1480000,
+    "Cost" : 400000,
     "Rarity" : 99,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "SCI",
     "Model" : "Magnetic Cannon",
     "UIName" : "Gauss Rifle",

@@ -28,7 +28,7 @@
   "Instability" : 30.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
-    "Cost" : 430000,
+    "Cost" : 2600000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Magna",

@@ -28,7 +28,7 @@
   "Instability" : 66.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
   "Description" : {
-    "Cost" : 370000,
+    "Cost" : 1800000,
     "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "ZeusBolt",
