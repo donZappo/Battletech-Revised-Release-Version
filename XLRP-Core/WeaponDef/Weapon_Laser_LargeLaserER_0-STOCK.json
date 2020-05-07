@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
   "Description" : {
-    "Cost" : 610000,
-    "Rarity" : 100,
-    "Purchasable" : false,
+    "Cost" : 152500,
+    "Rarity" : 99,
+    "Purchasable" : true,
     "Manufacturer" : "SCI",
     "Model" : "Extended-Range Large Laser",
     "UIName" : "ER L Laser",

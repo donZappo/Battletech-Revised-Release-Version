@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
-    "Cost" : 30000,
+    "Cost" : 100000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Omicron",

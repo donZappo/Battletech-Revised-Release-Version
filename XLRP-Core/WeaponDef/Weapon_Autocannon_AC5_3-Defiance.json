@@ -28,7 +28,7 @@
   "Instability" : 7.25,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
-    "Cost" : 270000,
+    "Cost" : 2000000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Defiance",

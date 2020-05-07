@@ -28,7 +28,7 @@
   "Instability" : 58.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
   "Description" : {
-    "Cost" : 230000,
+    "Cost" : 3600000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Defiance",

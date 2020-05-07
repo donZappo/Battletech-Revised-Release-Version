@@ -28,7 +28,7 @@
   "Instability" : 7.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
-    "Cost" : 240000,
+    "Cost" : 1000000,
     "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Kali Yama",

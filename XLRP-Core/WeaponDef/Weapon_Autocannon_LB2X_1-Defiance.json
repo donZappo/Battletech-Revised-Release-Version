@@ -29,7 +29,7 @@
   "Instability" : 10.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LB2X",
   "Description" : {
-    "Cost" : 190000,
+    "Cost" : 750000,
     "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Defiance",

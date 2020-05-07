@@ -28,7 +28,7 @@
   "Instability" : 3.25,
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
   "Description" : {
-    "Cost" : 30000,
+    "Cost" : 100000,
     "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Valiant",

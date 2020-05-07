@@ -37,7 +37,6 @@
 				"unit_noncombatant",
 				"unit_urbie",
 				"unit_armor_low",
-				"unit_rare_{CUR_TEAM.faction}",
 				"unit_very_rare_{CUR_TEAM.faction}",
 				"unit_ext_rare_{CUR_TEAM.faction}",
 				"unit_none_{CUR_TEAM.faction}",
@@ -76,7 +75,6 @@
             "items" : [
 				"unit_noncombatant",
 				"unit_urbie",
-				"unit_very_rare_{CUR_TEAM.faction}",
 				"unit_ext_rare_{CUR_TEAM.faction}",
 				"unit_none_{CUR_TEAM.faction}",
 				"unit_hero_{CUR_TEAM.faction}",
@@ -114,7 +112,6 @@
 				"unit_noncombatant",
 				"unit_urbie",
 				"unit_armor_low",
-				"unit_very_rare_{CUR_TEAM.faction}",
 				"unit_ext_rare_{CUR_TEAM.faction}",
 				"unit_none_{CUR_TEAM.faction}",
 				"unit_hero_{CUR_TEAM.faction}",

@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
   "Description" : {
-    "Cost" : 440000,
+    "Cost" : 110000,
     "Rarity" : 3,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Diverse Optics",
     "Model" : "Extended-Range Small Laser",
     "UIName" : "ER S Laser +",

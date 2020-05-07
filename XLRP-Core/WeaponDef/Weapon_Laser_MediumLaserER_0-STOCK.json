@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Medium",
   "Description" : {
-    "Cost" : 410000,
-    "Rarity" : 100,
-    "Purchasable" : false,
+    "Cost" : 102500,
+    "Rarity" : 99,
+    "Purchasable" : true,
     "Manufacturer" : "SCI",
     "Model" : "Extended-Range Medium Laser",
     "UIName" : "ER M Laser",

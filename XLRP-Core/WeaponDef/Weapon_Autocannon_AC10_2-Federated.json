@@ -28,7 +28,7 @@
   "Instability" : 25.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
   "Description" : {
-    "Cost" : 310000,
+    "Cost" : 1400000,
     "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Federated",

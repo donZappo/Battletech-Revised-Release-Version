@@ -28,7 +28,7 @@
   "Instability" : 1.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
   "Description" : {
-    "Cost" : 150000,
+    "Cost" : 1000000,
     "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Federated",

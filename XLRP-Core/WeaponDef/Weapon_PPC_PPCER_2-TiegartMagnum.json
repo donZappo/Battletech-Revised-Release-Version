@@ -28,9 +28,9 @@
   "Instability" : 25.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
   "Description" : {
-    "Cost" : 4000000,
+    "Cost" : 3000000,
     "Rarity" : 4,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Tiegart",
     "Model" : "Extended-Range PPC",
     "UIName" : "ER PPC + +",

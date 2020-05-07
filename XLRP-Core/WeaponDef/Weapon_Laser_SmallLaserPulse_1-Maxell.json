@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
   "Description" : {
-    "Cost" : 480000,
+    "Cost" : 105000,
     "Rarity" : 3,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Maxell Metals",
     "Model" : "Small Pulse Laser",
     "UIName" : "S Pulse +",

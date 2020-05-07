@@ -28,9 +28,9 @@
   "Instability" : 0.0,
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
   "Description" : {
-    "Cost" : 1220000,
+    "Cost" : 762500,
     "Rarity" : 3,
-    "Purchasable" : false,
+    "Purchasable" : true,
     "Manufacturer" : "Blankenburg 25",
     "Model" : "Extended-Range Large Laser",
     "UIName" : "ER L Laser +",
