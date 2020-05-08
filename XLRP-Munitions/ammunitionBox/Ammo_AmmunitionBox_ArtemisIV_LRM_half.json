@@ -10,8 +10,8 @@
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 1
+            "ExplosionDamagePerAmmo": 0.625,
+            "StabilityDamagePerAmmo": 0.5
         },
         "BonusDescriptions": {
             "Bonuses": [
