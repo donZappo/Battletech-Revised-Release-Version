@@ -14,7 +14,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": null, 
+        "UIName": "Shadowhawk SHD-2Hb", 
         "Id": "mechdef_shadowhawk_SHD-2Hb", 
         "Name": "Shadow Hawk", 
         "Details": "The SLDF Royal upgrade of the Shadow Hawk changes the role of the Mech to a close-range brawler. The original weapon loadout is replaced by an LB 10-X AC, two Streak SRM-2s and two medium lasers. All ammo is protected by CASE and the heat sinks are double-strength models. To save weight it uses an Endo-Steel chassis and Ferro-Fibrous armor.", 

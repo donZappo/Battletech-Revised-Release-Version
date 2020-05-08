@@ -14,7 +14,7 @@
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Phoenixhawk PXH-3S", 
+        "UIName": "Phoenix Hawk PXH-3S", 
         "Id": "mechdef_phoenixhawk_PXH-3S", 
         "Name": "Phoenix Hawk", 
         "Details": "The 3S model of this 'Mech, first deployed in 3042, was another upgrade using rediscovered technology that attempted to make the Phoenix Hawk even more effective for reconnaissance. The engine was upgraded to an ExtraLight version and ten double heat sinks improved heat management. The overall armor protection was increased by one ton and replaced with Ferro-Fibrous armor.", 
@@ -466,17 +466,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_AMS", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 2, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": "", 
@@ -581,6 +570,17 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Weapon_AMS", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
