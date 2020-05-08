@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 0.625
+			"ExplosionDamagePerAmmo": 1.875
 		}
 	},
     "AmmoID" : "Ammunition_AC2",
