@@ -1,21 +1,21 @@
 {
     "MechTags": {
         "items": [
-            "unit_release", 
-            "unit_mechtool"
-        ], 
+            "unit_flashpoint",
+            "BLACKLISTED",
+        ],
         "tagSetSourceFile": ""
-    }, 
-    "ChassisID": "chassisdef_shadowhawk_SHD-2D", 
+    },    
+    "ChassisID": "chassisdef_shadowhawk1b_SHD-2D", 
     "HeraldryID": null, 
     "Description": {
         "Cost": 852162, 
-        "Rarity": 2, 
+        "Rarity": 99, 
         "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Shadow Hawk SHD-2D", 
-        "Id": "mechdef_shadowhawk_SHD-2D", 
+        "Id": "mechdef_shadowhawk1b_SHD-2D", 
         "Name": "Shadow Hawk", 
         "Details": "The Shadow Hawk 2D is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so\u2026 I guess you can be the judge.", 
         "Icon": "uixTxrIcon_shadowhawk"
@@ -49,19 +49,19 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
-            "CurrentArmor": 70, 
+            "CurrentArmor": 80, 
             "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 65, 
-            "AssignedArmor": 70, 
+            "AssignedArmor": 80, 
             "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
-            "CurrentArmor": 70, 
+            "CurrentArmor": 80, 
             "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 65, 
-            "AssignedArmor": 70, 
+            "AssignedArmor": 80, 
             "AssignedRearArmor": 30
         }, 
         {
@@ -169,32 +169,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -239,17 +217,6 @@
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -294,17 +261,6 @@
             "ComponentDefID": "emod_arm_part_hand", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -521,17 +477,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
@@ -570,6 +515,61 @@
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_enhanced_life_support", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Weapon_LRM_LRM5_1-Concordat", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Weapon_Autocannon_AC5_1-Mydron", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Magna", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Weapon_Laser_MediumLaser_1-Starflash", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
