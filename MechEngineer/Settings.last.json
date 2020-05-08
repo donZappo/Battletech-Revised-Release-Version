@@ -651,7 +651,7 @@
         "ShutdownInjuryEnabled" : true
     },
     "TurretLimitedAmmo" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Turrets use up ammo and don't explode once ammo is gone."
     },
     "TurretMechComponents" : {

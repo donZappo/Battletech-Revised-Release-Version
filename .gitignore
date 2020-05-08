@@ -14,3 +14,9 @@ slnx.sqlite
 /CustomProfiler
 /FakeCAB/
 /.idea
+*.log
+*.1
+*.2
+*.3
+*.4
+*.5
