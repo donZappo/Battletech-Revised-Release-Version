@@ -33,7 +33,7 @@
   },
   "Custom": {
     "ComponentExplosion": {
-      "ExplosionDamagePerAmmo": 0.2083
+      "ExplosionDamagePerAmmo": 0.375
     }
   }
 }

@@ -5,8 +5,8 @@
 			{ "CategoryID" : "ArtemisIVammo" }
 		],
          "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 8,
-            "StabilityDamagePerAmmo": 2
+            "ExplosionDamagePerAmmo": 0.75,
+            "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": {
             "Bonuses": [
