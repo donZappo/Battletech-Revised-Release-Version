@@ -1,8 +1,7 @@
 {
   "Name": "PanicSystem",
-  "Hidden": true,
   "Enabled": true,
-  "Version": "3.7.8",
+  "Version": "3.7.10",
   "Description": "Simulates MechWarrior and vehicle crew panic, and automatic ejections",
   "Website": "https://github.com/gnivler/PanicSystem",
   "DLL": "PanicSystem.dll",
@@ -64,16 +63,16 @@
     /* Panic Settings */
     "PlayersCanPanic": true,
     "EnemiesCanPanic": true,
-    "VehiclesCanPanic": true,
-    "ConsiderEjectingWithNoWeaps": true,
+    "VehiclesCanPanic": false,
+    "ConsiderEjectingWithNoWeaps": false,
     "LosingLimbAlwaysPanics": false,
 
     /* percent of remaining armor that must be destroyed to cause a panic save */
     "MinimumDamagePercentageRequired": 10,
 
     /* integer number of cumulative structure damage required to cause a panic save */
-    "MinimumMechStructureDamageRequired": 5,
-    "MinimumVehicleStructureDamageRequired": 25,
+    "MinimumStructureDamageRequired": 5,
+    "MinimumVehicleStructureDamageRequired": 0,
 
     /* Effect Modifiers */
     "UnsteadyModifier": 5,
@@ -85,27 +84,27 @@
     "WeaponlessModifier": 15,
     "AloneModifier": 5,
     "ResolveMaxModifier": 10,
-    "OverheatedModifier": 2,
-    "ShutdownModifier": 4,
-    "HeatDamageFactor": 1,
+    "OverheatedModifier": 0,
+    "ShutdownModifier": 0,
+    "HeatDamageFactor": 0,
 
     /* AI Resolve goes to 50 */
-    "MedianResolve": 30,
-    "VehicleResolveFactor": 0.2,
+    "MedianResolve": 50,
+    "VehicleResolveFactor": 0,
 
     /* factors that affect only panic saving throws based on existing panic state */
     "UnsettledPanicFactor": 1,
-    "StressedPanicFactor" : 0.77,
-    "PanickedPanicFactor" : 0.44,
+    "StressedPanicFactor" : 0.66,
+    "PanickedPanicFactor" : 0.50,
 
     /* Ejection Bonuses and Limits */
-    "GutsEjectionResistPerPoint": 1,
-    "TacticsEjectionResistPerPoint": 1,
-    "VehicleGutAndTacticsFactor": 1,
+    "GutsEjectionResistPerPoint": 3,
+    "TacticsEjectionResistPerPoint": 0,
+    "VehicleGutAndTacticsFactor": 0,
 
     /* subtracted from all eject saving throws */
-    "BaseEjectionResist": 60,
-    "BaseVehicleEjectionResist": 30,
+    "BaseEjectionResist": 75,
+    "BaseVehicleEjectionResist": 0,
 
     /* ceiling for eject saving throw */
     "MaxEjectChance": 100,
@@ -117,7 +116,7 @@
     "QuirksEnabled": true,
     "BraveModifier": 25,
     "DependableModifier": 25,
-
+    
     /* new Mech Quirk effects TBA */
     "DistractingModifier": 5,
 
