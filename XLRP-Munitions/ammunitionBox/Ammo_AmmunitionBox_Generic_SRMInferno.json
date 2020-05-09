@@ -4,7 +4,7 @@
     "Description" : {
         "Cost" : 999999,
         "Rarity" : 0,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Generic",
         "Model" : "Inferno",
         "UIName" : "Inferno Ammo",
@@ -31,7 +31,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_debug",
-            "BLACKLISTED"
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }

@@ -12,26 +12,13 @@
   "Manifest": [
     {
       "Type": "AmmunitionDef",
-      "Path": "ammunition"
+      "Path": "ammunition",
+	  "AddToDB": true
     },
     {
       "Type": "AmmunitionBoxDef",
-      "Path": "ammunitionBox"
-    },
-	{
-      "Type": "AmmunitionBoxDef",
-      "Path": "ammunitionBox-merges",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "AmmunitionDef",
-      "Path": "hmfix/ammunition",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "AmmunitionBoxDef",
-      "Path": "hmfix/ammunitionBox",
-      "ShouldMergeJSON": false
+      "Path": "ammunitionBox",
+	  "AddToDB": true
     }
   ]
 }

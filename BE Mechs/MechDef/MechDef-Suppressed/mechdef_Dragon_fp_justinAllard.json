@@ -1,9 +1,9 @@
 {
     "MechTags": {
-        "items": "items": [
+        "items": [
             "unit_flashpoint",
-            "BLACKLISTED",
-        ], 
+            "BLACKLISTED"
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_Dragon_fp_justinAllard", 

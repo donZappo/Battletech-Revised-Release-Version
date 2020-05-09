@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 180000,
         "Rarity" : 0,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Kali Yama",
         "Model" : "Shredder Autocannon",
         "UIName" : "AC/20 + + + ",

@@ -16,10 +16,6 @@
 		{
             "Type": "ItemCollectionDef",
             "Path": "itemCollections"
-        },
-		{ 	"Type": "WeaponDef",
-			"Path": "WeaponDef",
-			"AddToDB": true
-		}
+        }
    ]
 }
