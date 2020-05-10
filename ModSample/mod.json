@@ -1,9 +1,0 @@
-{
-    "Name": "BTModSample",
-    "DLL": "BTModSample.dll",
-
-    "Version": "1.0",
-    "Description": "Outputs a log file that says 'Hello Mods!'",
-    "Author": "",
-    "Website": ""
-}
