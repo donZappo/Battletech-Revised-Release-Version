@@ -5,7 +5,7 @@
     "Description" : {
         "Cost" : 0,
         "Rarity" : 99,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Generic",
         "Model" : "Standard",
         "UIName" : "Vectored Thrust Kit",
