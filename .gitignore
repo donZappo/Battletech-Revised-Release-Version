@@ -20,3 +20,6 @@ slnx.sqlite
 *.3
 *.4
 *.5
+/.vs/Mods/v16/TestStore/0/000-0000.testlog
+/.vs/Mods/v16/TestStore/0/testlog.manifest
+/.vs/Mods/v16/.suo
