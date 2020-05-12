@@ -5,7 +5,7 @@
     "Description" : {
         "Cost" : 8000000,
         "Rarity" : 99,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Ceres Arms",
         "Model" : "Gen 2 Probe",
         "UIName" : "Beagle AP Equipment",
