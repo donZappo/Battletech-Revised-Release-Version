@@ -178,29 +178,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },  
         {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK", 
@@ -256,6 +234,28 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightArm", 
             "ComponentDefID": "emod_arm_part_shoulder", 

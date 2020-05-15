@@ -510,7 +510,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -521,7 +521,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
