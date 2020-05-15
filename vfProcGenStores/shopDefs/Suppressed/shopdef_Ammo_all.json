@@ -1,0 +1,16 @@
+{
+   "ID" : "shopdef_Ammo_all",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : []
+}
