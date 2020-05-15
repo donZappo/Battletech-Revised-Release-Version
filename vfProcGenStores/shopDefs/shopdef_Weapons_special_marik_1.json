@@ -1,0 +1,126 @@
+{
+    "ID": "shopdef_Weapons_special_marik_1",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_faction_liao",
+            "planet_faction_steiner",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC2_3-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_2-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_2-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_2-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Flamer_Flamer_2-Olympus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_2-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_3-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_2-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_3-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_2-Magna",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_2-Magna",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_2-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_2-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_2-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_2-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        }
+    ]
+}

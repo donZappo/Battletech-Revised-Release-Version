@@ -1,0 +1,28 @@
+{
+   "ID" : "shopdef_Mech_4a",
+   "RequirementTags" : {
+		"items" : [
+			"planet_industry_manufacturing",
+			"planet_civ_innersphere",
+			"planet_industry_rich"
+		],
+		"tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_progress_1"
+	  ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+		{
+			"ID" : "mechdef_awesome_AWS-8Q",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 2
+		}
+	]
+}

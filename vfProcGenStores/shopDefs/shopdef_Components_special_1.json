@@ -1,0 +1,37 @@
+{
+   "ID" : "shopdef_Components_special_1",
+   "RequirementTags" : {
+      "items" : [
+		"planet_industry_manufacturing",
+		"planet_industry_rich"	  
+	  ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty",
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+
+      {
+         "ID" : "Gear_HeatSink_Generic_Standard-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      }
+
+   ]
+}

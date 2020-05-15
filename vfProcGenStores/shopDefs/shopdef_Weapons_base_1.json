@@ -1,0 +1,61 @@
+{
+    "ID": "shopdef_Weapons_base_1",
+    "RequirementTags": {
+        "items": [
+			"planet_industry_manufacturing"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_pop_none",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+        {
+            "ID": "Weapon_Autocannon_AC10_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_PPC_PPC_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        }
+    ],
+    "Specials": []
+}

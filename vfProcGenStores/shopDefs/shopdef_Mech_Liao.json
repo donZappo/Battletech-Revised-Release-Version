@@ -1,0 +1,90 @@
+{
+   "ID" : "shopdef_Mech_Liao",
+   "RequirementTags" : {
+      "items" : [
+         "planet_industry_manufacturing",
+		 "planet_faction_liao"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+	],
+   "Specials" : [
+		{
+			"ID" : "mechdef_urbanmech_UM-R60",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 3,
+			"Weight": 8
+		},
+		{
+			"ID" : "mechdef_blackjack_BJ-1",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_vindicator_VND-1R",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_hunchback_HBK-4G",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_jagermech_JM6-S",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_hunchback_HBK-4P",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_cataphract_CTF-1X",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 1
+		},
+		{
+			"ID" : "mechdef_battlemaster_BLR-1G",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 3
+		},
+		{
+			"ID" : "mechdef_highlander_HGN-733P",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 3
+		},
+		{
+			"ID" : "mechdef_highlander_HGN-733",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 3
+		}
+	]
+}

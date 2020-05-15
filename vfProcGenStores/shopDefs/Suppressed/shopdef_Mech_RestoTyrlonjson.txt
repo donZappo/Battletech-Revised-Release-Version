@@ -1,0 +1,18 @@
+{
+   "ID" : "shopdef_Mech_RestoTyrlon",
+   "RequirementTags" : {
+      "items" : [
+         "planet_name_tyrlon_flipped"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+	]
+}

@@ -1,0 +1,37 @@
+{
+   "ID" : "shopdef_Mech_Magistracy",
+   "RequirementTags" : {
+      "items" : [
+         "planet_industry_manufacturing",
+		 "planet_faction_magistracy"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+		{
+			"ID" : "mechdef_shadowhawk_SHD-2D",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight": 5
+		},
+		{
+			"ID" : "mechdef_shadowhawk_SHD-2H",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight": 5
+		}
+
+	],
+   "Specials" : [
+
+   
+
+   ]
+}

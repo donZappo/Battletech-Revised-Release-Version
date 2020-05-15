@@ -1,0 +1,19 @@
+{
+   "ID" : "shopdef_Mech_RestoSmithon",
+   "RequirementTags" : {
+      "items" : [
+         "planet_name_smithon_flipped"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+
+   ]
+}

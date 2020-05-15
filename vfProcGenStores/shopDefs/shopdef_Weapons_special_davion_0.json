@@ -1,0 +1,222 @@
+{
+    "ID": "shopdef_Weapons_special_davion_0",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_faction_kurita",
+            "planet_faction_liao",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC10_2-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_1-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_1-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_1-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_2-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_1-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_2-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_1-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_2-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_1-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_2-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_1-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_2-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_1-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_1-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_1-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_1-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_1-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_2-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_PPC_PPC_1-Tiegart",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_1-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_1-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_1-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        }
+    ]
+}

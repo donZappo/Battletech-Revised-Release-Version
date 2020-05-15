@@ -1,0 +1,87 @@
+{
+   "ID" : "shopdef_Upgrades_2",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_industry_manufacturing",
+		 "planet_industry_rich",
+		 "planet_industry_research"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [],
+   "Specials" : [
+      {
+         "ID" : "Gear_Actuator_Friedhof_Gargantuan",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_Actuator_Friedhof_Heracles",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_Actuator_Rawlings_Omega",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_Gyro_Friedhof_Sparrow",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_Gyro_Rawlings_StabiliTrak-10",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_TargetingTrackingSystem_Hartford_F3000",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      }
+
+]
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+{
+   "ID" : "shopdef_Mech_2",
+   "RequirementTags" : {
+      "items" : [
+            "planet_industry_manufacturing",
+            "planet_industry_rich"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+   		{
+			"ID" : "mechdef_griffin_GRF-1N",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 20
+		},
+		{
+			"ID" : "mechdef_griffin_GRF-1S",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 20
+		},
+		{
+			"ID" : "mechdef_commando_COM-1B",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "mechdef_commando_COM-2D",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "mechdef_vindicator_VND-1R",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "mechdef_blackjack_BJ-1",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		}
+
+   ]
+}

@@ -1,0 +1,24 @@
+{
+   "ID" : "shopdef_Ammo_special",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich",
+            "planet_industry_research"
+        ]
+	},
+   "ExclusionTags" : {
+      "items" : [],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [],
+   "Specials" : [
+		{
+			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS",
+			"Type" : "AmmunitionBox",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 1
+		}
+   ]
+}

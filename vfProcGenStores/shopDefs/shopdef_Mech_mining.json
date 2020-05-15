@@ -1,0 +1,69 @@
+{
+   "ID" : "shopdef_Mech_mining",
+   "RequirementTags" : {
+      "items" : [
+            "planet_industry_mining"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+   ],
+   "Specials" : [
+		{
+			"ID" : "mechdef_wolverine_WVR-6R",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_griffin_GRF-1N",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_griffin_GRF-1S",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_urbanmech_UM-R60",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 3,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_locust_LCT-1V",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_locust_LCT-1M",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 5
+		},
+		{
+			"ID" : "mechdef_locust_LCT-1S",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 5
+		}   
+   ]
+}

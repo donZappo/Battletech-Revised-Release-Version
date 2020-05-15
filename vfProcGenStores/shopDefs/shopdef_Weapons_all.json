@@ -1,0 +1,2027 @@
+{
+   "ID" : "shopdef_Weapons_all",
+   "RequirementTags" : {
+      "items" : [
+         "debug"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+		{
+			"ID" : "Weapon_Autocannon_AC10_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Defiance_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Defiance_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Defiance_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Defiance_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Defiance_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Federated_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Federated_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Federated_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Federated_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Federated_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Imperator_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Imperator_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Imperator_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Imperator_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Imperator_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Kali_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Kali_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Kali_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Kali_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Kali_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Mydron_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Mydron_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Mydron_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Mydron_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Mydron_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC10_Single",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Autocannon_AC2_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Autocannon_AC20_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Defiance_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Defiance_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Defiance_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Defiance_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Defiance_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Federated_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Federated_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Federated_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Federated_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Federated_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Imperator_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Imperator_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Imperator_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Imperator_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Imperator_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Kali_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Kali_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Kali_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Kali_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Kali_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Mydron_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Mydron_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Mydron_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Mydron_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Mydron_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC20_Single",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Defiance_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Defiance_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Defiance_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Defiance_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Defiance_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Federated_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Federated_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Federated_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Federated_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Federated_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Imperator_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Imperator_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Imperator_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Imperator_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Imperator_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Kali_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Kali_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Kali_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Kali_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Kali_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Mydron_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Mydron_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Mydron_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Mydron_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC2_Mydron_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Autocannon_AC5_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Defiance_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Defiance_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Defiance_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Defiance_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Defiance_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Federated_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Federated_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Federated_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Federated_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Federated_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Imperator_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Imperator_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Imperator_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Imperator_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Imperator_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Kali_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Kali_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Kali_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Kali_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Kali_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Mydron_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Mydron_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Mydron_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Mydron_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_AC5_Mydron_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Flamer_Flamer_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Flamer_Hotshot",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Flamer_Olympus",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Gauss",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM_LRM10_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Delta_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Delta_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Delta_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Delta_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Delta_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_LongFire_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_LongFire_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_LongFire_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_LongFire_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_LongFire_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Telos_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Telos_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Telos_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Telos_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Telos_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Zeus_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Zeus_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Zeus_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Zeus_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM10_Zeus_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM_LRM15_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Delta_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Delta_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Delta_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Delta_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Delta_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_LongFire_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_LongFire_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_LongFire_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_LongFire_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_LongFire_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Telos_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Telos_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Telos_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Telos_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Telos_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Zeus_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Zeus_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Zeus_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Zeus_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM15_Zeus_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM_LRM20_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Delta_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Delta_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Delta_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Delta_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Delta_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_LongFire_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_LongFire_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_LongFire_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_LongFire_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_LongFire_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Telos_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Telos_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Telos_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Telos_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Telos_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Zeus_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Zeus_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Zeus_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Zeus_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM20_Zeus_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM_LRM5_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Delta_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Delta_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Delta_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Delta_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Delta_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_LongFire_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_LongFire_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_LongFire_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_LongFire_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_LongFire_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Telos_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Telos_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Telos_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Telos_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Telos_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Zeus_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Zeus_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Zeus_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Zeus_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LRM5_Zeus_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserER_Large",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserER_Medium",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserER_Small",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Large",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Medium",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LaserPulse_Small",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_LargeLaser_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_DiverseOptics_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_DiverseOptics_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_DiverseOptics_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_DiverseOptics_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_DiverseOptics_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_ExoStar_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_ExoStar_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_ExoStar_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_ExoStar_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_ExoStar_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Hellion_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Hellion_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Hellion_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Intek_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Intek_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Magna_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Magna_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Magna_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Magna_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Large_Magna_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_MediumLaser_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Aerospace",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_DiverseOptics_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_DiverseOptics_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_DiverseOptics_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_DiverseOptics_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_DiverseOptics_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_ExoStar_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_ExoStar_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_ExoStar_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_ExoStar_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_ExoStar_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Hellion_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Hellion_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Hellion_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Intek_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Intek_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Magna_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Magna_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Magna_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Magna_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Medium_Magna_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_SmallLaser_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_DiverseOptics_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_DiverseOptics_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_DiverseOptics_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_DiverseOptics_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_DiverseOptics_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_ExoStar_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_ExoStar_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Hellion_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Hellion_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Hellion_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Intek_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Intek_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Magna_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Magna_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Magna_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Magna_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_Laser_Small_Magna_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_LongTom",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_PPC_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPCER",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_CeresArms_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_CeresArms_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_CeresArms_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_CeresArms_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_CeresArms_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Donal_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Donal_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Donal_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Donal_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Donal_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Tiegart_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Tiegart_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Tiegart_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Tiegart_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_PPC_Tiegart_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM_SRM2_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Holly_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Holly_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Holly_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Holly_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Holly_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Irian_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Irian_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Irian_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Irian_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Irian_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Valiant_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Valiant_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Valiant_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Valiant_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM2_Valiant_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM_SRM4_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Holly_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Holly_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Holly_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Holly_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Holly_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Irian_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Irian_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Irian_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Irian_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Irian_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Valiant_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Valiant_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Valiant_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Valiant_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM4_Valiant_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM_SRM6_0-STOCK",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Holly_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Holly_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Holly_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Holly_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Holly_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Irian_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Irian_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Irian_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Irian_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Irian_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_NCC",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Valiant_1",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Valiant_2",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Valiant_3",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Valiant_4",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "Weapon_SRM6_Valiant_5",
+			"Type" : "Weapon",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		}
+   ],
+   "Specials" : []
+}

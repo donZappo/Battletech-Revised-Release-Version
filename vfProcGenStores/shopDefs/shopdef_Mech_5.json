@@ -1,0 +1,64 @@
+{
+   "ID" : "shopdef_Mech_5",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_industry_manufacturing",
+		 "planet_civ_innersphere",
+		 "planet_industry_rich",
+		 "planet_industry_research"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_progress_2",
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+   ],
+   "Specials" : [
+		{
+			"ID" : "mechdef_banshee_BNC-3E",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 15
+		},
+		{
+			"ID" : "mechdef_banshee_BNC-3M",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 2,
+			"Weight" : 15
+		},
+		{
+			"ID" : "mechdef_jagermech_JM6-S",
+			"Type" : "Mech",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "mechdef_battlemaster_BLR-1G",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 3
+		},
+		{
+			"ID" : "mechdef_stalker_STK-3F",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0
+		},
+		{
+			"ID" : "mechdef_atlas_AS7-D",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 3
+		}
+	]
+}

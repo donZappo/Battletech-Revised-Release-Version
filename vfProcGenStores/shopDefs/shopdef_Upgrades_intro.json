@@ -1,0 +1,65 @@
+{
+   "ID" : "shopdef_Upgrades_intro",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty",
+		"planet_progress_2",
+		"planet_progress_3"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [],
+   "Specials" : [      
+	  {
+         "ID" : "Gear_Actuator_Coventry_X55-Standard",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      },
+      {
+         "ID" : "Gear_Actuator_Pitban_Jackrabbit",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      },
+      {
+         "ID" : "Gear_Cockpit_Ceres_Metals_Braced",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      },
+      {
+         "ID" : "Gear_Cockpit_Majesty_M_M_60KL",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      },
+      {
+         "ID" : "Gear_Gyro_Coventry_Mark-75",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      },
+      {
+         "ID" : "Gear_Gyro_Friedhof_Osprey",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight": 3
+      }
+	]
+
+}
+
+
+

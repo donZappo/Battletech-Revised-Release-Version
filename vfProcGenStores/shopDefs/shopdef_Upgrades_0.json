@@ -1,0 +1,123 @@
+{
+   "ID" : "shopdef_Upgrades_0",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_industry_manufacturing"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [],
+   "Specials" : [
+      {
+         "ID" : "Gear_Actuator_Coventry_B20-Extended",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Coventry_X65-Standard",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Friedhof_Theseus",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Pitban_Wallaby",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Rawlings_Epsilon",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Cockpit_Ceres_Metals_Reinforced",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Cockpit_StarCorps_Improved",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Gyro_Coventry_Mark-85",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_TargetingTrackingSystem_Hartford_F1800",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+	  {
+         "ID" : "Gear_Actuator_Coventry_X55-Standard",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Pitban_Jackrabbit",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Cockpit_Ceres_Metals_Braced",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Cockpit_Majesty_M_M_60KL",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Gyro_Coventry_Mark-75",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Gyro_Friedhof_Osprey",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }
+]
+
+}
+
+
+
+
+
+
+
+

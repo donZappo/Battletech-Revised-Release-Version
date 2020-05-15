@@ -1,0 +1,30 @@
+{
+   "ID" : "shopdef_Components_intro",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+      {
+         "ID" : "Gear_HeatSink_Generic_Standard",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_JumpJet_Generic_Standard",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }
+      
+   ],
+   "Specials" : []
+}

@@ -1,0 +1,66 @@
+{
+    "ID": "shopdef_Weapons_special_liao_2",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich",
+            "planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_faction_marik",
+            "planet_faction_davion",
+            "planet_faction_steiner",
+            "planet_faction_taurian",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC10_2-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_2-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_2-LongFire",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_2-LongFire",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_PPC_PPC_2-Ceres_Arms",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_2-Holly",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

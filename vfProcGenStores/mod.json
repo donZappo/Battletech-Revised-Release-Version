@@ -10,6 +10,15 @@
   "CustomResourceTypes": [],
   "DLL": "vfBattleTechMod-ProcGenStores.dll",
   "Manifest": [
+		{
+			"Type": "ShopDef",
+			"Path": "shopDefs",
+			"AddToDB": true
+		},
+		{
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        }
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",

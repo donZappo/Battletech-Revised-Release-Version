@@ -1,0 +1,19 @@
+{
+   "ID" : "shopdef_Mech_RestoPanzyr",
+   "RequirementTags" : {
+      "items" : [
+         "planet_name_panzyr_flipped"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+
+   ]
+}

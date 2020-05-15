@@ -1,0 +1,17 @@
+{
+    "ID": "shopdef_Weapons_blackmarket",
+    "RequirementTags": {
+        "items": [
+            "planet_other_blackmarket"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_progress_1"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": []
+}

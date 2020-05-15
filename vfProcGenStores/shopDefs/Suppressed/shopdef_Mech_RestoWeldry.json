@@ -1,0 +1,17 @@
+{
+   "ID" : "shopdef_Mech_RestoWeldry",
+   "RequirementTags" : {
+      "items" : [
+         "planet_name_weldry_flipped"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : []
+}

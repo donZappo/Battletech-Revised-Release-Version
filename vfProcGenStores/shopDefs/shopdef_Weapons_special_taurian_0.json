@@ -1,0 +1,84 @@
+{
+    "ID": "shopdef_Weapons_special_taurian_0",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_faction_magistracy",
+            "planet_faction_davion",
+            "planet_faction_steiner",
+            "planet_faction_liao",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Flamer_Flamer_1-Hotshot",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_1-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_1-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_1-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_1-Delta",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_1-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_2-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_1-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_PPC_PPC_1-Donal",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        }
+    ]
+}
