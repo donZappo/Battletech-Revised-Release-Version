@@ -232,7 +232,43 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_locust_LCT-1V"
+              "ConstantValue": "mechdef_locust_LCT-1M"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_flea",
+          "Name": "Flea",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_FLE-15"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_stinger",
+          "Name": "Stinger",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_stinger_STG-3R"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_wasp",
+          "Name": "Wasp",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_wasp_WSP-1D-RV"
             }
           ]
         },
@@ -245,6 +281,30 @@
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
               "ConstantValue": "mechdef_commando_COM-2D"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_mongoose",
+          "Name": "Mongoose",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_mongoose_MON-67"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_javelin",
+          "Name": "Javelin",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_javelin_JVN-10P"
             }
           ]
         },
@@ -269,6 +329,18 @@
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
               "ConstantValue": "mechdef_urbanmech_UM-R60"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_valkyrie",
+          "Name": "Valkyrie",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_valkyrie_VLK-QA"
             }
           ]
         },
@@ -309,6 +381,30 @@
           ]
         },
         {
+          "ID": "diff_start_wolfhound",
+          "Name": "Wolfhound",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_wolfhound_WLF-1A"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_assassin",
+          "Name": "Assassin",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_assassin_ASN-21-RV"
+            }
+          ]
+        },
+        {
           "ID": "diff_start_cicada",
           "Name": "Cicada",
           "DifficultyValue": 0,
@@ -316,7 +412,31 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_cicada_CDA-2A"
+              "ConstantValue": "mechdef_cicada_CDA-3C"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_clint",
+          "Name": "Clint",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_clint_CLNT-2-3T"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_vulcan",
+          "Name": "Vulcan",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_vulcan_VL-2T"
             }
           ]
         },
@@ -333,6 +453,30 @@
           ]
         },
         {
+          "ID": "diff_start_hatchetman",
+          "Name": "Hatchetman",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_hatchetman_HCT-3X"
+            }
+          ]
+        },
+        {
+          "ID": "diff_start_phoenixhawk",
+          "Name": "Phoenixhawk",
+          "DifficultyValue": 0,
+          "DifficultyConstants": [
+            {
+              "ConstantType": "CareerMode",
+              "ConstantName": "StartingPlayerMech",
+              "ConstantValue": "mechdef_phoenixhawk_PXH-1-RV"
+            }
+          ]
+        },
+        {
           "ID": "diff_start_vindicator",
           "Name": "Vindicator",
           "DifficultyValue": 0,
@@ -340,7 +484,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_vindicator_VND-1R"
+              "ConstantValue": "mechdef_vindicator_VND-1AA"
             }
           ]
         },

@@ -8,7 +8,6 @@
 		"RandomCampaignStart"
 	],
 	"Manifest": [
-        { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true }
 	],
 	
 	"Settings": {
