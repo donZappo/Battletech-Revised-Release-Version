@@ -3,7 +3,7 @@
     "Capacity" : 4,
     "Description" : {
         "Cost" : 25000,
-        "Rarity" : 10,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",

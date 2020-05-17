@@ -1,369 +1,350 @@
 {
-   "ID" : "shopdef_Ammo_special",
-    "RequirementTags": {
-        "items": [
-            "planet_industry_manufacturing",
-            "planet_industry_rich",
-            "planet_industry_research"
-        ]
-	},
-   "ExclusionTags" : {
-      "items" : [
-		"planet_other_empty"
-		],
-      "tagSetSourceFile" : ""
+   "ID":"shopdef_Ammo_special",
+   "RequirementTags":{
+      "items":[
+         "planet_industry_manufacturing",
+         "planet_industry_rich",
+         "planet_industry_research"
+      ]
    },
-   "Inventory" : [],
-   "Specials" : [
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_ArtemisIV_SRM",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_ArtemisIV_LRM",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_ArtemisIV_SRM_half",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_ArtemisIV_LRM_half",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_Narc",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LB5X",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LB2X",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LB20X",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LB10X",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_SRM_Inferno",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_SRM_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_MG_Overpressure",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_MG_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_MG_Incendiary",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_MG_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LRM_Inferno",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_LRM_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS_Overpenetration",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS_Heavy",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS_double",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_GAUSS_half",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AMS_Half",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AMS_double",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AMS",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Tracer",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Precision",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Overpower",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Heavy",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC5_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Tracer",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Precision",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Overpower",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Heavy",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC2_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Tracer",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Precision",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Overpower",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Heavy",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC20_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Tracer",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Precision",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Overpower",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Light",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Heavy",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		},
-		{
-			"ID" : "Ammo_AmmunitionBox_Generic_AC10_Containment",
-			"Type" : "AmmunitionBox",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 1
-		}		
+   "ExclusionTags":{
+      "items":[
+         "planet_other_empty"
+      ],
+      "tagSetSourceFile":""
+   },
+   "Inventory":[
+
+   ],
+   "Specials":[
+      {
+         "ID":"Ammo_AmmunitionBox_ArtemisIV_SRM",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_ArtemisIV_LRM",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_ArtemisIV_SRM_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_ArtemisIV_LRM_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_Narc",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LB5X",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LB2X",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LB20X",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LB10X",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_SRM_Inferno",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_SRM_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_MG_Overpressure",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_MG_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_MG_Incendiary",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_MG_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LRM_Inferno",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LRM_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS_Overpenetration",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS_Heavy",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AMS_Half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AMS_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AMS",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Tracer",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Precision",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Overpower",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Heavy",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Tracer",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Precision",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Overpower",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Heavy",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Tracer",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Precision",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Overpower",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Heavy",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Tracer",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Precision",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Overpower",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Light",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Heavy",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_Containment",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
+      }
    ]
 }

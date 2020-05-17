@@ -1,147 +1,169 @@
 {
-   "ID" : "shopdef_Ammo_all",
-   "RequirementTags" : {
-      "items" : [
-		"planet_progress_1",
-		"planet_progress_2",
-		"planet_progress_2a",
-		"planet_progress_3",
+   "ID":"shopdef_Ammo_all",
+   "RequirementTags":{
+      "items":[
+         "planet_progress_1",
+         "planet_progress_2",
+         "planet_progress_2a",
+         "planet_progress_3"
       ],
-      "tagSetSourceFile" : ""
+      "tagSetSourceFile":""
    },
-   "ExclusionTags" : {
-      "items" : [
-		"planet_other_empty"
+   "ExclusionTags":{
+      "items":[
+         "planet_other_empty"
       ],
-      "tagSetSourceFile" : ""
+      "tagSetSourceFile":""
    },
-   "Inventory" : [
+   "Inventory":[
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC2",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC5",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC10",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_GAUSS_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":2,
+         "Weight":1
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC20",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC2",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC5",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_LRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC10",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_MG",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC20",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC2_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_SRM",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC5_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_LRM",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC10_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_MG",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC20_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_SRM_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_LRM_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_MG_half",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC2_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_SRM_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC5_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_LRM_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC10_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_MG_half",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_AC20_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC2_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_SRM_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC5_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_LRM_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC10_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Generic_MG_double",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
+         "ID":"Ammo_AmmunitionBox_Generic_AC20_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_SRM_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_LRM_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
+      },
+      {
+         "ID":"Ammo_AmmunitionBox_Generic_MG_double",
+         "Type":"AmmunitionBox",
+         "DiscountModifier":1.0,
+         "Count":0
       }
    ],
-   "Specials" : []
+   "Specials":[
+
+   ]
 }
