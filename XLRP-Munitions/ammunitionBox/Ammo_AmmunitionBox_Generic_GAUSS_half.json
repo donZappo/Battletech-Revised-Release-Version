@@ -8,7 +8,7 @@
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
         "UIName" : "Gauss Ammo (Half)",
-        "Id" : "Ammo_AmmunitionBox_Generic_GAUSS",
+        "Id" : "Ammo_AmmunitionBox_Generic_GAUSS_half",
         "Name" : "Gauss Ammo (Half)",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Gauss Ammo Bins will not explode as opposed to other types of ammunition. Ammo Bins each contain <color=#6aa84f>4 rounds</color> and may feed multiple weapons.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
