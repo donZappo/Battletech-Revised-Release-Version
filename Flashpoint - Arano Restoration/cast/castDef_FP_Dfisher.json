@@ -15,7 +15,7 @@
 	"localizeName": false,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "../../Mods/Flashpoint DLC Flashpoints/Portrait/Dfisher.png"
+		"portraitAssetPath": "../../Mods/Flashpoint - Arano Restoration/portrait/Dfisher.png"
 	},
 	"emotePotraitList": []
 }

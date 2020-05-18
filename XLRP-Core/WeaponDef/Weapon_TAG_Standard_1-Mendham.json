@@ -54,14 +54,13 @@
   "statusEffects" : [
     {
       "durationData" : {
-        "duration" : 2,
+        "duration" : 1,
         "ticksOnActivations" : true,
         "useActivationsOfTarget" : false,
         "ticksOnEndOfRound" : false,
-        "ticksOnMovements" : false,
+        "ticksOnMovements" : true,
         "stackLimit" : 0,
-        "clearedWhenAttacked" : false,
-        "activeTrackedEffect" : true
+        "clearedWhenAttacked" : false
       },
       "targetingData" : {
         "effectTriggerType" : "OnHit",
