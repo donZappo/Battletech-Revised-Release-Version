@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+      {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+    ], 
     "Description": {
         "Cost": 3572640, 
         "Rarity": 1, 
