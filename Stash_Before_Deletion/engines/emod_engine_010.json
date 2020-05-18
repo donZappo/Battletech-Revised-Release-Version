@@ -1,11 +1,11 @@
 {
 	"Custom": {
 		"EngineCore": {
-			"Rating": 30
+			"Rating": 10
 		},
 		"BonusDescriptions": {
 			"Bonuses": [
-				"EngineHSFreeExt: 9"
+				"EngineHSFreeExt: 10"
 			]
 		},
 		"WorkOrderCosts": {
@@ -14,8 +14,8 @@
 				"CBillCost": "0"
 			},
 			"Install": {
-				"TechCost": "30 * [[Chassis.Tonnage]] / 2000",
-				"CBillCost": "30 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
+				"TechCost": "10 * [[Chassis.Tonnage]] / 2000",
+				"CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
 			}
 		},
 		"Category" : [
@@ -25,14 +25,14 @@
 	},
     "DissipationCapacity" : 0,
     "Description" : {
-        "Cost" : 322000,
+        "Cost" : 258000,
         "Rarity" : 0,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Vlar",
         "Model" : "Fusion Core",
-        "UIName" : "Core 030",
-        "Id" : "emod_engine_030",
-        "Name" : "Fusion Core 030",
+        "UIName" : "Core 010",
+        "Id" : "emod_engine_010",
+        "Name" : "Fusion Core 010",
         "Details" : "Fusion engines function by harnessing the power of a fusion reaction, running on light hydrogen and protium.\r\nFusion engines are defined by their <b>engine rating</b>. For 'Mechs, the engine rating is the mathematical product of the mass of the vehicle and its desired maximum walking or cruising velocity.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
@@ -43,7 +43,7 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 2,
+    "Tonnage" : 1.5,
     "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
