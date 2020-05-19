@@ -1,161 +1,188 @@
 {
-    "ID": "shopdef_Weapons_base_1",
-    "RequirementTags": {
-        "items": [
-			"planet_industry_manufacturing"
-		],
-        "tagSetSourceFile": ""
-    },
-    "ExclusionTags": {
-        "items": [
-            "planet_other_empty"
-        ],
-        "tagSetSourceFile": ""
-    },
-    "Inventory": [
-        {
-            "ID": "Weapon_Laser_LargeLaserER_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_SRM_SSRM6_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_SRM_SSRM4_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_SRM_SSRM2_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_PPC_PPCSnub_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        
-        {
-            "ID": "Weapon_MachineGun_TwinMachineGun_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_Laser_TwinSmallLaser_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_Laser_BinaryLaserCannon_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_COIL_COIL-S_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_COIL_COIL-M_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },        {
-            "ID": "Weapon_COIL_COIL-L_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_UAC5_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_UAC2_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_UAC20_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_UAC10_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_LB5X_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_LB2X_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_LB20X_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Autocannon_LB10X_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_PPC_PPCER_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-            "ID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },		
-            "ID": "Weapon_Laser_SmallLaserER_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },	
-            "ID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },	
-            "ID": "Weapon_Laser_MediumLaserER_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },	
-            "ID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-		{
-            "ID": "Weapon_Narc_Standard_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },	
-            "ID": "Weapon_TAG_Standard_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },	
-            "ID": "Weapon_AMS",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        }
-	],
-    "Specials": []
+   "ID":"shopdef_Weapons_base_1",
+   "RequirementTags":{
+      "items":[
+         "planet_industry_manufacturing"
+      ],
+      "tagSetSourceFile":""
+   },
+   "ExclusionTags":{
+      "items":[
+         "planet_other_empty"
+      ],
+      "tagSetSourceFile":""
+   },
+   "Inventory":[
+      {
+         "ID":"Weapon_Laser_LargeLaserER_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_SRM_SSRM6_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_SRM_SSRM4_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_SRM_SSRM2_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_PPC_PPCSnub_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_MachineGun_TwinMachineGun_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_TwinSmallLaser_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_BinaryLaserCannon_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_COIL_COIL-S_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_COIL_COIL-M_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_COIL_COIL-L_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_UAC5_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_UAC2_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_UAC20_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_UAC10_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_LB5X_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_LB2X_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_LB20X_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Autocannon_LB10X_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_PPC_PPCER_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_SmallLaserPulse_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_SmallLaserER_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_MediumLaserPulse_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_MediumLaserER_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Laser_LargeLaserPulse_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_Narc_Standard_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_TAG_Standard_0-STOCK",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      },
+      {
+         "ID":"Weapon_AMS",
+         "Type":"Weapon",
+         "DiscountModifier":1,
+         "Count":0
+      }
+   ],
+   "Specials":[
+
+   ]
 }

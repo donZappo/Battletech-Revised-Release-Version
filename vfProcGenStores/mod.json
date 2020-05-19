@@ -75,7 +75,7 @@
             "LowCount": -1,
             "HighCount": -1
           },
-          "Order": 0
+          "Order": -1
         },
         {
           "Name": "VeryCommon",
