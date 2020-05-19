@@ -2,12 +2,15 @@
     "ID": "shopdef_Weapons_base_0",
     "RequirementTags": {
         "items": [
+		"planet_progress_1",
+		"planet_progress_2",
+		"planet_progress_2a",
+		"planet_progress_3"
 		],
         "tagSetSourceFile": ""
     },
     "ExclusionTags": {
         "items": [
-            "planet_pop_none",
             "planet_other_empty"
         ],
         "tagSetSourceFile": ""
@@ -69,6 +72,48 @@
         },
         {
             "ID": "Weapon_SRM_SRM4_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+		{
+            "ID": "Weapon_Autocannon_AC10_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_PPC_PPC_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_0-STOCK",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0

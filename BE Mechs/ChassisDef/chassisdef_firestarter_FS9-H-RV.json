@@ -51,6 +51,7 @@
     "DFAInstability": 45, 
     "ChassisTags": {
         "items": [
+            "InternalPreIgniter", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
