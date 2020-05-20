@@ -1,133 +1,151 @@
 {
-    "ID": "shopdef_Weapons_special_davion_1",
+    "ID": "shopdef_Weapons_special_arano_0",
     "RequirementTags": {
-        "items": [
-            "planet_industry_manufacturing",
-            "planet_industry_rich"
-        ],
+        "items": [	
+			"planet_progress_1",
+			"planet_progress_2",
+			"planet_progress_2a",
+			"planet_progress_3"
+		],
         "tagSetSourceFile": ""
     },
     "ExclusionTags": {
         "items": [
-            "planet_faction_kurita",
-            "planet_faction_liao",
-            "planet_other_empty"
+            "planet_other_empty",
+            "planet_faction_taurian",
+			"planet_faction_independent",
+			"planet_faction_pirate",
+			"planet_faction_nofaction"
         ],
         "tagSetSourceFile": ""
     },
     "Inventory": [],
     "Specials": [
         {
-            "ID": "Weapon_Autocannon_AC2_2-Federated",
+            "ID": "Weapon_Autocannon_AC2_1-Defiance",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_Autocannon_AC2_2-Mydron",
+            "ID": "Weapon_Autocannon_AC5_1-Defiance",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_Autocannon_AC5_2-Federated",
+            "ID": "Weapon_Autocannon_AC10_1-Defiance",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_Autocannon_AC5_3-Mydron",
+            "ID": "Weapon_Autocannon_AC20_1-Defiance",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_LRM_LRM10_2-Telos",
+            "ID": "Weapon_SRM_SRM2_1-Coventry",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_LRM_LRM10_3-Zeus",
+            "ID": "Weapon_SRM_SRM4_1-Coventry",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_LRM_LRM5_2-Telos",
+            "ID": "Weapon_SRM_SRM6_1-Coventry",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_LRM_LRM5_3-Zeus",
+            "ID": "Weapon_SRM_SRM2_1-Lockheed",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_Laser_MediumLaser_2-ExoStar",
+            "ID": "Weapon_SRM_SRM4_1-Lockheed",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_Laser_MediumLaser_2-Intek",
+            "ID": "Weapon_SRM_SRM6_1-Lockheed",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_Laser_SmallLaser_2-ExoStar",
+		{
+            "ID": "Weapon_LRM_LRM5_1-Drago",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_Laser_SmallLaser_2-Intek",
+		{
+            "ID": "Weapon_LRM_LRM10_1-Drago",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_SRM_SRM2_2-Holly",
+		{
+            "ID": "Weapon_LRM_LRM15_1-Drago",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_SRM_SRM2_3-Valiant",
+		{
+            "ID": "Weapon_LRM_LRM20_1-Drago",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_SRM_SRM4_2-Holly",
+		{
+            "ID": "Weapon_LRM_LRM5_1-Coventry",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-        {
-            "ID": "Weapon_SRM_SRM4_3-Valiant",
+		{
+            "ID": "Weapon_LRM_LRM10_1-Coventry",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
-        }
+			"Weight": 8
+        },
+		{
+            "ID": "Weapon_LRM_LRM15_1-Coventry",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+		{
+            "ID": "Weapon_LRM_LRM20_1-Coventry",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
     ]
 }

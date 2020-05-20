@@ -1,0 +1,77 @@
+{
+    "ID": "shopdef_Weapons_special_liao_2",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_restoration",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+         "planet_faction_davion",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+		{
+            "ID": "Weapon_Autocannon_LB20X_2-Shengli_Arms",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },	
+        {
+            "ID": "Weapon_Laser_SmallLaser_3-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_3-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_3-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_PPC_PPC_2-Ceres_Arms",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_PPC_PPCSnub_2-Ceres_Arms",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_TAG_Standard_2-Ceres_Arms",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

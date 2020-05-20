@@ -1,0 +1,63 @@
+{
+    "ID": "shopdef_Weapons_special_magistracy_2",
+    "RequirementTags": {
+        "items": [
+			"planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+         "planet_faction_davion",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+		 "planet_faction_restoration",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_PPC_PPCER_2-TiegartMagnum",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_3-ZeusBolt",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_3-ZeusBolt",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_3-ZeusBolt",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_3-ZeusBolt",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

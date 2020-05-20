@@ -1,222 +1,203 @@
 {
-    "ID": "shopdef_Weapons_special_davion_0",
+    "ID": "shopdef_Weapons_special_marik_2",
     "RequirementTags": {
         "items": [
-		],
+            "planet_industry_research"
+        ],
         "tagSetSourceFile": ""
     },
     "ExclusionTags": {
         "items": [
-            "planet_faction_kurita",
-            "planet_faction_liao",
-            "planet_other_empty"
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_restoration",
+         "planet_faction_davion",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
         ],
         "tagSetSourceFile": ""
     },
     "Inventory": [],
     "Specials": [
-        {
-            "ID": "Weapon_Autocannon_AC10_2-Federated",
+		{
+            "ID": "Weapon_Autocannon_LB20X_2-Imperator",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_Autocannon_UAC2_2-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_Autocannon_UAC20_2-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC10_1-Mydron",
+            "ID": "Weapon_Autocannon_AC2_3-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC20_1-Federated",
+            "ID": "Weapon_Autocannon_AC5_3-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC20_1-Mydron",
+            "ID": "Weapon_Autocannon_AC10_3-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC2_1-Federated",
+            "ID": "Weapon_Autocannon_AC20_3-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC2_1-Mydron",
+            "ID": "Weapon_Autocannon_AC2_3-Imperator",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC5_1-Federated",
+            "ID": "Weapon_Autocannon_AC5_3-Imperator",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC5_2-Mydron",
+            "ID": "Weapon_Autocannon_AC10_3-Imperator",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_Autocannon_AC20_3-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM10_1-Telos",
+            "ID": "Weapon_MachineGun_MachineGun_2-Brigadier",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM10_2-Zeus",
+            "ID": "Weapon_MachineGun_TwinMachineGun_2-Brigadier",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM15_1-Telos",
+            "ID": "Weapon_Laser_SmallLaser_3-Starflash",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM15_2-Zeus",
+            "ID": "Weapon_Laser_MediumLaser_3-Starflash",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM20_1-Telos",
+            "ID": "Weapon_Laser_LargeLaser_3-Starflash",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_SRM_SRM2_3-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM20_2-Zeus",
+            "ID": "Weapon_SRM_SRM4_3-Irian",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
         {
-            "ID": "Weapon_LRM_LRM5_1-Telos",
+            "ID": "Weapon_SRM_SRM6_3-Irian",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_LRM_LRM5_2-Zeus",
+		{
+            "ID": "Weapon_LRM_LRM5_3-Zeus",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_Laser_LargeLaser_1-ExoStar",
+		{
+            "ID": "Weapon_LRM_LRM10_3-Zeus",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_Laser_LargeLaser_1-Intek",
+		{
+            "ID": "Weapon_LRM_LRM15_3-Zeus",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_Laser_MediumLaser_1-ExoStar",
+		{
+            "ID": "Weapon_LRM_LRM20_3-Zeus",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_Laser_MediumLaser_1-Intek",
+		{
+            "ID": "Weapon_LRM_LRM5_3-Delta",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         },
-        {
-            "ID": "Weapon_Laser_SmallLaser_1-ExoStar",
+		{
+            "ID": "Weapon_Narc_Standard_2-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_Laser_SmallLaser_2-Intek",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_PPC_PPC_1-Tiegart",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM2_1-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM2_2-Valiant",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM4_1-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM4_2-Valiant",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM6_1-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
-        },
-        {
-            "ID": "Weapon_SRM_SRM6_2-Valiant",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
+			"Weight": 3
         }
     ]
 }

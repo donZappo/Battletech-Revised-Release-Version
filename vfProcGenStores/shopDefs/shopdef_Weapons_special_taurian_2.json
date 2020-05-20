@@ -1,62 +1,66 @@
 {
-    "ID": "shopdef_Weapons_special_liao_2",
+    "ID": "shopdef_Weapons_special_taurian_2",
     "RequirementTags": {
         "items": [
-            "planet_industry_manufacturing",
-            "planet_industry_rich",
             "planet_industry_research"
         ],
         "tagSetSourceFile": ""
     },
     "ExclusionTags": {
         "items": [
-            "planet_faction_marik",
-            "planet_faction_davion",
-            "planet_faction_steiner",
-            "planet_faction_taurian",
-            "planet_other_empty"
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+         "planet_faction_davion",
+         "planet_faction_kurita",
+         "planet_faction_restoration",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
         ],
         "tagSetSourceFile": ""
     },
     "Inventory": [],
     "Specials": [
         {
-            "ID": "Weapon_Autocannon_AC10_2-Mydron",
+            "ID": "Weapon_Autocannon_LB10X_2-Western",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_MachineGun_MachineGun_2-VMI",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+		{
+            "ID": "Weapon_LRM_LRM5_3-Concordat",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 3
         },
         {
-            "ID": "Weapon_Autocannon_AC20_2-Mydron",
+            "ID": "Weapon_LRM_LRM10_3-Concordat",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 3
         },
-        {
-            "ID": "Weapon_LRM_LRM15_2-LongFire",
+		{
+            "ID": "Weapon_LRM_LRM15_3-Concordat",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 3
         },
-        {
-            "ID": "Weapon_LRM_LRM20_2-LongFire",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 3
-        },
-        {
-            "ID": "Weapon_PPC_PPC_2-Ceres_Arms",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 3
-        },
-        {
-            "ID": "Weapon_SRM_SRM6_2-Holly",
+		{
+            "ID": "Weapon_LRM_LRM20_3-Concordat",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
