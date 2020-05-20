@@ -1,0 +1,20 @@
+{
+   "ID" : "shopdef_Mech_1",
+   "RequirementTags" : {
+	  "items" : [
+		 "planet_industry_manufacturing"
+	  ],
+	  "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+	  "items" : [
+		"planet_progress_1"
+	  ],
+	  "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+   ],
+   "Specials" : [
+	]
+}

@@ -1,0 +1,22 @@
+{
+   "ID" : "shopdef_Mech_base_0",
+   "RequirementTags" : {
+        "items": [
+		"planet_progress_1",
+		"planet_progress_2",
+		"planet_progress_2a",
+		"planet_progress_3"
+		],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+        "planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+	]
+}

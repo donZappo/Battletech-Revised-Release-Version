@@ -1,0 +1,24 @@
+{
+   "ID" : "shopdef_Mech_5",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_industry_manufacturing",
+		 "planet_civ_innersphere",
+		 "planet_industry_rich",
+		 "planet_industry_research"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_progress_2",
+		"planet_progress_1"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+
+   ],
+   "Specials" : [
+	]
+}

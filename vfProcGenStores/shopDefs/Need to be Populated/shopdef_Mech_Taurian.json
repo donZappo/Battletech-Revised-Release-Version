@@ -2,13 +2,21 @@
    "ID" : "shopdef_Mech_Taurian",
    "RequirementTags" : {
       "items" : [
-         "planet_industry_manufacturing",
-		 "planet_faction_taurian"
       ],
       "tagSetSourceFile" : ""
    },
    "ExclusionTags" : {
       "items" : [
+	    "planet_faction_liao",
+		"planet_faction_steiner",
+		"planet_faction_marik",
+		"planet_faction_davion",
+		"planet_faction_kurita",
+		"planet_faction_restoration",
+		"planet_faction_magistracy",
+		"planet_faction_independent",
+		"planet_faction_nofaction",
+		"planet_other_empty",
       ],
       "tagSetSourceFile" : ""
    },
@@ -26,19 +34,5 @@
 			"Count" : 0,
 			"Weight": 3
 		},
-		{
-			"ID" : "mechdef_thunderbolt_TDR-5SE",
-			"Type" : "MechPart",
-			"DiscountModifier" : 1.0,
-			"Count" : 0,
-			"Weight": 3
-		},
-		{
-			"ID" : "mechdef_thunderbolt_TDR-5S",
-			"Type" : "MechPart",
-			"DiscountModifier" : 1.0,
-			"Count" : 0,
-			"Weight": 8
-		}
    ]
 }

@@ -1,0 +1,26 @@
+{
+   "ID" : "shopdef_Mech_battlefield",
+   "RequirementTags" : {
+      "items" : [
+         "planet_other_battlefield"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+		{
+			"ID" : "mechdef_centurion_CN9-AL",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight" : 1
+		},
+  ]
+}
