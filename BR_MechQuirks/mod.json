@@ -28,6 +28,8 @@
 	],
 	
 	"Settings": {
+		"ArmourBaffleFactor" : 0.75,
+		
 		"CommandoBonusDamage" : 1.5,
 		"MongooseLaserAccuracy" : -5,
 		"SRMAccuracyBoost" : -4,
@@ -46,7 +48,6 @@
 		"BombardResolvePenalty" : -2,
 		"IntimidatingToBeHitPenalty" : 1,
 		"BushwackerHSComponentFactor" : 1.5,
-		"ArmourBaffleFactor" : 0.8,
 		"NARCMaxRangeIncrease" : 120,
 		"OmniRefitValue" : 1,
 		"DragonInstabilityFactor" : 0.75,
