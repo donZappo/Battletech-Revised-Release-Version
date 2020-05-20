@@ -257,7 +257,10 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [],
+              "items": [
+						  "unit_vehicle",
+                    	  "unit_electronicWarfare"
+					  ],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
@@ -328,7 +331,7 @@
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 2,
+        "lanceDifficultyAdjustment": 0,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -345,7 +348,10 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [],
+              "items": [
+						  "unit_vehicle",
+                    	  "unit_electronicWarfare"
+					  ],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
