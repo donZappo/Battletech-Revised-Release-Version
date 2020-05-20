@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-3X", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 714528, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 714528,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-3X", 

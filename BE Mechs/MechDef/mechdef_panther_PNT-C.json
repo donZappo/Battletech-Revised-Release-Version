@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 402042, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Panther PNT-C", 

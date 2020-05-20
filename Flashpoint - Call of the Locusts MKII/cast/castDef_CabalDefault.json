@@ -6,7 +6,7 @@
     "callsign" : null,
     "rank" : null,
     "gender" : "Male",
-    "faction" : "NoFaction",
+    "faction" : "",
     "sgCharType" : "UNSET",
     "showRank" : false,
     "showFirstName" : true,

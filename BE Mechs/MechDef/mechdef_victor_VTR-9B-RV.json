@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_victor_VTR-9B-RV", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1945728, 
+        "Cost": 1945728,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Victor VTR-9B-RV", 

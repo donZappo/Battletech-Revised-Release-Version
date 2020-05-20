@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_ostroc_OSR-2M", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1188472, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 1188472,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Ostroc OSR-2M", 

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_cyclops_CP-10-Q-RV", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2222442, 
+        "Cost": 2222442,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cyclops CP-10-Q-RV", 

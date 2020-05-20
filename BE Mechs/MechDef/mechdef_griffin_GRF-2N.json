@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 844128, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Griffin GRF-2N", 

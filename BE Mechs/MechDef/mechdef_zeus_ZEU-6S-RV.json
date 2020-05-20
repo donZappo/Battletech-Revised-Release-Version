@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 1945728, 
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Zeus ZEU-6S-RV", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1442872, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Marauder MAD-3D", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1470528, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Orion ON1-VA", 

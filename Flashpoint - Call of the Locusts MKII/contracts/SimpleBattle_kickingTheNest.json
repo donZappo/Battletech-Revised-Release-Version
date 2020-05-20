@@ -211,7 +211,7 @@
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
-                }
+                },
 				{
                     "words" : "Yeah, I've still got to patch the damage afterwards and it still costs. So, be careful, or I'll have you mucking out your own `Mechs.",
                     "wordsColor" : {
@@ -252,7 +252,7 @@
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
-                }
+                },
 				{
                     "words" : "What a bleedin' mess! More bug bits.",
                     "wordsColor" : {
@@ -336,7 +336,6 @@
     "expirationTimeOverride" : -1,
     "negotiatedSalary" : 1,
     "negotiatedSalvage" : 0,
-    "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
             "EncounterObjectGuid" : "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"

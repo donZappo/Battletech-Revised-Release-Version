@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 809088, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Centurion CN9-D3", 

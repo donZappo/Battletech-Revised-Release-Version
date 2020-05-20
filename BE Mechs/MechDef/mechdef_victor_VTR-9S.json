@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_victor_VTR-9S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1945728, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 1945728,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Victor VTR-9S", 

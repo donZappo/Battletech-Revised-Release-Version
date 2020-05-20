@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 700872, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Phoenix Hawk PXH-3S", 

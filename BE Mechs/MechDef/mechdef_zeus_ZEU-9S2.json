@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1927498, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Zeus ZEU-9S2", 

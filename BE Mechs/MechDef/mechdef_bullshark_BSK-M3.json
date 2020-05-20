@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2354688, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Bull Shark BSK-M3", 

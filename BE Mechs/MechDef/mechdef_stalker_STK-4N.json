@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_stalker_STK-4N", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2169192, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 2169192,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-4N", 

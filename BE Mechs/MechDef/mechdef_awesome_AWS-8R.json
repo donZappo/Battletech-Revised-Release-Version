@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_awesome_AWS-8R", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1963962, 
+        "Cost": 1963962,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Awesome AWS-8R", 

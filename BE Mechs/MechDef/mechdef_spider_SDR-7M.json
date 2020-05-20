@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_spider_SDR-7M", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 333632, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 333632,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Spider SDR-7M", 

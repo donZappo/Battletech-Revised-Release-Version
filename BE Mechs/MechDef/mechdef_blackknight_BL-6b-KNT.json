@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1553592, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 7, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Black Knight BL-6b-KNT", 

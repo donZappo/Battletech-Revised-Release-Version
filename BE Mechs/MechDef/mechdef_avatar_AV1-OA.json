@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_avatar_AV1-OA", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1671800, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Cost": 1671800,
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Avatar AV1-OA", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1397162, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Warhammer WHM-6K", 

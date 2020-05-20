@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 631050, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Clint CLNT-1-2R", 

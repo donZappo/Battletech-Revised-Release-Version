@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-3F-RV", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 707698, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 707698,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-3F-RV", 

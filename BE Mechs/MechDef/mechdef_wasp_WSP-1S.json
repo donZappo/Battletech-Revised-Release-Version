@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_wasp_WSP-1S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 258298, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 258298,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wasp WSP-1S", 

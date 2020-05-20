@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_crusader_CRD-4K", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1309962, 
+        "Cost": 1309962,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Crusader CRD-4K", 

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hunchback_HBK-5S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 764472, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 764472,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-5S", 

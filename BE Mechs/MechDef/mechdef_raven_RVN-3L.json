@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_raven_RVN-3L", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 390528, 
-        "Rarity": 9, 
-        "Purchasable": false, 
+        "Cost": 390528,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Raven RVN-3L", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1384128, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Caesar CES-3R", 

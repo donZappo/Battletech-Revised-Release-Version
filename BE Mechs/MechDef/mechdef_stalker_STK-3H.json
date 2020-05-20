@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_stalker_STK-3H", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2092200, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 2092200,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-3H", 

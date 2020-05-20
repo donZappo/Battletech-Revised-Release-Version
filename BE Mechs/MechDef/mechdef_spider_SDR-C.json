@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_spider_SDR-C", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 350762, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 350762,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Spider SDR-C", 

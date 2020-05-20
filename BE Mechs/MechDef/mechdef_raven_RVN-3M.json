@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 390528, 
-        "Rarity": 9, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Raven RVN-3M", 

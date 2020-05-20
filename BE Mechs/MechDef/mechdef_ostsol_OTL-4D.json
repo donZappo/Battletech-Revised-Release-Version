@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_ostsol_OTL-4D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1222762, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 1222762,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Ostsol OTL-4D", 

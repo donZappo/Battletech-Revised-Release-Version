@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1199898, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Ostroc OSR-2D", 

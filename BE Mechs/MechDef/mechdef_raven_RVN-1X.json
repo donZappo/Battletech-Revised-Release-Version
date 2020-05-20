@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_raven_RVN-1X", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 394362, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 394362,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Raven RVN-1X", 

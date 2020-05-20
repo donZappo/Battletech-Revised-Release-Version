@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_atlas_AS7-RS", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2422200, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 2422200,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Atlas AS7-RS", 

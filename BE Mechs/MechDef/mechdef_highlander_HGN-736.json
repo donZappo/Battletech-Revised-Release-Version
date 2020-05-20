@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2323712, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Highlander HGN-736", 

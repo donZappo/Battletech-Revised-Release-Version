@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_rifleman_RFL-5D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1211328, 
-        "Rarity": 3, 
-        "Purchasable": false, 
+        "Cost": 1211328,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Rifleman RFL-5D", 

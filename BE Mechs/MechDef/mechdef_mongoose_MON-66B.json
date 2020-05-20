@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 325450, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Mongoose MON-66B", 

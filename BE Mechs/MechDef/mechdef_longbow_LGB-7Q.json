@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_longbow_LGB-7Q", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2053728, 
+        "Cost": 2053728,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Longbow LGB-7Q", 

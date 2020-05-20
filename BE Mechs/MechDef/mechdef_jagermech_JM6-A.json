@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_jagermech_JM6-A", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1322200, 
+        "Cost": 1322200,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Jagermech JM6-A", 

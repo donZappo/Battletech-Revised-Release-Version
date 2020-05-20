@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_stalker_STK-3F", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2092200, 
+        "Cost": 2092200,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-3F", 

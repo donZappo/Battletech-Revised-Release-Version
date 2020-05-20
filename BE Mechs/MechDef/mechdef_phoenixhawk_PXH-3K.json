@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_phoenixhawk_PXH-3K", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 700872, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 700872,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Phoenix Hawk PXH-3K", 

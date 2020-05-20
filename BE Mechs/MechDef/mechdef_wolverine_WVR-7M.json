@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_wolverine_WVR-7M", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 844128, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 844128,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wolverine WVR-7M", 

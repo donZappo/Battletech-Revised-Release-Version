@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-5S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 687232, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 687232,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-5S", 

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hollander_BZK-G1", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 382872, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 382872,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hollander BZK-G1", 

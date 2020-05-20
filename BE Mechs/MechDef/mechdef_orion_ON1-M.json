@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_orion_ON1-M", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1470528, 
-        "Rarity": 3, 
-        "Purchasable": false, 
+        "Cost": 1470528,
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Orion ON1-M", 

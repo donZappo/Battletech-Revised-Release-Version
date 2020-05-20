@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2733952, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 8, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Mackie MSK-8B", 

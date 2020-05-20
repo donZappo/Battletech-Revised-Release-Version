@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_grasshopper_GHR-5H", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1462392, 
+        "Cost": 1462392,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Grasshopper GHR-5H", 

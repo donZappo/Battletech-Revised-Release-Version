@@ -1,0 +1,62 @@
+{
+    "ID" : "faction_SilentChapter",
+    "Name" : "Silent Chapter",
+    "ShortName" : "TSC",
+    "Description" : "The Silent Chapter is the 'Strong Arm' of The Band of the Damned. Formed as the personal security force for their operation by Vance Rezak's second in command 'Dicky' Smith. There is nothing, both legal and illicit, that The Band are not involved in. The Silent Chapter enforce control of their slice of the Black Market in the Periphery for themselves and are HIGHLY selective about who works for them.",
+    "Demonym" : "TSC",
+    "Government" : "",
+    "Allies" : [
+        "AuriganPirates",
+        "ClusterPirates",
+        "CanopianPirates",
+		"Locals"
+    ],
+    "Enemies" : [
+        "TaurianConcordat",
+		"BaumannGroup",
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate"
+    ],
+	"Presence": 0.6,
+    "ReputationStatements" : [
+        "Did you really just throw that Battle or are you just incompetant.",
+        "That was bloody atrotious. Do you call yourself a Company Commander - Blood boy scout.",
+        "Well that was disappointing.  We're prepared to grant you had a bad day but, No More!",
+        "Ummm we will think long and hard about using you in the future - you might be lucky.",
+        "Well that was close. What did you think would happen? Harsh words?",
+        "A bad run like this will degrade your usefulness to us.  Do better or we'll lose your HPG transmission Id.",
+        "Our regular 'Stable' of better MechWarriors are shaking their heads at that last performance."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Now that's what we expect.  Everything completed.  Nice!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"Yeah we didn't expect it all to be done. You put in a good show to get what you did completed."
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Thats not what we expect. We don't pay for you to turn tail and run, even if is was the sensible course to take."
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_scEnforcer",
+    "DefaultRepresentativeCastDefId" : "castDef_CabalDefault",
+    "DataManager" : null,
+    "factionID" : "SilentChapter",
+  	"icon" : "uixTxrLogo_TheSilentChapter",
+    "heraldryDefId" : "heraldrydef_TheSilentChapter",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

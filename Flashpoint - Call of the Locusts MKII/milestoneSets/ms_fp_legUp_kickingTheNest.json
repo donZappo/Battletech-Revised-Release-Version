@@ -440,6 +440,7 @@
                     },
                     "AddedTags" : {
                         "items" : [
+                            "company_blackMarket_NOSHAKEDOWN",
                             "company_blackMarket_ON"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"

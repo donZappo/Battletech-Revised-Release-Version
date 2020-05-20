@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2466688, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Annihilator ANH-1A", 

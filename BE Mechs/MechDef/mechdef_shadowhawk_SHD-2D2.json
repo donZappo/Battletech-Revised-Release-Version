@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_shadowhawk_SHD-2D2", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 852162, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 852162,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Shadowhawk SHD-2D2", 

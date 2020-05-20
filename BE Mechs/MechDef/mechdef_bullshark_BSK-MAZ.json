@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2312200, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 7, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Bull Shark BSK-MAZ", 

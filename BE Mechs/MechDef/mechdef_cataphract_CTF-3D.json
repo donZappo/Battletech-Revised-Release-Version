@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_cataphract_CTF-3D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1384128, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 1384128,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cataphract CTF-3D", 

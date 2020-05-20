@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_phoenixhawk_PXH-3D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 694050, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 694050,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Phoenixhawk PXH-3D", 

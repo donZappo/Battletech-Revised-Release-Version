@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 836098, 
         "Rarity": 3, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Kintaro KTO-19", 

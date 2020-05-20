@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_panther_PNT-10K", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 379050, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 379050,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Panther PNT-10K", 

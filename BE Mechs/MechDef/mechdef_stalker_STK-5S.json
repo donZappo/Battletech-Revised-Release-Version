@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_stalker_STK-5S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2111442, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Cost": 2111442,
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-5S", 

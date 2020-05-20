@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 382872, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Jenner JR7-K", 

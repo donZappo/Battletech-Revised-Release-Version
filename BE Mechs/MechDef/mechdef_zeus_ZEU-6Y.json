@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_zeus_ZEU-6Y", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1909272, 
+        "Cost": 1909272,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Zeus ZEU-6Y", 

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_charger_CGR-1L", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1927498, 
+        "Cost": 1927498,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": null, 

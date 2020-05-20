@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_charger_CGR-C", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1963962, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 1963962,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Charger CGR-C", 

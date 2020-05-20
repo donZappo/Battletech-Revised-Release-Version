@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_atlas_AS7-DH2", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2488936, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 2488936,
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Atlas II AS7-DH2", 

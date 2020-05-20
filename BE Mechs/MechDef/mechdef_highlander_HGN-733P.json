@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 2202200, 
         "Rarity": 5, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Highlander HGN-733P", 

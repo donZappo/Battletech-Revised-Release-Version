@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1211328, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Rifleman RFL-3C", 

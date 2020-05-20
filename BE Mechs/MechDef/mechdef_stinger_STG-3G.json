@@ -9,7 +9,7 @@
     "ChassisID": "chassisdef_stinger_STG-3G", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 250432, 
+        "Cost": 250432,  
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": null, 

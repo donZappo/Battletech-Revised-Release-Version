@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 844128, 
         "Rarity": 5, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Bushwacker BSW-X2", 
