@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 333632, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 1, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Spider SDR-5K", 

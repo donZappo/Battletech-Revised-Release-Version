@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 714528, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 1, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Vindicator VND-1X", 

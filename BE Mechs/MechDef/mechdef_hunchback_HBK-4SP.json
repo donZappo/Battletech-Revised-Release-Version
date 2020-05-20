@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 801642, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-4SP", 

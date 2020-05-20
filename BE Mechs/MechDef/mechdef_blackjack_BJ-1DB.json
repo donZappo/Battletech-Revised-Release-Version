@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 714528, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Blackjack BJ-1DB", 

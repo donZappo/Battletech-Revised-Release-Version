@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 333632, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Spider SDR-5V", 

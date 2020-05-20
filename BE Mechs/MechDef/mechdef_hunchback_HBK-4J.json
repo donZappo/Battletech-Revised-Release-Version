@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 794200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-4J", 

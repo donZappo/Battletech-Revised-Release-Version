@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 836098, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Griffin GRF-1N", 

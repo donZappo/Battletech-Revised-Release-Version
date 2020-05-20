@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 255672, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 1, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Locust LCT-1E", 

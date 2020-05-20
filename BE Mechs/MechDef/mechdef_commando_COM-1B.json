@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 298072, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Commando COM-1B", 

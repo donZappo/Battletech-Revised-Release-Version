@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 764472, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Trebuchet TBT-5N", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 379050, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Firebee FRB-2E", 

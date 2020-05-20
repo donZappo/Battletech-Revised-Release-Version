@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 694050, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Phoenixhawk PXH-1K", 

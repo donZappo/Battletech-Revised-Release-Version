@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 253050, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wasp WSP-1D-RV", 
