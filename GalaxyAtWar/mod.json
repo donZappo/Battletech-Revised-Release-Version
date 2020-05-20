@@ -174,7 +174,8 @@
 			"ThreeWayBattle" : 0.6,
 			"AttackDefend" : 1.6,
 			"SoloDuel" : 0.4,
-			"DuoDuel" : 0.4
+			"DuoDuel" : 0.4,
+			"Blackout" : 1.0
 			},
 		"LogoNames": {
 			"Davion" : "davionLogo",
