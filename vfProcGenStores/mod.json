@@ -33,7 +33,8 @@
 	  "AmmoStoreLimit" : 5,
 	  "HeatSinkStoreLimit" : 5,
 	  "JumpJetStoreLimit" : 5,
-	  "MechStoreLimit" : 5,
+	  "MechStoreLimit" : 4,
+	  "FullMechChance" : 0.15,
 	  "UpgradeStoreLimit" : 5,
 	  "WeaponStoreLimit" : 5,
 	  "StoreSizeModifiers" : {
@@ -83,8 +84,8 @@
           "Description": "",
           "QuantityBracket": {
             "Name": "VeryCommon",
-            "LowCount": 10,
-            "HighCount": 25
+            "LowCount": 1,
+            "HighCount": 7
           },
           "Order": 1
         },
@@ -94,8 +95,8 @@
           "Description": "",
           "QuantityBracket": {
             "Name": "Common",
-            "LowCount": 5,
-            "HighCount": 10
+            "LowCount": 1,
+            "HighCount": 6
           },
           "Order": 2
         },
@@ -117,7 +118,7 @@
           "QuantityBracket": {
             "Name": "VeryUncommon",
             "LowCount": 1,
-            "HighCount": 2
+            "HighCount": 4
           },
           "Order": 4
         },
@@ -128,7 +129,7 @@
           "QuantityBracket": {
             "Name": "Rare",
             "LowCount": 1,
-            "HighCount": 2
+            "HighCount": 3
           },
           "Order": 5
         },
@@ -139,7 +140,7 @@
           "QuantityBracket": {
             "Name": "VeryRare",
             "LowCount": 1,
-            "HighCount": 1
+            "HighCount": 2
           },
           "Order": 6
         },
