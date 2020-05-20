@@ -5,7 +5,8 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"SmallArmsFireControl: 4"
+				"SmallArmsFireControl: 4",
+				"SmallArmsFireControlToHit: 4"
       ]
         },
 		"Flags": {
@@ -33,7 +34,7 @@
         "UIName": "Small Arms Fire Control",
         "Id": "mech_quirk_small_arms_fire_control",
         "Name": "Small Arms Fire Control",
-        "Details": "This 'Mech is specialized for small-caliber ballistics receiving a bonus to-hit for AC/2s.",
+        "Details": "This 'Mech is specialized for small-caliber ballistics dealing extra damage and receiving a bonus to-hit for AC/2s.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -74,7 +75,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Small-Arms-Fire-Control-Q1",
                 "Name" : "AC/2 WEAPON HIT CHANCE IMPROVED",
-                "Details" : "AC/2 weapon attacks have their to-hit improved by [AMT]",
+                "Details" : "AC/2 weapon attacks have their damage per shot increased by 4 and their to-hit improved by [AMT]",
                 "Icon" : "SpecialistSlot"
             },
             "nature" : "Buff",
@@ -98,6 +99,40 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Small-Arms-Fire-Control-Q2",
+                "Name" : "AC/2 DAMAGE INCREASED",
+                "Details" : "AC/2 weapon attacks have their damage improved by [AMT].",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "4.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "AC2"
+            },
+            "nature" : "Buff"
         }
     ],
     "ComponentTags": {

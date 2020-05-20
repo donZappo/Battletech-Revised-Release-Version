@@ -187,6 +187,12 @@
       "Full": "+{0} Damage Per Shot For all AC/2s"
     },
     {
+      "Bonus": "SmallArmsFireControlToHit",
+      "Short": "+{0} To-Hit Bonus w/ AC/2",
+      "Long": "+{0} To-Hit Bonus w/ AC/2",
+      "Full": "AC/2s have a +{0} Bonus To-Hit"
+    },
+    {
       "Bonus": "MeleeBonus",
       "Short": "+{0} To-Hit Melee Bonus",
       "Long": "+{0} To-Hit Melee Bonus",
