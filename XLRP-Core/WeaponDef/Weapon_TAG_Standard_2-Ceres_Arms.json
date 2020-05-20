@@ -54,14 +54,13 @@
   "statusEffects" : [
     {
       "durationData" : {
-        "duration" : 2,
+        "duration" : 1,
         "ticksOnActivations" : true,
         "useActivationsOfTarget" : false,
         "ticksOnEndOfRound" : false,
-        "ticksOnMovements" : false,
+        "ticksOnMovements" : true,
         "stackLimit" : 0,
-        "clearedWhenAttacked" : false,
-        "activeTrackedEffect" : true
+        "clearedWhenAttacked" : false
       },
       "targetingData" : {
         "effectTriggerType" : "OnHit",
@@ -99,98 +98,6 @@
     },
     {
       "durationData" : {
-        "duration" : 2,
-        "ticksOnActivations" : true,
-        "useActivationsOfTarget" : false,
-        "ticksOnEndOfRound" : false,
-        "ticksOnMovements" : false,
-        "stackLimit" : 0,
-        "clearedWhenAttacked" : false,
-        "activeTrackedEffect" : true
-      },
-      "targetingData" : {
-        "effectTriggerType" : "OnHit",
-        "triggerLimit" : 0,
-        "extendDurationOnTrigger" : 0,
-        "specialRules" : "NotSet",
-        "effectTargetType" : "NotSet",
-        "range" : 0,
-        "forcePathRebuild" : false,
-        "forceVisRebuild" : false,
-        "showInTargetPreview" : false,
-        "showInStatusPanel" : false,
-        "hideApplicationFloatie" : true
-      },
-      "effectType" : "StatisticEffect",
-      "Description" : {
-        "Id" : "StatusEffect-TAG-EnergyDmgBonus",
-        "Name" : "TAG MARKED",
-        "Details" : "This unit is susceptible to Called Shots.",
-        "Icon" : "uixSvgIcon_statusMarked"
-      },
-      "nature" : "Debuff",
-      "statisticData" : {
-        "appliesEachTick" : false,
-        "statName" : "DamageReductionMultiplierEnergy",
-        "operation" : "Float_Multiply",
-        "modValue" : "1.0",
-        "modType" : "System.Single"
-      },
-      "tagData" : null,
-      "floatieData" : null,
-      "actorBurningData" : null,
-      "vfxData" : null,
-      "instantModData" : null,
-      "poorlyMaintainedEffectData" : null
-    },
-    {
-      "durationData" : {
-        "duration" : 2,
-        "ticksOnActivations" : true,
-        "useActivationsOfTarget" : false,
-        "ticksOnEndOfRound" : false,
-        "ticksOnMovements" : false,
-        "stackLimit" : 0,
-        "clearedWhenAttacked" : false,
-        "activeTrackedEffect" : true
-      },
-      "targetingData" : {
-        "effectTriggerType" : "OnHit",
-        "triggerLimit" : 0,
-        "extendDurationOnTrigger" : 0,
-        "specialRules" : "NotSet",
-        "effectTargetType" : "NotSet",
-        "range" : 0,
-        "forcePathRebuild" : false,
-        "forceVisRebuild" : false,
-        "showInTargetPreview" : false,
-        "showInStatusPanel" : false,
-        "hideApplicationFloatie" : true
-      },
-      "effectType" : "StatisticEffect",
-      "Description" : {
-        "Id" : "StatusEffect-TAG-MissileDmgBonus",
-        "Name" : "TAG MARKED",
-        "Details" : "This unit is susceptible to Called Shots.",
-        "Icon" : "uixSvgIcon_statusMarked"
-      },
-      "nature" : "Debuff",
-      "statisticData" : {
-        "appliesEachTick" : false,
-        "statName" : "DamageReductionMultiplierMissile",
-        "operation" : "Float_Multiply",
-        "modValue" : "1.0",
-        "modType" : "System.Single"
-      },
-      "tagData" : null,
-      "floatieData" : null,
-      "actorBurningData" : null,
-      "vfxData" : null,
-      "instantModData" : null,
-      "poorlyMaintainedEffectData" : null
-    },
-    {
-      "durationData" : {
         "duration" : 1,
         "ticksOnActivations" : true,
         "useActivationsOfTarget" : false,
@@ -198,6 +105,7 @@
         "ticksOnMovements" : true,
         "stackLimit" : 0,
         "clearedWhenAttacked" : false,
+        "activeTrackedEffect" : true
       },
       "targetingData" : {
         "effectTriggerType" : "OnHit",
@@ -234,9 +142,7 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_standard",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "range_standard"
     ],
     "tagSetSourceFile" : ""
   },

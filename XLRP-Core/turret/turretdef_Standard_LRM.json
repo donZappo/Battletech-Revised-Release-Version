@@ -1,0 +1,109 @@
+{
+    "Version":1,
+    "Description":{
+        "Id":"turretdef_Standard_LRM",
+        "Name":"Standard LRM Turret",
+        "Details":"",
+        "Icon":"",
+        "Cost":993,
+        "Rarity":0,
+        "Purchasable":false
+    },
+    "ChassisID":"turretchassisdef_Standard_LRM",
+    "TurretTags":{
+        "items":[
+            "unit_turret",
+            "unit_medium",
+			"unit_indirectfire"			
+        ],
+        "tagSetSourceFile":""
+    },
+    "CurrentArmor":250,
+    "CurrentInternalStructure":25,
+    "AssignedArmor":250,
+    "DamageLevel":"Functional",
+    "inventory":[
+	    {
+            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-30",
+            "ComponentDefType": "Upgrade",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID":"Weapon_LRM_LRM15_2-LongFire",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":0,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_LRM_LRM15_2-LongFire",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_Laser_MediumLaser_2-Magna",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":2,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_Laser_MediumLaser_2-Magna",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":3,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":4,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":5,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Weapon_MachineGun_MachineGun_0-Blankenburg-AMS",
+            "ComponentDefType":"Weapon",
+            "HardpointSlot":5,
+            "DamageLevel":"Functional"
+        },		
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        }
+    ]
+}
