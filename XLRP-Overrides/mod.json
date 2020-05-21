@@ -13,6 +13,10 @@
         { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true },
         { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true },
 		{ "Type": "StarSystemDef", "Path": "StarSystemDefs", "ShouldMergeJSON": true },
+		{ 	"Type": "WeaponDef",
+			"Path": "Suppressed-Weapons",
+			"AddToDB": true
+		},
 		{
             "Type": "ItemCollectionDef",
             "Path": "itemCollections"
