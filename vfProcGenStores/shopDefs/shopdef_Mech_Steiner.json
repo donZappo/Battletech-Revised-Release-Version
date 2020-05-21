@@ -1,0 +1,271 @@
+{
+   "ID" : "shopdef_Mech_Steiner",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_faction_liao",
+		"planet_faction_marik",
+		"planet_faction_davion",
+		"planet_faction_kurita",
+		"planet_faction_restoration",
+		"planet_faction_taurian",
+		"planet_faction_independent",
+		"planet_faction_nofaction",
+		"planet_other_empty",
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+	 {
+	   "ID": "mechdef_locust_LCT-3S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatchetman_HCT-3F",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatchetman_HCT-3F-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatchetman_HCT-3X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatchetman_HCT-3X-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatchetman_HCT-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wasp_WSP-1S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_nightstar_NSR-9FC",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_nightstar_NSR-9J",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_warhammer_WHM-7S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_griffin_GRF-1S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_griffin_GRF-1S-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_archer_ARC-2S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_locust_LCT-1S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_clint_CLNT-2-4T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_firestarter_FS9-M",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_vulcan_VT-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_banshee_BNC-3S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_battlemaster_BLR-1S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_thunderbolt_TDR-5SS",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hunchback_HBK-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-5T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-6A",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-6S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-6S-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-6T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-6Y",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_archer_ARC-5R",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_archer_ARC-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_crusader_CRD-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_zeus_ZEU-9S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_annihilator_ANH-1A",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_atlas_AS7-S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 }
+	],
+   "Specials" : [
+		{
+			"ID" : "mechdef_blackjack_BJ-1",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+	]
+}

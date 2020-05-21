@@ -1,0 +1,251 @@
+{
+   "ID" : "shopdef_Mech_Liao",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_faction_steiner",
+		"planet_faction_marik",
+		"planet_faction_davion",
+		"planet_faction_kurita",
+		"planet_faction_restoration",
+		"planet_faction_taurian",
+		"planet_faction_magistracy",
+		"planet_faction_independent",
+		"planet_faction_nofaction",
+		"planet_other_empty",
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+	 {
+	   "ID": "mechdef_vindicator_VND-1AA",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_vindicator_VND-1R",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_vindicator_VND-1SIC",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wasp_WSP-1L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_firebee_FRB-2E",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_vindicator_VND-1X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_clint_CLNT-2-3U",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_urbanmech_UM-R60L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_assassin_ASN-23",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_blackjack_BJ-3",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_crusader_CRD-3L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_crusader_CRD-3L-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_huronwarrior_HUR-WO-R4L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_huronwarrior_HUR-WO-R4M",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_locust_LCT-1L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_marauder_MAD-3L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_raven_RVN-3X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_raven_RVN-4X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_warhammer_WHM-6L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-0X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-1X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-2X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-3D",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-3L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cataphract_CTF-4X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_charger_CGR-1A5",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_charger_CGR-1L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_raven_RVN-1X",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_urbanmech_UM-R63",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_vindicator_VND-3L",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_cyclops_CP-11-A",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 }
+	],
+   "Specials" : [
+		{
+			"ID" : "mechdef_urbanmech_UM-R60",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 3,
+			"Weight": 8
+		},
+	]
+}

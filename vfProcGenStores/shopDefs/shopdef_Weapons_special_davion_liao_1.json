@@ -1,0 +1,81 @@
+{
+    "ID": "shopdef_Weapons_special_davion_liao_1",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_marik",
+		"planet_faction_restoration",
+         "planet_faction_taurian",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC20_1-GM",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_Autocannon_LB5X_1-GM",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SSRM2_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SSRM4_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SSRM6_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_2-Valiant",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        }
+    ]
+}

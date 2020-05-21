@@ -1,0 +1,433 @@
+{
+   "ID" : "shopdef_Mech_Kurita
+   ",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_faction_liao",
+		"planet_faction_steiner",
+		"planet_faction_marik",
+		"planet_faction_davion",
+		"planet_faction_restoration",
+		"planet_faction_magistracy",
+		"planet_faction_independent",
+		"planet_faction_nofaction",
+		"planet_other_empty",
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+	 {
+	   "ID": "mechdef_jenner_JR7-D",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_jenner_JR7-D-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_jenner_JR7-F",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wasp_WSP-1K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wasp_WSP-1K-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_archer_ARC-2K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_dragon_DRG-1C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_dragon_DRG-1N",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_dragon_DRG-1N-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_jenner_JR7-A",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_jenner_JR7-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_atlas_AS7-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_dragon_DRG-5N",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_phoenixhawk_PXH-1K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_phoenixhawk_PXH-1K-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_shadowhawk_SHD-2K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_trebuchet_TBT-7K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wolverine_WVR-6K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wolverine_WVR-6K-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_catapult_CPLT-K2",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_catapult_CPLT-K2-RV",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_catapult_CPLT-K3",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_crusader_CRD-3K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_gladiator_GLD-4R",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_granddragon_DRG-1G",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_granddragon_DRG-5K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_jenner_JR7-K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_kintaro_KTO-20",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_mongoose_MON-68",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_panther_PNT-10KA",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_panther_PNT-CA",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_warhammer_WHM-6K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_charger_CGR-1A9",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_charger_CGR-3K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_charger_CGR-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_crusader_CRD-4K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_grasshopper_GHR-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_panther_PNT-10K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_phoenixhawk_PXH-3K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_spider_SDR-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_wolverine_WVR-7K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotochi_HTM-26T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotochi_HTM-27T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotochi_HTM-28T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotohi_HTM-27U",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotokaze_HTM-27V",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotoku_HTM-27W",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_hatamotomizo_HTM-27Y",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_kintaro_KTO-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_kintaro_KTO-K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_marauder_MAD-5S",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_mauler_MAL-1R",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_mauler_MAL-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_panther_PNT-C",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_quickdraw_QKD-5K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_warhammer_WHM-7K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
+	   "ID": "mechdef_atlas_AS7-K",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 }
+	],
+   "Specials" : [
+		{
+			"ID" : "mechdef_blackjack_BJ-1",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 5
+		},
+	]
+}

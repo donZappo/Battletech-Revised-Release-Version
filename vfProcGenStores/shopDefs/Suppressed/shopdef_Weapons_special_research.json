@@ -1,0 +1,19 @@
+{
+    "ID": "shopdef_Weapons_special_research",
+    "RequirementTags": {
+        "items": [
+			"planet_industry_research"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty",
+			"planet_progress_1"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+    ]
+}

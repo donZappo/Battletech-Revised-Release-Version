@@ -1,0 +1,33 @@
+{
+    "ID": "shopdef_Weapons_special_marik_liao_1",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_restoration",
+         "planet_faction_steiner",
+         "planet_faction_davion",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+		{
+            "ID": "Weapon_Laser_MediumLaserER_1-MagnaVI",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        }
+    ]
+}

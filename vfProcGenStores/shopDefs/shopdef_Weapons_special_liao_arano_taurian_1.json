@@ -1,0 +1,45 @@
+{
+    "ID": "shopdef_Weapons_special_liao_arano_taurian_1",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_manufacturing",
+            "planet_industry_rich"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_steiner",
+         "planet_faction_davion",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_SRM_SRM2_2-Harvester",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_2-Harvester",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_2-Harvester",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "ID": "shopdef_Weapons_special_arano_davion_0",
+    "RequirementTags": {
+        "items": [
+			"planet_progress_1",
+			"planet_progress_2",
+			"planet_progress_2a",
+			"planet_progress_3"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC2_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_1-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        }
+    ]
+}

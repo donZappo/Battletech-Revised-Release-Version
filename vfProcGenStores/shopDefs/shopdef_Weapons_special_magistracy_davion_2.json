@@ -1,0 +1,55 @@
+{
+    "ID": "shopdef_Weapons_special_magistracy_davion_2",
+    "RequirementTags": {
+        "items": [
+			"planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+		"planet_faction_restoration",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_LRM_LRM5_3-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_3-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_3-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_3-Telos",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

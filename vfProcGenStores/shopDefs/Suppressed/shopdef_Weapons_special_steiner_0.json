@@ -1,0 +1,21 @@
+{
+    "ID": "shopdef_Weapons_special_steiner_0",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+			"planet_faction_kurita",
+            "planet_faction_marik",
+            "planet_faction_liao",
+            "planet_faction_taurian",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+    ]
+}

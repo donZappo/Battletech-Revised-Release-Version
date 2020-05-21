@@ -37,7 +37,7 @@
     "UIName" : "AMS",
     "Id" : "Weapon_AMS",
     "Name" : "AMS",
-    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nSelf: <color=#ffcc00>10 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff:  <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nCan fire 10 shots per combat round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
+    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nSelf: <color=#ffcc00>20 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff:  <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nCan fire 10 shots per combat round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "",
@@ -64,7 +64,7 @@
       "Id" : "Self",
       "UIName" : "Self",
       "isBaseMode" : true,
-      "ShotsWhenFired" : 10,
+      "ShotsWhenFired" : 20,
       "AMSHitChance" : 0.25
     },
     {

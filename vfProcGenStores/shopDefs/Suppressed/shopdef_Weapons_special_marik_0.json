@@ -1,0 +1,19 @@
+{
+    "ID": "shopdef_Weapons_special_marik_0",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_faction_liao",
+            "planet_faction_steiner",
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "ID": "shopdef_Weapons_special_arano_liao_2",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+         "planet_faction_davion",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Laser_SmallLaser_3-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_3-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_3-Intek",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

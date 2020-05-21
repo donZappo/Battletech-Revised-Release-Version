@@ -1,0 +1,62 @@
+{
+    "ID": "shopdef_Weapons_special_arano_davion_2",
+    "RequirementTags": {
+        "items": [
+            "planet_industry_research"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_marik",
+         "planet_faction_kurita",
+         "planet_faction_taurian",
+		 "planet_faction_magistracy",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+		{
+            "ID": "Weapon_Autocannon_UAC10_2-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_3-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_3-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_3-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_3-Federated",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        }
+    ]
+}

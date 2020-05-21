@@ -37,7 +37,7 @@
     "UIName" : "RISC APDS",
     "Id" : "Weapon_AMS_1",
     "Name" : "RISC APDS (AMS +)",
-    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. The Advanced Point Defense System, which is also known as APD or APDS, is an Anti-Missile System designed to protect multiple units from incoming missile fire. The weapon system has two variants: the Standard and the Battlesuit variant.\r\n\r\n<b>Firing modes:</b>\r\nArea: <color=#ffcc00>10 shots, 10% of missiles destroyed per shot, also protects friendly units in range</color>\r\nOff: <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nWill fire at every missile salvo during the round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
+    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. The Advanced Point Defense System, which is also known as APD or APDS, is an Anti-Missile System designed to protect multiple units from incoming missile fire. The weapon system has two variants: the Standard and the Battlesuit variant.\r\n\r\n<b>Firing modes:</b>\r\nArea: <color=#ffcc00>20 shots, 12.5% of missiles destroyed per shot, also protects friendly units in range</color>\r\nOff: <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nWill fire at every missile salvo during the round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
     "Icon" : "uixSvgIcon_weapon_Support"
   },
   "BonusValueA" : "Area Fire Mode",
@@ -65,8 +65,8 @@
       "Id" : "Area",
       "UIName" : "Area",
       "isBaseMode" : true,
-      "ShotsWhenFired" : 10,
-      "AMSHitChance" : 0.1,
+      "ShotsWhenFired" : 20,
+      "AMSHitChance" : 0.125,
       "IsAAMS" : true
     },
     {

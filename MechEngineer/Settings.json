@@ -185,6 +185,17 @@
       "Enabled":true,
       "EnabledDescription":"Allows each component to define destructive forces in case they explode, also implements proper CASE."
    },
+    "OverrideGhostVFX" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Allows to turn off or reduce the strong and weak ghost effects of ECM, and allows to remove the ECM globe effect.",
+        "Blacklisted" : [
+            "vfxPrfPrtl_ECM_loop",
+            "vfxPrfPrtl_ECM_opponent_loop",
+            "vfxPrfPrtl_ECMcarrierAura_loop"
+        ],
+        "BlipWeak" : "Weak",
+        "BlipStrong" : "Weak"
+    },
    "OverrideTonnage":{
       "UnderweightWarningThreshold":1,
       "UnderweightWarningThresholdDescription":"How many tons a mech has to be underweight to show a warning"

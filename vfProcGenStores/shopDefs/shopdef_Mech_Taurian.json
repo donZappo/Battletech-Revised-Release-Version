@@ -1,0 +1,42 @@
+{
+   "ID" : "shopdef_Mech_Taurian",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+	    "planet_faction_liao",
+		"planet_faction_steiner",
+		"planet_faction_marik",
+		"planet_faction_davion",
+		"planet_faction_kurita",
+		"planet_faction_restoration",
+		"planet_faction_magistracy",
+		"planet_faction_independent",
+		"planet_faction_nofaction",
+		"planet_other_empty",
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+	 {
+	   "ID": "mechdef_wolverine_WVR-6T",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 }
+	],
+   "Specials" : [
+
+		{
+			"ID" : "mechdef_thunderbolt_TDR-5SS",
+			"Type" : "MechPart",
+			"DiscountModifier" : 1.0,
+			"Count" : 0,
+			"Weight": 3
+		},
+   ]
+}

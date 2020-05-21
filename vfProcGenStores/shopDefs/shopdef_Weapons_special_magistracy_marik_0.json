@@ -1,0 +1,46 @@
+{
+    "ID": "shopdef_Weapons_special_magistracy_marik_0",
+    "RequirementTags": {
+        "items": [
+			"planet_progress_1",
+			"planet_progress_2",
+			"planet_progress_2a",
+			"planet_progress_3"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+         "planet_faction_liao",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Laser_SmallLaser_1-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_1-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_1-Diverse_Optics",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        }
+    ]
+}
