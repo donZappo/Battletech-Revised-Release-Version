@@ -9,7 +9,7 @@
     "DLLEntryPoint": "CustomSalvage.Control.Init",
 
     "Settings": {
-        "LogLevel": "Debug",
+        "LogLevel": "Error",
         "RecoveryType": "PartDestroyed",
         "PartCountType": "PartDestroyed",
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
@@ -27,7 +27,7 @@
 
         "VACTDestroyedMod": 0.35,
         "VABLDestroyedMod": 0.68,
-        "SalvageTurrets": true,
+        "SalvageTurrets": false,
         "SalvageTurretsComponentChance": 0.5,
         "UpgradeSalvage": false,
         "BGColors": [
