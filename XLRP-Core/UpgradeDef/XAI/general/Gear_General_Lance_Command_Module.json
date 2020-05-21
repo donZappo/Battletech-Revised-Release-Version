@@ -12,7 +12,7 @@
         "Icon" : "uixSvgIcon_special_Equipment"
     },
     "BonusValueA" : "-1 lance init.",
-    "BonusValueB" : "+20% Wpn Tgt Mech",
+    "BonusValueB" : "+10% Wpn Tgt Mech",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

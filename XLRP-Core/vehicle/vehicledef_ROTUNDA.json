@@ -105,7 +105,7 @@
   "inventory": [
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -116,7 +116,7 @@
     },
     {
       "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_Sensor_Prototype_ActiveProbe",
+      "ComponentDefID": "Gear_Sensor_ActiveProbe",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
