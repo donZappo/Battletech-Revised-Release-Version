@@ -1336,7 +1336,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_atlas_AS7-D-HK",
+                        "unitDefId": "mechdef_atlas_AS7-D-HK_hero_kamea",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": ""
