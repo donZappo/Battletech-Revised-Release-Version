@@ -2,7 +2,7 @@
     "Name": "DropCostPerMech",
     "Enabled": true,
 
-    "Version": "v4.1-dZ",
+    "Version": "v4.2-dZ",
     "Description": "Calculates and subtracts drop costs per mech selected for a mission. - Modified by don Zappo",
     "Author": "Morphyum",
     "Website": "https://github.com/donZappo/DropCostPerMech",
@@ -18,7 +18,8 @@
 		"freeTonnageAmount" : 80,
 		"NewAlgorithm" : true,
 		"BEXCE" : false,
+		"TonnageLimits" : true,
+		"StartingTonnage" : 200,
+		"TonnagePerStep" : 25
 	}
-	
-	
 }
