@@ -34,13 +34,13 @@
             "prefabName": null
         },
         {
-            "ComponentDefID":"Weapon_LRM_LRM10_1-LongFire",
+            "ComponentDefID":"Weapon_LRM_LRM10_1-Drago",
             "ComponentDefType":"Weapon",
             "HardpointSlot":0,
             "DamageLevel":"Functional"
         },
         {
-            "ComponentDefID":"Weapon_LRM_LRM10_1-LongFire",
+            "ComponentDefID":"Weapon_LRM_LRM10_1-Drago",
             "ComponentDefType":"Weapon",
             "HardpointSlot":1,
             "DamageLevel":"Functional"

@@ -34,13 +34,13 @@
             "prefabName": null
         },	
         {
-            "ComponentDefID":"Weapon_LRM_LRM15_1-LongFire",
+            "ComponentDefID":"Weapon_LRM_LRM15_1-Zeus",
             "ComponentDefType":"Weapon",
             "HardpointSlot":0,
             "DamageLevel":"Functional"
         },
         {
-            "ComponentDefID":"Weapon_LRM_LRM15_1-LongFire",
+            "ComponentDefID":"Weapon_LRM_LRM15_1-Zeus",
             "ComponentDefType":"Weapon",
             "HardpointSlot":1,
             "DamageLevel":"Functional"
@@ -70,13 +70,13 @@
             "DamageLevel":"Functional"
         },
         {
-            "ComponentDefID":"Weapon_MachineGun_MachineGun_0-Blankenburg-AMS",
+            "ComponentDefID":"Weapon_AMS",
             "ComponentDefType":"Weapon",
             "HardpointSlot":5,
             "DamageLevel":"Functional"
         },
         {
-            "ComponentDefID":"Weapon_MachineGun_MachineGun_0-Blankenburg-AMS",
+            "ComponentDefID":"Weapon_AMS",
             "ComponentDefType":"Weapon",
             "HardpointSlot":5,
             "DamageLevel":"Functional"
@@ -106,7 +106,7 @@
             "DamageLevel":"Functional"
         },
         {
-            "ComponentDefID":"Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_AMS",
             "ComponentDefType":"AmmunitionBox",
             "HardpointSlot":-1,
             "DamageLevel":"Functional"

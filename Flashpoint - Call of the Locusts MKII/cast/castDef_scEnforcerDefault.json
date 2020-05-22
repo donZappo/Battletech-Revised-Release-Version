@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../mods/Call of the Locusts MKII/sprites/Portraits/guiTxrPort_MrJones_utr.png"
+        "portraitAssetPath" : "../../mods/Flashpoint - Call of the Locusts MKII/sprites/Portraits/guiTxrPort_MrJones_utr.png"
     },
     "emotePotraitList" : [
         
