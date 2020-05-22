@@ -26,7 +26,7 @@
         "Manufacturer": "Mendham Electronics",
         "Model": "Garret A99 With Artemis IV",
         "UIName": "FCS Artemis IV",
-        "Id": "Gear_TargetingTrackingSystem_ARTEMISIV",
+        "Id": "Gear_TargetingTrackingSystem_ArtemisIV",
         "Name": "Artemis IV FCS",
         "Details": "While being a more regional Fire Control System, the adapted Artemis system greatly enhanced the Garret A99 capabilities, even above some of the other competitors on the market. <b><color=#F79232>Enables the use of Artemis IV Ammo.</color></b>",
         "Icon": "uixSvgIcon_equipment_TTS"

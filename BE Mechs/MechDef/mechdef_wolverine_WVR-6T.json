@@ -499,7 +499,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightArm", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 

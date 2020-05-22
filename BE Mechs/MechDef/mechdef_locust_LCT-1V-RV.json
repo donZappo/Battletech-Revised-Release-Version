@@ -148,7 +148,7 @@
         }, 
         {
             "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK", 
+            "ComponentDefID": "Weapon_COIL_COIL-S_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
@@ -181,7 +181,7 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK", 
+            "ComponentDefID": "Weapon_COIL_COIL-S_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
@@ -195,17 +195,6 @@
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

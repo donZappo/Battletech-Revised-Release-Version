@@ -17,7 +17,7 @@
 		"NumberProceduralPilots": 3,
 		"MechPercentageStartingCost": 0,
 		"MechsAdhereToTimeline": true,
-		"StartYear": 3025,
+		"StartYear": 3028,
 		
         /* Maximum Lance Size = 6.*/
 		"MinimumLanceSize": 5,
