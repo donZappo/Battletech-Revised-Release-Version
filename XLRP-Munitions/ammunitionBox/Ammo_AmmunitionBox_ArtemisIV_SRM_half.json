@@ -17,7 +17,7 @@
 			"Bonuses": [
 				"PipsIgnored: +2",
 				"SRMCrit: +50%",
-				"SRMAmmo: 50",
+				"SRMAmmo: 25",
 				"ReqArtemis"
 			]
 		},
@@ -26,7 +26,7 @@
 		}
 	},
 	"AmmoID": "Ammunition_SRM_ArtemisIV",
-	"Capacity": 50,
+	"Capacity": 25,
 	"Description": {
 		"Cost": 100000,
 		"Rarity": 5,
@@ -36,7 +36,7 @@
 		"UIName": "Ammo SRM ARTIV",
 		"Id": "Ammo_AmmunitionBox_ArtemisIV_SRM_half",
 		"Name": "SRM Artemis IV Ammo",
-		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy. Has 50 shots.",
+		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy. Has 25 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "Ignore 2 Evasion",

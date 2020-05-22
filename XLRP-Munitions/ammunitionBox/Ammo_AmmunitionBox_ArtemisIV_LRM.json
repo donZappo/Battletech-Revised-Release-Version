@@ -21,7 +21,7 @@
 		"BonusDescriptions": {
 			"Bonuses": [
 				"PipsIgnored: +2",
-				"LRMAmmo: 120",
+				"LRMAmmo: 60",
 				"ReqArtemis"
 			]
 		},
@@ -30,7 +30,7 @@
 		}
 	},
 	"AmmoID": "Ammunition_LRM_ArtemisIV",
-	"Capacity": 120,
+	"Capacity": 60,
 	"Description": {
 		"Cost": 200000,
 		"Rarity": 5,
@@ -40,7 +40,7 @@
 		"UIName": "Ammo LRM ART IV",
 		"Id": "Ammo_AmmunitionBox_ArtemisIV_LRM",
 		"Name": "LRM Artemis IV Ammo",
-		"Details": "Artemis IV LRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis IV FCS offer these Missiles unparalleled Accuracy . Has 120 shots.",
+		"Details": "Artemis IV LRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis IV FCS offer these Missiles unparalleled Accuracy . Has 60 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "Ignore 2 Evasion",
