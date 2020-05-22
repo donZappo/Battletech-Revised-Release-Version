@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 382872, 
         "Rarity": 1, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Jenner JR7-D-RV", 
         "Id": "mechdef_jenner_JR7-D-RV", 
         "Name": "Jenner", 
-        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they can rack up a vast amount of heat. They excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapo redundancy as this variant also loses an SRM.", 
+        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they also don't have any jump jets either. They do however excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers; all thanks to an uprated engine. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapo redundancy as this variant also loses an SRM.", 
         "Icon": "uixTxrIcon_jenner"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -173,17 +173,6 @@
             "ComponentDefID": "Gear_Cockpit_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -379,7 +368,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_255", 
+            "ComponentDefID": "emod_engine_265", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

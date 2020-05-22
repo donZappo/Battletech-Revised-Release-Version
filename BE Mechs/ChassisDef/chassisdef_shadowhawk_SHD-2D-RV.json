@@ -9,7 +9,7 @@
         "UIName": "Shadow Hawk", 
         "Id": "chassisdef_shadowhawk_SHD-2D-RV", 
         "Name": "Shadow Hawk", 
-        "Details": "The Shadow Hawk 2D-RV is an interesting reinvention from Aurigan space. It drops both SRM2 launchers and swaps it's Medium Lasers for COIL-M energy weapons .While maintaining excellent speed and jump jet capability for mobility it manages a moderate armor increase without hampering its combat effectiveness. Close in attacks are about as equivalent as its predecessor though how much the damage is done to a single location has significantly improved.", 
+        "Details": "The Shadow Hawk 2D-RV is an interesting reinvention from Aurigan space. It drops both SRM2 launchers, swaps it's Medium Lasers for COIL-M energy weapons and drops a half ton each of AC and LRM ammo. It improves upon it's predecessor's speed due to an uprated engine but at the cost of removing all Jump Jet systems. Along with a moderate armor increase this does not hamper it's combat effectiveness in shorter duration battles while increasing potential damage in brawling situations.", 
         "Icon": "uixTxrIcon_shadowhawk"
     }, 
     "VariantName": "SHD-2D-RV", 

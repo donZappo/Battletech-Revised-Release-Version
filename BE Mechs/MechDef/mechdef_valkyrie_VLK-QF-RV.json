@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 337050, 
         "Rarity": 1, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Valkyrie VLK-QF-RV", 
         "Id": "mechdef_valkyrie_VLK-QF-RV", 
         "Name": "Valkyrie", 
-        "Details": "The -RV variant was originally a discovered field refit of a VLK-QF, documented when Magistracy of Canopus forces destroyed a pirate lance in detail in 3023. Due to gaining popularity and prevalence of the refit replacing the LRM10 with a COIL-L, official refit procedures for the 'Speedy Panther' were licencesed.", 
+        "Details": "This -RV variant was originally a discovered Periphery refit of a VLK-QF, documented when Magistracy of Canopus forces destroyed a pirate lance in detail in 3023. Due to gaining popularity and prevalence of the refit's effectiveness in replacing the LRM10 with a COIL-L, not to mention the increased engine rating, official refit procedures for the 'Speedy Ground Panther' were licencesed.", 
         "Icon": "uixTxrIcon_valkyrie"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -180,28 +180,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
@@ -239,17 +217,6 @@
             "ComponentDefID": "emod_arm_part_lower", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -456,7 +423,29 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_180", 
+            "ComponentDefID": "emod_engine_195", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

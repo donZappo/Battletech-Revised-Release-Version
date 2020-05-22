@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 253050, 
         "Rarity": 1, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stinger STG-3R-RV", 
         "Id": "mechdef_stinger_STG-3R-RV", 
         "Name": "Stinger", 
-        "Details": "The STG-3R-1V variant is an approved and widespread refit to the venerable and mass-rpoduced STG-3R. The Medium Laser is replaced with a COIL-M energy weapon and a single MG is removed with the resulting ammo bin switched to a half ton loadout.", 
+        "Details": "The STG-3R-RV variant is an approved and widespread factory refit to the venerable and mass-produced STG-3R. The chassis speed is boosted as well thanks in part to an uprated engine made possible by removing the Jump Jet hardware. The Medium Laser is replaced with a COIL-M energy weapon and a single MG is removed with the resulting ammo bin switched to a half ton loadout.", 
         "Icon": "uixTxrIcon_stinger"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -389,28 +389,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
@@ -466,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftArm", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -477,8 +455,8 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_140", 
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -488,22 +466,11 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_160", 
             "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 1, 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 

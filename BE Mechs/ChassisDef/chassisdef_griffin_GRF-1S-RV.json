@@ -9,7 +9,7 @@
         "UIName": "Griffin", 
         "Id": "chassisdef_griffin_GRF-1S-RV", 
         "Name": "Griffin", 
-        "Details": "A regular Griffin 1S mounts closer-range weaponry than their 1N cousins; in this case the 1S-RV variant being produced focuses in more on that ideal. It still retains its Jump Jets for agility during flanking maneuvers but swaps its Large Laser and both Medium Lasers for a COIL-M backed up by two Small Lasers. Additionally, in order to increase initial support firepower it has added an extra LRM5 launcher. With its role focused on close contact with the enemy, it has also received a moderate armor increase to help with survivability.", 
+        "Details": "A regular Griffin 1S mounts closer-range weaponry than their 1N cousins; in this case the 1S-RV variant being produced focuses in more on that ideal. It loses the iconic Jump Jets hardware in favor of an uprated engine to improve flanking maneuvers but swaps its Large Laser and both Medium Lasers for a COIL-M backed up by two Small Lasers. Additionally, in order to increase initial support firepower it has added an extra LRM5 launcher to increase target saturation early in battle. With its role focused on close contact with the enemy, it has also received a massive armor increase to help with survivability.", 
         "Icon": "uixTxrIcon_griffin"
     }, 
     "VariantName": "GRF-1S-RV", 

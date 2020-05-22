@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 637272, 
         "Rarity": 3, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Assassin ASN-21-RV", 
         "Id": "mechdef_assassin_ASN-21-RV", 
         "Name": "Assassin", 
-        "Details": "The ASN-21-RV lives up to its predecessor's name, especially against lighter tonnage 'Mechs. It has astounding jump capability in addition to its ground speed which it can use to power its COIL-M weapons platform. While up-armored, it still relies on speed for protection.", 
+        "Details": "The ASN-21-RV lives up to its predecessor's name, especially against lighter tonnage 'Mechs. It has improved speed due to an uprated engine which it can use to power its COIL-M weapons platform. While up-armored, it still relies on speed for protection due to a noticable lack of Jump Jets.", 
         "Icon": "uixTxrIcon_assassin"
     }, 
     "RequiredToSpawnCompanyTags": {

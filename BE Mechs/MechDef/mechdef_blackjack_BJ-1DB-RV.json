@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 714528, 
         "Rarity": 2, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Blackjack BJ-1DB-RV", 
         "Id": "mechdef_blackjack_BJ-1DB-RV", 
         "Name": "Blackjack", 
-        "Details": "With the BJ-1DB-RV, the Federated Suns have continued to iterate on an already impressive chassis with the newer COIL technology filtering in from the Periphery. It replaces all Lasers with twin COIL-L and COIL-S energy weapons, allowing this 'Mech to excel at the fire support role while on the move. One key takeaway with this variant is that the designers understood the value of retaining the classic Jump Jets on this chassis for quick escapes and flanking; all of which serves this 'Mech very well on the battlefield.", 
+        "Details": "With the BJ-1DB-RV, the Federated Suns have continued to iterate on an already impressive chassis with the newer COIL technology filtering in from the Periphery. It replaces all Lasers with twin COIL-L and COIL-S energy weapons, allowing this 'Mech to excel at the fire support role while on the move. One key takeaway with this variant is that the designers understood the value of speed, opting to remove the classic Jump Jets in favor of an uprated engine for quick escapes and flanking; all of which serves this 'Mech very well on the battlefield.", 
         "Icon": "uixTxrIcon_blackjack"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -31,10 +31,10 @@
         {
             "DamageLevel": "Functional", 
             "Location": "Head", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 35, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 16, 
-            "AssignedArmor": 45, 
+            "AssignedArmor": 35, 
             "AssignedRearArmor": 0
         }, 
         {
@@ -85,19 +85,19 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 85, 
+            "CurrentArmor": 70, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 55, 
-            "AssignedArmor": 85, 
+            "AssignedArmor": 70, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 85, 
+            "CurrentArmor": 70, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 55, 
-            "AssignedArmor": 85, 
+            "AssignedArmor": 70, 
             "AssignedRearArmor": 0
         }
     ], 
@@ -159,28 +159,6 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
@@ -478,7 +456,18 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_200", 
+            "ComponentDefID": "emod_engine_210", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
