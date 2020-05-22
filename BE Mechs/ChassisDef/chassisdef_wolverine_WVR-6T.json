@@ -134,11 +134,7 @@
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
+            "Hardpoints": [ 
                 {
                     "Omni": false, 
                     "WeaponMount": "Missile"
@@ -182,6 +178,10 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Ballistic"
+                },
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
                 }
             ], 
             "Tonnage": 0, 
