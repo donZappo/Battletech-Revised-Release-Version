@@ -56,11 +56,12 @@
       "durationData" : {
         "duration" : 1,
         "ticksOnActivations" : true,
-        "useActivationsOfTarget" : false,
+        "useActivationsOfTarget" : true,
         "ticksOnEndOfRound" : false,
-        "ticksOnMovements" : true,
+        "ticksOnMovements" : false,
         "stackLimit" : 0,
-        "clearedWhenAttacked" : false
+        "clearedWhenAttacked" : false,
+		"activeTrackedEffect" : true
       },
       "targetingData" : {
         "effectTriggerType" : "OnHit",
