@@ -1,0 +1,21 @@
+{
+    "Settings" : [
+        { "Name" : "a/a/a/ac", "DisplayName" : "AutoCannon Ammo" },
+        { "Name" : "a/a/a/uac", "DisplayName" : "Ultra AutoCannon Ammo" },
+        { "Name" : "a/a/a/lbx", "DisplayName" : "LB-X AutoCannon Ammo" },
+        
+		{ "Name" : "a/a/g/gauss", "DisplayName" : "Gauss Shells" },
+        
+		{ "Name" : "a/a/o/mg", "DisplayName" : "Machinegun ammo" },
+		{ "Name" : "a/a/o/mortar", "DisplayName" : "mortar ammo" },
+		
+		
+        { "Name" : "a/m/l/lrm", "DisplayName" : "LRM Missiles" },
+		
+		{ "Name" : "a/s/a/ams", "DisplayName" : "AMS Ammo" },
+	    { "Name" : "a/s/t/narc", "DisplayName" : "NARC Beacons" },
+        { "Name" : "a/s/m/melee", "DisplayName" : "Melee Weapon" },
+        
+		{ "Name" : "ArtemisIVammo", "DisplayName" : "Artemis IV Ammo" },
+    ]
+}

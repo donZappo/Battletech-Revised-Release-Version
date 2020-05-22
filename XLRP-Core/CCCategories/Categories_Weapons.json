@@ -1,0 +1,35 @@
+{
+    "Settings" : [
+        { "Name" : "w/a/a/ac", "DisplayName" : "AutoCannon" },
+        { "Name" : "w/a/a/uac", "DisplayName" : "Ultra AutoCannon" },
+        { "Name" : "w/a/a/lbx", "DisplayName" : "LB-X AutoCannon" },
+        
+		{ "Name" : "w/a/g/gaussrifle", "DisplayName" : "Gauss Rifle" },
+        
+		{ "Name" : "w/a/o/mg", "DisplayName" : "Machinegun" },
+		{ "Name" : "w/a/o/mortar", "DisplayName" : "mortar" },
+        
+		
+		{ "Name" : "w/e/l/laser", "DisplayName" : "Laser" },
+        { "Name" : "w/e/l/pulse", "DisplayName" : "Pulse Laser" },
+		
+		{ "Name" : "w/e/p/ppc", "DisplayName" : "PPC" },
+        { "Name" : "w/e/p/snppc", "DisplayName" : "Snubnose PPC" },
+		
+	    { "Name" : "w/m/s/srm", "DisplayName" : "SRM" },
+        { "Name" : "w/m/s/ssrm", "DisplayName" : "Streak SRM" },
+		
+        { "Name" : "w/m/l/lrm", "DisplayName" : "LRM" },
+        
+		{ "Name" : "w/s/a/ams", "DisplayName" : "AMS" },
+	    
+		{ "Name" : "w/s/t/tag", "DisplayName" : "TAG" },
+        { "Name" : "w/s/t/narc", "DisplayName" : "NARC" },
+        
+		{ "Name" : "w/s/m/melee", "DisplayName" : "Melee Weapon" },
+	    { "Name" : "w/s/m/sl", "DisplayName" : "Small Laser" },
+        { "Name" : "w/s/m/spl", "DisplayName" : "Small Pulse Laser" },
+		{ "Name" : "w/s/l/coil", "DisplayName" : "COIL Beam" }
+
+    ]
+}

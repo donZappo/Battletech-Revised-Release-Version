@@ -413,6 +413,12 @@
                     "OnDestroyedEffectIDs" : ["CriticalEffect-ArmHandActuatorDestroyed-{location}"]
                 }
             }
-        }
+        },
+		{ 
+			"Name": "ArtemisTTS",
+			"DisplayName": "Artemis IV System",
+			"MaxEquiped": "1",
+			"AutoReplace": "true" 
+		},
     ]
 }

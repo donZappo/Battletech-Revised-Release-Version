@@ -12,21 +12,12 @@
    "Type": "Normal",
    "Category": "SRM",
    "AIBattleValue": 90,
-   "EvasivePipsIgnored": 1,
-   "AccuracyModifier": -1.0,
-   "ClusteringModifier": 4,
-   "HitGenerator" : "Cluster",
+   "EvasivePipsIgnored": 2,
+   "AccuracyModifier": 0,
+   "CriticalChanceMultiplier": 0.25,
    "HeatGenerated": 0,
    "HeatGeneratedModifier": 1,
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
-   "CriticalDamageModifier": 1,
-   "ColorsTable" : [
-	{
-      "C":"#1813B2",
-      "I":5
-    }
-  ],
-  "ColorSpeedChange": 5,
-  "ColorChangeRule": "t0"
+   "CriticalDamageModifier": 1
 }

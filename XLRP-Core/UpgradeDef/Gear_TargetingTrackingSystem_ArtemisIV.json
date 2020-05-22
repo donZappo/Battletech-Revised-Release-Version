@@ -1,106 +1,54 @@
 {
     "Custom": {
-        "Category": [{
-            "CategoryID": "BCArtemis"
-        },
-		{ "CategoryID": "ArtemisTTS"}],
+        "Category": [
+			{
+			  "CategoryID": "ArtemisTTS"
+			}
+        ],
+		"Tag": "ArtemisTTS",
         "BonusDescriptions": {
             "Bonuses": [
-				"ArtemisIV",
-				"CalledShot: 4%",
-				"MissileClustering: +5",
-				"BattleComputer"
+                "ArtemisIV",
+				"FCS"
             ]
         },
         "InventorySorter": {
-            "SortKey": "00027"
+            "SortKey": "00201"
         }
     },
-	
-    "StatName" : null,
-    "RelativeModifier" : 0,
-    "AbsoluteModifier" : 0,
-    "Description" : {
-        "Cost" : 2060000,
-        "Rarity" : 99,
-        "Purchasable" : true,
-        "Manufacturer" : "Hartford",
-        "Model" : "S2000",
-        "UIName" : "BC Artemis",
-        "Id" : "Gear_TargetingTrackingSystem_ArtemisIV",
-        "Name" : "Battle Computer Artemis",
-        "Details": "Battle Computers are Modular Pieces that can be added to a Targeting Computer FCS, greatly enhancing the Combat capabilities of any Mech it is installed on.",
-        "Icon" : "AdvancedTC"
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 750000,
+        "Rarity": 7,
+        "Purchasable": true,
+        "Manufacturer": "Mendham Electronics",
+        "Model": "Garret A99 With Artemis IV",
+        "UIName": "FCS Artemis IV",
+        "Id": "Gear_TargetingTrackingSystem_ARTEMISIV",
+        "Name": "Artemis IV FCS",
+        "Details": "While being a more regional Fire Control System, the adapted Artemis system greatly enhanced the Garret A99 capabilities, even above some of the other competitors on the market. <b><color=#F79232>Enables the use of Artemis IV Ammo.</color></b>",
+        "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+ 3 Acc. (Missile)",
-    "BonusValueB" : "",
-    "ComponentType" : "Upgrade",
-    "ComponentSubType" : "NotSet",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 1,
-    "AllowedLocations" : "All",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-	{
-            "durationData": {
-                "duration": -1,
-				"stackLimit": -1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator"
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "BC_CALLED_SHOT",
-                "Name": "Improved Called Shot",
-                "Details": "Called Shots twice as reliable",
-                "Icon": "uixSvgIcon_ability_mastertactician"
-            },
-            "statisticData": {
-                "statName": "CalledShotBonusMultiplier",
-                "operation": "Float_Multiply",
-                "modValue": "1.04",
-                "modType": "System.Single"
-            }
-        },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : -1
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-EnhMS-ClusterBonusLRM",
-                "Name" : "MISSILERY SUITE",
-                "Details" : "Substantially increases the clustering of this unit's LRM weapons and boosts the stability damage of SRMs by 50%.",
-                "Icon" : "UixSvgIcon_specialEquip_System"
-            },
-            "statisticData" : {
-                "statName" : "ClusteringModifier",
-                "operation" : "Float_Add",
-                "modValue" : "5",
-                "modType" : "System.Single",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Missile"
-            },
-            "nature" : "Buff"
-        }
+    "BonusValueA": "Enables Artemis IV Ammo",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
     ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_variant",
-			"BattleComputer"
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "ArtemisTTS"
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     }
 }
