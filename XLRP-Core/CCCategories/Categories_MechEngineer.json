@@ -420,5 +420,7 @@
 			"MaxEquiped": "1",
 			"AutoReplace": "true" 
 		},
+			{ "Name": "LRMARTIVAmmo", "displayName": "Artemis IV LRM", "AutoReplace": "true" },
+			{ "Name": "SRMARTIVAmmo", "displayName": "Artemis IV SRM", "AutoReplace": "true" }
     ]
 }

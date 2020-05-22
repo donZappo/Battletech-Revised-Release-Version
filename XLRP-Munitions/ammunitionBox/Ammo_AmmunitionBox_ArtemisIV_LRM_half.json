@@ -2,15 +2,12 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "LRMARTIVAmmo"
-			},
-			{
-				"CategoryID": "a/m/l/lrm"
+				"CategoryID": "ArtemisIVammo"
 			}
 		],
-		"Tag": "ArtemisIV",
+		"Tag": "LRMARTIVAmmo",
 		"RequiredCategory": {
-			"CategoryID": "MissTTSART"
+			"CategoryID": "ArtemisTTS"
 		},
 		"Flags": {
 			"flags": [
@@ -61,7 +58,8 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_variant",
-			"component_type_variant1"
+			"component_type_variant1",
+			"LRMARTIVAmmo"
 		],
 		"tagSetSourceFile": ""
 	}
