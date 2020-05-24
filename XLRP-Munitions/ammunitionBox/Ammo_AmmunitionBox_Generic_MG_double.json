@@ -12,10 +12,10 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "MG",
-        "UIName" : "MG Ammo (Double)",
+        "UIName" : "XL MG Ammo",
         "Id" : "Ammo_AmmunitionBox_Generic_MG_double",
         "Name" : "MG Ammo (Double)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. MG ammo bins contain <color=#6aa84f>300 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
+        "Details" : "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. MG ammo bins contain <color=#6aa84f>300 rounds</color> of ammunition per container.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "+ 1 Ton",
