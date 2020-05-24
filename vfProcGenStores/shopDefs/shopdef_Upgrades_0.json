@@ -2,8 +2,11 @@
    "ID" : "shopdef_Upgrades_0",
    "RequirementTags" : {
       "items" : [
-		 "planet_industry_manufacturing"
-      ],
+	  	"planet_progress_1",
+		"planet_progress_2",
+		"planet_progress_2a",
+		"planet_progress_3"
+	  ],
       "tagSetSourceFile" : ""
    },
    "ExclusionTags" : {
@@ -15,67 +18,67 @@
    "Inventory" : [],
    "Specials" : [
       {
-         "ID" : "Gear_Actuator_Coventry_B20-Extended",
+         "ID" : "emod_arm_part_hand",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Actuator_Coventry_X65-Standard",
+         "ID" : "emod_arm_part_lower",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Actuator_Friedhof_Theseus",
+         "ID" : "emod_arm_part_shoulder",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Actuator_Pitban_Wallaby",
+         "ID" : "emod_arm_part_upper",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Actuator_Rawlings_Epsilon",
+         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-III",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Cockpit_Ceres_Metals_Reinforced",
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-500",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Cockpit_StarCorps_Improved",
+         "ID" : "Gear_TargetingTrackingSystem_Hartford_F1200",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Gyro_Coventry_Mark-85",
+         "ID" : "Gear_Gyro_Rawlings_StabiliTrak-5",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_TargetingTrackingSystem_Hartford_F1800",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+         "ID" : "Gear_Gyro_Friedhof_Osprey",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
 	  {
-         "ID" : "Gear_Actuator_Coventry_X55-Standard",
+         "ID" : "Gear_Gyro_Coventry_Mark-75",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Gyro_Coventry_Mark-45",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
@@ -87,25 +90,31 @@
          "Count" : 0
       },
       {
-         "ID" : "Gear_Cockpit_Ceres_Metals_Braced",
+         "ID" : "Gear_Actuator_Rawlings_Epsilon",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Cockpit_Majesty_M_M_60KL",
+         "ID" : "Gear_Actuator_Coventry_X55-Standard",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Gyro_Coventry_Mark-75",
+         "ID" : "Gear_TargetingTrackingSystem_IMBS_Aegis-5",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Gear_Gyro_Friedhof_Osprey",
+         "ID" : "Gear_Cockpit_StarCorps_Improved",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Actuator_Coventry_B20-Extended",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0

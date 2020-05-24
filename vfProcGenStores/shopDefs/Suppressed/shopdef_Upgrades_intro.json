@@ -1,0 +1,23 @@
+{
+   "ID" : "shopdef_Upgrades_intro",
+   "RequirementTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty",
+		"planet_progress_2",
+		"planet_progress_3"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [],
+   "Specials" : [   
+	]
+
+}
+
+
+

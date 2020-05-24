@@ -1,11 +1,10 @@
 {
-   "ID" : "shopdef_Upgrades_2",
+   "ID" : "shopdef_Components_special_1",
    "RequirementTags" : {
       "items" : [
-		 "planet_industry_manufacturing",
-		 "planet_industry_rich",
-		 "planet_industry_research"
-      ],
+		"planet_industry_manufacturing",
+		"planet_industry_rich"	  
+	  ],
       "tagSetSourceFile" : ""
    },
    "ExclusionTags" : {
@@ -14,74 +13,63 @@
       ],
       "tagSetSourceFile" : ""
    },
-   "Inventory" : [],
+   "Inventory" : [
+   ],
    "Specials" : [
       {
-         "ID" : "Gear_Actuator_Friedhof_Gargantuan",
-         "Type" : "Upgrade",
+         "ID" : "Gear_HeatSink_Generic_Standard-Bank",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       },
       {
-         "ID" : "Gear_Actuator_Friedhof_Heracles",
-         "Type" : "Upgrade",
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+	  {
+         "ID" : "emod_engine_cooling_6",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       },
       {
-         "ID" : "Gear_Actuator_Rawlings_Omega",
-         "Type" : "Upgrade",
+         "ID" : "emod_engine_cooling_5",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       },
       {
-         "ID" : "Gear_Gyro_Friedhof_Sparrow",
-         "Type" : "Upgrade",
+         "ID" : "emod_engine_cooling_4",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       },
       {
-         "ID" : "Gear_Gyro_Rawlings_StabiliTrak-10",
-         "Type" : "Upgrade",
+         "ID" : "emod_engine_cooling_3",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       },
       {
-         "ID" : "Gear_TargetingTrackingSystem_Hartford_F3000",
-         "Type" : "Upgrade",
+         "ID" : "emod_engine_cooling_2",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
-      },
-      {
-         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.0,
-         "Count" : 0,
-		 "Weight" : 5
-      },
-      {
-         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
-         "Type" : "Upgrade",
+      },      {
+         "ID" : "emod_engine_cooling_1",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 5
       }
-
-]
-
+   ]
 }
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,59 @@
+{
+    "ID": "shopdef_Weapons_special_starleague",
+    "RequirementTags": {
+        "items": [
+            "planet_other_starleague"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Mortar_MechMortar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        },
+        {
+            "ID": "Weapon_AMS_2",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        },
+        {
+            "ID": "Weapon_AMS_1",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        },
+        {
+            "ID": "Weapon_Gauss_Gauss_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        },
+        {
+            "ID": "Weapon_Gauss_Gauss_1-M7",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        },
+        {
+            "ID": "Weapon_Gauss_Gauss_2-M9",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 2
+        }
+	]
+}
