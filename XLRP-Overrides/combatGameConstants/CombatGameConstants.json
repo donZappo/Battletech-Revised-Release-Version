@@ -50,14 +50,14 @@
     "ShowPeakHeat": false
   },
   "Visibility": {
-    "BaseSpotterDistance": 350.0,
+    "BaseSpotterDistance": 300.0,
     "SpotterTacticsMultiplier": 25.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
     "ShutDownVisibilityModifier": 0.0,
     "ShutDownSignatureModifier": -0.5,
-    "BaseSensorDistance": 600.0,
+    "BaseSensorDistance": 550.0,
     "UseAsymmetricalSensors": true,
     "ShowExtendedBlipsBeforeContact": false,
     "ExtendedSensorDistanceMultiplier": 1.0,
