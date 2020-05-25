@@ -1,0 +1,173 @@
+{
+    "ID": "shopdef_Weapons_special_marik_0",
+    "RequirementTags": {
+        "items": [
+			"planet_progress_1",
+			"planet_progress_2",
+			"planet_progress_2a",
+			"planet_progress_3"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+         "planet_other_empty",
+		 "planet_faction_liao",
+         "planet_faction_steiner",
+         "planet_faction_independent",
+         "planet_faction_pirate",
+         "planet_faction_nofaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [],
+    "Specials": [
+        {
+            "ID": "Weapon_Autocannon_AC2_1-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_1-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_1-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_1-Kali_Yama",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC2_1-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_1-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC10_1-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_1-Imperator",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_1-Starflash",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_1-Starflash",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_1-Starflash",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SSRM2_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SSRM4_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SSRM6_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_1-Irian",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_1-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_1-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_1-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_1-Zeus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
+        }
+    ]
+}
