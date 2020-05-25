@@ -8,7 +8,7 @@
     "Capacity" : 10,
     "Description" : {
         "Cost" : 45000,
-        "Rarity" : 0,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC10",
@@ -34,7 +34,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_variant"
         ],
         "tagSetSourceFile" : ""
     }

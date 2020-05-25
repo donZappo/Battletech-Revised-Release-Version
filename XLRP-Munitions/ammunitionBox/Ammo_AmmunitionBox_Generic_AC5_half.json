@@ -8,7 +8,7 @@
     "Capacity" : 12,
     "Description" : {
         "Cost" : 10000,
-        "Rarity" : 0,
+        "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC5",
@@ -34,7 +34,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"component_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

@@ -3,13 +3,13 @@
   "Capacity": 180,
   "Description": {
     "Cost": 40000,
-    "Rarity": 0,
+    "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "Generic",
     "Model": "AntiMissile",
-    "UIName": "XL AMS Ammo",
+    "UIName": "AMS Ammo (XL)",
     "Id": "Ammo_AmmunitionBox_Generic_AMS_double",
-    "Name": "AMS Ammo (Double)",
+    "Name": "AMS Ammo (XL)",
     "Details": "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Double ton AMS Ammo Bins each contain 180 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
     "Icon": "uixSvgIcon_ammoBox_Support"
   },
@@ -27,7 +27,8 @@
   "statusEffects": [],
   "ComponentTags": {
     "items": [
-      "component_type_stock"
+            "component_type_stock",
+			"component_noupgrade"
     ],
     "tagSetSourceFile": ""
   },

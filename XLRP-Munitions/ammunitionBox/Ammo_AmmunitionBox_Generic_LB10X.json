@@ -3,7 +3,7 @@
     "Capacity" : 10,
     "Description" : {
         "Cost" : 40000,
-        "Rarity" : 0,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LB10X",
@@ -31,8 +31,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "component_type_lostech",
-            "BLACKLISTED"
+            "component_type_lostech"
         ],
         "tagSetSourceFile" : ""
     },

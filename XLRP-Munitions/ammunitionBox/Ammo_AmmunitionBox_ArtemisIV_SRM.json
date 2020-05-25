@@ -29,7 +29,7 @@
 	"Capacity": 50,
 	"Description": {
 		"Cost": 200000,
-		"Rarity": 5,
+		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "SRM Artemis IV",
@@ -53,8 +53,8 @@
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
-			"component_type_variant",
-			"component_type_variant1",
+			"component_type_stock",
+			"component_noupgrade",
 			"SRMARTIVAmmo"
 		],
 		"tagSetSourceFile": ""

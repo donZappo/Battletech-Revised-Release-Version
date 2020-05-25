@@ -3,7 +3,7 @@
     "Capacity" : 24,
     "Description" : {
         "Cost" : 30000,
-        "Rarity" : 0,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LB5X",

@@ -115,7 +115,7 @@
          "Count":0
       },
       {
-         "ID":"Ammo_AmmunitionBox_Generic_MG_half",
+         "ID":"Ammo_AmmunitionBox_Generic_MG_Half",
          "Type":"AmmunitionBox",
          "DiscountModifier":1.0,
          "Count":0

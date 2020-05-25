@@ -8,13 +8,13 @@
     "Capacity" : 150,
     "Description" : {
         "Cost" : 30000,
-        "Rarity" : 0,
+        "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM",
-        "UIName" : "XL SRM/Streak-SRM Ammo",
+        "UIName" : "SRM/Streak-SRM Ammo (XL)",
         "Id" : "Ammo_AmmunitionBox_Generic_SRM_double",
-        "Name" : "SRM Ammo (Double)",
+        "Name" : "SRM Ammo (XL)",
         "Details" : "This multirole ammo bin will be loaded with Streak SRM or Standard SRM as required by your mech design. It is 50% larger as a standard bin and can contain vastly more missiles. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. SRM ammo bins contain <color=#6aa84f>150 rounds</color> of ammunition per container.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.25</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
@@ -34,7 +34,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"component_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

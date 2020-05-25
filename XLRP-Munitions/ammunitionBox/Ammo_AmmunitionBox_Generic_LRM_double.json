@@ -8,13 +8,13 @@
     "Capacity" : 180,
     "Description" : {
         "Cost" : 60000,
-        "Rarity" : 0,
+        "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM",
-        "UIName" : "XL LRM Ammo",
+        "UIName" : "LRM Ammo (XL)",
         "Id" : "Ammo_AmmunitionBox_Generic_LRM_double",
-        "Name" : "LRM Ammo (Double)",
+        "Name" : "LRM Ammo (XL)",
         "Details" : "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. LRM Ammo Bins contain <color=#6aa84f>180 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
@@ -34,7 +34,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"component_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

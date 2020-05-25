@@ -3,7 +3,7 @@
     "Capacity" : 4,
     "Description" : {
         "Cost" : 25000,
-        "Rarity" : 5,
+        "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
@@ -29,7 +29,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"component_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

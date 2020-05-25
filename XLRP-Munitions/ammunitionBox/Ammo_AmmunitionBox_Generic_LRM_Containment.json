@@ -8,7 +8,7 @@
     "Capacity" : 90,
     "Description" : {
         "Cost" : 30000,
-        "Rarity" : 0,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM",
@@ -34,7 +34,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_variant"
         ],
         "tagSetSourceFile" : ""
     }
