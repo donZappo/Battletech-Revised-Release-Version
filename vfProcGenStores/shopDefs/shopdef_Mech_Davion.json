@@ -20,6 +20,13 @@
    },
    "Inventory" : [
 	 {
+	   "ID": "mechdef_valkyire_VLK-QF",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
 	   "ID": "mechdef_griffin_GRF-1DS",
 	   "Type": "MechPart",
 	   "Discount Modifier": 1,

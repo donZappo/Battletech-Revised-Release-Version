@@ -18,6 +18,13 @@
    "Inventory" : [],
    "Specials" : [
       {
+         "ID" : "Gear_Sensor_ActiveProbe",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
          "ID" : "Gear_TargetingTrackingSystem_LMT_VTAS-30",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,

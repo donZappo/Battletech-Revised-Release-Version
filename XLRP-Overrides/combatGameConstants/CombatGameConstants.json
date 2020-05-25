@@ -409,7 +409,8 @@
     },
     "CoolantVentCooldownEffect": {
       "durationData": {
-        "duration": 3,
+        "duration": -1,
+        "stackLimit" : -1,
         "ticksOnActivations": true
       },
       "targetingData": {
@@ -422,13 +423,13 @@
       "Description": {
         "Id": "AbilityDefGu8",
         "Name": "COOLANT VENT",
-        "Details": "Gain 8 extra heat for the next 3 rounds.",
+        "Details": "Permanently gain 6 extra heat every round.",
         "Icon": "uixSvgIcon_ability_coolantVent"
       },
       "statisticData": {
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": "-8",
+        "modValue": "-6",
         "modType": "System.Int32"
       },
       "nature": "Debuff"

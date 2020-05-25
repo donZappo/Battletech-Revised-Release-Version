@@ -25,6 +25,13 @@
     "Inventory": [],
     "Specials": [
 		{
+            "ID": "Weapon_Laser_LargeLaserPulse_2-ExoStar",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },	
+		{
             "ID": "Weapon_Autocannon_LB20X_2-Shengli_Arms",
             "Type": "Weapon",
             "DiscountModifier": 1,
