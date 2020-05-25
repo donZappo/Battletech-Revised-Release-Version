@@ -26,7 +26,7 @@
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 1042000,
-        "Rarity" : 0,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Vlar",
         "Model" : "Fusion Core",

@@ -396,40 +396,40 @@
       "Description": {
         "Id": "AbilityDefGu8",
         "Name": "COOLANT VENT",
-        "Details": "Remove 50 extra heat.",
+        "Details": "Removes 50 extra heat over 4 turns (20/10/10/10).",
         "Icon": "uixSvgIcon_ability_coolantVent"
       },
       "statisticData": {
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": "50",
+        "modValue": "10",
         "modType": "System.Int32"
       },
       "nature": "Buff"
     },
     "CoolantVentCooldownEffect": {
       "durationData": {
-        "duration": -1,
-        "stackLimit" : -1,
+        "duration": 4,
+        "stackLimit" : 1,
         "ticksOnActivations": true
       },
       "targetingData": {
         "effectTriggerType": "OnActivation",
         "effectTargetType": "Creator",
-        "showInTargetPreview": true,
-        "showInStatusPanel": true
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
       },
       "effectType": "StatisticEffect",
       "Description": {
         "Id": "AbilityDefGu8",
         "Name": "COOLANT VENT",
-        "Details": "Permanently gain 6 extra heat every round.",
+        "Details": "",
         "Icon": "uixSvgIcon_ability_coolantVent"
       },
       "statisticData": {
         "statName": "HeatSinkCapacity",
         "operation": "Int_Add",
-        "modValue": "-6",
+        "modValue": "10",
         "modType": "System.Int32"
       },
       "nature": "Debuff"

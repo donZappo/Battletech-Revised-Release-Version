@@ -10,8 +10,8 @@
     "DissipationCapacity" : 4.5,
     "Description" : {
         "Cost" : 200000,
-        "Rarity" : 100,
-        "Purchasable" : false,
+        "Rarity" : 7,
+        "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Double",
         "UIName" : "Heat Sink (D)",
@@ -34,7 +34,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_variant",
+			"component_type_lostech"
         ],
         "tagSetSourceFile" : ""
     }

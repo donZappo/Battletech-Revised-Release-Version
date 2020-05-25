@@ -26,8 +26,8 @@
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 6000000,
-        "Rarity" : 0,
-        "Purchasable" : false,
+        "Rarity" : 7,
+        "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Cooling System",
         "UIName" : "Cooling (DHS)",
@@ -50,7 +50,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"component_type_lostech"
         ],
         "tagSetSourceFile" : ""
     }

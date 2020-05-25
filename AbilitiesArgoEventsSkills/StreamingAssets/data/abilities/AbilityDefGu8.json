@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefGu8",
 		"Name" : "COOLANT VENT",
-		"Details" : "ACTION: This unit will remove 50 extra heat this round. This unit will gain an extra 6 heat every round for each use. There is a 3 round cooldown.",
+		"Details" : "ACTION: This unit will remove 50 extra heat over 4 rounds (20/10/10/10). There is a 4 round cooldown. Usable twice.",
 		"Icon" : "uixSvgIcon_ability_coolantVent"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -10,6 +10,7 @@
 	"ReqSkillLevel" : 8,
 	"ActivationTime" : "ConsumedByFiring",
     "Targeting" : "ConfirmCoolantVent",
-    "ActivationCooldown" : 3,
+    "ActivationCooldown" : 4,
+	"NumberOfUses" : 2,
 	"IsPrimaryAbility" : true
 }
