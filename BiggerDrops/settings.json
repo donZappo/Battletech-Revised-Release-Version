@@ -3,7 +3,7 @@
   "additionalLanceName": "EXTRA BAYS",
   "additinalMechSlots": 0,
   "additinalPlayerMechSlots": 0,
-  "defaultMaxTonnage": 200,
+  "defaultMaxTonnage": 170,
   "allowUpgrades" : true,
   "showAdditionalArgoUpgrades" : true,
   "argoUpgradeName" : "Leopard Drop Ship",

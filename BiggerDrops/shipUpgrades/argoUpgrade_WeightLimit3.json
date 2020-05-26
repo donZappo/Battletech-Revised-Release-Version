@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit3",
         "Name" : "Engine Repairs 4",
-        "Details" : "Turns out the engine mounts are almost completely rusted away commander. We're gonna need to rebuild them before we can start fixing the engines, otherwise they'll rip themselves out under too much stress. <b><color=#F79232>Increases Drop Weight Limit by 25 tons</color></b>",
+        "Details" : "Turns out the engine mounts are almost completely rusted away commander. We're gonna need to rebuild them before we can start fixing the engines, otherwise they'll rip themselves out under too much stress. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
@@ -36,7 +36,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "BiggerDrops_MaxTonnage",
-			"value" : 25,
+			"value" : 35,
 			"valueConstant" : ""
 		} 
     ]

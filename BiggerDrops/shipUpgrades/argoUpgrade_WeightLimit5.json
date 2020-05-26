@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit5",
         "Name" : "Engine Repairs 6",
-        "Details" : "The engine work continues, Commander. We've almost got those engines back up to their rated output. A little more tweaking should do it. <b><color=#F79232>Increases Drop Weight Limit by 25 tons</color></b>",
+        "Details" : "The engine work continues, Commander. We've almost got those engines back up to their rated output. A little more tweaking should do it. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
@@ -36,7 +36,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "BiggerDrops_MaxTonnage",
-			"value" : 25,
+			"value" : 35,
 			"valueConstant" : ""
 		} 
     ]
