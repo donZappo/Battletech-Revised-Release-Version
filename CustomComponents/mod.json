@@ -11,7 +11,7 @@
 	"CustomResourceTypes": ["CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon"],
 	
 	"Settings" : {
-		"LogLevel": "Debug",
+		"LogLevel": "Error",
 		"DebugInfo" : "Icons",
 
 		"Categories": [ ],
@@ -43,7 +43,7 @@
         "OmniTechCostBySize": false,
         "OmniTechInstallCost": 1,
 		
-		"OverrideSalvageGeneration" : true,
+		"OverrideSalvageGeneration" : false,
 		"NoLootCTDestroyed" : false,
 
 		"OverrideRecoveryChance" : true,

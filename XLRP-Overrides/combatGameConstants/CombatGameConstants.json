@@ -166,7 +166,7 @@
       "statisticData": {
         "statName": "SensorSignatureModifier",
         "operation": "Float_Add",
-        "modValue": "0.0",
+        "modValue": "0.1",
         "modType": "System.Single"
       },
       "nature": "Debuff"
