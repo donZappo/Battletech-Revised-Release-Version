@@ -225,17 +225,6 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_MASC", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
