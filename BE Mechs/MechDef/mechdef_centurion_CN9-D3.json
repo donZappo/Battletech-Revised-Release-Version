@@ -520,17 +520,6 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TSM", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }
     ], 
     "simGameMechPartCost": 809088
 }
