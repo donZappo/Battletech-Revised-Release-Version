@@ -19,7 +19,7 @@
 		"NewAlgorithm" : true,
 		"BEXCE" : false,
 		"TonnageLimits" : true,
-		"StartingTonnage" : 200,
-		"TonnagePerStep" : 25
+		"StartingTonnage" : 170,
+		"TonnagePerStep" : 35
 	}
 }
