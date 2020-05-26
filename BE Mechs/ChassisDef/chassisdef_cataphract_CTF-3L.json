@@ -1,5 +1,17 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [        
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_MASC", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },       
+    ], 
     "Description": {
         "Cost": 6920640, 
         "Rarity": 5, 
