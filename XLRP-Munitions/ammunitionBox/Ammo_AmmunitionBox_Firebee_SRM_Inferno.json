@@ -16,10 +16,10 @@
         "UIName" : "SRM Ammo (Inferno)",
         "Id" : "Ammo_AmmunitionBox_Firebee_SRM_Inferno",
         "Name" : "SRM Ammo (Inferno)",
-        "Details" : "The Firebee's internal Inferno SRM Ammo Bin contains <color=#6aa84f>30 rounds</color> and may feed multiple weapons. This ammo bin is small enough that it can share its location with another component. \r\n\r\nInfernos are special fuel-air missile munitions that combine flammable chemicals with an adhesive compound to shower their targets with a burning gel. This gel is designed to increase a 'Mech's heat levels to the point where it shuts down the 'Mech's Fusion Engine. <color=#f79924>Inferno SRMs deal very little damage but for every missile that strikes the target increase its heat level by 4 points. </color>Inferno ammo bins <b>explode violently when destroyed.</b>\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.8</color></b> \r\n<b><color=#ffcc00>Heat damage per ammo: 1</color></b>",
+        "Details" : "The Firebee's internal Inferno SRM Ammo Bin contains <color=#6aa84f>30 rounds</color> and may feed multiple weapons. This ammo bin is small enough that it can share its location with another component. \r\n\r\nInfernos are special fuel-air missile munitions that combine flammable chemicals with an adhesive compound to shower their targets with a burning gel. This gel is designed to increase a 'Mech's heat levels to the point where it shuts down the 'Mech's Fusion Engine. <color=#f79924>Inferno SRMs deal very litte damage but for every missile that strikes the target Does 2 heat damage and continues to do 2 heat damage per round for 2 rounds. </color>Inferno ammo bins <b>explode violently when destroyed.</b>\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.8</color></b> \r\n<b><color=#ffcc00>Heat damage per ammo: 1</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "+4 Dmg.(H)",
+    "BonusValueA" : "+2 Dmg.(H)/2 Turns",
     "BonusValueB" : "-5 Dmg. -1 Stb.Dmg.",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
