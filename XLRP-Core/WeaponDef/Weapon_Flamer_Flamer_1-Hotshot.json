@@ -16,7 +16,7 @@
   "EvasiveDamageMultiplier" : 0,
   "EvasivePipsIgnored" : 0,
   "DamageVariance" : 0,
-  "HeatDamage" : 7.0,
+  "HeatDamage" : 4.0,
   "AccuracyModifier" : 0,
   "CriticalChanceMultiplier" : 1.0,
   "AOECapable" : false,
@@ -51,7 +51,59 @@
   "DisallowedLocations" : "All",
   "StructureDamage" : 0.0,
   "CriticalComponent" : false,
-  "statusEffects" : [ ],
+  "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : 2,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 0,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "AbilityDefFlamer",
+                "Name" : "ON FIRE",
+                "Details" : "[INVERSE_AMT] heat generated per activation.",
+                "Icon" : "uixSvgIcon_statusOnFire"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatSinkCapacity",
+                "operation" : "Int_Add",
+                "modValue" : "-3",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
   "ComponentTags" : {
     "items" : [
       "component_type_variant",
