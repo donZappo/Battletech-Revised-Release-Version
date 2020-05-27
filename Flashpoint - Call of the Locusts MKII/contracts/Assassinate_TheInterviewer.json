@@ -1,17 +1,17 @@
 {
     "ID" : "Assassinate_TheInterviewer",
     "contractName" : "The Anvil of Pain II",
-    "contractDisplayStyle" : "BaseFlashpoint",
+    "contractDisplayStyle" : "BaseCampaignNormal",
     "difficulty" : 2,
     "difficultyUIModifier" : 0,
     "weight" : 1,
-    "scope" : "MID_CAMPAIGN",
+    "scope" : "STANDARD",
     "finalDifficulty" : 0,
-    "representativeCastDefIDOverride" : "",
-    "missionSuccessStatementOverride" : null,
-    "badFaithStatementOverride" : null,
-    "goodFaithStatementOverride" : null,
-    "shortDescription" : "Commander, The Interviewer has sent us his coordinates.  There hasn't been time to do a full survey of the AO, so you'll be going in blind.",
+    "representativeCastDefIDOverride" : "castDef_CabalDefault",
+    "missionSuccessStatementOverride" : "congratulations Commander. I think you'll find your renumeration adequate.",
+    "badFaithStatementOverride" : "Clearly you have bitten off more than you can chew.",
+    "goodFaithStatementOverride" : "Ummm, I think we can overlook the leftovers - for now!",
+    "shortDescription" : "Commander, The Interviewer has sent us his coordinates but there hasn't been time to do a full survey of the AO. We'll be going in blind.",
     "longDescription" : "It's hard for me to overstate what a terrible idea it is to go into a mission with no terrain intel. There could be <i>anything</i> down there.",
     "salvagePotential" : 8,
     "requirementList" : [],
@@ -219,7 +219,7 @@
                     "revealRadius" : -1
                 },
 				{
-                    "words" : "Surprised you recognise it for what it is. There are not many alive the recognise it frow what it is.",
+                    "words" : "Surprised you recognise it for what it is. There are not many alive the recognise it for what it is.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -308,7 +308,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "I hope this is the last little 'Test' it's starting to be old.",
+                    "words" : "I hope this is the last little 'Test'. It's starting to get old.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

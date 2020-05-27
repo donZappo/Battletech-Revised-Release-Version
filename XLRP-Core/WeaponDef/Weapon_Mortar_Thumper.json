@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Artillery_Thumper",
   "Description" : {
     "Cost" : 140000,
-    "Rarity" : 99,
+    "Rarity" : 8,
     "Purchasable" : false,
     "Manufacturer" : "Western",
     "Model" : "Heavy Autocannon",

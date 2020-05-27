@@ -6,6 +6,12 @@
             "Long" : " "
         },
         {
+            "Bonus" : "HSCompatible",
+            "Short" : "Can be Mixed with Other HS",
+            "Long" : "Can be Mixed with Other HS",
+			"Full" : "Can be used with other HS. Does not count towards 10 HS Minimum."
+        },
+        {
             "Bonus" : "EngineLimit",
             "Short" : "{0} Engine or Higher",
             "Long" : "{0} Engine or Higher",

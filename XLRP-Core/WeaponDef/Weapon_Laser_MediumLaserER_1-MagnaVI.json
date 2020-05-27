@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Medium",
   "Description" : {
     "Cost" : 512500,
-    "Rarity" : 3,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Magna VI",
     "Model" : "Extended-Range Medium Laser",
@@ -54,10 +54,10 @@
   "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_standard",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant1",
+      "TechLevel_HighTech",
+      "range_standard"
     ],
     "tagSetSourceFile" : ""
   },

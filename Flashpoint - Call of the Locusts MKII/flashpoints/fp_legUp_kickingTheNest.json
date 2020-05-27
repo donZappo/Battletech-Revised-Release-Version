@@ -57,7 +57,7 @@
     "UnitDropTonnageHint" : "Light",
     "LanceDropTonnageHint" : "Light",
     "FlashpointShortDescription" : "Commander {COMMANDER.LastName}, You don't know us but, we know you and have been keeping an eye on your new company.  \r\n\r\nStay the course and we're sure we can both profit... ",
-    "FlashpointDescriberCastDefId" : "castDef_HM_unknownOrigin_GangsterDefault",
+    "FlashpointDescriberCastDefId" : "castDef_scEnforcerDefault",
     "Tags" : {
         "items" : [],
         "tagSetSourceFile" : "tags/FlashpointTags"

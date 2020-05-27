@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
   "Description" : {
     "Cost" : 220000,
-    "Rarity" : 0,
+    "Rarity" : 1,
     "Purchasable" : true,
     "Manufacturer" : "Irian",
     "Model" : "Long-Range Missile Launcher",
@@ -55,7 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_extreme"
+      "range_extreme",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

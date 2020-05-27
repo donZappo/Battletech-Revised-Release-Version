@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 200000,
-    "Rarity" : 5,
+    "Rarity" : 1,
     "Purchasable" : true,
     "Manufacturer" : "Defiance",
     "Model" : "Binary Laser Cannon",
@@ -54,7 +54,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_long"
+      "range_long",
+      "TechLevel_HighTech"
     ],
     "tagSetSourceFile" : ""
   },

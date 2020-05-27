@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
   "Description" : {
     "Cost" : 100000,
-    "Rarity" : 0,
+    "Rarity" : 1,
     "Purchasable" : true,
     "Manufacturer" : "GM",
     "Model" : "Tactical Autocannon",
@@ -55,7 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_very-long"
+      "range_very-long",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

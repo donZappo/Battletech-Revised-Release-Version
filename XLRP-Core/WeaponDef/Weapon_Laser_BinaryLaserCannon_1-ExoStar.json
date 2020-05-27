@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 1000000,
-    "Rarity" : 2,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "ExoStar",
     "Model" : "Binary Laser Cannon",
@@ -50,11 +50,12 @@
   "AllowedLocations" : "All",
   "DisallowedLocations" : "All",
   "CriticalComponent" : false,
-  "statusEffects" : [],
+  "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
       "component_type_variant",
       "component_type_variant1",
+      "TechLevel_HighTech",
       "range_long"
     ],
     "tagSetSourceFile" : ""

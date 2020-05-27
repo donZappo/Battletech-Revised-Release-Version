@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Ultra",
   "Description" : {
     "Cost" : 370000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Kali Yama",
     "Model" : "Shredder Autocannon",
@@ -56,8 +56,7 @@
     "items" : [
       "component_type_stock",
       "range_standard",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
   "Description" : {
     "Cost" : 4000000,
-    "Rarity" : 4,
+    "Rarity" : 7,
     "Purchasable" : false,
     "Manufacturer" : "SCI",
     "Model" : "Magnetic Cannon",
@@ -54,10 +54,10 @@
   "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_extreme",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant2",
+      "TechLevel_HighTech",
+      "range_extreme"
     ],
     "tagSetSourceFile" : ""
   },

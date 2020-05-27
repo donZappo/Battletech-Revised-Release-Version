@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
   "Description" : {
     "Cost" : 762500,
-    "Rarity" : 3,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Blankenburg 25",
     "Model" : "Extended-Range Large Laser",
@@ -54,10 +54,10 @@
   "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_very-long",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant1",
+      "TechLevel_HighTech",
+      "range_very-long"
     ],
     "tagSetSourceFile" : ""
   },

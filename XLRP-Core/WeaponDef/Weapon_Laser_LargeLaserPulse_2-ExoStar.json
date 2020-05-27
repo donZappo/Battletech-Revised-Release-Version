@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
   "Description" : {
     "Cost" : 2475000,
-    "Rarity" : 4,
+    "Rarity" : 7,
     "Purchasable" : true,
     "Manufacturer" : "ExoStar",
     "Model" : "Large Pulse Laser",
@@ -51,13 +51,13 @@
   "DisallowedLocations" : "All",
   "StructureDamage" : 0.0,
   "CriticalComponent" : false,
-  "statusEffects" : [],
+  "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_long",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant2",
+      "TechLevel_LowTech",
+      "range_long"
     ],
     "tagSetSourceFile" : ""
   },

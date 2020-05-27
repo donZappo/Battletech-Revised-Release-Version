@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
   "Description" : {
     "Cost" : 1300000,
-    "Rarity" : 3,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Donal",
     "Model" : "Particle Cluster Cannon",
@@ -107,9 +107,8 @@
     "items" : [
       "component_type_variant",
       "component_type_variant1",
-      "range_standard",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_HighTech",
+      "range_standard"
     ],
     "tagSetSourceFile" : ""
   },

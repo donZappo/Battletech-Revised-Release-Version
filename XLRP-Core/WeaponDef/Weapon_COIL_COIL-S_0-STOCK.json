@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
   "Description" : {
     "Cost" : 150000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Herakleion",
     "Model" : "Light COIL Beam",
@@ -56,7 +56,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_close"
+      "range_close",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

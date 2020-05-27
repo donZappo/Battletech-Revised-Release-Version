@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
   "Description" : {
     "Cost" : 900000,
-    "Rarity" : 4,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "Valiant",
     "Model" : "Short-Range Missile Launcher",
@@ -56,6 +56,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
+      "TechLevel_LowTech",
       "range_standard"
     ],
     "tagSetSourceFile" : ""

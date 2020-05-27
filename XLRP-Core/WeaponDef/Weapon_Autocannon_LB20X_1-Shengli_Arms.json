@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LB20X",
   "Description" : {
     "Cost" : 1200000,
-    "Rarity" : 3,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "Shengli Arms",
     "Model" : "Shredder Cluster Cannon",
@@ -55,9 +55,8 @@
     "items" : [
       "component_type_variant",
       "component_type_variant1",
-      "range_standard",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_HighTech",
+      "range_standard"
     ],
     "tagSetSourceFile" : ""
   },

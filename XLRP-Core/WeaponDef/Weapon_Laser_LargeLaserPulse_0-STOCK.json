@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
   "Description" : {
     "Cost" : 247500,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "SCI",
     "Model" : "Large Pulse Laser",
@@ -55,9 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "component_type_lostech",
-      "range_long",
-      "BLACKLISTED"
+      "TechLevel_LowTech",
+      "range_long"
     ],
     "tagSetSourceFile" : ""
   },

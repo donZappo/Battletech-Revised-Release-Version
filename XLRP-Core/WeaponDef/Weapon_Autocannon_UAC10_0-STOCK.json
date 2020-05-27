@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Ultra",
   "Description" : {
     "Cost" : 320000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Federated",
     "Model" : "Heavy Autocannon",
@@ -56,8 +56,7 @@
     "items" : [
       "component_type_stock",
       "range_long",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

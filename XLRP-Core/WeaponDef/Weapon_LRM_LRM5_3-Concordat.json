@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
   "Description" : {
     "Cost" : 1600000,
-    "Rarity" : 4,
+    "Rarity" : 6,
     "Purchasable" : true,
     "Manufacturer" : "Concordat",
     "Model" : "Long-Range Missile Launcher",
@@ -56,6 +56,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant3",
+      "TechLevel_LowTech",
       "range_extreme"
     ],
     "tagSetSourceFile" : ""

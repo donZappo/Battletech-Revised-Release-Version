@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Medium",
   "Description" : {
     "Cost" : 102500,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "SCI",
     "Model" : "Extended-Range Medium Laser",
@@ -55,9 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "component_type_lostech",
-      "range_standard",
-      "BLACKLISTED"
+      "TechLevel_HighTech",
+      "range_standard"
     ],
     "tagSetSourceFile" : ""
   },

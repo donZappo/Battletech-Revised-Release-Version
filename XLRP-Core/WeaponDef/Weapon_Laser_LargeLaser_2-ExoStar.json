@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 1400000,
-    "Rarity" : 3,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "ExoStar",
     "Model" : "Large Laser",
@@ -51,11 +51,12 @@
   "DisallowedLocations" : "All",
   "StructureDamage" : 0.0,
   "CriticalComponent" : false,
-  "statusEffects" : [],
+  "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
       "component_type_variant",
       "component_type_variant2",
+      "TechLevel_LowTech",
       "range_long"
     ],
     "tagSetSourceFile" : ""

@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
   "Description" : {
     "Cost" : 1237500,
-    "Rarity" : 3,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Thunderbolt 12",
     "Model" : "Large Pulse Laser",
@@ -54,10 +54,10 @@
   "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_long",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant1",
+      "TechLevel_MidTech",
+      "range_long"
     ],
     "tagSetSourceFile" : ""
   },

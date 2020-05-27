@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_blackMarket_Legup",
         "Name" : "LegUp",
-        "Details" : "This has been a rough few weeks.\r\n\r\nBeginning a new company and green pilots and low paying contracts. \r\nYou feel as though you are getting nowhere fast. \r\n\r\nAs least the lights are low and the beer cold.\r\n\r\nWhile sitting there wondering what next to do you feel someone drop something into your jacket.",
+        "Details" : "This has been a rough few weeks.\r\n\r\nBeginning a new company and green pilots and low paying contracts. \r\nYou feel as though you are getting nowhere fast. \r\n\r\nAt least the lights are low and the beer cold.\r\n\r\nWhile sitting there wondering what next to do you feel someone drop something into your jacket pocket.",
         "Icon" : "uixTxrSpot_ev_cc_kickingTheNest.png"
     },
     "Scope" : "Company",
@@ -58,7 +58,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Go to jail",
-                        "Details" : "The person frees their hand and tries to take a swing at you but with a decisive crack over the head with your stubbie, you drop him where he stands.\r\n\r\nUnfortunately, the Barkeep calls the local militia and after a brief tussle, you are arrested for assault\r\n\r\nLanguishing in jail you discover the note that had been dropped into your pocket.\r\nAnd it reads.  \r\nCommander {COMMANDER.LastName} it looks like you need a hand.  Turning the note over you see a GPS reference and a time - now long gone - and you groan inwardly.\r\n\r\nCould it get any worse ?\r\nThe magistrate hears your side of the story but still fines you \u20AC5000 for disturbing the peace.",
+                        "Details" : "The person frees their hand and tries to take a swing at you but with a decisive crack over the head with your stubbie, you drop him where he stands.\r\n\r\nUnfortunately, the Barkeep calls the local militia and after a brief tussle, you are arrested for assault. \r\n\r\nLanguishing in jail you discover the note that had been dropped into your pocket.\r\nAnd it reads.  \r\nCommander {COMMANDER.LastName} it looks like you need a hand.  Turning the note over you see a GPS reference and a time - now long gone - and you groan inwardly.\r\n\r\nCould it get any worse ?\r\nThe magistrate hears your side of the story but still fines you \u20AC5000 for disturbing the peace.",
                         "Icon" : null
                     },
                     "Weight" : 100,
@@ -138,7 +138,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "He escapes",
-                        "Details" : "The hand slips quickly away and he escapes into the crowd and you return to your inner struggles.  Later that evening you feel inside your jacket pocket and come up with a note - it reads.\r\n\"Commander {COMMANDER.LastName} it looks like you need a hand.\" \r\nTurning the note over you notice a set of GPS Coordinates and a time - now long expired.  \r\n\r\nYou grumble into you beer, \"Oh just awesome, this could have been the Legup we needed.\"",
+                        "Details" : "The hand slips quickly away and he escapes into the crowd and you return to your inner struggles.  Later that evening you feel inside your jacket pocket and come up with a note - it reads.\r\n\"Commander {COMMANDER.LastName} it looks like you need a hand.\" \r\n Turning the note over you notice a set of GPS Coordinates and a time - now long expired.  \r\n\r\nYou grumble into you beer, \"Oh just awesome, this could have been the Legup we needed.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,
@@ -202,7 +202,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Got him",
-                        "Details" : "With lightening reflexes you grab the hand... pulling the would be pickpocket close.\r\n   \r\n\"You've go five seconds before I drop you where you stand,\" \r\nThe pickpocket looks and in a low voice says, \r\n\r\n\"Commander {COMMANDER.LastName} it looks like you need a hand. Follow the instructions .. or not!\"\r\n\r\nThat evening you arrive at the designated location and 'Pickpocket' says one word, \"Alloway\", turns and disappears into the darkness.",
+                        "Details" : "With lightning reflexes you grab the hand... pulling the would be pickpocket close.\r\n   \r\n\"You've got five seconds before I drop you where you stand,\" \r\nThe pickpocket locks eyes with you and in a low voice says, \r\n\r\n\"Commander {COMMANDER.LastName} it looks like you need a hand. Follow the instructions ... or not!\"\r\n\r\nThat evening you arrive at the designated location and 'Pickpocket' says one word, \"Alloway\", turns and disappears into the darkness.",
                         "Icon" : null
                     },
                     "Weight" : 75,

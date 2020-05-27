@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
   "Description" : {
     "Cost" : 100000,
-    "Rarity" : 0,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Lindblad",
     "Model" : "Anti-Missile System",
@@ -55,7 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_close"
+      "range_close",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

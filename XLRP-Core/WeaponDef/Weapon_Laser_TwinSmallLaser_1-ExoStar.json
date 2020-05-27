@@ -51,11 +51,12 @@
   "DisallowedLocations" : "All",
   "StructureDamage" : 0.0,
   "CriticalComponent" : false,
-  "statusEffects" : [],
+  "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
       "component_type_variant",
       "component_type_variant1",
+      "TechLevel_LowTech",
       "range_close"
     ],
     "tagSetSourceFile" : ""

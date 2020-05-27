@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_TAG",
   "Description" : {
     "Cost" : 85000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Garret",
     "Model" : "Target Acquisition Gear",
@@ -61,7 +61,7 @@
         "ticksOnMovements" : false,
         "stackLimit" : 0,
         "clearedWhenAttacked" : false,
-		"activeTrackedEffect" : true
+        "activeTrackedEffect" : true
       },
       "targetingData" : {
         "effectTriggerType" : "OnHit",
@@ -144,6 +144,7 @@
     "items" : [
       "component_type_stock",
       "range_standard",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

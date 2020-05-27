@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
     "Cost" : 40000,
-    "Rarity" : 0,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Martell",
     "Model" : "Twin Small Laser",
@@ -55,7 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_close"
+      "range_close",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

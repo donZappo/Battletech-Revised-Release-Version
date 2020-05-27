@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
   "Description" : {
     "Cost" : 2000000,
-    "Rarity" : 2,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "Magna",
     "Model" : "Binary Laser Cannon",
@@ -55,6 +55,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
+      "TechLevel_HighTech",
       "range_long"
     ],
     "tagSetSourceFile" : ""

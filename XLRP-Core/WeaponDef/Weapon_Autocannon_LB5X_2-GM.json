@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
   "Description" : {
     "Cost" : 1700000,
-    "Rarity" : 4,
+    "Rarity" : 7,
     "Purchasable" : true,
     "Manufacturer" : "GM",
     "Model" : "Tactical Cluster Cannon",
@@ -55,9 +55,8 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
-      "range_very-long",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_HighTech",
+      "range_very-long"
     ],
     "tagSetSourceFile" : ""
   },

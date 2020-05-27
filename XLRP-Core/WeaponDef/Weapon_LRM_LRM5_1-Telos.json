@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
   "Description" : {
     "Cost" : 400000,
-    "Rarity" : 2,
+    "Rarity" : 3,
     "Purchasable" : true,
     "Manufacturer" : "Telos",
     "Model" : "Long-Range Missile Launcher",
@@ -56,6 +56,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant1",
+      "TechLevel_LowTech",
       "range_extreme"
     ],
     "tagSetSourceFile" : ""

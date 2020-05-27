@@ -66,7 +66,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Refusal",
-                        "Details" : "You really are stubborn aren't you Commander {COMMANDER.LastName}.\r\n\r\nTwice, we have offered you a leg up and part in a prosperous endeavour and twice, been refused.\r\n\r\nLooks like you'll have to do this the hard way, we won't offer this again.",
+                        "Details" : "You really are stubborn aren't you Commander {COMMANDER.LastName}.\r\n\r\nTwice, we have offered you a leg up and a part in a prosperous endeavour and twice, been refused.\r\n\r\nLooks like you'll have to do this the hard way, we won't offer this again.",
                         "Icon" : null
                     },
                     "Weight" : 100,
@@ -119,7 +119,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Accept the Note",
-                        "Details" : "Well, it took long enough to get your attention Commander {COMMANDER.LastName} and it still looks like you need a hand.\r\n\r\n\"How do you know my name?  I never mentioned it.\"\r\n\r\n\"That doesn't much matter now does it?  Follow the instructions .. or not, the choice is yours. You still have time!\"\r\n\r\nCautiously, you arrive at the designated location at the allocated time  and a voice from the shadows says one word, <i>'Alloway'</i>, then turns and disappears into the darkness.",
+                        "Details" : "Well, it took long enough to get your attention Commander {COMMANDER.LastName} and it still looks like you need a hand.\r\n\r\n\"How do you know my name?  I never mentioned it.\"\r\n\r\n\"That doesn't much matter now does it?  Follow the instructions .. or not, the choice is yours. You still have time!\"\r\n\r\nCautiously, you arrive at the designated location at the allocated time and a voice from the shadows says one word, <i>'Alloway'</i>, then turns and disappears into the darkness.",
                         "Icon" : null
                     },
                     "Weight" : 100,

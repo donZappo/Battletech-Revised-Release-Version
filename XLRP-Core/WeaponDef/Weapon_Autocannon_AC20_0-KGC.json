@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
   "Description" : {
     "Cost" : 180000,
-    "Rarity" : 0,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Kali Yama",
     "Model" : "King Crab Autocannon",
@@ -55,7 +55,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_standard"
+      "range_standard",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

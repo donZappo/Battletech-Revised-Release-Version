@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LB2X",
   "Description" : {
     "Cost" : 1500000,
-    "Rarity" : 4,
+    "Rarity" : 7,
     "Purchasable" : true,
     "Manufacturer" : "Defiance",
     "Model" : "Long-Range Cluster Cannon",
@@ -56,9 +56,8 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
-      "range_extreme",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_HighTech",
+      "range_extreme"
     ],
     "tagSetSourceFile" : ""
   },

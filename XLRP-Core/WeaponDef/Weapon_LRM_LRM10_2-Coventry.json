@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LRM10",
   "Description" : {
     "Cost" : 1500000,
-    "Rarity" : 3,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "Coventry",
     "Model" : "Long-Range Missile Launcher",
@@ -56,6 +56,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
+      "TechLevel_LowTech",
       "range_extreme"
     ],
     "tagSetSourceFile" : ""

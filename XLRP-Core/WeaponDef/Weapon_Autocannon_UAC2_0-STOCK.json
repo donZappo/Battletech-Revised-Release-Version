@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC2_Ultra",
   "Description" : {
     "Cost" : 200000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Imperator",
     "Model" : "Sniper Autocannon",
@@ -56,8 +56,7 @@
     "items" : [
       "component_type_stock",
       "range_extreme",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

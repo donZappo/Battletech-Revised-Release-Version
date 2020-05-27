@@ -25,6 +25,8 @@
     "LogLevel": "Error",
     "Procedurally Generate Store Contents": {
       "Enabled": true,
+	  "EquipmentAppearanceByMechs": false,
+	  "CareerDays": 1200,
       "StoreItemSourceFile": "./res/test-xlrp-store-content.xlsx",
       "MechAppearanceFile": "./res/BattleMech_Unit_Listing - canon.csv",
       "CascadeRollsOnFail": false,
@@ -69,7 +71,7 @@
       "RarityBrackets": [
         {
           "Name": "Ubiquitous",
-          "ChanceToAppear": 1,
+          "ChanceToAppear": 10,
           "Description": "",
           "QuantityBracket": {
             "Name": "Ubiquitous",

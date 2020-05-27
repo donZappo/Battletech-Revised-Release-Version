@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
     "Cost" : 400000,
-    "Rarity" : 4,
+    "Rarity" : 6,
     "Purchasable" : true,
     "Manufacturer" : "Starflash",
     "Model" : "Small Laser",
@@ -56,6 +56,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant3",
+      "TechLevel_LowTech",
       "range_close"
     ],
     "tagSetSourceFile" : ""

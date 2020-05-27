@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "You would believe the hide of these people.  Give them a bit of Tech and they think they can rule the Galaxy.  These {TEAM_TAR.FactionDef.Demonym} are becoming a thorn in the side of {TEAM_EMP.FactionDef.Name}. If you are wanting to reap the benefits of our arrangement, show no mercy. Erradicate these pests.",
-    "longDescription" : "These aren't even professional Mercenaries so I'm not even feeling guilty about stomping on those who give us Mercenaries a bad reputation.",
+    "shortDescription" : "You wouldn't believe the hide of these people.  Give them a bit of Tech and they think they can rule the Galaxy.  These {TEAM_TAR.FactionDef.Demonym} are becoming a thorn in the side of {TEAM_EMP.FactionDef.Name}. If you are wanting to reap the benefits of our arrangement, show no mercy. Eradicate these pests.",
+    "longDescription" : "These aren't even professional Mercenaries so I'm not even feeling guilty about stomping on those who give us real Mercenaries a bad reputation.",
     "salvagePotential" : 12,
 	"excludedFromProceduralGeneration" : true,
     "requirementList" : [
@@ -197,7 +197,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "However, even a bunch of Locusts can muck up your day. Still show caution, Commander.",
+                    "words" : "However, even a bunch of Locusts can muck up your day. Still, show caution Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -213,7 +213,7 @@
                     "revealRadius" : -1
                 },
 				{
-                    "words" : "Yeah, I've still got to patch the damage afterwards and it still costs. So, be careful, or I'll have you mucking out your own `Mechs.",
+                    "words" : "Yeah, I've still got to patch the damage afterwards. Armor's not free these days so be careful, or I'll have you mucking out your own Mechs.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -238,7 +238,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Time to clean the windshields. I've signaled our employers the 'pests' won't be messing with their operations from now on.",
+                    "words" : "Time to scrape the windshields. I've signaled our employers the 'pests' won't be messing with their operations any time soon.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

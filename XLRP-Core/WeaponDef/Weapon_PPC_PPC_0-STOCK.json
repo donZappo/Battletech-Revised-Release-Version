@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
   "Description" : {
     "Cost" : 180000,
-    "Rarity" : 0,
+    "Rarity" : 1,
     "Purchasable" : true,
     "Manufacturer" : "Magna",
     "Model" : "Particle Projector Cannon",
@@ -107,7 +107,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_very-long"
+      "range_very-long",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

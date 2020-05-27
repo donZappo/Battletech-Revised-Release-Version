@@ -1,0 +1,46 @@
+{
+	"Custom": {
+		"ComponentExplosion": { "HeatDamage": 5, "ExplosionDamage": 10, "StabilityDamage": 5 }
+		"RGBColor" : { "Color" : "#126E8A" },
+		
+		"BonusDescriptions": {
+			"Bonuses": [
+				"HSCompatible"
+			]
+		},
+		}
+	},
+    "DissipationCapacity" : 4.25,
+    "Description" : {
+        "Cost" : 200000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "House Davion",
+        "Model" : "Double",
+        "UIName" : "Heat Sink (P)",
+        "Id" : "Gear_HeatSink_Generic_Prototype",
+        "Name" : "Protoype Heat Sink (P)",
+        "Details" : "These Prototype Heat Sinks were created by House Davion researchers. Unlike the Double Heat Sinks used by the Star League and after the War of 3039 these prototype units were smaller. As an experiment, they worked adequately, but their use of liquid heavy metals instead of the safer (if larger) radiators used in SLDF double heat sinks meant that they have been highly unstable. <b><color=#099ff2>VOLATILE!</color></b>",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 4.25 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+

@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
   "Description" : {
     "Cost" : 1800000,
-    "Rarity" : 3,
+    "Rarity" : 5,
     "Purchasable" : true,
     "Manufacturer" : "Ceres Arms",
     "Model" : "Particle Projector Cannon",
@@ -108,6 +108,7 @@
     "items" : [
       "component_type_variant",
       "component_type_variant2",
+      "TechLevel_LowTech",
       "range_very-long"
     ],
     "tagSetSourceFile" : ""

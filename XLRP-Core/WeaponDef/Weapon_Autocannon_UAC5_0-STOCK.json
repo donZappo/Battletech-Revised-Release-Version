@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_AC5_Ultra",
   "Description" : {
     "Cost" : 220000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Mydron",
     "Model" : "Tactical Autocannon",
@@ -56,8 +56,7 @@
     "items" : [
       "component_type_stock",
       "range_very-long",
-      "component_type_lostech",
-      "BLACKLISTED"
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },

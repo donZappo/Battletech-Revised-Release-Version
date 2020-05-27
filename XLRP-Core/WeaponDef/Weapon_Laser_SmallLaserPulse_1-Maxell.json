@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
   "Description" : {
     "Cost" : 105000,
-    "Rarity" : 3,
+    "Rarity" : 4,
     "Purchasable" : true,
     "Manufacturer" : "Maxell Metals",
     "Model" : "Small Pulse Laser",
@@ -54,10 +54,10 @@
   "statusEffects" : [ ],
   "ComponentTags" : {
     "items" : [
-      "component_type_stock",
-      "component_type_lostech",
-      "range_close",
-      "BLACKLISTED"
+      "component_type_variant",
+      "component_type_variant1",
+      "TechLevel_MidTech",
+      "range_close"
     ],
     "tagSetSourceFile" : ""
   },

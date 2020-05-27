@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_COILS",
   "Description" : {
     "Cost" : 360000,
-    "Rarity" : 99,
+    "Rarity" : 2,
     "Purchasable" : true,
     "Manufacturer" : "Herakleion",
     "Model" : "Heavy COIL Beam",
@@ -56,7 +56,8 @@
   "ComponentTags" : {
     "items" : [
       "component_type_stock",
-      "range_long"
+      "range_long",
+      "TechLevel_LowTech"
     ],
     "tagSetSourceFile" : ""
   },
