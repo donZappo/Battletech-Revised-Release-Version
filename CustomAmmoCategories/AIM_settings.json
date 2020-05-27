@@ -105,7 +105,7 @@
   /* Show ammo count in the list of components when you mouseover the paper doll.  Default true for friends. */
 
   "ShowAmmoInTooltip": true,
-  "ShowEnemyAmmoInTooltip": true,
+  "ShowEnemyAmmoInTooltip": false,
 
   /* Format of short mechwarrior hint that shows up when you mouseover/right-click the portrait.
    * Default "G:{3} P:{4} G:{5} T:{6}" which summarise his/her stats.  Set to empty to leave at game default. */
@@ -306,8 +306,8 @@
   /* Max and min hit chance after all modifiers but before roll correction. Default 0.95 and 0.05, same as game default.
    * Note that 100% hit chance (max) may still miss if roll correction is enabled. */
 
-  "MaxFinalHitChance": 0.99,
-  "MinFinalHitChance": 0.01,
+  "MaxFinalHitChance": 0.95,
+  "MinFinalHitChance": 0.05,
 
   /* Make hit chance modifier has diminishing return rather than simple add and subtract.  Default false. */
 
@@ -357,7 +357,7 @@
    * Otherwise, MissStreakBreakerThreshold is deduced from triggering attack's hit rate, then divided by this much, then added to streak breaker's chance modifier.
    * Default is 5, same as game default. */
 
-  "MissStreakBreakerDivider": 0,
+  "MissStreakBreakerDivider": 5,
 
   /* Show the % margin of a missed attack in damage floatie. Smaller % = closer miss.  Default true. */
 
@@ -385,7 +385,7 @@
 
   /* Show corrected hit chance in weapon panel, instead of original (fake) hit chance, before streak breaker.  Default false. */
 
-  "ShowCorrectedHitChance": true,
+  "ShowCorrectedHitChance": false,
 
   /* Format of called shot location percentages, in C# String.Format syntax.
    * Game default is "{0:0}%". Use "{0:0.0}%" to *always* show one decimal, or "{0:0.#}%" for *up to* one decimal.
