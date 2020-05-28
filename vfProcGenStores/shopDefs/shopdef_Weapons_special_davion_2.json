@@ -2,7 +2,6 @@
     "ID": "shopdef_Weapons_special_davion_2",
     "RequirementTags": {
         "items": [
-            "planet_faction_davion",
             "planet_industry_research"
         ],
         "tagSetSourceFile": ""

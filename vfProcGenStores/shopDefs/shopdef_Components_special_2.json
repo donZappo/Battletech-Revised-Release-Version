@@ -2,20 +2,29 @@
    "ID" : "shopdef_Components_special_2",
    "RequirementTags" : {
       "items" : [
-		 "planet_industry_research",
-		 "planet_civ_innersphere"
+		 "planet_industry_research"
 	  ],
       "tagSetSourceFile" : ""
    },
    "ExclusionTags" : {
       "items" : [
 		"planet_other_empty",
+		"planet_faction_independent",
+		"planet_faction_pirate",
+		"planet_faction_nofaction"
       ],
       "tagSetSourceFile" : ""
    },
    "Inventory" : [
    ],
    "Specials" : [
+	  {
+         "ID" : "Gear_HeatSink_Generic_Prototype",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
 	  {
          "ID" : "emod_engineslots_xl_center",
          "Type" : "HeatSink",
