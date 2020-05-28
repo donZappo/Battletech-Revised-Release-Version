@@ -11,11 +11,114 @@
     },
     "ExclusionTags": {
         "items": [
+            "planet_pop_none",
             "planet_other_empty"
         ],
         "tagSetSourceFile": ""
     },
     "Inventory": [
+        {
+            "ID": "Weapon_Autocannon_AC2_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Autocannon_AC5_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Flamer_Flamer_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM10_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+		{
+            "ID": "Weapon_Autocannon_AC10_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Autocannon_AC20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_PPC_PPC_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        }
     ],
     "Specials": []
 }

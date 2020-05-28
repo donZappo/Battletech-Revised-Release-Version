@@ -56,7 +56,7 @@
     "items" : [
       "component_type_stock",
       "range_standard",
-      "TechLevel_LowTech"
+      "TechLevel_MidTech"
     ],
     "tagSetSourceFile" : ""
   },
