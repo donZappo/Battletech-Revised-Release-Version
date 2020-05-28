@@ -13,7 +13,7 @@
 	{
 		"StartingPirateActivity" : 25.0,
 		"BonusPirateResources" : 500.0,
-		"PirateSystemFlagValue" : 5.0,
+		"PirateSystemFlagValue" : 25.0,
 		"FractionPirateResources" : 1,
 		
 		"ResourceScale" : 0.5,
@@ -31,6 +31,11 @@
 		"ExpandedMap" : false,
 		"ResetMap" : false,
 		
+		"ComstarSupport" : true,
+		"ComstarARBonus" : 200,
+		"ComstarDRBonus" : 200,
+		"ComstarSupportTime" : 3,
+		
 		"DeploymentMinDays" : 1,
 		"DeploymentMaxDays" : 6,
 		"DeploymentContracts" : 3.0,
@@ -43,6 +48,26 @@
 		"DeploymentReward_04" : "itemCollection_loot_careerReward_4",
 		"DeploymentReward_05" : "itemCollection_loot_careerReward_5",
 		"DeploymentReward_06" : "itemCollection_loot_careerReward_6",
+		
+		//***Attacking Resources
+		"planet_industry_poor" : 5,
+		"planet_industry_mining" : 10,
+		"planet_industry_rich" : 15,
+		"planet_industry_manufacturing" : 20,
+		"planet_industry_research" : 25,
+		"planet_other_starleague" : 30,
+		
+		//***Defending Resources
+		"planet_industry_agriculture" : 15,
+		"planet_industry_aquaculture" : 15,
+		"planet_other_capital" : 35,
+		"planet_other_megacity" : 25,
+		"planet_pop_large" : 20,
+		"planet_pop_medium" : 15,
+		"planet_pop_none" : 5,
+		"planet_pop_small" : 10,
+		"planet_other_hub" : 30,
+		"planet_other_comstar" : 0,
 		
 		"IncludedFactions": [
 			"Davion",
@@ -65,26 +90,26 @@
 			"ComStar"
 			],
 		"BonusAttackResources": {
-			"MagistracyOfCanopus" : 576,
-			"Davion" : 576,
-			"Liao" : 776,
-			"Marik" : 576,
-			"AuriganRestoration" : 576,
-			"TaurianConcordat" : 576,
-			"Locals" : 576,
-			"NoFaction" : 576,
+			"MagistracyOfCanopus" : 500,
+			"Davion" : 500,
+			"Liao" : 500,
+			"Marik" : 500,
+			"AuriganRestoration" : 500,
+			"TaurianConcordat" : 500,
+			"Locals" : 500,
+			"NoFaction" : 500,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
 		"BonusDefensiveResources": {
-			"MagistracyOfCanopus" : 568,
-			"Davion" : 568,
-			"Liao" : 1568,
-			"Marik" : 568,
-			"AuriganRestoration" : 568,
-			"TaurianConcordat" : 568,
-			"Locals" : 568,
-			"NoFaction" : 568,
+			"MagistracyOfCanopus" : 0,
+			"Davion" : 0,
+			"Liao" : 0,
+			"Marik" : 0,
+			"AuriganRestoration" : 0,
+			"TaurianConcordat" : 0,
+			"Locals" : 0,
+			"NoFaction" : 0,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
