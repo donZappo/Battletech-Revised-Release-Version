@@ -32,8 +32,8 @@
 		"ResetMap" : false,
 		
 		"ComstarSupport" : true,
-		"ComstarARBonus" : 200,
-		"ComstarDRBonus" : 200,
+		"ComstarARBonus" : 500,
+		"ComstarDRBonus" : 500,
 		"ComstarSupportTime" : 3,
 		
 		"DeploymentMinDays" : 1,
