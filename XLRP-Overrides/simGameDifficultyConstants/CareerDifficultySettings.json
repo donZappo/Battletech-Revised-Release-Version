@@ -292,7 +292,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_mongoose_MON-67"
+              "ConstantValue": "mechdef_mongoose_MON-66"
             }
           ]
         },
@@ -304,7 +304,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_javelin_JVN-10P"
+              "ConstantValue": "mechdef_javelin_JVN-10N"
             }
           ]
         },
@@ -460,7 +460,7 @@
             {
               "ConstantType": "CareerMode",
               "ConstantName": "StartingPlayerMech",
-              "ConstantValue": "mechdef_hatchetman_HCT-3X"
+              "ConstantValue": "mechdef_hatchetman_HCT-3F"
             }
           ]
         },
