@@ -17,14 +17,14 @@
     "HERALDRY_VERSION": 1
   },
   "Travel": {
-    "DefaultSystemTravelTime": 2,
-    "DefaultFuelTime": 2,
-    "FuelStationFuelTime": 2,
+    "DefaultSystemTravelTime": 4,
+    "DefaultFuelTime": 3,
+    "FuelStationFuelTime": 3,
     "MinMapX": 0,
     "MaxMapX": 0,
     "MinMapY": 0,
     "MaxMapY": 0,
-    "MaxJumpDistance": 45,
+    "MaxJumpDistance": 30,
     "StarSystemPrefix": "starsystemdef_",
     "HabitablePlanetTags": [
       "planet_climate_arctic",
