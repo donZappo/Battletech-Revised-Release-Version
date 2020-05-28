@@ -77,6 +77,12 @@
       "Short": "+{0} StandUp",
       "Long": "+{0} StandUp",
       "Full": "+{0} to the Standing Up Piloting Roll"
+    },
+	{
+      "Bonus": "WillExplode",
+      "Short": "{0} Damage on Explosion",
+      "Long": "{0} Damage on Explosion",
+      "Full": "When crit this item will explode for {0} structure damage."
     }
   ]
 }

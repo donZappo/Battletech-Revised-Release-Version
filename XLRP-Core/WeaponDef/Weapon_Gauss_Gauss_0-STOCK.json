@@ -1,4 +1,13 @@
 {
+	"Custom": {
+		"ComponentExplosion": { "ExplosionDamage": 10 }
+		
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WillExplode: 10"
+			]
+		},
+	},
   "Category" : "Ballistic",
   "Type" : "Gauss",
   "WeaponSubType" : "Gauss",
@@ -60,6 +69,5 @@
     ],
     "tagSetSourceFile" : ""
   },
-  "CanExplode" : true,
   "ammoCategoryID" : "GAUSS"
 }

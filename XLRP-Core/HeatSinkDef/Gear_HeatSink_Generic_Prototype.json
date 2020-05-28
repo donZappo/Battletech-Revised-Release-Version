@@ -5,7 +5,8 @@
 		
 		"BonusDescriptions": {
 			"Bonuses": [
-				"HSCompatible"
+				"HSCompatible",
+				"WillExplode: 10"
 			]
 		},
 	},

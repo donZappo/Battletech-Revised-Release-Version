@@ -1,4 +1,13 @@
 {
+	"Custom": {
+		"ComponentExplosion": { "ExplosionDamage": 10 }
+		
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WillExplode: 10"
+			]
+		},
+	},
   "Category" : "Energy",
   "Type" : "COIL",
   "WeaponSubType" : "COILM",
@@ -66,7 +75,6 @@
   "ProjectileSpeedMultiplier" : 0.1,
   "ColorChangeRule" : "Linear",
   "HitGenerator" : "Streak",
-  "CanExplode" : true,
   "ColorsTable" : [
     {
       "C" : "#008080",

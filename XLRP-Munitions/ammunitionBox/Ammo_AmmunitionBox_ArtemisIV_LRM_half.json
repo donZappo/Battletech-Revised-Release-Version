@@ -59,7 +59,8 @@
 		"items": [
 			"component_type_stock",
 			"component_noupgrade",
-			"LRMARTIVAmmo"
+			"LRMARTIVAmmo",
+			"TechLevel_HighTech"
 		],
 		"tagSetSourceFile": ""
 	}

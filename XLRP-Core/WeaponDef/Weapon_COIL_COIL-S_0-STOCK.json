@@ -1,4 +1,13 @@
 {
+	"Custom": {
+		"ComponentExplosion": { "ExplosionDamage": 10 }
+		
+		"BonusDescriptions": {
+			"Bonuses": [
+				"WillExplode: 10"
+			]
+		},
+	},
   "Category" : "AntiPersonnel",
   "Type" : "COIL",
   "WeaponSubType" : "COILS",
@@ -65,7 +74,6 @@
   "ImprovedBallistic" : true,
   "ProjectileSpeedMultiplier" : 0.1,
   "HitGenerator" : "Streak",
-  "CanExplode" : true,
   "ColorsTable" : [
     {
       "C" : "#E55B3C",
