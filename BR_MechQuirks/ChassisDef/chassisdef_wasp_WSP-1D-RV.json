@@ -1,8 +1,7 @@
 {
     "ChassisTags": {
         "items": [
-            "IntegratedCockpit", 
-            "unit_mechtool"
+            "IntegratedCockpit"
         ], 
         "tagSetSourceFile": ""
     }, 
