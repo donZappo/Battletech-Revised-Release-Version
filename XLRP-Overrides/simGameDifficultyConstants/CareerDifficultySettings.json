@@ -1094,7 +1094,7 @@
 			"ID": "diff_techspeed",
 			"Name": "Tech Speed",
 			"UIOrder": 12,
-			"Tooltip": "This setting changes the rate at which new 'Mechs and technology appear. The timeline for BattleTech: Revised covers 35 years starting in the year 3028. Changing this setting will dictate how many days in-game it will take to cover that 35 year time span.",
+			"Tooltip": "This setting changes the rate at which new 'Mechs and technology appear. The timeline for BattleTech: Revised covers 35 years starting in the year 3028. Changing this setting will dictate how many days in-game it will take to cover that 35 year time span. Fast: 400 days; Normal: 1200 days; Epic: 3,600 days; Canonical: 12,600 days.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
