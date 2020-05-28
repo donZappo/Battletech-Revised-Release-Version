@@ -1088,6 +1088,68 @@
           ]
         }
       ]
-    }
+    },
+	
+		{
+			"ID": "diff_techspeed",
+			"Name": "Tech Speed",
+			"UIOrder": 12,
+			"Tooltip": "This setting changes the rate at which new 'Mechs and technology appear. The timeline for BattleTech: Revised covers 35 years starting in the year 3028. Changing this setting will dictate how many days in-game it will take to cover that 35 year time span.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_Fast",
+					"Name": "Fast",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "GameLength",
+                            "ConstantValue": "400",
+                        }
+					]
+				},
+				{
+					"ID": "diff_Normal",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "GameLength",
+                            "ConstantValue": "1200",
+                        }
+					]
+				},
+				{
+					"ID": "diff_Epic",
+					"Name": "Epic",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "GameLength",
+                            "ConstantValue": "3600",
+                        }
+					]
+				},
+				{
+					"ID": "diff_Canonical",
+					"Name": "Canonical",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+                        {
+                            "ConstantType": "CareerMode",
+                            "ConstantName": "GameLength",
+                            "ConstantValue": "12600",
+                        }
+					]
+				}
+			]				
+		}
   ]
 }
