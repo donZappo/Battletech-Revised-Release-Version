@@ -101,7 +101,7 @@
    },
    {
       "Type":"JumpJetDef",
-      "Path":"UpgradeDef\jumpjets",
+      "Path":"UpgradeDef/jumpjets",
       "AddToDB":true
    },
    {
