@@ -43,6 +43,7 @@
          "Name":"Sensors",
          "Range":60,
          "RangeStatistic":"CAE_SENSORS_RANGE",
+		 "HideOnNotSelected": true,
          "ApplySelf":false,
          "EnemyStealthAffection":"NegativeOne",
          "IsNegativeToEnemy":true,
