@@ -28,6 +28,13 @@
 	   "Weight": 1
 	 },
 	 {
+	   "ID": "mechdef_battlemaster_BLR-1GB",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
 	   "ID": "mechdef_stinger_STG-3Gb",
 	   "Type": "MechPart",
 	   "Discount Modifier": 1,

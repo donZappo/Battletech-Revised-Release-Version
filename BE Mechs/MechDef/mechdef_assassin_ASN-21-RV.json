@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 637272, 
         "Rarity": 3, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Assassin ASN-21-RV", 

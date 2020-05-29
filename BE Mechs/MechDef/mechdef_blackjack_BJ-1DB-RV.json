@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 714528, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Blackjack BJ-1DB-RV", 

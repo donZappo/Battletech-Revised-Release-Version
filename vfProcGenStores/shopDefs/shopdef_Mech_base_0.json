@@ -87,6 +87,13 @@
 	   "Weight": 1
 	 },
 	 {
+	   "ID": "mechdef_valkyrie_VLK-QF",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
+	 {
 	   "ID": "mechdef_valkyrie_VLK-QF-RV",
 	   "Type": "MechPart",
 	   "Discount Modifier": 1,
