@@ -170,7 +170,7 @@
     "UniqueSalvageTag": "BUILT-IN"
   },
   "Story": {
-    "CampaignStartDate": "3028-04-28T05:00:00Z",
+    "CampaignStartDate": "3028-01-01T05:00:00Z",
     "PrologueStartingSystem": "UrCruinne",
     "DefaultStartingSystem": "Tarragona",
     "CommanderPilotDefID": "pilot_commander",
@@ -733,7 +733,7 @@
     "GreaterThanThisTotalWeightIsHeavyLance": 240
   },
   "CareerMode": {
-    "CampaignStartDate": "3028-04-28T05:00:00Z",
+    "CampaignStartDate": "3028-01-01T05:00:00Z",
     "StartingGlobalContractDifficulty": 0,
     "GlobalContractDifficultyIncreasePerMRBRating": 0,
     "CareerStartingTags": [

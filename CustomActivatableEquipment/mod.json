@@ -38,12 +38,10 @@
       "auraUpdateMinTimeDelta":2,
       "auraUpdateMinPosDelta":20,
       "sensorsAura":{
-         "ReticleColor":"white",
          "Id":"Sensors",
          "Name":"Sensors",
-         "Range":60,
+         "Range":100,
          "RangeStatistic":"CAE_SENSORS_RANGE",
-		 "HideOnNotSelected": true,
          "ApplySelf":false,
          "EnemyStealthAffection":"NegativeOne",
          "IsNegativeToEnemy":true,

@@ -120,7 +120,7 @@
          "RemoveOnSensorLock":true,
          "State":"Online",
          "HideOnNotSelected":false,
-         "FloatieAtEndOfMove":true,
+         "FloatieAtEndOfMove":false,
          "ApplySelf":true,
          "AllyStealthAffection":"PositiveOne",
          "EnemyStealthAffection":"None",
