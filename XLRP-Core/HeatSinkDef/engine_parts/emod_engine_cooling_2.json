@@ -29,7 +29,7 @@
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 200000,
-        "Rarity" : 3,
+        "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Vlar",
         "Model" : "Engine Cooling System",
@@ -53,7 +53,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

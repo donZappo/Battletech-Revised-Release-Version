@@ -50,7 +50,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_variant"
+            "component_type_variant",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }
