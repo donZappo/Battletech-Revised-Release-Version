@@ -8,7 +8,7 @@
             "unit_noncombatant", 
             "unit_speed_high",
             "unit_armor_low",  
-            "unit_release",   
+			"BLACKLISTED",
             "NotSteiner",
             "NotKurita", 
             "NotTaurianConcordat",
