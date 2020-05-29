@@ -36,7 +36,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 2, 
+    "MaxJumpjets": 4, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 
@@ -54,7 +54,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 130, 
+    "MeleeDamage": 260, 
     "MeleeInstability": 95, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 120, 
