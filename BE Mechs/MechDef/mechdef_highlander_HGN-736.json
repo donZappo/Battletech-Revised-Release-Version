@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 2323712, 
         "Rarity": 6, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Highlander HGN-736", 
