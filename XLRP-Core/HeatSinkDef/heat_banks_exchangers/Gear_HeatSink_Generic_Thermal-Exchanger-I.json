@@ -2,7 +2,7 @@
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 360000,
-        "Rarity" : 4,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Thermal Exchanger I",
@@ -78,8 +78,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1",
+            "component_type_stock",
 			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""

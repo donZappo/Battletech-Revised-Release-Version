@@ -33,8 +33,8 @@
 	},
     "Description" : {
         "Cost" : 200000,
-        "Rarity" : 4,
-        "Purchasable" : false,
+        "Rarity" : 5,
+        "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Extra-light",
         "UIName" : "XL Engine",

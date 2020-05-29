@@ -33,7 +33,7 @@
 	},
     "Description" : {
         "Cost" : 937500,
-        "Rarity" : 5,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Defiance Light",
@@ -57,7 +57,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"TechLevel_HighTech"
         ],
         "tagSetSourceFile" : ""
     }

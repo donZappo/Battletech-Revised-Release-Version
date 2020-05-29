@@ -109,7 +109,10 @@
         }
     ],
     "ComponentTags" : {
-        "items" : [],
+        "items" : [
+			"BUILT-IN",
+			"BLACKLISTED"
+		],
         "tagSetSourceFile" : ""
     }
 }

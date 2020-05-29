@@ -48,61 +48,86 @@
 		
 		"Debug" : false,
 	},
-	
-	"Manifest": [
-		{
-			"Type": "AdvancedJSONMerge",
-			"Path": "AdvancedJSONMerge",
-			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "MEBonusDescriptions",
-			"Path": "MEBonusDescriptions",
-			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "MECriticalEffects",
-			"Path": "MECriticalEffects",
-			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "CCCategories",
-			"Path": "CCCategories",
-			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "CCTagRestrictions",
-			"Path": "CCTagRestrictions",
-			"ShouldMergeJSON": false
-		},
-        {
-            "Type": "CCDefaults",
-            "Path": "CCDefaults",
-            "ShouldMergeJSON": false
-        },
-		{
-			"Type": "UpgradeDef",
-			"Path": "UpgradeDef",
-			"AddToDB": true
-		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "HeatSinkDef",
-			"ShouldMergeJSON": false
-		},	
-		{
-			"Type": "ItemCollectionDef",
-			"Path": "ItemCollectionDef",
-			"ShouldMergeJSON": false
-		},
-		{ 	"Type": "WeaponDef",
-			"Path": "WeaponDef",
-			"AddToDB": true
-		},
-		{ "Type": "TurretDef", "Path": "turret", "AddToDB": true },
-		{ "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
-		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
-		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
-		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true }
-	]
+	"Manifest":[
+   {
+      "Type":"AdvancedJSONMerge",
+      "Path":"AdvancedJSONMerge",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"MEBonusDescriptions",
+      "Path":"MEBonusDescriptions",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"MECriticalEffects",
+      "Path":"MECriticalEffects",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"CCCategories",
+      "Path":"CCCategories",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"CCTagRestrictions",
+      "Path":"CCTagRestrictions",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"CCDefaults",
+      "Path":"CCDefaults",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"UpgradeDef",
+      "Path":"UpgradeDef",
+      "AddToDB":true
+   },
+   {
+      "Type":"HeatSinkDef",
+      "Path":"HeatSinkDef",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"ItemCollectionDef",
+      "Path":"ItemCollectionDef",
+      "ShouldMergeJSON":false
+   },
+   {
+      "Type":"WeaponDef",
+      "Path":"WeaponDef",
+      "AddToDB":true
+   },
+   {
+      "Type":"JumpJetDef",
+      "Path":"UpgradeDef\jumpjets",
+      "AddToDB":true
+   },
+   {
+      "Type":"TurretDef",
+      "Path":"turret",
+      "AddToDB":true
+   },
+   {
+      "Type":"TurretChassisDef",
+      "Path":"turretChassis",
+      "AddToDB":true
+   },
+   {
+      "Type":"VehicleDef",
+      "Path":"vehicle",
+      "AddToDB":true
+   },
+   {
+      "Type":"VehicleChassisDef",
+      "Path":"vehicleChassis",
+      "AddToDB":true
+   },
+   {
+      "Type":"MovementCapabilitiesDef",
+      "Path":"movement",
+      "AddToDB":true
+   }
+]
 }
