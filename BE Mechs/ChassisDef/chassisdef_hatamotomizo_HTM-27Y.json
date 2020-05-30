@@ -10,7 +10,7 @@
         "Id": "chassisdef_hatamotomizo_HTM-27Y", 
         "Name": "Hatamoto-Mizo", 
         "Details": "The Hatamoto-Mizo trades out the original SRMs for an ER Large Laser, removing the reliance on ammunition from the 'Mech.  Having the ER LL with the two PPCs along with a full compliment of armor makes the Mizo a very formidable foe.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-27Y", 
     "StockRole": "Heavy Sniper & Defender", 

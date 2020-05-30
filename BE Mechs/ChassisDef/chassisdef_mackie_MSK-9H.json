@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_mackie"
     }, 
     "VariantName": "MSK-9H", 
-    "StockRole": "__/Base_3061.chassisdef_mackie_MSK-9H.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_mackie_MSK-9H.YangsThoughts/__", 
+    "StockRole": "Juggernaut", 
+    "YangsThoughts": "This belongs in a museum.", 
     "PrefabIdentifier": "chrprfmech_mackiebase-001", 
     "PrefabBase": "mackie", 
     "Tonnage": 100, 
@@ -200,9 +200,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 320, 
-            "MaxRearArmor": 160, 
-            "InternalStructure": 160
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
         }, 
         {
             "Location": "RightTorso", 

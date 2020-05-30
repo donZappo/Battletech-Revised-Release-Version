@@ -10,7 +10,7 @@
         "Id": "chassisdef_hatamotochi_HTM-27T", 
         "Name": "Hatamoto-Chi", 
         "Details": "Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass-produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039 and earned the design its place as the light assault 'Mech of choice in the Combine military.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-27T", 
     "StockRole": "Heavy Sniper & Defender", 

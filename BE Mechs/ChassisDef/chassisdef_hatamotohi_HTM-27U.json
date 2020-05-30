@@ -10,7 +10,7 @@
         "Id": "chassisdef_hatamotohi_HTM-27U", 
         "Name": "Hatamoto-Hi", 
         "Details": "Also known as the Hatamoto-Hi, it is nearly identical to the HTM-27T, but trades off the reliance on ammunition by trading out the SRM-6s for four Medium Pulse Lasers along with an extra Heat Sink.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-27U", 
     "StockRole": "Heavy Sniper & Defender", 
