@@ -50,7 +50,7 @@
     "AvailableTimeout": 0,
     "UseInProgressTimeoutOverride": false,
     "InProgressTimeout": 0,
-    "RewardCollectionID": "BTA_FP_ThreeRogueItemsG",
+    "RewardCollectionID": "BTR_FP_DefenseCycle_Dist",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "The Directorate has taken possession of Itrom's largest processor and refinery, and is attempting to loot the attached silos of rare and valuable minerals. We want you to claim them for the Restoration instead. The materials that they mine on Itrom are worth a small fortune on the black market, and it will be better to have it in our hands than the Directorate's.",

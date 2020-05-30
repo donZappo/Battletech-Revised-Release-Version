@@ -50,7 +50,7 @@
     "AvailableTimeout": 0,
     "UseInProgressTimeoutOverride": false,
     "InProgressTimeout": 0,
-    "RewardCollectionID": "BTA_FP_ThreeRogueItemsG",
+    "RewardCollectionID": "BTR_FP_DefenseCycle_Dist",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "Lady Arano's contract to repel the Taurian assault on Panzyr is ready for review in the Command Center. We should follow up when you think we're ready.",
