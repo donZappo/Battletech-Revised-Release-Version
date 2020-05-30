@@ -28,7 +28,7 @@
     "StockRole": "Scout / Hunter-Killer", 
     "YangsThoughts": "This 'Mech is fast, real fast ... I'm not kidding! It's best utilized with ground based hit-and-run attackes with its COIL weaponry and when denied this, used to launch missiles from range.", 
     "PrefabIdentifier": "chrPrfMech_assassinBase-001", 
-    "PrefabBase": "Assassin", 
+    "PrefabBase": "assassin", 
     "Tonnage": 40, 
     "InitialTonnage": 4, 
     "weightClass": "MEDIUM", 

@@ -16,7 +16,7 @@
     "StockRole": "Scout & Disabler", 
     "YangsThoughts": "This variant of the Firestarter is faster and packs more armor than the original it was based on and punches well above its weight with the COIL-S weapons platofrms. As long as you keep the torso protected, this mech will give better than it gets, every time.", 
     "PrefabIdentifier": "chrPrfMech_firestarterBase-001", 
-    "PrefabBase": "Firestarter", 
+    "PrefabBase": "firestarter", 
     "Tonnage": 35, 
     "InitialTonnage": 3.5, 
     "weightClass": "LIGHT", 
