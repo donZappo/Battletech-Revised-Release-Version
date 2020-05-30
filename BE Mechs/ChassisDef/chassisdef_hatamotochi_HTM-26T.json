@@ -10,7 +10,7 @@
         "Id": "chassisdef_hatamotochi_HTM-26T", 
         "Name": "Hatamoto-Chi", 
         "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-26T", 
     "StockRole": "Heavy Sniper & Defender", 

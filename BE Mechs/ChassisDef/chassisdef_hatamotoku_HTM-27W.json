@@ -10,7 +10,7 @@
         "Id": "chassisdef_hatamotoku_HTM-27W", 
         "Name": "Hatamoto-Ku", 
         "Details": "The HTM-27W, known as the Hatamoto-Ku, trades out the original SRMs for an AC/5.  This gives the Ku the ability to pour on a lot of focussed fire at range.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-27W", 
     "StockRole": "Heavy Sniper & Defender", 

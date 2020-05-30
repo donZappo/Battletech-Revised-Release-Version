@@ -42,7 +42,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 95, 
+    "MeleeDamage": 125, 
     "MeleeInstability": 100, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 125, 
@@ -176,9 +176,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 320, 
-            "MaxRearArmor": 160, 
-            "InternalStructure": 160
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
         }, 
         {
             "Location": "RightTorso", 
