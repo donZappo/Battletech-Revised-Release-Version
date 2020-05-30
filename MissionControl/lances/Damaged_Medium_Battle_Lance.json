@@ -7,18 +7,36 @@
   "unitSpawnPointOverrideList": [
     {
       "unitType": "Mech",
+      "excludedUnitTagSet" : {
+			"items" : [
+				"unit_noncombatant",
+				"unit_urbie",
+			],
+		},
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_50"]
       }
     },
     {
       "unitType": "Mech",
+      "excludedUnitTagSet" : {
+			"items" : [
+				"unit_noncombatant",
+				"unit_urbie",
+			],
+		},
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_50"]
       }
     },
     {
       "unitType": "Mech",
+      "excludedUnitTagSet" : {
+			"items" : [
+				"unit_noncombatant",
+				"unit_urbie",
+			],
+		},
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_25"]
       }
