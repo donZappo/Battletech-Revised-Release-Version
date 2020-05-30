@@ -1,5 +1,5 @@
 {
-  "debugLog": true,
+  "debugLog": false,
   "additionalLanceName": "EXTRA BAYS",
   "additinalMechSlots": 0,
   "additinalPlayerMechSlots": 0,
@@ -9,5 +9,6 @@
   "argoUpgradeName" : "Leopard Drop Ship",
   "argoUpgradeCategory1Name" : "Drop Size",
   "argoUpgradeCategory2Name" : "Mech Control",
-  "argoUpgradeCategory3Name" : "Drop Tonnage"
+  "argoUpgradeCategory3Name" : "Drop Tonnage",
+  "limitFlashpointDrop" : true
 }

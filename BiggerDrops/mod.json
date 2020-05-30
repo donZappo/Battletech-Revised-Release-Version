@@ -1,7 +1,7 @@
 {
 	"Name": "BiggerDrops",
 	"Enabled": true,
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"PackagedOn": "2019-11-12T00:00:00Z",
 	"DLL": "BiggerDrops.dll",
 	"DLLEntryPoint": "BiggerDrops.BiggerDrops.Init",

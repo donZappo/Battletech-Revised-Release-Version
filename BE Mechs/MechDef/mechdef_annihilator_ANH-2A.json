@@ -17,7 +17,7 @@
         "UIName": "Annihilator ANH-2A", 
         "Id": "mechdef_annihilator_ANH-2A", 
         "Name": "Annihilator", 
-        "Details": "Originally developed in the final year of the Amaris Civil War as the ultimate fixed position city defense BattleMech, the Annihilator was built as a sign of the military strength of the Star League in Exile. The Annihilator 2A is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 'Mech is armed with four Mydron Excel LB-X Autocannon/10s as its primary weapons. The 'Mech is also armed with four Medium Pulse Lasers, which allow the Annihilator to decimate any target which is able to make it through the devastating hail of fire and into close range combat.
+        "Details": "Originally developed in the final year of the Amaris Civil War as the ultimate fixed position city defense BattleMech, the Annihilator was built as a sign of the military strength of the Star League in Exile. The Annihilator 2A is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 'Mech is armed with four Mydron Excel LB-X Autocannon/10s as its primary weapons. The 'Mech is also armed with four Medium Pulse Lasers, which allow the Annihilator to decimate any target which is able to make it through the devastating hail of fire and into close range combat.",
         "Icon": "uixTxrIcon_annihilator"
     }, 
     "RequiredToSpawnCompanyTags": {
