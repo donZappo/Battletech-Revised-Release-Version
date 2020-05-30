@@ -50,7 +50,7 @@
     "AvailableTimeout": 0,
     "UseInProgressTimeoutOverride": false,
     "InProgressTimeout": 0,
-    "RewardCollectionID": "BTA_FP_ThreeRogueItemsG",
+    "RewardCollectionID": "BTR_FP_WPAttack_Dist",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "This is it\u2026 our first strike against my uncle's Directorate. Our first step toward justice. While I lead the Restoration Army against Weldry's primary spaceport, you will launch a sneak attack against the Icebox and liberate it. I know that you can do this, {COMMANDER.Callsign}.\n\n<i>We</i> can do this. Together.",

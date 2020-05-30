@@ -16,7 +16,7 @@
     "StockRole": "Light Striker & Scout", 
     "YangsThoughts": "Must be something about those chicken legs boss, the Mongoose is one of the faster 'Mechs out there.  Combined with its firepower and durability, I think any of our Scouts would prefer this over a Locust.", 
     "PrefabIdentifier": "chrprfmech_mongoosebase-001", 
-    "PrefabBase": "Mongoose", 
+    "PrefabBase": "mongoose", 
     "Tonnage": 25, 
     "InitialTonnage": 2.5, 
     "weightClass": "LIGHT", 

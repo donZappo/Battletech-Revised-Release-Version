@@ -50,7 +50,7 @@
     "AvailableTimeout": 0,
     "UseInProgressTimeoutOverride": false,
     "InProgressTimeout": 0,
-    "RewardCollectionID": "BTA_FP_ThreeRogueItemsG",
+    "RewardCollectionID": "BTR_FP_WPAttack_Dist",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "Proceed to Panzyr, where you will assist the Restoration Army's efforts to liberate House Decimis.\r\n\r\nRestoration Army intel suggests that a lance built with long-range fire capabilities could prove advantageous on this drop. Further details will be provided upon your arrival.",

@@ -16,7 +16,7 @@
     "StockRole": "Sniper & Light Brawler", 
     "YangsThoughts": "I've no idea what we have got our hands on here, looks like some kind of Steiner prototype.  Giving her a look over I would say this thing will put fear in to Jenner and Panther pilots. Yup, I say we start with that and think of something more impressive later.", 
     "PrefabIdentifier": "chrprfmech_wolfhoundbase-001", 
-    "PrefabBase": "Wolfhound", 
+    "PrefabBase": "wolfhound", 
     "Tonnage": 35, 
     "InitialTonnage": 3.5, 
     "weightClass": "LIGHT", 

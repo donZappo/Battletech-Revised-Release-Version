@@ -50,7 +50,7 @@
     "AvailableTimeout": 0,
     "UseInProgressTimeoutOverride": false,
     "InProgressTimeout": 0,
-    "RewardCollectionID": "BTA_FP_ThreeRogueItemsG",
+    "RewardCollectionID": "BTR_FP_Smithon_Dist",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "The Restoration Army is engaged in a battle of attrition against Directorate forces, and our ground forces need resupply if they're going to prevail. To that end, I'm sending you to capture a Directorate munitions dump. Eliminate their defenses and prevent them from getting away with the munitions; our support staff will handle the rest.",
