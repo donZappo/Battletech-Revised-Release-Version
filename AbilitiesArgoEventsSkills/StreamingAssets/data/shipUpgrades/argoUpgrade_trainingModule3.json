@@ -24,9 +24,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 30,
-    "PurchaseCost" : 1850000,
-    "AdditionalCost" : 4700,
+    "TechCost" : 25,
+    "PurchaseCost" : 1100000,
+    "AdditionalCost" : 4500,
     "Tags" : {
         "items" : [
             "argo_trainingModule3"

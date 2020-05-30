@@ -16,8 +16,7 @@
     "AssignedCastDescription": "We've got a lot of extra space in here, Commander. It's just full of junk and pirate garbage, and half of the bulkheads are missing. I could pull my engineers off 'Mech duties and we could get another six 'Mech bays online. Just say the word.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_mechBay1",
-            "argoUpgrade_power1",
+            "argoUpgrade_mechBay1"
 			"argoUpgrade_structure1"
         ],
         "tagSetSourceFile" : ""
@@ -26,7 +25,7 @@
         
     ],
     "TechCost" : 20,
-    "PurchaseCost" : 860000,
+    "PurchaseCost" : 1100000,
     "AdditionalCost" : 15000,
     "Tags" : {
         "items" : [

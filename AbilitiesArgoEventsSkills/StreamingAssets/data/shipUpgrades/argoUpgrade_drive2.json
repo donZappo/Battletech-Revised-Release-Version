@@ -17,6 +17,7 @@
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_drive1",
+			"argoUpgrade_structure2",
 			"argoUpgrade_power3"
 		],
         "tagSetSourceFile" : ""
@@ -24,8 +25,8 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 60,
-    "PurchaseCost" : 2500000,
+    "TechCost" : 30,
+    "PurchaseCost" : 2750000,
     "AdditionalCost" : 15000,
     "Tags" : {
         "items" : [

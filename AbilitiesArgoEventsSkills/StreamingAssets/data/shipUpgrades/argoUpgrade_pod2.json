@@ -17,16 +17,15 @@
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod1",
-			"argoUpgrade_power2",
-			"argoUpgrade_structure2"
+			"argoUpgrade_structure1"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 6,
-    "PurchaseCost" : 650000,
+    "TechCost" : 10,
+    "PurchaseCost" : 550000,
     "AdditionalCost" : 1500,
     "Tags" : {
         "items" : [

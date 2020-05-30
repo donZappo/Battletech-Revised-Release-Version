@@ -16,8 +16,7 @@
     "AssignedCastDescription": "Commander, there are already a half dozen requests for new facilities for the extra unused space in Gamma Pod, ranging from a swimming pool to a DropShip-sized bouncy castle. We leave these 'fun' decisions in your hands, Commander",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_pod2",
-			"argoUpgrade_power2",
+			"argoUpgrade_pod2"
 			"argoUpgrade_structure2"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 8,
-    "PurchaseCost" : 850000,
+    "TechCost" : 15,
+    "PurchaseCost" : 1100000,
     "AdditionalCost" : 2000,
     "Tags" : {
         "items" : [

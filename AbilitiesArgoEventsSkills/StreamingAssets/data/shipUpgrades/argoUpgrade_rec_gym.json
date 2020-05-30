@@ -23,9 +23,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 130000,
-    "AdditionalCost" : 1250,
+    "TechCost" : 10,
+    "PurchaseCost" : 165000,
+    "AdditionalCost" : 1200,
     "Tags" : {
         "items" : [
             "argo_rec_gym"

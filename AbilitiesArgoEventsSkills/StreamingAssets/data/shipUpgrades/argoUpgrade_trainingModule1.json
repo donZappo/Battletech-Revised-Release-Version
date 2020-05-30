@@ -16,16 +16,15 @@
     "AssignedCastDescription": "Commander, have you seen these simulator pods? They're fantastic! I take back everything bad I've ever said about the <i>Argo</i>. Unfortunately, it will take about two years to train these greenhorns.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_power1",
-			"argoUpgrade_structure1"
+			"argoUpgrade_power1"
 		],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 650000,
+    "TechCost" : 10,
+    "PurchaseCost" : 110000,
     "AdditionalCost" : 1500,
     "Tags" : {
         "items" : [

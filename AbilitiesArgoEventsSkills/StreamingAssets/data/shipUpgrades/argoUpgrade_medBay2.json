@@ -17,15 +17,15 @@
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay1",
-			"argoUpgrade_power2"
+			"argoUpgrade_power1"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 14,
-    "PurchaseCost" : 300000,
+    "TechCost" : 15,
+    "PurchaseCost" : 550000,
     "AdditionalCost" : 9000,
     "Tags" : {
         "items" : [

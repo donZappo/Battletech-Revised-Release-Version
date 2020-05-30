@@ -17,16 +17,16 @@
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_rec_library1",
-			"argoUpgrade_power3"
+			"argoUpgrade_pod3"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 18,
-    "PurchaseCost" : 350000,
-    "AdditionalCost" : 1700,
+    "TechCost" : 20,
+    "PurchaseCost" : 440000,
+    "AdditionalCost" : 2600,
     "Tags" : {
         "items" : [
             "argo_rec_library2"

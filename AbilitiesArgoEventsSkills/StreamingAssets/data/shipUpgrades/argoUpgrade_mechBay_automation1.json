@@ -16,16 +16,18 @@
     "AssignedCastDescription": "If you want to speed things up around here, give me the resources to get these machines back online. Sure glad the pirates didn't find this equipment -- it'll make me look like a miracle worker.",
     "RequiredModules" : {
         "items" : [
-            "argoUpgrade_power3"
+            "argoUpgrade_mechBay2",
+			"argoUpgrade_power2"
+			
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 22,
+    "TechCost" : 25,
     "PurchaseCost" : 1650000,
-    "AdditionalCost" : 12000,
+    "AdditionalCost" : 10000,
     "Tags" : {
         "items" : [
             "argo_mechBay_automation1"

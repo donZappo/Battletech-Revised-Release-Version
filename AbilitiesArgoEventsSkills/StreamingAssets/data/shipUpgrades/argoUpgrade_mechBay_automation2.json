@@ -17,7 +17,7 @@
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_mechBay_automation1",
-			"argoUpgrade_mechBay2",
+			"argoUpgrade_mechBay3",
 			"argoUpgrade_power3"
         ],
         "tagSetSourceFile" : ""
@@ -25,9 +25,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 32,
-    "PurchaseCost" : 3000000,
-    "AdditionalCost" : 13000,
+    "TechCost" : 25,
+    "PurchaseCost" : 3300000,
+    "AdditionalCost" : 18000,
     "Tags" : {
         "items" : [
             "argo_mechBay_automation2"

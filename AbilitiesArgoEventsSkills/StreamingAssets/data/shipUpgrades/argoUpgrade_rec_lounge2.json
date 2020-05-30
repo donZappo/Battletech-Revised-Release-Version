@@ -16,17 +16,16 @@
     "AssignedCastDescription": "Commander, in order for the crew to fully vent their frustrations and get their downtime from this rigorous schedule, we need to have an outstanding rec room!",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_rec_lounge1",
-			"argoUpgrade_power1"
+			"argoUpgrade_rec_lounge1"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 18,
-    "PurchaseCost" : 270000,
-    "AdditionalCost" : 600,
+    "TechCost" : 20,
+    "PurchaseCost" : 220000,
+    "AdditionalCost" : 300,
     "Tags" : {
         "items" : [
             "argo_rec_lounge2"

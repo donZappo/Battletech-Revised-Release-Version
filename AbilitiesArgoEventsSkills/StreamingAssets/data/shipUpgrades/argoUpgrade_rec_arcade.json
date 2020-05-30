@@ -24,9 +24,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 15,
-    "PurchaseCost" : 500000,
-    "AdditionalCost" : 2400,
+    "TechCost" : 30,
+    "PurchaseCost" : 825000,
+    "AdditionalCost" : 3500,
     "Tags" : {
         "items" : [
             "argo_rec_arcade"

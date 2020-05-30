@@ -16,16 +16,15 @@
     "AssignedCastDescription": "Notably, upgrading the power system will allow us to provide power to more parts of the ship reliably, which means more of the <i>Argo</i>'s systems will be operational.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_power1",
-			"argoUpgrade_structure2"
+			"argoUpgrade_power1"
 		],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 24,
-    "PurchaseCost" : 650000,
+    "TechCost" : 20,
+    "PurchaseCost" : 1100000,
     "AdditionalCost" : 1500,
     "Tags" : {
         "items" : [

@@ -24,8 +24,8 @@
         
     ],
     "TechCost" : 20,
-    "PurchaseCost" : 275000,
-    "AdditionalCost" : 1500,
+    "PurchaseCost" : 330000,
+    "AdditionalCost" : 1800,
     "Tags" : {
         "items" : [
             "argo_rec_hydroponics"

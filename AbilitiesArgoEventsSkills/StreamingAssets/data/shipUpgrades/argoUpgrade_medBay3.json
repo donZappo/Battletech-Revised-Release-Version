@@ -16,8 +16,7 @@
     "AssignedCastDescription": "We're taking enough injuries to keep our current medical staff fully tasked, Commander, and that makes me worry about our future capacity. These battles aren't getting any easier. We have the space to expand the Med Bay and I think we should use it.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_medBay2",
-			"argoUpgrade_structure2",
+			"argoUpgrade_medBay2"
 			"argoUpgrade_power2"
         ],
         "tagSetSourceFile" : ""
@@ -25,8 +24,8 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 36,
-    "PurchaseCost" : 900000,
+    "TechCost" : 20,
+    "PurchaseCost" : 1100000,
     "AdditionalCost" : 16500,
     "Tags" : {
         "items" : [

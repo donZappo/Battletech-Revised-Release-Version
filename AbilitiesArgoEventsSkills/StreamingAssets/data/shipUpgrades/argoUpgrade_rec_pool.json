@@ -23,9 +23,9 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 23,
-    "PurchaseCost" : 750000,
-    "AdditionalCost" : 1700,
+    "TechCost" : 30,
+    "PurchaseCost" : 660000,
+    "AdditionalCost" : 3000,
     "Tags" : {
         "items" : [
             "argo_rec_pool"

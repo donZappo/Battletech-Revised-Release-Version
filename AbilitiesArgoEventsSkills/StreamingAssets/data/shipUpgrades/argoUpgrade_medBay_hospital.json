@@ -24,8 +24,8 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 75,
-    "PurchaseCost" : 2700000,
+    "TechCost" : 30,
+    "PurchaseCost" : 3300000,
     "AdditionalCost" : 35500,
     "Tags" : {
         "items" : [
