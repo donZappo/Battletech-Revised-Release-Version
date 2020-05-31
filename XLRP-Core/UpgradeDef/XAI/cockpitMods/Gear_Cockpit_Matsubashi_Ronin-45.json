@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 400000,
-        "Rarity" : 1,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Matsubashi",
         "Model" : "Ronin",
@@ -132,8 +132,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-			"component_type_lostech",
-            "component_type_variant1"
+            "component_type_variant3",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

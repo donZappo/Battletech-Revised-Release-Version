@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 750000,
-        "Rarity" : 8,
+        "Rarity" : 7,
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Gargantuan",
@@ -182,9 +182,9 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_lostech",
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant3",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

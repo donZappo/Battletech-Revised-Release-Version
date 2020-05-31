@@ -15,13 +15,13 @@
    "Inventory" : [],
    "Specials" : [
       {
-         "ID" : "Gear_Actuator_Coventry_Alpha",
+         "ID" : "Gear_MASC",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 		 "Weight" : 2
       },
-      {
+	  {
          "ID" : "Gear_Cockpit_Matsubashi_Ronin-45",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,

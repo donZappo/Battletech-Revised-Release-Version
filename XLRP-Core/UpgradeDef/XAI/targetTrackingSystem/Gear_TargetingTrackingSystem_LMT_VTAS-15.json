@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 350000,
-        "Rarity" : 2,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "LMT",
         "Model" : "VTAS-15",
@@ -283,8 +283,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock",
+			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""
     }

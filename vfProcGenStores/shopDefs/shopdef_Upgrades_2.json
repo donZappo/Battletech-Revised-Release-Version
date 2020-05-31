@@ -88,13 +88,6 @@
 		 "Weight" : 2
       },
       {
-         "ID" : "Gear_MASC",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.0,
-         "Count" : 0,
-		 "Weight" : 2
-      },
-      {
          "ID" : "Gear_Sensor_Prototype_ECM",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,

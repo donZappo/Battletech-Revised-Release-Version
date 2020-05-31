@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 110000,
-        "Rarity" : 1,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "X55 Standard",
@@ -131,8 +131,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

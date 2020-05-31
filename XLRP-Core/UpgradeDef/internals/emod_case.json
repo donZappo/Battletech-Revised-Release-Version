@@ -9,7 +9,7 @@
 	},
     "Description" : {
         "Cost" : 50000,
-        "Rarity" : 5,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "StarSlab",
         "Model" : "Standard",
@@ -33,7 +33,8 @@
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [
-            "component_type_stock"
+            "component_type_stock",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

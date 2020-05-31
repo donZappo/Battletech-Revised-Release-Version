@@ -21,7 +21,7 @@
     "AbsoluteModifier": 0,
     "Description": {
         "Cost": 750000,
-        "Rarity": 7,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Mendham Electronics",
         "Model": "Garret A99 With Artemis IV",
@@ -47,7 +47,8 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "ArtemisTTS"
+            "ArtemisTTS",
+			"TechLevel_HighTech"
         ],
         "tagSetSourceFile": ""
     }

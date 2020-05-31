@@ -4,11 +4,11 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 120000,
-        "Rarity" : 1,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Majesty M M",
         "Model" : "90KL",
-        "UIName" : "Rangefinder",
+        "UIName" : "Rangefinder +",
         "Id" : "Gear_Cockpit_Majesty_M_M_90KL",
         "Name" : "Majesty M M 90KL Rangefinder",
         "Details" : "Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant1"
+            "component_type_variant2",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

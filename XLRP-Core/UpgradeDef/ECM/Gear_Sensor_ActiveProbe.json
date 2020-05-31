@@ -31,7 +31,7 @@
    "AbsoluteModifier":0,
    "Description":{
       "Cost":8000000,
-      "Rarity":99,
+      "Rarity": 2,
       "Purchasable":true,
       "Manufacturer":"Ceres Arms",
       "Model":"Gen 2 Probe",
@@ -86,7 +86,8 @@
    ],
    "ComponentTags":{
       "items":[
-
+	  		"component_type_stock",
+			"TechLevel_LowTech"
       ],
       "tagSetSourceFile":""
    }

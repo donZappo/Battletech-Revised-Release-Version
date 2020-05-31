@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 150000,
-        "Rarity" : 7,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Garret",
         "Model" : "T-21B",
@@ -132,7 +132,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant3"
+            "component_type_variant1",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

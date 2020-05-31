@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 210000,
-        "Rarity" : 2,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Ceres Metals",
         "Model" : "Reinforced",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant2",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

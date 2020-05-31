@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 135000,
-        "Rarity" : 3,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Kallon",
         "Model" : "A-C 500",
@@ -80,8 +80,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock",
+			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""
     }

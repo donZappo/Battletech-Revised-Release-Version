@@ -4,7 +4,7 @@
    "AbsoluteModifier":0,
    "Description":{
       "Cost":2500000,
-      "Rarity":99,
+      "Rarity":5,
       "Purchasable":true,
       "Manufacturer":"Ceres Arms",
       "Model":"Gen 1 ECM",
@@ -59,7 +59,8 @@
    ],
    "ComponentTags":{
       "items":[
-
+			"component_type_stock",
+			"TechLevel_HighTech"
       ],
       "tagSetSourceFile":""
    },

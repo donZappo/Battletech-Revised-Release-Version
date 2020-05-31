@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 110000,
-        "Rarity" : 6,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "RCA",
         "Model" : "InstaTrac III",
@@ -80,8 +80,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock",
+			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""
     }

@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 180000,
-        "Rarity" : 3,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Majesty M M",
         "Model" : "120KL",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant3",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

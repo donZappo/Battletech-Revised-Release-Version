@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 280000,
-        "Rarity" : 5,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Majesty M M",
         "Model" : "150KL",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant3"
+            "component_type_variant4",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

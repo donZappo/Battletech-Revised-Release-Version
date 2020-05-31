@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 320000,
-        "Rarity" : 3,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "StarCorps",
         "Model" : "Enhanced",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant2",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

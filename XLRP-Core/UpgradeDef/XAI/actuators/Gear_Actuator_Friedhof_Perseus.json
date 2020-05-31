@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 255000,
-        "Rarity" : 5,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Perseus",
@@ -181,10 +181,10 @@
         }
     ],
     "ComponentTags" : {
-        "items" : [
-            "component_type_lostech",		
+        "items" : [	
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant1",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

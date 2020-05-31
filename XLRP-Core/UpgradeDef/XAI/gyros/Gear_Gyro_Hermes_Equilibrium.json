@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 3000000,
-        "Rarity" : 99,
+        "Rarity" : 7,
         "Purchasable" : true,
         "Manufacturer" : "Hermes",
         "Model" : "Equilibrium",
@@ -132,7 +132,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant3"
+            "component_type_variant4",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

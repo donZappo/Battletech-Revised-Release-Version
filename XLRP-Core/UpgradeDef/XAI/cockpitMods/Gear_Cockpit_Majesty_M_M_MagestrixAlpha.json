@@ -8,7 +8,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Majesty M M",
         "Model" : "Magestrix Alpha",
-        "UIName" : "Rangefinder +++",
+        "UIName" : "Rangefinder ++++",
         "Id" : "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
         "Name" : "Majesty M M Magestrix Rangefinder",
         "Details" : "This Star League era Rangefinder can greatly increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",
@@ -132,7 +132,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant3"
+            "component_type_variant5",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

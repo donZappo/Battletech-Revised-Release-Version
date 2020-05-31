@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 2460000,
-        "Rarity" : 99,
+        "Rarity" : 7,
         "Purchasable" : true,
         "Manufacturer" : "RCA",
         "Model" : "InstaTrac XII",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant4"
+            "component_type_variant4",
+			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""
     }

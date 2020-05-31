@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 235000,
-        "Rarity" : 20,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "Mark 85",
@@ -132,7 +132,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant2"
+            "component_type_variant2",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

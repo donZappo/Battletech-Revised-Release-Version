@@ -64,7 +64,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "noautofix"
+            "noautofix",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

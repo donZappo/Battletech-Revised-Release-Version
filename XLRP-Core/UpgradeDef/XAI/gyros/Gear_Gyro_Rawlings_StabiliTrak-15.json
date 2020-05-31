@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 450000,
-        "Rarity" : 8,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Rawlings",
         "Model" : "StabiliTrak 30",
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant3"
+            "component_type_variant3",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }

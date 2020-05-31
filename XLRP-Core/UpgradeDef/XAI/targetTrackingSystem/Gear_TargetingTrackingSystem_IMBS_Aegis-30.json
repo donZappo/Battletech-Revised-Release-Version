@@ -4,13 +4,13 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 750000,
-        "Rarity" : 2,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "IMBS",
         "Model" : "Aegis-30",
         "UIName" : "FCS +++",
         "Id" : "Gear_TargetingTrackingSystem_IMBS_Aegis-30",
-        "Name" : "IMBS Indirect FCS ++",
+        "Name" : "IMBS Indirect FCS +++",
         "Details" : "IMBS has been making electronics for every industry for ages now. They have a newly developed FCS that can be installed in your Missile firing mechs. A Fire Control System for indirect fire support requires more information than most TTS's.  The IMBS Aegis-30 adds real-time target tracking information from your lance mates, orbital systems such as a dropship or tactical satellites. The Aegis-30 gives an <color=#6aa84f>Indirect Fire Control Bonus</color>",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
@@ -81,7 +81,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant4"
+            "component_type_variant3",
+			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""
     }

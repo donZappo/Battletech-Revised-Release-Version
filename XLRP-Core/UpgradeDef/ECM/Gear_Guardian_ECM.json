@@ -19,7 +19,7 @@
     "AbsoluteModifier": 0,
     "Description": {
         "Cost": 430000,
-        "Rarity": 3,
+        "Rarity": 7,
         "Purchasable": true,
         "Manufacturer": "Johnston",
         "Model": "Guardian ECM",
@@ -71,6 +71,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
+			"TechLevel_HighTech"
         ],
         "tagSetSourceFile": ""
     }

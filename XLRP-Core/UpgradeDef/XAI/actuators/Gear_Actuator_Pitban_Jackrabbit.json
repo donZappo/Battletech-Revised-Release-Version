@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 50000,
-        "Rarity" : 1,
+        "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Pitban",
         "Model" : "Jackrabbit",
@@ -80,8 +80,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock",
+			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""
     }
