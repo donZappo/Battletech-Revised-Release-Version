@@ -88,6 +88,12 @@
             "Short" : "- Heat Prot.",
             "Long" : "- Heat Protection",
             "Full" : "the pilot receives damage when the BattleMech overheats"
+        },
+        {
+            "Bonus" : "StructureMass",
+            "Short" : "{0}% Chassis Mass",
+            "Long" : "{0}% Chassis Mass",
+            "Full" : "This component weighs {0}% of the tonnage of the chassis."
         }
     ]
 }

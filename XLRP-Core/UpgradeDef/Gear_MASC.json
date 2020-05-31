@@ -1,107 +1,181 @@
 {
-	"Custom": {
-		"Category": [
-			{
-				"CategoryID": "MASC"
-			}
-		],
-		"BonusDescriptions": {
-			"Bonuses": [
-				"Activatable",
-				"ActiveRunMod: +50%",
-				"FailChance: 10%",
-				"FailChanceTurn: 20%",
-				"FailLocation: Legs",
-				"FailCritLoc",
-				"FailStruct: 2",
-				"FailReducPilot",
-				"MASCWeight: 50%"
-			]
-		},
-		"Weights": {
-			"StructureFactor": 1.5
-		},
-		"InventorySorter": {
-			"SortKey": "00023"
-		},
-		"ActivatableComponent": {
-			"ButtonName": "MASC",
-			"FailFlatChance": 0.1,
-			"FailRoundsStart": 2,
-			"FailChancePerTurn": 0.2,
-			"FailISDamage": 2,
-			"FailCrit": true,
-			"FailDamageLocations": [
-				"LeftLeg",
-				"RightLeg"
-			],
-			"FailPilotingBase": 5,
-			"FailPilotingMult": 0.1,
-			"CanNotBeActivatedManualy": false,
-			"NoUniqueCheck": true,
-			"statusEffects": [
-				{
-					"durationData" : {
-						"duration" : -1,
-						"stackLimit" : -1
-					},
-					"targetingData" : {
-						"effectTriggerType" : "Passive",
-						"effectTargetType" : "Creator",
-						"forcePathRebuild" : true,
-						"forceVisRebuild" : false,
-						"showInTargetPreview" : false,
-						"showInStatusPanel" : false
-					},
-					"effectType" : "StatisticEffect",
-					"Description" : {
-						"Id": "MASCWalk",
-						"Name": "MASC",
-						"Details": "Myomer Accelerator Signal Circuitry",
-						"Icon": "uixSvgIcon_action_evasivemove"
-					},
-					"nature" : "Buff",
-					"statisticData" : {
-						"statName" : "CBTBE_RunMultiMod",
-						"operation" : "Float_Add",
-						"modValue" : "0.5",
-						"modType" : "System.Single"
-					}
-				}		
-			]
-		}
-	},
-	"Description": {
-		"Cost": 620000,
-		"Rarity": 5,
-		"Purchasable": true,
-		"Manufacturer": "Deadly Sins",
-		"Model": "M.A.S.C.",
-		"UIName": "M.A.S.C.",
-		"Id": "Gear_MASC",
-		"Name": "M.A.S.C.",
-		"Details": "Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to move at twice its walking speed. However, actuators were not built for this kind of stress, and prolonged usage of MASC systems can damage the leg actuators of a BattleMech. Although this is unlikely to immobilize the BattleMech, the danger of destroyed actuators is enough for cautious warriors to limit their use in battle. <b><color=#099ff2>Activatable: DEALS DAMAGE AND CRIT TO LEGS ON FAILURE</color></b>",
-		"Icon": "wingfoot"
-	},
-	"BonusValueA": "+15%Walk|+40%Sprint|",
-	"BonusValueB": "+20% Heat Generated",
-	"ComponentType": "Upgrade",
-	"ComponentSubType": "NotSet",
-	"PrefabIdentifier": "",
-	"BattleValue": 0,
-	"InventorySize": 4,
-	"Tonnage": 0,
-	"AllowedLocations": "Torso",
-	"DisallowedLocations": "All",
-	"CriticalComponent": false,
-	"statusEffects": [],
-	"ComponentTags": {
-		"items": [
-			"component_type_stock",
-			"cae_ai_explode",
-			"cae_ai_heat",
-			"cae_ai_speed"
-		],
-		"tagSetSourceFile": ""
-	}
+   "Custom":{
+      "Category":[
+         {
+            "CategoryID":"Activatable"
+         },
+         {
+            "CategoryID":"MASC"
+         }
+      ],
+      "BonusDescriptions":{
+         "Bonuses":[
+            "StructureMass: 10"
+         ]
+      },
+      "Weights":{
+         "StructureFactor":1
+      },
+	  "ComponentExplosion": {
+	  	 "StabilityDamage": 100
+	  },
+      "ActivatableComponent":{
+         "ButtonName":"MASC",
+         "FailFlatChance":0,
+         "FailRoundsStart":1,
+         "FailChancePerTurn":0,
+         "FailISDamage":0,
+         "FailCrit":false,
+         "SelfCrit":false,
+         "FailDamageLocations":[
+            "LeftLeg",
+            "RightLeg"
+         ],
+         "AutoActivateOnHeat":0,
+         "AutoDeactivateOnHeat":0,
+         "AutoActivateOnOverheatLevel":0,
+         "AutoDeactivateOnOverheatLevel":0,
+         "ActivationMessage":"ON",
+         "DeactivationMessage":"OFF",
+         "ActivationIsBuff":"true",
+         "NoUniqueCheck":false,
+         "ChargesCount":0,
+         "statusEffects":[
+            {
+               "durationData":{
+                  "duration":-1,
+                  "ticksOnActivations":false,
+                  "useActivationsOfTarget":false,
+                  "ticksOnEndOfRound":false,
+                  "ticksOnMovements":false,
+                  "stackLimit":-1,
+                  "clearedWhenAttacked":false
+               },
+               "targetingData":{
+                  "effectTriggerType":"Passive",
+                  "triggerLimit":0,
+                  "extendDurationOnTrigger":0,
+                  "specialRules":"NotSet",
+                  "effectTargetType":"Creator",
+                  "range":0,
+                  "forcePathRebuild":true,
+                  "forceVisRebuild":false,
+                  "showInTargetPreview":false,
+                  "showInStatusPanel":true
+               },
+               "effectType":"StatisticEffect",
+               "Description":{
+                  "Id":"StatusEffect-MASC-WalkSpeedDouble",
+                  "Name":"MASC DOUBLE SPEED",
+                  "Details":"Walk speed doubled, weapons generate 25% more heat.",
+                  "Icon":"uixSvgIcon_equipment_Gyro"
+               },
+               "nature":"Buff",
+               "statisticData":{
+                  "appliesEachTick":false,
+                  "effectsPersistAfterDestruction":false,
+                  "statName":"WalkSpeed",
+                  "operation":"Float_Multiply",
+                  "modValue":"2.0",
+                  "modType":"System.Single",
+                  "additionalRules":"NotSet",
+                  "targetCollection":"NotSet",
+                  "targetWeaponCategory":"NotSet",
+                  "targetWeaponType":"NotSet",
+                  "targetAmmoCategory":"NotSet",
+                  "targetWeaponSubType":"NotSet"
+               },
+               "tagData":null,
+               "floatieData":null,
+               "actorBurningData":null,
+               "vfxData":null,
+               "instantModData":null,
+               "poorlyMaintainedEffectData":null
+            },
+            {
+               "durationData":{
+                  "duration":-1,
+                  "ticksOnActivations":false,
+                  "useActivationsOfTarget":false,
+                  "ticksOnEndOfRound":false,
+                  "ticksOnMovements":false,
+                  "stackLimit":-1,
+                  "clearedWhenAttacked":false
+               },
+               "targetingData":{
+                  "effectTriggerType":"Passive",
+                  "triggerLimit":0,
+                  "extendDurationOnTrigger":0,
+                  "specialRules":"NotSet",
+                  "effectTargetType":"Creator",
+                  "range":0,
+                  "forcePathRebuild":true,
+                  "forceVisRebuild":false,
+                  "showInTargetPreview":false,
+                  "showInStatusPanel":false
+               },
+               "effectType":"StatisticEffect",
+               "Description":{
+                  "Id":"StatusEffect-MASC-IncreasedHeat",
+                  "Name":"MASC INCREASE HEAT",
+                  "Details":"Heat generation increased by 25%.",
+                  "Icon":"uixSvgIcon_equipment_Gyro"
+               },
+               "nature":"Buff",
+               "statisticData":{
+                  "appliesEachTick":false,
+                  "effectsPersistAfterDestruction":false,
+                  "statName":"HeatGenerated",
+                  "operation":"Float_Multiply",
+                  "modValue":"1.25",
+                  "modType":"System.Single",
+                  "additionalRules":"NotSet",
+                  "targetCollection":"Weapon",
+                  "targetWeaponCategory":"NotSet",
+                  "targetWeaponType":"NotSet",
+                  "targetAmmoCategory":"NotSet",
+                  "targetWeaponSubType":"NotSet"
+               },
+               "tagData":null,
+               "floatieData":null,
+               "actorBurningData":null,
+               "vfxData":null,
+               "instantModData":null,
+               "poorlyMaintainedEffectData":null
+            }
+         ]
+      }
+   },
+   "Description":{
+      "Cost":320000,
+      "Rarity":7,
+      "Purchasable":true,
+      "Manufacturer":"Deadly Sins",
+      "Model":"M.A.S.C.",
+      "UIName":"M.A.S.C.",
+      "Id":"Gear_MASC",
+      "Name":"M.A.S.C.",
+      "Details":"Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to walk at double speed. This improved mobility provides greater tactical flexibility by allowing the 'Mech to cover large distances while still using its weapons. The 'Mech will generate 25% additional heat while MASC is active. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b>",
+      "Icon":"uixSvgIcon_equipment_HeatBank"
+   },
+   "BonusValueA":"+100% Walk Speed",
+   "BonusValueB":"+25% Heat Generated",
+   "ComponentType":"Upgrade",
+   "ComponentSubType":"NotSet",
+   "PrefabIdentifier":"",
+   "BattleValue":0,
+   "InventorySize":4,
+   "Tonnage":0,
+   "AllowedLocations":"Torso",
+   "DisallowedLocations":"All",
+   "CriticalComponent":false,
+   "ComponentTags":{
+      "items":[
+         "component_type_stock",
+         "cae_ai_heat",
+         "cae_ai_speed",
+         "TechLevel_HighTech"
+      ],
+      "tagSetSourceFile":""
+   }
 }

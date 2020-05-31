@@ -481,6 +481,12 @@
                "Color":"#CC91FF"
             }
          }
+      },
+      {
+         "Name":"AdvMASC",
+         "displayName":"Advanced MASC",
+         "MaxEquiped":"1",
+         "AutoReplace":"true"
       }
    ]
 }
