@@ -30,42 +30,7 @@
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 5
-        },
-        {
-            "ID": "Weapon_PPC_PPCER_1-MagnaFirestar",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },  
-        {
-            "ID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-		{
-            "ID": "Weapon_Laser_MediumLaserER_1-MagnaVI",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-		{
-            "ID": "Weapon_Laser_TwinSmallLaser_2-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },   
-		{
-            "ID": "Weapon_Laser_BinaryLaserCannon_2-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },         
+        },    
 		{
             "ID": "Weapon_Autocannon_UAC2_1-Imperator",
             "Type": "Weapon",
@@ -144,69 +109,6 @@
 			"Weight": 5
         },
         {
-            "ID": "Weapon_Laser_SmallLaser_2-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-		{
-            "ID": "Weapon_Laser_MediumLaser_2-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_LargeLaser_2-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_SmallLaser_2-Omicron",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_MediumLaser_2-Omicron",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_LargeLaser_2-Omicron",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_SmallLaser_2-Diverse_Optics",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_MediumLaser_2-Diverse_Optics",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_Laser_LargeLaser_2-Diverse_Optics",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
             "ID": "Weapon_Laser_SmallLaser_2-Starflash",
             "Type": "Weapon",
             "DiscountModifier": 1,
@@ -227,13 +129,6 @@
             "Count" : 0,
 			"Weight": 5
         },			
-        {
-            "ID": "Weapon_PPC_PPCSnub_1-Magna",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
         {
             "ID": "Weapon_SRM_SSRM2_2-Irian",
             "Type": "Weapon",
@@ -276,48 +171,6 @@
             "Count" : 0,
 			"Weight": 5
         },
-        {
-            "ID": "Weapon_SRM_SSRM2_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_SRM_SSRM4_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_SRM_SSRM6_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_SRM_SRM2_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_SRM_SRM4_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_SRM_SRM6_2-Holly",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
 		{
             "ID": "Weapon_LRM_LRM5_2-Zeus",
             "Type": "Weapon",
@@ -339,32 +192,6 @@
         },
         {
             "ID": "Weapon_LRM_LRM20_2-Zeus",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-		{
-            "ID": "Weapon_LRM_LRM5_2-Delta",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },{
-            "ID": "Weapon_LRM_LRM10_2-Delta",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },{
-            "ID": "Weapon_LRM_LRM15_2-Delta",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
-        },
-        {
-            "ID": "Weapon_LRM_LRM20_2-Delta",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,

@@ -2,7 +2,7 @@
     "Description" : {
         "Cost" : 0,
         "Rarity" : 99,
-        "Purchasable" : true,
+        "Purchasable" : false,
         "Manufacturer" : "Hartford",
         "Model" : "",
         "UIName" : "CQC Suite",

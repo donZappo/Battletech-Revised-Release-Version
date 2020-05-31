@@ -186,13 +186,6 @@
 			"Weight": 3
         },
 		{
-            "ID": "Weapon_LRM_LRM5_3-Delta",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 3
-        },
-		{
             "ID": "Weapon_Narc_Standard_2-Kali_Yama",
             "Type": "Weapon",
             "DiscountModifier": 1,
