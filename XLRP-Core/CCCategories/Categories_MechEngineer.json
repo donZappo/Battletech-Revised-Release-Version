@@ -483,8 +483,8 @@
          }
       },
       {
-         "Name":"AdvMASC",
-         "displayName":"Advanced MASC",
+         "Name":"MASC",
+         "displayName":"MASC",
          "MaxEquiped":"1",
          "AutoReplace":"true"
       }

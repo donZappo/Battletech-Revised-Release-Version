@@ -10,15 +10,17 @@
       ],
       "BonusDescriptions":{
          "Bonuses":[
-            "StructureMass: 10"
+            "WalkSpeed: +100%",
+            "HeatGenerated: +25%",
+            "StructureMass: 7.5"
          ]
       },
       "Weights":{
-         "StructureFactor":1
+         "StructureFactor":1.75
       },
-	  "ComponentExplosion": {
-	  	 "StabilityDamage": 100
-	  },
+      "ComponentExplosion":{
+         "StabilityDamage":100
+      },
       "ActivatableComponent":{
          "ButtonName":"MASC",
          "FailFlatChance":0,
