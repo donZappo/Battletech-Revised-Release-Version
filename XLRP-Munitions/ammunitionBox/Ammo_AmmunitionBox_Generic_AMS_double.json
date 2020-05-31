@@ -10,7 +10,7 @@
     "UIName": "AMS Ammo (XL)",
     "Id": "Ammo_AmmunitionBox_Generic_AMS_double",
     "Name": "AMS Ammo (XL)",
-    "Details": "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Double ton AMS Ammo Bins each contain 180 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
+    "Details": "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Double ton AMS Ammo Bins each contain 180 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.375</color></b>",
     "Icon": "uixSvgIcon_ammoBox_Support"
   },
   "BonusValueA" : "+ 1 Ton",

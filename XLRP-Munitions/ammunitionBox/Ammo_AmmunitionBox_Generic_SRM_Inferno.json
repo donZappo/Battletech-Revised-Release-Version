@@ -1,7 +1,8 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 0.25
+			"ExplosionDamagePerAmmo": 0.47,
+            "HeatDamagePerAmmo": 2
 		}
 	},
     "AmmoID" : "Ammunition_Inferno_SRM",

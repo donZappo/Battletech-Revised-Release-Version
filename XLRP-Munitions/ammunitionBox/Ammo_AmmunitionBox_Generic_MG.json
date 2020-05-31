@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 0.75
+			"ExplosionDamagePerAmmo": 0.375
 		}
 	},
     "AmmoID" : "Ammunition_MG",
@@ -15,7 +15,7 @@
         "UIName" : "MG Ammo",
         "Id" : "Ammo_AmmunitionBox_Generic_MG",
         "Name" : "MG Ammo",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.125</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. MG ammo bins contain <color=#6aa84f>200 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.375</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "",

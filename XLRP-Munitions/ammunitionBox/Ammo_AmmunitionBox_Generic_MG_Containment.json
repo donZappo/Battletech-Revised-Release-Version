@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 0.0625
+			"ExplosionDamagePerAmmo": 0.19
 		}
 	},
     "AmmoID" : "Ammunition_MG",
@@ -15,7 +15,7 @@
         "UIName" : "MG Ammo (Cont.)",
         "Id" : "Ammo_AmmunitionBox_Generic_MG_Containment",
         "Name" : "MG Ammo (Containment)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Containment MG Ammo Bins are reinforced to contain one third of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>150 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.06</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Containment MG Ammo Bins are reinforced to contain one third of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>150 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.19</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "-25% Ammo",
