@@ -155,7 +155,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "We're coming in to pick you up fast, Commander. Hold on. We'll sort out the polical fallout from this later.",
+          "words": "We're coming in to pick you up fast, Commander. Hold on. We'll sort out the political fallout from this later.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -317,18 +317,18 @@
         "name": "Lance_Enemy_Champion",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_solo"],
+          "items": ["lance_type_light", "lance_type_mech"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": ["lance_type_vehicle"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 0,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -345,10 +345,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [
-						  "unit_vehicle",
-                    	  "unit_electronicWarfare"
-					  ],
+              "items": [],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
