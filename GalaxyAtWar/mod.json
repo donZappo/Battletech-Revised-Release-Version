@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.3.1",
+    "Version": "4.4.0",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -84,7 +84,8 @@
 		"DefensiveFactions": [
 			"Locals",
 			"NoFaction",
-			"ComStar"
+			"ComStar",
+			"AuriganPirates"
 			],
 		"ImmuneToWar" : [
 			"ComStar"
@@ -212,9 +213,32 @@
 			"Kurita" : "kuritaLogo",
 			"Steiner" : "steinerLogo"
 			},
+		
+		
+		//** If enabled, the listed faction will support the weakest faction for X months providing bonus Attack and Defensive resources during that time. 
+		"GaW_PoliceSupport" : true,
+		"GaW_Police" : "ComStar",
+		"GaW_Police_ARBonus" : 200,
+		"GaW_Police_DRBonus" : 200,
+		"GaW_Police_SupportTime": 3,
+		
+		//** Prevent systems from taking place in the Galaxy at War until after a Flashpoint has occurred. 
+		//** List<string, string> "Flashpoint Tag when Complete" : "System Name"	
+		"FlashpointReleaseSystems": { "" : "" },
+		
+		//** Force alliances. Dictionary<string, List<string> of Faction Names. Formatted: "This Faction" : [ "Allied with", "These Factions" ]		
+		"FactionsAlwaysAllies": { "" : [ "" ] },
+			
+		//** Hyades Rim compatibility specific settings.
 		"HyadesRimCompatible" : false,
+		"HyadesPirates": [],
+		"HyadesFlashpointSystems": [],
+		"HyadesAppearingPirates": [],
+		"HyadesEmployersOnly": [],
+		"HyadesTargetsOnly": [],
+		"HyadesNeverControl": [],
 			
-			
+		// ** ISM Compatibility specific section.	
 		"ISMCompatibility" : false,
 		
 		"StartingPirateActivity_ISM" : 5.0,
