@@ -52,7 +52,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,
@@ -66,7 +66,7 @@
         "DamageLevel": "Functional"
       },
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 1,
@@ -80,7 +80,7 @@
         "DamageLevel": "Functional"
       },
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 2,
@@ -94,7 +94,7 @@
         "DamageLevel": "Functional"
       },
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 3,
@@ -108,7 +108,7 @@
         "DamageLevel": "Functional"
       },
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 4,
@@ -122,7 +122,7 @@
         "DamageLevel": "Functional"
       },
       {
-         "ComponentDefID" : "WeaponEffect-Weapon_SRM4",
+         "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 5,
