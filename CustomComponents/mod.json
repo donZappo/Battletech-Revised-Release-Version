@@ -11,9 +11,9 @@
 	"CustomResourceTypes": ["CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon"],
 	
 	"Settings" : {
-		"LogLevel": "Error",
+		"LogLevel": "Debug",
 		"DebugInfo" : "Icons",
-
+    "IgnoreAutofixTag":"fake_vehicle_chassis",
 		"Categories": [ ],
 		"TagRestrictions": [ ],
 		"ColorTags" : [ ],
@@ -24,26 +24,26 @@
 		"DefaultFlagBackgroundColor": "UpgradeColor",
 		"InvalidFlagBackgroundColor" : "Red",
 		"PreinstalledOverlayCColor": {
-			"R": 180,
-			"G": 255,
-			"B": 180,
-			"A": 40
+			"R": 200,
+			"G": 90,
+			"B": 30,
+			"A": 55
 		},
 		"DefaultFlagOverlayCColor": {
 			"R": 180,
-			"G": 180,
+			"G": 255,
 			"B": 180,
 			"A": 40
 		},
 		
 		"CategoryDescriptionColor" : "#008000", 
 		 
-		"TestEnableAllTags": false,
+		"TestEnableAllTags": true,
 		"OmniTechFlag": "cc_omnitech",
         "OmniTechCostBySize": false,
         "OmniTechInstallCost": 1,
 		
-		"OverrideSalvageGeneration" : false,
+		"OverrideSalvageGeneration" : true,
 		"NoLootCTDestroyed" : false,
 
 		"OverrideRecoveryChance" : true,
@@ -62,5 +62,21 @@
 		"SalvageHeadWeight" : 0.5,
 	},	
 		
-	"Manifest": []
+	"Manifest": [
+        {
+            "Type": "CCCategories",
+            "Path": "disabled test/categories/",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CCDefaults",
+            "Path": "disabled test/defaults/",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "CustomSVGIcon",
+            "Path": "test/icons/",
+            "ShouldMergeJSON": false
+        }
+    ]
 }

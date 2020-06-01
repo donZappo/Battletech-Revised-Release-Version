@@ -18,7 +18,8 @@
     "impact",
     "nuka",
     "glow",
-    "burnedtrees"
+    "burnedtrees",
+	"floatiemessage"
   ],
   "NoForestBiomes": [
     "DesignMaskBiomeMartianVacuum",
@@ -53,6 +54,8 @@
   "BurningOffsetX": 0,
   "BurningOffsetY": 1,
   "BurningOffsetZ": 0,
+  "FireTerrainChance": 0,
+  "extendedBraceBehavior": false,
   "DontShowNotDangerouceJammMessages": true,
   "MineFieldPathingMods": {
     "pathingdef_light": 0.5,
@@ -80,8 +83,8 @@
     "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb",
     "DrawBloodChance": 0.3
   },
-  "DontShowBurnedTrees": false,
-  "DontShowScorchTerrain": false,
+  "DontShowBurnedTrees": true,
+  "DontShowScorchTerrain": true,
   "AAMSAICoeff": 0.2,
   "ForestBurningDurationBiomeMult": {
     "DesignMaskBiomeBadlandsParched": 0.7,
@@ -172,7 +175,7 @@
   "FiringPreviewRecalcTrottle": 0,
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,
   "UpdateReticleTrottle": 8,
-  "showMissBehavior": "None",
+  "showMissBehavior": "Default",
   "extendedBraceBehavior": true,
   "DefaultAoEDamageMult": {
     "Building": {
@@ -230,5 +233,15 @@
     "Play_Panic20",
     "Play_Panic23",
     "Play_Panic22"
-  ]
+  ],
+  "uiIcons":[ "weapon_up", "weapon_down" ],
+  "WeaponPanelWidthScale": 1.1,
+  "OrderButtonWidthScale": 0.5,
+  "OrderButtonPaddingScale": 0.3,
+  "SidePanelInfoSelfExternal": false,
+  "SidePanelInfoTargetExternal": false,
+  "MechHasNoStabilityTag": ["mech_no_stability"],
+  "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
+  "ShowAttackGroundButton" : false,
+  "AttackLogWrite": false
 }

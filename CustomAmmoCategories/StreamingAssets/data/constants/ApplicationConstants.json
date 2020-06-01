@@ -2,7 +2,7 @@
   "HelpURL" : "https://s3.amazonaws.com/www.harebrained-schemes.com/backer-beta/manual.pdf",
   "EULA_URL": "https://legal.paradoxplaza.com/terms-of-use",
   "PrivacyURL": "https://legal.paradoxplaza.com/privacy",
-  "SupportURL" : "https://www.paradoxplaza.com/support-static-info-ca.html",
+  "SupportURL" : "https://support.paradoxplaza.com",
   "HBSURL" : "http://harebrained-schemes.com/",
   "ParadoxURL" : "https://www.paradoxinteractive.com/",
   "FacebookURL" : "https://www.facebook.com/HarebrainedSchemes/",
@@ -13,26 +13,20 @@
   
   "SteamSeasonPassURL" : "https://store.steampowered.com/dlc/637090/",
   "GOGSeasonPassURL" : "https://www.gog.com/game/battletech_season_pass",
+  "ParadoxSeasonPassURL" : "https://www.paradoxplaza.com/battletech-season-pass/BTBT01NSK0000003.html",
 
    "DefaultMultiplayerMapName" : "mapArena_riverCrossing_vHigh",
    "DefaultMultiplayerMoodName" : "FoggyDay",
    "DefaultSinglePlayerMapName" : "mapArena_riverCrossing_vHigh",
    "DefaultSinglePlayerMoodName" : "FoggyDay",
    "PrewarmRequests": [
-	{
-		"ResourceType": "AmmunitionDef",
-		"ResourceID": "All",
-		"Priority": "Background"
-	},
-	{
-		"ResourceType": "AmmunitionBoxDef",
-		"ResourceID": "All",
-		"Priority": "Background"
-	},
-	{
-		"ResourceType": "WeaponDef",
-		"ResourceID": "All",
-		"Priority": "Background"
-	}
-	]
+      {
+       "ResourceType": "BaseDescriptionDef",
+       "ResourceID": "All"
+     },
+     {
+       "ResourceType": "VehicleDef",
+       "ResourceID": "All"
+     },
+  ]
 }

@@ -1,3 +1,6 @@
+Special thanks to janxious, LadyAlekto, MpStark, Morphyum, m22spencer, bloodydoves, Colobos, CptMoore, Danadan, LtShade, CWolf and many others make this mod possible
+
+CharlesB cannibalized. Readme in CharlesB_README.md. Settings in CharlesB_settings.json 
 Unpack to Mods folder
 CustomAmmoCategories settings 
 CustomAmmoCategoriesSettings.json
@@ -6,7 +9,8 @@ WeaponRealizerSettings.json (for description look at the WR-README)
 AttackImprovementMod settings
 AIM_settings.json (for description look at the AIM-README)
 
-WARNING! Shipped versions of AIM and WR can't be loaded by ModTek and can't be used standalone.
+WARNING! Shipped versions of AIM can't be loaded by ModTek and can't be used standalone.
+WARNING! This version of CAC can be used only with ModTek 0.7.6.5+ cause it utilizes dynamic enums for subsystem for AmmoCategory 
 
 click on right side of HUD weapon slot to switch mode (near hit chance)
 click on center of HUD weapon slot to switch ammo (near ammo count)
@@ -155,7 +159,7 @@ if set as true all AP effects (damage and crits) will not affect unit.
 	"DesignMaskBiomePolarFrozen":0.5,
 	"DesignMaskBiomeTundraFrozen":0.5
 }
-								NOTE: Current values is my own vision of flame mechanics process, adjust them for you own will
+NOTE: Current values is my own vision of flame mechanics process, adjust them for you own will
 								
 "AmmoCookoff":{ - AmmoCookoffSettings
 					Ammo explosions roll a chance to explode every time your mech overheats, and they roll a more severe chance if you overheat enough to force a shut down.
@@ -189,22 +193,151 @@ if set as true all AP effects (damage and crits) will not affect unit.
 "RemoveFromCritRollStatName": "IgnoreDamage", - on criticals resolution components having this staistic set as true will be excluded from list of available for crit. 
                                                 NOTE! excluding from list have side effect with CritLocationTransfer enabled. If in location there are only components with IgnoreDamage:true 
                                                 it consider as empty and crit will be transfered to another location according transfer logic. 
-}
-
-now CustomAmmoCategories.dll searching CustomAmmoCategories.json in every subfolder of Mods folder. 
-CustomAmmoCategories.json
-[
-{
-	"Id":"LGAUSS", - new ammo category name, precessed for WeaponDef.AmmoCategory and AmmunitionDef.Category fields, using it in other AmmoCategory field will lead load error
-	"BaseCategory":"GAUSS" - base category name. Must bt in (AC2/AC5/AC10/AC20/GAUSS/Flamer/AMS/MG/SRM/LRM), 
-	                         needed for backward compatibility. 
-							 All other game mechanic (for example status effect targeting), except ammo count in battle and mech validator in mech lab will use this value.
-							 !Flamer - is base category for energy ammo (plasma, chemical lasers etc)
+"bloodSettings":{   - if DestructibleUrbanFlimsy it can leave blood spot
+  "DecalScales":{    - sizes of blood spots by types. Types: NOT_SET, generic, smallMetal, mediumMetal, largeMetal, smallStone, mediumStone, largeStone, 
+                                                             smallGlass, mediumGlass, largeGlass, smallMixed, mediumMixed, largeMixed, smallFence, mediumFence,
+                                                             largeFence, smallRadiotower, mediumRadiotower, largeRadiotower, smallVehicle, mediumVehicle, largeVehicle, 
+                                                             electronic,lightPole, vehicleFiery
+    "smallVehicle":10,
+    "mediumVehicle":20,
+    "largeVehicle":30,
+    "vehicleFiery":15
+  },
+  "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb", - texture for blood spot
+  "DrawBloodChance": 0.3 - chance on leave blood spot on destruction
+  "DefaultAoEDamageMult": {  - AoE modifiers by unit's types. Available types: Mech, Vehicle, Turret, Building
+    "Building": {
+      "Range": 1.2,
+      "Damage": 5
+    }
+  },
+  "TagAoEDamageMult": {      - AoE modifiers by unit's tags. Tags watching lists: for mechs: MechTags, ChassisTags; for vehicles: VehicleTags; for turrets: TurretTags
+    "aoe_increased_minor": {
+      "Range": 1.2,
+      "Damage": 1.2
+    },
+    "aoe_increased_major": {
+      "Range": 2,
+      "Damage": 2
+    },
+    "aoe_reduced_minor": {
+      "Range": 0.8,
+      "Damage": 0.8
+    },
+    "aoe_reduced_major": {
+      "Range": 0.5,
+      "Damage": 0.5
+    },
+    "aoe_reduced_huge": {
+      "Range": 0.1,
+      "Damage": 0.1
+    }
+  },
 },
-]
+"showMissBehavior":"Default", - miss margin behavior.
+                                   None - miss floaties never shown
+                                   Vanilla - miss floaties shown as in vanilla (no miss margin)
+                                   Default - miss floaties shown as AIM's ShowMissMargin: true
+                                   All - show all miss floaties with miss margin
+"DestoryedLocationDamageTransferStructure":true - if true damage to destroyed locations transferred to structure directly instead of armor 
+"NullifyDestoryedLocationDamage": true - if true damage to destroyed locations will be nullified 
+"DestoryedLocationCriticalAllow": true - if false and on hit locations had 0 structure criticals will not be rolled 
+"uiIcons": [ "weapon_up", "weapon_down" ] - some prewarm icons 
+  "WeaponPanelWidthScale": 1.1,   - width scale for weapon panel background
+  "OrderButtonWidthScale": 0.5,   - width scale for order switch buttons
+  "OrderButtonPaddingScale": 0.3,
+  "SidePanelInfoSelfExternal": false, - if true info side panel panel content about selected unit is controlled by external mod
+  "SidePanelInfoTargetExternal": true - if true info side panel panel content about selected target is controlled by external mod
+  there two methods in API 
+    CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetSelfInfo(AbstractActor actor, Text text) 
+    CustAmmoCategories.CombatHUDInfoSidePanelHelper.SetTargetInfo(AbstractActor actor,ICombatant target, Text text)
+  on each invocation side panel refreshing. 
+  "MechHasNoStabilityTag": ["mech_no_stability"], - if mech chassis have this tag no instability damage applied by incoming attacks, land mines, components explosions.
+  "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"], - if mech chassis have this tag incoming heat damage from attacks, land mines, burning terrain, components explosions transferred to normal damage instead.
+  "InfoPanelDefaultState": false, - if true side info panel is shown by default
+  "AttackLogWrite": false - if true csv attack log will be created in CustomAmmoCatogories/AttacksLogs
+  "ShowAttackGroundButton": false - if false no attack ground button will be shown,
+  "ShowWeaponOrderButtons": false - if false no weapon order buttons will be shown
+}
 
 Weapon definition
 new fields
+  "MinMissRadius": 5,
+  "MaxMissRadius": 15,
+                        - min and max raduis. Used only in ground attack and indirect attack. Additive for ammo/mode/weapon
+						  If MinMissRadius less than target raduis (for mechs in chassis definition, for vehicels and turrets 5) raduis value will be used.
+						  If MaxMissRadius less or equal than MinMissRadius value MinMissRadius * 3 will be used.
+						  actual scatter radius = ((MaxMissRadius - MinMissRadius) * (hitRoll - toHitChance) / (1 - toHitChance) + MinMissRadius) * Random.Range(Constants.ResolutionConstants.MissOffsetHorizontalMin, Constants.ResolutionConstants.MissOffsetHorizontalMax)
+  "evasivePipsMods": {  - list of modifiers for values by current evasive pips count. Additive per weapon/ammo/mode. 
+                          Overall formula value = [base value] * ([evasive pips count]^[mod value]). Example base damage = 35, evasive pips count = 7, mod value = -1
+                          damage = 35 * (7^-1) = 35 * 0.142857(142857) = 5.
+                          NOTE: of evasive pips count = 0, value will not been altered. If mod value = 0 same behavior.
+      "Damage":0,
+      "APDamage":0,
+      "Heat":0,
+      "Instablility":0,
+      "GeneratedHeat":0,
+      "FlatJammingChance":0,
+      "MinRange":0,
+      "ShortRange":0,
+      "MediumRange":0,
+      "LongRange":0,
+      "MaxRange":0,
+      "AOERange":0,
+      "AOEDamage":0,
+      "AOEHeatDamage":0,
+      "AOEInstability":0,
+      "RefireModifier":0,
+      "APCriticalChanceMultiplier":0,
+      "AccuracyModifier":0,
+      "DamageVariance":0,
+      "CriticalChanceMultiplier":0
+  },
+  "deferredEffect":{                                   - deferred effect !!!CAN!!! be set per mode, ammo, weapon. Mode have priority than ammo and than weapon.
+    "id":"LOIC",                                       - id used in logs 
+    "rounds":2,                                        - rounds to effects apply
+    "text":"LOIC",                                     - text displayed while waiting 
+    "VFX":"vfxPrfPrtl_orbitalPPC_oneshot",             - vfx displayed after timeout
+    "waitVFX":"vfxPrfPrtl_artillerySmokeSignal_loop",  - vfx displayed while waiting
+    "SFX":"ion_cannon_example",                        - sound played on VFX played
+    "VFXtime":20,                                      - time in seconds while VFX is played. After this vfx will be stopped and pooled.
+    "damageApplyTime": 6,                              - time in seconds from start to apply damage/status effects/terrain effects. 
+	                                                     Once effect playing is starts turn can't be advanced until damage apply
+    "AOERange":50,                                     - AOE range
+    "AOEDamage": 1000,                                 - AOE damage
+    "AOEHeatDamage": 1000,                             - AOE heat damage
+    "AOEInstability": 1000,                            - AOE instability 
+	                                                   
+    "RangeColor":{"C":"#00FF00","I":1.5},              - Color for text and range circle	                                                   
+    "FireTerrainChance": 0.8,                          - fire terrain chance 
+    "FireDurationWithoutForest": 0,                    - turns fire will exists on terrain without forest 
+    "FireTerrainStrength": 30,                         - heat damage from fire
+    "FireTerrainCellRadius": 12,                       - radius in game cells (each cell have 4x4 size)
+    "TerrainVFX":"vfxPrfPrtl_terrainLavaCracks_loop",  - terrain vfx (apply to each hex cell)
+    "TerrainVFXScale": {"x":1,"y":1,"z":1},            - scale for vfx
+    "tempDesignMask":"DesignMaskGeothermalLava",       - design mask
+    "tempDesignMaskTurns": 99,                         - length in turns design mask and terrain vfx exists
+    "tempDesignMaskCellRadius": 12,                    - radius in game cells 
+	                                                   NOTE: all values above have same apply logic as mine explosions. 
+    "statusEffects": [],                               - status effects array
+	  "statusEffectsRangeFalloff": true,                 - range falloff for status effects - if true effect will be applience will be optional, 
+	                                                     chance is based on distance from center of effect. 
+	  "sticky": true                                     - it true on success hit deferred effect position links to target. Does not matter if it moves or become dead.
+  },
+  "ShotsPerAmmo": 1,              - shots per ammo. Example: you have effective shots count = 4 and ShotsPerAmmo = 0.5. After fire ammo will be decremented by 2 (4 * 0.5)
+                                    Mutiplicative per weapon, ammo, mode. Default value 1. NOTE: Ammo decrement value rounded to nearest integer. 
+                                    If it will be less than 0.5 - it will be your own problem - no ammo will be used.
+  "InternalAmmo":{                - starting ammo capacity per ammo id.
+    "Ammunition_intLRM":20,                    StartingAmmoCapacity is counted as default ammo for base category
+    "Ammunition_intSRM":15
+  },
+  "preFireSFX":"Play_PPC3",       - sound played on weapon's fire !!!CAN!!! be set per mode, ammo, weapon. Mode have priority than ammo and than weapon.
+  "blockWeaponsInMechLocations": [], - list of mech locations. all weapons installed in this locations can't fire if this weapon is functional.
+                                       NOTE: weapon can block itself.
+  "CanBeBlocked": true               - if false weapon can't be blocked by other weapons presents (default is true).
+  "blockWeaponsInInstalledLocation": true - if true this weapon blocks weapons in location it installed. Weapon block itself until CanBeBlocked is false
+  "EjectWeapon": true,                 - if true weapon become non functional (without explosion) instead of ammo ejection on eject ammo command. 
+                                         Can be used to unblock other weapons. Default false.
   "AOEEffectsFalloff": false, if true and weapon inflicts AoE damage, random roll will be permitted before onHit effect apply. 
                               Example: aoe range = 100m, projectile hits ground in 30m from combatant - onHits effects will be applied with 0.7 chance ((100 - 30) / 100).
   "isHeatVariation": true, - if true heat damage will be altered using DamageVariance/DistantVariance/DistantVarianceReversed values. Per mode/ammo/weapon.
@@ -298,7 +431,7 @@ new fields
 								  result = 1.0 + (6-10)*0.1 = 0.6
 								  GunneryJammingBase if ommited in weapon def., ammo def. and mode def. assumed as 5. 
   "DisableClustering": true/false - if true ProjectilesPerShot > 1 will affect only visual nor damage. If omitted consider as true.
-  "NotUseInMelee": true, - if true even AntiPersonel weapon type will not fire on melee attack, AI aware. 
+  (not used any more)"NotUseInMelee": true, - if true even AntiPersonel weapon type will not fire on melee attack, AI aware. 
   "AlternateDamageCalc": false, - if true alternate damage calc formula will be implemented 
                               DamagePerShot = (damage from weaponDef + (damage from ammo) + (damage from mode)*(damage multiplayer from ammo)*(damage multiplayer from mode)*(damage with effects)/(damage from weaponDef)
   "AlternateHeatDamageCalc": false, - same as  AlternateDamageCalc but for heat 
@@ -324,7 +457,9 @@ new fields
   "AMSShootsEveryAttack": false, - if true AMS will not share AMS.ShootsWhenFired between all missile attacks this round. 
                                        Every missile attack will cause AMS.ShootsWhenFired shoots. 
 								   if false AMS will shoot AMS.ShootsWhenFired per round
-  "AMSImmune": false - if true, weapon missiles is immune to AMS and none AMS will try to intercept them.
+  "AMSImmune": false - if true, weapon missiles is immune to AMS and none AMS will try to intercept them. Can be set for mode ammo and weapon
+  "MissileHealth": 1, - health of missile. Used while AMS working. If missile health become 0 missile counted as intercepted. Additive for ammo, mode, weapon.
+  "AMSDamage": 1, - damage AMS inflicting to missiles subtracting from missile health on success hit. Used while AMS working. If missile health become 0 missile counted as intercepted. Additive for ammo, mode, weapon.
   "AOECapable" : false, - if true weapon will included in AOE damage calculations. If true set in weapon definition 
                             all shoots will have AoE effect (even for energy weapon). If true, it can't be overridden by ammo.
   "AOERange": 100, - Area of effect range. If AOECapable in weapon is set to true this value will be used. If AOECapable is true, it can't be overridden by ammo.
@@ -565,6 +700,7 @@ new fields
   
 Ammo definition
 {
+   "HideIfOnlyVariant": true, - if true this ammo name will be hidden if only variant for this mode. Default false.
    "Description" : {
       "Id" : "Ammunition_LBX10ECM",
       "Name" : "LBX/10 ECM Ammo",
@@ -664,7 +800,7 @@ Ammo definition
 						  Base point of AoE range calculations will be point where first projectile,
 						            (if weapon have ShotsWhenFired > 1) not intercepted by AMS, hits ground.
 						  It is recommended to use LRM5, LRM10, LRM15 or LRM20 as weapon subtype cause other subtypes have too huge spread when misses
-						  It is good idea to set ForbiddenRage for AoE weapon and set NotUseInMelee to true
+						  It is good idea to set ForbiddenRage for AoE weapon
 						  AOE weapon can't hit mech head, cause every headshot inflicts pilot injury. With fact AoE always dealt damage it will be imbalance. 
 						  Damage variations are not applying to AoE damage
   "AOEDamage": 0 - if > 0 alternative AoE damage algorithm will be used. Main projectile will not always miss. Instead it will inflict damage twice 
@@ -931,6 +1067,32 @@ Ammo definition
     ]
 }
 
+Note for Explosion API
+CustAmmoCategories.ExplosionAPIHelper.AoEExplode(
+string VFX - VFX name
+, Vector3 vfxScale - VFX scale
+, float vfxDuration - VFX playing duration in seconds
+, string SFX - sound effect
+, Vector3 pos - position
+, float radius - AoE radius in meters
+, float damage - AoE damage
+, float heat - AoE heat
+, float stability - AoE stability damage
+, List<EffectData> effects - list of applying effects
+, bool effectsFalloff - not used
+, int fireRadius - fire radius in cells
+, int fireStrength - fire strength
+, float fireChance - fire chance
+, int fireDurationNoForest - fire duration in turns if no forest in affected hex
+   (all values allied with respect to biome)
+, string LongVFX - long VFX prefab
+, Vector3 longVFXScale - long VFX scale
+, string designMask - design mask to apply
+, int dmRadius - radius in cells to apply design mask
+, int turns - duration of design mask and long VFX if set
+)
+example
+ExplosionAPIHelper.AoEExplode("WFX_Nuke", Vector3.one * 50f, 20f, "big_explosion", this.targetPosition, 100f, 2000f, 100f, 100f, new List<EffectData>(), false, 3, 40, 1f, 5, string.Empty, Vector3.zero, string.Empty, 0, 0);
 
 Notes for external AI (CleverGirl):
 weapon.gatherDamagePrediction(Vector3 attackPos, ICombatant target) - returns Dictionary<AmmoModePair, WeaponFirePredictedEffect>
@@ -1494,264 +1656,4 @@ public enum AudioEventList_whoosh
 
 
 overriden methods
-
-!!!BattleTech.AttackDirector.AttackSequence.GenerateHitInfo
-	Prefix
-Implement HitGenerator choosing. Original method completely rewritten and never invoking. 
-
-!!!BattleTech.AttackDirector.AttackSequence.OnAttackSequenceResolveDamage:
-	Prefix
-add per ammo modification to applying status effects. Original method completely rewritten and never invoking
-
-!!!BattleTech.Weapon.DecrementAmmo:
-	Prefix
-method completely rewritten to make weapon use only selected ammo and implement streak ammo decremental (decrement only success hits)
-	
-!!!BattleTech.AbstractActor.CalcAndSetAlphaStrikesRemaining:
-	Prefix:
-Method completely rewritten to make AI calc remaining alpha strikes correctly base on real weapon ammo category. Original method never invoking
-	
-!!!BattleTech.Weapon.SetAmmoBoxes
-	Prefix
-Method completely rewritten to make weapon use right ammo. Original method never invoking.
-
-!!!BattleTech.Weapon.CurrentAmmo
-	Prefix
-Method completely rewritten to make weapon use right ammo. Original method never invoking.
-
-!!!BattleTech.MechValidationRules.ValidateMechHasAppropriateAmmo:
-	Prefix
-Method completely rewritten to make mechlab validator functioning correctly.
-
-!!!BattleTech.WeaponRepresentation.PlayWeaponEffect:
-	Prefix
-Method completely rewritten to play correct effect for each ammo. Original method never invoking.
-	
-!!!WeaponEffect.PlayProjectile:
-	Prefix
-Method completely rewritten to make correct AttackRecoil. Original method never invoking.
-
-!BattleTech.ToHit.GetEvasivePipsModifier
-	Prefix
-add per ammo modification. If modification is done original method not invoked.
-
-!BattleTech.WeaponDef.FromJSON
-	Prefix
-method make some modification on json. Original method always invoking.
-
-!BattleTech.AmmunitionDef.FromJSON
-	Prefix
-method make some modification on json. Original method always invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.OnPointerDown
-	Prefix
-add trigger to ammo cycling. If click detected on right side of weapon slot original method not invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.OnPointerUp
-	Prefix
-add trigger to ammo cycling. If click detected on right side of weapon slot original method not invoking.
-
-!BattleTech.UI.CombatHUDWeaponSlot.RefreshHighlighted
-	Prefix
-add check on DisplayWeapon == null if so original method not invoking.
-
-BattleTech.Weapon.DamagePerShot getter
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.HeatDamagePerShot getter
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ShotsWhenFired
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ProjectilesPerShot:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_CriticalChanceMultiplier:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_AccuracyModifier:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MinRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MaxRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_ShortRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_MediumRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_LongRange:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_HeatGenerated:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_IndirectFireCapable:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_AOECapable:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.Instability:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.get_WillFire:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.Weapon.RefireModifier getter
-	Postfix
-add per ammo/mode modification
-	
-BattleTech.MechComponent.UIName getter:
-	Postfix
-add per ammo/mode modification
-
-BattleTech.WeaponRepresentation.Init:
-	Postfix
-Registering additional weapon visual effects.
-
-BattleTech.WeaponRepresentation.ResetWeaponEffect:
-	Postfix
-resetting additional per ammo visual effects
-
-BattleTech.CombatGameState.ShutdownCombatState:
-	Postfix
-make some cleaning
-
-BattleTech.AttackDirector.AttackSequence.Cleanup:
-	Postfix
-helps AI to cycle ammo on depletion 
-
-BattleTech.UI.CombatHUDWeaponSlot.RefreshDisplayedWeapon:
-	Transpiler
-needed show real projectiles count when ProjectilesPerShot > 1
-
-BattleTech.CombatGameState.RebuildAllLists
-	Postfix
-registering all weapon and ammo on battlefield.
-
-BattleTech.CombatGameState.OnCombatGameDestroyed:
-	Postfix
-make some cleaning
-
-BattleTech.UI.CombatHUD.Init:
-	Prefix
-registering all weapon and ammo on battlefield. Original method always invoking
-
-AttackEvaluator.MakeAttackOrderForTarget
-	Prefix
-AI make decision what ammo he must use to hit target. Original method invoking always
-	
-AttackEvaluator.MakeAttackOrder
-	Postfix
-AI make decision what ammo he must use to hit target.
-
-AIUtil.UnitHasLOFToTargetFromPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-AIUtil.UnitHasLOFToUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AIRoleAssignment.EvaluateSniper:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.GetLongestRangeWeapon:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.HasIndirectLOFToTargetUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.AbstractActor.HasLOFToTargetUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.HostileDamageFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.FindWeaponToHitTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.GetExpectedDamageForMultiTargetWeapon:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.PartitionWeaponListToKillTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.MultiAttack.ValidateMultiAttackOrder:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferExposedAlonePositionalFactor.InitEvaluationForPhaseForUnit:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferFiringSolutionWhenExposedAllyPositionalFactor.EvaluateInfluenceMapFactorAtPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferLethalDamageToRearArcFromHostileFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.PreferNotLethalPositionFactor.expectedDamageForShooting:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.ToHit.GetAllModifiers:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-	Postfix
-add per ammo or weapon modificator if direct fire detected.
-
-BattleTech.ToHit.GetAllModifiersDescription:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-	Postfix
-add per ammo or weapon modificator if direct fire detected.
-
-BattleTech.UI.CombatHUDWeaponSlot.UpdateToolTipsFiring:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.UI.CombatHUDWeaponTickMarks.GetValidSlots:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-BattleTech.Weapon.WillFireAtTargetFromPosition:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
-
-LOFCache.UnitHasLOFToTarget:
-	Transpiler
-add per ammo modification of IndirectFireCapable. weapon.IndirectFireCapable changed to CustomAmmoCategories.getIndirectFireCapable(weapon)
 
