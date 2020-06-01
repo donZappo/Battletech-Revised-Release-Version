@@ -17,7 +17,7 @@
         "UIName": "Crusader CRD-5M", 
         "Id": "mechdef_crusader_CRD-5M", 
         "Name": "Crusader", 
-        "Details": "The Crusader was initially designed as a close combat BattleMech but soon proved itself to be a very adaptable, multi-role design. Its versatility and large number of manufactures ensured the Crusader its place as one of the most common heavy 'Mechs in the Inner Sphere.", 
+        "Details": "The 5M was the official production-model upgraded variant of the Crusader for the Free Worlds League, introduced in 3049 and using recovered Star League technology.", 
         "Icon": "uixTxrIcon_crusader"
     }, 
     "RequiredToSpawnCompanyTags": {

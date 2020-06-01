@@ -14,12 +14,13 @@
         "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Phoenix Hawk PXH-1K-RV", 
+        "UIName": "Phoenix Hawk", 
         "Id": "mechdef_phoenixhawk_PXH-1K-RV", 
         "Name": "Phoenix Hawk", 
         "Details": "The Kurita-modified PXH-1K-RV revamps the weaponry of hte famous 1K variant in favor of newer COIL energy weaponry trickling in from the Periphery. With a slightly lighter heat load it removes a Heat Sink and increases the alraedy impressive armor for this chassis.", 
         "Icon": "uixTxrIcon_phoenixhawk"
     }, 
+    "VariantName": "PXH-1K-RV",
     "RequiredToSpawnCompanyTags": {
         "items": [], 
         "tagSetSourceFile": ""

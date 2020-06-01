@@ -17,7 +17,7 @@
         "UIName": "Crab CRB-27b", 
         "Id": "mechdef_crab_CRB-27b", 
         "Name": "Crab", 
-        "Details": "Designed in 2719 during the last days of the Star League, the Crab 27 was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply.", 
+        "Details": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the large lasers with ER Large Lasers.", 
         "Icon": "uixTxrIcon_crab"
     }, 
     "RequiredToSpawnCompanyTags": {

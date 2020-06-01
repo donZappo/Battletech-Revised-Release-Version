@@ -9,7 +9,7 @@
         "UIName": "Mongoose", 
         "Id": "chassisdef_mongoose_MON-67", 
         "Name": "Mongoose", 
-        "Details": "The MON-67 is the downgraded version of the MON-66 Mongoose introduced in 2830. The MON-67 removes the active probe and replaces the Endo Steel structure with a standard structure while the armor has been downgraded to standard plate armor. To keep the same level of protection as before, half a ton of armor has been added..", 
+        "Details": "The MON-67 is the downgraded version of the MON-66 Mongoose introduced in 2830. The MON-67 removes the active probe and replaces the Endo Steel structure with a standard structure while the armor has been downgraded to standard plate armor. To keep the same level of protection as before, half a ton of armor has been added.", 
         "Icon": "uixTxrIcon_mongoose"
     }, 
     "VariantName": "MON-67", 

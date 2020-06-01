@@ -9,7 +9,7 @@
         "UIName": "Bushwacker", 
         "Id": "chassisdef_bushwacker_BSW-S2", 
         "Name": "Bushwacker", 
-        "Details": "he S2 is a variant of the Bushwacker that makes the 'Mech more effective at short to medium ranges. The 'Mech carries an ER Large Laser to allow the 'Mech to engage an enemy at long ranges as it closes. The 'Mech carries an LB-X10 autocannon, which can fire both standard and cluster ammunition for long to medium range engagement capabilities. For close combat, the 'Mech has two SRM-4 launchers, making it a powerful unit at any range. For added defense, the S2 carries an Anti-Missile System.", 
+        "Details": "The BSW-S2 is a variant of the Bushwacker that makes the 'Mech more effective at short to medium ranges. The 'Mech carries an ER Large Laser to allow the 'Mech to engage an enemy at long ranges as it closes. The 'Mech carries an LB-X10 autocannon, which can fire both standard and cluster ammunition for long to medium range engagement capabilities. For close combat, the 'Mech has two SRM-4 launchers, making it a powerful unit at any range. For added defense, the S2 carries an Anti-Missile System.", 
         "Icon": "uixTxrIcon_bushwacker"
     }, 
     "VariantName": "BSW-S2", 
@@ -25,7 +25,7 @@
     "TopSpeed": 80, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 130, 
+    "Stability": 140, 
     "StabilityDefenses": [
         0, 
         0, 

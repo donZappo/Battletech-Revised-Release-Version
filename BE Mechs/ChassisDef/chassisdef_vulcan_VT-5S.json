@@ -54,13 +54,13 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 20, 
-    "MeleeInstability": 10, 
+    "MeleeDamage": 40, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 40, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 40, 
-    "DFAInstability": 20, 
+    "DFAInstability": 40, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"
