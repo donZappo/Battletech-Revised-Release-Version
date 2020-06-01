@@ -12,7 +12,8 @@
          "Bonuses":[
             "WalkSpeed: +100%",
             "HeatGenerated: +25%",
-            "StructureMass: 7.5"
+            "StructureMass: 7.5",
+			"Activatable"
          ]
       },
       "Weights":{

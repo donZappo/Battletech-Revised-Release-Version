@@ -94,6 +94,12 @@
             "Short" : "{0}% Chassis Mass",
             "Long" : "{0}% Chassis Mass",
             "Full" : "This component weighs {0}% of the tonnage of the chassis."
-        }
+        },
+		{
+			"Bonus": "Activatable",
+			"Short": "Activatable",
+			"Long": "Activatable",
+			"Full": "CTRL+Click on move button in mech HUD to activate this item"
+		},
     ]
 }
