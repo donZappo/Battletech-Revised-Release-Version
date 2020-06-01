@@ -6,7 +6,7 @@
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Awesome AWS-9Q", 
+        "UIName": "Awesome", 
         "Id": "chassisdef_awesome_AWS-9Q", 
         "Name": "Awesome", 
         "Details": "A basic upgrade to the original 8Q introduced in 3057, the heat sinks are upgraded to double heat sinks and are reduced to nineteen. The saved weight is used to add a fourth PPC to the 'Mech as well as a Guardian ECM Suite. Although there was some criticism for using basic PPCs and not upgrading to ER models, the 9Q proved itself during Operation Guerrero to be quite devastating. <b><color=#53ff1a>Restricted Actuators-Right: Lower Left: Lower</color></b>", 
@@ -25,7 +25,7 @@
     "TopSpeed": 105, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 100, 
+    "Stability": 200, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -45,10 +45,10 @@
     "MeleeDamage": 120, 
     "MeleeInstability": 80, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 80, 
+    "DFADamage": 100, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 80, 
-    "DFAInstability": 40, 
+    "DFASelfDamage": 100, 
+    "DFAInstability": 100, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

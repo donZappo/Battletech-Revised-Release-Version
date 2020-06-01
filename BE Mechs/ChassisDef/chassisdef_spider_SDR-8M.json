@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_spider"
     }, 
     "VariantName": "SDR-8M", 
-    "StockRole": "__/Base_3061.chassisdef_spider_SDR-8M.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_spider_SDR-8M.YangsThoughts/__", 
+    "StockRole": "Extremely Maneuverable Scout", 
+    "YangsThoughts": "What do you get when you take a SDR-7M and combine it with a freezer? This much cooler running mech.", 
     "PrefabIdentifier": "chrPrfMech_spiderBase-001", 
     "PrefabBase": "spider", 
     "Tonnage": 30, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 15, 
-    "MeleeInstability": 8, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 30, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 30, 
-    "DFAInstability": 15, 
+    "DFAInstability": 30, 
     "ChassisTags": {
         "items": [
             "JumpMech", 

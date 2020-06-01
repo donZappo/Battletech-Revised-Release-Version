@@ -14,12 +14,13 @@
         "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Blackhawk-KU BHKU-O", 
+        "UIName": "Black Hawk-KU", 
         "Id": "mechdef_blackhawkku_BHKU-O", 
         "Name": "Black Hawk-KU", 
         "Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart. The primary configuration of the Black Hawk-KU carries six Medium Lasers as its primary weapons. These are backed up by four highly accurate Medium Pulse Lasers and two Small Lasers. Additionally, two more double heat sinks have been added over what is carried on the base chassis.", 
-        "Icon": "uixTxrIcon_nova"
+        "Icon": "uixTxrIcon_blackhawkku"
     }, 
+    "VariantName": "BHKU-O",
     "RequiredToSpawnCompanyTags": {
         "items": [], 
         "tagSetSourceFile": ""

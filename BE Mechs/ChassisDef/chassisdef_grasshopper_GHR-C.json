@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_grasshopper"
     }, 
     "VariantName": "GHR-C", 
-    "StockRole": "__/Base_3061.chassisdef_grasshopper_GHR-C.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_grasshopper_GHR-C.YangsThoughts/__", 
+    "StockRole": "Heavy Skirmisher & Cavalry", 
+    "YangsThoughts": "This Grasshopper variant adds some lovely targeting software to helps pilots hit their targets.", 
     "PrefabIdentifier": "chrPrfMech_grasshopperBase-001", 
     "PrefabBase": "grasshopper", 
     "Tonnage": 70, 
@@ -25,7 +25,7 @@
     "TopSpeed": 120, 
     "TurnRadius": 90, 
     "MaxJumpjets": 5, 
-    "Stability": 100, 
+    "Stability": 160, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 35, 
-    "MeleeInstability": 18, 
+    "MeleeDamage": 90, 
+    "MeleeInstability": 70, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 70, 
+    "DFADamage": 90, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 70, 
-    "DFAInstability": 35, 
+    "DFASelfDamage": 90, 
+    "DFAInstability": 90, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

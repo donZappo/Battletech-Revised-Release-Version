@@ -25,8 +25,8 @@
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "VariantName": "VT-5S", 
-    "StockRole": "__/Base_3061.chassisdef_vulcan_VT-5S.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_vulcan_VT-5S.YangsThoughts/__", 
+    "StockRole": "Striker", 
+    "YangsThoughts": "The Steiners felt that more speed would allow this mech to chase down vehicles better. Hard to disagree.", 
     "PrefabIdentifier": "chrPrfMech_vulcanBase-001", 
     "PrefabBase": "vulcan", 
     "Tonnage": 40, 

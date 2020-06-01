@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_kintaro"
     }, 
     "VariantName": "KTO-C", 
-    "StockRole": "__/Base_3061.chassisdef_kintaro_KTO-C.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_kintaro_KTO-C.YangsThoughts/__", 
+    "StockRole": "Juggernaut & Close Assault", 
+    "YangsThoughts": "Another experiment in targeting systems vs. more guns.", 
     "PrefabIdentifier": "chrPrfMech_kintaroBase-001", 
     "PrefabBase": "kintaro", 
     "Tonnage": 55, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 28, 
-    "MeleeInstability": 14, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 55, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 55, 
-    "DFAInstability": 28, 
+    "DFAInstability": 55, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

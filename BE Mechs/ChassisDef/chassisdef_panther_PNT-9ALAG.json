@@ -14,7 +14,7 @@
     }, 
     "VariantName": "PNT-9ALAG", 
     "StockRole": "Sniper & Light Brawler", 
-    "YangsThoughts": "One of few Combine regiments that prefer light 'Mechs, ideally the fastest possible, the Amphigean Light Assault Groups modify their Panthers for speed[10], dropping the 9R's jump jets to make room for a larger engine.", 
+    "YangsThoughts": "The Panther has always been slow, especially for a light mech. The bigger engine goes a long way to helping it keep up with the others in a typical light lance.", 
     "PrefabIdentifier": "chrPrfMech_pantherBase-001", 
     "PrefabBase": "panther", 
     "Tonnage": 35, 

@@ -37,7 +37,7 @@
     }, 
     "VariantName": "PXH-3M", 
     "StockRole": "Skirmisher", 
-    "YangsThoughts": "The 3D variant of the Phoenix Hawk is an upgrade used by the forces of House Davion of the 1D variant. The 'Mech utilized Endo Steel construction techniques and a Extra-Light engine to free up weight and space for a number of improvements, particularly its weaponry.", 
+    "YangsThoughts": "Marik's version of the Phoenix Hawk utilizes many new technologies and bears little resemblance to the original.", 
     "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001", 
     "PrefabBase": "phoenixhawk", 
     "Tonnage": 45, 

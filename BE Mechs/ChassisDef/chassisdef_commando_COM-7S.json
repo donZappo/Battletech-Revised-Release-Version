@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_commando"
     }, 
     "VariantName": "COM-7S", 
-    "StockRole": "__/Base_3061.chassisdef_commando_COM-7S.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_commando_COM-7S.YangsThoughts/__", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "The lighter engine in the 7S allows for more guns on its light frame.", 
     "PrefabIdentifier": "chrPrfMech_commandoBase-001", 
     "PrefabBase": "commando", 
     "Tonnage": 25, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 13, 
-    "MeleeInstability": 7, 
+    "MeleeDamage": 25, 
+    "MeleeInstability": 25, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 25, 
-    "DFAInstability": 13, 
+    "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
             "TargetingBaffles", 
