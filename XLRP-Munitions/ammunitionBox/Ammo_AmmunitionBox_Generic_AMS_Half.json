@@ -10,7 +10,7 @@
     "UIName": "AMS Ammo (Half)",
     "Id": "Ammo_AmmunitionBox_Generic_AMS_Half",
     "Name": "AMS Ammo (Half)",
-    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Half ton AMS Ammo Bins each contain 60 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
+    "Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Half ton AMS Ammo Bins each contain 60 rounds and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.375</color></b>",
     "Icon": "uixSvgIcon_ammoBox_Support"
   },
   "BonusValueA": "",

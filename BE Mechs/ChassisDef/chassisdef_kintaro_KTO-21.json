@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_kintaro"
     }, 
     "VariantName": "KTO-21", 
-    "StockRole": "__/Base_3061.chassisdef_kintaro_KTO-21.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_kintaro_KTO-21.YangsThoughts/__", 
+    "StockRole": "Juggernaut & Close Assault", 
+    "YangsThoughts": "Lots of cool toys on this mech, boss. Pity they dumped the LRM rack, though.", 
     "PrefabIdentifier": "chrPrfMech_kintaroBase-001", 
     "PrefabBase": "kintaro", 
     "Tonnage": 55, 
@@ -25,7 +25,7 @@
     "TopSpeed": 80, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 100, 
+    "Stability": 140, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 28, 
-    "MeleeInstability": 14, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 55, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 55, 
-    "DFAInstability": 28, 
+    "DFAInstability": 55, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

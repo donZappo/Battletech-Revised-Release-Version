@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "VariantName": "VT-5M", 
-    "StockRole": "__/Base_3061.chassisdef_vulcan_VT-5M.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_vulcan_VT-5M.YangsThoughts/__", 
+    "StockRole": "Striker", 
+    "YangsThoughts": "The pulse lasers in the VT-5M give this mech great accuracy and enhance its primary anti-vehicular role.", 
     "PrefabIdentifier": "chrPrfMech_vulcanBase-001", 
     "PrefabBase": "vulcan", 
     "Tonnage": 40, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 20, 
-    "MeleeInstability": 10, 
+    "MeleeDamage": 40, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 40, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 40, 
-    "DFAInstability": 20, 
+    "DFAInstability": 40, 
     "ChassisTags": {
         "items": [
             "AntiTankVehicleRole", 

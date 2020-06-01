@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 13, 
-    "MeleeInstability": 7, 
+    "MeleeDamage": 25, 
+    "MeleeInstability": 25, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 25, 
-    "DFAInstability": 13, 
+    "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
             "HighPrecisionLaserTargeting", 

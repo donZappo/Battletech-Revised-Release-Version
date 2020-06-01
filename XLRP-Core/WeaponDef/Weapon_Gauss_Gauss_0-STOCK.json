@@ -1,12 +1,12 @@
 {
 	"Custom": {
-		"ComponentExplosion": { "ExplosionDamage": 10 }
+		"ComponentExplosion": { "ExplosionDamage": 10 },
 		
 		"BonusDescriptions": {
 			"Bonuses": [
 				"WillExplode: 10"
 			]
-		},
+		}
 	},
   "Category" : "Ballistic",
   "Type" : "Gauss",

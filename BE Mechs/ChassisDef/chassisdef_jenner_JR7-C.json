@@ -9,12 +9,12 @@
         "UIName": "Jenner", 
         "Id": "chassisdef_jenner_JR7-C", 
         "Name": "Jenner", 
-        "Details": "The JR7-C was a basic upgrade of the JR7-K, removing one of the Medium Lasers and replacing it with a C3 Slave Unit. Combined with its speed this made the Jenner an ideal spotter for a C3 company. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>", 
+        "Details": "The JR7-C was a basic upgrade of the JR7-K, removing one of the Medium Lasers and replacing it with targeting hardware. Combined with its speed this made the Jenner an ideal spotter for a lance. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>", 
         "Icon": "uixTxrIcon_jenner"
     }, 
     "VariantName": "JR7-C", 
-    "StockRole": "__/Base_3061.chassisdef_jenner_JR7-C.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_jenner_JR7-C.YangsThoughts/__", 
+    "StockRole": "Fast Striker Cavalry", 
+    "YangsThoughts": "The 7-C adds in some advanced targeting system to help pilots hit what they're aiming at.", 
     "PrefabIdentifier": "chrPrfMech_jennerBase-001", 
     "PrefabBase": "jenner", 
     "Tonnage": 35, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 18, 
-    "MeleeInstability": 9, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 35, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 35, 
-    "DFAInstability": 18, 
+    "DFAInstability": 35, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

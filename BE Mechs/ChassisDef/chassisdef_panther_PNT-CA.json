@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_panther"
     }, 
     "VariantName": "PNT-CA", 
-    "StockRole": "__/Base_3061.chassisdef_panther_PNT-CA.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_panther_PNT-CA.YangsThoughts/__", 
+    "StockRole": "Sniper & Light Brawler", 
+    "YangsThoughts": "Some consider it a downgrade but there's no arguing the older PPC runs cooler than its ER counterpart.", 
     "PrefabIdentifier": "chrPrfMech_pantherBase-001", 
     "PrefabBase": "panther", 
     "Tonnage": 35, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 18, 
-    "MeleeInstability": 9, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 35, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 35, 
-    "DFAInstability": 18, 
+    "DFAInstability": 35, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

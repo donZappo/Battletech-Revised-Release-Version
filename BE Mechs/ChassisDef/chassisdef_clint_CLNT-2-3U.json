@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_clint"
     }, 
     "VariantName": "CLNT-2-3U", 
-    "StockRole": "__/Base_3061.chassisdef_clint_CLNT-2-3U.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_clint_CLNT-2-3U.YangsThoughts/__", 
+    "StockRole": "Recon & Fire Support", 
+    "YangsThoughts": "A hotter variant of the Clint, it has freed itself of ammunition concerns by using only energy weapons.", 
     "PrefabIdentifier": "chrprfmech_clintbase-001", 
     "PrefabBase": "clint", 
     "Tonnage": 40, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 20, 
-    "MeleeInstability": 10, 
+    "MeleeDamage": 40, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 40, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 40, 
-    "DFAInstability": 20, 
+    "DFAInstability": 40, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

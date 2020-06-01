@@ -54,7 +54,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 40, 
+    "MeleeDamage": 45, 
     "MeleeInstability": 45, 
     "MeleeToHitModifier": -2, 
     "DFADamage": 55, 

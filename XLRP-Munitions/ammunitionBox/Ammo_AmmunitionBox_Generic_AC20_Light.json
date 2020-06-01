@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 4.2
+			"ExplosionDamagePerAmmo": 12.5
 		}
 	},
     "AmmoID" : "Ammunition_AC20_Light",
@@ -15,7 +15,7 @@
         "UIName" : "AC/20 Ammo (L)",
         "Id" : "Ammo_AmmunitionBox_Generic_AC20_Light",
         "Name" : "AC/20 Ammo (Lightweight)",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit.\r\n\r\nAC/20 Lightweight Ammo utilizes lightweight materials to improve ballistic properties, increasing maximum weapon range by 60 meters. This comes at the cost of reduced stability impact. AC/20 Lightweight ammo bins contain <color=#6aa84f>6 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 4.2</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit.\r\n\r\nAC/20 Lightweight Ammo utilizes lightweight materials to improve ballistic properties, increasing maximum weapon range by 60 meters. This comes at the cost of reduced stability impact. AC/20 Lightweight ammo bins contain <color=#6aa84f>6 rounds</color> of ammunition per ton.\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 12.5</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "+60m Range",

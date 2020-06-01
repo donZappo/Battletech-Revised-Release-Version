@@ -25,8 +25,8 @@
         "Icon": "uixTxrIcon_centurion"
     }, 
     "VariantName": "CN9-D3", 
-    "StockRole": "__/Base_3061.chassisdef_centurion_CN9-D3.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_centurion_CN9-D3.YangsThoughts/__", 
+    "StockRole": "Brawler & General Assault", 
+    "YangsThoughts": "Get this thing hot and it will outrun a scout mech.", 
     "PrefabIdentifier": "chrPrfMech_centurionBase-001", 
     "PrefabBase": "centurion", 
     "Tonnage": 50, 
@@ -37,7 +37,7 @@
     "TopSpeed": 65, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 100, 
+    "Stability": 140, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -54,13 +54,13 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 25, 
-    "MeleeInstability": 13, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 50, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 50, 
-    "DFAInstability": 25, 
+    "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

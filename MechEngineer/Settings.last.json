@@ -874,7 +874,7 @@
         "BonusDescriptionsElementTemplate" : " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n"
     },
     "OverrideGhostVFX" : {
-        "Enabled" : true,
+        "Enabled" : false,
         "EnabledDescription" : "Allows to turn off or reduce the strong and weak ghost effects of ECM, and allows to remove the ECM globe effect.",
         "Blacklisted" : [
             "vfxPrfPrtl_ECM_loop",
@@ -945,7 +945,7 @@
         ],
         "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
         "BlacklistComponentTags" : [
-            
+            "BUILT-IN"
         ],
         "BlacklistComponentTagsDescription" : "Blacklists components with specified tags, has precedence over whitelisting.",
         "WhitelistMechTags" : [
@@ -953,7 +953,7 @@
         ],
         "WhitelistMechTagsDescription" : "Similar to WhitelistComponentTags but with MechTags",
         "BlacklistMechTags" : [
-            
+            "unit_flashpoint"
         ],
         "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags"
     },

@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_hunchback"
     }, 
     "VariantName": "HBK-5N", 
-    "StockRole": "__/Base_3061.chassisdef_hunchback_HBK-5N.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_hunchback_HBK-5N.YangsThoughts/__", 
+    "StockRole": "Juggernaut & Close Assault", 
+    "YangsThoughts": "After enough pilots complained about lack of ammo, Marik engineers made some room for more in the 5N.", 
     "PrefabIdentifier": "chrPrfMech_hunchbackBase-001", 
     "PrefabBase": "hunchback", 
     "Tonnage": 50, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 25, 
-    "MeleeInstability": 13, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 50, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 50, 
-    "DFAInstability": 25, 
+    "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

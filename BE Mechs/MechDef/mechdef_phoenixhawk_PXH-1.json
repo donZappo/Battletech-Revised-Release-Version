@@ -14,12 +14,12 @@
         "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Phoenixhawk PXH-1", 
+        "UIName": "Phoenix Hawk PXH-1", 
         "Id": "mechdef_phoenixhawk_PXH-1", 
         "Name": "Phoenix Hawk", 
         "Details": "The PXH-1 is one of the most elegant and agile 'Mechs around, boasting good armor and decent weapons. Sadly, its heat buildup is also noteworthy. Savvy MechWarriors take advantage of this 'Mech's jump capability to land timely shots and then reposition to another vantage point.", 
         "Icon": "uixTxrIcon_phoenixhawk"
-    }, 
+    },
     "RequiredToSpawnCompanyTags": {
         "items": [], 
         "tagSetSourceFile": ""

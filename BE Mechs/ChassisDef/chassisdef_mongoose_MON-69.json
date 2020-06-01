@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_mongoose"
     }, 
     "VariantName": "MON-69", 
-    "StockRole": "__/Base_3061.chassisdef_mongoose_MON-69.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_mongoose_MON-69.YangsThoughts/__", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "As the years went on, original Mongoose parts became very scarce. The 69 replaces its missing electronics with a small missile pack.", 
     "PrefabIdentifier": "chrprfmech_mongoosebase-001", 
     "PrefabBase": "mongoose", 
     "Tonnage": 25, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 13, 
-    "MeleeInstability": 7, 
+    "MeleeDamage": 25, 
+    "MeleeInstability": 25, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 25, 
-    "DFAInstability": 13, 
+    "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

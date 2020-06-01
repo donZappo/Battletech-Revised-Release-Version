@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 0.2083
+			"ExplosionDamagePerAmmo": 0.625
 		}
 	},
     "AmmoID" : "Ammunition_LRM",
@@ -15,7 +15,7 @@
         "UIName" : "LRM Ammo (XL)",
         "Id" : "Ammo_AmmunitionBox_Generic_LRM_double",
         "Name" : "LRM Ammo (XL)",
-        "Details" : "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. LRM Ammo Bins contain <color=#6aa84f>180 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.2</color></b>",
+        "Details" : "This larger, heavier and more space efficient container packs more ammo in the same space. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. LRM Ammo Bins contain <color=#6aa84f>180 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.625</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+ 1 Ton",
