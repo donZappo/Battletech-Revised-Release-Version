@@ -2,9 +2,6 @@
    "Custom":{
       "Category":[
          {
-            "CategoryID":"Activatable"
-         },
-         {
             "CategoryID":"MASC"
          }
       ],
@@ -13,7 +10,7 @@
             "WalkSpeed: +100%",
             "HeatGenerated: +25%",
             "StructureMass: 7.5",
-			"Activatable"
+            "ActivatableButton"
          ]
       },
       "Weights":{
@@ -34,6 +31,7 @@
             "LeftLeg",
             "RightLeg"
          ],
+         "CanNotBeActivatedManualy":false,
          "AutoActivateOnHeat":0,
          "AutoDeactivateOnHeat":0,
          "AutoActivateOnOverheatLevel":0,
@@ -69,7 +67,7 @@
                "effectType":"StatisticEffect",
                "Description":{
                   "Id":"StatusEffect-MASC-WalkSpeedDouble",
-                  "Name":"MASC DOUBLE SPEED",
+                  "Name":"MASC SPEED INCREASE",
                   "Details":"Walk speed doubled, weapons generate 25% more heat.",
                   "Icon":"uixSvgIcon_equipment_Gyro"
                },
@@ -79,7 +77,7 @@
                   "effectsPersistAfterDestruction":false,
                   "statName":"WalkSpeed",
                   "operation":"Float_Multiply",
-                  "modValue":"2.0",
+                  "modValue":2.0,
                   "modType":"System.Single",
                   "additionalRules":"NotSet",
                   "targetCollection":"NotSet",
@@ -158,10 +156,10 @@
       "UIName":"M.A.S.C.",
       "Id":"Gear_MASC",
       "Name":"M.A.S.C.",
-      "Details":"Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to walk at double speed. This improved mobility provides greater tactical flexibility by allowing the 'Mech to cover large distances while still using its weapons. The 'Mech will generate 25% additional heat while MASC is active. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b>",
+      "Details":"Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to walk at 100% increased speed. This improved mobility provides greater tactical flexibility by allowing the 'Mech to cover large distances while still using its weapons. The 'Mech will generate 25% additional heat while MASC is active. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b>",
       "Icon":"uixSvgIcon_equipment_HeatBank"
    },
-   "BonusValueA":"+100% Walk Speed",
+   "BonusValueA":"+50% Move Speed",
    "BonusValueB":"+25% Heat Generated",
    "ComponentType":"Upgrade",
    "ComponentSubType":"NotSet",

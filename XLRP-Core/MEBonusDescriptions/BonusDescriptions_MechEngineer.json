@@ -101,5 +101,11 @@
 			"Long": "Activatable",
 			"Full": "CTRL+Click on move button in mech HUD to activate this item"
 		},
+		{
+			"Bonus": "ActivatableButton",
+			"Short": "Activatable",
+			"Long": "Activatable",
+			"Full": "Toggle the button on the 'Mech weapons panel to activate this item"
+		}
     ]
 }
