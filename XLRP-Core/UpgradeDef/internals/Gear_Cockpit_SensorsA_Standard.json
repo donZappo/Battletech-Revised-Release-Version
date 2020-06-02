@@ -37,7 +37,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "noautofix"
+            "noautofix",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

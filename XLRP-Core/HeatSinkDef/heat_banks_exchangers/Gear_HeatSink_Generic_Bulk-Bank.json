@@ -131,6 +131,7 @@
         "items" : [
             "component_type_variant",
             "component_type_variant2",
+			"BR_UpgradeTag_heatbank",
 			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""

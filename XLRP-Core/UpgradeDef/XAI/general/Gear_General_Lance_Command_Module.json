@@ -280,6 +280,8 @@
     ],
     "ComponentTags" : {
         "items" : [
+			"BLACKLISTED",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

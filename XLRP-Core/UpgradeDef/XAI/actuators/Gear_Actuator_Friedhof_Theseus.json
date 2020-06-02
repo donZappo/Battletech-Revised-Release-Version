@@ -183,6 +183,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"BR_UpgradeTag_actuator",
 			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""

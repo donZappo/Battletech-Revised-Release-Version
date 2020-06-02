@@ -179,6 +179,7 @@
     "ComponentTags" : {
         "items" : [
 			"BUILT-IN",
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }

@@ -104,8 +104,9 @@
    ],
    "ComponentTags":{
       "items":[
-
-      ],
+			"component_type_noupgrade",
+			"BUILT-IN"
+		],
       "tagSetSourceFile":""
    },
    "Auras":[

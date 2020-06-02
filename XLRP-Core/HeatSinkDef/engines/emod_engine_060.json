@@ -52,7 +52,8 @@
         "items" : [
             "component_type_stock",
 			"BUILT-IN",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

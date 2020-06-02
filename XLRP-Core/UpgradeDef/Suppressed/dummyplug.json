@@ -22,7 +22,7 @@
    "CriticalComponent" : false,
    "ComponentTags": {
       "items": [
-         ""
+			"BLACKLISTED"
       ],
       "tagSetSourceFile": ""
    },

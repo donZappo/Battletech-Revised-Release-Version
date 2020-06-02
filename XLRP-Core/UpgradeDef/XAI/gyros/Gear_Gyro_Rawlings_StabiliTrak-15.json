@@ -1,4 +1,10 @@
 {
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "Gyro" 
+		},
+		"Flags" : { "flags" : [ "not_broken" ] }
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -82,6 +88,7 @@
         "items" : [
             "component_type_variant",
             "component_type_variant3",
+			"BR_UpgradeTag_gyro",
 			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""

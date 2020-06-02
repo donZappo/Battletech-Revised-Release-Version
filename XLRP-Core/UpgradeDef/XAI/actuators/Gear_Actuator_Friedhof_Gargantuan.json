@@ -184,6 +184,7 @@
         "items" : [
             "component_type_variant",
             "component_type_variant3",
+			"BR_UpgradeTag_actuator",
 			"TechLevel_LowTech"
         ],
         "tagSetSourceFile" : ""

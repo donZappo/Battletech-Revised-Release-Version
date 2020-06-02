@@ -1,4 +1,14 @@
 {
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "Cockpit" 
+		},
+		"Flags": {
+			"Flags": [
+				"not_broken"
+			]
+		}
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -82,7 +92,8 @@
         "items" : [
             "component_type_variant",
             "component_type_variant2",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_Cockpit"
         ],
         "tagSetSourceFile" : ""
     }

@@ -58,7 +58,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"TechLevel_HighTech"
+			"TechLevel_HighTech",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

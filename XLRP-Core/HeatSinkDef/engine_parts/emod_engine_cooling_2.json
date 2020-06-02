@@ -54,7 +54,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"TechLevel_LowTech"
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

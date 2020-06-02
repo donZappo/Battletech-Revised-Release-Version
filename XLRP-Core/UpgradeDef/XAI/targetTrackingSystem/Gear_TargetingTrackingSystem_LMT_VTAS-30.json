@@ -285,6 +285,7 @@
         "items" : [
             "component_type_variant",
             "component_type_variant1",
+			"BR_UpgradeTag_tts",
 			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""

@@ -59,7 +59,8 @@
         "items" : [
             "component_type_variant",
 			"component_type_variant1",
-			"TechLevel_HighTech"
+			"TechLevel_HighTech",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

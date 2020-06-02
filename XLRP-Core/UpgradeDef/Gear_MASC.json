@@ -173,6 +173,7 @@
    "ComponentTags":{
       "items":[
          "component_type_stock",
+		 "component_type_noupgrade",
          "cae_ai_heat",
          "cae_ai_speed",
          "TechLevel_HighTech"

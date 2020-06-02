@@ -37,7 +37,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "noautofix"
+            "noautofix",
+			"BR_UpgradeTag_Cockpit"
         ],
         "tagSetSourceFile" : ""
     }

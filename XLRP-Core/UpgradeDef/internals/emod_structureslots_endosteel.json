@@ -50,6 +50,7 @@
         "items" : [
             "component_type_variant",
             "component_type_variant1",
+			"component_type_noupgrade",
 			"TechLevel_MidTech"
         ],
         "tagSetSourceFile" : ""

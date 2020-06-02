@@ -51,7 +51,8 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"component_type_noupgrade"
         ],
         "tagSetSourceFile" : ""
     }

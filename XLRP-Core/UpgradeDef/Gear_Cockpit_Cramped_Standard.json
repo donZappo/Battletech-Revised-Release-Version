@@ -43,7 +43,8 @@
     "statusEffects" : null,
     "ComponentTags": {
     "items": [
-      "component_type_stock",
+      "component_stock",
+      "component_noupgrade",
 	  "BUILT-IN",
       "noautofix"
     ],

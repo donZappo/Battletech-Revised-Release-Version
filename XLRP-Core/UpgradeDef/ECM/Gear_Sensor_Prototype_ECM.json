@@ -1,4 +1,14 @@
 {
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "ECM"
+            }
+        ],
+        "InventorySorter": {
+            "SortKey": "00024"
+        }
+    },
    "StatName":null,
    "RelativeModifier":0,
    "AbsoluteModifier":0,
@@ -60,6 +70,7 @@
    "ComponentTags":{
       "items":[
 			"component_type_stock",
+			"component_type_noupgrade",
 			"TechLevel_HighTech"
       ],
       "tagSetSourceFile":""

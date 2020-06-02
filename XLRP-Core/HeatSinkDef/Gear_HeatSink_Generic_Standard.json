@@ -39,6 +39,7 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
+	  "BR_UpgradeTag_heatsink",
 	  "TechLevel_LowTech"	  
     ],
     "tagSetSourceFile": ""

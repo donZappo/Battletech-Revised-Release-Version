@@ -43,7 +43,7 @@
         "OmniTechCostBySize": false,
         "OmniTechInstallCost": 1,
 		
-		"OverrideSalvageGeneration" : true,
+		"OverrideSalvageGeneration" : false,
 		"NoLootCTDestroyed" : false,
 
 		"OverrideRecoveryChance" : true,
