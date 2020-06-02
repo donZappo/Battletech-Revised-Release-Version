@@ -12,7 +12,7 @@
             "name":"BattleTech.AmmoCategoryEnumeration",
             "path":"AmmoCategory.json"
         },
-		(
+		{
 			"name":"BattleTech.FactionEnumeration",
 			"path":"Faction.json"
 		}
