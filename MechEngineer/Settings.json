@@ -205,30 +205,31 @@
         "EnabledDescription" : "Manipulates MechDef and ComponentDef Tags",
         "LostechStockWeaponVariantFix" : true,
         "LostechStockWeaponVariantDescription" : "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
+        "SkirmishWhitelistTagsDescription" : "Components with these tags will appear in the skirmish mechlab, blacklisted tagged items never appear.",
         "SkirmishWhitelistTags" : [
             "component_type_stock",
             "component_type_variant",
             "component_type_lostech"
         ],
-        "SkirmishWhitelistTagsDescription" : "Components with these tags will appear in the skirmish mechlab, blacklisted tagged items never appear.",
+        "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
         "WhitelistComponentTags" : [
             "component_type_stock",
             "component_type_variant",
             "component_type_lostech"
         ],
-        "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
-        "BlacklistComponentTags" : [
-            "BUILT-IN"
-        ],
         "BlacklistComponentTagsDescription" : "Blacklists components with specified tags, has precedence over whitelisting.",
+        "BlacklistComponentTags" : [
+            "BUILT-IN",
+			"BLACKLISTED"
+        ],
+        "WhitelistMechTagsDescription" : "Similar to WhitelistComponentTags but with MechTags",
         "WhitelistMechTags" : [
             "unit_release"
         ],
-        "WhitelistMechTagsDescription" : "Similar to WhitelistComponentTags but with MechTags",
+        "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags",
         "BlacklistMechTags" : [
             "unit_flashpoint"
-        ],
-        "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags"
+        ]
     },
    "TurretLimitedAmmo":{
       "Enabled":false,
