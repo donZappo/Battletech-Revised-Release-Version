@@ -3,7 +3,7 @@
         "items": [
             "unit_mech",
 			"BLACKLISTED",
-			"unit_noncombatant"
+			"unit_clan"
         ],
         "tagSetSourceFile": ""
     },
