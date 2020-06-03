@@ -36,10 +36,6 @@
       "v": "Debug"
     },
     {
-      "k": "DebugLog.Pilot",
-      "v": "Debug"
-    },
-    {
       "k": "CombatLog.Initialization",
       "v": "Debug"
     },

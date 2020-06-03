@@ -176,7 +176,6 @@
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,
   "UpdateReticleTrottle": 8,
   "showMissBehavior": "Default",
-  "extendedBraceBehavior": true,
   "DefaultAoEDamageMult": {
     "Building": {
       "Range": 1.2,

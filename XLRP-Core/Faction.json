@@ -217,10 +217,10 @@
 			"DoesGainReputation" : true,
 			"CanAlly" : true,
 			"IsProceduralContractFaction" : true,
-			"IsCareerScoringFaction" : false,
-			"IsCareerIgnoredContractTarget" : true,
-			"IsCareerStartingDisplayFaction" : false,
-			"IsStoryStartingDisplayFaction" : false,
+			"IsCareerScoringFaction" : true,
+			"IsCareerIgnoredContractTarget" : false,
+			"IsCareerStartingDisplayFaction" : true,
+			"IsStoryStartingDisplayFaction" : true,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{

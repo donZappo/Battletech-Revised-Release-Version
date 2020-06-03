@@ -20,6 +20,7 @@
 		{
             "Type": "ItemCollectionDef",
             "Path": "itemCollections"
-        }
+        },
+        { "Type": "FactionDef",  "Path": "factions", "AddToDB": true },
    ]
 }
