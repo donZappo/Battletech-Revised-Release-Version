@@ -18,7 +18,7 @@
         "Id": "mechdef_hatamotoku_HTM-27W", 
         "Name": "Hatamoto-Ku", 
         "Details": "The Hatamoto-Ku removes both of the SRM-6 launchers and replaces them with an Autocannon/5. The 'Mech has a powerful direct fire capability.", 
-        "Icon": "uixTxrIcon_hatamotochi-chi"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 

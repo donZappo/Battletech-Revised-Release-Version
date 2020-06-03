@@ -18,7 +18,7 @@
         "Id": "mechdef_hatamotochi_HTM-27T", 
         "Name": "Hatamoto-Chi", 
         "Details": "Tasked by Kanrei Theodore Kurita to reverse engineer examples of the advanced Star League Defense Force BattleMechs provided by ComStar in 3035 for future production, Luthien Armor Works secretly mated the weaponry of the Thug to the form of the maligned Charger. While initially unable to mass-produce the advanced Endo Steel chassis required to match the Thug, the appearance of the early Hatamoto-Chi and their endless variations born of the Charger's spacious torso sent the combined Armed Forces of the Federated Commonwealth into confusion during the War of 3039.", 
-        "Icon": "uixTxrIcon_hatamotochi-chi"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 

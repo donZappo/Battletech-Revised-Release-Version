@@ -18,7 +18,7 @@
         "Id": "mechdef_hatamotokaze_HTM-27V", 
         "Name": "Hatamoto-Kaze", 
         "Details": "The Hatamoto-Kaze is a variant focused on long range combat. The 'Mech removes both of the SRM-6 launchers and replaces them with a pair of LRM-5 launchers, giving the Hatamoto-Kaze the ability to stay back from the battlefield and provide indirect fire.", 
-        "Icon": "uixTxrIcon_hatamotochi-chi"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 

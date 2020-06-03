@@ -18,7 +18,7 @@
         "Id": "mechdef_hatamotohi_HTM-27U", 
         "Name": "Hatamoto-Hi", 
         "Details": "The 27U, also known as the Hatamoto-Hi, differs from the 27T with the removal of the two SRM-6 launchers and the addition of four Medium Pulse Lasers and an additional heat sink to help with the additional heat burden.", 
-        "Icon": "uixTxrIcon_hatamotochi-chi"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 
