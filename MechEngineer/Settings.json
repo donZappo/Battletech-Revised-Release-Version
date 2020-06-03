@@ -167,20 +167,6 @@
          }
       ]
    },
-   "TagManager":{
-      "Enabled":true,
-      "SkirmishWhitelistTags":[
-         "component_type_stock",
-         "component_type_variant",
-         "component_type_lostech"
-      ],
-      "SkirmishWhitelistTagsDescription":"Components with these tags will appear in the skirmish mechlab, blacklisted tagged items never appear.",
-      "WhitelistComponentTags":[
-         "component_type_stock",
-         "component_type_variant",
-         "component_type_lostech"
-      ]
-   },
    "ComponentExplosions":{
       "Enabled":true,
       "EnabledDescription":"Allows each component to define destructive forces in case they explode, also implements proper CASE."
@@ -228,7 +214,8 @@
         ],
         "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags",
         "BlacklistMechTags" : [
-            "unit_flashpoint"
+            "unit_flashpoint",
+			"unit_vehicle"
         ]
     },
    "TurretLimitedAmmo":{

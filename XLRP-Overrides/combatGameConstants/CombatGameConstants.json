@@ -50,8 +50,8 @@
     "ShowPeakHeat": false
   },
   "Visibility": {
-    "BaseSpotterDistance": 300.0,
-    "SpotterTacticsMultiplier": 25.0,
+    "BaseSpotterDistance": 400.0,
+    "SpotterTacticsMultiplier": 0.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
@@ -166,7 +166,7 @@
       "statisticData": {
         "statName": "SensorSignatureModifier",
         "operation": "Float_Add",
-        "modValue": "0.1",
+        "modValue": "0.0",
         "modType": "System.Single"
       },
       "nature": "Debuff"
