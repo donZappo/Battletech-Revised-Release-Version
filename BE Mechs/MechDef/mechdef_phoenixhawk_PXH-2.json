@@ -17,7 +17,7 @@
         "UIName": "Phoenix Hawk PXH-2", 
         "Id": "mechdef_phoenixhawk_PXH-2", 
         "Name": "Phoenix Hawk", 
-        "Details": "The PXH-1 is one of the most elegant and agile 'Mechs around, boasting good armor and decent weapons. Sadly, its heat buildup is also noteworthy. Savvy MechWarriors take advantage of this 'Mech's jump capability to land timely shots and then reposition to another vantage point.", 
+        "Details": "Based on the PXH-1, this electronic warfare variant introduced in 2599 drops the machine guns and ammunition in favor of a Guardian ECM Suite and another half-ton of armor.", 
         "Icon": "uixTxrIcon_phoenixhawk"
     }, 
     "RequiredToSpawnCompanyTags": {

@@ -17,7 +17,7 @@
         "UIName": "Phoenix Hawk PXH-1b", 
         "Id": "mechdef_phoenixhawk_PXH-1b", 
         "Name": "Phoenix Hawk", 
-        "Details": "The 3M variant of the 'Mech was also introduced in 3048, built by Earthwerks Incorporated from their Keystone factory and using upgrades based on rediscovered Star League technology. First, the internal structure of the 'Mech has been redesigned to utilize an Endo Steel chassis. The engine was then replaced with an XL and the heat sinks were upgraded to double heat sinks. This allowed the weapons payload to be changed extensively, with all of the original weapons being stripped from the chassis.", 
+        "Details": "An upgrade of the PXH-1 for the Star League's Royal units, the 1b saw its pistol-like laser upgraded to an ER PPC, while a swivel-mounted ER Large Laser found its way onto the right torso. Replacing the ten standard heat sinks with Double heat sinks kept these high-heat weapons from overwhelming the 'Mech.", 
         "Icon": "uixTxrIcon_phoenixhawk"
     }, 
     "RequiredToSpawnCompanyTags": {
