@@ -1,0 +1,12 @@
+itemCollection_systemStores_MechParts_Kurita_Heavy,,N,D
+mechdef_dragon_DRG-1C,MechPart,2,3
+mechdef_dragon_DRG-1N,MechPart,2,4
+mechdef_granddragon_DRG-1G,MechPart,2,2
+mechdef_granddragon_DRG-5K,MechPart,2,4
+mechdef_crusader_CRD-3K,MechPart,2,3
+mechdef_catapult_CPLT-K2,MechPart,2,3
+mechdef_catapult_CPLT-K3,MechPart,2,1
+mechdef_avatar_AV1-O,MechPart,2,1
+mechdef_avatar_AV1-OA,MechPart,2,1
+mechdef_avatar_AV1-OB,MechPart,2,1
+mechdef_crusader_CRD-4K,MechPart,2,3

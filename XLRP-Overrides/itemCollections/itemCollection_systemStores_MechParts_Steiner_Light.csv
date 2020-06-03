@@ -1,0 +1,11 @@
+itemCollection_systemstores_Mechs_Steiner_Light,,N,D
+mechdef_locust_LCT-1M,MechPart,2,1
+mechdef_locust_LCT-3D,MechPart,2,1
+mechdef_javelin_JVN-10F,MechPart,2,1
+mechdef_javelin_JVN-10N,MechPart,2,1
+mechdef_javelin_JVN-11B,MechPart,2,1
+mechdef_valkyrie_VLK-QA,MechPart,2,3
+mechdef_valkyrie_VLK-QD,MechPart,2,2
+mechdef_valkyrie_VLK-QF,MechPart,2,1
+mechdef_hollander_BZK-F3,MechPart,2,1
+mechdef_hollander_BZK-G1,MechPart,2,1

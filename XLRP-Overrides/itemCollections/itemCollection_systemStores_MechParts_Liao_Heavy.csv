@@ -1,0 +1,10 @@
+itemCollection_systemStores_MechParts_Liao_Heavy,,N,D
+mechdef_catapult_CPLT-A1,MechPart,2,1
+mechdef_catapult_CPLT-C1,MechPart,2,3
+mechdef_catapult_CPLT-C4,MechPart,2,2
+mechdef_catapult_CPLT-C4C,MechPart,2,3
+mechdef_cataphract_CTF-0X,MechPart,2,3
+mechdef_cataphract_CTF-1X,MechPart,2,2
+mechdef_cataphract_CTF-2X,MechPart,2,1
+mechdef_cataphract_CTF-3L,MechPart,2,2
+mechdef_warhammer_WHM-6D,MechPart,2,2
