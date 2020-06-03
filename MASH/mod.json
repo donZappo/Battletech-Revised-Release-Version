@@ -2,16 +2,11 @@
     "Name": "MASH",
 	"Author": "B4CKF1SH (model and assets)(fixed by Colobos) and Justin Kase (skin, defs and mission)",
     "Enabled": true,
+	"DependsOn": ["CommunityBundles"],
 	
     "Version": "1.5.1.0",
 
     "Manifest": [
-        { "Type": "AssetBundle", "Path": "assetbundles" },
-
-
-		{ "Type": "Prefab", "Path": "Assets/Character/Vehicle/Prefabs/Weapons/mash/chrPrfWeap_mash_turret_generic_eh1.prefab", "AssetBundleName": "chrprfvhcl_mash" },
-		{ "Type": "Prefab", "Path": "Assets/Character/Vehicle/Prefabs/chrprfvhcl_mash.prefab", "AssetBundleName": "chrprfvhcl_mash" },
-		
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
 		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
