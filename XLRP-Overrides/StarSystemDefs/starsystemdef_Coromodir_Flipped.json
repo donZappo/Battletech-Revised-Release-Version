@@ -143,8 +143,8 @@
         "itemCollection_shop_research",
         "itemCollection_shop_researchProgression"
     ],
-    "factionShopOwnerID": "faction_AuriganRestoration",
-    "FactionShopItems": "itemCollection_faction_AuriganRestoration",
+    "factionShopOwnerID": null,
+    "FactionShopItems": null,
     "BlackMarketShopItems": null,
     "CoreSystemID": "starsystemdef_Coromodir",
     "StartingSystemModes": [
