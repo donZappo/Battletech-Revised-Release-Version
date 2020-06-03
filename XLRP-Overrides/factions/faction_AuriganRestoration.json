@@ -38,8 +38,9 @@
     "factionID" : "AuriganRestoration",
  	"icon" : "uixTxrLogo_AuriganRestoration",
     "heraldryDefId" : "heraldrydef_restoration",
-    "storePanelImage" : null,
-    "factionStoreColor" : null,
+    "storePanelImage" : "uixTxrSpot_Store-Marik",
+    "factionStorePlanetTag" : "planet_other_factionhq_AuriganRestoration",
+    "factionStoreColor" : "rgba(35,24,37,1.0)",
     "factionMapColor" : "rgba(191,41,41,1.0)",
     "StartingReputationValues" : [
         100,
