@@ -1,0 +1,222 @@
+{
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 6113810, 
+        "Rarity": 2, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Merlin", 
+        "Id": "chassisdef_merlin_MLN-1A", 
+        "Name": "Merlin", 
+        "Details": "The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years. The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech. The Merlin is armed to be able to engage an enemy at any range, with a PPC and LRM-5 for long range, a pair of Medium Lasers for middle ranges, and a Flamer and Machine Gun for conventional work.", 
+        "Icon": "uixTxrIcon_merlin"
+    }, 
+    "VariantName": "MLN-1A", 
+    "StockRole": "Heavy Skirmisher", 
+    "YangsThoughts": "The Merlin debuted in 3010 as a product of the rebuilt Mountain Wolf BattleMechs. The Merlin was hailed as a technological marvel at the time it was released, as it was the first completely new design to be developed in over 100 years. The Merlin uses components that are all reliable and readily available, making the Merlin a durable and easy-to-repair 'Mech. The Merlin is armed to be able to engage an enemy at any range, with a PPC and LRM-5 for long range, a pair of Medium Lasers for middle ranges, and a Flamer and Machine Gun for conventional work.", 
+    "PrefabIdentifier": "chrprfmech_merlinbase-001", 
+    "PrefabBase": "merlin", 
+    "Tonnage": 60, 
+    "InitialTonnage": 6, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 5383000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 150, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 6, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 70, 
+    "MeleeInstability": 40, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 70, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 70, 
+    "DFAInstability": 50, 
+    "ChassisTags": {
+        "items": [
+            "OmniMech", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_merlin", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 13, 
+            "z": 1
+        }, 
+        {
+            "x": 3, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 13, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 13, 
+            "z": 1
+        }, 
+        {
+            "x": 3, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": -3, 
+            "y": 13, 
+            "z": 0
+        }, 
+        {
+            "x": 2, 
+            "y": 5, 
+            "z": 0
+        }, 
+        {
+            "x": -2, 
+            "y": 5, 
+            "z": 0
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 200, 
+            "MaxRearArmor": 100, 
+            "InternalStructure": 100
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": 70, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 100, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 50
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 140, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 70
+        }
+    ]
+}
