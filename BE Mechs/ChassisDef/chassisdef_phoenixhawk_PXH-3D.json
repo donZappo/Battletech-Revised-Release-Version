@@ -157,7 +157,13 @@
             "InternalStructure": 35
         }, 
         {
-            "Location": "LeftTorso",             
+            "Location": "LeftTorso",    
+			"Hardpoints": [
+				{
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+			],
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 110, 
@@ -192,11 +198,8 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                },
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
                 }
+                
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
