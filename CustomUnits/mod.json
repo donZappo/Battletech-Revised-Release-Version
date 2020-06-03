@@ -32,7 +32,7 @@
     "LancesIcons": [ "one", "two", "three" ],
     "overallDeploySize": 6,
     "Lances": [ {"size":6,"allow":5,"is_vehicle":false},{"size":4,"allow":3,"is_vehicle":true} ],
-    "ArgoBaysFix":1,
+    "ArgoBaysFix":0,
     "ShowVehicleBays":false,
     "BaysCountExternalControl":false
 	},
