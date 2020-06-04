@@ -31,6 +31,7 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_urbie",
+				"BLACKLISTED",
                "unit_vehicle_mobileHQ",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
@@ -69,6 +70,7 @@
          "excludedUnitTagSet" : {
             "items" : [
 			   "unit_urbie",
+			"BLACKLISTED",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -107,6 +109,7 @@
          "excludedUnitTagSet" : {
             "items" : [
 			   "unit_urbie",
+			"BLACKLISTED",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
             "unit_hero_{CUR_TEAM.faction}",
@@ -144,6 +147,7 @@
          "excludedUnitTagSet" : {
             "items" : [
 			   "unit_urbie",
+			"BLACKLISTED",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
