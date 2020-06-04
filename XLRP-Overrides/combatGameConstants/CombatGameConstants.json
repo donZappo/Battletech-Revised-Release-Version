@@ -50,8 +50,8 @@
     "ShowPeakHeat": false
   },
   "Visibility": {
-    "BaseSpotterDistance": 400.0,
-    "SpotterTacticsMultiplier": 0.0,
+    "BaseSpotterDistance": 250.0,
+    "SpotterTacticsMultiplier": 25.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
