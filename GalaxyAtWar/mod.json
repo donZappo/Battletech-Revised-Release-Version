@@ -13,7 +13,7 @@
 	{
 		"StartingPirateActivity" : 25.0,
 		"BonusPirateResources" : 500.0,
-		"PirateSystemFlagValue" : 25.0,
+		"PirateSystemFlagValue" : 10.0,
 		"FractionPirateResources" : 1,
 		
 		"ResourceScale" : 0.5,
@@ -58,15 +58,15 @@
 		"planet_other_starleague" : 30,
 		
 		//***Defending Resources
-		"planet_industry_agriculture" : 15,
-		"planet_industry_aquaculture" : 15,
-		"planet_other_capital" : 35,
-		"planet_other_megacity" : 25,
-		"planet_pop_large" : 20,
-		"planet_pop_medium" : 15,
-		"planet_pop_none" : 5,
-		"planet_pop_small" : 10,
-		"planet_other_hub" : 30,
+		"planet_industry_agriculture" : 10,
+		"planet_industry_aquaculture" : 10,
+		"planet_other_hub" : 15,
+		"planet_other_capital" : 20,
+		"planet_pop_none" : 2,
+		"planet_pop_small" : 4,
+		"planet_pop_medium" : 6,
+		"planet_pop_large" : 8,
+		"planet_other_megacity" : 10,
 		"planet_other_comstar" : 0,
 		
 		"IncludedFactions": [
@@ -91,26 +91,26 @@
 			"ComStar"
 			],
 		"BonusAttackResources": {
-			"MagistracyOfCanopus" : 500,
-			"Davion" : 500,
-			"Liao" : 500,
-			"Marik" : 500,
-			"AuriganRestoration" : 500,
-			"TaurianConcordat" : 500,
-			"Locals" : 500,
-			"NoFaction" : 500,
+			"MagistracyOfCanopus" : 250,
+			"Davion" : 250,
+			"Liao" : 250,
+			"Marik" : 250,
+			"AuriganRestoration" : 250,
+			"TaurianConcordat" : 250,
+			"Locals" : 250,
+			"NoFaction" : 250,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
 		"BonusDefensiveResources": {
-			"MagistracyOfCanopus" : 0,
-			"Davion" : 0,
-			"Liao" : 0,
-			"Marik" : 0,
-			"AuriganRestoration" : 0,
-			"TaurianConcordat" : 0,
-			"Locals" : 0,
-			"NoFaction" : 0,
+			"MagistracyOfCanopus" : 250,
+			"Davion" : 250,
+			"Liao" : 600,
+			"Marik" : 250,
+			"AuriganRestoration" : 250,
+			"TaurianConcordat" : 250,
+			"Locals" : 250,
+			"NoFaction" : 250,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
@@ -218,8 +218,8 @@
 		//** If enabled, the listed faction will support the weakest faction for X months providing bonus Attack and Defensive resources during that time. 
 		"GaW_PoliceSupport" : true,
 		"GaW_Police" : "ComStar",
-		"GaW_Police_ARBonus" : 200,
-		"GaW_Police_DRBonus" : 200,
+		"GaW_Police_ARBonus" : 250,
+		"GaW_Police_DRBonus" : 500,
 		"GaW_Police_SupportTime": 3,
 		
 		//** Prevent systems from taking place in the Galaxy at War until after a Flashpoint has occurred. 
