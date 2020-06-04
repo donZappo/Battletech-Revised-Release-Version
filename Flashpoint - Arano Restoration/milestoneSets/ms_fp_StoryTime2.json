@@ -156,7 +156,7 @@
                         {
                             "typeString": "System.Int32",
                             "name": "Funds",
-                            "value": "-200000",
+                            "value": "-100000",
                             "set": false,
                             "valueConstant": null
                         },

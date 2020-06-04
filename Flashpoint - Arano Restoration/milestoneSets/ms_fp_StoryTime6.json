@@ -313,7 +313,7 @@
                     "Actions": [
                         {
                             "Type" : "System_PauseNotification",
-                            "value" : "Lady Arano has left a note, alongside a new mech. \"In thanks for your help on Artru, I offer you this Star League-era mech, {COMMANDER.Callsign}. May it carry you to victory in the days to come.\" You can almost feel the excitement radiating from Yang as he shows off your latest aquisition.",
+                            "value" : "A note from Lady Arano is delivered to your quarters. \"{COMMANDER.Callsign}, I do not know what was in the crate Mr. Virtanen was seen dragging out of the bunker on Artru.  I do know that it was not 'just some replacement actuators for his arm.' Remind him that we pay your company very well and every available weapon is needed for the war.\" Later in the Mech Bay Yang seems very excited....",
                             "additionalValues" : [
                                   "A Gift",
                                   "castDef_KameaDefault"

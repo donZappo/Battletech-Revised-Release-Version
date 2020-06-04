@@ -20,7 +20,13 @@
       "tagSetSourceFile" : ""
    },
    "Inventory" : [
-	 {
+	 {	   
+	   "ID": "mechdef_merlin_MLN-1A",
+	   "Type": "MechPart",
+	   "Discount Modifier": 1,
+	   "Count": 0,
+	   "Weight": 1
+	 },
 	   "ID": "mechdef_catapult_CPLT-C4C",
 	   "Type": "MechPart",
 	   "Discount Modifier": 1,
@@ -48,6 +54,8 @@
 	   "Count": 0,
 	   "Weight": 1
 	 },
+	  {
+
 	 {
 	   "ID": "mechdef_raven_RVN-3M",
 	   "Type": "MechPart",
