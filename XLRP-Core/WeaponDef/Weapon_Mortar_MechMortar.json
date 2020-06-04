@@ -31,7 +31,7 @@
   "Description" : {
     "Cost" : 1250000,
     "Rarity" : 8,
-    "Purchasable" : true,
+    "Purchasable" : false,
     "Manufacturer" : "Western",
     "Model" : "Heavy Autocannon",
     "UIName" : "Mortar",
@@ -55,7 +55,7 @@
     "items" : [
       "component_type_stock",
       "range_long",
-      "TechLevel_HighTech"
+      "BLACKLISTED"
     ],
     "tagSetSourceFile" : ""
   },

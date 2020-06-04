@@ -1,0 +1,28 @@
+{
+   "AmmoID" : "Ammunition_Flamer",
+   "Capacity" : 1,
+   "ComponentType" : "AmmunitionBox",
+   "ComponentSubType" : "Ammunition",
+   "Description" : {
+      "Id" : "AmmunitionBox_Flamer",
+      "Name" : "Flamer Ammo",
+      "Details" : "Flamer Ammo. SHOULD NOT BE PURCHASABLE OR AVAILABLE!!! Flamers should have internal ammo only.",
+      "Icon" : null,
+      "Cost" : 1,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "PrefabIdentifier" : "",
+   "BattleValue" : 0,
+   "InventorySize" : 1,
+   "Tonnage" : 1,
+   "AllowedLocations" : "All",
+   "DisallowedLocations" : "None",
+   "CriticalComponent" : false,
+    "ComponentTags" : {
+        "items" : [
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
