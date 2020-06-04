@@ -945,7 +945,8 @@
         ],
         "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
         "BlacklistComponentTags" : [
-            "BUILT-IN"
+            "BUILT-IN",
+            "BLACKLISTED"
         ],
         "BlacklistComponentTagsDescription" : "Blacklists components with specified tags, has precedence over whitelisting.",
         "WhitelistMechTags" : [
@@ -953,7 +954,8 @@
         ],
         "WhitelistMechTagsDescription" : "Similar to WhitelistComponentTags but with MechTags",
         "BlacklistMechTags" : [
-            "unit_flashpoint"
+            "unit_flashpoint",
+            "unit_vehicle"
         ],
         "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags"
     },
