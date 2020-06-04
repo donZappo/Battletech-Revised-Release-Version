@@ -35,6 +35,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+			"BLACKLISTED",
+               "unit_rare_{CUR_TEAM.faction}",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -69,6 +71,7 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+			"BLACKLISTED",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -103,6 +106,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+			"BLACKLISTED",
+            "unit_rare_{CUR_TEAM.faction}",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -136,6 +141,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+			"BLACKLISTED",
+            "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
             "unit_hero_{CUR_TEAM.faction}",

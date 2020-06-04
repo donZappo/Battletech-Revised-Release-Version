@@ -33,6 +33,7 @@
             "items" : [
                "unit_noncombatant",
 			   "unit_urbie",
+			"BLACKLISTED",
             "unit_none_{CUR_TEAM.faction}",
             "unit_common_{CUR_TEAM.faction}",
             "unit_hero_{CUR_TEAM.faction}",
@@ -67,6 +68,7 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+			"BLACKLISTED",
             "unit_urbie",
             "unit_heavy",
             "unit_assault",
