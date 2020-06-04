@@ -676,7 +676,7 @@
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
-    "contractRewardOverride": 2944000,
+    "contractRewardOverride": 1500000,
     "travelOnly": false,
     "useTravelCostPenalty": false,
     "usesExpiration": false,
