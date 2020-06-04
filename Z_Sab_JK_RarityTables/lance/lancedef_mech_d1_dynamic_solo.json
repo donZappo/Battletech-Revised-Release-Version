@@ -32,6 +32,7 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
+				"BLACKLISTED",
                "unit_urbie",
                "unit_none_{CUR_TEAM.faction}",
                "unit_common_{CUR_TEAM.faction}",
