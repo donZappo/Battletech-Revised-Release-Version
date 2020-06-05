@@ -1,11 +1,11 @@
 {
 	"Name": "BE Mechs",
 	"Author": "XSNomad, Vengefire, donZappo, Azakael, NStriker",
-	"Website": "https://github.com/vengefire/XLRP-Complete",
+	"Website": "https://github.com/vengefire/BTR-Complete",
 
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer", "XLRP-Core"],
+	"DependsOn": ["CustomComponents", "MechEngineer", "BTR-Core"],
 	"Manifest": [
     {
       "Type": "ChassisDef",

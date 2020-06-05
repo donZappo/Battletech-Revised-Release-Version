@@ -1,0 +1,24 @@
+{
+  "Name": "BTR-Munitions",
+  "Enabled": true,
+  "Hidden": true,
+  "Version": "0.1",
+  "DependsOn": [
+    "Custom Ammo Categories"
+  ],
+  "ConflictsWith": [],
+  "Description": "",
+  "Author": "",
+  "Manifest": [
+    {
+      "Type": "AmmunitionDef",
+      "Path": "ammunition",
+	  "AddToDB": true
+    },
+    {
+      "Type": "AmmunitionBoxDef",
+      "Path": "ammunitionBox",
+	  "AddToDB": true
+    }
+  ]
+}

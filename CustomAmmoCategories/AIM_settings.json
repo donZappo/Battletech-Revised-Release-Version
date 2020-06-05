@@ -441,7 +441,7 @@
 
   /* Check crit on last damaged location, following damage transfer.  Default true. */
 
-  "CritFollowDamageTransfer": true,
+  "CritFollowDamageTransfer": false,
 
   /* Prevent the case where a location with full sctructure but zero armour can be crit'ed.  Default true. */
 

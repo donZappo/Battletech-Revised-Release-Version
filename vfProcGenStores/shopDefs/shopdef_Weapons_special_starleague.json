@@ -14,8 +14,8 @@
     "Inventory": [],
     "Specials": [
         {
-            "ID": "Weapon_Mortar_MechMortar",
-            "Type": "Weapon",
+            "ID": "Gear_Mortar_MechMortar",
+            "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 2

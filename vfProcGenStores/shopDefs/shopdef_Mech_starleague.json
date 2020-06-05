@@ -145,15 +145,15 @@
 	   "Discount Modifier": 1,
 	   "Count": 0,
 	   "Weight": 1
+	 },
+	 {
+	    "ID" : "mechdef_cicada_CDA-2A",
+		"Type" : "MechPart",
+		"DiscountModifier" : 1.0,
+		"Count" : 2,
+		"Weight" : 2
 	 }
    ],
    "Specials" : [
-   		{
-			"ID" : "mechdef_cicada_CDA-2A",
-			"Type" : "MechPart",
-			"DiscountModifier" : 1.0,
-			"Count" : 2,
-			"Weight" : 2
-		},
 	]
 }

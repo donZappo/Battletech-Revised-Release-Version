@@ -1,0 +1,42 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 0.47,
+            "HeatDamagePerAmmo": 2
+		}
+	},
+    "AmmoID" : "Ammunition_Inferno_SRM",
+    "Capacity" : 100,
+    "Description" : {
+        "Cost" : 20000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "SRM",
+        "UIName" : "SRM/Streak-SRM Inferno Ammo",
+        "Id" : "Ammo_AmmunitionBox_Generic_SRM_Inferno",
+        "Name" : "SRM Ammo (Inferno)",
+        "Details" : "This multirole ammo bin will be loaded with Streak Inferno SRM or Standard Inferno SRM as required by your mech design. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. Inferno SRM Ammo Bins each contain <color=#6aa84f>100 rounds</color> and may feed multiple weapons. \r\n\r\nInfernos are special fuel-air missile munitions that combine flammable chemicals with an adhesive compound to shower their targets with a burning gel. This gel is designed to increase a 'Mech's heat levels to the point where the DI computer shuts down the 'Mech's Fusion Engine. Inferno rounds are also effective at turning combat vehicles into flaming coffins for their crews and are devastating against conventional infantry platoons. <color=#f79924>Inferno SRMs deal very litte damage but for every missile that strikes the target Does 2 heat damage and continues to do 2 heat damage per round for 2 rounds. </color>Inferno ammo bins <b>explode violently when destroyed.</b>\r\n\r\n<color=#d9d9d9><b>Ammunition type can be changed by clicking the middle of the weapons activation panel during combat if more than one type of ammunition is present.</b></color>\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.25</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "+2 Dmg.(H)/2 Turns",
+    "BonusValueB" : "-5 Dmg. -1 Stb.Dmg.",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
