@@ -115,12 +115,10 @@
             "items" : [
                "unit_light",
                "unit_medium",
-			   "unit_lance_vanguard",
 			   "unit_lance_support",
                "unit_noncombatant",
 			   "unit_urbie",
 			"BLACKLISTED",
-            "unit_rare_{CUR_TEAM.faction}",
             "unit_very_rare_{CUR_TEAM.faction}",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
