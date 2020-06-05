@@ -1,0 +1,13 @@
+{
+    "Name": "BTR-Debug",
+    "Enabled": true,
+
+    "Description": "BTR's Debug",
+    "Author": "Vengfire, source from Rogue Tech and Lady Alekto",
+    "Contact": "fakeemail@fakeemail.com",
+	"Manifest": [
+		{ "Type": "DebugSettings", "Path": "Debug", "ShouldAppendText": false}
+		],
+    "DependsOn": [],
+    "ConflictsWith": []
+}

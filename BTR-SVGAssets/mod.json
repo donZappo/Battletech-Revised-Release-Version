@@ -1,0 +1,13 @@
+{
+    "Name": "BTR-SVGAssets",
+	"Author": "BattleTech: Revised Team",
+	"Website": "",
+
+	"Enabled": true,
+	"Hidden": true,
+	"DependsOn": [],
+
+    "Manifest": [
+		{ "Type": "SVGAsset", "Path": "SVGAsset", "AddToDB": false }
+    ]
+}

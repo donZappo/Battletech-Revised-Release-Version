@@ -1,0 +1,9 @@
+{
+    "Name": "BTR-Logo",
+    "DLL": "LogoReplacement.dll",
+    "Enabled": true,
+
+    "Settings": {
+        "LogoPath": "btr_mod_logo_screen.png"
+    }
+}

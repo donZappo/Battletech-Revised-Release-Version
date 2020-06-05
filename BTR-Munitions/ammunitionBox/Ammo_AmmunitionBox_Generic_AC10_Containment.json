@@ -1,0 +1,41 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 3.75
+		}
+	},
+    "AmmoID" : "Ammunition_AC10",
+    "Capacity" : 8,
+    "Description" : {
+        "Cost" : 40000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "AC10",
+        "UIName" : "AC/10 Ammo (Cont.)",
+        "Id" : "Ammo_AmmunitionBox_Generic_AC10_Containment",
+        "Name" : "AC/10 Ammo (Containment)",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. Containment AC/10 Ammo Bins are reinforced to contain half of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>8 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 3.75</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA" : "-20% Ammo",
+    "BonusValueB" : "-50% Explosion Dmg.",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

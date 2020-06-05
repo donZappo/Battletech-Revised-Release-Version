@@ -1,0 +1,41 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 0.3125
+		}
+	},
+    "AmmoID" : "Ammunition_LRM",
+    "Capacity" : 90,
+    "Description" : {
+        "Cost" : 30000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "LRM",
+        "UIName" : "LRM Ammo (Cont.)",
+        "Id" : "Ammo_AmmunitionBox_Generic_LRM_Containment",
+        "Name" : "LRM Ammo (Containment)",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. Containment LRM Ammo Bins are reinforced to contain half of the destructive force when an ammunition explosion occurs, but contain only <color=#6aa84f>90 rounds</color> of ammunition per ton.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 0.3125</color></b>",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "-25% Ammo",
+    "BonusValueB" : "-50% Explosion Dmg.",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

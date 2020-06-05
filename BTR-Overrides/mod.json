@@ -1,0 +1,26 @@
+{
+    "Name": "BTR-Overrides",
+    "Enabled": true,
+    "Description": "BTR's override settings",
+    "Author": "vengefire, don Zappo",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	"DependsOn": [],
+	"ConflictsWith": [],   
+    
+    "Manifest": [
+		{ "Type": "CombatGameConstants", "Path": "combatGameConstants", "ShouldMergeJSON": true },
+        { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true },
+        { "Type": "SimGameDifficultySettingList", "Path": "simGameDifficultyConstants", "ShouldMergeJSON": true },
+		{ "Type": "StarSystemDef", "Path": "StarSystemDefs", "ShouldMergeJSON": true },
+		{ 	"Type": "WeaponDef",
+			"Path": "Suppressed-Weapons",
+			"AddToDB": true
+		},
+		{
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        },
+        { "Type": "FactionDef",  "Path": "factions", "AddToDB": true },
+   ]
+}
