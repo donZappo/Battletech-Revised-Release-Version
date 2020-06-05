@@ -501,7 +501,7 @@
       "mechdef_spider_SDR-5V",
       "mechdef_locust_LCT-1V"
     ],
-    "MaxActiveFlashpoints": 50,
+    "MaxActiveFlashpoints": 7,
     "InitialFlashpointMinCooldown": 1,
     "InitialFlashpointMaxCooldown": 1,
     "FlashpointMinCooldown": 1,
