@@ -143,27 +143,30 @@
     "PrioritySalvageModifier": 0.25,
     "DestroyedMechRecoveryChance": 1,
     "VeryRareWeaponLevel": [
-      4,
-      5
+      6,
+      7,
+	  8
     ],
-    "VeryRareWeaponChance": -5,
+    "VeryRareWeaponChance": -7,
     "RareWeaponLevel": [
-      2,
-      3
+      3,
+      4,
+	  5
     ],
-    "RareWeaponChance": 0,
+    "RareWeaponChance": -1.75,
     "WeaponChanceDivisor": 10,
     "VeryRareUpgradeLevel": [
+      6,
+      7,
+	  8
+    ],
+    "VeryRareUpgradeChance": -7,
+    "RareUpgradeLevel": [
+      3,
       4,
       5
     ],
-    "VeryRareUpgradeChance": -5,
-    "RareUpgradeLevel": [
-      1,
-      2,
-      3
-    ],
-    "RareUpgradeChance": 0,
+    "RareUpgradeChance": -1.75,
     "UpgradeChanceDivisor": 20,
     "ItemAutoCullLevel": 10,
     "EquipMechOnSalvage": true,

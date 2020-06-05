@@ -1,0 +1,263 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "Quirks"
+        }],
+        "BonusDescriptions": {
+			"Bonuses": [
+				"Generalist: 2"
+      ]
+        },
+		"Flags": {
+            "flags": [
+                "ignore_damage",
+				"default",
+                "autorepair",
+                "not_broken"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        },
+        "MechConfiguration" : {}
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "S.C.S. Labs",
+        "Model": "",
+        "UIName": "Jack of All Trades",
+        "Id": "mech_quirk_generalist_design",
+        "Name": "Jack of All Trades",
+        "Details": "This 'Mech was designed to fight with a wide variety of weapons at any effective engagement range. This flexibility allows it to have improved accuracy with any equipped weapons.",
+        "Icon": "SpecialistSlot"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+	
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":-1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":true,
+                "showInStatusPanel":true
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-generalist-design-Q1",
+                "Name":"INCREASED WEAPON HIT CHANCE",
+                "Details":"All weapons have a bonus of 10% to-hit.",
+                "Icon":"SpecialistSlot"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"ToHitIndirectModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":false
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-generalist-design-Q2",
+                "Name":"Missile WEAPON HIT CHANCE IMPROVED",
+                "Details":"Missile weapon attacks have their hit improved by [AMT].",
+                "Icon":"SpecialistSlot"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Missile",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":false
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-generalist-design-Q3",
+                "Name":"BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details":"Ballistic weapon attacks have their hit improved by [AMT].",
+                "Icon":"SpecialistSlot"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Ballistic",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        },
+        {
+            "durationData":{
+                "duration":-1,
+                "ticksOnActivations":false,
+                "useActivationsOfTarget":false,
+                "ticksOnEndOfRound":false,
+                "ticksOnMovements":false,
+                "stackLimit":1,
+                "clearedWhenAttacked":false
+            },
+            "targetingData":{
+                "effectTriggerType":"Passive",
+                "triggerLimit":0,
+                "extendDurationOnTrigger":0,
+                "specialRules":"NotSet",
+                "effectTargetType":"Creator",
+                "range":0,
+                "forcePathRebuild":false,
+                "forceVisRebuild":false,
+                "showInTargetPreview":false,
+                "showInStatusPanel":false
+            },
+            "effectType":"StatisticEffect",
+            "Description":{
+                "Id":"StatusEffect-generalist-design-Q4",
+                "Name":"ENERGY WEAPON HIT CHANCE IMPROVED",
+                "Details":"Energy weapon attacks have their hit improved by [AMT]",
+                "Icon":"SpecialistSlot"
+            },
+            "nature":"Buff",
+            "statisticData":{
+                "appliesEachTick":false,
+                "effectsPersistAfterDestruction":false,
+                "statName":"AccuracyModifier",
+                "operation":"Float_Add",
+                "modValue":"-2.0",
+                "modType":"System.Single",
+                "additionalRules":"NotSet",
+                "targetCollection":"Weapon",
+                "targetWeaponCategory":"Energy",
+                "targetWeaponType":"NotSet",
+                "targetAmmoCategory":"NotSet",
+                "targetWeaponSubType":"NotSet"
+            },
+            "tagData":null,
+            "floatieData":null,
+            "actorBurningData":null,
+            "vfxData":null,
+            "instantModData":null,
+            "poorlyMaintainedEffectData":null
+        }
+		],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

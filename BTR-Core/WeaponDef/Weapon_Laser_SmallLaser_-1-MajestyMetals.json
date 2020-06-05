@@ -29,7 +29,7 @@
   "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
   "Description" : {
     "Cost" : 1000,
-    "Rarity" : 8,
+    "Rarity" : 0,
     "Purchasable" : false,
     "Manufacturer" : "Majesty Metals",
     "Model" : "Small Laser",
