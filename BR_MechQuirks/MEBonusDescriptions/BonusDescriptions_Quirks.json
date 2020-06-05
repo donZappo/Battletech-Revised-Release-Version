@@ -384,5 +384,11 @@
       "Long": "{0} Evasive Pips Kept",
       "Full": "Will not lose the last {0} Evasive Pips"
     },
+    {
+      "Bonus": "Generalist",
+      "Short": "+{0} To-Hit All Weapons",
+      "Long": "+{0} To-Hit All Weapons",
+      "Full": "Every Weapon Receives +{0} To-Hit Bonus"
+    }
   ]
 }

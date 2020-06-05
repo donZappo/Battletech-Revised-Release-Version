@@ -14,6 +14,13 @@
         "PartCountType": "PartDestroyed",
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,
+		
+		"useMPStarkSalvage": true,
+		"CT_Value": 0.5,
+		"Other_Parts_Value": 0.0833333,
+		"Rounding_Cutoff": 0.75,
+		"MinimumPartsForSalvage": 1,
+		
         "LimbRecoveryPenalty": 0.05,
         "TorsoRecoveryPenalty": 0.1,
         "HeadRecoveryPenaly": 0,

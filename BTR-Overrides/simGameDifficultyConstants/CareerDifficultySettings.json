@@ -282,7 +282,7 @@
          "Visible":true,
          "Toggle":false,
          "StartOnly":false,
-         "DefaultIndex":8,
+         "DefaultIndex":4,
          "Options":[
             {
                "ID":"diff_start_locust",
@@ -623,7 +623,7 @@
             }
          ]
       },
-	  {
+      {
          "ID":"diff_startingcbills",
          "Name":"Starting cbills",
          "TelemetryEventName":"",
@@ -637,7 +637,7 @@
          "Options":[
             {
                "ID":"diff_CB_poor",
-               "Name":"500000",
+               "Name":"500,000",
                "TelemetryEventDesc":"",
                "DifficultyValue":0,
                "CareerScoreModifier":0,
@@ -651,7 +651,7 @@
             },
             {
                "ID":"diff_CB_normal",
-               "Name":"1000000",
+               "Name":"1,000,000",
                "TelemetryEventDesc":"",
                "DifficultyValue":0,
                "CareerScoreModifier":0,
@@ -665,7 +665,7 @@
             },
             {
                "ID":"diff_CB_rich",
-               "Name":"1500000",
+               "Name":"1,500,000",
                "TelemetryEventDesc":"",
                "DifficultyValue":0,
                "CareerScoreModifier":0,
@@ -1021,6 +1021,78 @@
                      "ConstantType":"Pilot",
                      "ConstantName":"GutsDeathReduction",
                      "ConstantValue":"0"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "ID":"diff_rareItems",
+         "Name":"No Rare Salvage",
+         "TelemetryEventName":"no_rare_salvage",
+         "UIOrder":10,
+         "Tooltip":"This setting controls whether \"+\" and \"++\" items can be found as salvage after a battle. If this setting is enabled, only basic items will be found. Unique Flashpoint enemies are not affected by this setting.",
+         "Enabled":true,
+         "Visible":true,
+         "Toggle":true,
+         "StartOnly":false,
+         "DefaultIndex":0,
+         "Options":[
+            {
+               "ID":"diff_RI_off",
+               "Name":"Off",
+               "TelemetryEventDesc":"0",
+               "DifficultyValue":0,
+               "CareerScoreModifier":0,
+               "DifficultyConstants":[
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"RareWeaponChance",
+                     "ConstantValue":"-1.75"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"RareUpgradeChance",
+                     "ConstantValue":"-1.75"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"VeryRareWeaponChance",
+                     "ConstantValue":"-7"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"VeryRareUpgradeChance",
+                     "ConstantValue":"-7"
+                  }
+               ]
+            },
+            {
+               "ID":"diff_RI_on",
+               "Name":"On",
+               "TelemetryEventDesc":"1",
+               "DifficultyValue":1,
+               "CareerScoreModifier":0.1,
+               "DifficultyConstants":[
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"RareWeaponChance",
+                     "ConstantValue":"-10"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"RareUpgradeChance",
+                     "ConstantValue":"-10"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"VeryRareWeaponChance",
+                     "ConstantValue":"-10"
+                  },
+                  {
+                     "ConstantType":"Salvage",
+                     "ConstantName":"VeryRareUpgradeChance",
+                     "ConstantValue":"-10"
                   }
                ]
             }
