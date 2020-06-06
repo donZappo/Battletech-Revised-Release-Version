@@ -1,0 +1,8 @@
+{
+  "ShowLoadingScreenErrors": true,
+  "ShowErrorPopup": true,
+  "UseErrorWhiteList": true,
+  "ErrorWhitelist": [
+    "Data.DataManager [ERROR] ManifestEntry is null"
+  ]
+}
