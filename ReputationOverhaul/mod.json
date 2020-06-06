@@ -9,10 +9,10 @@
 	"OptionallyDependsOn": [ "BTR-Overrides" ],
 	"Manifest": [
         { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true }
-   ],
+    ],
 	
     "Settings": 
 	{
-		"MaxContractsPerSystem" : 5
+		"MaxContractsPerSystem": 5
     }
 }
