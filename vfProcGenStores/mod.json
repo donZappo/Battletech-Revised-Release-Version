@@ -22,7 +22,7 @@
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",
-    "LogLevel": "DeBug",
+    "LogLevel": "Error",
     "Procedurally Generate Store Contents": {
       "Enabled": true,
 	  "EquipmentAppearanceByMechs": false,
