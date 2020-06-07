@@ -6,7 +6,7 @@
 		"Icon" : ""
 	},
 	"Type" : "WeaponHit",
-	"ShortDesc" : "+16% Base Weapon Hit\n-40% Jam Chance",
+	"ShortDesc" : "+16% Base Weapon Hit",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" : []

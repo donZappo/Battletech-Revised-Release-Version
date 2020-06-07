@@ -9,7 +9,7 @@
     "DLL": "IRBTModUtils.dll",
     "DependsOn" : [ ],
     "Settings": { 
-        "Debug" : false,
+        "Debug" : true,
         "Trace" : false,
         "Dialogue" : {
             "CallsignsPath" : "BattleTech_Data/StreamingAssets/data/nameLists/name_callsign.txt",
