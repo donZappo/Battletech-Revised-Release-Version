@@ -9,7 +9,7 @@
     "DLLEntryPoint": "CustomSalvage.Control.Init",
 
     "Settings": {
-        "LogLevel": "Error",
+        "LogLevel": "DeBug",
         "RecoveryType": "PartDestroyed",
         "PartCountType": "PartDestroyed",
         "LostMechAction": "ReturnItemsAndPartsToPlayer",

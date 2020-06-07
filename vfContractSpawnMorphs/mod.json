@@ -13,7 +13,7 @@
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",
-    "LogLevel": "Error",
+    "LogLevel": "DeBug",
     "Procedurally Morph Contract Unit Spawns": {
       "RarityWeightingDaysDivisor": 60.0,
       "MaxRarityWeighting": 6,

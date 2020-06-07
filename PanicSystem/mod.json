@@ -16,7 +16,7 @@
     }
   ],
   "Settings": {
-    "Debug": false,
+    "Debug": true,
     "CombatLog": false,
 
     /* custom strings for floaties */

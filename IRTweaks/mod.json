@@ -9,7 +9,7 @@
     "DLL": "IRTweaks.dll",
     "DependsOn" : [ "IRBTModUtils" ],
     "Settings": {
-        "Debug" : false,
+        "Debug" : true,
         "Trace" : false,
         "Fixes" : {
             "BulkPurchasing" : true,
