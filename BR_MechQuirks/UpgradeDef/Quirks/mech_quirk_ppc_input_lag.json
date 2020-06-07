@@ -64,7 +64,7 @@
             "Description" : {
                 "Id" : "StatusEffect-PPC-InputLag-Q1",
                 "Name" : "PPC Input Lag",
-                "Details" : "Energy weapons on this unit deal [AMT] more damage, but generate 5.0 additional heat.",
+                "Details" : "PPC weapons on this unit deal [AMT] more damage, but generate 5.0 additional heat.",
                 "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
