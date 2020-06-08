@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_Flamer",
     "Description" : {
         "Cost" : 20000,
-        "Rarity" : 0,
+        "Rarity" : 20,
         "Purchasable" : false,
         "Manufacturer" : "Skylight",
         "Model" : "Heat Damage Flamethrower",

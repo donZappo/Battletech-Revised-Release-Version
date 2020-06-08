@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
     "Description" : {
         "Cost" : 100000,
-        "Rarity" : 2,
+        "Rarity" : 20,
         "Purchasable" : false,
         "Manufacturer" : "LongFire",
         "Model" : "Long-Range Missile Launcher",

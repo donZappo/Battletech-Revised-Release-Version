@@ -30,7 +30,7 @@
   "WeaponEffectID" : "WeaponEffect-Artillery_MechMortar",
   "Description" : {
     "Cost" : 1250000,
-    "Rarity" : 8,
+    "Rarity" : 20,
     "Purchasable" : false,
     "Manufacturer" : "Western",
     "Model" : "Heavy Autocannon",

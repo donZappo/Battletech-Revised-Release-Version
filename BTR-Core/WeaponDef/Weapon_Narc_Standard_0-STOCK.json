@@ -79,7 +79,7 @@
       "Description" : {
         "Id" : "StatusEffect-NARC-ToBeHitBonus",
         "Name" : "NARC ATTACHED",
-        "Details" : "[AMT] Easier to-hit target. Unit suffers -2 on all attacks.",
+        "Details" : "Units receive a 20% bonus to-hit a Narced target. Narced target suffers a 10% to-hit penalty for its attacks.",
         "Icon" : "uixSvgIcon_statusMarked"
       },
       "nature" : "Debuff",
