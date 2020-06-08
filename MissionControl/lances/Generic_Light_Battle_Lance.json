@@ -6,22 +6,10 @@
   },
   "unitSpawnPointOverrideList": [
     {
-      "unitType": "Mech",
-      "excludedUnitTagSet" : {
-			"items" : [
-				"unit_noncombatant",
-				"unit_urbie",
-			],
-		},
+      "unitType": "Mech"
     },
     {
-      "unitType": "Mech",
-      "excludedUnitTagSet" : {
-			"items" : [
-				"unit_noncombatant",
-				"unit_urbie",
-			],
-		},
+      "unitType": "Mech"
     },
     {
       "unitType": "Vehicle",

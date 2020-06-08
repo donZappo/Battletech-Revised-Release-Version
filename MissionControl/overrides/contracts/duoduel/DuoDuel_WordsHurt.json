@@ -350,18 +350,18 @@
         "name": "Lance_Enemy",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_dynamic", "lance_type_assault"],
+          "items": ["lance_type_assault", "lance_type_mech"],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
-          "items": ["lance_type_vehicle"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "spawnEffectTags": {
           "items": [],
           "tagSetSourceFile": "tags/SpawnEffectTags"
         },
-        "lanceDifficultyAdjustment": 0,
+        "lanceDifficultyAdjustment": 2,
         "selectedLanceDefId": "",
         "selectedLanceDifficulty": 0,
         "unitSpawnPointOverrideList": [
@@ -378,10 +378,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [
-						  "unit_vehicle",
-                    	  "unit_electronicWarfare"
-					  ],
+              "items": [],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
@@ -414,10 +411,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [
-						  "unit_vehicle",
-                    	  "unit_electronicWarfare"
-					  ],
+              "items": [],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
