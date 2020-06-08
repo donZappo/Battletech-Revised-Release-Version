@@ -9,7 +9,7 @@
     "DLLEntryPoint": "CustomSalvage.Control.Init",
 
     "Settings": {
-        "LogLevel": "DeBug",
+        "LogLevel": "Debug",
 		
         "RecoveryType": "PartDestroyed",
         "PartCountType": "PartDestroyedIgnoreCT",
@@ -101,14 +101,6 @@
         "LimbMaxChance": 0.9,
         "ComponentMinChance": 0.2,
         "ComponentMaxChance": 0.95,
-		
-		
-		
-		"useMPStarkSalvage": false,
-		"CT_Value": 0.5,
-		"Other_Parts_Value": 0.0833333,
-		"Rounding_Cutoff": 0.75,
-		"MinimumPartsForSalvage": 1,
     },
 
     "Manifest": [
