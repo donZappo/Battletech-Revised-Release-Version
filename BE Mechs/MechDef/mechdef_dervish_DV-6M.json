@@ -279,7 +279,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
