@@ -10,33 +10,29 @@
 
     "Settings": {
         "LogLevel": "DeBug",
+		
         "RecoveryType": "PartDestroyed",
-        "PartCountType": "PartDestroyed",
+        "PartCountType": "PartDestroyedIgnoreCT",
+        "SalvageArmWeight": 0.5,
+        "SalvageLegWeight": 0.5,
+        "SalvageTorsoWeight": 1.25,
+        "SalvageHeadWeight": 0.5,
+        "SalvageCTWeight": 3.0,
+		
+        "CenterTorsoDestroyedParts": 1,
+		
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,
-		
-		"useMPStarkSalvage": true,
-		"CT_Value": 0.5,
-		"Other_Parts_Value": 0.0833333,
-		"Rounding_Cutoff": 0.75,
-		"MinimumPartsForSalvage": 1,
-		
         "LimbRecoveryPenalty": 0.05,
         "TorsoRecoveryPenalty": 0.1,
         "HeadRecoveryPenaly": 0,
         "EjectRecoveryBonus": 0.25,
-        "CenterTorsoDestroyedParts": 1,
-        "SalvageArmWeight": 0.75,
-        "SalvageLegWeight": 0.75,
-        "SalvageTorsoWeight": 1,
-        "SalvageHeadWeight": 0.5,
-        "SalvageCTWeight": 1.5,
 
         "VACTDestroyedMod": 0.35,
         "VABLDestroyedMod": 0.68,
         "SalvageTurrets": false,
         "SalvageTurretsComponentChance": 0.5,
-        "UpgradeSalvage": false,
+        "UpgradeSalvage": true,
         "BGColors": [
         {
             "Tag": "unit_assault",
@@ -70,6 +66,11 @@
 
             ],
         "MaxVariantsInDescription": 5,
+		"UseReadyDelay": true,
+		"AssembledTimeBonusFactor": 0.5,
+		"MaxRecoveryChance": 0.9,
+        "AllowScrapToParts": true,
+		
         "UnEquipedMech": false,
         "BrokenMech": true,
         "HeadRepaired": true,
@@ -90,7 +91,6 @@
         "AdaptPartBaseCost": 0.015,
         "MaxAdaptMod": 5,
         "AdaptModWeight": 2,
-        "AllowScrapToParts": true,
         "MinScrapParts":  0.51,
         "MaxScrapParts": 1.0,
         "RepairChanceByTP": true,
@@ -102,9 +102,13 @@
         "ComponentMinChance": 0.2,
         "ComponentMaxChance": 0.95,
 		
-		"UseReadyDelay": true,
-		"AssembledTimeBonusFactor": 0.5,
-		"MaxRecoveryChance": 0.9,
+		
+		
+		"useMPStarkSalvage": false,
+		"CT_Value": 0.5,
+		"Other_Parts_Value": 0.0833333,
+		"Rounding_Cutoff": 0.75,
+		"MinimumPartsForSalvage": 1,
     },
 
     "Manifest": [
