@@ -15,7 +15,7 @@
         "UIName" : "AC/10 Ammo",
         "Id" : "Ammo_AmmunitionBox_Generic_AC10",
         "Name" : "AC/10 Ammo",
-        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. Ammo Bins each contain <color=#6aa84f>8 rounds</color> and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 2.5</color></b>",
+        "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and damage their installed location when they receive a Critical Hit. Ammo Bins each contain <color=#6aa84f>8 rounds</color> and may feed multiple weapons.\r\n\r\n<b><color=#ffcc00>Explosion damage per ammo: 7.5</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "",
