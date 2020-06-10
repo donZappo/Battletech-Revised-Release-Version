@@ -24,6 +24,13 @@
     "Inventory": [],
     "Specials": [
         {
+            "ID": "Weapon_PPC_PPC_1-Tiegart",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 5
+        },        
+		{
             "ID": "Weapon_Laser_LargeLaserER_1-Blankenburg25",
             "Type": "Weapon",
             "DiscountModifier": 1,

@@ -168,13 +168,6 @@
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 8
-        },
-        {
-            "ID": "Weapon_PPC_PPC_1-Tiegart",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 8
         }
     ]
 }

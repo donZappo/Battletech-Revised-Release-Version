@@ -1,19 +1,18 @@
 {
-    "ID": "shopdef_Weapons_special_arano_taurian_1",
+    "ID": "shopdef_Weapons_special_liao_arano_magistracy_0",
     "RequirementTags": {
         "items": [
-            "planet_industry_manufacturing",
-            "planet_industry_rich"
-        ],
+			"planet_progress_1",
+			"planet_progress_2",
+			"planet_progress_2a",
+			"planet_progress_3"
+		],
         "tagSetSourceFile": ""
     },
     "ExclusionTags": {
         "items": [
          "planet_other_empty",
-         "planet_faction_liao",
-         "planet_faction_steiner",
-         "planet_faction_davion",
-         "planet_faction_kurita",
+         "planet_faction_taurian",
          "planet_faction_independent",
          "planet_faction_pirate",
          "planet_faction_nofaction"
@@ -23,32 +22,32 @@
     "Inventory": [],
     "Specials": [
         {
-            "ID": "Weapon_Laser_LargeLaserPulse_1-Thunderbolt12",
+            "ID": "Weapon_LRM_LRM5_1-LongFire",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
-        },  
-        {
-            "ID": "Weapon_Flamer_Flamer_1-Hotshot",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
         {
-            "ID": "Weapon_PPC_PPCSnub_1-Donal",
+            "ID": "Weapon_LRM_LRM10_1-LongFire",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
         },
-		{
-            "ID": "Weapon_PPC_PPC_1-Donal",
+        {
+            "ID": "Weapon_LRM_LRM15_1-LongFire",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0,
-			"Weight": 5
+			"Weight": 8
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_1-LongFire",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 8
         }
     ]
 }
