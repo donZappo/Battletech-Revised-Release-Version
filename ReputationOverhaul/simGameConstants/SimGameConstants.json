@@ -1,7 +1,7 @@
 {
   "Story": {
 	"MaxContractsPerSystem": 5,
-    "StartingReputation": 80,
+    "StartingReputation": 0,
     "LoathedReputation": -80,
     "HatedReputation": -40,
     "DislikedReputation": -20,
@@ -87,12 +87,12 @@
     "HighRepNotificationValue": 50
   },
   "CareerMode": {
-    "LoathedMaxContractDifficulty": 10,
-    "HatedMaxContractDifficulty": 10,
-    "DislikedMaxContractDifficulty": 10,
-    "IndifferentMaxContractDifficulty": 10,
-    "LikedMaxContractDifficulty": 10,
-    "FriendlyMaxContractDifficulty": 10,
-    "HonoredMaxContractDifficulty": 10,
+    "LoathedMaxContractDifficulty": 1,
+    "HatedMaxContractDifficulty": 2,
+    "DislikedMaxContractDifficulty": 3,
+    "IndifferentMaxContractDifficulty": 5,
+    "LikedMaxContractDifficulty": 7,
+    "FriendlyMaxContractDifficulty": 8,
+    "HonoredMaxContractDifficulty": 9,
   }
 }

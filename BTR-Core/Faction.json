@@ -217,10 +217,10 @@
 			"DoesGainReputation" : true,
 			"CanAlly" : true,
 			"IsProceduralContractFaction" : true,
-			"IsCareerScoringFaction" : true,
-			"IsCareerIgnoredContractTarget" : false,
-			"IsCareerStartingDisplayFaction" : true,
-			"IsStoryStartingDisplayFaction" : true,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
 			"HasAIBehaviorVariableScope" : false
 		},
 		{
@@ -240,7 +240,7 @@
 			"IsPossibleNeutralToAllFaction" : true,
 			"IsPossibleHostileToAllFaction" : false,
 			"IsPossibleAllyFallbackFaction" : true,
-			"IsCareerScoringFaction" : false,
+			"IsCareerScoringFaction" : true,
 			"IsCareerIgnoredContractTarget" : false,
 			"IsCareerStartingDisplayFaction" : true,
 			"IsStoryStartingDisplayFaction" : false,

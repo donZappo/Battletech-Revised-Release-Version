@@ -1,6 +1,7 @@
 {
 	"Name": "BTR-Core",
 	"Author": "XSNomad, Vengefire, donZappo",
+	"Version" : "1.4",
 
 	"Enabled": true,
 	"Hidden": true,
@@ -20,7 +21,7 @@
 	
 	"Settings": {
 		"IsFriendlyBugSuppression" : false,
-		"UpgradeDegradedOpFor" : true,
+		"UpgradeDegradedOpFor" : false,
 		"JumpStopsCalledShot" : true,
 		"TacticsForJumpedCS" : 10,
 		//** UpgradePilots matches pilots to their role more accurately.

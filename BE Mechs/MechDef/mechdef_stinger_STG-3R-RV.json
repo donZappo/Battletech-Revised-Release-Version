@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 

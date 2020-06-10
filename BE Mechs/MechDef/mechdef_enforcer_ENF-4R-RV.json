@@ -17,7 +17,7 @@
         "UIName": "Enforcer ENF-4R-RV", 
         "Id": "mechdef_enforcer_ENF-4R-RV", 
         "Name": "Enforcer", 
-        "Details": "First spotted as a frankenmech in an exhibition show near Solaris IIV in 3017, the rights to manufacture the refit design were purchased and soon after the ENF-4R-RV was being produced and sold to the protection market and Planetary Governments. This variant replaces the Large Laser with a COIL-L energy weapon and removes a half-ton of Ammo and all Jump Jets due to unresolved overheating and structural integrity issues identified during production.", 
+        "Details": "First spotted as a frankenmech in an exhibition show near Solaris VII in 3017, the rights to manufacture the refit design were purchased and soon after the ENF-4R-RV was being produced and sold to the protection market and Planetary Governments. This variant replaces the Large Laser with a COIL-L energy weapon and removes a half-ton of ammo and all Jump Jets due to unresolved overheating and structural integrity issues identified during production.", 
         "Icon": "uixTxrIcon_enforcer"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -455,7 +455,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 

@@ -13,25 +13,6 @@
     },
     "ChassisID" : "chassisdef_highlander_HGN-732b",
 	"prefabOverride" : "chrPrfMech_highlander_SLDFBase-001",
-    "MechTags" : {
-        "items" : [
-            "unit_mech",
-            "unit_assault",
-            "unit_indirectFire",
-            "unit_jumpOK",
-            "unit_lance_tank",
-            "unit_role_brawler",
-            "BLACKLISTED",
-			"NotDavion",
-			"Kurita",
-			"NotLiao",
-			"NotMarik",
-			"NotSteiner",
-			"NotMagistracyOfCanopus",
-			"NotTaurianConcordat",
-        ],
-        "tagSetSourceFile" : ""
-    },
     "simGameMechPartCost": 1680000,
     "inventory" : [
         {

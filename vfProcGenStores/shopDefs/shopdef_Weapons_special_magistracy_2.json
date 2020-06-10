@@ -32,6 +32,13 @@
 			"Weight": 3
         },
         {
+            "ID": "Weapon_PPC_PPC_2-Tiegart",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
+        },
+        {
             "ID": "Weapon_Autocannon_AC2_3-ZeusBolt",
             "Type": "Weapon",
             "DiscountModifier": 1,

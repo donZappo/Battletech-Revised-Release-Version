@@ -488,7 +488,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 

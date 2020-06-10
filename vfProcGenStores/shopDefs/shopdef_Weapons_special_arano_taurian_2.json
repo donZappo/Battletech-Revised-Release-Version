@@ -29,6 +29,13 @@
             "DiscountModifier": 1,
             "Count" : 0,
 			"Weight": 3
+        },
+		        {
+            "ID": "Weapon_PPC_PPC_2-Donal",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight": 3
         }
     ]
 }
