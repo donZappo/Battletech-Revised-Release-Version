@@ -1,35 +1,43 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Rollis",
+        "Name": "Rollis",
+        "Details": "Temperate Rollis is the source of a rare and highly valued variety of wood, and, consequentially, a busy black market. It also serves as a jumping-off point for those planning an adventurous journey into the Periphery.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 151.79,
+        "y": -386.77,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
+            "planet_climate_terran",
+            "planet_pop_medium",
             "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_progress_3",
+            "planet_feature_moon01",
+            "planet_industry_poor",
+            "planet_other_blackmarket",
+            "planet_other_hub",
+            "planet_other_moon",
+            "planet_name_rollis",
+            "planet_faction_liao",
+            "planet_industry_chemicals"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -41,11 +49,11 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "JumpDistance": 17,
+    "ownerID": "Liao",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 7,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +117,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,29 +129,31 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "B",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_minor_Liao",
+        "itemCollection_shop_chemicals"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Rollis",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 2,
     "DifficultyList": [
-        1,
-        1
+        2,
+        8
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
@@ -151,11 +161,14 @@
     ],
     "contractEmployerIDs": [
         "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
         "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao"
     ]
 }

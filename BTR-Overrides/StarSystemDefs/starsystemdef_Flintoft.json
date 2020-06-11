@@ -1,35 +1,41 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Flintoft",
+        "Name": "Flintoft",
+        "Details": "The site of a major naval battle during the Reunification War, Flintoft's orbit is still dangerously littered with debris. The industrial world has a bustling secondary market in salvaged technology from orbit as well as the many battlefields on the surface.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 193.25,
+        "y": -336.17,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
-            "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_climate_terran",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_progress_3",
+            "planet_feature_asteroids",
+            "planet_industry_rich",
+            "planet_other_ruins",
+            "planet_other_battlefield",
+            "planet_name_flintoft",
+            "planet_faction_davion"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -41,11 +47,11 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "JumpDistance": 10,
+    "ownerID": "Davion",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 9,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +115,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,41 +127,46 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "F",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_major_Davion",
+        "itemCollection_shop_battlefield"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
     "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "CoreSystemID": "starsystemdef_Flintoft",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 2,
     "DifficultyList": [
-        1,
-        1
+        2,
+        7
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "TaurianConcordat",
+        "Liao",
+        "Kurita",
         "Davion",
-        "TaurianConcordat"
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "Kurita",
+        "Davion"
     ]
 }

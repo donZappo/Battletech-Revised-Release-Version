@@ -1,35 +1,40 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Independence",
+        "Name": "Independence",
+        "Details": "Independence is a lush world, dominated by vast oceans and jungle-covered volcanic islands. The plutocratic government runs the planet primarily for recreational tourists, with the inhabitants regulated by a strict caste system.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 58.66,
+        "y": -505.06,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
+            "planet_climate_water",
+            "planet_pop_medium",
             "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_progress_2",
+            "planet_industry_aquaculture",
+            "planet_industry_recreation",
+            "planet_other_volcanic",
+            "planet_other_blackmarket",
+            "planet_name_independence",
+            "planet_faction_independent",
+            "planet_industry_electronics"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -41,11 +46,11 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "JumpDistance": 5,
+    "ownerID": "Locals",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 4,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +114,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_2"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -128,21 +133,23 @@
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
+        "itemCollection_minor_Locals",
         "itemCollection_shop_electronics"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Independence",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": -1,
     "DifficultyList": [
-        1,
+        -1,
         1
     ],
     "DifficultyModes": [
@@ -150,12 +157,15 @@
         "CAREER"
     ],
     "contractEmployerIDs": [
-        "Davion",
-        "TaurianConcordat"
+        "MagistracyOfCanopus",
+        "TaurianConcordat",
+        "Locals",
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "MagistracyOfCanopus",
+        "TaurianConcordat",
+        "Locals"
     ]
 }

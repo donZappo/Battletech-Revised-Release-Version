@@ -1,35 +1,40 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Diefenbaker",
+        "Name": "Diefenbaker",
+        "Details": "Originally an independent world, Diefenbaker was one of the planets offered membership in the Taurian Concordat, which they accepted. The world has since been conquered by Davion, but the people still have a streak of fierce independence.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 200.03,
+        "y": -344.52,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
+            "planet_climate_terran",
+            "planet_pop_medium",
             "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_progress_3",
+            "planet_industry_agriculture",
+            "planet_industry_manufacturing",
+            "planet_other_blackmarket",
+            "planet_name_diefenbaker",
+            "planet_faction_davion"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -41,11 +46,11 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "JumpDistance": 8,
+    "ownerID": "Davion",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 7,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +114,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,41 +126,48 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "G",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_minor_Davion",
+        "itemCollection_shop_manufacturing"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Diefenbaker",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 2,
     "DifficultyList": [
-        1,
-        1
+        2,
+        7
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "TaurianConcordat",
+        "Liao",
+        "Kurita",
         "Davion",
-        "TaurianConcordat"
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "Kurita",
+        "Davion"
     ]
 }

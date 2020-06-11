@@ -1,35 +1,38 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Bromhead",
+        "Name": "Bromhead",
+        "Details": "The arid world of Bromhead was settled in the first wave of colonization, and was a Taurian holding until the Reunification War. It is now a Davion possession, with a large population in sprawling river-bank cities that nestle in the vast deserts.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 161.17,
+        "y": -380.77,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
-            "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_climate_arid",
+            "planet_pop_medium",
+            "planet_civ_innersphere",
+            "planet_progress_3",
+            "planet_feature_moon01",
+            "planet_industry_agriculture",
+            "planet_industry_manufacturing",
+            "planet_other_comstar",
+            "planet_other_moon",
+            "planet_other_factionhq_davion",
+            "planet_name_bromhead",
+            "planet_faction_davion",
+            "planet_industry_electronics"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
-        "highlandsSpring",
-        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
-        "tundraFrozen",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -40,12 +43,12 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "FuelingStation": true,
+    "JumpDistance": 11,
+    "ownerID": "Davion",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 9,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +112,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,41 +124,49 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "A",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_major_Davion",
+        "itemCollection_shop_manufacturingProgression",
+        "itemCollection_shop_electronicsProgression"
     ],
-    "factionShopOwnerID": "INVALID_UNSET",
-    "FactionShopItems": null,
+    "factionShopOwnerID": "Davion",
+    "FactionShopItems": [
+        "itemCollection_faction_Davion"
+    ],
     "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "CoreSystemID": "starsystemdef_Bromhead",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 3,
     "DifficultyList": [
-        1,
-        1
+        3,
+        9
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
+        "TaurianConcordat",
+        "Liao",
+        "ComStar",
+        "Kurita",
         "Davion",
-        "TaurianConcordat"
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "Davion"
     ]
 }

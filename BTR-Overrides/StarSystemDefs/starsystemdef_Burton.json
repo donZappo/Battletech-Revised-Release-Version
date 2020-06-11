@@ -1,35 +1,41 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Burton",
+        "Name": "Burton",
+        "Details": "Burton is a company world, the home of one of the largest Taurian electronics manufacturers. Most of the world's small population consists of employees, staff, and support services for O-P Computer Electronics.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 186.96,
+        "y": -424.3,
         "z": 0
     },
     "Tags": {
         "items": [
-            "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
-            "planet_civ_periphery",
+            "planet_size_small",
+            "planet_climate_terran",
+            "planet_pop_none",
+            "planet_civ_innersphere",
             "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_industry_manufacturing",
+            "planet_other_hub",
+            "planet_industry_rich",
+            "planet_other_blackmarket",
+            "planet_name_burton",
+            "planet_faction_taurian"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -40,12 +46,12 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "FuelingStation": false,
-    "JumpDistance": 6,
+    "FuelingStation": true,
+    "JumpDistance": 18,
     "ownerID": "TaurianConcordat",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 7,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -121,7 +127,7 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "F",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
@@ -129,21 +135,23 @@
     "MaxContractOverride": 0,
     "SystemShopItems": [
         "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_shop_manufacturing"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Burton",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 0,
     "DifficultyList": [
-        1,
-        1
+        0,
+        4
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",

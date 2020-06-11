@@ -1,36 +1,36 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Merlin",
+        "Name": "Merlin",
+        "Details": "Though there's no official record of anybody colonizing Merlin, the desert planet is nonetheless dotted with multiple unfinished construction projects on high rocky cliffs that suggest somebody once had ambitions for the world.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 170.29,
+        "y": -364.49,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
-            "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_climate_desert",
+            "planet_pop_none",
+            "planet_progress_3",
+            "planet_feature_moon02",
+            "planet_other_ruins",
+            "planet_other_empty",
+            "planet_other_moon",
+            "planet_other_factionhq_steiner",
+            "planet_name_merlin",
+            "planet_faction_davion",
+            "planet_industry_mining",
+            "planet_industry_manufacturing"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
-        "highlandsSpring",
-        "highlandsFall",
-        "polarFrozen",
-        "tundraFrozen",
-		"urbanHighTech"
+        "desertParched",
+        "martianVacuum"
     ],
     "MapRequiredTags": {
         "items": [],
@@ -41,8 +41,8 @@
         "tagSetSourceFile": ""
     },
     "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "JumpDistance": 10,
+    "ownerID": "Davion",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
     "ShopMaxSpecials": 6,
@@ -109,7 +109,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,41 +121,46 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "F",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_shop_miningProgression",
+        "itemCollection_shop_manufacturingProgression"
     ],
-    "factionShopOwnerID": "INVALID_UNSET",
-    "FactionShopItems": null,
+    "factionShopOwnerID": "Steiner",
+    "FactionShopItems": [
+        "itemCollection_faction_AuriganRestoration"
+    ],
     "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "CoreSystemID": "starsystemdef_Merlin",
     "StartingSystemModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
     ],
-    "DefaultDifficulty": 1,
+    "DefaultDifficulty": 2,
     "DifficultyList": [
-        1,
-        1
+        2,
+        7
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
-        "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "Kurita",
+        "Davion"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "TaurianConcordat",
+        "Liao",
+        "Davion"
     ]
 }

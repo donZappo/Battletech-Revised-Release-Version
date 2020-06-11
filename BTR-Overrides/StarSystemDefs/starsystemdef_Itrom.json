@@ -1,35 +1,44 @@
 {
     "Description": {
-        "Id": "starsystemdef_NewVallis",
-        "Name": "New Vallis",
-        "Details": "The mining colony of New Vallis is located on the tidally locked moon of a gas giant locally known as Joramander. It has a single city, with a notoriously active nightlife, on a plateau covered with huge, slow-growing trees.",
+        "Id": "starsystemdef_Itrom",
+        "Name": "Itrom",
+        "Details": "One of the four founding worlds of the Aurigan Coalition under the direction of House Gallas, Itrom is a jewel of the region, a pleasant Terran world with a population of over a billion. Centuries-old wars left a scar across the surface: a cratered radioactive wasteland that dominates the northern hemisphere.",
         "Icon": ""
     },
     "Position": {
-        "x": 193.36,
-        "y": -378.74,
+        "x": 92.37,
+        "y": -445.82,
         "z": 0
     },
     "Tags": {
         "items": [
             "planet_size_medium",
-            "planet_climate_arctic",
-            "planet_pop_small",
-            "planet_civ_periphery",
-            "planet_progress_2a",
-            "planet_feature_gasgiant",
-            "planet_name_newvallis",
-            "planet_faction_taurian",
-            "planet_industry_electronics",
-			"planet_start_world"
+            "planet_climate_terran",
+            "planet_pop_large",
+            "planet_civ_innersphere",
+            "planet_progress_3",
+            "planet_feature_moon03",
+            "planet_industry_agriculture",
+            "planet_industry_recreation",
+            "planet_industry_rich",
+            "planet_other_battlefield",
+            "planet_other_blackmarket",
+            "planet_other_moon",
+            "planet_name_itrom",
+            "planet_faction_directorate"
         ],
         "tagSetSourceFile": ""
     },
     "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
         "highlandsSpring",
         "highlandsFall",
+        "desertParched",
+        "badlandsParched",
         "polarFrozen",
         "tundraFrozen",
+        "jungleTropical",
 		"urbanHighTech"
     ],
     "MapRequiredTags": {
@@ -40,12 +49,12 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "FuelingStation": false,
-    "JumpDistance": 6,
-    "ownerID": "TaurianConcordat",
+    "FuelingStation": true,
+    "JumpDistance": 10,
+    "ownerID": "AuriganDirectorate",
     "ShopRefreshRate": 0,
     "ShopMaxInventory": 0,
-    "ShopMaxSpecials": 6,
+    "ShopMaxSpecials": 8,
     "SystemInfluence": [
         {
             "factionID": "NoFaction",
@@ -109,7 +118,7 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-                    "map_travel_2a"
+                    "map_travel_3"
                 ],
                 "tagSetSourceFile": ""
             },
@@ -121,41 +130,40 @@
         }
     ],
     "StarPosition": null,
-    "StarType": "M",
+    "StarType": "G",
     "Depletable": false,
     "UseSystemRoninHiringChance": false,
     "RoninHiringChance": 0,
     "UseMaxContractOverride": false,
     "MaxContractOverride": 0,
     "SystemShopItems": [
-        "itemCollection_minor_TaurianConcordat",
-        "itemCollection_shop_electronics"
+        "itemCollection_major_AuriganDirectorate",
+        "itemCollection_shop_battlefield"
     ],
     "factionShopOwnerID": "INVALID_UNSET",
     "FactionShopItems": null,
-    "BlackMarketShopItems": null,
-    "CoreSystemID": "starsystemdef_NewVallis",
+    "BlackMarketShopItems": [
+        "itemCollection_faction_AuriganPirates"
+    ],
+    "CoreSystemID": "starsystemdef_Itrom",
     "StartingSystemModes": [
-        "KAMEA_CAMPAIGN",
-        "CAREER",
-        "NONE"
+        "KAMEA_CAMPAIGN"
     ],
     "DefaultDifficulty": 1,
     "DifficultyList": [
         1,
-        1
+        6
     ],
     "DifficultyModes": [
         "KAMEA_CAMPAIGN",
         "CAREER"
     ],
     "contractEmployerIDs": [
-        "Davion",
-        "TaurianConcordat"
+        "AuriganRestoration",
+        "AuriganPirates"
     ],
     "contractTargetIDs": [
         "AuriganPirates",
-        "Davion",
-        "TaurianConcordat"
+        "AuriganDirectorate"
     ]
 }
