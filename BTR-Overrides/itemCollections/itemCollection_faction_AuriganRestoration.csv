@@ -2,4 +2,4 @@ itemCollection_faction_AuriganRestoration,,,
 itemCollection_systemStores_Mech_PStates_RareAss,Reference,2,10
 itemCollection_systemStores_Mech_PStates_Regular,Reference,3,10
 itemCollection_systemStores_Weapons_AuriganRare,Reference,5,10
-itemCollection_systemStores_Weapons_Generic,Reference,5,10
+itemCollection_systemStores_Weapons_AuriganGen,Reference,5,10
