@@ -1,4 +1,10 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+        "LeftLimit": "Lower",
+        "RightLimit": "Lower", 
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
         "Cost": 5700000, 
@@ -39,7 +45,7 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 5, 
-    "PunchesWithLeftArm": true, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
     "MeleeDamage": 50, 
