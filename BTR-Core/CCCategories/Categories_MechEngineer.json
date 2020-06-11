@@ -488,5 +488,11 @@
          "MaxEquiped":"1",
          "AutoReplace":"true"
       }
+      {
+         "Name":"ActuatorUpgrades",
+         "DisplayName":"Upgraded Actuator",
+         "MaxEquipedPerLocation":1,
+         "AutoReplace":false,
+      },
    ]
 }

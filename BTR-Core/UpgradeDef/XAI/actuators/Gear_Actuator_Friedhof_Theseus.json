@@ -1,4 +1,11 @@
 {
+   "Custom":{
+      "Category":[
+         {
+            "CategoryID":"ActuatorUpgrades"
+         }
+      ],
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
