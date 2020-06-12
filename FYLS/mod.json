@@ -18,7 +18,9 @@
 	  "FYLS [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too",
 	  "FYLS [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too",
 	  "FYLS [ERROR] ERROR!!! breakdown of Universal Modifier didn't match actual Universal Modifier. Check TargetingRules!",
-	  "FYLS [ERROR] Exception caught processing achievement:"
+	  "FYLS [ERROR] Exception caught processing achievement:",
+	  "FYLS [ERROR] CRITICAL ERROR, PLEASE REPORT: Delegate OnRecomputePathing - Standard for message type RecomputePathing failed with exception",
+
     ],
     "preserveFullLog": true
   }

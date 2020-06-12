@@ -32,7 +32,6 @@
         "VABLDestroyedMod": 0.68,
         "SalvageTurrets": false,
         "SalvageTurretsComponentChance": 0.5,
-        "UpgradeSalvage": true,
         "BGColors": [
         {
             "Tag": "unit_assault",
@@ -70,6 +69,27 @@
 		"AssembledTimeBonusFactor": 0.5,
 		"MaxRecoveryChance": 0.9,
         "AllowScrapToParts": true,
+		
+		
+        "UpgradeSalvage": true,
+		"UpgradeItems" : true,
+		"EliteRareUpgradeChance" : -7,
+		"VeryRareUpgradeChance" : -3.5,
+		"RareUpgradeChance" : 0,
+		"UpgradeChanceDivisor" : 20,
+		"EliteRareUpgradeLevel" : [ 7 , 8 ],
+		"VeryRareUpgradeLevel" : [ 5 , 6 ],
+		"RareUpgradeLevel" : [ 3, 4 ],
+		
+		"EliteRareWeaponChance" : -7,
+		"VeryRareWeaponChance" : -3.5,
+		"RareWeaponChance" : 0,
+		"WeaponChanceDivisor" : 10,
+		"EliteRareWeaponLevel" : [ 7, 8 ],
+		"VeryRareWeaponLevel" : [ 5 , 6 ],
+		"RareWeaponLevel" : [ 3, 4 ],
+		
+		
 		
         "UnEquipedMech": false,
         "BrokenMech": true,
