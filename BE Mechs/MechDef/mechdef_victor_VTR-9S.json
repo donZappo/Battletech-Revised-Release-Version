@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_victor_VTR-9S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1945728,  
+        "Cost": 1945728, 
         "Rarity": 4, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Victor VTR-9S", 
@@ -247,28 +247,6 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
             "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
@@ -477,17 +455,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Mech_Default_Quirk", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
             "SimGameUID": "", 
@@ -543,8 +510,30 @@
             "hasPrefabName": false
         }, 
         {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_all_or_nothing", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_lower", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -554,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 750000
+    "simGameMechPartCost": 1945728
 }
