@@ -5,7 +5,7 @@
       "RightLimit": "Lower"
         },
     },
-    "FixedEquipment": [
+    "FixedEquipment": [        
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_engine_300", 
@@ -14,12 +14,12 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
     ], 
     "Description": {
-        "Cost": 6056640, 
+        "Cost": 5600000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -42,7 +42,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 6, 
+    "MaxJumpjets": 2, 
     "Stability": 160, 
     "StabilityDefenses": [
         0, 

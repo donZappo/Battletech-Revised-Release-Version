@@ -1,5 +1,11 @@
 {
-    "FixedEquipment": [
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+        },
+    },
+    "FixedEquipment": [         
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_engine_300", 
@@ -8,12 +14,12 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
     ], 
     "Description": {
-        "Cost": 6171000, 
+        "Cost": 5600000, 
         "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -36,7 +42,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 6, 
+    "MaxJumpjets": 2, 
     "Stability": 160, 
     "StabilityDefenses": [
         0, 
