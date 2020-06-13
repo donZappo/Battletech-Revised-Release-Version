@@ -680,6 +680,48 @@
          ]
       },
       {
+         "ID":"diff_agressivewars",
+         "Name":"Aggressive Wars",
+         "TelemetryEventName":"",
+         "UIOrder":5,
+         "Tooltip":"This setting will make Factions much more aggressive in Galaxy at War.",
+         "Enabled":true,
+         "Visible":true,
+         "Toggle":true,
+         "StartOnly":false,
+         "DefaultIndex":0,
+         "Options":[
+            {
+               "ID":"diff_aggGaW_off",
+               "Name":"Normal Aggression",
+               "TelemetryEventDesc":"0",
+               "DifficultyValue":0,
+               "CareerScoreModifier":0.0,
+               "DifficultyConstants":[
+                  {
+                     "ConstantType":"Finances",
+                     "ConstantName":"LeopardBaseMaintenanceCost",
+                     "ConstantValue":"0"
+                  }
+               ]
+            },
+            {
+               "ID":"diff_aggGaW_on",
+               "Name":"Increased Aggression",
+               "TelemetryEventDesc":"1",
+               "DifficultyValue":0,
+               "CareerScoreModifier":0,
+               "DifficultyConstants":[
+                  {
+                     "ConstantType":"Finances",
+                     "ConstantName":"LeopardBaseMaintenanceCost",
+                     "ConstantValue":"500"
+                  }
+               ]
+            }
+         ]
+      },
+      {
          "ID":"diff_contractDifficulty",
          "Name":"Enemy Force Strength",
          "TelemetryEventName":"enemy_force_strength",
