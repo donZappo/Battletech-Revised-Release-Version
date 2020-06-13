@@ -1,12 +1,6 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
-        },
-    },
     "FixedEquipment": [
-      {
+        {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_engine_320", 
             "SimGameUID": "", 
@@ -14,12 +8,12 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
+            "prefabName": "", 
+            "hasPrefabName": true
         }
     ], 
     "Description": {
-        "Cost": 6000000, 
+        "Cost": 9911000, 
         "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -42,7 +36,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 2, 
+    "MaxJumpjets": 5, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 
@@ -69,6 +63,7 @@
     "DFAInstability": 100, 
     "ChassisTags": {
         "items": [
+            "EnhancedAgilityDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

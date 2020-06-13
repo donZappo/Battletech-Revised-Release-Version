@@ -1,12 +1,7 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "RightLimit": "Upper"
-        },
-    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 6000000, 
+        "Cost": 9728640, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -29,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 120, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 2, 
+    "MaxJumpjets": 5, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 

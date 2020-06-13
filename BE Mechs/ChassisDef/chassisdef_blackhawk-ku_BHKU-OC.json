@@ -1,34 +1,22 @@
 {
-    "FixedEquipment": [
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_300", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
-    ], 
+    "FixedEquipment": [], 
     "Description": {
-        "Cost": 6056640, 
+        "Cost": 6629240, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
-        "UIName": "Dragon", 
-        "Id": "chassisdef_dragon_DRG-1N", 
-        "Name": "Dragon", 
-        "Details": "The Dragon 1N is a beefy machine that can take a serious beating but tends to be a bit light on weaponry. It moves fast for a heavy 'Mech, though, which makes it well suited to closing for Melee attacks against slower targets.", 
-        "Icon": "uixTxrIcon_dragon"
+        "UIName": "Black Hawk-KU", 
+        "Id": "chassisdef_blackhawk-ku_BHKU-OC", 
+        "Name": "Black Hawk-KU", 
+        "Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart.", 
+        "Icon": "uixTxrIcon_blackhawkku"
     }, 
-    "VariantName": "DRG-1N", 
+    "VariantName": "BHKU-OC", 
     "StockRole": "Skirmisher & Brawler", 
     "YangsThoughts": "The Dragon 1N is a beefy machine that can take a serious beating but tends to be a bit light on weaponry. It moves fast for a heavy 'Mech, though, which makes it well suited to closing for Melee attacks against slower targets.", 
-    "PrefabIdentifier": "chrPrfMech_dragonBase-001", 
-    "PrefabBase": "dragon", 
+    "PrefabIdentifier": "chrprfmech_novabase-001", 
+    "PrefabBase": "nova", 
     "Tonnage": 60, 
     "InitialTonnage": 6, 
     "weightClass": "HEAVY", 
@@ -54,7 +42,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 90, 
+    "MeleeDamage": 45, 
     "MeleeInstability": 60, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 75, 
@@ -63,7 +51,7 @@
     "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "DragonFightingMode", 
+            "OmniDesign", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
@@ -71,7 +59,7 @@
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_heavymech", 
     "PathingCapDefID": "pathingdef_heavy", 
-    "HardpointDataDefID": "hardpointdatadef_dragon", 
+    "HardpointDataDefID": "hardpointdatadef_nova", 
     "LOSSourcePositions": [
         {
             "x": 0, 
@@ -135,8 +123,12 @@
                     "WeaponMount": "Energy"
                 }, 
                 {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
+                    "Omni": true, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": true, 
+                    "WeaponMount": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
@@ -147,16 +139,7 @@
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 140, 
@@ -165,16 +148,7 @@
         }, 
         {
             "Location": "CenterTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Missile"
-                }
-            ], 
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
             "MaxArmor": 200, 
@@ -195,10 +169,14 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
+                    "WeaponMount": "Energy"
                 }, 
                 {
-                    "Omni": false, 
+                    "Omni": true, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": true, 
                     "WeaponMount": "Ballistic"
                 }
             ], 

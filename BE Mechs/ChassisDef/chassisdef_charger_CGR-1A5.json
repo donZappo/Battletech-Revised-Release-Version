@@ -1,11 +1,6 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-        },
-    },
     "FixedEquipment": [
-      {
+        {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_engine_320", 
             "SimGameUID": "", 
@@ -18,7 +13,7 @@
         }
     ], 
     "Description": {
-        "Cost": 6000000, 
+        "Cost": 9546360, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -41,7 +36,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 2, 
+    "MaxJumpjets": 5, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 

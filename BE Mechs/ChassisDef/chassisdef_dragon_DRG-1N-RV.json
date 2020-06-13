@@ -1,10 +1,4 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
-        },
-    },
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso", 
@@ -19,7 +13,7 @@
         }
     ], 
     "Description": {
-        "Cost": 5600000, 
+        "Cost": 6056640, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -42,7 +36,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 150, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 2, 
+    "MaxJumpjets": 6, 
     "Stability": 160, 
     "StabilityDefenses": [
         0, 
@@ -69,7 +63,7 @@
     "DFAInstability": 75, 
     "ChassisTags": {
         "items": [
-            "DragonFightingMode", 
+            "Retrofitted", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""

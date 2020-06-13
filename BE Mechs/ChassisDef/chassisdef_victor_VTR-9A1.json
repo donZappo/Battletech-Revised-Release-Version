@@ -1,12 +1,7 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "RightLimit": "Upper"
-        },
-    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 6000000, 
+        "Cost": 9819810, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -56,6 +51,7 @@
     "DFAInstability": 100, 
     "ChassisTags": {
         "items": [
+            "AllOrNothing", 
             "unit_mechtool"
         ], 
         "tagSetSourceFile": ""
