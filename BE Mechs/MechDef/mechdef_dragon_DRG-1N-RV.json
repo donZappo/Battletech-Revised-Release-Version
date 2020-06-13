@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 1211328, 
         "Rarity": 3, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Dragon DRG-1N-RV", 
@@ -116,28 +116,6 @@
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_structureslots_standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -389,28 +367,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "emod_arm_part_hand", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "mech_quirk_dragon_fighting_mode", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Weapon_COIL_COIL-M_0-STOCK", 
             "SimGameUID": "", 
@@ -442,7 +398,40 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "mech_quirk_retrofitted", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 700000
+    "simGameMechPartCost": 1211328
 }

@@ -43,12 +43,12 @@
 		"DeploymentEscalationFactor" : 1.1,
 		"InfluenceDivisor" : 1.25,
 		"DeploymentRerollBound" : 0.33,
-		"DeploymentReward_01" : "itemCollection_loot_careerReward_1",
-		"DeploymentReward_02" : "itemCollection_loot_careerReward_2",
-		"DeploymentReward_03" : "itemCollection_loot_careerReward_3",
-		"DeploymentReward_04" : "itemCollection_loot_careerReward_4",
-		"DeploymentReward_05" : "itemCollection_loot_careerReward_5",
-		"DeploymentReward_06" : "itemCollection_loot_careerReward_6",
+		"DeploymentReward_01" : "itemCollection_BTR_GaWReward_1",
+		"DeploymentReward_02" : "itemCollection_BTR_GaWReward_2",
+		"DeploymentReward_03" : "itemCollection_BTR_GaWReward_3",
+		"DeploymentReward_04" : "itemCollection_BTR_GaWReward_4",
+		"DeploymentReward_05" : "itemCollection_BTR_GaWReward_5",
+		"DeploymentReward_06" : "itemCollection_BTR_GaWReward_6",
 		
 		//***Attacking Resources
 		"planet_industry_poor" : 5,

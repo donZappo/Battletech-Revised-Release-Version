@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 1945728, 
         "Rarity": 4, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Victor VTR-9B-RV", 
@@ -136,17 +136,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "LeftArm", 
             "ComponentDefID": "emod_arm_part_shoulder", 
             "SimGameUID": "", 
@@ -193,17 +182,6 @@
         {
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "emod_leg_upper", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -260,17 +238,6 @@
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "emod_leg_lower", 
             "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_lower", 
-            "SimGameUID": null, 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
@@ -508,7 +475,29 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 750000
+    "simGameMechPartCost": 1945728
 }
