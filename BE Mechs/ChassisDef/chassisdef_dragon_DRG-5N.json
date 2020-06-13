@@ -3,6 +3,7 @@
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
         },
+    },
     "FixedEquipment": [        
         {
             "MountedLocation": "CenterTorso", 
