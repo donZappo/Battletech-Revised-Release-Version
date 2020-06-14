@@ -1,4 +1,14 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso", 

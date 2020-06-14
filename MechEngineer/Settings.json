@@ -231,7 +231,7 @@
       "AutoFixChassisDefWeaponHardpointCountsDescription":"Changes chassis hardpoints based on configured prefabs.",
       "EnforceHardpointLimits":false,
       "EnforceHardpointLimitsDescription":"Enforces hardpoint limits in mechlab only allowing configured prefabs.",
-      "AllowDefaultLoadoutWeapons":false,
+      "AllowDefaultLoadoutWeapons":true,
       "AllowDefaultLoadoutWeaponsDescription":"Ignore limits that would prevent mounting default loadouts.",
       "FallbackPrefabsForComponentDefIds":[
          "Weapon_Mortar_MechMortar"
