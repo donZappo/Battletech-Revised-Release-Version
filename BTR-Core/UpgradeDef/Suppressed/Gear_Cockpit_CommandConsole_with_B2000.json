@@ -235,7 +235,9 @@
         "items" : [
             "component_type_stock",
 			"component_type_noupgrade",
-			"BLACKLISTED"
+			"BLACKLISTED",
+			"cockpit",
+			"standard_cockpit"
         ],
         "tagSetSourceFile" : ""
     }

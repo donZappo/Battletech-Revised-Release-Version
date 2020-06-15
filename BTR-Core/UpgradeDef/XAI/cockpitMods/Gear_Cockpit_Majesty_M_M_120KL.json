@@ -21,7 +21,7 @@
         "UIName" : "Rangefinder ++",
         "Id" : "Gear_Cockpit_Majesty_M_M_120KL",
         "Name" : "Majesty M M 120KL Rangefinder",
-        "Details" : "Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",
+        "Details" : "Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.\n\n<b>•Maximum 2 Injuries when ejecting: 50% chance each.",
         "Icon" : "uixSvgIcon_equipment_Rangefinder"
     },
     "BonusValueA" : "+ 120m View Dist.",
@@ -93,7 +93,9 @@
             "component_type_variant",
             "component_type_variant3",
 			"TechLevel_LowTech",
-			"BR_UpgradeTag_Cockpit"
+			"BR_UpgradeTag_Cockpit",
+			"cockpit",
+			"standard_cockpit"
         ],
         "tagSetSourceFile" : ""
     }
