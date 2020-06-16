@@ -108,6 +108,12 @@
 			"Full": "Toggle the button on the 'Mech weapons panel to activate this item"
 		},
 		{
+			"Bonus": "UseCharges",
+			"Short": "{0} Activations",
+			"Long": "{0} Activations",
+			"Full": "Can activate {0} times per battle"
+		},
+		{
 			"Bonus": "CockpitInjuries",
 			"Short": "{0} Possible Ejection Injuries",
 			"Long": "{0} Possible Ejection Injuries",

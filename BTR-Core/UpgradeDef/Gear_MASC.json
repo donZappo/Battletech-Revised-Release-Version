@@ -8,9 +8,10 @@
       "BonusDescriptions":{
          "Bonuses":[
             "WalkSpeed: +100%",
-            "HeatGenerated: +25%",
+            "HeatGenerated: +35%",
             "StructureMass: 7.5",
-            "ActivatableButton"
+            "ActivatableButton",
+			"UseCharges: 2"
          ]
       },
       "Weights":{
@@ -40,7 +41,7 @@
          "DeactivationMessage":"OFF",
          "ActivationIsBuff":"true",
          "NoUniqueCheck":false,
-         "ChargesCount":0,
+         "ChargesCount":2,
          "statusEffects":[
             {
                "durationData":{
@@ -68,7 +69,7 @@
                "Description":{
                   "Id":"StatusEffect-MASC-WalkSpeedDouble",
                   "Name":"MASC SPEED INCREASE",
-                  "Details":"Walk speed doubled, weapons generate 25% more heat.",
+                  "Details":"Walk speed doubled, weapons generate 35% more heat.",
                   "Icon":"uixSvgIcon_equipment_Gyro"
                },
                "nature":"Buff",
@@ -119,7 +120,7 @@
                "Description":{
                   "Id":"StatusEffect-MASC-IncreasedHeat",
                   "Name":"MASC INCREASE HEAT",
-                  "Details":"Heat generation increased by 25%.",
+                  "Details":"Heat generation increased by 35%.",
                   "Icon":"uixSvgIcon_equipment_Gyro"
                },
                "nature":"Buff",
@@ -128,7 +129,7 @@
                   "effectsPersistAfterDestruction":false,
                   "statName":"HeatGenerated",
                   "operation":"Float_Multiply",
-                  "modValue":"1.25",
+                  "modValue":"1.35",
                   "modType":"System.Single",
                   "additionalRules":"NotSet",
                   "targetCollection":"Weapon",
@@ -156,7 +157,7 @@
       "UIName":"M.A.S.C.",
       "Id":"Gear_MASC",
       "Name":"M.A.S.C.",
-      "Details":"Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to walk at 100% increased speed. This improved mobility provides greater tactical flexibility by allowing the 'Mech to cover large distances while still using its weapons. The 'Mech will generate 25% additional heat while MASC is active. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b>",
+      "Details":"Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to walk at 100% increased speed. This improved mobility provides greater tactical flexibility by allowing the 'Mech to cover large distances while still using its weapons. This MASC is limited to 2 uses due to the extreme stress on the actuators in the legs; further usage may render your mech immobile. The 'Mech will generate 35% additional heat while MASC is active. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b>",
       "Icon":"uixSvgIcon_equipment_HeatBank"
    },
    "BonusValueA":"+50% Move Speed",
