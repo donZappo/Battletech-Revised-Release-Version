@@ -1,10 +1,11 @@
 {
    "Custom":{
       "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
+         {"CategoryID":"ActuatorUpgrades"},
+		 {"CategoryID":"HandActuator"},
+		 {"CategoryID":"LowerArmActuator"}
       ],
+		"Tag": "MeleeActuator",
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -18,17 +19,17 @@
         "UIName" : "Minor Arm Mod +",
         "Id" : "Gear_Actuator_Coventry_S15",
         "Name" : "Coventry S15 Arm Mod",
-          "Details" : "Coventry makes arm actuators for every industry in the IS, ranging from construction equipment to specialized Solaris close combat actuators.  Coventry takes a 'heavy handed'  approach to arm actuators and believes the bigger the better. By increasing the size of servo actuators, motors, and pneumatics you can achieve the most damage. The B20 <color=#6aa84f>increases melee target damage.</color>",
+          "Details" : "Ultra-Light arm mods specialize in using various foams, compressed gasses and plastics to deliver extra performance for effectively zero weight in real terms. Gains are relatively minor compared to proper suites and upgrades that use more robust materials, but when weight is a premium and space is not, you can do no better.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 15 Melee Dmg",
+    "BonusValueA" : "+ 10 Melee Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 0.25,
+    "InventorySize" : 6,
+    "Tonnage" : 0,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -68,7 +69,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "20.0",
+                "modValue" : "6.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -90,7 +91,8 @@
             "component_type_variant",
             "component_type_variant1",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

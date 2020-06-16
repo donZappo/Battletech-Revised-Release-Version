@@ -1,0 +1,76 @@
+{
+    "Custom": {
+        "ArmActuator" : {
+            "Type" : "PartLower"
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "StabDamageReduced: 5"
+            ]
+        },
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"},
+			{"CategoryID" : "LowerArmActuator"}
+		],
+        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
+    },
+    "Description" : {
+        "Cost" : 40000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Lower Arm (S. Foam)",
+        "Id" : "emod_arm_part_lower_shockfoam",
+        "Name" : "Lower Arm (S. Foam)",
+        "Details" : "Pad your internals with this handy and almost weightless foam. Though ineffective at resisting weapons fire, the foam offers shock absorbing properities that might make the difference in a life or death melee struggle.",
+        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "BonusValueA" : "5% Less Stb.Dmg.",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 0,
+    "AllowedLocations" : "Arms",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ArmLowerActuator-ShockFoam",
+                "Name" : "Shock Foam",
+                "Details" : "Incoming stability damage reduced by 5%.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "statName" : "ReceivedInstabilityMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.95",
+                "modType" : "System.Single"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "noautofix",
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_LowerArm"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

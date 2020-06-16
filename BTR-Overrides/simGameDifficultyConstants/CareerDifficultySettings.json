@@ -340,7 +340,7 @@
                   {
                      "ConstantType":"CareerMode",
                      "ConstantName":"StartingPlayerMech",
-                     "ConstantValue":"mechdef_commando_COM-2D"
+                     "ConstantValue":"mechdef_commando_COM-1C"
                   }
                ]
             },

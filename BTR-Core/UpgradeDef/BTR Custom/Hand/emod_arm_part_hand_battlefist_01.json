@@ -1,34 +1,41 @@
 {
-   "Custom":{
-      "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
-      ],
+	"Custom": {
+		"ArmActuator" : {
+			"Type" : "PartHand"
+		},
+		"Tag": "ArmOrHand",
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeAccuracyBonus: 1",
+                "Melee2: 8"
+            ]
+        },
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"},
+			{"CategoryID" : "HandActuator"}
+		],
+        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
 	},
-    "StatName" : null,
-    "RelativeModifier" : 0,
-    "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 480000,
-        "Rarity" : 99,
-        "Purchasable" : false,
-        "Manufacturer" : "Coventry",
-        "Model" : "Alpha",
-        "UIName" : "Arm Mod + + +",
-        "Id" : "Gear_Actuator_Coventry_Alpha",
-        "Name" : "Coventry Alpha Arm Mod",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance.",
+        "Cost" : 150000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Hand (B. Fist)",
+        "Id" : "emod_arm_part_hand_battlefist_01",
+        "Name" : "Hand (B. Fist)",
+        "Details" : "Tear the arms off of your enemies with this somewhat standardized Battlefist. It offers a strong melee focus for those who know future missions will be personal.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 60 Melee Dmg.",
-    "BonusValueB" : "",
+    "BonusValueA" : "+ 1 Melee Acc.",
+    "BonusValueB" : "+ 8 Melee Damage",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 5,
-    "Tonnage" : 1,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -68,7 +75,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "60.0",
+                "modValue" : "8.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -83,12 +90,42 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ArmHandActuator",
+                "Name" : "Hand Actuator",
+                "Details" : "Melee attacks attempted have their hit improved by 1.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponSubType" : "Melee"
+            },
+            "nature" : "Buff"
         }
     ],
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-			"BLACKLISTED"
+			"component_type_variant2",
+            "noautofix",
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_Hand",
+			"ArmOrHand"
         ],
         "tagSetSourceFile" : ""
     }

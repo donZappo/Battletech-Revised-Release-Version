@@ -1,10 +1,11 @@
 {
    "Custom":{
       "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
+         {"CategoryID":"ActuatorUpgrades"},
+		 {"CategoryID":"HandActuator"},
+		 {"CategoryID":"LowerArmActuator"}
       ],
+		"Tag": "MeleeActuator",
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -18,11 +19,11 @@
         "UIName" : "Hybrid Arm",
         "Id" : "Gear_Actuator_Coventry_X55-Standard",
         "Name" : "Coventry X55 Standard Arm Mod",
-          "Details" : "Coventry makes arm actuators for every industry in the IS, ranging from construction equipment to specialized Solaris close combat actuators.  Coventry takes a 'heavy handed' approach to arm actuators and believes the bigger the better. By increasing the size of servo actuators, motors, and pneumatics you can achieve the most damage. The X55 <color=#6aa84f>increases melee target and instability damage.</color>",
+          "Details" : "Become like the kung-fu fighters of old with these arm modifications. They improve your dexterity so you can hit those vital points and bring your enemies to their knees.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+35 Melee Dmg",
-    "BonusValueB" : "+20 Tgt. Inst",
+    "BonusValueA" : "+1 Melee Acc.",
+    "BonusValueB" : "+4 Tgt. Inst",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -35,54 +36,29 @@
     "statusEffects" : [
         {
             "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
                 "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_DamageMelee-T1",
-                "Name" : "MELEE DAMAGE INCREASED",
-                "Details" : "Melee attacks deal [AMT] more damage.",
+                "Id" : "StatusEffect-ArmHandActuator",
+                "Name" : "Hand Actuator",
+                "Details" : "Melee attacks attempted have their hit improved by 1.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
-            "nature" : "Buff",
             "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "DamagePerShot",
+                "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "35.0",
+                "modValue" : "-1.0",
                 "modType" : "System.Single",
-                "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "Melee"
             },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
+            "nature" : "Buff"
         },
 		{
             "durationData" : {
@@ -119,7 +95,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "Instability",
                 "operation" : "Float_Add",
-                "modValue" : "20.0",
+                "modValue" : "4.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -140,7 +116,8 @@
         "items" : [
             "component_type_stock",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

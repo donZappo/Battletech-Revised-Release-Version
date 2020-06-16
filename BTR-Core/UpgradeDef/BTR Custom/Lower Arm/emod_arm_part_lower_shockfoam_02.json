@@ -5,32 +5,35 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "ArmAccuracyBonus: 1"
+                "StabDamageReduced: 10"
             ]
         },
-        "Category" : { "CategoryID" : "ArmLowerActuator" },
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"},
+			{"CategoryID" : "LowerArmActuator"}
+		],
         "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
     },
     "Description" : {
-        "Cost" : 20000,
-        "Rarity" : 0,
+        "Cost" : 200000,
+        "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Standard",
-        "UIName" : "Lower Arm",
-        "Id" : "emod_arm_part_lower",
-        "Name" : "Lower Arm Actuator",
-        "Details" : "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units.",
+        "UIName" : "Lower Arm (S. Foam +)",
+        "Id" : "emod_arm_part_lower_shockfoam_02",
+        "Name" : "Lower Arm (S. Foam +)",
+        "Details" : "Fill your internals with this handy and almost weightless foam. Though ineffective at resisting weapons fire, the foam offers shock absorbing properities that might make the difference in a life or death melee struggle.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "10% Less Stab.Dmg.",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 0.1,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -47,15 +50,15 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-ArmLowerActuator-{location}",
-                "Name" : "{side} Arm",
-                "Details" : "An arm actuator.",
+                "Id" : "StatusEffect-ArmLowerActuator-ShockFoam",
+                "Name" : "Shock Foam",
+                "Details" : "Receives 10% less stability damage.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
             "statisticData" : {
-                "statName" : "{location}.Accuracy",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
+                "statName" : "ReceivedInstabilityMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.90",
                 "modType" : "System.Single"
             },
             "nature" : "Buff"
@@ -63,9 +66,10 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
+            "component_type_variant",
             "noautofix",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_LowerArm"
         ],
         "tagSetSourceFile" : ""
     }

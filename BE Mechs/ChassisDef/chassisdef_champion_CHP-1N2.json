@@ -61,7 +61,7 @@
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
     "MeleeDamage": 55, 
-    "MeleeInstability": 60, 
+    "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 60, 
     "DFAToHitModifier": 0, 

@@ -2,8 +2,9 @@
    "ID" : "shopdef_Upgrades_1",
    "RequirementTags" : {
       "items" : [
-		 "planet_industry_manufacturing",
-		 "planet_industry_rich"
+		"planet_other_battlefield",
+		"planet_industry_manufacturing",
+		"planet_industry_rich"
       ],
       "tagSetSourceFile" : ""
    },
@@ -15,6 +16,20 @@
    },
    "Inventory" : [],
    "Specials" : [
+      {
+         "ID" : "emod_arm_part_hand_battlefist_01",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },      
+	  {
+         "ID" : "emod_arm_part_hand_battlefist_02",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
       {
          "ID" : "Gear_TargetingTrackingSystem_LMT_VTAS-15",
          "Type" : "Upgrade",

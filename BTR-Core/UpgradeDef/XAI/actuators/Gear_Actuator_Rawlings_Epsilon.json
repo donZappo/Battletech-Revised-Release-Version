@@ -1,10 +1,11 @@
 {
    "Custom":{
       "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
+         {"CategoryID":"ActuatorUpgrades"},
+		 {"CategoryID":"HandActuator"},
+		 {"CategoryID":"LowerArmActuator"}
       ],
+		"Tag": "MeleeActuator",
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -18,7 +19,7 @@
         "UIName" : "Leg Dmg Mod",
         "Id" : "Gear_Actuator_Rawlings_Epsilon",
         "Name" : "Rawlings Epsilon Leg Mod",
-        "Details" : "Rawlings is no stranger to mech modifications and has come up with an ingenious way to increase your mechs DFA damage potential.  By using diamond infused polymers that when cured form a very dense microscopic lattice. When applied to the legs external structure this increases the mechs damage potential from DFA. The Epsilon <color=#6aa84f>increases DFA damage.</color>",
+        "Details" : "This series of leg reinforcements make that desperation DFA attack less about desperation and more of a devastating opening maneuver.",
         "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
     },
     "BonusValueA" : "+ 20 DFA Dmg",
@@ -89,7 +90,8 @@
         "items" : [
             "component_type_stock",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

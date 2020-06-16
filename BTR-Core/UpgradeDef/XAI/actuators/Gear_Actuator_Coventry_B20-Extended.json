@@ -1,10 +1,11 @@
 {
    "Custom":{
       "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
+         {"CategoryID":"ActuatorUpgrades"},
+		 {"CategoryID":"HandActuator"},
+		 {"CategoryID":"LowerArmActuator"}
       ],
+		"Tag": "MeleeActuator",
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -18,16 +19,16 @@
         "UIName" : "Arm Mod",
         "Id" : "Gear_Actuator_Coventry_B20-Extended",
         "Name" : "Coventry B20 Extended Arm Mod",
-          "Details" : "Coventry makes arm actuators for every industry in the IS, ranging from construction equipment to specialized Solaris close combat actuators.  Coventry takes a 'heavy handed'  approach to arm actuators and believes the bigger the better. By increasing the size of servo actuators, motors, and pneumatics you can achieve the most damage. The B20 <color=#6aa84f>increases melee target damage.</color>",
+          "Details" : "Sometimes what you want is raw power. This heavy, bulky suite of arm improvements and structural upgrades will deliver exactly that.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 20 Melee Dmg",
+    "BonusValueA" : "+ 10 Melee Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
+    "InventorySize" : 2,
     "Tonnage" : 0.5,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
@@ -68,7 +69,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "20.0",
+                "modValue" : "10.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -89,7 +90,8 @@
         "items" : [
             "component_type_stock",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

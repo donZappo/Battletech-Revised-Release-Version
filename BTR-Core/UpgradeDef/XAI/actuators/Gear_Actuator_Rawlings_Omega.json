@@ -1,10 +1,11 @@
 {
    "Custom":{
       "Category":[
-         {
-            "CategoryID":"ActuatorUpgrades"
-         }
+         {"CategoryID":"ActuatorUpgrades"},
+		 {"CategoryID":"HandActuator"},
+		 {"CategoryID":"LowerArmActuator"}
       ],
+		"Tag": "MeleeActuator",
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -18,17 +19,17 @@
         "UIName" : "Leg Dmg Mod ++",
         "Id" : "Gear_Actuator_Rawlings_Omega",
         "Name" : "Rawlings Omega Leg Mod",
-        "Details" : "Rawlings is no stranger to mech modifications and has come up with an ingenious way to increase your mechs DFA damage potential.  By using diamond infused polymers that when cured form a very dense microscopic lattice. When applied to the legs external structure this increases the mechs damage potential from DFA. The Omega <color=#6aa84f>increases DFA damage.</color>",
+        "Details" : "This series of leg reinforcements make that desperation DFA attack less about desperation and more of a devastating opening maneuver.",
         "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
     },
-    "BonusValueA" : "+ 40 DFA Dmg",
+    "BonusValueA" : "+ 80 DFA Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 0.75,
+    "InventorySize" : 4,
+    "Tonnage" : 1,
     "AllowedLocations" : "Legs",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -68,7 +69,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "40.0",
+                "modValue" : "80.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -90,7 +91,8 @@
             "component_type_variant",
             "component_type_variant2",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }
