@@ -12,14 +12,14 @@
         "LogLevel": "Debug",
 		
         "RecoveryType": "PartDestroyed",
-        "PartCountType": "PartDestroyedIgnoreCT",
+        "PartCountType": "PartDestroyed",
         "SalvageArmWeight": 0.5,
         "SalvageLegWeight": 0.5,
-        "SalvageTorsoWeight": 1.25,
-        "SalvageHeadWeight": 0.5,
-        "SalvageCTWeight": 3.0,
-		
+        "SalvageTorsoWeight": 1.5,
+        "SalvageHeadWeight": 1.5,
         "CenterTorsoDestroyedParts": 1,
+		
+        "SalvageCTWeight": 3.0,
 		
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,

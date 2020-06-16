@@ -1,125 +1,132 @@
 {
    "Custom":{
       "Category":[
-         {"CategoryID":"ActuatorUpgrades"},
-		 {"CategoryID":"HandActuator"},
-		 {"CategoryID":"LowerArmActuator"}
+         {
+            "CategoryID":"ActuatorUpgrades"
+         },
+         {
+            "CategoryID":"HandActuator"
+         },
+         {
+            "CategoryID":"LowerArmActuator"
+         }
       ],
-		"Tag": "MeleeActuator",
-	},
-    "StatName" : null,
-    "RelativeModifier" : 0,
-    "AbsoluteModifier" : 0,
-    "Description" : {
-        "Cost" : 150000,
-        "Rarity" : 4,
-        "Purchasable" : true,
-        "Manufacturer" : "Coventry",
-        "Model" : "X65 Standard",
-        "UIName" : "Hybrid Arm +",
-        "Id" : "Gear_Actuator_Coventry_X65-Standard",
-        "Name" : "Coventry X65 Standard Arm Mod",
-          "Details" : "Become like the kung-fu fighters of old with these arm modifications. They improve your dexterity so you can hit those vital points and bring your enemies to their knees.",
-        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
-    },
-    "BonusValueA" : "+2 Melee Acc.",
-    "BonusValueB" : "+8 Tgt Inst",
-    "ComponentType" : "Upgrade",
-    "ComponentSubType" : "NotSet",
-    "PrefabIdentifier" : "",
-    "BattleValue" : 0,
-    "InventorySize" : 4,
-    "Tonnage" : 2,
-    "AllowedLocations" : "Arms",
-    "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
-    "statusEffects" : [
-        {
-            "durationData" : {
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "effectTargetType" : "Creator",
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-ArmHandActuator",
-                "Name" : "Hand Actuator",
-                "Details" : "Melee attacks attempted have their hit improved by 2.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
-            },
-            "statisticData" : {
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-2.0",
-                "modType" : "System.Single",
-                "targetCollection" : "Weapon",
-                "targetWeaponSubType" : "Melee"
-            },
-            "nature" : "Buff"
-        },
-		{
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Attack_DamageMelee-T2",
-                "Name" : "MELEE STABILITY DAMAGE INCREASED",
-                "Details" : "Melee attacks deal [AMT] more stability damage.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "Instability",
-                "operation" : "Float_Add",
-                "modValue" : "8,
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "Melee"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        }
-    ],
-    "ComponentTags" : {
-        "items" : [
-            "component_type_variant",
-            "component_type_variant1",
-			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech",
-			"MeleeActuator"
-        ],
-        "tagSetSourceFile" : ""
-    }
+      "Tag":"MeleeActuator"
+   },
+   "StatName":null,
+   "RelativeModifier":0,
+   "AbsoluteModifier":0,
+   "Description":{
+      "Cost":150000,
+      "Rarity":4,
+      "Purchasable":true,
+      "Manufacturer":"Coventry",
+      "Model":"X65 Standard",
+      "UIName":"Hybrid Arm +",
+      "Id":"Gear_Actuator_Coventry_X65-Standard",
+      "Name":"Coventry X65 Standard Arm Mod",
+      "Details":"Become like the kung-fu fighters of old with these arm modifications. They improve your dexterity so you can hit those vital points and bring your enemies to their knees.",
+      "Icon":"uixSvgIcon_equipment_ActuatorArm"
+   },
+   "BonusValueA":"+2 Melee Acc.",
+   "BonusValueB":"+8 Tgt Inst",
+   "ComponentType":"Upgrade",
+   "ComponentSubType":"NotSet",
+   "PrefabIdentifier":"",
+   "BattleValue":0,
+   "InventorySize":4,
+   "Tonnage":2,
+   "AllowedLocations":"Arms",
+   "DisallowedLocations":"All",
+   "CriticalComponent":false,
+   "statusEffects":[
+      {
+         "durationData":{
+
+         },
+         "targetingData":{
+            "effectTriggerType":"Passive",
+            "effectTargetType":"Creator",
+            "showInTargetPreview":false,
+            "showInStatusPanel":true
+         },
+         "effectType":"StatisticEffect",
+         "Description":{
+            "Id":"StatusEffect-ArmHandActuator",
+            "Name":"Hand Actuator",
+            "Details":"Melee attacks attempted have their hit improved by 2.",
+            "Icon":"uixSvgIcon_equipment_ActuatorArm"
+         },
+         "statisticData":{
+            "statName":"AccuracyModifier",
+            "operation":"Float_Add",
+            "modValue":"-2.0",
+            "modType":"System.Single",
+            "targetCollection":"Weapon",
+            "targetWeaponSubType":"Melee"
+         },
+         "nature":"Buff"
+      },
+      {
+         "durationData":{
+            "duration":-1,
+            "ticksOnActivations":false,
+            "useActivationsOfTarget":false,
+            "ticksOnEndOfRound":false,
+            "ticksOnMovements":false,
+            "stackLimit":-1,
+            "clearedWhenAttacked":false
+         },
+         "targetingData":{
+            "effectTriggerType":"Passive",
+            "triggerLimit":0,
+            "extendDurationOnTrigger":0,
+            "specialRules":"NotSet",
+            "effectTargetType":"Creator",
+            "range":0,
+            "forcePathRebuild":false,
+            "forceVisRebuild":false,
+            "showInTargetPreview":false,
+            "showInStatusPanel":true
+         },
+         "effectType":"StatisticEffect",
+         "Description":{
+            "Id":"StatusEffect-Attack_DamageMelee-T2",
+            "Name":"MELEE STABILITY DAMAGE INCREASED",
+            "Details":"Melee attacks deal [AMT] more stability damage.",
+            "Icon":"uixSvgIcon_equipment_ActuatorArm"
+         },
+         "nature":"Buff",
+         "statisticData":{
+            "appliesEachTick":false,
+            "effectsPersistAfterDestruction":false,
+            "statName":"Instability",
+            "operation":"Float_Add",
+            "modValue":"8.0",
+            "modType":"System.Single",
+            "additionalRules":"NotSet",
+            "targetCollection":"Weapon",
+            "targetWeaponCategory":"NotSet",
+            "targetWeaponType":"NotSet",
+            "targetAmmoCategory":"NotSet",
+            "targetWeaponSubType":"Melee"
+         },
+         "tagData":null,
+         "floatieData":null,
+         "actorBurningData":null,
+         "vfxData":null,
+         "instantModData":null,
+         "poorlyMaintainedEffectData":null
+      }
+   ],
+   "ComponentTags":{
+      "items":[
+         "component_type_variant",
+         "component_type_variant1",
+         "BR_UpgradeTag_actuator",
+         "TechLevel_LowTech",
+         "MeleeActuator"
+      ],
+      "tagSetSourceFile":""
+   }
 }
