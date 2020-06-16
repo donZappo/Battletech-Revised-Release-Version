@@ -5,8 +5,7 @@
         },
 		"Tag": "ArmOrHand",
         "Category" : [
-			{"CategoryID" : "ArmHandActuator"},
-			{"CategoryID" : "LowerArmActuator"}
+			{"CategoryID" : "ArmHandActuator"}
 		],
         "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
     },

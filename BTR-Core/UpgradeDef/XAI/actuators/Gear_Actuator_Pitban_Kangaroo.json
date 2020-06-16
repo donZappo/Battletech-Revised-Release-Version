@@ -3,12 +3,6 @@
       "Category":[
          {
             "CategoryID":"ActuatorUpgrades"
-         },
-         {
-            "CategoryID":"HandActuator"
-         },
-         {
-            "CategoryID":"LowerArmActuator"
          }
       ],
       "Tag":"MeleeActuator"

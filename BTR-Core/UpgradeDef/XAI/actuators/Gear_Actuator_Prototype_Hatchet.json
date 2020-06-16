@@ -1,9 +1,7 @@
 {
    "Custom":{
       "Category":[
-         {"CategoryID":"ActuatorUpgrades"},
-		 {"CategoryID":"HandActuator"},
-		 {"CategoryID":"LowerArmActuator"}
+         {"CategoryID":"ActuatorUpgrades"}
       ],
 	},
     "StatName" : null,

@@ -10,8 +10,7 @@
             ]
         },
         "Category" : [
-			{"CategoryID" : "ArmHandActuator"},
-			{"CategoryID" : "HandActuator"}
+			{"CategoryID" : "ArmHandActuator"}
 		],
         "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
 	},
