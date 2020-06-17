@@ -27,7 +27,7 @@
    "AbsoluteModifier":0,
    "Description":{
       "Cost":8000000,
-      "Rarity": 2,
+      "Rarity":2,
       "Purchasable":true,
       "Manufacturer":"Ceres Arms",
       "Model":"Gen 2 Probe",
@@ -50,41 +50,29 @@
    "CriticalComponent":false,
    "statusEffects":[
       {
-         "durationData":{
-            "duration":-1,
-            "stackLimit":1
-         },
          "targetingData":{
-            "effectTriggerType":"Passive",
-            "specialRules":"NotSet",
-            "effectTargetType":"Creator",
-            "range":0.0,
-            "forcePathRebuild":false,
-            "forceVisRebuild":true,
-            "showInTargetPreview":true,
-            "showInStatusPanel":true
+            "effectTriggerType":"OnActivation",
+            "effectTargetType":"EnemiesWithinRange",
+            "alsoTargetsCreator":true,
+            "forceVisRebuild":true
          },
-         "effectType":"StatisticEffect",
+         "effectType":"ActiveAbility",
          "Description":{
-            "Id":"ECMStealth_GhostEffect",
-            "Name":"ECM CARRIER",
-            "Details":"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
-            "Icon":"uixSvgIcon_status_ECM-ghost"
+            "Id":"ActiveProbe_Ping",
+            "Name":"ACTIVE PROBE PING",
+            "Details":"Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+            "Icon":"uixSvgIcon_action_sensorlock"
          },
-         "statisticData":{
-            "statName":"GhostEffectStacks",
-            "operation":"Int_Add",
-            "modValue":"1",
-            "modType":"System.Int32"
-         },
-         "nature":"Buff"
+         "activeAbilityEffectData":{
+            "abilityName":"AbilityDef_ActiveProbe_Ping"
+         }
       }
    ],
    "ComponentTags":{
       "items":[
-	  		"component_type_stock",
-			"component_type_noupgrade",
-			"TechLevel_LowTech"
+         "component_type_stock",
+         "component_type_noupgrade",
+         "TechLevel_LowTech"
       ],
       "tagSetSourceFile":""
    }
