@@ -13,13 +13,18 @@
 		
         "RecoveryType": "PartDestroyed",
         "PartCountType": "PartDestroyed",
-        "SalvageArmWeight": 0.5,
-        "SalvageLegWeight": 0.5,
+        "SalvageArmWeight": 1,
+        "SalvageLegWeight": 1,
         "SalvageTorsoWeight": 1.5,
         "SalvageHeadWeight": 1.5,
         "CenterTorsoDestroyedParts": 1,
 		
         "SalvageCTWeight": 3.0,
+		
+		"capSalvage": true,
+		"maxSalvage": 5,
+		"engineCountsAsCT": true,
+		"engineAsCTChance": 0.5,
 		
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,
