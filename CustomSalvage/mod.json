@@ -72,8 +72,6 @@
         "MaxVariantsInDescription": 5,
 		"UseReadyDelay": true,
 		"AssembledTimeBonusFactor": 0.5,
-		"MaxRecoveryChance": 0.9,
-        "AllowScrapToParts": true,
 		
 		
         "UpgradeSalvage": true,
@@ -96,6 +94,8 @@
 		
 		
 		
+        "AllowScrapToParts": false,
+		"MaxRecoveryChance": 0.9,
         "UnEquipedMech": false,
         "BrokenMech": true,
         "HeadRepaired": true,
