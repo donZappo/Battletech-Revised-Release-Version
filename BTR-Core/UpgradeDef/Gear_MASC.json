@@ -45,10 +45,10 @@
          "statusEffects":[
             {
                "durationData":{
-                  "duration":-1,
+                  "duration":1,
                   "ticksOnActivations":false,
                   "useActivationsOfTarget":false,
-                  "ticksOnEndOfRound":false,
+                  "ticksOnEndOfRound":true,
                   "ticksOnMovements":false,
                   "stackLimit":-1,
                   "clearedWhenAttacked":false
