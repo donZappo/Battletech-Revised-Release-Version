@@ -24,7 +24,7 @@
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.4
       }
     },
     {
@@ -53,7 +53,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 0.25
+        "floatVal": 0.75
       }
     },
     {
@@ -72,7 +72,7 @@
       "k": "Float_PreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {
