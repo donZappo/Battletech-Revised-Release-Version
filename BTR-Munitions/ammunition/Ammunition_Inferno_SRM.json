@@ -21,9 +21,9 @@
    "ArmorDamageModifier" : 1,
    "ISDamageModifier" : 1,
    "CriticalDamageModifier" : 1,
-   "FireTerrainChance":0,
-   "FireDurationWithoutForest":0,
-   "FireTerrainStrength":0,
+   "FireTerrainChance":1,
+   "FireDurationWithoutForest":1,
+   "FireTerrainStrength":4,
    "FireOnSuccessHit" : false,
    "statusEffects" : [
         {
