@@ -2,10 +2,9 @@
    "VehicleTags": {
       "items": [
       "unit_vehicle",
-      "unit_medium",
-      "unit_wheels",
-      "unit_range_long",
-      "unit_indirectFire",      
+      "unit_assault",
+      "unit_tracks",
+      "unit_range_medium",
       "unit_armor_low",
       "unit_release",
          

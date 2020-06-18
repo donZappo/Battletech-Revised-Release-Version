@@ -2,10 +2,12 @@
    "VehicleTags": {
       "items": [
       "unit_vehicle",
-      "unit_medium",
+      "unit_vehicle_mobileHQ",
+      "unit_vehicle_mashTruck",
+      "unit_light",
       "unit_wheels",
-      "unit_range_long",
-      "unit_indirectFire",      
+      "unit_noncombatant",
+      "unit_range_short",
       "unit_armor_low",
       "unit_release",
          

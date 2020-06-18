@@ -2,12 +2,13 @@
    "VehicleTags": {
       "items": [
       "unit_vehicle",
-      "unit_medium",
-      "unit_wheels",
-      "unit_range_long",
-      "unit_indirectFire",      
-      "unit_armor_low",
+      "unit_light",
+      "unit_tracks",
+      "unit_electronicWarfare",
+      "unit_range_short",
+      "unit_speed_high",
       "unit_release",
+      "unit_notConvoy",
          
     /* Major House Factions and Elite Merc Units Tag-Sets */
     
