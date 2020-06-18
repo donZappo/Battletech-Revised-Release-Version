@@ -11,6 +11,7 @@
     {
       "Type": "SVGAsset",
       "Path": "icons",
+	  "AddToDB": true,
       "ShouldMergeJSON": false
     }
   ],
