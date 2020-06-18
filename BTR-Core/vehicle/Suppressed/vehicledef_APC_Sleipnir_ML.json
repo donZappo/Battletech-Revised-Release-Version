@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_APC_Sleipnir_ML",
+    "Name": "Sleipnir APC ML",
+    "Details": "",
+    "Icon": "",
+    "Cost": 564,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_APC_Sleipnir_ML",
+  "VehicleTags": {
+        "items" : [
+			"BLACKLISTED"
+        ],
+      "tagSetSourceFile": ""
+   },
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 120,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 120,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Turret",
+      "CurrentArmor": 110,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 110,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "MinAppearanceDate": "3010-01-01T00:00:00Z"
+}
