@@ -18,6 +18,12 @@
    "Inventory" : [],
    "Specials" : [
       {
+         "ID" : "emod_arm_part_hand_finesse",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
          "ID" : "emod_arm_part_hand",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
@@ -107,8 +113,7 @@
          "DiscountModifier" : 1.0,
          "Count" : 0
       }
-]
-
+	]
 }
 
 

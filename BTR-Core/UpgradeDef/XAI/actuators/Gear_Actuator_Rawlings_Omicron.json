@@ -1,4 +1,10 @@
 {
+   "Custom":{
+      "Category":[
+         {"CategoryID":"ActuatorUpgrades"}
+      ],
+		"Tag": "MeleeActuator",
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,16 +17,16 @@
         "UIName" : "Leg Dmg Mod +",
         "Id" : "Gear_Actuator_Rawlings_Omicron",
         "Name" : "Rawlings Omicron Leg Mod",
-        "Details" : "Rawlings is no stranger to mech modifications and has come up with an ingenious way to increase your mechs DFA damage potential.  By using diamond infused polymers that when cured form a very dense microscopic lattice. When applied to the legs external structure this increases the mechs damage potential from DFA. The Omicron <color=#6aa84f>increases DFA damage.</color>",
+        "Details" : "This series of leg reinforcements make that desperation DFA attack less about desperation and more of a devastating opening maneuver.",
         "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
     },
-    "BonusValueA" : "+ 30 DFA Dmg",
+    "BonusValueA" : "+ 40 DFA Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
+    "InventorySize" : 2,
     "Tonnage" : 0.5,
     "AllowedLocations" : "Legs",
     "DisallowedLocations" : "All",
@@ -61,7 +67,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "30.0",
+                "modValue" : "40.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -83,7 +89,8 @@
             "component_type_variant",
             "component_type_variant1",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

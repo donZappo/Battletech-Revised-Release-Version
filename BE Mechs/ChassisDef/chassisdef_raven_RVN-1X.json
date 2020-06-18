@@ -1,4 +1,10 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso", 
@@ -54,8 +60,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 35, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 45, 
     "DFAToHitModifier": 0, 

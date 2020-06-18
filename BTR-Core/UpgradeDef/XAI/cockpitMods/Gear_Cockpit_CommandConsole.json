@@ -21,7 +21,7 @@
         "UIName" : "Cmd. Console",
         "Id" : "Gear_Cockpit_CommandConsole",
         "Name" : "Doering Electronics Command Console",
-        "Details" : "Command Consoles are components that can only be mounted on Heavy or Assault Class 'Mechs. The Console adds a complete set of controls for a second MechWarrior with added command and control facilities, allowing for better Lance coordination by upgrading initiative.\n\nStar League-vintage Command Consoles are very rare by 3025 because 'Mechs equipped in this way were favoured targets in battle. Most still existing have been relegated to training duties.",
+        "Details" : "Command Consoles are components that can only be mounted on Heavy or Assault Class 'Mechs. The Console adds a complete set of controls for a second MechWarrior with added command and control facilities, allowing for better Lance coordination by upgrading initiative.\n\nStar League-vintage Command Consoles are very rare by 3025 because 'Mechs equipped in this way were favoured targets in battle. Most still existing have been relegated to training duties.\n\n<b>•Maximum 2 Injuries when ejecting: 50% chance each.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+1 Init,+1 Morale",
@@ -244,7 +244,9 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"component_type_noupgrade"
+			"component_type_noupgrade",
+			"cockpit",
+			"standard_cockpit"
         ],
         "tagSetSourceFile" : ""
     }

@@ -13,9 +13,7 @@
 			"Bonuses": [
 				"StructureWeightReduction: 2 Tons"
 			]
-		},
-    
-    
+		}
 	},
     "Description" : {
         "Cost" : 0,
@@ -26,7 +24,7 @@
         "UIName" : "Cramped Cockpit",
         "Id" : "Gear_Cockpit_Cramped_Standard",
         "Name" : "Cramped Cockpit",
-        "Details" : "The Cramped Cockpit weighs two tons less than the standard version, but it can not be removed or modified.",
+        "Details" : "The Cramped Cockpit weighs two tons less than the standard version, but it can not be removed or modified.\n\n<b>•Maximum 3 Injuries when ejecting: 50% chance.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "",
@@ -46,7 +44,9 @@
       "component_stock",
       "component_noupgrade",
 	  "BUILT-IN",
-      "noautofix"
+      "noautofix",
+			"cockpit",
+			"dangerous_cockpit"
     ],
     "tagSetSourceFile": ""
   }

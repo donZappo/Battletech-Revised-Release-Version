@@ -1,7 +1,7 @@
 {
 	"Name": "FullRandomCareerStart",
 	"DLL": "RandomCareerStart.dll",
-	"Version": "2.1",
+	"Version": "3.0",
 	"Description": "Randomizes the starting mechwarriors and mechs.",
 	"Author": "donZappo and gnivler, based upon code and concept by mpstark",
 	"ConflictsWith": [
@@ -12,7 +12,7 @@
 	
 	"Settings": {
 		"MinimumStartingWeight": 150,
-		"MaximumStartingWeight": 160,
+		"MaximumStartingWeight": 155,
 		"NumberRandomRonin": 0,
 		"NumberProceduralPilots": 3,
 		"MechPercentageStartingCost": 0,
@@ -25,6 +25,8 @@
 		"MaximumMechWeight": 45,
 		"AllowDuplicateChassis": false,
 		"AllowCustomMechs": false,
+		"LimitRVMechs": true,
+		"ForceSingleMedium": true,
 		
 		/* Specify which Ronin you want to have in your game to start. NumberRoninFromList will specify how many Ronin will be randomly selected from amongst this list. */
 		"NumberRoninFromList": 1,

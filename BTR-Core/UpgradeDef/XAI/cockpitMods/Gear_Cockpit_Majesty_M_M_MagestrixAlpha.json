@@ -21,7 +21,7 @@
         "UIName" : "Rangefinder ++++",
         "Id" : "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
         "Name" : "Majesty M M Magestrix Rangefinder",
-        "Details" : "This Star League era Rangefinder can greatly increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",
+        "Details" : "This Star League era Rangefinder can greatly increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.\n\n<b>•Maximum 2 Injuries when ejecting: 50% chance each.",
         "Icon" : "uixSvgIcon_equipment_Rangefinder"
     },
 	"BonusValueA" : "+1 Init, +150m Vision",
@@ -144,7 +144,9 @@
             "component_type_variant",
             "component_type_variant5",
 			"TechLevel_LowTech",
-			"BR_UpgradeTag_Cockpit"
+			"BR_UpgradeTag_Cockpit",
+			"cockpit",
+			"standard_cockpit"
         ],
         "tagSetSourceFile" : ""
     }

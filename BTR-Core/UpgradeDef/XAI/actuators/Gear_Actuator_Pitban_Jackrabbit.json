@@ -1,4 +1,10 @@
 {
+   "Custom":{
+      "Category":[
+         {"CategoryID":"ActuatorUpgrades"}
+      ],
+		"Tag": "MeleeActuator",
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,17 +17,17 @@
         "UIName" : "Leg Rforce",
         "Id" : "Gear_Actuator_Pitban_Jackrabbit",
         "Name" : "Pitban Jackrabbit Leg Mod",
-        "Details" : "Pitban Leg mods reinforce the internal structural integrity of your mech's legs.  This reduces both external and internal damage when performing death from above.  The Jackrabbit <color=#6aa84f>reduces leg damage.</color>",
+        "Details" : "Heavy duty cushioning materials that prevent damage from unexpected drops and jumpjet failures. Get extra safety and add little to no real weight!",
         "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
     },
-    "BonusValueA" : "- 20 DFA Self Dmg",
+    "BonusValueA" : "- 25% DFA Self Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0.25,
+    "Tonnage" : 0,
     "AllowedLocations" : "Legs",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -52,7 +58,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Attack_SelfDamageDFA-T1",
                 "Name" : "DFA SELF-INFLICTED DAMAGE DECREASED",
-                "Details" : "DFA attacks deal [AMT] less damage to the attacker.",
+                "Details" : "DFA attacks deal 25% less damage to the attacker.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
             },
             "nature" : "Buff",
@@ -60,8 +66,8 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DFASelfDamage",
-                "operation" : "Float_Subtract",
-                "modValue" : "20.0",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.75",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -82,7 +88,8 @@
         "items" : [
             "component_type_stock",
 			"BR_UpgradeTag_actuator",
-			"TechLevel_LowTech"
+			"TechLevel_LowTech",
+			"MeleeActuator"
         ],
         "tagSetSourceFile" : ""
     }

@@ -26,7 +26,7 @@
     "DesignMaskBiomeLunarVacuum"
   ],
   "BurningForestStrength": 30,
-  "BurningForestBaseExpandChance": 0.0,
+  "BurningForestBaseExpandChance": 0.05,
   "DynamicDesignMasksDefs": [
     "DesignMaskCrystals",
     "DesignMaskForest",
@@ -83,8 +83,8 @@
     "DecalTexture": "envTxrDecl_terrainDmgSmallBlood_alb",
     "DrawBloodChance": 0.3
   },
-  "DontShowBurnedTrees": true,
-  "DontShowScorchTerrain": true,
+  "DontShowBurnedTrees": false,
+  "DontShowScorchTerrain": false,
   "AAMSAICoeff": 0.2,
   "ForestBurningDurationBiomeMult": {
     "DesignMaskBiomeBadlandsParched": 0.7,
@@ -167,17 +167,20 @@
   "AIMStandalone": "AttackImprovementMod.dll",
   "AdvancedCirtProcessing": true,
   "DestroyedComponentsCritTrap": true,
-  "DestoryedLocationDamageTransferStructure" : false,
-  "NullifyDestoryedLocationDamage" : false,
-  "CritLocationTransfer": false,
+  "CritLocationTransfer": true,
   "APMinCritChance": 0.1,
+  "NoCritFloatieMessage": true,
+  "RemoveFromCritRollStatName": "ignore_damage",
   "PatchWeaponSlotsOverflowCultures": [
     "CULTURE_RU_RU"
   ],
   "FiringPreviewRecalcTrottle": 0,
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,
   "UpdateReticleTrottle": 8,
-  "showMissBehavior": "Vanilla",
+  "showMissBehavior": "None",
+  "DestoryedLocationDamageTransferStructure" : false,
+  "NullifyDestoryedLocationDamage" : false,
+	"DestoryedLocationCriticalAllow": false,
   "DefaultAoEDamageMult": {
     "Building": {
       "Range": 1.2,
@@ -244,5 +247,6 @@
   "MechHasNoStabilityTag": ["mech_no_stability"],
   "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
   "ShowAttackGroundButton" : false,
+  "ShowWeaponOrderButtons": false,
   "AttackLogWrite": false
 }

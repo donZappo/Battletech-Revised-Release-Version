@@ -17,7 +17,10 @@
       "FYLS [LOG] SystemInfo.",
 	  "FYLS [ERROR] ManifestEntry is null for [STRIKER] [Sprite] - resourceIds are case sensitive, so be sure to check that too",
 	  "FYLS [ERROR] ManifestEntry is null for [MANTICORE] [Sprite] - resourceIds are case sensitive, so be sure to check that too",
-	  "FYLS [ERROR] ERROR!!! breakdown of Universal Modifier didn't match actual Universal Modifier. Check TargetingRules!"
+	  "FYLS [ERROR] ERROR!!! breakdown of Universal Modifier didn't match actual Universal Modifier. Check TargetingRules!",
+	  "FYLS [ERROR] Exception caught processing achievement:",
+	  "FYLS [ERROR] Could not find bonus description",
+	  "FYLS [ERROR] invalid handle"
     ],
     "preserveFullLog": true
   }

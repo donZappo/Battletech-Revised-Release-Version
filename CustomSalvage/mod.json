@@ -12,14 +12,19 @@
         "LogLevel": "Debug",
 		
         "RecoveryType": "PartDestroyed",
-        "PartCountType": "PartDestroyedIgnoreCT",
-        "SalvageArmWeight": 0.5,
-        "SalvageLegWeight": 0.5,
-        "SalvageTorsoWeight": 1.25,
-        "SalvageHeadWeight": 0.5,
+        "PartCountType": "PartDestroyed",
+        "SalvageArmWeight": 1,
+        "SalvageLegWeight": 1,
+        "SalvageTorsoWeight": 1.5,
+        "SalvageHeadWeight": 1.5,
+        "CenterTorsoDestroyedParts": 1,
+		
         "SalvageCTWeight": 3.0,
 		
-        "CenterTorsoDestroyedParts": 1,
+		"capSalvage": true,
+		"maxSalvage": 5,
+		"engineCountsAsCT": true,
+		"engineAsCTChance": 0.5,
 		
         "LostMechAction": "ReturnItemsAndPartsToPlayer",
         "RecoveryMod": 1,
@@ -32,7 +37,6 @@
         "VABLDestroyedMod": 0.68,
         "SalvageTurrets": false,
         "SalvageTurretsComponentChance": 0.5,
-        "UpgradeSalvage": true,
         "BGColors": [
         {
             "Tag": "unit_assault",
@@ -68,9 +72,30 @@
         "MaxVariantsInDescription": 5,
 		"UseReadyDelay": true,
 		"AssembledTimeBonusFactor": 0.5,
-		"MaxRecoveryChance": 0.9,
-        "AllowScrapToParts": true,
 		
+		
+        "UpgradeSalvage": true,
+		"UpgradeItems" : true,
+		"EliteRareUpgradeChance" : -7,
+		"VeryRareUpgradeChance" : -3.5,
+		"RareUpgradeChance" : 0,
+		"UpgradeChanceDivisor" : 20,
+		"EliteRareUpgradeLevel" : [ 7 , 8 ],
+		"VeryRareUpgradeLevel" : [ 5 , 6 ],
+		"RareUpgradeLevel" : [ 3, 4 ],
+		
+		"EliteRareWeaponChance" : -7,
+		"VeryRareWeaponChance" : -3.5,
+		"RareWeaponChance" : 0,
+		"WeaponChanceDivisor" : 10,
+		"EliteRareWeaponLevel" : [ 7, 8 ],
+		"VeryRareWeaponLevel" : [ 5 , 6 ],
+		"RareWeaponLevel" : [ 3, 4 ],
+		
+		
+		
+        "AllowScrapToParts": false,
+		"MaxRecoveryChance": 0.9,
         "UnEquipedMech": false,
         "BrokenMech": true,
         "HeadRepaired": true,

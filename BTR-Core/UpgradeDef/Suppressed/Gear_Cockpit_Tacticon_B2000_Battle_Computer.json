@@ -13,9 +13,6 @@
 		},
 		"Flags": {
 			"flags": []
-		},
-		"BonusDescriptions": {
-			"Bonuses": []
 		}
 	},
     "StatName" : null,
@@ -30,7 +27,7 @@
         "UIName" : "Battle Computer",
         "Id" : "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
         "Name" : "Tacticon B-2000 Battle Computer",
-        "Details" : "Allows the pilot of the Cyclops to effectively command dozens of units. This allows for a exceptional level of lance cohesion during combat, increasing the Initiative for the entire Lance. This stacks with the Master Tactician ability.",
+        "Details" : "Allows the pilot of the Cyclops to effectively command dozens of units. This allows for a exceptional level of lance cohesion during combat, increasing the Initiative for the entire Lance. This stacks with the Master Tactician ability.\n\n<b>•Maximum 2 Injuries when ejecting: 50% chance each.",
         "Icon" : "uixSvgIcon_special_Equipment"
     },
     "BonusValueA" : "+ 1 Initiative for all Lance units",
@@ -99,7 +96,9 @@
     ],
     "ComponentTags" : {
         "items" : [
-			"BLACKLISTED"
+			"BLACKLISTED",
+			"cockpit",
+			"standard_cockpit"
         ],
         "tagSetSourceFile" : ""
     }

@@ -1,4 +1,10 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
         "Cost": 5600000, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 70, 
-    "MeleeInstability": 40, 
+    "MeleeDamage": 55, 
+    "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 70, 
     "DFAToHitModifier": 0, 

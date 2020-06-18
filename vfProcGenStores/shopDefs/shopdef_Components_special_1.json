@@ -2,6 +2,7 @@
    "ID" : "shopdef_Components_special_1",
    "RequirementTags" : {
       "items" : [
+		"planet_other_battlefield",
 		"planet_industry_manufacturing",
 		"planet_industry_rich"	  
 	  ],

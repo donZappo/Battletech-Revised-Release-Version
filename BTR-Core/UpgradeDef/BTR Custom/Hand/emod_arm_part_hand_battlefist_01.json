@@ -1,0 +1,131 @@
+{
+	"Custom": {
+		"ArmActuator" : {
+			"Type" : "PartHand"
+		},
+		"Tag": "ArmOrHand",
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeAccuracyBonus: 1",
+                "Melee2: 8"
+            ]
+        },
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"}
+		],
+        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
+	},
+    "Description" : {
+        "Cost" : 150000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Hand (B. Fist)",
+        "Id" : "emod_arm_part_hand_battlefist_01",
+        "Name" : "Hand (B. Fist)",
+        "Details" : "Tear the arms off of your enemies with this somewhat standardized Battlefist. It offers a strong melee focus for those who know future missions will be personal.",
+        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "BonusValueA" : "+ 1 Melee Acc.",
+    "BonusValueB" : "+ 8 Melee Damage",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "Arms",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_DamageMelee-T6",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks deal [AMT] more damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "8.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ArmHandActuator",
+                "Name" : "Hand Actuator",
+                "Details" : "Melee attacks attempted have their hit improved by 1.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponSubType" : "Melee"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+			"component_type_variant2",
+            "noautofix",
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_Hand",
+			"ArmOrHand"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1792,7 +1792,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Vehicle",
-                        "unitDefId": "vehicledef_CARRIER_SRM",
+                        "unitDefId": "vehicledef_CARRIER_Inferno",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -2005,7 +2005,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Vehicle",
-                        "unitDefId": "vehicledef_CARRIER_LRM",
+                        "unitDefId": "vehicledef_CARRIER_Inferno",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": ""

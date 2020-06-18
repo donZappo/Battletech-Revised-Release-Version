@@ -106,6 +106,24 @@
 			"Short": "Activatable",
 			"Long": "Activatable",
 			"Full": "Toggle the button on the 'Mech weapons panel to activate this item"
+		},
+		{
+			"Bonus": "UseCharges",
+			"Short": "{0} Activations",
+			"Long": "{0} Activations",
+			"Full": "Can activate {0} times per battle"
+		},
+		{
+			"Bonus": "CockpitInjuries",
+			"Short": "{0} Possible Ejection Injuries",
+			"Long": "{0} Possible Ejection Injuries",
+			"Full": "Pilot can receive up to {0} injuries upon ejecting from 'Mech"
+		},
+		{
+			"Bonus": "CockpitInjuryChance",
+			"Short": "{0}% Chance Eject Injury",
+			"Long": "{0}% Chance Eject Injury",
+			"Full": "Upon ejecting, each Ejection Injury has a {0}% chance of Injuring the Pilot"
 		}
     ]
 }

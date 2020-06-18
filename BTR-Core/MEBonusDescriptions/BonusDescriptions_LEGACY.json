@@ -1142,6 +1142,12 @@
       "Full": "{0} Stability damage taken"
     },
     {
+      "Bonus": "StabDamageReduced",
+      "Short": "{0}% Less Stab.Dmg.",
+      "Long": "{0}% Less Stability Damage Taken",
+      "Full": "Receives {0}% Less Stability Damage"
+    },
+    {
       "Bonus": "EvaMax",
       "Short": "{0} Max.Eva",
       "Long": "{0} Maximum Evasion",

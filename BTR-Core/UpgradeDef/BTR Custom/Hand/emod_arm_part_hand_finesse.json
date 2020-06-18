@@ -1,0 +1,79 @@
+{
+	"Custom": {
+		"ArmActuator" : {
+			"Type" : "PartHand"
+		},
+		"Tag": "ArmOrHand",
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeAccuracyBonus: 2"
+            ]
+        },
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"}
+		],
+        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
+	},
+    "Description" : {
+        "Cost" : 60000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Finesse",
+        "UIName" : "Hand (Finesse)",
+        "Id" : "emod_arm_part_hand_finesse",
+        "Name" : "Hand (Finesse)",
+        "Details" : "A precision Battlemech hand that allows for gripping and delicate work. Popular in industrial mechs and in arena battlemech combat.",
+        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "BonusValueA" : "+ 2 Melee Acc.",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "Arms",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ArmHandActuator",
+                "Name" : "Hand Actuator",
+                "Details" : "Melee attacks attempted have their hit improved by 2.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-2.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponSubType" : "Melee"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "noautofix",
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_Hand",
+			"ArmOrHand"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

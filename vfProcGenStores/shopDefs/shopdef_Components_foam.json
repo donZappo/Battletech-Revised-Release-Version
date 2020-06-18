@@ -1,0 +1,63 @@
+{
+   "ID" : "shopdef_Components_special_1",
+   "RequirementTags" : {
+      "items" : [
+		"planet_industry_manufacturing",
+		"planet_industry_mining",
+		"planet_industry_electronics",
+		"planet_industry_chemicals",
+		"planet_industry_research"		
+	  ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+      {
+         "ID" : "emod_arm_part_lower_shockfoam",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_arm_part_lower_shockfoam_02",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+	  {
+         "ID" : "emod_arm_part_lower_shockfoam_03",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+      {
+         "ID" : "emod_arm_part_lower_fireretardingfoam",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_arm_part_lower_fireretardingfoam_02",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "emod_arm_part_lower_fireretardingfoam_03",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      }
+   ]
+}

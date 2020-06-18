@@ -280,11 +280,11 @@
   /* Directional to hit modifiers.  Effective only if "Direction" is in the modifier factor list(s).  Default front 0, side -1, back -2. */
 
   "ToHitMechFromFront": 0,
-  "ToHitMechFromSide": -1,
-  "ToHitMechFromRear": -2,
+  "ToHitMechFromSide": 1,
+  "ToHitMechFromRear": 0,
   "ToHitVehicleFromFront": 0,
-  "ToHitVehicleFromSide": -1,
-  "ToHitVehicleFromRear": -2,
+  "ToHitVehicleFromSide": 1,
+  "ToHitVehicleFromRear": 0,
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
 

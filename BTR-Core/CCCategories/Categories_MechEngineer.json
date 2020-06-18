@@ -487,6 +487,24 @@
          "displayName":"MASC",
          "MaxEquiped":"1",
          "AutoReplace":"true"
+      },
+      {
+         "Name":"ActuatorUpgrades",
+         "DisplayName":"Upgraded Actuator",
+         "MaxEquipedPerLocation":1,
+         "AutoReplace":false,
+      },
+      {
+         "Name":"HandActuator",
+         "DisplayName":"Hand-Type Actuator",
+         "MaxEquipedPerLocation":1,
+         "AutoReplace":false,
+      },
+      {
+         "Name":"LowerArmActuator",
+         "DisplayName":"Lower Arm-Type Actuator",
+         "MaxEquipedPerLocation":1,
+         "AutoReplace":false,
       }
    ]
 }

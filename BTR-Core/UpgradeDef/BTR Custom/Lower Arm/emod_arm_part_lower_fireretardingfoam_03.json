@@ -1,0 +1,149 @@
+{
+    "Custom": {
+        "ArmActuator" : {
+            "Type" : "PartLower"
+        },
+		
+        "Category" : [
+			{"CategoryID" : "ArmHandActuator"}
+		],
+        "Flags" : { "flags" : [ "autorepair", "not_broken" ] }
+    },
+    "Description" : {
+        "Cost" : 400000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Standard",
+        "UIName" : "Lower Arm (F.R. Foam) ++",
+        "Id" : "emod_arm_part_lower_fireretardingfoam_03",
+        "Name" : "Lower Arm Actuator (F.R. Foam) ++",
+        "Details" : "Jam-pack your internals with this handy and almost weightless foam. Though ineffective at resisting weapons fire, the foam offers some heat and fire damage resisting properities. This foam does not in any way help you to actually vent heat and it's use in critical space padding can hardly be recommended.",
+        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+    },
+    "BonusValueA" : "+ 6 Max Heat",
+    "BonusValueB" : "+ 6 Overheat Threshold",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 0.3,
+    "AllowedLocations" : "Arms",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Heat_Max-T1",
+                "Name" : "MAX HEAT INCREASED",
+                "Details" : "Maximum allowed heat increased by 6.",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+                "modValue" : "6",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Overheat_Threshold-T1",
+                "Name" : "Increased Overheat Level",
+                "Details" : "Overheat threshold increased by 6",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "OverheatLevel",
+                "operation" : "Int_Add",
+                "modValue" : "6",
+                "modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "noautofix",
+			"TechLevel_LowTech",
+			"BR_UpgradeTag_LowerArm",
+			
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

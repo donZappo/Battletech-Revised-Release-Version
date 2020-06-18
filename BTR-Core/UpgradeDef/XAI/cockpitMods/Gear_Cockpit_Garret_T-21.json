@@ -21,7 +21,7 @@
         "UIName" : "Composite HUD",
         "Id" : "Gear_Cockpit_Garret_T-21",
         "Name" : "Garret T-21B",
-        "Details" : "The Garret line cockpit upgrades combine function and protection for the crew in the cockpit. The T-21B replaces the existing cockpit window with, state of the art, clear impact resistant resins with an integrated a rangefinding heads up display offering more pilot protection.",
+        "Details" : "The Garret line cockpit upgrades combine function and protection for the crew in the cockpit. The T-21B replaces the existing cockpit window with, state of the art, clear impact resistant resins with an integrated a rangefinding heads up display offering more pilot protection.\n\n<b>•Maximum 1 Injuries when ejecting: 50% chance.",
         "Icon" : "uixSvgIcon_equipment_Rangefinder"
     },
 	"BonusValueA" : "+1 Injury Resist",
@@ -144,7 +144,9 @@
             "component_type_variant",
             "component_type_variant1",
 			"TechLevel_LowTech",
-			"BR_UpgradeTag_Cockpit"
+			"BR_UpgradeTag_Cockpit",
+			"cockpit",
+			"safe_cockpit"
         ],
         "tagSetSourceFile" : ""
     }

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_zeus_ZEU-6A", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2018688,  
+        "Cost": 2018688, 
         "Rarity": 4, 
-        "Purchasable": true, 
+        "Purchasable": false, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Zeus ZEU-6A", 
@@ -184,28 +184,6 @@
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -422,17 +400,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_hand", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "mech_quirk_enhanced_agility_design", 
             "SimGameUID": "", 
@@ -530,7 +497,29 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 750000
+    "simGameMechPartCost": 2018688
 }

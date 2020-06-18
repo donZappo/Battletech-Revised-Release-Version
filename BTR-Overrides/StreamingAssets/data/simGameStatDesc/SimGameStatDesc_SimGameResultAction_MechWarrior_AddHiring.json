@@ -1,0 +1,17 @@
+{
+    "Description" : {
+        "Id" : "SimGameStatDesc_SimGameResultAction_MechWarrior_AddHiring",
+        "Name" : "Add to Hiring Hall",
+        "Details" : "Add pilotdef to hiring hall",
+        "Icon" : null
+    },
+    "setResult" : "A new pilot is now present in the local Hiring Hall",
+    "positiveResult" : "",
+    "negativeResult" : "",
+    "temporalSetResult" : "",
+    "temporalPositiveResult" : "",
+    "temporalNegativeResult" : "",
+    "infinitiveSetResult" : "",
+    "infinitivePositiveResult" : "",
+    "infinitiveNegativeResult" : ""
+}

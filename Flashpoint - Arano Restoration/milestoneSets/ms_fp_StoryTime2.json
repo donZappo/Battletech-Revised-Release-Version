@@ -1,4 +1,4 @@
-{
+﻿{
     "StartingMilestoneID": "ms_fp_StoryTime2_001_Start",
     "Milestones": [
         {
@@ -156,7 +156,7 @@
                         {
                             "typeString": "System.Int32",
                             "name": "Funds",
-                            "value": "-100000",
+                            "value": "50000",
                             "set": false,
                             "valueConstant": null
                         },
