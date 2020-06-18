@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_APC_Vargr",
-      "Name" : "MovementCapabilitiesDef for Vargr APC",
+      "Id" : "movedef_ONTOS",
+      "Name" : "MovementCapabilitiesDef for Ontos",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 120.0,
-   "MaxSprintDistance" : 200.0,
+   "MaxWalkDistance" : 90.0,
+   "MaxSprintDistance" : 150.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,

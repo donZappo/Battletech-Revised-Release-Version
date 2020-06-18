@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_SKULKER",
-      "Name" : "MovementCapabilitiesDef for Skulker",
+      "Id" : "movedef_SCORPION",
+      "Name" : "MovementCapabilitiesDef for Scorpion tank",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 190.0,
-   "MaxSprintDistance" : 315.0,
+   "MaxWalkDistance" : 120.0,
+   "MaxSprintDistance" : 180.0,
    "WalkVelocity" : 22.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 36.0,

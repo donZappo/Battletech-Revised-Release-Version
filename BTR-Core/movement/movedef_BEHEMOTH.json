@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_APC_Vargr",
-      "Name" : "MovementCapabilitiesDef for Vargr APC",
+      "Id" : "movedef_BEHEMOTH",
+      "Name" : "MovementCapabilitiesDef for BEHEMOTH",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 120.0,
-   "MaxSprintDistance" : 200.0,
+   "MaxWalkDistance" : 60.0,
+   "MaxSprintDistance" : 90.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,

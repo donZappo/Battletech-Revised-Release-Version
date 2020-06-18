@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_APC_Vargr",
-      "Name" : "MovementCapabilitiesDef for Vargr APC",
+      "Id" : "movedef_DRILLSON",
+      "Name" : "MovementCapabilitiesDef for Drillson Hovercraft",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 120.0,
-   "MaxSprintDistance" : 200.0,
+   "MaxWalkDistance" : 240.0,
+   "MaxSprintDistance" : 420.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,

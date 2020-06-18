@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_APC_Vargr",
-      "Name" : "MovementCapabilitiesDef for Vargr APC",
+      "Id" : "movedef_GOBLIN",
+      "Name" : "MovementCapabilitiesDef for GOBLIN",
       "Details" : "",
       "Icon" : ""
    },
    "MaxWalkDistance" : 120.0,
-   "MaxSprintDistance" : 200.0,
+   "MaxSprintDistance" : 180.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,
