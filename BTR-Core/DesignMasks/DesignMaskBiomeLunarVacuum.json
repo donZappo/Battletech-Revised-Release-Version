@@ -1,0 +1,12 @@
+{
+	"Description" : {
+		"Id" : "DesignMaskBiomeLunarVacuum",
+		"Name" : "LUNAR BIOME",
+		"Details" : "Units in a vacuum sink only 65% of their normal Heat.",
+		"Icon" : "uixSvgIcon_biome_Vacuum"
+	},
+    "heatSinkMultiplier" : 0.65,
+    "heatPerTurn" : 0,
+	"audioSwitchSurfaceType" : "dirt",
+	"audioSwitchRainingSurfaceType" : "mud"
+}

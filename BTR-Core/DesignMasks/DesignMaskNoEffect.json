@@ -1,0 +1,11 @@
+{
+	"Description" : {
+		"Id" : "DesignMaskNoEffect",
+		"Name" : "NO EFFECT",
+		"Details" : "This design mask has no effect. It is the default Biome design mask.",
+		"Icon" : null
+	},
+    "hideInUI" : true,
+    "heatSinkMultiplier" : 1.0,
+    "heatPerTurn" : 0
+}
