@@ -63,10 +63,10 @@
     "MeleeDamage": 55, 
     "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 60, 
+    "DFADamage": 55, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 60, 
-    "DFAInstability": 30, 
+    "DFASelfDamage": 55, 
+    "DFAInstability": 55, 
     "ChassisTags": {
         "items": [
             "EnhancedAgilityDesign", 
