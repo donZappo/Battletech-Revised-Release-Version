@@ -12,9 +12,9 @@
    },
    "ChassisID" : "vehiclechassisdef_SWIFTWIND_ARMORED",
    "VehicleTags": {
-      "items": [
-		 "BLACKLISTED"
-      ],
+        "items" : [
+			"BLACKLISTED"
+        ],
       "tagSetSourceFile": ""
    },
    "Locations" : [

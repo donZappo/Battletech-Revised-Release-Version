@@ -10,16 +10,6 @@
       "Purchasable" : false
    },
    "ChassisID" : "vehiclechassisdef_MOBILEHQ",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_light",
-         "unit_wheels",
-		 "unit_vehicle_mobileHQ",
-		 "unit_noncombatant"
-      ],
-      "tagSetSourceFile": ""
-   },
    "Locations" : [
 		{
 			"Location" : "Front",
@@ -76,6 +66,12 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-    
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engine_130",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	}
    ]
 }

@@ -1,0 +1,80 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_SCHREK",
+      "Name" : "Schrek PPC Carrier",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_SCHREK",
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" :240,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 240,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 140,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 140,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 2,
+		 "DamageLevel" : "Functional"
+      },
+     {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engine_240",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	}
+   ]
+}

@@ -1,58 +1,249 @@
 {
-    "VehicleTags": {
-        "items": [
-            "unit_vehicle",    
-            "unit_heavy",
-            "unit_tracks",  
-            "unit_range_long", 
-            "unit_armor_high",  
-            "unit_release",
-            "NotDavion",
-            "NotLiao",
-            "NotMarik", 
-            "NotKurita",
-            "NotMagistracyOfCanopus",
-            "NotTaurianConcordat",
-            "unit_ext_rare",
-            "unit_ext_rare_Davion",
-            "unit_none_Liao",
-            "unit_ext_rare_Marik",
-            "unit_rare_Steiner",
-            "unit_ext_rare_Kurita",
-            "unit_none_MagistracyOfCanopus",
-            "unit_none_TaurianConcordat",
-            "unit_none_AuriganDirectorate",
-            "unit_none_AuriganRestoration",
-            "unit_none_ComStar",
-            "unit_none_MercenaryReviewBoard",
-            "unit_ext_rare_DuchyOfAndurien",
-            "unit_none_AuriganMercenaries",
-            "unit_none_AuriganPirates",
-            "unit_ext_rare_Locals",
-            "unit_none_Betrayers",
-            "unit_none_MajestyMetals",
-            "unit_none_KellHounds",
-            "unit_none_GrayDeathLegion",
-            "unit_none_FlakJackals",
-            "unit_none_LocalsBrockwayRefugees",
-            "unit_none_SelfEmployed",
-            "unit_none_MasonsMarauders",
-            "unit_none_SteelBeast",
-            "unit_none_RazorbackMercs",
-            "unit_none_RedHareRegiment",
-            "unit_none_EmeraldDawn",
-            "unit_none_SianTriumphant",
-            "unit_none_BlackCalderaDefense",
-            "unit_none_BlackCalderaDefense_Hidden",
-            "unit_none_SecuritySolutionsInc",
-            "unit_none_PaladinProtectionLLC",
-            "unit_none_HouseNakano",
-            "unit_none_HouseKhulan",
-            "unit_none_ProfHorvat",
-            "unit_none_EdCorbu",
-            "unit_none_HostileMercenaries",
-            "unit_none_NoFaction"
-        ],
-        "tagSetSourceFile": ""
-    },
+   "VehicleTags": {
+      "items": [
+      "unit_vehicle",
+      "unit_heavy",
+      "unit_tracks",
+      "unit_range_long",
+      "unit_indirectFire",      
+      "unit_armor_high",
+      "unit_release",
+         
+    /* Major House Factions and Elite Merc Units Tag-Sets */
+    
+    "ComStar",
+    "unit_common_ComStar",
+            
+    "Davion",
+    "unit_common_Davion", 
+            
+    "GreyDeathLegion",
+    "unit_common_GreyDeathLegion",
+            
+    "KellHounds",
+    "unit_common_KellHounds",
+            
+    "Kurita",
+    "unit_common_Kurita",
+            
+    "Liao",
+    "unit_common_Liao",
+            
+    "Marik",
+    "unit_common_Marik",
+            
+    "Steiner",
+    "unit_common_Steiner", 
+    
+    /* Minor House Factions and Local Powers Tag-Sets */
+    
+    "AuriganDirectorate",
+    "unit_common_AuriganDirectorate",
+
+    "AuriganRestoration",
+    "unit_common_AuriganRestoration",
+ 
+    "MagistracyOfCanopus",
+    "unit_common_MagistracyOfCanopus",
+    
+    "TaurianConcordat",
+    "unit_common_TaurianConcordat",
+
+    "Locals",
+    "unit_common_Locals",
+    
+    /* Generic faction tag-sets  */
+    
+    "Unknown",
+    "unit_common_Unknown",
+
+    "NoFaction",
+    "unit_common_NoFaction",
+   
+    "Faction_SelfEmployed",
+    "unit_common_Faction_SelfEmployed",
+  
+    "Faction_SelfEmployed_Yang",
+    "unit_common_Faction_SelfEmployed_Yang",
+    
+    "Owner",
+    "unit_common_Owner",
+ 
+    "Faction_Employer",
+    "unit_common_Faction_Employer",
+  
+    "Faction_EmployersAlly",
+    "unit_common_Faction_EmployersAlly",
+   
+    "Faction_Target",
+    "common_Faction_Target",
+    
+    "Faction_TargetsAlly",
+    "unit_common_Faction_TargetsAlly",
+ 
+    "Faction_Neutral",
+    "unit_common_Faction_Neutral",
+ 
+    "Faction_Hostile",
+    "unit_common_Faction_Hostile",
+   
+    "Faction_HostileMercenaries",
+    "unit_common_Faction_HostileMercenaries",
+   
+    "MercenaryReviewBoard",
+    "unit_common_MercenaryReviewBoard",
+   
+    "Player1sMercUnit",
+    "unit_common_Player1sMercUnit",
+    
+    "Player2sMercUnit",
+    "unit_common_Player2sMercUnit",
+    
+    /* Tag-Sets for FP-specific Factions, Minor Merc Companies, Corporate Groups, Pirates and Small Noble Houses */
+    
+    "Faction_AuriganMercenaries",
+    "unit_common_Faction_AuriganMercenaries",
+   
+    "Faction_AuriganPirates",
+    "unit_common_Faction_AuriganPirates",
+  
+    "Faction_BaumannGroup",
+    "unit_common_Faction_BaumannGroup",
+    
+    "Faction_Betrayers",
+    "unit_common_Faction_Betrayers",
+  
+    "Faction_BlackCalderaDefense",
+    "unit_common_Faction_BlackCalderaDefense",
+   
+    "Faction_BlackCalderaDefense_Hidden",
+    "unit_common_Faction_BlackCalderaDefense_Hidden",
+  
+    "Faction_BlackWidowCompany",
+    "unit_common_Faction_BlackWidowCompany",
+
+    "Faction_BountyHunterAssociates",
+    "unit_common_Faction_BountyHunterAssociates",
+   
+    "Faction_DuchyOfAndurien",
+    "unit_common_Faction_DuchyOfAndurien",
+   
+    "Faction_EdCorbu",
+    "unit_common_Faction_EdCorbu",
+   
+    "Faction_EmeraldDawn",
+    "unit_common_Faction_EmeraldDawn",
+   
+    "Faction_FlakJackals",
+    "unit_common_Faction_FlakJackals",
+    
+    "Faction_HouseKhulan",
+    "unit_common_Faction_HouseKhulan",
+   
+    "Faction_HouseNakano",
+    "unit_common_Faction_HouseNakano",
+   
+    "Faction_LocalsBrockwayRefugees",
+    "unit_common_Faction_LocalsBrockwayRefugees",
+   
+    "Faction_MagistracyCentrella",
+    "unit_common_Faction_MagistracyCentrella",
+ 
+    "Faction_MajestyMetals",
+    "unit_common_Faction_MajestyMetals",
+  
+    "Faction_MasonsMarauders",
+    "unit_common_Faction_MasonsMarauders",
+   
+    "Faction_Nautilus",
+    "unit_common_Faction_Nautilus",
+   
+    "Faction_PaladinProtectionLLC",
+    "unit_common_Faction_PaladinProtectionLLC",
+  
+    "Faction_ProfHorvat",
+    "unit_common_Faction_ProfHorvat",
+
+    "Faction_RazorbackMercs",
+    "unit_common_Faction_RazorbackMercs",
+    
+    "Faction_RedHareRegiment",
+    "unit_common_Faction_RedHareRegiment",
+ 
+    "Faction_SecuritySolutionsInc",
+    "unit_common_Faction_SecuritySolutionsInc",
+  
+    "Faction_SianTriumphant",
+    "unit_common_Faction_SianTriumphant",
+   
+    "Faction_SteelBeast",
+    "unit_common_Faction_SteelBeast",
+    
+    /* Call of the Locust FP Factions Tag-Sets */
+    
+    "SilentChapter",
+    "unit_common_SilentChapter",
+   
+    /* Hyades Rim Factions Tag-Sets */
+    
+    "AlphardTradingCompany",
+    "unit_common_AlphardTradingCompany",
+ 
+    "AntithesisCreed",
+    "unit_common_AntithesisCreed",
+    
+    "AutocracyOfLeh",
+    "unit_common_AutocracyOfLeh",
+   
+    "CanopianPirates",
+    "unit_common_CanopianPirates",
+    
+    "CapellanPirates",
+    "unit_common_CapellanPirates",
+    
+    "CorporatePirates",
+    "unit_common_CorporatePirates",
+    
+    "ClusterPirates",
+    "unit_common_ClusterPirates",
+    
+    "EvilEye",
+    "unit_common_EvilEye",
+   
+    "GhostRiders",
+    "unit_common_GhostRiders",
+   
+    "HarbingersOfDoom",
+    "unit_common_HarbingersOfDoom",
+   
+    "MagnaMetals",
+    "unit_common_MagnaMetals",
+   
+    "RenegadePirates",
+    "unit_common_RenegadePirates",
+   
+    "RimPirates",
+    "unit_common_RimPirates",
+   
+    "RoguePirates",
+    "unit_common_RoguePirates",
+  
+    "SyrtisPirates",
+    "unit_common_SyrtisPirates",
+ 
+    "TaurusMajorisMining",
+    "unit_common_TaurusMajorisMining",
+   
+    "TaurusTerritorialIndustries",
+    "unit_common_TaurusTerritorialIndustries",
+
+    "TortugaPirates",
+    "unit_common_TortugaPirates",
+    
+    "Warboys",
+    "unit_common_Warboys",
+          
+      ],
+      "tagSetSourceFile": ""
+   },
 }

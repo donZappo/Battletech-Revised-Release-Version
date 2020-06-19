@@ -10,81 +10,26 @@
     "Purchasable": false
   },
   "ChassisID": "vehiclechassisdef_APC_Wheeled_LRM",
-  "VehicleTags": {
-    "items": [
-      "unit_vehicle",
-      "unit_vehicle_apc",
-      "unit_light",
-      "unit_wheels",
-      "unit_noncombatant",
-      "unit_range_long",
-      "unit_armor_low",
-      "unit_release",
-      "Davion",
-      "Marik",
-      "Steiner",
-      "unit_uncommon",
-      "unit_common_Davion",
-      "unit_rare_Liao",
-      "unit_uncommon_Marik",
-      "unit_uncommon_Steiner",
-      "unit_rare_Kurita",
-      "unit_rare_MagistracyOfCanopus",
-      "unit_rare_TaurianConcordat",
-      "unit_rare_AuriganDirectorate",
-      "unit_rare_AuriganRestoration",
-      "unit_rare_ComStar",
-      "unit_rare_MercenaryReviewBoard",
-      "unit_uncommon_DuchyOfAndurien",
-      "unit_rare_AuriganMercenaries",
-      "unit_rare_AuriganPirates",
-      "unit_uncommon_Locals",
-      "unit_rare_Betrayers",
-      "unit_rare_MajestyMetals",
-      "unit_rare_KellHounds",
-      "unit_rare_GrayDeathLegion",
-      "unit_rare_FlakJackals",
-      "unit_rare_LocalsBrockwayRefugees",
-      "unit_rare_SelfEmployed",
-      "unit_rare_MasonsMarauders",
-      "unit_rare_SteelBeast",
-      "unit_rare_RazorbackMercs",
-      "unit_rare_RedHareRegiment",
-      "unit_rare_EmeraldDawn",
-      "unit_rare_SianTriumphant",
-      "unit_rare_BlackCalderaDefense",
-      "unit_rare_BlackCalderaDefense_Hidden",
-      "unit_rare_SecuritySolutionsInc",
-      "unit_rare_PaladinProtectionLLC",
-      "unit_rare_HouseNakano",
-      "unit_rare_HouseKhulan",
-      "unit_rare_ProfHorvat",
-      "unit_rare_EdCorbu",
-      "unit_rare_HostileMercenaries",
-      "unit_rare_NoFaction"
-    ],
-    "tagSetSourceFile": ""
-  },
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 60,
+      "CurrentArmor": 70,
       "CurrentInternalStructure": 5,
-      "AssignedArmor": 60,
+      "AssignedArmor": 70,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 50,
+      "CurrentArmor": 55,
       "CurrentInternalStructure": 5,
-      "AssignedArmor": 50,
+      "AssignedArmor": 55,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 50,
+      "CurrentArmor": 55,
       "CurrentInternalStructure": 5,
-      "AssignedArmor": 50,
+      "AssignedArmor": 55,
       "DamageLevel": "Functional"
     },
     {
@@ -116,7 +61,14 @@
       "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    }
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engineslots_ICE_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	}
   ],
   "MinAppearanceDate": "2500-01-01T00:00:00Z"
 }

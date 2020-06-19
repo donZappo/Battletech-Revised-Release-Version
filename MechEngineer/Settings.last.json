@@ -109,7 +109,7 @@
         ],
         "ChassisDefInitialTonnage" : true,
         "ChassisDefInitialToTotalTonnageFactor" : 0.1,
-        "ChassisDefMaxJumpjets" : true,
+        "ChassisDefMaxJumpjets" : false,
         "ChassisDefMaxJumpjetsCount" : 8,
         "ChassisDefMaxJumpjetsRating" : 400,
         "WeaponDefTagsSkip" : [
@@ -353,7 +353,7 @@
         "AutoFixChassisDefWeaponHardpointCountsDescription" : "Changes chassis hardpoints based on configured prefabs.",
         "EnforceHardpointLimits" : false,
         "EnforceHardpointLimitsDescription" : "Enforces hardpoint limits in mechlab only allowing configured prefabs.",
-        "AllowDefaultLoadoutWeapons" : false,
+        "AllowDefaultLoadoutWeapons" : true,
         "AllowDefaultLoadoutWeaponsDescription" : "Ignore limits that would prevent mounting default loadouts.",
         "FallbackPrefabsForComponentDefIds" : [
             "Weapon_Mortar_MechMortar"
@@ -718,6 +718,7 @@
                     "lrm10",
                     "lrm15",
                     "lrm20",
+                    "srm20",
                     "machinegun",
                     "mg",
                     "flamer",
@@ -731,6 +732,7 @@
                     "lrm10",
                     "lrm15",
                     "lrm20",
+                    "srm20",
                     "lrm5",
                     "machinegun",
                     "mg",
@@ -744,6 +746,7 @@
                 "HardpointCandidates" : [
                     "lrm15",
                     "lrm20",
+                    "srm20",
                     "lrm10",
                     "lrm5",
                     "machinegun",
@@ -757,6 +760,7 @@
                 "PrefabIdentifier" : "lrm20",
                 "HardpointCandidates" : [
                     "lrm20",
+                    "srm20",
                     "lrm15",
                     "lrm10",
                     "lrm5",

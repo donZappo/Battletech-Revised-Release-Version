@@ -10,35 +10,26 @@
       "Purchasable" : false
    },
    "ChassisID" : "vehiclechassisdef_STRIKER_Narc",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_medium",
-         "unit_wheels",
-		 "unit_release"
-      ],
-      "tagSetSourceFile": ""
-   },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 120,
+			"CurrentArmor" : 130,
 			"CurrentInternalStructure" : 10,
-			"AssignedArmor" : 120,
+			"AssignedArmor" : 130,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 110,
 			"CurrentInternalStructure" : 10,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 110,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 110,
 			"CurrentInternalStructure" : 10,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 110,
 			"DamageLevel" : "Functional"
 		},
 		{
@@ -50,9 +41,9 @@
 		},
 		{
 			"Location" : "Turret",
-			"CurrentArmor" : 120,
+			"CurrentArmor" : 130,
 			"CurrentInternalStructure" : 10,
-			"AssignedArmor" : 120,
+			"AssignedArmor" : 130,
 			"DamageLevel" : "Functional"
 		}
    ],
@@ -84,6 +75,13 @@
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
-      }
+      },
+     {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engineslots_ICE_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	}
    ]
 }

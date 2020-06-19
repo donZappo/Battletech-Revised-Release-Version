@@ -363,7 +363,7 @@
     "SolidDamageCountersEvasive": false,
     "SensorLockCountersEvasive": false,
     "VehiclesGetEvasive": true,
-    "VehicleEvasiveResultMultiplier": 0.5,
+    "VehicleEvasiveResultMultiplier": 1.0,
     "VehiclesGetGuarded": false,
     "EvasiveDodgeChance": 0.75,
     "EntrenchedMultiplier": 0.5,
@@ -444,8 +444,8 @@
     "StructureMultiplierHeavy": 1,
     "ArmorMultiplierAssault": 1,
     "StructureMultiplierAssault": 1,
-    "ArmorMultiplierVehicle": 0.75,
-    "StructureMultiplierVehicle": 0.75,
+    "ArmorMultiplierVehicle": 1.0,
+    "StructureMultiplierVehicle": 1,
     "GlobalDamageMultiplier": 1.0,
     "MortarBuildingDamageMultiplier": 3.0,
     "TEST_MechScaleMultiplier": 1.25
@@ -690,47 +690,55 @@
     "HitVehicleLocationFromFront": [
       {
         "k": "Turret",
-        "v": 5
+        "v": 6
       },
       {
         "k": "Front",
-        "v": 20
+        "v": 22
       },
       {
         "k": "Left",
-        "v": 16
+        "v": 4
       },
       {
         "k": "Right",
-        "v": 16
+        "v": 4
       }
     ],
     "HitVehicleLocationFromLeft": [
       {
         "k": "Turret",
-        "v": 5
+        "v": 6
       },
       {
         "k": "Front",
-        "v": 20
+        "v": 4
       },
       {
         "k": "Left",
-        "v": 32
+        "v": 22
+      },
+		{
+        "k": "Rear",
+        "v": 4
       }
     ],
     "HitVehicleLocationFromRight": [
       {
         "k": "Turret",
-        "v": 5
+        "v": 6
       },
       {
         "k": "Front",
-        "v": 20
+        "v": 4
       },
       {
         "k": "Right",
-        "v": 32
+        "v": 22
+      },
+		{
+        "k": "Rear",
+        "v": 4
       }
     ],
     "HitVehicleLocationFromBack": [
@@ -740,55 +748,55 @@
       },
       {
         "k": "Rear",
-        "v": 20
+        "v": 22
       },
       {
         "k": "Left",
-        "v": 16
+        "v": 4
       },
       {
         "k": "Right",
-        "v": 16
+        "v": 4
       }
     ],
     "HitVehicleLocationFromTop": [
       {
         "k": "Turret",
-        "v": 5
+        "v": 22
       },
       {
         "k": "Front",
-        "v": 20
+        "v": 6
       },
       {
         "k": "Left",
-        "v": 16
+        "v": 6
       },
       {
         "k": "Right",
-        "v": 16
+        "v": 6
       },
       {
         "k": "Rear",
-        "v": 16
+        "v": 6
       }
     ],
     "HitVehicleLocationFromArtillery": [
       {
         "k": "Turret",
-        "v": 5
+        "v": 22
       },
       {
         "k": "Front",
-        "v": 20
+        "v": 6
       },
       {
         "k": "Left",
-        "v": 16
+        "v": 6
       },
       {
         "k": "Right",
-        "v": 16
+        "v": 6
       },
       {
         "k": "Rear",

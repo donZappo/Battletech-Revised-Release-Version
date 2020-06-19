@@ -1,0 +1,47 @@
+{
+	"Description" : {
+		"Id" : "DesignMaskRoad",
+		"Name" : "ROAD",
+		"Details" : "Units travel faster along Roads.",
+		"Icon" : "uixSvgIcon_genericDiamond"
+	},
+    "hideInUI" : true,
+    "moveCostMechLight" : 0.95,
+    "moveCostMechMedium" : 0.95,
+    "moveCostMechHeavy" : 0.95,
+    "moveCostMechAssault" : 0.95,
+    "moveCostTrackedLight" : 0.90,
+    "moveCostTrackedMedium" : 0.90,
+    "moveCostTrackedHeavy" : 0.90,
+    "moveCostTrackedAssault" : 0.90,
+    "moveCostWheeledLight" : 0.80,
+    "moveCostWheeledMedium" : 0.80,
+    "moveCostWheeledHeavy" : 0.80,
+    "moveCostWheeledAssault" : 0.80,
+    "stabilityDamageMultiplier" : 1.0,
+    "visibilityMultiplier" : 1.0,
+    "visibilityHeight" : 1.0,
+    "signatureMultiplier" : 1.0,
+    "targetabilityModifier" : 0.0,
+    "grantsGuarded" : false,
+    "grantsEvasive" : false,
+    "toHitFromModifier" : 0.0,
+    "heatSinkMultiplier" : 1.0,
+    "heatPerTurn" : 0,
+    "legStructureDamageMin" : 0,
+    "legStructureDamageMax" : 0,
+    "canBurn" : false,
+    "canExplode" : false,
+	"audioSwitchSurfaceType" : "dirt",
+	"audioSwitchRainingSurfaceType" : "dirt",
+	"Custom":{
+		"CustomMoveCost":
+		{
+			"Hover": 
+			{
+				"moveCost": 1.0,
+				"SprintMultiplier": 1.0
+			}
+		}
+	}
+}
