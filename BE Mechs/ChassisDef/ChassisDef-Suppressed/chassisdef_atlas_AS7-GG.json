@@ -45,10 +45,10 @@
     "MeleeDamage": 95, 
     "MeleeInstability": 95, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 125, 
+    "DFADamage": 95, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 125, 
-    "DFAInstability": 125, 
+    "DFASelfDamage": 95, 
+    "DFAInstability": 95, 
     "ChassisTags": {
         "items": [
             "IntimidatingDesign", 

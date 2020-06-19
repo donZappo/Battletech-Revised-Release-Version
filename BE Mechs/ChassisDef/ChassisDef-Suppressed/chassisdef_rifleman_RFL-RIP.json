@@ -45,10 +45,10 @@
     "MeleeDamage": 55, 
     "MeleeInstability": 55, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 75, 
+    "DFADamage": 55, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 75, 
-    "DFAInstability": 75, 
+    "DFASelfDamage": 55, 
+    "DFAInstability": 55, 
     "ChassisTags": {
         "items": [
             "RangefinderSuite", 
