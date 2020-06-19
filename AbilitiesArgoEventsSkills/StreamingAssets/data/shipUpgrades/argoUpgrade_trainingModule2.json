@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule2",
         "Name" : "Advanced BattlePods",
-        "Details" : "Upgrading to more Advanced Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>30XP per day up to 20K XP and Pilots may gain the Dependable or Brave Quirks.</b></i>",
+        "Details" : "<b>• Can retrain pilots by shift-clicking on the skills tab in the Barracks.</b> \nUpgrading to more Advanced Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. <i><b>30XP per day up to 20K XP and Pilots may gain the Dependable or Brave Quirks.</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training2"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",
