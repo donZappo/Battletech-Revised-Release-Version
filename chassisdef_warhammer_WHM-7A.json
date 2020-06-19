@@ -1,0 +1,232 @@
+{
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+        },
+    },
+    "FixedEquipment": [], 
+    "Description": {
+        "Cost": 15200000, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Warhammer", 
+        "Id": "chassisdef_warhammer_WHM-7A", 
+        "Name": "Warhammer", 
+        "Details": "The 7A is an upgrade of the 6Rb variant used by SLDF Royal regiments. It has an Endo Steel internal structure and uses double heat sinksing technology that enables the PPCs to get upgraded to ER PPCs. Similar to House Davion's approach with their D variants, were replaced with more beam weaponry. The 7A equips 2 Small Pulse Lasers and 4 standard Medium Lasers in the torso sections.", 
+        "Icon": "uixTxrIcon_warhammer"
+    }, 
+    "VariantName": "WHM-7A", 
+    "StockRole": "Brawler", 
+    "YangsThoughts": "The 7A variant of this iconic mech is fearsome. Extremely thick armor gives it tremendous staying power and the capacity to vent a lot of heat ensures that whoever gets to pilot this monster will be able to constantly hurl PPC bolts at the OpFor and not even break a sweat while putting them in a world of hurt.", 
+    "PrefabIdentifier": "chrPrfMech_warhammer_BlackWidowBase-001", 
+    "PrefabBase": "warhammer", 
+    "Tonnage": 70, 
+    "InitialTonnage": 7, 
+    "weightClass": "HEAVY", 
+    "BattleValue": 6577000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 2, 
+    "Stability": 160, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 8, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 65, 
+    "MeleeInstability": 65, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 65, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 65, 
+    "DFAInstability": 65, 
+    "ChassisTags": {
+        "items": [
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_heavymech", 
+    "PathingCapDefID": "pathingdef_heavy", 
+    "HardpointDataDefID": "hardpointdatadef_warhammer", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 14, 
+            "z": 0
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 15, 
+            "z": 1
+        }, 
+        {
+            "x": 4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": -4, 
+            "y": 14, 
+            "z": 0
+        }, 
+        {
+            "x": 2.5, 
+            "y": 5, 
+            "z": 1
+        }, 
+        {
+            "x": -2.5, 
+            "y": 5, 
+            "z": 1
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 220, 
+            "MaxRearArmor": 110, 
+            "InternalStructure": 110
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": 75, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 150, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 75
+        }
+    ]
+}

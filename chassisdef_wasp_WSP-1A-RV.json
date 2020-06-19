@@ -1,0 +1,212 @@
+{
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }
+    ], 
+    "Description": {
+        "Cost": 2800000, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": "", 
+        "Model": "", 
+        "UIName": "Wasp", 
+        "Id": "chassisdef_wasp_WSP-1A-RV", 
+        "Name": "Wasp", 
+        "Details": "This approved -RV variant to the venerable WSP-1A has been a popular upgrade to bring the plentiful and long suffering design into the modern era of 'Mech combat. While extremely popular among pilots, the removal of the jump jets has limited its ability to be utilized in the role of a Scout.", 
+        "Icon": "uixTxrIcon_wasp"
+    }, 
+    "VariantName": "WSP-1A-RV", 
+    "StockRole": "Scout & Skirmisher", 
+    "YangsThoughts": "The Wasp design has always been used for general scouting and reconnaissance duty. That said, this variant aims to shift it more towards front line operations as a harasser and it is good at what it does.", 
+    "PrefabIdentifier": "chrPrfMech_waspHotD-001", 
+    "PrefabBase": "wasp", 
+    "Tonnage": 20, 
+    "InitialTonnage": 2, 
+    "weightClass": "LIGHT", 
+    "BattleValue": 1642000, 
+    "Heatsinks": 0, 
+    "TopSpeed": 120, 
+    "TurnRadius": 90, 
+    "MaxJumpjets": 2, 
+    "Stability": 100, 
+    "StabilityDefenses": [
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+    ], 
+    "SpotterDistanceMultiplier": 1, 
+    "VisibilityMultiplier": 1, 
+    "SensorRangeMultiplier": 1, 
+    "Signature": 0, 
+    "Radius": 4, 
+    "PunchesWithLeftArm": false, 
+    "AlwaysPunchIfPossible": false, 
+    "EngageRangeModifier": 0, 
+    "MeleeDamage": 15, 
+    "MeleeInstability": 15, 
+    "MeleeToHitModifier": 0, 
+    "DFADamage": 15, 
+    "DFAToHitModifier": 0, 
+    "DFASelfDamage": 15, 
+    "DFAInstability": 15, 
+    "ChassisTags": {
+        "items": [
+            "IntegratedCockpit", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "MechPartMax": 0, 
+    "MovementCapDefID": "movedef_lightmech", 
+    "PathingCapDefID": "pathingdef_light", 
+    "HardpointDataDefID": "hardpointdatadef_wasp", 
+    "LOSSourcePositions": [
+        {
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
+        }
+    ], 
+    "LOSTargetPositions": [
+        {
+            "x": 0, 
+            "y": 10, 
+            "z": 0.5
+        }, 
+        {
+            "x": -2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": 2.5, 
+            "y": 8, 
+            "z": -0.5
+        }, 
+        {
+            "x": -1.5, 
+            "y": 3, 
+            "z": 0.5
+        }, 
+        {
+            "x": 1.5, 
+            "y": 3, 
+            "z": 0.5
+        }
+    ], 
+    "MechPartCount": 0, 
+    "Locations": [
+        {
+            "Location": "Head", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 4, 
+            "MaxArmor": 45, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 16
+        }, 
+        {
+            "Location": "LeftArm", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 30, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 15
+        }, 
+        {
+            "Location": "LeftTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": 25, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "CenterTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 60, 
+            "MaxRearArmor": 30, 
+            "InternalStructure": 30
+        }, 
+        {
+            "Location": "RightTorso", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 50, 
+            "MaxRearArmor": 25, 
+            "InternalStructure": 25
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 30, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 15
+        }, 
+        {
+            "Location": "LeftLeg", 
+            "Hardpoints": [
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+            ], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }, 
+        {
+            "Location": "RightLeg", 
+            "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 6, 
+            "MaxArmor": 40, 
+            "MaxRearArmor": -1, 
+            "InternalStructure": 20
+        }
+    ]
+}
