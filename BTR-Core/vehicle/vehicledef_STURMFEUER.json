@@ -1,15 +1,15 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_STURMFEUR",
-      "Name" : "SturmFeur",
+      "Id" : "vehicledef_STURMFEUER",
+      "Name" : "SturmFeuer",
       "Details" : "",
       "Icon" : "",
       "Cost" : 993,
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_STURMFEUR",
+   "ChassisID" : "vehiclechassisdef_STURMFEUER",
    "Locations" : [
 		{
 			"Location" : "Front",
