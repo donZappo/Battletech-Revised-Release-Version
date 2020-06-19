@@ -63,10 +63,10 @@
     "MeleeDamage": 45, 
     "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 50, 
+    "DFADamage": 45, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 50, 
-    "DFAInstability": 50, 
+    "DFASelfDamage": 45, 
+    "DFAInstability": 45, 
     "ChassisTags": {
         "items": [
             "HeavyPlatform", 
