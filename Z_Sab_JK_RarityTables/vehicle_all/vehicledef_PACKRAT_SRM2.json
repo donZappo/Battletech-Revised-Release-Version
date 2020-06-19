@@ -1,6 +1,7 @@
 {
     "VehicleTags": {
         "items": [
+            "BLACKLISTED",
             "unit_vehicle", 
             "unit_dlc",  
             "unit_light",

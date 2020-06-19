@@ -2,6 +2,7 @@
     "VehicleTags": {
         "items": [
             "unit_vehicle",  
+            "BLACKLISTED",
             "unit_vehicle_apc", 
             "unit_light",
             "unit_wheels", 

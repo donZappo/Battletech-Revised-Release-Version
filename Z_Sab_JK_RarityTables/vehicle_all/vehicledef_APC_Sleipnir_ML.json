@@ -1,7 +1,8 @@
 {
     "VehicleTags": {
         "items": [
-            "unit_vehicle",  
+            "unit_vehicle",
+            "BLACKLISTED",  
             "unit_vehicle_apc", 
             "unit_medium",
             "unit_wheels", 

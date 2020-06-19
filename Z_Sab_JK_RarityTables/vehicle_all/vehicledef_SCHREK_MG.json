@@ -1,6 +1,7 @@
 {
     "VehicleTags": {
         "items": [
+            "BLACKLISTED",
             "unit_vehicle",    
             "unit_assault",
             "unit_tracks",  
