@@ -45,10 +45,10 @@
     "MeleeDamage": 30, 
     "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 45, 
+    "DFADamage": 30, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 45, 
-    "DFAInstability": 45, 
+    "DFASelfDamage": 30, 
+    "DFAInstability": 30, 
     "ChassisTags": {
         "items": [
             "mr-resize-0.95-0.95-0.95", 

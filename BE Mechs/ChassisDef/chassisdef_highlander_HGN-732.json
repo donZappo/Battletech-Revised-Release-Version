@@ -50,10 +50,10 @@
     "MeleeDamage": 85, 
     "MeleeInstability": 85, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 115, 
+    "DFADamage": 85, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 57.5, 
-    "DFAInstability": 115, 
+    "DFASelfDamage": 85.5, 
+    "DFAInstability": 85, 
     "ChassisTags": {
         "items": [
             "chassis_ferro", 
