@@ -62,10 +62,10 @@
     "MeleeDamage": 35, 
     "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 50, 
+    "DFADamage": 35, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 50, 
-    "DFAInstability": 50, 
+    "DFASelfDamage": 35, 
+    "DFAInstability": 35, 
     "ChassisTags": {
         "items": [
             "Claustrophobic", 
