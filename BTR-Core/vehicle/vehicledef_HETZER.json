@@ -84,7 +84,14 @@
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
-      }
+      },
+      {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engineslots_ICE_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	  }
    ],
    "MinAppearanceDate": "2722-01-01T00:00:00Z"
 }
