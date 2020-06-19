@@ -139,5 +139,10 @@
 	  "Path": "DesignMasks",
 	  "AddToDB":true
 	},
+	{
+		"Type": "PathingCapabilitiesDef",
+		"Path": "PathingDef",
+		"AddToDB": true
+	},
 ]
 }
