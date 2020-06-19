@@ -45,10 +45,10 @@
     "MeleeDamage": 95, 
     "MeleeInstability": 95, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 100, 
+    "DFADamage": 95, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 100, 
-    "DFAInstability": 50, 
+    "DFASelfDamage": 95, 
+    "DFAInstability": 95, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"
