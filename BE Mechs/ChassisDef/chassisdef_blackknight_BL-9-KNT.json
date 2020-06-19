@@ -45,10 +45,10 @@
     "MeleeDamage": 70, 
     "MeleeInstability": 70, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 95, 
+    "DFADamage": 70, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 95, 
-    "DFAInstability": 95, 
+    "DFASelfDamage": 70, 
+    "DFAInstability": 70, 
     "ChassisTags": {
         "items": [
             "chassis_endo", 
