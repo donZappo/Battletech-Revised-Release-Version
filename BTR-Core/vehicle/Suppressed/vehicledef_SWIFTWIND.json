@@ -11,9 +11,9 @@
    },
    "ChassisID" : "vehiclechassisdef_SWIFTWIND",
    "VehicleTags": {
-      "items": [
-		 "BLACKLISTED"
-      ],
+        "items" : [
+			"BLACKLISTED"
+        ],
       "tagSetSourceFile": ""
    },
    "Locations" : [

@@ -1,0 +1,97 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_HETZER",
+      "Name" : "Hetzer",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 564,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_HETZER",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_medium",
+         "unit_wheels",
+		 "unit_release"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 155,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 155,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 115,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 115,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 115,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 115,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 111,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 111,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_Autocannon_AC20_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engineslots_ICE_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	  }
+   ],
+   "MinAppearanceDate": "2722-01-01T00:00:00Z"
+}

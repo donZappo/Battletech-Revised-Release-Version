@@ -134,6 +134,10 @@
       "Type":"MovementCapabilitiesDef",
       "Path":"movement",
       "AddToDB":true
-   }
+   },
+	{ "Type": "DesignMaskDef", 
+	  "Path": "DesignMasks",
+	  "AddToDB":true
+	},
 ]
 }
