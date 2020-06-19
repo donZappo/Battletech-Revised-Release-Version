@@ -45,10 +45,10 @@
     "MeleeDamage": 20, 
     "MeleeInstability": 20, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 25, 
+    "DFADamage": 20, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 25, 
-    "DFAInstability": 25, 
+    "DFASelfDamage": 20, 
+    "DFAInstability": 20, 
     "ChassisTags": {
         "items": [
             "HighPrecisionLaserTargeting", 
