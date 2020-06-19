@@ -1,143 +1,166 @@
 {
-	"Name": "BTR-Core",
-	"Author": "XSNomad, Vengefire, donZappo",
-	"Version" : "2.0-BETA",
-
-	"Enabled": true,
-	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer"],
-	"CustomResourceTypes": ["MEBonusDescriptions", "MECriticalEffects", "CCCategories", "CCDefaults", "CCTagRestrictions", "CustomSVGIcon"],
-	"DataAddendumEntries":[ 
-		{ 
-            "name":"BattleTech.AmmoCategoryEnumeration",
-            "path":"AmmoCategory.json"
-        },
-		{
-			"name":"BattleTech.FactionEnumeration",
-			"path":"Faction.json"
-		}
-    ],
-	"DLL": "BTR_Core.dll",
-	
-	"Settings": {
-		"IsFriendlyBugSuppression" : false,
-		"UpgradeDegradedOpFor" : false,
-		"JumpStopsCalledShot" : true,
-		"TacticsForJumpedCS" : 10,
-		//** UpgradePilots matches pilots to their role more accurately.
-		"UpgradePilots" : true,
-		//** Set to false as it is covered by IRTweaks as well.
-		"ShowAllArgoUpgrades" : false,
-		//** Multiply heat from COILs by evasive pips. Required for proper heat from multiple shots from evasive pips. 
-		"COIL_Heat_Multiply_EP" : true,
-		"Tagged_Called_Shots" : true,
-		//** CAC appears to disable melee multipliers against turrets and vehicles. This restores that functionality.
-		"correctMeleeMultipliers" : true,
-		
-		//** UpgradeItems will upgrade any item tagged with "component_type_stock"
-		"UpgradeItems" : true,
-		"EliteRareUpgradeChance" : -7,
-		"VeryRareUpgradeChance" : -3.5,
-		"RareUpgradeChance" : 0,
-		"UpgradeChanceDivisor" : 20,
-		"EliteRareUpgradeLevel" : [ 7 , 8 ],
-		"VeryRareUpgradeLevel" : [ 5 , 6 ],
-		"RareUpgradeLevel" : [ 3, 4 ],
-		
-		"EliteRareWeaponChance" : -7,
-		"VeryRareWeaponChance" : -3.5,
-		"RareWeaponChance" : 0,
-		"WeaponChanceDivisor" : 10,
-		"EliteRareWeaponLevel" : [ 7, 8 ],
-		"VeryRareWeaponLevel" : [ 5 , 6 ],
-		"RareWeaponLevel" : [ 3, 4 ],
-		
-		"Debug" : false,
-	},
-	"Manifest":[
-   {
-      "Type":"AdvancedJSONMerge",
-      "Path":"AdvancedJSONMerge",
-      "ShouldMergeJSON":false
+   "Name":"BTR-Core",
+   "Author":"XSNomad, Vengefire, donZappo",
+   "Version":"2.0-BETA",
+   "Enabled":true,
+   "Hidden":true,
+   "DependsOn":[
+      "CustomComponents",
+      "MechEngineer"
+   ],
+   "CustomResourceTypes":[
+      "MEBonusDescriptions",
+      "MECriticalEffects",
+      "CCCategories",
+      "CCDefaults",
+      "CCTagRestrictions",
+      "CustomSVGIcon"
+   ],
+   "DataAddendumEntries":[
+      {
+         "name":"BattleTech.AmmoCategoryEnumeration",
+         "path":"AmmoCategory.json"
+      },
+      {
+         "name":"BattleTech.FactionEnumeration",
+         "path":"Faction.json"
+      }
+   ],
+   "DLL":"BTR_Core.dll",
+   "Settings":{
+      "IsFriendlyBugSuppression":false,
+      "UpgradeDegradedOpFor":false,
+      "JumpStopsCalledShot":true,
+      "TacticsForJumpedCS":10,
+      "UpgradePilots":true,
+      "ShowAllArgoUpgrades":false,
+      "COIL_Heat_Multiply_EP":true,
+      "Tagged_Called_Shots":true,
+      "correctMeleeMultipliers":true,
+      "UpgradeItems":true,
+      "EliteRareUpgradeChance":-7,
+      "VeryRareUpgradeChance":-3.5,
+      "RareUpgradeChance":0,
+      "UpgradeChanceDivisor":20,
+      "EliteRareUpgradeLevel":[
+         7,
+         8
+      ],
+      "VeryRareUpgradeLevel":[
+         5,
+         6
+      ],
+      "RareUpgradeLevel":[
+         3,
+         4
+      ],
+      "EliteRareWeaponChance":-7,
+      "VeryRareWeaponChance":-3.5,
+      "RareWeaponChance":0,
+      "WeaponChanceDivisor":10,
+      "EliteRareWeaponLevel":[
+         7,
+         8
+      ],
+      "VeryRareWeaponLevel":[
+         5,
+         6
+      ],
+      "RareWeaponLevel":[
+         3,
+         4
+      ],
+      "Debug":false
    },
-   {
-      "Type":"MEBonusDescriptions",
-      "Path":"MEBonusDescriptions",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"MECriticalEffects",
-      "Path":"MECriticalEffects",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"CCCategories",
-      "Path":"CCCategories",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"CCTagRestrictions",
-      "Path":"CCTagRestrictions",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"CCDefaults",
-      "Path":"CCDefaults",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"UpgradeDef",
-      "Path":"UpgradeDef",
-      "AddToDB":true
-   },
-   {
-      "Type":"HeatSinkDef",
-      "Path":"HeatSinkDef",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"ItemCollectionDef",
-      "Path":"ItemCollectionDef",
-      "ShouldMergeJSON":false
-   },
-   {
-      "Type":"WeaponDef",
-      "Path":"WeaponDef",
-      "AddToDB":true
-   },
-   {
-      "Type":"JumpJetDef",
-      "Path":"UpgradeDef/jumpjets",
-      "AddToDB":true
-   },
-   {
-      "Type":"TurretDef",
-      "Path":"turret",
-      "AddToDB":true
-   },
-   {
-      "Type":"TurretChassisDef",
-      "Path":"turretChassis",
-      "AddToDB":true
-   },
-   {
-      "Type":"VehicleDef",
-      "Path":"vehicle",
-      "AddToDB":true
-   },
-   {
-      "Type":"VehicleChassisDef",
-      "Path":"vehicleChassis",
-      "AddToDB":true
-   },
-   {
-      "Type":"MovementCapabilitiesDef",
-      "Path":"movement",
-      "AddToDB":true
-   },
-	{ "Type": "DesignMaskDef", 
-	  "Path": "DesignMasks",
-	  "AddToDB":true
-	},
-]
+   "Manifest":[
+      {
+         "Type":"AdvancedJSONMerge",
+         "Path":"AdvancedJSONMerge",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"MEBonusDescriptions",
+         "Path":"MEBonusDescriptions",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"MECriticalEffects",
+         "Path":"MECriticalEffects",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"CCCategories",
+         "Path":"CCCategories",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"CCTagRestrictions",
+         "Path":"CCTagRestrictions",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"CCDefaults",
+         "Path":"CCDefaults",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"UpgradeDef",
+         "Path":"UpgradeDef",
+         "AddToDB":true
+      },
+      {
+         "Type":"HeatSinkDef",
+         "Path":"HeatSinkDef",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"ItemCollectionDef",
+         "Path":"ItemCollectionDef",
+         "ShouldMergeJSON":false
+      },
+      {
+         "Type":"WeaponDef",
+         "Path":"WeaponDef",
+         "AddToDB":true
+      },
+      {
+         "Type":"JumpJetDef",
+         "Path":"UpgradeDef/jumpjets",
+         "AddToDB":true
+      },
+      {
+         "Type":"TurretDef",
+         "Path":"turret",
+         "AddToDB":true
+      },
+      {
+         "Type":"TurretChassisDef",
+         "Path":"turretChassis",
+         "AddToDB":true
+      },
+      {
+         "Type":"VehicleDef",
+         "Path":"vehicle",
+         "AddToDB":true
+      },
+      {
+         "Type":"VehicleChassisDef",
+         "Path":"vehicleChassis",
+         "AddToDB":true
+      },
+      {
+         "Type":"MovementCapabilitiesDef",
+         "Path":"movement",
+         "AddToDB":true
+      },
+      {
+         "Type":"DesignMaskDef",
+         "Path":"DesignMasks",
+         "AddToDB":true
+      },
+      {
+         "Type":"PathingCapabilitiesDef",
+         "Path":"PathingDef"
+      }
+   ]
 }

@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_STURMFEUER",
+	"MovementCapDefID" : "movedef_STURMFEUR",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_lrm",
 	"PrefabIdentifier" : "chrPrfVhcl_lrm",

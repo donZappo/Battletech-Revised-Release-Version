@@ -20,7 +20,9 @@
 	  "FYLS [ERROR] ERROR!!! breakdown of Universal Modifier didn't match actual Universal Modifier. Check TargetingRules!",
 	  "FYLS [ERROR] Exception caught processing achievement:",
 	  "FYLS [ERROR] Could not find bonus description",
-	  "FYLS [ERROR] invalid handle"
+	  "FYLS [ERROR] invalid handle",
+	  "FYLS [ERROR] Google.Protobuf.InvalidProtocolBufferException: Protocol message contained an invalid tag (zero).",
+	  "FYLS [ERROR] Unable to use existing cloud settings from save managers"
     ],
     "preserveFullLog": true
   }
