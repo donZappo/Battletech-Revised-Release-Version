@@ -177,22 +177,6 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": null
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": null
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": null
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": null
                 }
             ], 
             "Tonnage": 0, 

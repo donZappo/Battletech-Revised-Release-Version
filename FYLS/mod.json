@@ -22,7 +22,20 @@
 	  "FYLS [ERROR] Could not find bonus description",
 	  "FYLS [ERROR] invalid handle",
 	  "FYLS [ERROR] Google.Protobuf.InvalidProtocolBufferException: Protocol message contained an invalid tag (zero).",
-	  "FYLS [ERROR] Unable to use existing cloud settings from save managers"
+	  "FYLS [ERROR] Unable to use existing cloud settings from save managers",
+	  "FYLS [ERROR] Duplicate GUID found in Reference Container:",
+	  "FYLS [ERROR] AC/2 + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] Twin S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] AC/5 + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] AC/2 WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] L Laser WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] AC/10 WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] L Laser + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] Twin S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  
+	  
     ],
     "preserveFullLog": true
   }

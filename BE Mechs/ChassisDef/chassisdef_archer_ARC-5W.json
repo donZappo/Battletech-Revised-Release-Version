@@ -157,22 +157,6 @@
                 {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "NotSet"
                 }
             ], 
             "Tonnage": 0, 
