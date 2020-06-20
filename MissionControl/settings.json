@@ -5,7 +5,7 @@
   "DisableIfFlashpointContract": true,
   "RandomSpawns": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort" ]
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort", "AmbushConvoy"]
   },
   "HotDrop": {
     "Enable": true,
