@@ -143,6 +143,20 @@
          "Count" : 0,
 		 "Weight" : 5
       },
+      {
+         "ID" : "Gear_Actuator_Friedhof_Cronos",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
+      {
+         "ID" : "Gear_Actuator_Friedhof_Colossus",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 5
+      },
 	  {
          "ID" : "Gear_Actuator_Pitban_Kangaroo",
          "Type" : "Upgrade",

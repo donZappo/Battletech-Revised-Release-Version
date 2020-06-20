@@ -32,6 +32,13 @@
          "Count" : 0,
 		 "Weight" : 3
       },
+	  {
+         "ID" : "emod_engineslots_light_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
       {
          "ID" : "Gear_HeatSink_Generic_Bulk-Bank",
          "Type" : "HeatSink",

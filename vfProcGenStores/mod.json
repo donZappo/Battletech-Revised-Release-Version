@@ -169,7 +169,7 @@
         }
       ],
       "PlanetTagModifiers": [
-        {
+		{
           "Tag": "planet_pop_none",
           "ChanceModifier": 0.5,
           "QuantityModifier": 0.5,
