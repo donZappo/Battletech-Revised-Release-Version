@@ -7,6 +7,7 @@
     "Author": "donZappo",
     "Website": "https://forum.paradoxplaza.com/forum/index.php?threads/modpack-dz_consolidated_company_commander.1099514/",
     "Contact": "",
+	"DependsOn": ["cFixes"],
 
     "DLL": "AbilitiesAndSkillsOverhaul.dll",
 	

@@ -1,77 +1,78 @@
 {
-    "Name": "IRTweaks",
-    "Enabled": true,
-    "Version": "0.6.3",
-    "Description": "Miscellaneous Tweaks and Fixes",
-    "Author": "IceRaptor",
-    "Website": "https://github.com/IceRaptor/IRTweaks",
-    "Contact": "",
-    "DLL": "IRTweaks.dll",
-    "DependsOn" : [ "IRBTModUtils" ],
-    "Settings": {
-        "Debug" : true,
-        "Trace" : false,
-        "Fixes" : {
-            "BulkPurchasing" : true,
-            "CombatLog" : false,
-            "DisableCampaign" : true,
-            "DisableCombatSaves" : true,
-            "ExtendedStats" : true,
-            "FlexibleSensorLock" : true,
-            "MultiTargetStat" : false,
-            "PainTolerance" : true,
-            "PathfinderTeamFix" : true,
-            "PreventHeadShots" : false,
-            "RandomStartByDifficulty" : false,
-            "ReduceSaveCompression" : true,
-            "ShowAllArgoUpgrades" : true,
-            "SkirmishAlwaysUnlimited" : true,
-            "SkirmishReset" : false,
-            "SkipDeleteSavePopup" : true,
-            "SpawnProtection" : true,
-            "StreamlinedMainMenu" : true,
-            "WeaponTooltip" : true,
-			"OneShotDamagePerPallet" : true,
-        },
-        "Abilities" : {
-            "MultiTargetId" : ""
-        },
-        "Combat" : {
-            "PilotAttributesMax" : 14,
-            "CalledShot" : {
-                "Modifier" : 0,
-                "PilotTags" : { 
-                    "pilot_drunk": 0,
-                    "pilot_reckless" : 0,
-                    "pilot_assassin" : 0
-                }
-            },
-            "FlexibleSensorLock" : {
-                "FreeActionWithAbility" : true,
-                "AbilityId" : "AbilityDefT8A"
-            },
-            "PainTolerance" : {
-                "ResistPerGuts" : 10,
-                "PenaltyPerHeadDamage" : 5,
-                "PenaltyPerAmmoExplosionRatio" : 1,
-                "PenaltyPerHeatDamageInjuryRatio" : 1,
-                "KnockdownDamage" : 6,
-                "ShutdownDamage" : 12, 
-                "TorsoDestroyedDamage" : 10,
-                "HeadHitArmorOnlyMulti" : 0.5
-            },
-            "SpawnProtection" : {
-                "ApplyGuard" : true,
-                "EvasionPips" : 0,
-                "ApplyToEnemies" : true,
-                "ApplyToAllies" : true,
-                "ApplyToNeutrals" : true,
-                "ApplyToReinforcements" : true
-            }
-        },
-        "Store" : {
-            "QuantityOnShift" : 5,
-            "QuantityOnControl" : 20
+	"Name": "IRTweaks",
+	"Enabled": true,
+	"Hidden": true,
+	"Version": "0.6.8",
+	"Description": "Miscellaneous Tweaks and Fixes",
+	"Author": "IceRaptor",
+	"Website": "https://github.com/IceRaptor/IRTweaks",
+	"Contact": "",
+	"DLL": "IRTweaks.dll",
+	"DependsOn": [ "IRBTModUtils", "Custom Ammo Categories" ],
+	"Settings": {
+		"Debug": true,
+		"Trace": false,
+		"Fixes": {
+			"AlternateMechNamingStyle": false,
+            "BraceOnMeleeWithJuggernaut" : false,
+			"BulkPurchasing": true,
+			"CombatLog": false,
+			"DisableCampaign": true,
+			"DisableCombatSaves": true,
+            "DisableMPHashCalculation" : true,
+			"ExtendedStats": true,
+			"FlexibleSensorLock": true,
+            "MechbayLayout" : true,
+			"MultiTargetStat": false,
+			"PainTolerance": true,
+			"PathfinderTeamFix": true,
+			"PreventHeadShots": false,
+			"RandomStartByDifficulty": false,
+			"ReduceSaveCompression": true,
+			"ShowAllArgoUpgrades": true,
+            "SimGameDifficultyLabelsReplacer" : false,
+			"SkirmishAlwaysUnlimited": true,
+			"SkirmishReset": false,
+			"SkipDeleteSavePopup": true,
+			"SpawnProtection": true,
+			"StreamlinedMainMenu": true,
+			"WeaponTooltip": true
+		},
+		"Abilities": {
+            "FlexibleSensorLockId": "AbilityDefT8A",
+            "JuggernautId" : "",
+			"MultiTargetId": ""
+		},
+		"Combat": {
+			"FlexibleSensorLock": {
+				"FreeActionWithAbility": true
+			},
+			"PainTolerance": {
+				"ResistPerGuts": 10,
+				"PenaltyPerHeadDamage": 5,
+				"PenaltyPerAmmoExplosionRatio": 1,
+				"PenaltyPerHeatDamageInjuryRatio": 1,
+				"KnockdownDamage": 6,
+				"ShutdownDamage": 12,
+				"TorsoDestroyedDamage": 10,
+				"HeadHitArmorOnlyMulti": 0.5
+			},
+			"SpawnProtection": {
+				"ApplyGuard": true,
+				"EvasionPips": 0,
+				"ApplyToEnemies": true,
+				"ApplyToAllies": true,
+				"ApplyToNeutrals": true,
+				"ApplyToReinforcements": true
+			}
+		},
+		"Store": {
+			"QuantityOnShift": 5,
+			"QuantityOnControl": 20
+		},
+        "SimGameDifficultyStrings" : {
+            "DESCRIPTION" : "Overall Difficulty",
+            "LABEL" : "Difficulty"
         }
-    }
+	}
 }

@@ -5,7 +5,9 @@
     "Author": "vengefire, don Zappo",
     "Website": "",
     "Contact": "fakeemail@fakeemail.com",
-	"DependsOn": [],
+	"DependsOn": [
+		"cFixes"
+	],
 	"ConflictsWith": [],   
     
     "Manifest": [

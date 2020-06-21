@@ -5,7 +5,7 @@
 
 	"Enabled": true,
 	"Hidden": true,
-	"DependsOn": ["CustomComponents", "MechEngineer", "BTR-Core"],
+	"DependsOn": ["CustomComponents", "MechEngineer", "BTR-Core", "cFixes"],
 	"Manifest": [
     {
       "Type": "ChassisDef",

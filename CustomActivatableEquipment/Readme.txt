@@ -40,7 +40,8 @@ AI related mod settings
                                             + <count of destroyed legs> * <LegAbsenceStoodUpMod>
                                     if roll value less than stand chance mech starts normally, if not mech will not stand up acting same as if you press "done with mech".
                               NOTE! You can use CAEStoodUpRollMod and CAEArmAbsenceStoodUpMod actors statistic values to control stand up roll per chassis/mech
-  "unaffectedByHeadHitStatName": "unaffectedByHeadHit" - unit statistic names if tits value set true at runtime mech will be unaffected by head hits
+  "unaffectedByHeadHitStatName": "unaffectedByHeadHit" - unit statistic names if this value is set true at runtime mech will be unaffected by head hits
+  "equipmentFlashFailChance": 0.1 if component is active currentlly and its fail chance more than this value its slot will flash red.
 -----------------------------------------------------------------------------------------------------------------------                              
   NOT NEEDED ANY MORE. KEEPED FOR HISTORICAL REASONS.
   "auraUpdateFix": "Position" - type of fixing updating aura while unit movment.
@@ -300,6 +301,31 @@ AI related mod settings
 								If you want to keep unit statistic after component/mech destruction you have to set "effectsPersistAfterDestruction" : true
 								It is really neaded by components altering explosion stats cause do mech destruction they returned to default state which is usualy unwanted
       "offlineStatusEffects": [], - effects applying on component switch off. They removed if component will be switched on. If component have no ActiveByDefault - applying on combat start
+			"AutoActivateOnIncomingHeat":0, - if > 0 component will be activated on incoming heat
+			"incomingHeatActivationType": "Threshhold", - type of activation, controls how AutoActivateOnIncomingHeat will be processed 
+                                                    possible values 
+                                         Threshhold - component will be activated if heat from whole attack will be greater than AutoActivateOnIncomingHeat
+                                         Single - component will be activated if heat from single source (one weapon if attacked) will be greater than AutoActivateOnIncomingHeat
+                                         Level - component will be activated if (heat from whole attack)/(unit max heat) will be greater than AutoActivateOnIncomingHeat
+			
+      "ActivateOnDamageToMechLocations":["CenterTorso","CenterTorsoRear"], - list of locations sensible to damage for activation of this component (installed in mech)
+			"ActivateOnDamageToVehicleLocations":["Turret","Rear"], - list of locations sensible to damage for activation of this component (installed in vehicle)
+                                                              turrets have only one location so all turret locations is sensible
+			"ActivateOnDamageToInstalledLocation":false - if true location component installed is sensible too (for mechs both front and rear locations used)
+      
+			"AutoActivateOnArmorDamage":0, - if > 0 component will be activated on incoming damage to armor
+			"AutoActivateOnStructureDamage":0, - if > 0 component will be activated on incoming damage to structure
+			"damageActivationType: "Threshhold", type of activation, controls how AutoActivateOnArmorDamage and/or AutoActivateOnStructureDamage will be processed 
+               Threshhold - component will be activated if damage to any sensible location from whole attack will be greater 
+                             than AutoActivateOnArmorDamage(to armor damage) or AutoActivateOnStructureDamage(to structure damage)
+               Single - component will be activated if damage to any sensible location from single source 
+                  (one pallet if attacked) will be greater than AutoActivateOnArmorDamage(to armor) or AutoActivateOnStructureDamage(to structure)
+               Level - component will be activated if (damage to sensible location from whole attack)/(max armor/structure for location) 
+                               than AutoActivateOnArmorDamage(to armor damage) or AutoActivateOnStructureDamage(to structure damage)
+      some notes on mechanic: damage counting performed immediately after every attack sequence (useful for direct attacks), 
+                              move/jump sequence (for landmines damage), at start of round (for any other sources)
+                              after every activations damage calculation all damage info resets. This means if unit attacked many times per round damage calculations 
+                              will be performed for every attack independently 
 			"Repair":{ 
 				"InnerStructure":10, - points of inner structure to repair (destroyed location can't be repaired)
 				"Armor":15, - points of armor to repair (destroyed location can't be repaired)
@@ -313,6 +339,7 @@ AI related mod settings
                          Supported value Structure
 				"AffectInstalledLocation":true, - if true location where component installed will be added to list. 
                           NOTE: for meches both front and rear location will be added to affecte4d list (if available for location)
+        "TurnsSinceDamage": 1, - if this value >= 0 and location has been damaged more than this value rounds ago - no repair performed
 				"repairTrigger":{  - repair triggers
 					"OnActivation":false, - if true repairing will be committed on component on component activation
 					"OnDamage":"InstalledLocation", - control on damage repair activation

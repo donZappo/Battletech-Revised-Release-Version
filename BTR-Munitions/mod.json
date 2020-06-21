@@ -4,7 +4,8 @@
   "Hidden": true,
   "Version": "0.1",
   "DependsOn": [
-    "Custom Ammo Categories"
+    "Custom Ammo Categories",
+	"cFixes"
   ],
   "ConflictsWith": [],
   "Description": "",
