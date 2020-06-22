@@ -116,9 +116,9 @@
     },
   {
       "Bonus": "ThroughArmorDamage",
-      "Short": "{0} TAD",
-      "Long": "{0} TAD",
-      "Full": "{0} Damage dealt directly to Internals"
+      "Short": "+{0} Str. Dmg.",
+      "Long": "+{0} Structure Damage",
+      "Full": "+{0} Damage dealt directly to Internals"
     },
 	{
       "Bonus": "TAC",
@@ -813,9 +813,9 @@
     },
     {
       "Bonus": "WeaponDamage",
-      "Short": "{0} Weapon Dmg",
-      "Long": "{0} Weapon Damage",
-      "Full": "{0} weapon damage dealt"
+      "Short": "+{0} Weapon Dmg",
+      "Long": "+{0} Weapon Damage",
+      "Full": "+{0} weapon damage dealt"
     },
     {
       "Bonus": "EnergyWeaponDamage",
@@ -867,9 +867,9 @@
     },
     {
       "Bonus": "GaussDamage",
-      "Short": "{0} Gauss Dmg",
-      "Long": "{0} Gauss Damage",
-      "Full": "{0} gauss rifle damage"
+      "Short": "+{0} Gauss Dmg",
+      "Long": "+{0} Gauss Damage",
+      "Full": "+{0} Gauss Rifle Damage"
     },
     {
       "Bonus": "ACDamage",

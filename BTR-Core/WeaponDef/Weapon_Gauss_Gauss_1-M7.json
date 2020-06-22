@@ -3,6 +3,7 @@
 		"ComponentExplosion": { "ExplosionDamage": 10 },
 		"BonusDescriptions": {
 			"Bonuses": [
+				"GaussDamage: 7",
 				"WillExplode: 10"
 			]
 		},
