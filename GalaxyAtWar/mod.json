@@ -202,7 +202,7 @@
 			"AttackDefend" : 1.6,
 			"SoloDuel" : 0.4,
 			"DuoDuel" : 0.4,
-			"Blackout" : 1.0
+			"Blackout" : 1.6
 			},
 		"LogoNames": {
 			"Davion" : "davionLogo",

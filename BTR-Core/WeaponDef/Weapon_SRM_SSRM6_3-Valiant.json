@@ -46,7 +46,7 @@
   "ComponentSubType" : "Weapon",
   "PrefabIdentifier" : "SRM6",
   "BattleValue" : 0,
-  "InventorySize" : 1,
+  "InventorySize" : 2,
   "Tonnage" : 4.3,
   "AllowedLocations" : "All",
   "DisallowedLocations" : "All",
