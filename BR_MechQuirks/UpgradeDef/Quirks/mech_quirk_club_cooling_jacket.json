@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"MeleeDamage: 25"
+				"MeleeDamage: 2x"
       ]
         },
 		"Flags": {
@@ -71,14 +71,14 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "0.0",
+                "modValue" : "25.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
                 "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+                "targetWeaponSubType" : "Melee"
             },
             "nature" : "Buff"
         }

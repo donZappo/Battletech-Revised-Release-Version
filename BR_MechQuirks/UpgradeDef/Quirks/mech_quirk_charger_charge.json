@@ -72,15 +72,15 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
-                "operation" : "Float_Add",
-                "modValue" : "0.0",
+                "operation" : "Float_Multiply",
+                "modValue" : "2.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
                 "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
+                "targetWeaponSubType" : "Melee"
             },
             "nature" : "Buff"
         }
