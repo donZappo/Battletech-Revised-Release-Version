@@ -21,7 +21,7 @@
         "UIName" : "Rangefinder +",
         "Id" : "Gear_Cockpit_Majesty_M_M_90KL",
         "Name" : "Majesty M M 90KL Rangefinder",
-        "Details" : "Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.\n\n<b>•Maximum 2 Injuries when ejecting: 50% chance each.",
+        "Details" : "Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.\n\n<b>•Will cause a maximum of 2 Injuries upon ejecting: 50% chance each.",
         "Icon" : "uixSvgIcon_equipment_Rangefinder"
     },
     "BonusValueA" : "+ 90m View Dist.",

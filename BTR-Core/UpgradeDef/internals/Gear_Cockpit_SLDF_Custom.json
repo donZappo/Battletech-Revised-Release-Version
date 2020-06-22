@@ -29,7 +29,7 @@
     "Id": "Gear_Cockpit_SLDF_Custom",
     "Name": "SLDF SpecOps Cockpit  ",
     "Details":
-      "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot.\n\n<b>•Maximum 1 Injuries when ejecting: 50% chance.",
+      "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot.\n\n<b>•Will cause a maximum 1 Injury upon ejecting: 50% chance.",
     "Icon": "uixSvgIcon_equipment_Comms"
   },
   "BonusValueA": "+1 Health/Morale.",
