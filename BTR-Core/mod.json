@@ -1,7 +1,7 @@
 {
    "Name":"BTR-Core",
    "Author":"XSNomad, Vengefire, donZappo",
-   "Version":"2.0.1",
+   "Version":"2.0.2-BETA",
    "Enabled":true,
    "Hidden":true,
    "DependsOn":[
@@ -29,6 +29,7 @@
    ],
    "DLL":"BTR_Core.dll",
    "Settings":{
+	  "RemoveSpottingExploit":true,
       "IsFriendlyBugSuppression":false,
       "UpgradeDegradedOpFor":false,
       "JumpStopsCalledShot":true,

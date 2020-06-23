@@ -35,7 +35,8 @@
 	  "FYLS [ERROR] S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
 	  "FYLS [ERROR] Twin S Laser + + WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
 	  "FYLS [ERROR] S Laser WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
-	  "FYLS [ERROR] UAC/5 WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:"
+	  "FYLS [ERROR] UAC/5 WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:",
+	  "FYLS [ERROR] AC/5 WeaponEffect.PlayTerrainImpactVFX had an invalid VFX name:"
 	  
 	  
     ],
