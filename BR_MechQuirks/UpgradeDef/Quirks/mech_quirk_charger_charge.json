@@ -6,7 +6,7 @@
         "BonusDescriptions": {
 			"Bonuses": [
 				"ChargerCharge",
-				"MeleeDamage: 110",
+				"MeleeDamage: 2x",
 				"FixedEngine"
       ]
         },
@@ -76,7 +76,7 @@
                 "modValue" : "2.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
+                "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
