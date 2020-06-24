@@ -2,14 +2,15 @@
     "Name": "Better AI",
     "Enabled": true,
     
-    "Version": "1.7.0.0",
+    "Version": "1.7.0.0-BTR",
     "Description": "Changes AI Behavior for a better AI experience, for BATTLETECH 1.7.0",
-    "Author": "amechwarrior",
+    "Author": "amechwarrior modified by koztaz",
     "Website": "https://github.com/BattletechModders/BetterAI",
 
     "OptionallyDependsOn": [
         "cFixes", 
-        "Z_Sab_JK_RarityTables"
+        "Z_Sab_JK_RarityTables",
+		"BE Mechs"
     ],
 
     "Manifest": [

@@ -36,6 +36,7 @@
 			"SkipDeleteSavePopup": true,
 			"SpawnProtection": true,
 			"StreamlinedMainMenu": true,
+			"UrbanExplosionsFix": false,
 			"WeaponTooltip": true
 		},
 		"Abilities": {

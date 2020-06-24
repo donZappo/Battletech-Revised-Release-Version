@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.70
             }
 	},
 	{
@@ -16,7 +16,7 @@
             "k" : "Float_ExistingTargetDamageForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.7
             }
 	},
 	{
@@ -40,106 +40,11 @@
             }
 	},
 	{
-	    /* Radius around waypoints that the lance must all be
-	       within before proceeding to next waypoint. */
-            "k" : "Float_LancePatrolRadius",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 70
-            }
-	},
-	{
-	    /* Distance beyond allies that a unit can run ahead while
-	       following a route. */
-            "k" : "Float_LanceMoveRadius",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 10
-            }
-	},
-	{
-	    /* Whether the given route should loop. SET BY MAP
-	       DATA. */
-            "k" : "Bool_PatrolShouldLoop",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
-	},
-	{
-	    /* When attacking a priority target, do not attack the
-	       priority targe if targeted within the recent target
-	       threshold number of phases. */
-            "k" : "Int_RecentTargetThresholdPhases",
-            "v" : {
-		"type" : "Int",
-		"intVal" : 11
-            }
-	},
-	{
-	    /* The "To Hit" threshold to use when attacking preferred
-	     * targets */
-            "k" : "Float_PreferredTargetToHitThreshold",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.3
-            }
-	},
-	{
-	    /* Radius (in meters) that the AI must get to a waypoint
-	       when following a route before proceeding to the next
-	       waypoint. */
-            "k" : "Float_RouteWaypointRadius",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 40
-            }
-	},
-	{
-	    /* Distance (in meters) that the AI wants to keep between
-	       units.  Used by:
-	       - PreferNoCloserThanPersonalSpaceToAlly Influence Factor
-	       - Decrowding while following routes
-	    */
-            "k" : "Float_PersonalSpaceRadius",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 8
-            }
-	},
-	{
-	    /* Should targeting this unit distract it from attacking a
-	       priority target? */
-            "k" : "Bool_ProhibitTargetingPriorityTargetsAfterBeingTargeted",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
-	},
-	{
-	    /* Percentage (0-100) of time to attack priority
-	       targets. */
-            "k" : "Float_PriorityAttackPercentage",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 100
-            }
-	},
-	{
-	    /* Percentage (0-100) of time to move towards priority
-	       targets. */
-            "k" : "Float_PriorityMovePercentage",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 100
-            }
-	}
-	{
 	    /* Influence Factor Weight for preferring moving less. */
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : 0
             }
 	},
 	{
@@ -148,7 +53,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : -1
             }
 	},
 	{
@@ -157,7 +62,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 1
             }
 	},
 	{
@@ -166,7 +71,7 @@
             "k" : "Float_SprintPreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -188,7 +93,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
 	{
@@ -197,7 +102,7 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -206,7 +111,7 @@
             "k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -216,7 +121,7 @@
             "k" : "Float_PreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 1
             }
 	},
 	{
@@ -240,30 +145,12 @@
             }
 	},
 	{
-	    /* Optimal distance to nearest hostile. (See
-	       Float_PreferOptimalDistanceToHostileFactorWeight.) */
-            "k" : "Float_OptimalHostileDistance",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 260
-            }
-	},
-	{
 	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other allies. */
             "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
-            }
-	},
-	{
-	    /* Influence Factor Weight to prefer locations close to
-	       optimal distance to other hostiles. */
-            "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0
             }
 	},
 	{
@@ -276,15 +163,6 @@
             }
 	},
 	{
-	    /* Influence Factor Weight to prefer locations close to
-	       optimal distance to other hostiles WHEN SPRINTING. */
-            "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.1
-            }
-	},
-	{
 	    /* How much heat is acceptable before being subject to "overheat" logic.
 	       0: no heat
 	       1: Heat level 1 (unused?)
@@ -293,41 +171,9 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.99
+		"floatVal" : 2.3
             }
 	},
-	{
-	    /* How much heat is acceptable before using "Vent Coolant" skill
-	       0: no heat
-	       1: Heat level 1 (unused?)
-	       2: Heat level 2
-	       3: Max heat */
-            "k" : "Float_VentCoolantHeatThreshold",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 1.2
-            }
-	},
-	{
-	    /* Minimum pilot hit points at which "Vent Coolant" skill will be used.
-               Note that a value of 2 means you can use it leaving you with a single
-               hit point, but the game prohibits burning off your last hitpoint this way. */
-            "k" : "Int_VentCoolantHealthThreshold",
-            "v" : {
-		"type" : "Int",
-		"intVal" : 1
-            }
-	},
-	{
-	    /* Boost provided to walk moves if the moving unit has the "Sure footing"
-               ability. */
-            "k" : "Float_SureFootingAbilityWalkBoost",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.1
-            }
-	},
-
 	{
 	    /* DEPRECATED */
             "k" : "Float_ThreatBattleValueRoot",
@@ -364,7 +210,7 @@
             "k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.6
+		"floatVal" : 2
             }
 	},
 	{
@@ -374,7 +220,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.4
+		"floatVal" : 2
             }
 	},
 	{
@@ -392,7 +238,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1
             }
 	},
 	{
@@ -401,7 +247,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.5
             }
 	},
 	{
@@ -410,7 +256,7 @@
             "k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -419,7 +265,7 @@
             "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -428,7 +274,7 @@
             "k" : "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.3
+		"floatVal" : -0.5
             }
 	},
 	{
@@ -437,7 +283,7 @@
             "k" : "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.3
+		"floatVal" : -0.5
             }
 	},
 	{
@@ -446,7 +292,7 @@
 	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.05
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -455,7 +301,7 @@
 	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -542,7 +388,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 30.0
+		"floatVal" : 50.0
             }
 	},
 	{
@@ -572,7 +418,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : -1
             }
 	},
 	{
@@ -599,7 +445,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 30
             }
 	},
 	{
@@ -673,7 +519,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.25
+		"floatVal" : 1
             }
 	},
 	{
@@ -683,7 +529,7 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0.5
             }
 	},
 	{
@@ -718,7 +564,7 @@
 	    "k" : "Float_ReserveBasePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 30
+		"floatVal" : 20
 	    }
 	},
 	{
@@ -728,7 +574,7 @@
 	    "k" : "Float_ReserveHostilePercentageIncrementX",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 5.0
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -738,7 +584,7 @@
 	    "k" : "Float_ReserveHostilePercentageIncrementY",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -756,7 +602,7 @@
 	    "k" : "Float_MultiTargetOverkillThreshold",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 110.0
+		"floatVal" : 130.0
 	    }
 	},
 	{
@@ -765,7 +611,7 @@
 	    "k" : "Float_PreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.6
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -774,7 +620,7 @@
 	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -794,7 +640,7 @@
 	       PreferNotLethalPositionFactor. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 150
+		"floatVal" : 200
 	    }
 	},
 	{
@@ -882,7 +728,7 @@
 	    "k" : "Float_MaxThinkSeconds",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 200.0
+		"floatVal" : 60.0
 	    }
 	},
 	{
@@ -910,7 +756,7 @@
             "k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.5
+		"floatVal" : -1.0
             }
 	},
 	{
@@ -920,7 +766,7 @@
             "k" : "Float_NonInterleavedLanceSpreadDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 140.0
+		"floatVal" : 200.0
             }
 	},
 	{
@@ -930,7 +776,7 @@
             "k" : "Float_InterleavedLanceSpreadDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 180.0
+		"floatVal" : 250.0
             }
 	},
 	{
@@ -939,7 +785,7 @@
 	    "k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.8
 	    }
 	},
 	{
@@ -948,24 +794,15 @@
 	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 1.0
 	    }
 	},
-	{
-	    /* Influence Factor Weight to prefer being far away from
-	       closest hostile. Useful for defensive moves. */
-      "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": -0.2
-      }
-    },
 	{
 	    /* Radius (in meters) to avoid sprinting within. */
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 244.0
+		"floatVal" : 230.0
 	    }
 	},
 	{
@@ -1012,7 +849,7 @@
 	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -1041,7 +878,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.5
 	    }
 	},
 	{
@@ -1049,7 +886,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.25
+		"floatVal" : 2
 	    }
 	},
 	{
@@ -1058,7 +895,7 @@
 	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
 	    }
 	},
 	{
@@ -1125,7 +962,7 @@
 	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0
+		"floatVal" : -6.0
 	    }
 	},
 	{
@@ -1216,7 +1053,7 @@
 	    "k" : "Float_RemainingLegArmorMultiplier",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 2.0
+		"floatVal" : 1.0
 	    }
 	},
 	{
@@ -1297,7 +1134,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-		}
+            }
 	},
 	{
 	    /* Fraction (0.0 - 1.0+) of a unit's heat generated in an
@@ -1317,7 +1154,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-        }
+            }
 	},
 	{
 	    /* Whether to use Bulwark actions*/
@@ -1325,7 +1162,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : false
-        }
+            }
 	},
 	{
 	    /* how much to prefer to be in 'excluded' regions. Probably negative. */
@@ -1349,7 +1186,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-        }
+            }
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1358,7 +1195,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-        }
+            }
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1367,7 +1204,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-        }
+            }
 	},
 	{
 	    /* How long to tolerate being alone, in turns. */
@@ -1375,7 +1212,7 @@
             "v" : {
 		"type" : "Int",
 		"floatVal" : 1
-        }
+            }
 	},
 	{
 	    /* How long to cool down after being alone, in turns. */
@@ -1383,7 +1220,7 @@
             "v" : {
 		"type" : "Int",
 		"floatVal" : 2
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1393,7 +1230,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1403,7 +1240,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1416,7 +1253,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1429,7 +1266,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-        }
+            }
 	},
 	{
 	    /* Whether to allow long range pathfinding when following
@@ -1473,389 +1310,16 @@
 	    "k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
 	    "v" : {
 		"type" : "Bool",
-		"boolVal" : false
-	    }
-	},
-	{
-            /* If true, drop out of long range pathfinding if we can walk to
-             * a destination with LOF to a hostile. (TODO: roll this behavior out to
-             * all encounters.)
-	     */
-
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
-		"type" : "Bool",
 		"boolVal" : true
 	    }
 	},
-	{
-            /* If true, apply "ruthless" mood to AIs that have priority
-             * targets and do not consider non-LOF destinations if destinations exist
-             * that have LOF
-	     */
-
-	    "k" : "Bool_RuthlessPriorityTargeting",
-	    "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-	    }
-	},
-    {
-            /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
-	     */
-
-	    "k" : "Bool_AllowAttack",
-	    "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-	    }
-    },
-	{
-	    /* An alerted unit will act on visibility information,
-	       closing, attacking. Non-alerted units will still follow
-	       patrol orders or movement orders. This will be set by
-	       visibility logic.
-	       For internal AI use, do not set. */
-            "k" : "Bool_Alerted",
+		{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
             "v" : {
 		"type" : "Bool",
-		"boolVal" : false
-        }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveCalculationsLastDoneForRoundNumber",
-	    "v" : {
-		"type" : "Int",
-		"intVal" : 0
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveCalculationsLastDoneForPhaseNumber",
-	    "v" : {
-		"type" : "Int",
-		"intVal" : 0
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Int_ReserveToPhaseNumber",
-	    "v" : {
-		"type" : "Int",
-		"intVal" : 0
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "String_GuardLanceGUID",
-	    "v" : {
-		"type" : "String",
-		"stringVal" : ""
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Float_GuardLanceSpeedPercent",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 100
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Float_GuardLanceTetherDistance",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "String_StayInsideRegionGUID",
-	    "v" : {
-		"type" : "String",
-		"stringVal" : ""
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "String_SensorLockedTargetGUID",
-	    "v" : {
-		"type": "String",
-                "stringVal" : ""
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Int_LastAloneRoundNumber",
-	    "v" : {
-		"type": "Int",
-                "intVal" : "-1"
-	    }
-	},
-	{
-	    /* For internal AI use, do not set. */
-	    "k" : "Int_LastNotAloneRoundNumber",
-	    "v" : {
-		"type": "Int",
-                "intVal" : "-1"
-	    }
-	},
-			{
-	    /* Weight for an influence factor that seeks to stay
-	       within ECM range of friendlies */
-		"k" : "Float_PreferFriendlyECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.75
-		}
-	},
-	{
-	    /* Weight for an influence factor that seeks to stay
-	       within ECM range of friendlies WHEN SPRINTING */
-		"k" : "Float_SprintPreferFriendlyECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.0
-		}
-	},
-	{
-	    /* Weight for an influence factor that seeks to stay
-	       within range of hostile ECM fields */
-		"k" : "Float_PreferHostileECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 100
-		}
-	},
-	{
-	    /* Weight for an influence factor that seeks to stay
-	       within range of hostile ECM fields WHEN SPRINTING */
-		"k" : "Float_SprintPreferHostileECMFields",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 100
-		}
-	},
-	{
-	    /* Weight for an influence factor that seeks to stay
-	       within range of hostile ECM fields to use Active Probe */
-		"k" : "Float_PreferActiveProbePositions",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
-		}
-	},
-	{
-	    /* Weight for an influence factor that seeks to stay
-	       within range of hostile ECM fields to use Active Probe */
-		"k" : "Float_SprintPreferActiveProbePositions",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
-		}
-	},
-	{
-	    /* Number of active probe targets before we even try to activate 
-	    active probe */
-		"k" : "Int_MinimumActiveProbeCount",
-		"v" : 
-		{
-			"type" : "Int",
-			"IntVal" : "999"
-		}
-	},
-	{
-	    /* Minimum number of stealth pips to allow for an ECM
-		ghosted mech to fire weapons */
-		"k" : "Int_MinimumECMGhostedPipsToFire",
-		"v" : 
-		{
-			"type" : "Int",
-			"IntVal" : "2"
-		}
-	},
-	{
-	    /* Enables advanced navigation behaviors only in urban biomes */
-		"k" : "Bool_EnableUrbanBiomeNavigation",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : true
-		}
-	},
-	{
-	    /* Enables advanced navigation behaviors on all biome types */
-		"k" : "Bool_EnableUrbanBiomeNavigationEverywhere",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : false
-		}
-	},
-	{
-	    /*  Description: Float to track confidence in causing structural damage. Used to gague whether we should fire our weapon
-		from a ghosted state */
-		"k" : "Float_ConfidenceInSignificantDamageWhileGhostedLevel",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.7
-		}
-	},
-	{
-	    /* When calculatiing expected damage, how much to lerp between the damage divided by number of weapons and the damage if every hit
-		was in the same location. 0 is damage divided and 1 is damage concentrated. 
-		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
-		"k" : "Float_WeaponDamageSpreadLerpValue",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.5
-		}
-	},
-	{
-	    /*  When getting the chance in causing significant damage, how much weight to give the amount of structural damage caused. */
-		"k" : "Float_StructuralDamagePercentageMultiplier",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 1
-		}
-	},
-	{
-	    /* When shooting in ghost state, lerp value to go from expected damage and max possible damage.
-		Increases with Float_GhostStateHysteresisMultiplierTurnIncrease */
-		"k" : "Float_ExpectedAndMaxDamageShootingInGhostStateLerp",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0
-		}
-	},
-	{	
-	    /* For every round the ai does not shoot in ghost state, it adds to a mutiplier that increases the confidence in causing higher damage */
-		"k" : "Float_GhostStateHysteresisMultiplierTurnIncrease",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.3
-	}
-	},
-	{	
-	    /* Enables more precise predictions about expected damage by counting weapons in range and damage reductions of the unit*/
-		"k" : "Bool_ExpectedDamageAccuracyIncrease",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : true
-		}
-	},
-	{
-	    /*Enables the long-range pathfinding to be aware of actors blocking movement in nodes globally */
-		"k" : "Bool_EnableLongRangePathfindingBeActorAware",
-		"v" : 
-		{
-			"type" : "Bool",
-			"boolVal" : true
-		}
-	},
-	{
-	    /* How close to the target region do we switch to short-range pathfinding */
-		"k" : "Float_LongRangeToShortRangeDistanceThreshold",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 10
-		}
-	},
-	{
-	    /* Weight penalty multiplier for losing the ECM counter aura when positioning. 
-		   If set to 1, it represents -Float_PreferHostileECMFields or -Float_SprintPreferHostileECMFields*/
-		"k" : "Float_PreferHostileECMFieldsPenaltyMultiplier",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 1
-		}
-	},
-	{
-	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
-		Lerp is 0 - 1, Walking to Sprinting*/
-		"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
-		"v" : 
-		{
-			"type" : "Float",
-			"floatVal" : 0.5
-		}
-	},
-	{
-	    /* Influence Factor Weight to control the desire to defend
-	       my own weak armor. */
-            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 1.5
+		"boolVal" : true
             }
 	},
-	{
-	    /* Influence Factor Weight to control the desire to defend
-	       my own weak armor WHEN SPRINTING. */
-            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 2.0
-            }
-	},
-	{
-	    /* Weight for an influence factor that seeks to maximize
-	       the firepower taken away from the enemy. */
-	    "k" : "Float_PreferHigherFirepowerTakenFromHostileFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to maximize
-	       the firepower taken away from the enemy WHEN SPRINTING
-	       (probably not useful). */
-	    "k" : "Float_SprintPreferHigherFirepowerTakenFromHostileFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to minimize
-	     * ranged to hit penalties (e.g. mineral fields). */
-	    "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to minimize
-	     * ranged to hit penalties (e.g. mineral fields). */
-	    "k" : "Float_SprintPreferLowerRangedToHitPenaltyLocationsFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.5
-	    }
-	},
-	{
-         "k" : "Float_SprintToCombatPercentage",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 100.0
-         }
     ]
 }

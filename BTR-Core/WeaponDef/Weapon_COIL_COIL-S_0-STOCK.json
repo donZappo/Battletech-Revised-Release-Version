@@ -69,7 +69,7 @@
     ],
     "tagSetSourceFile" : ""
   },
-  "FireDelayMultiplier" : 0.1,
+  "FireDelayMultiplier" : 0.5,
   "ImprovedBallistic" : true,
   "ProjectileSpeedMultiplier" : 0.1,
   "HitGenerator" : "Streak",

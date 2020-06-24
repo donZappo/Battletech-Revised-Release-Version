@@ -1,6 +1,6 @@
 ﻿{
   "Name": "CrystalClear",
-  "Version": "2.6",
+  "Version": "2.5.2",
   "Enabled": true,
   "DLL": "CrystalClear.dll",
 
@@ -14,7 +14,7 @@
     "Scanlines": "OFF",
     "DustStorms": "OFF",
     "TurnBanner": "OFF",
-    "MotionBlur": "NOTSET",
+    "MotionBlur": "OFF",
     "Shadows": "NOTSET",
     "AmbientOcclusion": "NOTSET",
     "Taa": "NOTSET",
@@ -23,7 +23,7 @@
     "HDR": "NOTSET",
     "ChromaticAberration": "NOTSET",
     "EyeAdaptation": "NOTSET",
-    "Fog": "NOTSET",
+    "Fog": "OFF",
     "ColorGrading": "NOTSET"
   }
 }

@@ -61,7 +61,7 @@
     ],
     "tagSetSourceFile" : ""
   },
-  "FireDelayMultiplier" : 0,
+  "FireDelayMultiplier" : 0.1,
   "ImprovedBallistic" : true,
   "ColorChangeRule" : "Linear",
   "HitGenerator" : "Individual",
