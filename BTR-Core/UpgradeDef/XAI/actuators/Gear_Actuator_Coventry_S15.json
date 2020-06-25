@@ -67,7 +67,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "6.0",
+                "modValue" : "10.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

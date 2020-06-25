@@ -75,7 +75,7 @@
     "GoodFaithModifier": 0.3,
     "NoFaithModifier": 0,
     "TechHiringCostPerPoint": 8000,
-    "ShopSellModifier": 0.1024,
+    "ShopSellModifier": 0.0512,
     "ShopSellDamagedModifier": 0.08,
     "ShopWarnBeforeSellingPriceMinimum": 100000,
     "MechScrapModifier": 0.08,
