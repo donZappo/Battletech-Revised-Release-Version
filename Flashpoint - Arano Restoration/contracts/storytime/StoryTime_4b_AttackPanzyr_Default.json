@@ -1316,7 +1316,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Turret",
-                        "unitDefId": "turretdef_Standard_Sniper",
+                        "unitDefId": "turretdef_Light_Sniper",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": ""
@@ -1373,7 +1373,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Turret",
-                        "unitDefId": "turretdef_Standard_Sniper",
+                        "unitDefId": "turretdef_Light_Sniper",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "Tags/UnitTags"
@@ -1529,7 +1529,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Turret",
-                        "unitDefId": "turretdef_Standard_Sniper",
+                        "unitDefId": "turretdef_Light_Sniper",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "Tags/UnitTags"

@@ -2,6 +2,16 @@
   "LancePool": {
     "ALL": ["Generic_Light_Battle_Lance", "Damaged_Light_Battle_Lance"]
   },
+  "RewardsPerLance": [
+      {
+        "Type": "ContractBonusRewardPct",
+        "Value": "0.1",
+      },
+      {
+        "Type": "ContractBonusTargetReputation",
+        "Value": "-1",
+      },
+    ],
   "Enemy": {
     "Max": 1,
     "ExcludeContractTypes": [],
