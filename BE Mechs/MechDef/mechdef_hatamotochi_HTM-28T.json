@@ -477,7 +477,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
+            "MountedLocation": "RightLeg", 
             "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
             "SimGameUID": "", 
             "ComponentDefType": "JumpJet", 
@@ -521,7 +521,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "LeftLeg", 
             "ComponentDefID": "Gear_JumpJet_Generic_Heavy", 
             "SimGameUID": "", 
             "ComponentDefType": "JumpJet", 
