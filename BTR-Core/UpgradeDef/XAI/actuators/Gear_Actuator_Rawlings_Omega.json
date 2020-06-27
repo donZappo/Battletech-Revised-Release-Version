@@ -26,7 +26,7 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 4,
+    "InventorySize" : 2,
     "Tonnage" : 1,
     "AllowedLocations" : "Legs",
     "DisallowedLocations" : "All",
