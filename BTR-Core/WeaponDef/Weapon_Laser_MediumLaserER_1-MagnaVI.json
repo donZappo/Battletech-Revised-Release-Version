@@ -17,7 +17,7 @@
   "EvasivePipsIgnored" : 0,
   "DamageVariance" : 0,
   "HeatDamage" : 1.0,
-  "AccuracyModifier" : -2,
+  "AccuracyModifier" : -1,
   "CriticalChanceMultiplier" : 1.25,
   "AOECapable" : false,
   "IndirectFireCapable" : false,
@@ -39,7 +39,7 @@
     "Details" : "An improvement upon standard Medium Lasers, Extended-Range Medium Lasers extend their effective range at the cost of considerable heat generation. Like all Lasers, ER Medium Lasers enjoy a baseline accuracy bonus over other weapons.",
     "Icon" : "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA" : "+ 1 Acc.",
+  "BonusValueA" : "+1 Acc.",
   "BonusValueB" : "",
   "ComponentType" : "Weapon",
   "ComponentSubType" : "Weapon",
