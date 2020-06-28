@@ -19,19 +19,10 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
-		{
-	    /* Weight to prefer sprinting to locations that do not
-	       have lethal amounts of expected damage */
-	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.5
-	    }
-	},
-		{
+	{
 	    /* Influence Factor Weight to prefer moving to locations
 	       where hostile fire could kill us from behind. A
 	       negative weight will invert this to avoid such
@@ -45,7 +36,7 @@
 		"floatVal" : -1
             }
 	},
-		{
+	{
 	    /* Influence Factor Weight to prefer moving to locations
 	       where hostile fire could kill us from behind WHEN
 	       SPRINTING. A negative weight will invert this to avoid
@@ -99,7 +90,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0
+		"floatVal" : 0.5
             }
 	},
 	{
@@ -108,10 +99,10 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.6
+		"floatVal" : 0.5
 	    }
 	},
-			{
+	{
 	    /* Whether the AI should always be in offensive mood. */
             "k" : "Bool_AlwaysOffensiveMood",
             "v" : {

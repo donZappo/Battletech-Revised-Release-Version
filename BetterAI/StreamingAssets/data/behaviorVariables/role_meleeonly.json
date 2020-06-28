@@ -7,7 +7,7 @@
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 12
+		"floatVal" : 10
             }
 	},
 	{
@@ -17,7 +17,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 6
+		"floatVal" : 10
             }
 	},
 	{
@@ -28,7 +28,7 @@
             "k" : "Float_MeleeDamageRatioCap",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 150
+		"floatVal" : 1000
             }
 	},
 	{
@@ -48,7 +48,15 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 1.5
+            }
+	},
+	{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : true
             }
 	}
    ]

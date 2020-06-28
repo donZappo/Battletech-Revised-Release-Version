@@ -4,7 +4,7 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0
+            "floatVal" : 0
          }
       },
       {
@@ -110,7 +110,7 @@
 		"v" : 
 		{
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0
 		}
 	},
 	{
@@ -150,7 +150,7 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0
          }
 	},
 		{

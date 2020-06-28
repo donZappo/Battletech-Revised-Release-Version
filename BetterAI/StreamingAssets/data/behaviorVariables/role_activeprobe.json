@@ -4,7 +4,7 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1.0
+            "floatVal" : -0.8
          }
       },
 	  {
@@ -13,7 +13,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0
+		"floatVal" : -0.8
             }
 	  },
       {
@@ -136,15 +136,6 @@
 		"floatVal" : 1.0
             }
 	},
-		{
-	    /* Influence Factor Weight to minimize expected damage
-	       from hostiles. */
-            "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.8
-            }
-	},
 	{
 	    /* Weight for an influence factor that seeks to stay
 	       within range of hostile ECM fields */
@@ -194,33 +185,15 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0
+            "floatVal" : 0.5
          }
     },
 	{
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 1.0
+             "floatVal" : 0.5
          }
-    },
-	{
-	    /* Influence Factor Weight to prefer locations close to
-	       optimal distance to other hostiles. */
-            "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 1.5
-            }
-	},
-		{
-	    /* Optimal distance to nearest hostile. (See
-	       Float_PreferOptimalDistanceToHostileFactorWeight.) */
-            "k" : "Float_OptimalHostileDistance",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 220
-			}
-	}
+    }
     ]
 }

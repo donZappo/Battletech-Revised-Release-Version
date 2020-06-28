@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.75
             }
 	},
 	{
@@ -16,7 +16,7 @@
             "k" : "Float_ExistingTargetDamageForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 0.85
             }
 	},
 	{
@@ -54,7 +54,7 @@
             "k" : "Float_LanceMoveRadius",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 10
+		"floatVal" : 20
             }
 	},
 	{
@@ -73,7 +73,7 @@
             "k" : "Int_RecentTargetThresholdPhases",
             "v" : {
 		"type" : "Int",
-		"intVal" : 11
+		"intVal" : 5
             }
 	},
 	{
@@ -82,7 +82,7 @@
             "k" : "Float_PreferredTargetToHitThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.4
             }
 	},
 	{
@@ -139,7 +139,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : -0.6
             }
 	},
 	{
@@ -148,7 +148,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : -0.6
             }
 	},
 	{
@@ -157,7 +157,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.7
             }
 	},
 	{
@@ -166,7 +166,7 @@
             "k" : "Float_SprintPreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -197,7 +197,7 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -206,7 +206,7 @@
             "k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0
             }
 	},
 	{
@@ -227,7 +227,7 @@
             "k" : "Float_SprintPreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.7
             }
 	},
 	{
@@ -245,7 +245,7 @@
             "k" : "Float_OptimalHostileDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 260
+		"floatVal" : 240
             }
 	},
 	{
@@ -281,7 +281,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
 	{
@@ -374,7 +374,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.4
+		"floatVal" : 1.5
             }
 	},
 	{
@@ -392,7 +392,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.2
             }
 	},
 	{
@@ -401,7 +401,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.2
             }
 	},
 	{
@@ -428,7 +428,7 @@
             "k" : "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.3
+		"floatVal" : -0.9
             }
 	},
 	{
@@ -437,7 +437,7 @@
             "k" : "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.3
+		"floatVal" : -0.9
             }
 	},
 	{
@@ -542,7 +542,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 30.0
+		"floatVal" : 5.0
             }
 	},
 	{
@@ -562,7 +562,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -572,7 +572,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : -0.5
             }
 	},
 	{
@@ -673,7 +673,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.25
+		"floatVal" : 1.3
             }
 	},
 	{
@@ -683,7 +683,7 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 1.3
             }
 	},
 	{
@@ -692,7 +692,7 @@
             "k" : "Float_BulwarkThresholdPercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 40
             }
 	},
 	{
@@ -718,7 +718,7 @@
 	    "k" : "Float_ReserveBasePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 30
+		"floatVal" : 40
 	    }
 	},
 	{
@@ -756,7 +756,7 @@
 	    "k" : "Float_MultiTargetOverkillThreshold",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 110.0
+		"floatVal" : 120.0
 	    }
 	},
 	{
@@ -765,7 +765,7 @@
 	    "k" : "Float_PreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.6
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -774,7 +774,7 @@
 	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -794,7 +794,7 @@
 	       PreferNotLethalPositionFactor. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 150
+		"floatVal" : 250
 	    }
 	},
 	{
@@ -824,7 +824,7 @@
 	       not reserve. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 150.0
+		"floatVal" : 5.0
 	    }
 	},
 	{
@@ -844,7 +844,7 @@
 	    "k" : "Float_CalledShotCenterTorsoBaseChance",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 15.0
+		"floatVal" : 35.0
 	    }
 	},
 	{
@@ -854,7 +854,7 @@
 	    "k" : "Float_CalledShotOtherBaseChance",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5
+		"floatVal" : 12.5
 	    }
 	},
 	{
@@ -864,7 +864,7 @@
 	    "k" : "Float_CalledShotWeaponDamageChance",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.35
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -882,7 +882,7 @@
 	    "k" : "Float_MaxThinkSeconds",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 200.0
+		"floatVal" : 60.0
 	    }
 	},
 	{
@@ -896,7 +896,7 @@
             "k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0
+		"floatVal" : -2.0
             }
 	},
 	{
@@ -910,7 +910,7 @@
             "k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.5
+		"floatVal" : -2.0
             }
 	},
 	{
@@ -920,7 +920,7 @@
             "k" : "Float_NonInterleavedLanceSpreadDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 140.0
+		"floatVal" : 200.0
             }
 	},
 	{
@@ -930,7 +930,7 @@
             "k" : "Float_InterleavedLanceSpreadDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 180.0
+		"floatVal" : 240.0
             }
 	},
 	{
@@ -939,7 +939,7 @@
 	    "k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.7
 	    }
 	},
 	{
@@ -948,24 +948,15 @@
 	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 0.9
 	    }
 	},
-	{
-	    /* Influence Factor Weight to prefer being far away from
-	       closest hostile. Useful for defensive moves. */
-      "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
-      "v": {
-        "type": "Float",
-        "floatVal": -0.2
-      }
-    },
 	{
 	    /* Radius (in meters) to avoid sprinting within. */
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 244.0
+		"floatVal" : 125.0
 	    }
 	},
 	{
@@ -994,7 +985,7 @@
 	    "k" : "Float_AppetitiveBehindMaximumRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 300.0
+		"floatVal" : 125.0
 	    }
 	},
 	{
@@ -1003,7 +994,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1012,7 +1003,7 @@
 	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1032,7 +1023,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1
 	    }
 	},
 	{
@@ -1041,7 +1032,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1
 	    }
 	},
 	{
@@ -1049,7 +1040,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.25
+		"floatVal" : 1.5
 	    }
 	},
 	{
@@ -1125,7 +1116,7 @@
 	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0
+		"floatVal" : -0.1
 	    }
 	},
 	{
@@ -1138,7 +1129,7 @@
 	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0
+		"floatVal" : -0.1
 	    }
 	},
 	{
@@ -1147,7 +1138,7 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 200.0
+		"floatVal" : 180.0
 	    }
 	},
 	{
@@ -1158,7 +1149,7 @@
 	    "k" : "Float_EvasiveToHitFloor",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 40.0
+		"floatVal" : 35.0
 	    }
 	},
 	{
@@ -1216,7 +1207,7 @@
 	    "k" : "Float_RemainingLegArmorMultiplier",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 2.0
+		"floatVal" : 1.0
 	    }
 	},
 	{
@@ -1264,7 +1255,7 @@
 	    "k" : "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.3
 	    }
 	},
 	{
@@ -1286,7 +1277,7 @@
 	    "k" : "Float_DownedMechFenceContributionMultiplier",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 1.0
 	    }
 	},
 	{
@@ -1297,7 +1288,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-		}
+            }
 	},
 	{
 	    /* Fraction (0.0 - 1.0+) of a unit's heat generated in an
@@ -1317,7 +1308,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5
-        }
+            }
 	},
 	{
 	    /* Whether to use Bulwark actions*/
@@ -1325,7 +1316,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : false
-        }
+            }
 	},
 	{
 	    /* how much to prefer to be in 'excluded' regions. Probably negative. */
@@ -1349,7 +1340,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : 0
-        }
+            }
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1357,8 +1348,8 @@
             "k" : "Float_AlonePreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
-        }
+		"floatVal" : -1
+            }
 	},
 	{
 	    /* Weight for how much to prefer to be exposed to enemy
@@ -1366,8 +1357,8 @@
             "k" : "Float_SprintAlonePreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.2
-        }
+		"floatVal" : -1.5
+            }
 	},
 	{
 	    /* How long to tolerate being alone, in turns. */
@@ -1375,15 +1366,15 @@
             "v" : {
 		"type" : "Int",
 		"floatVal" : 1
-        }
+            }
 	},
 	{
 	    /* How long to cool down after being alone, in turns. */
             "k" : "Int_AloneCoolDownTurnCount",
             "v" : {
 		"type" : "Int",
-		"floatVal" : 2
-        }
+		"floatVal" : 1
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1393,7 +1384,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, apply this
@@ -1403,7 +1394,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1416,7 +1407,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -1.2
-        }
+            }
 	},
 	{
 	    /* When a buddy is exposed to enemy fire alone, close the
@@ -1429,7 +1420,7 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8
-        }
+            }
 	},
 	{
 	    /* Whether to allow long range pathfinding when following
@@ -1462,7 +1453,7 @@
 	    "k" : "Float_PatrolRouteThrottlePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 80.0
+		"floatVal" : 95.0
 	    }
 	},
 	{
@@ -1497,10 +1488,10 @@
 	    "k" : "Bool_RuthlessPriorityTargeting",
 	    "v" : {
 		"type" : "Bool",
-		"boolVal" : true
+		"boolVal" : false
 	    }
 	},
-    {
+        {
             /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
 	     */
 
@@ -1509,7 +1500,8 @@
 		"type" : "Bool",
 		"boolVal" : true
 	    }
-    },
+        }
+
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow
@@ -1520,7 +1512,7 @@
             "v" : {
 		"type" : "Bool",
 		"boolVal" : false
-        }
+            }
 	},
 	{
 	    /* For internal AI use, do not set. */
@@ -1755,7 +1747,7 @@
 		"v" : 
 		{
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
 		}
 	},
 	{
@@ -1764,7 +1756,7 @@
 		"v" : 
 		{
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
 		}
 	},
 	{
@@ -1802,7 +1794,7 @@
             "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 1.0
             }
 	},
 	{
@@ -1811,45 +1803,8 @@
             "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0
+		"floatVal" : 1.0
             }
-	},
-	{
-	    /* Weight for an influence factor that seeks to maximize
-	       the firepower taken away from the enemy. */
-	    "k" : "Float_PreferHigherFirepowerTakenFromHostileFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to maximize
-	       the firepower taken away from the enemy WHEN SPRINTING
-	       (probably not useful). */
-	    "k" : "Float_SprintPreferHigherFirepowerTakenFromHostileFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to minimize
-	     * ranged to hit penalties (e.g. mineral fields). */
-	    "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.0
-	    }
-	},
-	{
-	    /* Weight for an influence factor that seeks to minimize
-	     * ranged to hit penalties (e.g. mineral fields). */
-	    "k" : "Float_SprintPreferLowerRangedToHitPenaltyLocationsFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.5
-	    }
 	},
 	{
          "k" : "Float_SprintToCombatPercentage",
@@ -1857,5 +1812,6 @@
             "type" : "Float",
             "floatVal" : 100.0
          }
+	}	
     ]
 }

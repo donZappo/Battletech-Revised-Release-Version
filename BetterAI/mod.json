@@ -11,10 +11,5 @@
         "cFixes", 
         "Z_Sab_JK_RarityTables",
 		"BE Mechs"
-    ],
-
-    "Manifest": [
-        { "Path": "lanceMerge", "Type": "AdvancedJSONMerge" },
-        { "Path": "mechMerge", "Type": "AdvancedJSONMerge" }
     ]
 }

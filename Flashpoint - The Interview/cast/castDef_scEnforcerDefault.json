@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_scEnforcerDefault",
+    "internalName" : "scEnforcerDefault",
+    "firstName" : "Mr",
+    "lastName" : "Jones",
+    "callsign" : "Gavel",
+    "rank" : null,
+    "gender" : "Male",
+    "faction" : "",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : true,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/Flashpoint - Call of the Locusts MKII/sprites/Portraits/guiTxrPort_MrJones_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

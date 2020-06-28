@@ -1,1 +1,110 @@
-{}
+{
+    "behaviorVariables" : [
+	{
+	    /* How much accuracy (0.0 - 1.0) is required to consider
+	       an attack that will overheat */
+            "k" : "Float_AccuracyNeededForOverheatAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.7
+            }
+	},
+	{
+	    /* How much a location must be damaged before an overheat
+	       attack will be considered, as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
+            "k" : "Float_ExistingTargetDamageForOverheatAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* How much a location must be damaged before a DFA attack
+	       will be considered , as a fraction from 0.0 (undamaged)
+	       to 1.0 (location destroyed) */
+            "k" : "Float_ExistingTargetDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Maximum leg damage allowed for DFA attack (above which
+	       attacks will not be considered), as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
+            "k" : "Float_OwnMaxLegDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less. */
+            "k" : "Float_PreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -1
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -1
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles. */
+            "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* How much heat is acceptable before being subject to "overheat" logic.
+	       0: no heat
+	       1: Heat level 1 (unused?)
+	       2: Heat level 2
+	       3: Max heat */
+            "k" : "Float_AcceptableHeatLevel",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 3
+            }
+	},
+	{
+	    /* How much heat is acceptable before using "Vent Coolant" skill
+	       0: no heat
+	       1: Heat level 1 (unused?)
+	       2: Heat level 2
+	       3: Max heat */
+            "k" : "Float_VentCoolantHeatThreshold",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.0
+            }
+	},
+	{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+            }
+	}
+    ]
+}
