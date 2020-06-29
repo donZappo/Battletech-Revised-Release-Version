@@ -1,7 +1,7 @@
 {
    "Name":"BTR-Core",
    "Author":"XSNomad, Vengefire, donZappo",
-   "Version":"2.1.2.1-BETA",
+   "Version":"2.1.2.2-BETA",
    "Enabled":true,
    "Hidden":true,
    "DependsOn":[
