@@ -471,7 +471,7 @@
                         "items" : [
                                 "company_blackMarket_OFF",
                                 "event_co_legup_ready",
-                                "ms_fp_legup_kickingTheNest_Complete",
+                                "ms_fp_legup_kickingTheNest_complete",
                                 "fp_choice_continue"
                        ],
                         "tagSetSourceFile" : ""

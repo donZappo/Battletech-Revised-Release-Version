@@ -13,7 +13,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "items" : [],
+                "items" : [
+                    "event_co_SelectionList"
+                ],
                 "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
