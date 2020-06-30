@@ -46,7 +46,7 @@
   "PrefabIdentifier" : "lrm10",
   "BattleValue" : 0,
   "InventorySize" : 2,
-  "Tonnage" : 5.0,
+  "Tonnage" : 4.5,
   "AllowedLocations" : "All",
   "DisallowedLocations" : "All",
   "StructureDamage" : 0.0,
