@@ -21,6 +21,23 @@
             }
 	},
 	{
+	    /* Influence Factor Weight for preferring moving less. */
+            "k" : "Float_PreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -2
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -2
+            }
+	},
+	{
 	    /* If a target is a melee revenge target, but the ratio of
 	       its expected melee damage to my expected melee damage
 	       is higher than this threshold, DO NOT MELEE! It'll all
@@ -38,7 +55,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -48,7 +65,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 	{

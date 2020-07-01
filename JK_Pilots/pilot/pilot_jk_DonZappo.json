@@ -1,55 +1,52 @@
 {
-    "Description": {
-        "Id": "pilot_jk_DonZappo",
-        "Name": "DonZappo",
-        "FirstName": "Magnus",
-        "LastName": "Eskil",
-        "Callsign": "donZappo",
-        "Gender": "Male",
-        "Faction": "AuriganRestoration",
-        "Age": "27",
-        "Details": "Magnus Eskil grew up as part of the primary noble house in charge of the mining operations on the icy planet of Fjaldr. This priveleged birth afforded him the opportunity to attend the best military schools in the Reach without having to put in the time to climb through the ranks like many of his peers and childhood friends. When Santiago Espinosa led his coup to overthrow the Aurigan Coalition, Magnus was right there on the front lines leading his Company into battle. Over the course of the fighting, Magnus became known for his sharp instincts and battle acumen, eventually being promoted to lead his own Batallion into the most important conflicts during the war. 
-		Magnus led the Aurigan Coalition forces allied with the Taurian BattleMechs trying to stop Lady Arano at the battle at Smithon. His Batallion was tied up by Arano forces outside of Smithon’s main spaceport, and by the time he arrived the Karosas Dropships had successfully escaped from the planet. However, he was not too late to see the horrific war crimes being commited by the Coalition and Aurigan forces upon the civilians who were left behind. He immediately ordered his Batallion to stand down and quietly retreated his forces back to their main base. For his role in the outlying battles, however, he was rewarded The Standard of Aurigan given to soldiers that exhibit exceptional bravery, extreme talent, and an unimpeachable moral code. 
-		The sights of the aftermath of this battle continued to haunt Magnus with each passing day. One night while staring at The Standard of Aurigan adorned to his uniform, the hipocrasy of the award became too much for him and he resolved to do whatever he could to stop the monsters to whom he had pledged his loyalty. Magnus initiated covert communications with the Arano Restoration and started to work from within with minor acts of sabotage to further their cause. He informed his closest friends and commanders within his Batallion of his plans, and eventually the entire Batallion was on board with his cause. When the opportunity to defect to the Arano Restoration presented itself at the Defense of Panzyr they seized it and held off a major group of Taurian reinforcements buying enough time to successfully defend the spacefort bringing in the emergency supplies. 
-		After this key battle he was welcomed into Arano Resoration military and served with distinction until their overall victory had been achieved and they had taken control of the Aurigan Reach. The mental scars of battle combined with the shattering of his trust from those he followed continued to haunt Magnus and he ultimately decided to leave the military to follow the path of a mercenary where he could easily leave or join a company at any time – ensuring he could follow his own moral compass instead of giving his loyalty to those above him.",
-        "Icon": "guiTxrPort_jkDonZappo_utr"
-    },
-    "BaseGunnery": "3",
-    "BonusGunnery": 0,
-    "BasePiloting": "5",
-    "BonusPiloting": 0,
-    "BaseGuts": "3",
-    "BonusGuts": 0,
-    "BaseTactics": "4",
-    "BonusTactics": 0,
-    "ExperienceUnspent": 0,
-    "ExperienceSpent": 5400,
-    "Injuries": 0,
-    "Health": 3,
-    "LethalInjury": false,
-    "Incapacitated": false,
-    "Morale": 0,
-    "Voice": "m_pro05_rick",
-    "abilityDefNames": [
-		"AbilityDefP5",
-		"TraitDefUnsteadySet60",
-		"TraitDefIndirectReduceOne",
-		"TraitDefIndirectReduceTwo"
-    ],
-    "AIPersonality": "Undefined",
-    "PilotTags": {
-        "items": [
-            "BLACKLISTED",
-			"pilot_officer",
-			"pilot_noble",
-			"pilot_naive",
-			"pilot_dependable",
-            "name_DonZappo",
-            "pilot_aurigan"
-        ],
-        "tagSetSourceFile": ""
-    },
-    "PilotCost": 0,
-    "IsRonin": true,
-    "IsVanguard": false
+   "Description":{
+      "Id":"pilot_jk_DonZappo",
+      "Name":"DonZappo",
+      "FirstName":"Magnus",
+      "LastName":"Eskil",
+      "Callsign":"donZappo",
+      "Gender":"Male",
+      "Faction":"AuriganRestoration",
+      "Age":"27",
+      "Details":"Magnus Eskil grew up as part of the primary noble house in charge of the mining operations on the icy planet of Fjaldr. This priveleged birth afforded him the opportunity to attend the best military schools in the Reach without having to put in the time to climb through the ranks like many of his peers and childhood friends. When Santiago Espinosa led his coup to overthrow the Aurigan Coalition, Magnus was right there on the front lines leading his Company into battle. Over the course of the fighting, Magnus became known for his sharp instincts and battle acumen, eventually being promoted to lead his own Batallion into the most important conflicts during the war./n/nMagnus led the Aurigan Coalition forces allied with the Taurian BattleMechs trying to stop Lady Arano at the battle at Smithon. His Batallion was tied up by Arano forces outside of Smithon’s main spaceport, and by the time he arrived the Karosas Dropships had successfully escaped from the planet. However, he was not too late to see the horrific war crimes being commited by the Coalition and Aurigan forces upon the civilians who were left behind. He immediately ordered his Batallion to stand down and quietly retreated his forces back to their main base. For his role in the outlying battles, however, he was rewarded The Standard of Aurigan given to soldiers that exhibit exceptional bravery, extreme talent, and an unimpeachable moral code./n/nThe sights of the aftermath of this battle continued to haunt Magnus with each passing day. One night while staring at The Standard of Aurigan adorned to his uniform, the hipocrasy of the award became too much for him and he resolved to do whatever he could to stop the monsters to whom he had pledged his loyalty. Magnus initiated covert communications with the Arano Restoration and started to work from within with minor acts of sabotage to further their cause. He informed his closest friends and commanders within his Batallion of his plans, and eventually the entire Batallion was on board with his cause. When the opportunity to defect to the Arano Restoration presented itself at the Defense of Panzyr they seized it and held off a major group of Taurian reinforcements buying enough time to successfully defend the spacefort bringing in the emergency supplies./n/nAfter this key battle he was welcomed into Arano Resoration military and served with distinction until their overall victory had been achieved and they had taken control of the Aurigan Reach. The mental scars of battle combined with the shattering of his trust from those he followed continued to haunt Magnus and he ultimately decided to leave the military to follow the path of a mercenary where he could easily leave or join a company at any time – ensuring he could follow his own moral compass instead of giving his loyalty to those above him.",
+      "Icon":"guiTxrPort_jkDonZappo_utr"
+   },
+   "BaseGunnery":"3",
+   "BonusGunnery":0,
+   "BasePiloting":"5",
+   "BonusPiloting":0,
+   "BaseGuts":"3",
+   "BonusGuts":0,
+   "BaseTactics":"4",
+   "BonusTactics":0,
+   "ExperienceUnspent":0,
+   "ExperienceSpent":5400,
+   "Injuries":0,
+   "Health":3,
+   "LethalInjury":false,
+   "Incapacitated":false,
+   "Morale":0,
+   "Voice":"m_pro05_rick",
+   "abilityDefNames":[
+      "AbilityDefP5",
+      "TraitDefUnsteadySet60",
+      "TraitDefIndirectReduceOne",
+      "TraitDefIndirectReduceTwo"
+   ],
+   "AIPersonality":"Undefined",
+   "PilotTags":{
+      "items":[
+         "BLACKLISTED",
+         "pilot_officer",
+         "pilot_noble",
+         "pilot_naive",
+         "pilot_dependable",
+         "name_DonZappo",
+         "pilot_aurigan"
+      ],
+      "tagSetSourceFile":""
+   },
+   "PilotCost":0,
+   "IsRonin":true,
+   "IsVanguard":false
 }

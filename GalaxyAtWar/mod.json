@@ -229,6 +229,8 @@
 		
 		//** Force alliances. Dictionary<string, List<string> of Faction Names. Formatted: "This Faction" : [ "Allied with", "These Factions" ]		
 		"FactionsAlwaysAllies": { "" : [ "" ] },
+		
+		"LimitSystemContracts": { "ExampleSystem" : 0 },
 			
 		//** Hyades Rim compatibility specific settings.
 		"HyadesRimCompatible" : false,
@@ -291,6 +293,7 @@
 			},
 		
 		"LongWarTesting" : false,
-		"Debug" : false
+		"Debug" : false,
+		"CleanUpCompanyTag" : true
     }
 }

@@ -36,7 +36,7 @@
             "k" : "Float_OwnMaxLegDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.8
             }
 	},
 	{
@@ -44,7 +44,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1
+		"floatVal" : -0.7
             }
 	},
 	{
@@ -53,7 +53,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1
+		"floatVal" : -0.7
             }
 	},
 	{
@@ -62,7 +62,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.7
             }
 	},
 	{
@@ -71,7 +71,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.7
             }
 	},
 	{

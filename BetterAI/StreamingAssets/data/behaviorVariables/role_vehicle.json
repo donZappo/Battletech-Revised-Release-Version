@@ -8,7 +8,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0
+		"floatVal" : 2.5
             }
 	},
 	{
@@ -19,7 +19,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 2.5
             }
 	},
 	{
@@ -50,7 +50,17 @@
 		"floatVal" : -1
             }
 	},
-		{
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
+            "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -1
+            }
+	},
+	{
 	    /* Influence Factor to prefer this lance to surround hostile units.*/
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
@@ -94,12 +104,30 @@
             }
 	},
 	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other allies. */
+            "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1
+            }
+	},
+	{
 	    /* Appetitive Influence Factor Weight to approach ideal
 	       weapon range to hostile. */
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.7
 	    }
 	},
 	{
