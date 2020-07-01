@@ -92,8 +92,8 @@
   "DynamicWithdraw": {
     "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "MinDistanceForZone": 50,
-    "MaxDistanceForZone": 288,
+    "MinDistanceForZone": 20,
+    "MaxDistanceForZone": 40,
     "DisorderlyWithdrawalCompatibility": false
   },
   "AI": {
