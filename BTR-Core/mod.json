@@ -1,7 +1,7 @@
 {
    "Name":"BTR-Core",
    "Author":"XSNomad, Vengefire, donZappo",
-   "Version":"2.1.2.5-BETA",
+   "Version":"2.1.2.6-BETA",
    "Enabled":true,
    "Hidden":true,
    "DependsOn":[
@@ -38,7 +38,9 @@
       "ShowAllArgoUpgrades":false,
       "COIL_Heat_Multiply_EP":true,
       "Tagged_Called_Shots":true,
-      "correctMeleeMultipliers":true,
+      "correctMeleeMultipliers":false,
+	  "NerfContractPayments":true,
+	  "NerfExponent":0.925,
       "UpgradeItems":true,
       "EliteRareUpgradeChance":-7,
       "VeryRareUpgradeChance":-4.5,
