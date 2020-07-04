@@ -1,12 +1,5 @@
 {
    "behaviorVariables" : [
-    {
-         "k" : "Float_AccuracyNeededForOverheatAttack",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 0.75
-        }
-    },
         {
          "k" : "Float_ExistingTargetDamageForDFAAttack",
          "v" : {
@@ -55,7 +48,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.5
+            "floatVal" : 2
         }
     },
 	{
@@ -66,7 +59,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 			"type" : "Float",
-			"floatVal" : 1.5
+			"floatVal" : 2
             }
 	},
     {
@@ -80,7 +73,7 @@
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5
+            "floatVal" : 0.4
         }
     },
     {
@@ -111,20 +104,15 @@
             "floatVal" : 0.4
         }
     },
-    {
-         "k" : "Float_OptimalAllyDistance",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 100.0
-        }
-    },
-    {
-         "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 0.3
-        }
-    },
+	{
+	    /* Fence radius (in meters) for
+	     * PreferStayInsideFenceFactor. */
+	    "k" : "Float_FenceRadius",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 40.0
+	    }
+	},
     {
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
@@ -139,13 +127,6 @@
             "floatVal" : 0.8
         }
     },
-    {
-         "k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 0.3
-        }
-    },
 	{
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
@@ -157,14 +138,7 @@
          "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 1.0
-        }
-    },
-	{
-         "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
-         "v" : {
-            "type" : "Float",
-             "floatVal" : 0.6
+             "floatVal" : 0.8
         }
     },
 	{
@@ -173,6 +147,24 @@
             "type" : "Float",
              "floatVal" : 0.5
         }
-    }
+    },
+	{
+	    /* Influence Factor Weight to prefer having LOS to most
+		hostiles. */
+            "k" : "Float_PreferLOSToMostHostilesFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to most
+		hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	}
     ]
 }

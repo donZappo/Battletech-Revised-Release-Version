@@ -1,25 +1,6 @@
 {
     "behaviorVariables" : [
 	{
-	    /* How much accuracy (0.0 - 1.0) is required to consider
-	       an attack that will overheat */
-            "k" : "Float_AccuracyNeededForOverheatAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.7
-            }
-	},
-	{
-	    /* How much a location must be damaged before an overheat
-	       attack will be considered, as a fraction from 0.0
-	       (undamaged) to 1.0 (location destroyed) */
-            "k" : "Float_ExistingTargetDamageForOverheatAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
-            }
-	},
-	{
 	    /* How much a location must be damaged before a DFA attack
 	       will be considered , as a fraction from 0.0 (undamaged)
 	       to 1.0 (location destroyed) */
@@ -44,7 +25,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.85
+		"floatVal" : -0.7
             }
 	},
 	{
@@ -53,7 +34,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.85
+		"floatVal" : -0.7
             }
 	},
 	{
@@ -82,7 +63,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -93,7 +74,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -197,7 +178,7 @@
       "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0
+        "floatVal": 0.1
       }
     },
 	{

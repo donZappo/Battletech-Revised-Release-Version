@@ -8,7 +8,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -19,7 +19,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -33,7 +33,7 @@
             "k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1
+		"floatVal" : 0
             }
 	},
 	{
@@ -47,8 +47,18 @@
             "k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1
+		"floatVal" : 0
             }
+	},
+	{
+	    /* Number of active probe targets before we even try to activate 
+	    active probe */
+		"k" : "Int_MinimumActiveProbeCount",
+		"v" : 
+		{
+			"type" : "Int",
+			"IntVal" : "1"
+		}
 	},
 	{
 	    /* A weight for an influence factor to prefer to get
@@ -65,7 +75,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.7
 	    }
 	},
 	{
@@ -74,7 +84,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.7
 	    }
 	},
 	{
@@ -100,7 +110,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.4
             }
 	},
 	{
@@ -109,7 +119,7 @@
             "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
 	{
@@ -118,7 +128,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
 	{
@@ -127,12 +137,39 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.5
 	    }
+	},
+	{
+	    /* Influence Factor Weight for preferring more level (vs
+	       steep) locations. */
+            "k" : "Float_PreferLessSteepPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring more level (vs
+	       steep) locations WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLessSteepPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+            }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
             "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+            }
+	},
+	{
+	    /* If my move would not result in being able to fire,
+	       should I rewrite that move as a sprint? */
+            "k" : "Bool_RewriteNonAttackMoves",
             "v" : {
 		"type" : "Bool",
 		"boolVal" : true

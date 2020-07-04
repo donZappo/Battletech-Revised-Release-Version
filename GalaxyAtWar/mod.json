@@ -294,6 +294,6 @@
 		
 		"LongWarTesting" : false,
 		"Debug" : false,
-		"CleanUpCompanyTag" : true
+		"CleanUpCompanyTag" : false
     }
 }

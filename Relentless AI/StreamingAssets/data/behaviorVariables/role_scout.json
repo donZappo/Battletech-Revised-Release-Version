@@ -38,7 +38,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 		{
@@ -56,16 +56,8 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0
+		"floatVal" : 1.0
 	    }
-	},
-	{
-	    /* Influence Factor Weight for preferring moving less. */
-            "k" : "Float_PreferLowerMovementFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : -0.9
-            }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */

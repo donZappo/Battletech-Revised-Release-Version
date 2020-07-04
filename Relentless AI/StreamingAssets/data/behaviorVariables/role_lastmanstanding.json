@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0
             }
 	},
 	{
@@ -44,7 +44,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.7
+		"floatVal" : -0.9
             }
 	},
 	{
@@ -53,7 +53,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.7
+		"floatVal" : -0.9
             }
 	},
 	{
@@ -62,7 +62,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0
             }
 	},
 	{
@@ -71,8 +71,18 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0
             }
+	},
+	{
+	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
+		Lerp is 0 - 1, Walking to Sprinting*/
+		"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
+		"v" : 
+		{
+			"type" : "Float",
+			"floatVal" : 0.9
+		}
 	},
 	{
 	    /* How much heat is acceptable before being subject to "overheat" logic.
@@ -97,6 +107,14 @@
 		"type" : "Float",
 		"floatVal" : 1.0
             }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
+	    }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
