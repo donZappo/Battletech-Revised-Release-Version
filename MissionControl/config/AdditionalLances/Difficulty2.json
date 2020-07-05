@@ -5,7 +5,7 @@
   "RewardsPerLance": [
       {
         "Type": "ContractBonusRewardPct",
-        "Value": "0.1",
+        "Value": "0.25",
       },
       {
         "Type": "ContractBonusTargetReputation",
