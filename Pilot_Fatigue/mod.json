@@ -30,7 +30,7 @@
 		"MaximumFatigueTime" : 14,
 		"AllowNegativeResolve" : false,
 		"pilot_wealthy_extra_fatigue" : 2,
-		"MechDamageMaxDays" : 5,
+		"MechDamageMaxDays" : 6,
 		"ArgoUpgradeReduction" : true,
 		"BEXCE" : false
 	}

@@ -463,13 +463,13 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "chain_to_zombie_rescue"
+                            "chain_to_zombie_rescue",
+                            "fp_the_Interview_completed"
                         ],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
                         "items" : [
-                                "company_blackMarket_OFF",
                                 "event_co_legup_ready",
                                 "ms_fp_legup_kickingTheNest_complete",
                                 "fp_choice_continue"
@@ -590,7 +590,6 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "company_blackMarket_OFF",
                             "fp_the_Interview_Cancelled"
                         ],
                         "tagSetSourceFile" : ""
