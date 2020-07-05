@@ -160,7 +160,7 @@
       "Description": {
         "Id": "FiredWeaponsSignatureEffect",
         "Name": "FIRED WEAPONS",
-        "Details": "+150% SIGNATURE",
+        "Details": "+50% SIGNATURE",
         "Icon": "uixSvgIcon_genericDiamond"
       },
       "statisticData": {

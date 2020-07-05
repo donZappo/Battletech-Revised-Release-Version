@@ -19,7 +19,9 @@
                 "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
-                "items" : [],
+                "items" : [
+                    "fp_the_Interview_completed"
+                ],
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
