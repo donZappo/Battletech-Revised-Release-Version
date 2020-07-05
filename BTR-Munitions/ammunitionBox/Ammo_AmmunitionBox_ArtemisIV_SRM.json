@@ -36,7 +36,7 @@
 		"UIName": "Ammo SRM ART IV",
 		"Id": "Ammo_AmmunitionBox_ArtemisIV_SRM",
 		"Name": "SRM Artemis IV Ammo",
-		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis IV FCS offer these Missiles unparalleled Accuracy . Has 50 shots.",
+		"Details": "Artemis IV SRMs have a ''smart'' Warhead that is able to efficiently guide itself towards any target. They are require an Artemis IV FCS, but offer unparalleled accuracy. Has 50 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "Ignore 2 Evasion",
