@@ -8,7 +8,7 @@
     "FixedEquipment": [
         {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_Mortar_Thumper", 
+            "ComponentDefID": "Gear_Mortar_MechMortar", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
