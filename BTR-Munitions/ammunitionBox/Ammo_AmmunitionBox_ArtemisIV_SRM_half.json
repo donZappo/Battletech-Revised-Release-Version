@@ -33,10 +33,10 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "SRM Artemis IV",
-		"UIName": "Ammo SRM ARTIV",
+		"UIName": "Ammo SRM ARTIV (Half)",
 		"Id": "Ammo_AmmunitionBox_ArtemisIV_SRM_half",
-		"Name": "SRM Artemis IV Ammo",
-		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis System offer these Missiles unparalleled Accuracy. Has 25 shots.",
+		"Name": "SRM Artemis IV Ammo (Half)",
+		"Details": "Artemis IV LRMs have a ''smart'' Warhead that is able to efficiently guide itself towards any target. They are require an Artemis IV FCS, but offer unparalleled accuracy. Has 25 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "Ignore 2 Evasion",
