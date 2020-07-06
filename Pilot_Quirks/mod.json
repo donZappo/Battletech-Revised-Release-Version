@@ -57,7 +57,7 @@
         "Tier3" : 60,
         "Tier4" : 100,
         "pilot_drops_for_8_pilot" : 50,
-		"MechBondingTesting" : true,
+		"MechBondingTesting" : false,
 
 		//RT Compatibility Section
 		"RTCompatible" : false,

@@ -5,7 +5,7 @@
   "addDynamicNotFactionTagForUnits": false,
   "addDynamicFactionTagForPilots": false,
   "addDynamicNotFactionTagForPilots": false,
-  "testToolsEnabled": "true",
+  "testToolsEnabled": "false",
   "loggerLevels": [
     {
       "k": "CombatLog.Attacking",
