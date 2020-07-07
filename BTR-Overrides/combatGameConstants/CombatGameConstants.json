@@ -269,7 +269,11 @@
       130,
       160,
       190,
-      220
+      220,
+      280,
+      340,
+      400,
+      460
     ],
     "EvasivePipsMovingTarget": [
       1,
@@ -277,7 +281,11 @@
       3,
       4,
       5,
-      6
+      6,
+	  7,
+	  8,
+	  9,
+	  10
     ],
     "ToHitMovingPipUMs": [
       2,
@@ -287,7 +295,9 @@
       9,
       10,
       11,
-      12
+      12,
+	  14,
+	  16
     ],
     "ToHitMovingTargetStrings": [
       "1 EVASIVE charge: +{0} Difficulty to hit this unit with ranged attacks.",
@@ -295,7 +305,11 @@
       "3 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
       "4 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
       "5 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
-      "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
+      "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "7 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "8 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "9 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "10 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
     ],
     "ToHitSelfWeaponDamaged": 3,
     "ToHitSelfWeaponLocationDamagedMinor": 0,

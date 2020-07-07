@@ -23,7 +23,7 @@
         },
         "RequirementComparisons" : [
             {
-                "obj" : "travel",
+                "obj" : "Travel",
                 "op" : "Equal",
                 "val" : 0,
                 "valueConstant" : "0"
@@ -331,7 +331,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Launch The Interview",
-                        "Details" : "\"{COMMANDER.FirstName}, I don't have a lot of time and need to send you this warning message.\r\nAfter you rescued my mother and I and dropped us on Solaris we had no idea the people that took us in were who they are. Now I have a debt to them I have to repay ... and not with money...I can at least repay you.\r\n\r\nDon't think Mr. Smith's external demenor is all meteor showers and Tharkan Gazelle.\r\nWho you decied to run with is your concern but be careful, they are chasing other objectives other than what you are being told.\r\n\r\nI need you to go back to Ur Cruinne.  Good luck COMMANDER.FirstName}.\r\nThe recording ends...",
+                        "Details" : "\"{COMMANDER.FirstName}, I don't have a lot of time and need to send you this warning message.\r\nAfter you rescued my mother and I and dropped us on Solaris we had no idea the people that took us in were who they are. Now I have a debt to them I have to repay ... and not with money...I can at least repay you.\r\n\r\nDon't think Mr. Smith's external demenor is all meteor showers and Tharkan Gazelle.\r\nWho you decied to run with is your concern but be careful, they are chasing other objectives other than what you are being told.\r\n\r\nI need you to go back to Ur Cruinne.  Good luck {COMMANDER.FirstName}.\r\nThe recording ends...",
                         "Icon" : null
                     },
                     "Weight" : 100,

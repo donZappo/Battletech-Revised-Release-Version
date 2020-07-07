@@ -9,59 +9,59 @@
   "loggerLevels": [
     {
       "k": "CombatLog.Attacking",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.AbilitiesAndEffects",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.RoundSequence",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.ActorActivation",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.Heat",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.AbstractActor",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.CombatSelectionHandler",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.Initialization",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "LevelLoader",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "BattleTechServerGameVerification.MechData",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.AssetBundleManager",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.DataManager.LoadRequests",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.ResourceLocator",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "EncounterLogic.ContractOverride",
-      "v": "Debug"
+      "v": "Error"
     }
   ],
   "fileLogAppenders": [

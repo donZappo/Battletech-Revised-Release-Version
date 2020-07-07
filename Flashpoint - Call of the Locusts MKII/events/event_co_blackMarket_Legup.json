@@ -26,6 +26,12 @@
                 "op" : "LessThan",
                 "val" : 50,
                 "valueConstant" : "50"
+            },
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
             }
         ]
     },

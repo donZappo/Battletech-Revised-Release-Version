@@ -51,7 +51,7 @@
 
     "ColorizeFloaties": true,
 
-    "CountAsKills": true,
+    "CountAsKills": false,
 
     "PlayersCanPanic": true,
     "EnemiesCanPanic": true,
