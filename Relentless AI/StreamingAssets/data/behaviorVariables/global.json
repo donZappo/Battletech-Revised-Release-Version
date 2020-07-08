@@ -245,7 +245,7 @@
             "k" : "Float_OptimalHostileDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 250
+		"floatVal" : 175
             }
 	},
 	{
@@ -263,7 +263,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.4
             }
 	},
 	{
@@ -281,7 +281,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.6
             }
 	},
 	{
