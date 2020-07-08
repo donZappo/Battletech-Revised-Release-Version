@@ -3,7 +3,7 @@
         "Id" : "fp_the_Interview",
         "Name" : "The Interview",
         "Details" : "The Interview",
-        "Icon" : "uixTxrSpot_fp_BloodyInsects.png"
+        "Icon" : "uixTxrSpot_fp_BloodyInsects"
     },
     "Weight" : 3,
     "InternalName" : "the_Interview",

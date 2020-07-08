@@ -1,10 +1,29 @@
 {
    "behaviorVariables" : [
-        {
+ 	{
+	    /* How much accuracy (0.0 - 1.0) is required to consider
+	       an attack that will overheat */
+            "k" : "Float_AccuracyNeededForOverheatAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.65
+            }
+	},
+	{
+	    /* How much a location must be damaged before an overheat
+	       attack will be considered, as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
+            "k" : "Float_ExistingTargetDamageForOverheatAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+            }
+	},    
+	{
          "k" : "Float_ExistingTargetDamageForDFAAttack",
          "v" : {
             "type" : "Float",
-			"floatVal" : 0.4
+			"floatVal" : 0.3
         }
     },
     {
@@ -18,7 +37,7 @@
          "k" : "Float_PreferredTargetToHitThreshold",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1
+            "floatVal" : 0.0
         }
     },
     {
@@ -66,14 +85,14 @@
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5
+            "floatVal" : 0.4
         }
     },
     {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.4
+            "floatVal" : 0.3
         }
     },
     {
@@ -117,28 +136,28 @@
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.3
+            "floatVal" : 1.99
         }
     },
     {
          "k" : "Float_PreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.8
+            "floatVal" : 0.7
         }
     },
 	{
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0
+            "floatVal" : 33
         }
     },
 	{
          "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.8
+             "floatVal" : 0.7
         }
     },
 	{

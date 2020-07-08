@@ -22,7 +22,7 @@
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.5
+            "floatVal" : 0
          }
       },
 	{
@@ -53,7 +53,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.4
             }
 	},
 		{
@@ -132,7 +132,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.4
             }
 	}
     ]

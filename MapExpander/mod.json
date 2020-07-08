@@ -5,7 +5,7 @@
 
     "Settings": {
 		"SetContractParticipants" : false,
-        "MapWidth": 180,
+        "MapWidth": 150,
         "MapHeight": 180,
 
         "MapMargin": 5,

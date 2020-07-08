@@ -72,7 +72,7 @@
          "Description":{
             "Id":"ECMStealth_GhostEffect",
             "Name":"ECM CARRIER",
-            "Details":"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
+            "Details":"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within range of their sensors.\n\nECM carriers also receive a bonus Stealth Charge.\n\nAllies within range are immune to indirect missile fire and enemies have a +4 difficulty to-hit with direct-fired missiles.",
             "Icon":"uixSvgIcon_status_ECM-ghost"
          },
          "statisticData":{

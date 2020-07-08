@@ -82,7 +82,9 @@
                             },
                             "RemovedTags" : {
                                 "tagSetSourceFile" : "",
-                                "items" : []
+                                "items" : [
+                                    "event_co_legup_missed"
+                                ]
                             },
                             "Stats" : null,
                             "Actions" : null,

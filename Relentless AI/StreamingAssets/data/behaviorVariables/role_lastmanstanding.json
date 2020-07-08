@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.5
             }
 	},
 	{
@@ -36,7 +36,7 @@
             "k" : "Float_OwnMaxLegDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 1
             }
 	},
 	{
@@ -44,7 +44,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.9
+		"floatVal" : -0.85
             }
 	},
 	{
@@ -53,8 +53,26 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.9
+		"floatVal" : -0.85
             }
+	},
+	{
+	    /* Appetitive Influence Factor Weight to approach ideal
+	       weapon range to hostile. */
+	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+	    }
+	},
+	{
+	    /* Appetitive Influence Factor Weight to approach ideal
+	       weapon range to hostile WHEN SPRINTING. */
+	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+	    }
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
@@ -81,7 +99,7 @@
 		"v" : 
 		{
 			"type" : "Float",
-			"floatVal" : 0.9
+			"floatVal" : 1
 		}
 	},
 	{
@@ -93,7 +111,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3
+		"floatVal" : 1.99
             }
 	},
 	{
@@ -105,7 +123,7 @@
             "k" : "Float_VentCoolantHeatThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.5
             }
 	},
 	{
@@ -113,15 +131,37 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.8
 	    }
+	},
+	{
+	    /*
+	      Description: Number of points of damage that a sensor
+	      locking turn needs to do over a straight up shooting
+	      turn before deciding to sensor lock. Positive is a
+	      shooting bias, negative is a sensor lock bias.*/
+	    "k" : "Float_MinimumSensorLockQuality",
+	    "v" : {
+		"type": "Float",
+		"floatVal" : 999
+	    }
+	},
+	{
+	    /* Number of active probe targets before we even try to activate 
+	    active probe */
+		"k" : "Int_MinimumActiveProbeCount",
+		"v" : 
+		{
+			"type" : "Int",
+			"IntVal" : "999"
+		}
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
             "k" : "Bool_AlwaysOffensiveMood",
             "v" : {
 		"type" : "Bool",
-		"boolVal" : true
+		"boolVal" : false
             }
 	}
     ]

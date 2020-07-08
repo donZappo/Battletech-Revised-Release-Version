@@ -25,14 +25,14 @@
          "k" : "Float_MeleeDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1
+            "floatVal" : 1.0
          }
       },
       {
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0
+            "floatVal" : -0.5
          }
       },
 	  	{
@@ -130,7 +130,7 @@
 		"v" : 
 		{
 			"type" : "Int",
-			"IntVal" : "2"
+			"IntVal" : "1"
 		}
 	},
 		{
@@ -141,7 +141,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 1.8
             }
 	},
 		{
@@ -174,7 +174,7 @@
          "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0
+            "floatVal" : 1.0
          }
       }
     ]
