@@ -17,7 +17,7 @@
         "UIName": "Victor VTR-9A1", 
         "Id": "mechdef_victor_VTR-9A1", 
         "Name": "Victor", 
-        "Details": "Another anti-infantry and brawler variant, the VTR-9A1 adds twin Machine Guns and retains most of its armor.", 
+        "Details": "Another anti-infantry and brawler variant, the VTR-9A1 adds twin Machine Guns.", 
         "Icon": "uixTxrIcon_victor"
     }, 
     "RequiredToSpawnCompanyTags": {
