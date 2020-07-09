@@ -160,13 +160,13 @@
       "Description": {
         "Id": "FiredWeaponsSignatureEffect",
         "Name": "FIRED WEAPONS",
-        "Details": "+50% SIGNATURE",
+        "Details": "+150% SIGNATURE",
         "Icon": "uixSvgIcon_genericDiamond"
       },
       "statisticData": {
         "statName": "SensorSignatureModifier",
         "operation": "Float_Add",
-        "modValue": "0.0",
+        "modValue": "1.5",
         "modType": "System.Single"
       },
       "nature": "Debuff"

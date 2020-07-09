@@ -23,16 +23,6 @@
    "AssignedArmor" : 320,
    "DamageLevel" : "Functional",
    "inventory" : [
-	    {
-            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-15",
-            "ComponentDefType": "Upgrade",
-            "DamageLevel": "Functional",
-            "GUID": null,
-            "HardpointSlot": -1,
-            "SimGameUID": "",
-            "hasPrefabName": false,
-            "prefabName": null
-        },	
     {
       "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
       "ComponentDefType": "Weapon",

@@ -246,6 +246,10 @@
       "Enabled":false,
       "EnabledDescription":"Turrets use up ammo and don't explode once ammo is gone."
    },
+	"TurretMechComponents" : {
+		"Enabled" : false,
+		"EnabledDescription" : "Turrets can now use components and benefit from their status effects."
+	},
    "HardpointFix":{
       "Enabled":true,
       "EnabledDescription":"Optimizes the way installed weapons are shown on a mech model.",
