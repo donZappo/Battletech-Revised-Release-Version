@@ -533,7 +533,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "mech_quirk_retrofitted", 
+            "ComponentDefID": "mech_quirk_all_or_nothing", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
