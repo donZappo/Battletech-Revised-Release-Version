@@ -2,7 +2,7 @@
   "Category" : "Energy",
   "Type" : "PPC",
   "WeaponSubType" : "PPCER",
-  "MinRange" : 0,
+  "MinRange" : 150,
   "MaxRange" : 690,
   "RangeSplit" : [
     510,
