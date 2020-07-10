@@ -78,7 +78,7 @@
     "ShopSellModifier": 0.0512,
     "ShopSellDamagedModifier": 0.08,
     "ShopWarnBeforeSellingPriceMinimum": 100000,
-    "MechScrapModifier": 0.08,
+    "MechScrapModifier": 0.0512,
     "MechLabRefundModifier": 0.9,
     "RecoveredChassisShopModifier": 0.9,
     "LeopardBaseMaintenanceCost": 70000,
