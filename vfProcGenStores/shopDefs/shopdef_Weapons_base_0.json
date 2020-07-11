@@ -11,8 +11,6 @@
     },
     "ExclusionTags": {
         "items": [
-            "planet_pop_none",
-            "planet_other_empty"
         ],
         "tagSetSourceFile": ""
     },
