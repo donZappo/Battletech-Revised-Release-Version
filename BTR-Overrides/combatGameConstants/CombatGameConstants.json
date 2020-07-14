@@ -206,8 +206,8 @@
   },
   "ToHit": {
     "FiringArcDegrees": 60.0,
-    "ToHitBaseFloor": 0.65,
-    "ToHitGunneryDivisor": 33.33,
+    "ToHitBaseFloor": 0.70,
+    "ToHitGunneryDivisor": 40,
     "ToHitUseSteppedAlgorithm": true,
     "ToHitStepThresholds": [
       0,
