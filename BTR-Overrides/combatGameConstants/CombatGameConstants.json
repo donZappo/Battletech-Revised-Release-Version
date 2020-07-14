@@ -51,13 +51,13 @@
   },
   "Visibility": {
     "BaseSpotterDistance": 250.0,
-    "SpotterTacticsMultiplier": 25.0,
+    "SpotterTacticsMultiplier": 15.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
     "ShutDownVisibilityModifier": 0.0,
     "ShutDownSignatureModifier": -0.5,
-    "BaseSensorDistance": 450.0,
+    "BaseSensorDistance": 400.0,
     "UseAsymmetricalSensors": true,
     "ShowExtendedBlipsBeforeContact": false,
     "ExtendedSensorDistanceMultiplier": 1.0,
@@ -206,12 +206,12 @@
   },
   "ToHit": {
     "FiringArcDegrees": 60.0,
-    "ToHitBaseFloor": 0.70,
-    "ToHitGunneryDivisor": 40,
+    "ToHitBaseFloor": 0.65,
+    "ToHitGunneryDivisor": 33.33,
     "ToHitUseSteppedAlgorithm": true,
     "ToHitStepThresholds": [
       0,
-      10
+      5
     ],
     "ToHitStepValues": [
       0.05,
@@ -234,7 +234,7 @@
     "ToHitElevationModifierPerLevel": 1,
     "ToHitElevationUseMultipleLevels": true,
     "ToHitElevationApplyPenalties": false,
-    "ToHitMinimumRange": 8,
+    "ToHitMinimumRange": 10,
     "ToHitShortRange": 0,
     "ToHitMediumRange": 0,
     "ToHitLongRange": 4,
@@ -247,7 +247,7 @@
     "ClusterChanceNonadjacentMultiplier": 2,
     "ClusterChanceNeverMultiplyHead": true,
     "ClusterChanceNeverClusterHead": true,
-    "ToHitIndirect": 4,
+    "ToHitIndirect": 6,
     "ToHitShutdownTargetBonus": -4,
     "ToHitShutdownTargetBonusMelee": -10,
     "ToHitProneTargetBonus": 2,

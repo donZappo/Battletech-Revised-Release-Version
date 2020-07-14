@@ -1,12 +1,12 @@
 {
 	"Description" : {
-		"Id" : "TraitDefMinRangeReduce90",
-		"Name" : "Reduced Min. Range",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their minimum weapon range penalty reduced by 2.",
+		"Id" : "TraitDefIndirectReduceFour",
+		"Name" : "Improved Indirect Fire",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their indirect fire penalties reduced by 1.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
-	"Type" : "MinimumRange",
-	"ShortDesc" : "-2 Minimum Range Penalty",
+	"Type" : "IndirectBonus",
+	"ShortDesc" : "-4 Indirect Fire Penalty",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" :
@@ -25,16 +25,15 @@
 			"Description" :
 			{
 				"Id" : "TraitDefIndirectReduceOne",
-				"Name" : "Reduced Min. Range",
-				"Details" : "Minimum weapon range penalty reduced by 2",
+				"Name" : "Improved Indirect Fire",
+				"Details" : "Indirect fire penalties reduced by 1",
 				"Icon" : "uixSvgIcon_ability_mastertactician"
 			},
 			"statisticData" : 
 			{
-				"targetCollection" : "Weapon",
-				"statName" : "MinRangeMultiplier",
-				"operation" : "Set",
-				"modValue" : "0.8",
+				"statName" : "ToHitIndirectModifier",
+				"operation" : "Float_Add",
+				"modValue" : "-1.0",
 				"modType" : "System.Single"
 			}
 		}

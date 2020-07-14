@@ -296,7 +296,7 @@
 
   /* Allow bonus total modifier to increase hit chance.  Default true. */
 
-  "AllowNetBonusModifier": true,
+  "AllowNetBonusModifier": false,
 
   /* Step of hit chance.  Game default is 0.05, or 5%.  Hit chance is always rounded down.
    * Default 0 to remove hit chance step, so that odd gunnery stats can enjoy their +2.5% hit chance. */

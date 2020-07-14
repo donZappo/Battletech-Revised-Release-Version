@@ -25,7 +25,7 @@
 			"FlexibleSensorLock": true,
             "MechbayLayout" : true,
 			"MultiTargetStat": false,
-			"PainTolerance": true,
+			"PainTolerance": false,
 			"PathfinderTeamFix": true,
 			"PreventHeadShots": false,
 			"RandomStartByDifficulty": false,
