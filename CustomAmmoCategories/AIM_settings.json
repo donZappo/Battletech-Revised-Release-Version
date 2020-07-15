@@ -232,12 +232,12 @@
 
   /* Enable clustering effect for called shots against mechs.  Default true. */
 
-  "CalledShotUseClustering": true,
+  "CalledShotUseClustering": false,
 
   /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
    * Default is 0.33 to counter the effect of CalledShotClusterStrength. */
 
-  "MechCalledShotMultiplier": 0.33,
+  "MechCalledShotMultiplier": 1,
 
   /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
    * Default is 0.75 to balance vehicle's lower number of locations. */

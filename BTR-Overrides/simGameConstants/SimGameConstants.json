@@ -425,8 +425,8 @@
   "MechLab": {
     "StructureRepairTechPoints": 4,
     "StructureRepairCost": 4,
-    "ComponentRepairTechPoints": 2000,
-    "ComponentRepairCost": 200,
+    "ComponentRepairTechPoints": 2500,
+    "ComponentRepairCost": 1000,
     "BallisticInstallTechPoints": 5000,
     "BallisticInstallCost": 500,
     "MissileInstallTechPoints": 5000,
