@@ -26,15 +26,15 @@
   "grantsGuarded": false,
   "grantsEvasive": false,
   "toHitFromModifier": 5.0,
-  "heatSinkMultiplier": 0.5,
-  "heatPerTurn": 10,
+  "heatSinkMultiplier": 0.75,
+  "heatPerTurn": 0,
   "legStructureDamageMin": 0,
   "legStructureDamageMax": 0,
   "canBurn": false,
   "canExplode": false,
   "stickyEffect": {
     "durationData": {
-      "duration": 2,
+      "duration": 1,
       "ticksOnMovements": true,
       "stackLimit": 1
     },
@@ -53,7 +53,7 @@
     "statisticData": {
       "statName": "HeatSinkCapacity",
       "operation": "Int_Multiply_Float",
-      "modValue": "0.5",
+      "modValue": "0.75",
       "modType": "System.Single"
     },
     "nature": "Debuff"
