@@ -489,6 +489,12 @@
          "AutoReplace":"true"
       },
       {
+         "Name":"ECM",
+         "displayName":"ECM",
+         "MaxEquiped":"1",
+         "AutoReplace":"true"
+      },
+      {
          "Name":"ActuatorUpgrades",
          "DisplayName":"Upgraded Actuator",
          "MaxEquipedPerLocation":1,

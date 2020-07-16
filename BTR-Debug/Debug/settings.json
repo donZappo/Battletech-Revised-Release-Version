@@ -7,6 +7,22 @@
   "addDynamicNotFactionTagForPilots": false,
   "testToolsEnabled": "false",
   "loggerLevels": [
+      {
+         "k" : "AI",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.BehaviorNodes",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.DecisionMaking",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.TurnOrder",
+         "v" : "Error"
+      },
     {
       "k": "CombatLog.Attacking",
       "v": "Error"

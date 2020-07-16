@@ -2,14 +2,9 @@
    "Custom":{
       "Category":[
          {
-            "CategoryID":"UAV"
+            "CategoryID":"ECM"
          }
       ],
-      "BonusDescriptions":{
-         "Bonuses":[
-
-         ]
-      },
       "InventorySorter":{
          "SortKey":"00020"
       },
@@ -72,7 +67,7 @@
          "Description":{
             "Id":"ECMStealth_GhostEffect",
             "Name":"ECM CARRIER",
-            "Details":"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within range of their sensors.\n\nECM carriers also receive a bonus Stealth Charge.\n\nAllies within range are immune to indirect missile fire and enemies have a +4 difficulty to-hit with direct-fired missiles.",
+            "Details":"PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within range of their sensors.\n\nECM carriers also receive a bonus Stealth Charge.\n\nAllies within range are immune to indirect missile fire and enemies have a +4 difficulty to-hit with all direct-fired weapons.",
             "Icon":"uixSvgIcon_status_ECM-ghost"
          },
          "statisticData":{
@@ -174,7 +169,7 @@
                "Description":{
                   "Id":"ECMEffect_IndirectImmunity",
                   "Name":"ECM MISSILE DEFENSE",
-                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to all direct fire attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                   "Icon":"uixSvgIcon_status_ECM-missileDef"
                },
                "statisticData":{
@@ -202,13 +197,13 @@
                },
                "effectType":"StatisticEffect",
                "Description":{
-                  "Id":"ECMEffect_MissileDefense",
-                  "Name":"ECM MISSILE DEFENSE",
-                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                  "Id":"ECMEffect_DirectFireDefense",
+                  "Name":"ECM DIRECT FIRE DEFENSE",
+                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to all direct fire attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                   "Icon":"uixSvgIcon_status_ECM-missileDef"
                },
                "statisticData":{
-                  "statName":"ToHitThisActorMissile",
+                  "statName":"ToHitThisActorDirectFire",
                   "operation":"Float_Add",
                   "modValue":"4.0",
                   "modType":"System.Single"
