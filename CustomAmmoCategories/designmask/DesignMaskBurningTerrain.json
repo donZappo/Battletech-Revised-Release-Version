@@ -34,7 +34,7 @@
   "canExplode": false,
   "stickyEffect": {
     "durationData": {
-      "duration": 1,
+      "duration": 2,
       "ticksOnMovements": true,
       "stackLimit": 1
     },
