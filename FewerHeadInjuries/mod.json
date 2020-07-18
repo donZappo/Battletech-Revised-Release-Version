@@ -1,7 +1,13 @@
 ﻿{
   "Name": "FewerHeadInjuries",
   "Enabled": true,
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "Author": "RealityMachina, gnivler, and donZappo",
-  "DLL": "FewerHeadInjuries.dll"
+  "DLL": "FewerHeadInjuries.dll",
+  
+	"Settings" : {
+		"EnableDebug" : false,
+		"InjuryFactor" : 1.6,
+		"MaxInjuries" : 3
+	}
 }
