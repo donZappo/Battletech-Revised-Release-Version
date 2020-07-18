@@ -13,5 +13,9 @@
 	
 	"Manifest": [
 		{ "Type": "AbilityDef", "Path": "Abilities", "ShouldMergeJSON": false }
-   ]
+   ],
+   
+   "Settings": {
+        "TacticsSensorBonus": 15
+	}
 }

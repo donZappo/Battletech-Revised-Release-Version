@@ -28,7 +28,7 @@
 		"ExternalHotSpots" : 5,
 		
 		"ChangeDifficulty" : true,
-		"ExpandedMap" : false,
+		"ExpandedMap" : true,
 		"ResetMap" : false,
 		"AggressiveToggle" : true,
 		

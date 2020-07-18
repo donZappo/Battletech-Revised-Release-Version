@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule3",
         "Name" : "BattlePod Network",
-        "Details" : "With a training space completely packed with Battle Pods, MechWarriors can engage in lance-versus-lance competition, and that inevitably means teams, logos, and pennants. Large-scale competition means even more experience for participating MechWarriors. <i><b>50XP per day up to 30K XP and Pilots may gain a second bonus Quirk.</b></i>",
+        "Details" : "With a training space completely packed with Battle Pods, MechWarriors can engage in lance-versus-lance competition, and that inevitably means teams, logos, and pennants. Large-scale competition means even more experience for participating MechWarriors. <i><b>50XP per day up to 30K XP, Pilots may gain a second bonus Quirk, and Mech Bonding levels will not fall below 60.</b></i>",
         "Icon" : "uixSvgIcon_shipUpgrade_training3"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",

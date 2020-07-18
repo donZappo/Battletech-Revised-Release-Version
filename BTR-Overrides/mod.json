@@ -8,6 +8,10 @@
 	"DependsOn": [
 		"cFixes"
 	],
+	"OptionallyDependsOn": [
+		"3025 Rimward Periphery"
+	],
+	
 	"ConflictsWith": [],   
     
     "Manifest": [

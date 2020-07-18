@@ -1,0 +1,41 @@
+{
+	"Description" : {
+		"Id" : "TraitDefIndirectReduceFive",
+		"Name" : "Improved Indirect Fire",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have no indirect fire penalty.",
+		"Icon" : "uixSvgIcon_ability_mastertactician"
+	},
+	"Type" : "IndirectBonus",
+	"ShortDesc" : "No Indirect Fire Penalty",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefIndirectRemoved",
+				"Name" : "Improved Indirect Fire",
+				"Details" : "No Indirect Fire Penalty",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "ToHitIndirectModifier",
+				"operation" : "Float_Multiply",
+				"modValue" : "0",
+				"modType" : "System.Single"
+			}
+		}
+	]
+}

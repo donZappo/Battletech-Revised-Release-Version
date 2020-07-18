@@ -26,7 +26,7 @@
   "grantsGuarded": false,
   "grantsEvasive": false,
   "toHitFromModifier": 0.0,
-  "heatSinkMultiplier": 0.5,
+  "heatSinkMultiplier": 0.75,
   "heatPerTurn": 0,
   "legStructureDamageMin": 0,
   "legStructureDamageMax": 0,
@@ -47,13 +47,13 @@
     "Description": {
       "Id": "DesignMaskGeothermal",
       "Name": "GEOTHERMAL",
-      "Details": "This unit moved through geothermal terrain. It will only sink 50% of its normal heat until the end of its next activation.",
+      "Details": "This unit moved through geothermal terrain. It will only sink 75% of its normal heat until the end of its next activation.",
       "Icon": "uixSvgIcon_designMask_rough"
     },
     "statisticData": {
       "statName": "HeatSinkCapacity",
       "operation": "Int_Multiply_Float",
-      "modValue": "0.5",
+      "modValue": "0.75",
       "modType": "System.Single"
     },
     "nature": "Debuff"

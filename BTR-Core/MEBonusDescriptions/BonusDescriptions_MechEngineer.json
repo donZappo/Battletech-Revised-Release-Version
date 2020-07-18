@@ -124,6 +124,12 @@
 			"Short": "{0}% Chance Eject Injury",
 			"Long": "{0}% Chance Eject Injury",
 			"Full": "Upon ejecting, each Ejection Injury has a {0}% chance of Injuring the Pilot"
+		},
+		{
+			"Bonus": "Stealth",
+			"Short": "{0} Ghost Effects",
+			"Long": "{0} Ghost Effects",
+			"Full": "Will generate {0} Ghost Effect every turn"
 		}
     ]
 }

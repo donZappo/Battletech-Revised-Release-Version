@@ -11,7 +11,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.7
+            "floatVal" : 1.7
          }
       },
       {

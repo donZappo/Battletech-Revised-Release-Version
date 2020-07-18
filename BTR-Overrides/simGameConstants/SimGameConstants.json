@@ -78,7 +78,7 @@
     "ShopSellModifier": 0.0512,
     "ShopSellDamagedModifier": 0.08,
     "ShopWarnBeforeSellingPriceMinimum": 100000,
-    "MechScrapModifier": 0.08,
+    "MechScrapModifier": 0.0512,
     "MechLabRefundModifier": 0.9,
     "RecoveredChassisShopModifier": 0.9,
     "LeopardBaseMaintenanceCost": 70000,
@@ -425,8 +425,8 @@
   "MechLab": {
     "StructureRepairTechPoints": 4,
     "StructureRepairCost": 4,
-    "ComponentRepairTechPoints": 2000,
-    "ComponentRepairCost": 200,
+    "ComponentRepairTechPoints": 2500,
+    "ComponentRepairCost": 1000,
     "BallisticInstallTechPoints": 5000,
     "BallisticInstallCost": 500,
     "MissileInstallTechPoints": 5000,
@@ -530,7 +530,8 @@
         "TraitDefWeaponHit3"
       ],
       [
-        "TraitDefWeaponHit4"
+        "TraitDefWeaponHit4",
+        "TraitDefMinRangeReduce45"
       ],
       [
         "TraitDefWeaponHit5",
@@ -538,7 +539,8 @@
       ],
       [
         "TraitDefWeaponHit6",
-        "TraitDefRefireReduceOne"
+        "TraitDefRefireReduceOne",
+        "TraitDefMinRangeReduce90"
       ],
       [
         "TraitDefWeaponHit7",
@@ -546,7 +548,8 @@
       ],
       [
         "TraitDefWeaponHit8",
-        "AbilityDefG8"
+        "AbilityDefG8",
+        "TraitDefMinRangeReduce135"
       ],
       [
         "TraitDefWeaponHit9",
@@ -554,7 +557,8 @@
       ],
       [
         "TraitDefWeaponHit10",
-        "TraitDefCalledShotMaster"
+        "TraitDefCalledShotMaster",
+        "TraitDefMinRangeReduce180"
       ]
     ],
     "PilotingSkills": [
@@ -648,13 +652,12 @@
         "TraitDefIndirectReduceOne"
       ],
       [
-        "TraitDefTactics4",
-        "TraitDefIndirectReduceTwo"
+        "TraitDefTactics4"
       ],
       [
         "TraitDefTactics5",
-        "TraitDefMinRangeReduce45",
-        "AbilityDefT5A"
+        "AbilityDefT5A",
+        "TraitDefIndirectReduceTwo"
       ],
       [
         "TraitDefTactics6"
@@ -669,10 +672,11 @@
       ],
       [
         "TraitDefTactics9",
-        "TraitDefMinRangeReduce90"
+        "TraitDefIndirectReduceFour"
       ],
       [
-        "TraitDefTactics10"
+        "TraitDefTactics10",
+        "TraitDefIndirectReduceFive"
       ]
     ],
     "SkillOrder": [
@@ -711,7 +715,7 @@
     "PilotingDefaultTooltip": "Piloting controls stability and melee accuracy.",
     "GunneryDefaultTooltip": "Gunnery controls ranged attack accuracy.",
     "TacticsDefaultTooltip": "Tactics controls sensors and indirect fire accuracy.",
-    "GutsDefaultTooltip": "Guts controls tolerance for heat and injuries."
+    "GutsDefaultTooltip": "Guts controls pilot endurance and their ability to push their 'Mech to the limits."
   },
   "Flashpoints": {
     "MaxActiveFlashpoints": 5,

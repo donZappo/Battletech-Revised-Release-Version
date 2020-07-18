@@ -566,9 +566,8 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "fp_legUp_kickingTheNest_Cancelled",
-                            "fp_legUp_kickingTheNest_Complete"
-                        ],
+                            "fp_legUp_kickingTheNest_Cancelled"
+                            ],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {

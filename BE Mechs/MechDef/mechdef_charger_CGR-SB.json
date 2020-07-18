@@ -621,7 +621,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "mech_quirk_charger_charge", 
+            "ComponentDefID": "mech_quirk_retrofitted", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

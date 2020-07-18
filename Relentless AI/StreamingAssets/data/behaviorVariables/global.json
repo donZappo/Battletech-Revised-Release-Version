@@ -26,7 +26,7 @@
             "k" : "Float_ExistingTargetDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.3
             }
 	},
 	{
@@ -36,7 +36,7 @@
             "k" : "Float_OwnMaxLegDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.8
             }
 	},
 	{
@@ -45,7 +45,7 @@
             "k" : "Float_LancePatrolRadius",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 40
+		"floatVal" : 70
             }
 	},
 	{
@@ -82,7 +82,7 @@
             "k" : "Float_PreferredTargetToHitThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0.0
             }
 	},
 	{
@@ -133,13 +133,13 @@
 		"type" : "Float",
 		"floatVal" : 100
             }
-	}
+	},
 	{
 	    /* Influence Factor Weight for preferring moving less. */
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.7
+		"floatVal" : -0.6
             }
 	},
 	{
@@ -148,7 +148,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.7
+		"floatVal" : -0.6
             }
 	},
 	{
@@ -216,7 +216,7 @@
             "k" : "Float_PreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.6
             }
 	},
 	{
@@ -227,7 +227,7 @@
             "k" : "Float_SprintPreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.6
             }
 	},
 	{
@@ -305,7 +305,7 @@
             "k" : "Float_VentCoolantHeatThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.2
+		"floatVal" : 1.8
             }
 	},
 	{
@@ -409,7 +409,7 @@
             "k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.2
+		"floatVal" : -0.1
             }
 	},
 	{
@@ -418,7 +418,7 @@
             "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.2
+		"floatVal" : -0.1
             }
 	},
 	{
@@ -541,7 +541,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 5.0
+		"floatVal" : 15.0
             }
 	},
 	{
@@ -1216,7 +1216,7 @@
 	    "k" : "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 20
+		"floatVal" : 40
 	    }
 	},
 	{
@@ -1226,7 +1226,7 @@
 	    "k" : "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 20
+		"floatVal" : 40
 	    }
 	},
 	{
@@ -1245,7 +1245,7 @@
 	    "k" : "Float_PipStripAttackProbabilityThreshold",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1428,7 +1428,7 @@
 	    "k" : "Bool_AllowLongRangePathfindingWhenPatrolling",
 	    "v" : {
 		"type" : "Bool",
-		"boolVal" : true
+		"boolVal" : false
 	    }
 	},
 	{
@@ -1452,7 +1452,7 @@
 	    "k" : "Float_PatrolRouteThrottlePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 70.0
+		"floatVal" : 80.0
 	    }
 	},
 	{
@@ -1499,8 +1499,7 @@
 		"type" : "Bool",
 		"boolVal" : true
 	    }
-        }
-
+    },
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow
@@ -1660,7 +1659,7 @@
 		"v" : 
 		{
 			"type" : "Int",
-			"IntVal" : "999"
+			"IntVal" : "1"
 		}
 	},
 	{
@@ -1811,7 +1810,34 @@
             "k" : "Float_PreferLOSToMostHostilesFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0.2
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to most
+		hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to
+	       fewest hostiles. Useful for defensive moves. */
+            "k" : "Float_PreferLOSToFewestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to fewest
+	       hostiles WHEN SPRINTING. Useful for defensive moves. */
+	    "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
             }
 	},
 	{
@@ -1866,6 +1892,86 @@
             "type" : "Float",
             "floatVal" : 100.0
          }
-	}	
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.4
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.4
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being beside
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being beside hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles.  */
+            "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles WHEN SPRINTING.  */
+            "k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Whether to allow sprinting to locations that are
+	       reachable by regular (forward/reverse/jump)
+	       movement. */
+	    "k" : "Bool_SprintToRegularLocations",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+	    }
+	},
+	{
+	    /* Percentage (0-100) chance to brace (pass) when overheated. */
+            "k" : "Float_BraceWhenOverheatedPercentage",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	}
     ]
 }

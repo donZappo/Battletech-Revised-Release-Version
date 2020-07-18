@@ -23,16 +23,6 @@
     "AssignedArmor":250,
     "DamageLevel":"Functional",
     "inventory":[
-	    {
-            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-30",
-            "ComponentDefType": "Upgrade",
-            "DamageLevel": "Functional",
-            "GUID": null,
-            "HardpointSlot": -1,
-            "SimGameUID": "",
-            "hasPrefabName": false,
-            "prefabName": null
-        },
         {
             "ComponentDefID":"Weapon_LRM_LRM15_2-Telos",
             "ComponentDefType":"Weapon",
@@ -101,6 +91,12 @@
         },
         {
             "ComponentDefID":"Ammo_AmmunitionBox_Generic_AMS",
+            "ComponentDefType":"AmmunitionBox",
+            "HardpointSlot":-1,
+            "DamageLevel":"Functional"
+        },
+        {
+            "ComponentDefID":"Ammo_AmmunitionBox_Generic_MG",
             "ComponentDefType":"AmmunitionBox",
             "HardpointSlot":-1,
             "DamageLevel":"Functional"

@@ -19,7 +19,7 @@
     "MaxArmor" : 400,
     "MaxInternalStructure" : 225,
     "BattleValue" : 100,
-	"SpotterDistanceMultiplier" : 1,
+	"SpotterDistanceMultiplier" : 2,
     "VisibilityMultiplier" : 1,
     "SensorRangeMultiplier" : 1,
     "Signature" : 0,

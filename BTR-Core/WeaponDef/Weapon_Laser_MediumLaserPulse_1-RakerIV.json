@@ -61,9 +61,9 @@
     ],
     "tagSetSourceFile" : ""
   },
-  "FireDelayMultiplier" : 0.05,
+  "FireDelayMultiplier" : 0.01,
   "ImprovedBallistic" : true,
-  "ProjectileSpeedMultiplier" : 0.1,
+  "ProjectileSpeedMultiplier" : 0.5,
   "ColorChangeRule" : "Linear",
   "HitGenerator" : "Streak",
   "ColorsTable" : [

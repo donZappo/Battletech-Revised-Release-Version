@@ -1,8 +1,7 @@
 {
     "Custom": {
     "ArmActuatorSupport": {
-        "LeftLimit": "Lower",
-        "RightLimit": "Lower", 
+        "LeftLimit": "Lower"
         },
     },
   "FixedEquipment": [], 

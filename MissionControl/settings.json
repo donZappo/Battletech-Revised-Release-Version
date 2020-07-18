@@ -10,9 +10,9 @@
   "HotDrop": {
     "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "GuardOnHotDrop": false,
-    "EvasionPipsOnHotDrop": 6,
-    "IncludeEnemies": true,
+    "GuardOnHotDrop": true,
+    "EvasionPipsOnHotDrop": 10,
+    "IncludeEnemies": false,
     "IncludeAllyTurrets": false,
     "IncludeEnemyTurrets": false
   },
@@ -100,17 +100,17 @@
     "FollowPlayer": {
       "Pathfinding": "Alternative",
       "Target": "HeaviestMech",
-      "StopWhen": "OnEnemyDetected",
-      "MaxDistanceFromTargetBeforeSprinting": 120,
-      "TargetZoneRadius": 120,
+      "StopWhen": "OnEnemyVisible",
+      "MaxDistanceFromTargetBeforeSprinting": 60,
+      "TargetZoneRadius": 60,
       "TimeToWaitForPathfinding": 60,
       "TicksToWaitForPathfinding": 20
     }
   },
   "Spawners": {
     "SpawnLanceAtEdgeBoundary": {
-      "MinBuffer": 100,
-      "MaxBuffer": 200
+      "MinBuffer": 150,
+      "MaxBuffer": 250
     }
   }
 }

@@ -23,16 +23,6 @@
     "AssignedArmor":375,
     "DamageLevel":"Functional",
     "inventory":[
-	    {
-            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-30",
-            "ComponentDefType": "Upgrade",
-            "DamageLevel": "Functional",
-            "GUID": null,
-            "HardpointSlot": -1,
-            "SimGameUID": "",
-            "hasPrefabName": false,
-            "prefabName": null
-        },	
         {
             "ComponentDefID":"Weapon_LRM_LRM15_1-Zeus",
             "ComponentDefType":"Weapon",

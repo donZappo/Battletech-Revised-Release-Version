@@ -232,7 +232,7 @@
 
   /* Enable clustering effect for called shots against mechs.  Default true. */
 
-  "CalledShotUseClustering": true,
+  "CalledShotUseClustering": false,
 
   /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
    * Default is 0.33 to counter the effect of CalledShotClusterStrength. */
@@ -296,7 +296,7 @@
 
   /* Allow bonus total modifier to increase hit chance.  Default true. */
 
-  "AllowNetBonusModifier": true,
+  "AllowNetBonusModifier": false,
 
   /* Step of hit chance.  Game default is 0.05, or 5%.  Hit chance is always rounded down.
    * Default 0 to remove hit chance step, so that odd gunnery stats can enjoy their +2.5% hit chance. */
@@ -351,7 +351,7 @@
   /* Set miss streak breaker threshold.  Only attacks with hit rate above the threshold will add to streak breaker.
    * Default is 0.5, same as game default.  Set to 1 to disable miss streak breaker. */
 
-  "MissStreakBreakerThreshold": 0.5,
+  "MissStreakBreakerThreshold": 1,
 
   /* Set miss streak breaker divider.  Set to negative integer or zero to make it a constant bonus, e.g. -5 = 5% bonus per miss.
    * Otherwise, MissStreakBreakerThreshold is deduced from triggering attack's hit rate, then divided by this much, then added to streak breaker's chance modifier.
@@ -385,7 +385,7 @@
 
   /* Show corrected hit chance in weapon panel, instead of original (fake) hit chance, before streak breaker.  Default false. */
 
-  "ShowCorrectedHitChance": false,
+  "ShowCorrectedHitChance": true,
 
   /* Format of called shot location percentages, in C# String.Format syntax.
    * Game default is "{0:0}%". Use "{0:0.0}%" to *always* show one decimal, or "{0:0.#}%" for *up to* one decimal.
@@ -421,7 +421,7 @@
 
   /* When target is dead, skip "critical" or "damage" processing.  Default "critical".  Empty to not skip anything. */
 
-  "SkipBeatingDeadMech": "",
+  "SkipBeatingDeadMech": "damage",
 
   /* Overrides AICritChanceBaseMultiplier in CombatGameConstants.json.  Default 0.2, same as game.
    * Set to 1 for same crit chance as players, or set to 0 to prevent enemies and/or allies from dealing crit. */

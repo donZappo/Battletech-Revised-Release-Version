@@ -34,7 +34,7 @@
          "k" : "Float_MeleeDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1.0
+            "floatVal" : 1.0
          }
       },
       {
@@ -52,7 +52,7 @@
             "k" : "Float_MeleeRevengeBonus",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0
+		"floatVal" : 0.5
             }
 	},
 		{
@@ -122,7 +122,7 @@
 		"v" : 
 		{
 			"type" : "Int",
-			"IntVal" : "2"
+			"IntVal" : "1"
 		}
 	},
 		{
