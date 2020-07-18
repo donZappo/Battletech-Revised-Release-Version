@@ -21,7 +21,7 @@
 			"DisableCampaign": true,
 			"DisableCombatSaves": true,
             "DisableMPHashCalculation" : true,
-			"ExtendedStats": true,
+			"ExtendedStats": false,
 			"FlexibleSensorLock": true,
             "MechbayLayout" : true,
 			"MultiTargetStat": false,
@@ -35,7 +35,7 @@
 			"SkirmishAlwaysUnlimited": true,
 			"SkirmishReset": false,
 			"SkipDeleteSavePopup": true,
-			"SpawnProtection": true,
+			"SpawnProtection": false,
 			"StreamlinedMainMenu": true,
             "UrbanExplosionsFix" : true,
 			"WeaponTooltip": true,
@@ -61,8 +61,8 @@
 			},
 			"SpawnProtection": {
 				"ApplyGuard": true,
-				"EvasionPips": 0,
-				"ApplyToEnemies": true,
+				"EvasionPips": 10,
+				"ApplyToEnemies": false,
 				"ApplyToAllies": true,
 				"ApplyToNeutrals": true,
 				"ApplyToReinforcements": true

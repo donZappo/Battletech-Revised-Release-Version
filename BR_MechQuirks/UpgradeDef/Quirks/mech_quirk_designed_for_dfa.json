@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"DFASelfDamageBonus: 57.5"
+				"DFASelfDamageBonus: 50"
       ]
         },
 		"Flags": {
@@ -69,9 +69,9 @@
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Add",
-                "modValue" : "0.0",
+                "statName" : "DFASelfDamage",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

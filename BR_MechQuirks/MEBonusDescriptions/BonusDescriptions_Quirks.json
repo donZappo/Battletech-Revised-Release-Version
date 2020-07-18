@@ -320,9 +320,9 @@
     },
     {
       "Bonus": "DFASelfDamageBonus",
-      "Short": "-{0} DFA Self Damage",
-      "Long": "-{0} DFA Self Damage",
-      "Full": "Takes {0} Less damage from DFA attacks"
+      "Short": "{0}% DFA Self Damage",
+      "Long": "{0}% DFA Self Damage",
+      "Full": "Takes {0}% Less damage from DFA attacks"
     },
     {
       "Bonus": "MassiveSearchLight",
