@@ -6,7 +6,7 @@
         "BonusDescriptions": {
 			"Bonuses": [
 				"ChargerCharge",
-				"MeleeDamage: 2x",
+				"MeleeAttacks: 1",
 				"FixedEngine"
       ]
         },
@@ -35,7 +35,7 @@
         "UIName": "CHARGE!",
         "Id": "mech_quirk_charger_charge",
         "Name": "CHARGE!",
-        "Details": "This 'Mech is designed to get up close and personal as quickly as possible. Every element of its design is focused on allowing it to conduct a melee attack after sprinting. However, this specialization prevents the engine from being upgraded.",
+        "Details": "This 'Mech is designed to get up close and personal as quickly as possible. Every element of its design is focused on allowing it to conduct multiple melee attacks after sprinting. However, this specialization prevents the engine from being upgraded.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
@@ -65,15 +65,15 @@
             "Description" : {
                 "Id" : "StatusEffect-CHARGE-Q1",
                 "Name" : "CHARGE!",
-                "Details" : "Can sprint and melee. Does double melee damage. Fixed Engine.",
+                "Details" : "Can sprint and melee. Does two attacks per melee. Fixed Engine.",
                 "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "2.0",
+                "statName" : "ShotsWhenFired",
+                "operation" : "Int_Add",
+                "modValue" : "1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

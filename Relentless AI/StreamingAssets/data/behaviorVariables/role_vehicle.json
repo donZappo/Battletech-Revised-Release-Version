@@ -19,7 +19,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -67,15 +67,25 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.4
+		"floatVal" : -1
             }
+	},
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range WHEN SPRINTING. Negative values will
+	       encourage units to get out of melee range. */
+            "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -1
+        }
 	},
 	{
 	    /* Influence Factor to prefer this lance to surround hostile units.*/
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.4
 	    }
 	},
 	{
@@ -84,7 +94,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.4
 	    }
 	},
 	{
@@ -105,12 +115,30 @@
 	    }
 	},
 	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside e.g. forests. */
+            "k" : "Float_PreferLessTargetableLocationFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+        }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside e.g. forests WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+        }
+	},
+	{
 	    /* Influence Factor Weight for preferring higher
 	       elevations. */
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.2
             }
 	},
 	{
@@ -128,7 +156,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -137,7 +165,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.75
 	    }
 	},
 	{
@@ -146,7 +174,7 @@
             "k" : "Float_PreferLessSteepPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.25
             }
 	},
 	{
@@ -155,7 +183,7 @@
             "k" : "Float_SprintPreferLessSteepPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.25
             }
 	},
 	{
@@ -163,7 +191,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.85
+		"floatVal" : -0.8
             }
 	},
 	{
@@ -172,7 +200,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.85
+		"floatVal" : -0.8
             }
 	},
 	{
@@ -191,6 +219,14 @@
 		"type" : "Bool",
 		"boolVal" : true
             }
+	},
+	{
+	    /* Whether to use firepower takeaway when determining the designated target */
+	    "k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
+	    "v" : {
+		"type": "Bool",
+		"boolVal" : false
+	    }
 	}
 	]
 }

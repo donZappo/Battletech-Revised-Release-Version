@@ -4,7 +4,7 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0
+            "floatVal" : -0.3
          }
     },
 	{
@@ -24,7 +24,7 @@
             "type" : "Float",
             "floatVal" : 0
          }
-      },
+    },
 	{
 	    /* If a unit takes this percentage damage or more in a
 	       round, consider it "major damage", and react
@@ -36,7 +36,7 @@
 		"floatVal" : 1.0
             }
 	},
-	  {
+	{
 	    /* If a target is a melee revenge target, what additional
 	       damage multiplier to apply. The total multiplier is
 	       Float_MeleeDamageMultiplier +
@@ -53,10 +53,10 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.3
             }
 	},
-		{
+	{
 	    /* Influence Factor to prefer this lance to surround
 	       hostile units WHEN SPRINTING.*/
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
@@ -105,7 +105,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.3
 	    }
 	},
 	{
@@ -114,7 +114,7 @@
             "k" : "Float_PreferLOSToMostHostilesFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -123,8 +123,28 @@
             "k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.1
             }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles.
+	    */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+	    }
 	},
 	{
 	    /* Influence Factor Weight for preferring higher
@@ -132,7 +152,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.3
             }
 	}
     ]

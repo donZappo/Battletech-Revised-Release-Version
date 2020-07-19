@@ -41,7 +41,7 @@
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1
+            "floatVal" : 0
          }
       },
 	  	{

@@ -223,6 +223,12 @@
       "Full": "Additional +{0} Damage done in melee"
     },
     {
+      "Bonus": "MeleeAttacks",
+      "Short": "+{0} Melee Attack",
+      "Long": "+{0} Melee Attack",
+      "Full": "{0} Additional Attack done in melee"
+    },
+    {
       "Bonus": "ProtectiveHWMounting",
       "Short": "+{0} RT Structure",
       "Long": "+{0} RT Structure",

@@ -7,7 +7,7 @@
             "k" : "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 1
             }
 	},
 	{
@@ -20,7 +20,7 @@
 		"floatVal" : 0.4
             }
 	},
-		{
+	{
 	    /* When considering different kinds of attacks, multiply
 	       the melee damage by this value to decide which attack
 	       to use. */
@@ -30,7 +30,7 @@
 		"floatVal" : 1
             }
 	},
-		{
+	{
 	    /* Influence Factor Weight to maximize expected damage to
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
@@ -38,10 +38,10 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2
+		"floatVal" : 2.0
             }
 	},
-		{
+	{
 	    /* When considering different kinds of attacks, multiply
 	       the DFA damage by this value to decide which attack to
 	       use. */
@@ -51,12 +51,12 @@
 		"floatVal" : 1
             }
 	},
-		{
+	{
 	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 0.7
 	    }
 	},
 	{
@@ -64,7 +64,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.9
+		"floatVal" : 0.4
 	    }
 	},
 	{
@@ -73,7 +73,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.9
+		"floatVal" : 0.4
 	    }
 	},
 	{
@@ -107,7 +107,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.9
+		"floatVal" : -0.8
             }
 	},
 	{
@@ -116,7 +116,26 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.9
+		"floatVal" : -0.8
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside forests or other locations that grant guard. */
+            "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside forests or other locations that grant guard WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3
             }
 	},
 	{
@@ -125,7 +144,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.2
             }
 	},
 	{
@@ -134,7 +153,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.2
             }
 	}
     ]
