@@ -1,0 +1,89 @@
+{
+  "lanceKey": "Damaged_Vehicle_Assault_Lance",
+  "lanceDefId": "Tagged",
+  "lanceTagSet": {
+    "items": ["lance_type_assault"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_assault", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d9_tactician",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_assault", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d9_defender",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_assault", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d9_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_assault", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d9_pilot",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    }
+  ]
+}

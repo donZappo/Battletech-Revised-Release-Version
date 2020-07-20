@@ -5,16 +5,16 @@
 
     "DLL": "Retrainer.dll",
     "Settings": {
-        "Cost": 0,
+        "Cost": 500000,
         "OnceOnly": false,
-        "TrainingModuleRequired": false,
+        "TrainingModuleRequired": true,
 
         "RespecCausesInjury": false,
         "MedtechPerExperience": 0.01,
         "VariableCreditsCost": false,
         "CreditsPerExperience": 10.0,
 
-        "Debug": true,
+        "Debug": false,
         "DebugVerbose": false
     }
 }

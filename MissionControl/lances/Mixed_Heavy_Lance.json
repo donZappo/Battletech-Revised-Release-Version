@@ -1,0 +1,77 @@
+{
+  "lanceKey": "Mixed_Heavy_Lance",
+  "lanceDefId": "Tagged",
+  "lanceTagSet": {
+    "items": ["lance_type_heavy"]
+  },
+    "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_medium", "unit_heavy", "unit_mech"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "pilotDefId": "pilot_d7_pilot",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_medium", "unit_heavy", "unit_mech"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "pilotDefId": "pilot_d7_defender",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_heavy", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "pilotDefId": "pilot_d7_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_heavy", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "pilotDefId": "pilot_d7_pilot",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    }
+  ]
+}

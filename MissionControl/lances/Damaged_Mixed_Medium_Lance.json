@@ -1,0 +1,89 @@
+{
+  "lanceKey": "Damaged_Mixed_Medium_Lance",
+  "lanceDefId": "Tagged",
+  "lanceTagSet": {
+    "items": ["lance_type_medium"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Mech",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_medium", "unit_medium", "unit_mech"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d5_pilot",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_medium", "unit_medium", "unit_mech"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d5_defender",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_medium", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d5_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_medium", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d5_tactician",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    }
+  ]
+}
