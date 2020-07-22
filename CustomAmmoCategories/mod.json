@@ -17,7 +17,6 @@
   "DataAddendumEntries":[
   ],
 	"Manifest": [
-		{ "Type": "DesignMaskDef", "Path": "designmask" },
 		{ "Type": "AbilityDef", "Path": "abilities" },
     { "Type": "SVGAsset", "Path": "icons" },
 		{ "Type": "SoundBankDef", "Path": "soundBanks" }

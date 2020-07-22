@@ -7,7 +7,7 @@
   
 	"Settings" : {
 		"EnableDebug" : false,
-		"InjuryFactor" : 1.6,
+		"InjuryFactor" : 0.5,
 		"MaxInjuries" : 3
 	}
 }

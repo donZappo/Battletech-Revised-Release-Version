@@ -38,7 +38,7 @@
       }
     },
     "LancePool": {
-      "ALL": ["Damaged_Mixed_Light_Lance", "Damaged_Vehicle_Light_Lance", "Damaged_Mech_Light_Lance"]
+      "ALL": ["Damaged_Mech_Light_Lance"]
     }
   }
 }
