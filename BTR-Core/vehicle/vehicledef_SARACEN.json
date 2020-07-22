@@ -61,24 +61,10 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Turret",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Turret",
-      "HardpointSlot": 3,
       "DamageLevel": "Functional"
     },
     {

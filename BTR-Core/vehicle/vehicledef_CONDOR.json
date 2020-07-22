@@ -54,13 +54,6 @@
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
       "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
@@ -85,13 +78,6 @@
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Turret",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
