@@ -38,7 +38,7 @@
       }
     },
     "LancePool": {
-      "ALL": ["Mech_Medium_Lance"]
+      "ALL": ["Mixed_Medium_Lance", "Vehicle_Medium_Lance", "Mech_Medium_Lance"]
     }
   }
 }

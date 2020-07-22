@@ -1,6 +1,9 @@
 {
 	"CustomParts": {
-        "MoveCost": "Hover"
+        "MoveCost": "Hover",
+		"Unaffected": {
+			"MoveClamp": 0.25
+		},
     },
 	"Description" : {
 		"Id" : "vehiclechassisdef_HARASSER",
