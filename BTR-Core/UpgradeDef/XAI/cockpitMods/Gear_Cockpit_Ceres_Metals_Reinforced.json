@@ -21,7 +21,7 @@
         "UIName" : "Cockpit Mod +",
         "Id" : "Gear_Cockpit_Ceres_Metals_Reinforced",
         "Name" : "Ceres Metals Reinforced Cockpit Mod",
-        "Details" : "Cere's cockpit mods upgrade the structure of the area the MechWarrior occupies during combat, granting increased protection from mortal injuries.\n\n<b>•Will cause a maximum of 1 Injury upon ejecting: 50% chance.",
+        "Details" : "Cere's cockpit mods upgrade the structure of the area the MechWarrior occupies during combat, granting increased protection from mortal injuries.\n\n<b>•Will cause a maximum of 1 Injury upon ejecting: 50% chance.\n\n•Signifcantly reduced chance of taking wounds.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 2 Injury Resist",
