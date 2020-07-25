@@ -11,7 +11,7 @@
     "DependsOn" : [ "IRBTModUtils" ],
     "OptionallyDependsOn" :  [ "CustomAmmoCategories", "CustomComponents" ],
     "Settings": {
-        "Debug" : true,
+        "Debug" : false,
         "Trace" : false,
         "Profile" : false,
         "Weights" : {
