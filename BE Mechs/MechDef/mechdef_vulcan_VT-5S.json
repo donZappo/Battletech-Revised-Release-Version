@@ -202,7 +202,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional",
