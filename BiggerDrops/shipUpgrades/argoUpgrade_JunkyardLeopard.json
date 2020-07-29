@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_JunkyardLeopard",
         "Name" : "Junkyard Leopard",
-        "Details" : "The Leopard we use for drops has seen much better days, Commander. I just don't have the parts I need on board to get it back up and running. Sumire and I pulled some strings and managed to find someone selling a junked Leopard. The seller says it ‘ran when parked,' but from what I know of the lady I wouldn't get my hopes up. It may never fly again, but we can use it for parts to improve the performance of our own Leopard. Hell, if we're real lucky we might even be able to upgrade it over its original operating specs.</color></b>",
+        "Details" : "The <i>Leopard</i> we use for drops has seen much better days, Commander. I just don't have the parts I need on board to get it back up and running. Sumire and I pulled some strings and managed to find someone selling a junked <i>Leopard</i>. The seller says it 'ran when parked' but I wouldn't get my hopes up. It may never fly again, but we can use it for parts to improve the performance of our own <i>Leopard</i>. Hell, if we're lucky we might even be able to upgrade it over its original operating specs.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "UNKNOWN",
     "shipUpgradeCategoryID" : "BDMechDrops",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "If we grab this our tactical flexibility will take a big step up, Commander.",
+    "AssignedCastDescription": "If we grab this junked DropShip, our tactical flexibility will take a big step up, Commander.",
     "RequiredModules" : {
         "items" : [	
         ],

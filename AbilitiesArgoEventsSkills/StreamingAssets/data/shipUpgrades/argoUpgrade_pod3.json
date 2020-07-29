@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod3",
         "Name" : "Gamma Pod",
-        "Details" : "The Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod will bring the pilot's barracks to a maximum capacity of eighteen. It is a pity we can't field them all at the same time. With the Gamma pod online you have room for <color=#58FAF4><b>18 'Mech Pilots</b></color>.",
+        "Details" : "The Gamma Pod is very much a blank slate, as only its internal support structures survived intact. Rebuilding the habitation decks of the pod will increase the pilot's barracks capacity by six. It is a pity we can't field them all at the same time! With the Gamma pod online, you have room for a total of <color=#58FAF4><b>18 MechWarriors</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podGamma"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",
     "Location" : "SHIP",
     "Category" : "HABITAT_POD",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, there are already a half dozen requests for new facilities for the extra unused space in Gamma Pod, ranging from a swimming pool to a DropShip-sized bouncy castle. We leave these 'fun' decisions in your hands, Commander",
+    "AssignedCastDescription": "Commander, there are already a half dozen requests for new facilities for the extra unused space in Gamma Pod, ranging from a swimming pool to a DropShip-sized bouncy castle. We’ll leave these 'fun' decisions in your hands!",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod2"

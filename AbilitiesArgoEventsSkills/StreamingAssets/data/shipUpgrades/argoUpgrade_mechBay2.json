@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay2",
         "Name" : "Mech Bay 2",
-        "Details" : "<b>• A second 'Mech can be repaired simultaneously at 50% efficiency</b> \nThe repaired power conduits allow six more 'Mech cubicles to be powered up and made available. This also brings more of the Mech Bay's automated systems online, making Yang's job easier.",
+        "Details" : "<b>• A second 'Mech can be repaired simultaneously at 50% efficiency</b>\n\nThe repaired power conduits allow six more 'Mech cubicles to be powered up and made available. This also makes more of the Mech Bay's automated systems potentially available, making Yang's job easier.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay2"
     },
     "Illustration" : "uixTxrSpot_MechBay",
     "Location" : "MECH_BAY",
     "Category" : "MECH_BAY",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "We've got a lot of extra space in here, Commander. It's just full of junk and pirate garbage, and half of the bulkheads are missing. I could pull my engineers off 'Mech duties and we could get another six 'Mech bays online. Just say the word.",
+    "AssignedCastDescription": "We've got a lot of extra space in here, Commander. It's full of junk and pirate garbage with half of the bulkheads missing. I could pull some engineers off other duties and we could get another six 'Mech bays online. Just say the word.",
     "RequiredModules" : {
         "items" : [
             "argoUpgrade_mechBay1"

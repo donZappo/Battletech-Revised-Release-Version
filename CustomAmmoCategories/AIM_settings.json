@@ -275,7 +275,7 @@
 
   /* Use indirect fire when direct LoF is obstructed and indirect is better.  Default true. */
 
-  "SmartIndirectFire": true,
+  "SmartIndirectFire": false,
 
   /* Directional to hit modifiers.  Effective only if "Direction" is in the modifier factor list(s).  Default front 0, side -1, back -2. */
 

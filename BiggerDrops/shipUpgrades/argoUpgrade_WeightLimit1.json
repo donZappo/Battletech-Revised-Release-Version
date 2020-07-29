@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit1",
         "Name" : "Engine Repairs 2",
-        "Details" : "The good news is that the 'Mechs probably won't fall out of their cradles when the Leopard launches, so now we can get started on making sure they won't fall through the floor. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
+        "Details" : "<b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>\n\nThe good news is that the 'Mechs probably won't fall out of their cradles when the <i>Leopard</i> launches, so now we can get started on making sure they won't fall through the floor.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "UNKNOWN",
     "shipUpgradeCategoryID" : "BDDropTonnage",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "After this she might look like there weren't a family of squatters throwing parties in her every night.",
+    "AssignedCastDescription": "After this she might look like there wasn't a family of squatters throwing parties in her every night.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_WeightLimit"			

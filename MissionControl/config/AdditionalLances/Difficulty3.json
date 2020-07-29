@@ -1,6 +1,6 @@
 {
   "LancePool": {
-    "ALL": []
+    "ALL": [ "Generic_Light_Battle_Lance", "Mech_Light_Lance" ]
   },
   "RewardsPerLance": [
       {
@@ -24,7 +24,7 @@
       }
     },
     "LancePool": {
-      "ALL": ["Generic_Light_Battle_Lance", "Damaged_Medium_Battle_Lance"]
+      "ALL": [ "Damaged_Medium_Battle_Lance" ]
     }
   },
   "Allies": {
@@ -38,7 +38,7 @@
       }
     },
     "LancePool": {
-      "ALL": ["Mixed_Light_Lance", "Vehicle_Light_Lance", "Mech_Light_Lance"]
+      "ALL": ["Mixed_Light_Lance", "Vehicle_Light_Lance"]
     }
   }
 }

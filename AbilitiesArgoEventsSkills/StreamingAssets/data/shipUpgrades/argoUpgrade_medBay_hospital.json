@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay_hospital",
         "Name" : "Trauma Hospital",
-              "Details" : "The <i>Argo</i> has room and infrastructure for actual hospital facilities by using the rest of our space.  If we can add a full trauma surgical team along with a dedicated and sterile operating room we will be able to bring pilots back from the brink of death. This upgrade will be expensive, but having real surgeons on call is imperative to the longevity of our mission. The costs include maintenance and the salaries for the trauma team of <color=#cc4125><b>+4 surgeons while reducing Incapacitating deaths by 15% and Lethal deaths by 10%.</b></color>",
+              "Details" : "By using the rest of our space, the <i>Argo</i> has room and infrastructure for actual hospital facilities. If we can add a full trauma surgical team along with a dedicated and sterile operating room, we will be able to bring pilots back from the brink of death. This upgrade will be expensive but having real surgeons on call is imperative to the longevity of our mission and pilots. The costs include maintenance and the salaries for the trauma team of<color=#cc4125><b> surgeons</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay4"
     },
     "Illustration" : "uixTxrSpot_MedBay",
     "Location" : "SHIP",
     "Category" : "MED_BAY",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, the medics are excited about more advanced facilities, and we now have sufficient power to operate it all. Wow, Commander, we have finally made it to the big time -- we will even have our own surgeons!",
+    "AssignedCastDescription": "Commander, the medics are excited about more advanced facilities and we now have sufficient power to operate it all. Wow, Commander, we have finally made it to the big time -- we will even have our own surgeons!",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_medBay3",

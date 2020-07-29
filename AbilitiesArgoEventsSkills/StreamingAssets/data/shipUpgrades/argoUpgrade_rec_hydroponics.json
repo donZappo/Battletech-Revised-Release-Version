@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_hydroponics",
         "Name" : "Hydroponic Garden",
-        "Details" : "Near the spine, the spin of the pods isn't sufficient to generate any real apparent gravity. This makes those areas bad for living in, but excellent for growing hydroponic crops. These crops clean the air while adding nutritional variety to mealtimes. The Hyproponics Garden adds <color=#ffd966><b>+2 to Crew Morale and can reduce Fatigue Time by one day.</b></color>",
+        "Details" : "Near the spine, the spin of the pods isn't sufficient to generate any real apparent gravity. This makes those areas bad for living in but excellent for growing hydroponic crops. These crops clean the air while adding nutritional variety to mealtimes. The Hydroponic Garden adds <color=#ffd966><b>+2 to Crew Morale and can reduce Fatigue Time by one day.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_hydroponics"
     },
     "Illustration" : "uixTxrSpot_Hydroponics",
     "Location" : "SHIP",
     "Category" : "RECREATION",
     "AssignedCastDefId": "castDef_FarahDefault",
-    "AssignedCastDescription": "I've looked over Beta Pod, Commander, and most of the original plumbing is intact. With a small amount of effort, we could repair the hydroponics and have fresh herbs and vegetables instead of reconstituted paste in the galley. Just a thought.",
+    "AssignedCastDescription": "I've looked over Beta Pod, Commander and most of the original plumbing is intact. With a small amount of effort, we could repair the hydroponics and have fresh herbs and vegetables instead of reconstituted paste in the galley. Just a thought.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod2"

@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_drive2",
         "Name" : "Drive Upgrades",
-        "Details" : "The <i>Argo</i> reactors and engines are quite remarkable and they can generate more thrust and power than I realized. By investing in a major upgrade to the core reactor and optimizing more subsystems we can increase thrust and power efficiency to get the <i>Argo</i> up to full power. Upgrading the drive engines will increase drive output by <color=#2EFE9A><b>40%</b></color>",
+        "Details" : "The <i>Argo</i>'s reactors and engines are quite remarkable and can generate more thrust and power than I realized. By investing in a major upgrade to the core reactor and optimizing more subsystems we can increase the <i>Argo</i> up to full thrust. Upgrading the drive engines will increase drive output by <color=#2EFE9A><b>40%</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_drive2"
     },
     "Illustration" : "uixTxrSpot_ArgoDrive2",
     "Location" : "ENGINEERING",
     "Category" : "DRIVE_SYSTEM",
     "AssignedCastDefId": "castDef_FarahDefault",
-           "AssignedCastDescription": "The <i>Argo</i>'s drive repairs have gone well, but I know I can squeeze more out of her.  Unfortunately, crew morale may suffer because they will complain more with having less downtime from the faster travel.",
+           "AssignedCastDescription": "The <i>Argo</i>'s drive repairs have gone well, but I know I can squeeze more out of her and enable slightly faster travel to and from planets.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_drive1",

@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod2",
         "Name" : "Beta Pod",
-        "Details" : "Beta Pod includes a barracks for eight more mechwarriors which will increase the lavatories and showers too. Plus there is unused space that would make a great hydroponics garden <i>Argo</i>, and a low-g gymnasium just above that. With the Beta pod online you have room for <color=#58FAF4><b>12 'Mech Pilots</b></color>.",
+        "Details" : "Beta Pod includes barracks and lavatory facilities for six more MechWarriors. Plus, there is unused space that would make a great hydroponics garden and a gymnasium above that. With the Beta pod online, you have room for a total of <color=#58FAF4><b>12 MechWarriors</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podBeta"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",
     "Location" : "SHIP",
     "Category" : "HABITAT_POD",
     "AssignedCastDefId": "castDef_DariusDefault",
-    "AssignedCastDescription": "Commander, we really need more space for more mechwarriors if we are ever to get them trained for the tenuous times ahead. Remember boot camp? That is what we need to do here find recruits and get them trained, asap.",
+    "AssignedCastDescription": "Commander, we really need additional space for more MechWarriors. We are going to need to recruit and train more pilots for the tenuous times ahead. ",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_pod1",

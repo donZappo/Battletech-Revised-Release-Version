@@ -1,6 +1,6 @@
 {
   "LancePool": {
-    "ALL": []
+    "ALL": ["Mech_Assault_Lance"]
   },
   "RewardsPerLance": [
       {
@@ -38,7 +38,7 @@
       }
     },
     "LancePool": {
-      "ALL": ["Mixed_Assault_Lance", "Vehicle_Assault_Lance", "Mech_Assault_Lance"]
+      "ALL": ["Mixed_Assault_Lance", "Vehicle_Assault_Lance"]
     }
   }
 }
