@@ -39,21 +39,22 @@
 	  "UpgradeStoreLimit" : 5,
 	  "WeaponStoreLimit" : 5,
 	  "StoreSizeModifiers" : {
-		"planet_other_plague": -2,
+		"planet_other_empty": -2,
+		"planet_other_plague": -1,
 		"planet_pop_none": -1,
 		"planet_pop_small": -1,
 		"planet_pop_medium": 0,
 		"planet_other_battlefield": 1,
 		"planet_pop_large": 1,
-		"planet_other_hub": 1,
+		"planet_other_hub": 2,
 		"planet_other_megacity": 2,
-		"planet_other_capital": 2,
+		"planet_other_capital": 3,
 	  },
 	  
       "BlackMarketSettings": {
         "BlackMarketMinBaseRarity": "VeryUncommon",
         "BlackMarketMaxBaseRarity": "PracticallyExtinct",
-        "BlackMarketAppearanceModifier": 1.5,
+        "BlackMarketAppearanceModifier": 1.25,
         "BlackMarketQuantityModifier": 0.5,
         "CircumventRequiredPlanetTags": true,
         "CircumventRestrictedPlanetTags": true,
@@ -62,9 +63,9 @@
         "MaxItemRarityForCascadeQualification": "Extinct"
       },
       "FactionMarketSettings": {
-        "MinBaseRarity": "VeryUncommon",
+        "MinBaseRarity": "Uncommon",
         "MaxBaseRarity": "PracticallyExtinct",
-        "AppearanceModifier": 1.5,
+        "AppearanceModifier": 1.25,
         "QuantityModifier": 0.5
       },
       "RarityBrackets": [
@@ -74,14 +75,14 @@
           "Description": "",
           "QuantityBracket": {
             "Name": "Ubiquitous",
-            "LowCount": -1,
-            "HighCount": -1
+            "LowCount": -100,
+            "HighCount": -100
           },
           "Order": -1
         },
         {
           "Name": "VeryCommon",
-          "ChanceToAppear": 0.9,
+          "ChanceToAppear": 0.80,
           "Description": "",
           "QuantityBracket": {
             "Name": "VeryCommon",
@@ -92,7 +93,7 @@
         },
         {
           "Name": "Common",
-          "ChanceToAppear": 0.75,
+          "ChanceToAppear": 0.60,
           "Description": "",
           "QuantityBracket": {
             "Name": "Common",
@@ -103,7 +104,7 @@
         },
         {
           "Name": "Uncommon",
-          "ChanceToAppear": 0.5,
+          "ChanceToAppear": 0.40,
           "Description": "",
           "QuantityBracket": {
             "Name": "Uncommon",
@@ -114,7 +115,7 @@
         },
         {
           "Name": "VeryUncommon",
-          "ChanceToAppear": 0.35,
+          "ChanceToAppear": 0.20,
           "Description": "",
           "QuantityBracket": {
             "Name": "VeryUncommon",
@@ -125,7 +126,7 @@
         },
         {
           "Name": "Rare",
-          "ChanceToAppear": 0.15,
+          "ChanceToAppear": 0.10,
           "Description": "",
           "QuantityBracket": {
             "Name": "Rare",
@@ -169,6 +170,15 @@
         }
       ],
       "PlanetTagModifiers": [
+		{
+          "Tag": "planet_other_empty",
+          "ChanceModifier": 0.2,
+          "QuantityModifier": 0.2,
+          "Description": "",
+          "AppliesToStock": true,
+          "AppliesToLosTech": true,
+          "AppliesToFaction": false
+        },
 		{
           "Tag": "planet_pop_none",
           "ChanceModifier": 0.5,

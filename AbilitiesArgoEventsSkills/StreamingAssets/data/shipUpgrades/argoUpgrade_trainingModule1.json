@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule1",
         "Name" : "Basic BattlePods",
-        "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. <i><b>20XP per day upto 10K XP and Pilots may gain one bonus Quirk.</b></i>",
+        "Details" : "This set of networked Battle Pods allow MechWarriors to compete against one another in simulated 'Mech battles, generating experience for participating MechWarriors. <color=#ffd966><b>Pilots earn 20XP per day up to 10K XP, may gain one bonus quirk, and Mech Bonding levels will not fall below 10.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_training1"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",

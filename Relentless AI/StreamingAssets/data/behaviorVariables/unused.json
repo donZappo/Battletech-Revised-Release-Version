@@ -1,0 +1,547 @@
+{
+    "unusedBehaviorVariables" : [
+	{
+	    /* Influence Factor Weight for standing still when hostiles are in melee range. */
+            "k" : "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight for standing still when
+	     * hostiles are in melee range WHEN SPRINTING. Does this
+	     * make any sense to be non-zero? */
+            "k" : "Float_SprintPreferStationaryWhenHostilesInMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being beside
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being beside hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles.  */
+            "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles WHEN SPRINTING.  */
+            "k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind braced
+	       targets.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferBeingBehindBracedHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind braced
+	       targets WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferBeingBehindBracedHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than
+	       personal space to allies. */
+            "k" : "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than
+	       personal space to allies WHEN SPRINTING. */
+            "k" : "Float_SprintPreferNoCloserThanPersonalSpaceToAllyFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* DEPRECATED - distance, in meters, between influence map
+	       locations. */
+            "k" : "Float_InfluenceMapSampleDistance",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 20.0
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring more level (vs
+	       steep) locations. */
+            "k" : "Float_PreferLessSteepPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring more level (vs
+	       steep) locations WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLessSteepPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being far away from
+	       closest hostile. Useful for defensive moves. */
+            "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer being far away WHEN
+	       SPRINTING from closest hostile. Useful for defensive
+	       moves. */
+            "k" : "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to
+	       fewest hostiles. Useful for defensive moves. */
+            "k" : "Float_PreferLOSToFewestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to fewest
+	       hostiles WHEN SPRINTING. Useful for defensive moves. */
+	    "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to most
+		hostiles. */
+            "k" : "Float_PreferLOSToMostHostilesFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer having LOS to most
+		hostiles WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLOSToMostHostilesFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       outside the cooldown range. */
+            "k" : "Float_PreferOutsideCoolDownRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       outside the cooldown range WHEN SPRINTING. */
+            "k" : "Float_SprintPreferOutsideCoolDownRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with damage reduction.*/
+	    "k" : "Float_PreferHigherDamageReductionLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with damage reduction WHEN SPRINTING.*/
+	    "k" : "Float_SprintPreferHigherDamageReductionLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher melee to-hit penalty.*/
+	    "k" : "Float_PreferHigherMeleeToHitPenaltyLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher melee to-hit penalty WHEN
+	       SPRINTING. */
+	    "k" : "Float_SprintPreferHigherMeleeToHitPenaltyLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus. */
+	    "k" : "Float_PreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with stability bonus WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferLowerStabilityDamageMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher visibility cost.*/
+	    "k" : "Float_PreferHigherVisibilityCostLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with visibility bonus WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferHigherVisibilityCostLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher sensor range multiplier. */
+	    "k" : "Float_PreferHigherSensorRangeMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with higher sensor range multiplier WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferHigherSensorRangeMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with signature reduction. */
+	    "k" : "Float_PreferLowerSignatureMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with signature reduction WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferLowerSignatureMultiplierLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       near a tagged target. */
+            "k" : "Float_PreferProximityToTaggedTargetFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       near a tagged target WHEN SPRINTING. */
+            "k" : "Float_SprintPreferProximityToTaggedTargetFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Distance to control the desire to be near a tagged
+	       target. */
+            "k" : "Float_PreferProximityToTaggedTargetFactorDistance",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Weight for an influence factor that seeks to get the
+	       team to have equal "engagement" values. */
+	    "k" : "Float_PreferEqualizeEngagementOverTeamFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to get the
+	       team to have equal "engagement" values WHEN
+	       SPRINTING. */
+	    "k" : "Float_SprintPreferEqualizeEngagementOverTeamFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to maximize
+	       the firepower taken away from the enemy. */
+	    "k" : "Float_PreferHigherFirepowerTakenFromHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to maximize
+	       the firepower taken away from the enemy WHEN SPRINTING
+	       (probably not useful). */
+	    "k" : "Float_SprintPreferHigherFirepowerTakenFromHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to minimize
+	     * ranged to hit penalties (e.g. mineral fields). */
+	    "k" : "Float_PreferLowerRangedToHitPenaltyLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to minimize
+	     * ranged to hit penalties (e.g. mineral fields). */
+	    "k" : "Float_SprintPreferLowerRangedToHitPenaltyLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+	    }
+	},
+	{
+	    /* When choosing to turn the strongest armor towards the
+	       enemy, the rear armor can be presented to the enemy if
+	       the unit is in "offensive" mode, only if this is set to
+	       True. */
+            "k" : "Bool_AllowTurningRearArmorToEnemy",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether to log influence map calculations. */
+            "k" : "Bool_LogInfluenceMapCalculations",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether to log influence map calculation profiling
+	       information. */
+            "k" : "Bool_ProfileInfluenceMapCalculations",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether to log behavior tree logic. */
+            "k" : "Bool_LogBehaviorTreeLogic",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether to include influence factors that have a 0
+	       weight in the relevant JSON. */
+            "k" : "Bool_InfluenceMapCalculationLogIncludeZeroWeightedFactors",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether the AI should always be in defensive mood. */
+            "k" : "Bool_AlwaysDefensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
+	},
+	{
+	    /* Whether to allow non-mechs to decide when to initiate
+	       reserving. */
+	    "k" : "Bool_ReserveByNonMechs",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+	    }
+	},
+	{
+	    /* Whether to allow sprinting to locations that are
+	       reachable by regular (forward/reverse/jump)
+	       movement. */
+	    "k" : "Bool_SprintToRegularLocations",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+	    }
+	},
+	{
+	    /* If unsteady, the chance of just deciding to brace. */
+            "k" : "Float_UnsteadyCausesBracePercentage",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* Percentage (0-100) chance to brace (pass) when overheated. */
+            "k" : "Float_BraceWhenOverheatedPercentage",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0
+            }
+	},
+	{
+	    /* UNUSED - DO NOT USE */
+	    "k" : "Float_ReserveHostileVulnerabilityPercentage",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* UNUSED - DO NOT USE */
+	    "k" : "Float_ReserveSelfVulnerabilityPercentage",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	}
+
+    ]
+}

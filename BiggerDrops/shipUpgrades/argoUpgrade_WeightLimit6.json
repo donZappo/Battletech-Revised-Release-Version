@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit6",
         "Name" : "Engine Repairs 7",
-        "Details" : "Now that the engines and structure are back up to snuff, the next step is to recalibrate the control systems to correctly handle the balance and performance changes that our repairs have caused. We'll need to do a series of orbital drops to accurately gauge the handling characteristics and then punch them into the onboard flight systems. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
+        "Details" : "<b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>\n\nNow that the engines and structure are back up to snuff, the next step is to recalibrate the control systems to correctly handle the balance and performance changes that our repairs have caused. We'll need to do a series of orbital drops to accurately gauge the handling characteristics and then punch them into the onboard flight systems.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

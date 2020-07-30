@@ -52,11 +52,12 @@
 
 		//Mech Bonding Area
 		"MechBonding" : true,
-		"Tier1" : 5,
-        "Tier2" : 15,
-        "Tier3" : 30,
-        "Tier4" : 50,
+		"Tier1" : 10,
+        "Tier2" : 30,
+        "Tier3" : 60,
+        "Tier4" : 100,
         "pilot_drops_for_8_pilot" : 50,
+		"MechBondingTesting" : false,
 
 		//RT Compatibility Section
 		"RTCompatible" : false,

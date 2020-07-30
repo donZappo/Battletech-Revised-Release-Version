@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_lounge2",
         "Name" : "Upgraded Lounge",
-        "Details" : "I have a few suggestions for the lounge, Commander.  How does a bar sound to wet our whistles and cut the martain dust down our gullots? Maybe a pool table? How about Holo-projection theater? Ohhh Ohhh maybe even a Galaxy class sound system? The Upgraded Lounge adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
+        "Details" : "I have a few suggestions for the lounge, Commander. How does a bar sound to wet our whistles and cut the Martian dust down our gullets? Maybe a pool table? How about Holo-projection theater? Ohhh, Ohhh, maybe even a Galaxy class sound system? The Upgraded Lounge adds <color=#ffd966><b>+2 to Crew Morale.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_loungeUpgrade"
     },
     "Illustration" : "uixTxrSpot_Lounge",

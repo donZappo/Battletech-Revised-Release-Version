@@ -2,11 +2,11 @@
     "Name": "Flashpoint_CallOfTheLocusts",
     "Enabled": true,
 	
-    "Version": "2.0.2",
+    "Version": "3.0.3",
 
     "Author": "Carson Daut'rieve",
 
-    "DependsOn": [],
+    "DependsOn": ["BTR-Overrides"],
     "ConflictsWith": [],
 	"DataAddendumEntries":[ 
         { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
@@ -20,6 +20,7 @@
 	{ "Type": "HeraldryDef", "Path": "heraldry" },
 	{ "Type": "PilotDef", "Path": "pilot" },
 	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "ItemCollectionDef", "Path": "../../Mods/BTR-Overrides/itemCollections" },
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
 	{ "Type": "Sprite", "Path": "sprites" },

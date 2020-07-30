@@ -25,8 +25,8 @@
     "DesignMaskBiomeMartianVacuum",
     "DesignMaskBiomeLunarVacuum"
   ],
-  "BurningForestStrength": 30,
-  "BurningForestBaseExpandChance": 0.05,
+  "BurningForestStrength": 12,
+  "BurningForestBaseExpandChance": 0.15,
   "DynamicDesignMasksDefs": [
     "DesignMaskCrystals",
     "DesignMaskForest",
@@ -167,12 +167,12 @@
   "AIMStandalone": "AttackImprovementMod.dll",
   "AdvancedCirtProcessing": true,
   "DestroyedComponentsCritTrap": true,
-  "CritLocationTransfer": true,
+  "CritLocationTransfer": false,
   "APMinCritChance": 0.1,
   "NoCritFloatieMessage": true,
   "RemoveFromCritRollStatName": "ignore_damage",
   "PatchWeaponSlotsOverflowCultures": [
-    "CULTURE_RU_RU"
+    "CULTURE_EN_US"
   ],
   "FiringPreviewRecalcTrottle": 0,
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,

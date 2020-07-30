@@ -24,13 +24,12 @@
     ],
 	"Presence": 0.6,
     "ReputationStatements" : [
-        "Did you really just throw that Battle? Or are you just incompetant.",
-        "That was bloody atrocious. Do you call yourself a Company Commander? More like Bloody boy scout.",
-        "Well that was disappointing!  We're prepared to grant you had a bad day but, no more!",
-        "Ummm, we will think long and hard about using you in the future - you might be lucky.",
-        "Well that was close. What did you think would happen? Harsh words?",
-        "A bad run like this will degrade your usefulness to us.  Do better or we'll lose your HPG transmission Id.",
-        "Our regular 'Stable' of better MechWarriors are shaking their heads at that last performance."
+        "Never known you to throw that Battle. Don't start now.",
+        "Do you call yourself a Company Commander? More like Bloody boy scout.",
+        "We're prepared to grant you might have had a bad day but, no more!",
+        "Drop this and we will think long and hard about using you in the future.",
+        "A bad run will degrade your usefulness to us.  Fail and we'll lose your HPG transmission Id.",
+        "Our regular 'Stable' of better MechWarriors are shaking their heads."
     ],
     "MissionSuccessStatements" : [ 
 		"Now that's what we expect.  Everything completed.  Nice!"

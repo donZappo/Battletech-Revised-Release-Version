@@ -292,7 +292,7 @@
                   {
                      "ConstantType":"CareerMode",
                      "ConstantName":"StartingPlayerMech",
-                     "ConstantValue":"mechdef_locust_LCT-1M"
+                     "ConstantValue":"mechdef_locust_LCT-1E-RV"
                   }
                ]
             },
@@ -352,7 +352,7 @@
                   {
                      "ConstantType":"CareerMode",
                      "ConstantName":"StartingPlayerMech",
-                     "ConstantValue":"mechdef_mongoose_MON-66"
+                     "ConstantValue":"mechdef_mongoose_MON-67"
                   }
                ]
             },
@@ -532,7 +532,7 @@
                   {
                      "ConstantType":"CareerMode",
                      "ConstantName":"StartingPlayerMech",
-                     "ConstantValue":"mechdef_phoenixhawk_PXH-1K-RV"
+                     "ConstantValue":"mechdef_phoenixhawk_PXH-1"
                   }
                ]
             },
@@ -544,7 +544,7 @@
                   {
                      "ConstantType":"CareerMode",
                      "ConstantName":"StartingPlayerMech",
-                     "ConstantValue":"mechdef_vindicator_VND-1AA"
+                     "ConstantValue":"mechdef_vindicator_VND-1R"
                   }
                ]
             },

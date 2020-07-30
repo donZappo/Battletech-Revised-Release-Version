@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit2",
         "Name" : "Engine Repairs 3",
-        "Details" : "The interior of the ship is now more or less serviceable, but the underlying structure still needs a lot of work. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
+        "Details" : "<b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>\n\nThe interior of the ship is now more or less serviceable but the underlying structure still needs a lot of work.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",

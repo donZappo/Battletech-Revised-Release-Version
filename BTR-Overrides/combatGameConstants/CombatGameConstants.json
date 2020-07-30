@@ -51,13 +51,13 @@
   },
   "Visibility": {
     "BaseSpotterDistance": 250.0,
-    "SpotterTacticsMultiplier": 25.0,
+    "SpotterTacticsMultiplier": 15.0,
     "RatioFullVis": 0.79,
     "RatioObstructedVis": 0.41,
     "MinRatioFromActors": 0.2,
     "ShutDownVisibilityModifier": 0.0,
     "ShutDownSignatureModifier": -0.5,
-    "BaseSensorDistance": 450.0,
+    "BaseSensorDistance": 400.0,
     "UseAsymmetricalSensors": true,
     "ShowExtendedBlipsBeforeContact": false,
     "ExtendedSensorDistanceMultiplier": 1.0,
@@ -194,7 +194,7 @@
       "statisticData": {
         "statName": "GhostEffectStacks",
         "operation": "Int_Add",
-        "modValue": "-1",
+        "modValue": "-2",
         "modType": "System.Int32"
       },
       "nature": "Debuff"
@@ -211,7 +211,7 @@
     "ToHitUseSteppedAlgorithm": true,
     "ToHitStepThresholds": [
       0,
-      10
+      5
     ],
     "ToHitStepValues": [
       0.05,
@@ -234,7 +234,7 @@
     "ToHitElevationModifierPerLevel": 1,
     "ToHitElevationUseMultipleLevels": true,
     "ToHitElevationApplyPenalties": false,
-    "ToHitMinimumRange": 8,
+    "ToHitMinimumRange": 10,
     "ToHitShortRange": 0,
     "ToHitMediumRange": 0,
     "ToHitLongRange": 4,
@@ -247,7 +247,7 @@
     "ClusterChanceNonadjacentMultiplier": 2,
     "ClusterChanceNeverMultiplyHead": true,
     "ClusterChanceNeverClusterHead": true,
-    "ToHitIndirect": 4,
+    "ToHitIndirect": 6,
     "ToHitShutdownTargetBonus": -4,
     "ToHitShutdownTargetBonusMelee": -10,
     "ToHitProneTargetBonus": 2,
@@ -269,7 +269,11 @@
       130,
       160,
       190,
-      220
+      220,
+      280,
+      340,
+      400,
+      460
     ],
     "EvasivePipsMovingTarget": [
       1,
@@ -277,17 +281,23 @@
       3,
       4,
       5,
-      6
+      6,
+	  7,
+	  8,
+	  9,
+	  10
     ],
     "ToHitMovingPipUMs": [
       2,
       4,
-      6,
-      8,
-      9,
+      7,
       10,
-      11,
-      12
+      13,
+      16,
+      19,
+      22,
+	  25,
+	  28
     ],
     "ToHitMovingTargetStrings": [
       "1 EVASIVE charge: +{0} Difficulty to hit this unit with ranged attacks.",
@@ -295,7 +305,11 @@
       "3 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
       "4 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
       "5 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
-      "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
+      "6 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "7 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "8 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "9 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks.",
+      "10 EVASIVE charges: +{0} Difficulty to hit this unit with ranged attacks."
     ],
     "ToHitSelfWeaponDamaged": 3,
     "ToHitSelfWeaponLocationDamagedMinor": 0,
@@ -588,7 +602,7 @@
     "HitMechLocationFromTop": [
       {
         "k": "Head",
-        "v": 16
+        "v": 2
       },
       {
         "k": "CenterTorso",
@@ -1356,7 +1370,7 @@
     "TargetCamTime": 0.4,
     "RestorePlayerCamTime": 0.7,
     "MovementCamTime": 1.25,
-    "ShowAttackCamTime": 3.0,
+    "ShowAttackCamTime": 1.8,
     "DefaultBuildingHeight": 48.0,
     "ShakyCamTime": 4.0,
     "ShakyCamOffset": 0.5,
@@ -1379,10 +1393,10 @@
     "CamDelayDeath": 2.0,
     "CamDelayBuildingDeath": 1.5,
     "CamDelayFall": 2.0,
-    "CamDelayLocationDestroyed": 2.5,
+    "CamDelayLocationDestroyed": 2.0,
     "CamDelayCriticalHit": 2.0,
     "CamDelayComponentDestroyed": 2.0,
-    "CamDelayPilotInjured": 2.25,
+    "CamDelayPilotInjured": 2.0,
     "CamDelayPilotInspired": 3.0,
     "CamDelayMiscInfo": 1.5,
     "CamMultiplierSlowMove": 10.0

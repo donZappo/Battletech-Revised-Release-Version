@@ -7,8 +7,8 @@
     "weight" : 1,
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
-    "shortDescription" : "A medical relief caravan of {TEAM_EMP.FactionDef.Demonym} doctors, who were aiding the wounded recovering from the recent conflicts here in {TGT_SYSTEM.name}, have been trapped behind enemy lines when hostilities resumed. A reinforced lance of vehicles which was sent to escort the caravan back to friendly lines has gone missing, and {TEAM_EMP.FactionDef.Demonym} are desperate for assistance from anyone.",
-    "longDescription" : "A paycheck is a paycheck Commander, but we'd actually be doing some legitimate good for the civilians caught up in this mess.  Keep an eye out, this is a war zone, so expect {TEAM_TAR.FactionDef.Demonym} resistance.",
+    "shortDescription" : "A medical relief caravan of doctors, who were aiding the wounded recovering from the recent conflicts here have been trapped behind enemy lines when hostilities resumed. A reinforced lance of vehicles which was sent to escort the caravan back to friendly lines has gone missing, and are desperate for assistance from anyone.",
+    "longDescription" : "A paycheck is a paycheck Commander, but we'd actually be doing some legitimate good for the civilians caught up in this mess.  Keep an eye out, this is a war zone, so expect resistance.",
     "salvagePotential" : 16,
     "requirementList" : [
         {
@@ -72,7 +72,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "acf88d1b-d09f-4db7-b7ea-9f48a426075c"
             },
-            "title" : "Destroy any {TEAM_TAR.FactionDef.Demonym} forces between you and the rally point",
+            "title" : "Destroy any enemy forces between you and the rally point",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -118,7 +118,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "371c6027-0869-4e03-8d70-192a8f441d70"
             },
-            "title" : "Destroy {TEAM_TAR.FactionDef.Demonym} Reinforcements",
+            "title" : "Destroy Enemy Reinforcements",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -524,7 +524,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "You've reached the extraction point for the wounded. Hold position and keep them safe until the {TEAM_EMP.FactionDef.Demonym} DropShip can land and medevac them out.",
+                    "words" : "You've reached the extraction point for the wounded. Hold position and keep them safe until the DropShip can land and medevac them out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -590,7 +590,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "{TEAM_EMP.FactionDef.Demonym} shuttle away! The wounded have been safely extracted. Excellent work, Commander. Now get our guys to the second evac zone for extraction.",
+                    "words" : "Shuttle away! The wounded have been safely extracted. Excellent work, Commander. Now get our guys to the second evac zone for extraction.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

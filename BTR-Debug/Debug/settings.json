@@ -5,63 +5,79 @@
   "addDynamicNotFactionTagForUnits": false,
   "addDynamicFactionTagForPilots": false,
   "addDynamicNotFactionTagForPilots": false,
-  "testToolsEnabled": "true",
+  "testToolsEnabled": "false",
   "loggerLevels": [
+      {
+         "k" : "AI",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.BehaviorNodes",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.DecisionMaking",
+         "v" : "Error"
+      },
+      {
+         "k" : "AI.TurnOrder",
+         "v" : "Error"
+      },
     {
       "k": "CombatLog.Attacking",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.AbilitiesAndEffects",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.RoundSequence",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.ActorActivation",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.Heat",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.AbstractActor",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.CombatSelectionHandler",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "CombatLog.Initialization",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "LevelLoader",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "BattleTechServerGameVerification.MechData",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.AssetBundleManager",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.DataManager.LoadRequests",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "Data.ResourceLocator",
-      "v": "Debug"
+      "v": "Error"
     },
     {
       "k": "EncounterLogic.ContractOverride",
-      "v": "Debug"
+      "v": "Error"
     }
   ],
   "fileLogAppenders": [

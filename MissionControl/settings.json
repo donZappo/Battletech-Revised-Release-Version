@@ -2,23 +2,27 @@
   "DebugMode": true,
   "VersionCheck": false,
   "DebugSkirmishMode": false,
-  "DisableIfFlashpointContract": true,
+  "EnableFlashpointOverrides": true,
+  "EnableAdditionalPlayerMechsForFlashpoints": true,
   "RandomSpawns": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort", "AmbushConvoy", "DefendBase"]
+    "EnableForFlashpoints": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort", "AmbushConvoy", "DefendBase", "DestroyBase"]
   },
-  "HotDrop": {
+  "HotDropProtection": {
     "Enable": true,
+    "EnableForFlashpoints": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "GuardOnHotDrop": false,
+    "GuardOnHotDrop": true,
     "EvasionPipsOnHotDrop": 6,
-    "IncludeEnemies": true,
+    "IncludeEnemies": false,
     "IncludeAllyTurrets": false,
     "IncludeEnemyTurrets": false
   },
   "AdditionalLances": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "EnableForFlashpoints": false,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "Assassinate", "AmbushConvoy"],
     "IsPrimaryObjectiveIn": ["SimpleBattle", "CaptureBase"],
     "ExcludeFromAutocomplete": ["DefendBase", "FireMission"],
     "HideObjective": true,
@@ -29,7 +33,6 @@
     "SkullValueMatters": true,
     "BasedOnVisibleSkullValue": true,
     "UseGeneralProfileForSkirmish": true,
-    "DisableIfFlashpointContract": true,
     "DisableWhenMaxTonnage": {
       "Enable": true,
       "Limited": false,
@@ -40,28 +43,28 @@
       "Enable": false,
       "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
       "AllySpawnInfluencePerHalfSkullAbove": -0.1,
-      "EnemySpawnInfluencePerHalfSkullBelow": 0.1,
-      "AllySpawnInfluencePerHalfSkullBelow": -0.1
+      "EnemySpawnInfluencePerHalfSkullBelow": -0.1,
+      "AllySpawnInfluencePerHalfSkullBelow": 0.1
     },
     "DisableAllies": false,
     "DisableEnemies": false
   },
   "ExtendedLances": {
     "Enable": false,
+    "EnableForFlashpoints": true,
     "Autofill": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "SkipWhenTaggedWithAny": ["lance_type_solo"],
     "SkipWhenTaggedWithAll": [],
     "SkipWhenExcludeTagsContain": ["no_extended_lance"],
     "LanceSizes": {
-      "5": [],
-      "6": []
     }
   },
   "ExtendedBoundaries": {
     "Enable": true,
+    "EnableForFlashpoints": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "IncreaseBoundarySizeByPercentage": 0.3,
+    "IncreaseBoundarySizeByPercentage": 0.1,
     "Overrides": [
       {
         "MapId": "mapGeneral_frigidSteppes_iTnd",
@@ -91,18 +94,19 @@
   },
   "DynamicWithdraw": {
     "Enable": true,
+    "EnableForFlashpoints": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "MinDistanceForZone": 50,
-    "MaxDistanceForZone": 288,
+    "MinDistanceForZone": 20,
+    "MaxDistanceForZone": 40,
     "DisorderlyWithdrawalCompatibility": false
   },
   "AI": {
     "FollowPlayer": {
       "Pathfinding": "Alternative",
       "Target": "HeaviestMech",
-      "StopWhen": "OnEnemyDetected",
-      "MaxDistanceFromTargetBeforeSprinting": 120,
-      "TargetZoneRadius": 120,
+      "StopWhen": "OnEnemyVisible",
+      "MaxDistanceFromTargetBeforeSprinting": 60,
+      "TargetZoneRadius": 60,
       "TimeToWaitForPathfinding": 60,
       "TicksToWaitForPathfinding": 20
     }

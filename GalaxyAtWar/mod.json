@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.4.0",
+    "Version": "4.5.1",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -28,7 +28,7 @@
 		"ExternalHotSpots" : 5,
 		
 		"ChangeDifficulty" : true,
-		"ExpandedMap" : false,
+		"ExpandedMap" : true,
 		"ResetMap" : false,
 		"AggressiveToggle" : true,
 		
@@ -229,6 +229,8 @@
 		
 		//** Force alliances. Dictionary<string, List<string> of Faction Names. Formatted: "This Faction" : [ "Allied with", "These Factions" ]		
 		"FactionsAlwaysAllies": { "" : [ "" ] },
+		
+		"LimitSystemContracts": { "ExampleSystem" : 0 },
 			
 		//** Hyades Rim compatibility specific settings.
 		"HyadesRimCompatible" : false,
@@ -291,6 +293,7 @@
 			},
 		
 		"LongWarTesting" : false,
-		"Debug" : false
+		"Debug" : false,
+		"CleanUpCompanyTag" : false
     }
 }

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay1",
         "Name" : "Main Med Bay",
-        "Details" : "The medical facilities on the Argo are fantastic, sir! There are approximately six beds to treat any injured Mechwarriors. However, there is a lot of room for improvement, as the rest of the medical facilities have sustained major damage during the initial crash of the Argo. Sir, you will have to invest a lot of C-Bills to get this facility to its original state. In addition, there will be an additional monthly cost that includes medical supplies and MedTech salaries. We will start with <color=#cc4125><b>8 MedTechs.</b></color>",
+        "Details" : "The medical facilities on the Argo are fantastic, sir! There are six beds to treat injured MechWarriors. However, there is a lot of room for improvement, as the rest of the medical facilities have sustained major damage during the initial crash of the Argo. We will have to invest a lot of C-Bills to get this facility to its original state. In addition, there will be an added monthly cost that includes medical supplies and MedTech salaries for <color=#cc4125><b>2 MedTechs</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay1"
     },
     "Illustration" : "uixTxrSpot_MedBay",

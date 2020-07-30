@@ -21,7 +21,7 @@
     "UIName": "Cockpit Hybrid +",
     "Id": "Gear_Cockpit_Matsubashi_Ronin-30",
     "Name": "Matsubashi Ronin-30",
-    "Details": "Matsubashi's new Ronin-30 cockpit takes aerospace technology and adds multiple systems to ensure the pilots safety and efficiency. With the use of light weight reinforced polymers in the cockpit construction and a state of the art digital communication system. Gives your Commander the safety and ability to coordinate attacks effectively.\n\n<b>•Will cause a maximum of 1 Injury upon ejecting: 50% chance.",
+    "Details": "Matsubashi's new Ronin-30 cockpit takes aerospace technology and adds multiple systems to ensure the pilots safety and efficiency. With the use of light weight reinforced polymers in the cockpit construction and a state of the art digital communication system. Gives your Commander the safety and ability to coordinate attacks effectively.\n\n<b>•Will cause a maximum of 1 Injury upon ejecting: 50% chance.\n\n•Signifcantly reduced chance of taking wounds.",
     "Icon": "uixSvgIcon_equipment_Cockpit"
   },
   "BonusValueA": "+ 2 Injury Resist,",

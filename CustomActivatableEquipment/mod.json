@@ -37,11 +37,11 @@
       "isSpining": false,
       "Id": "Sensors",
       "Name": "Sensors",
-      "Range": 90,
+      "Range": 180,
       "RangeStatistic" : "CAE_SENSORS_RANGE",
       "ApplySelf": false,
       "HideOnNotSelected": true,
-      "EnemyStealthAffection": "NegativeOne",
+      "EnemyStealthAffection": "NegativeTwo",
       "IsNegativeToEnemy": false,
       "ownerVFX": [ ],
       "targetVFX": [ ],
@@ -55,7 +55,7 @@
         {
           "durationData" : {
                 "duration": -1,
-                "stackLimit": 1
+                "stackLimit": 1,
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
@@ -75,9 +75,10 @@
             "Icon" : ""
           },
           "statisticData" : {
+			"effectsPersistAfterDestruction" : false,
             "statName" : "GhostEffectStacks",
             "operation": "Int_Add",
-            "modValue": "-2",
+            "modValue": "-3",
             "modType": "System.Int32"
           },
           "nature" : "Buff"

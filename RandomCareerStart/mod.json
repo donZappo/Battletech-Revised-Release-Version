@@ -1,7 +1,7 @@
 {
 	"Name": "FullRandomCareerStart",
 	"DLL": "RandomCareerStart.dll",
-	"Version": "3.0",
+	"Version": "3.1",
 	"Description": "Randomizes the starting mechwarriors and mechs.",
 	"Author": "donZappo and gnivler, based upon code and concept by mpstark",
 	"ConflictsWith": [
@@ -94,7 +94,7 @@
 			"mechdef_commando_COM-5S",
 			"mechdef_commando_COM-7S",
 			"mechdef_mongoose_MON-66",
-			"mechdef_mongoose_MON_66B",
+			"mechdef_mongoose_MON-66B",
 			"mechdef_mongoose_MON-66-RV",
 			"mechdef_flea_FLE-17",
 			"mechdef_locust_LCT-1L",
@@ -110,6 +110,7 @@
 		],
 		
 		/* Dev toggles */
-		"Debug": false
+		"Debug": false,
+		"SpiderLoops": 2000
 	}
 }

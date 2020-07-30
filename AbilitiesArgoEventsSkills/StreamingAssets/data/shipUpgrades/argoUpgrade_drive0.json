@@ -6,7 +6,7 @@
         "UIName":"",
         "Id":"argoUpgrade_drive0",
         "Name":"Drive Jury Rigging",
-        "Details":"The <i>Argo</i>'s drive has barely enough thrust for space travel and most of the supporting infrastructure is damaged, in  one way or another. The <i>Argo</i>'s drive is functional but only operating at about <b> sixty percent efficiency</b>, with just enough power for spaceflight and keeping the lights on (mostly). Frankly, it's a minor miracle that Dr. Murad was able to get it working at all.",
+        "Details":"The <i>Argo</i>'s drive has barely enough thrust for space travel and most of the supporting infrastructure is damaged. The <i>Argo</i>'s drive is functional but only operating at about <b>sixty percent efficiency</b>, with just enough power for spaceflight and keeping the lights on (mostly). Frankly, it's a minor miracle that Dr. Murad was able to get it working at all.",
         "Icon":"uixSvgIcon_shipUpgrade_drive0"
     },
     "Illustration":"uixTxrSpot_ArgoDrive0",

@@ -6,14 +6,14 @@
         "UIName" : "",
         "Id" : "argoUpgrade_WeightLimit5",
         "Name" : "Engine Repairs 6",
-        "Details" : "The engine work continues, Commander. We've almost got those engines back up to their rated output. A little more tweaking should do it. <b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>",
+        "Details" : "<b><color=#F79232>Increases Drop Weight Limit by 35 tons</color></b>\n\nThe engine work continues, Commander. We've almost got those engines back up to their rated output. A little more tweaking should do it.",
         "Icon" : "uixSvgIcon_shipUpgrade_automation"
     },
     "Illustration" : "uixTxrSpot_YangWorking",
     "Location" : "UNKNOWN",
     "shipUpgradeCategoryID" : "BDDropTonnage",
     "AssignedCastDefId": "castDef_YangDefault",
-    "AssignedCastDescription": "Tune the Engine and drop them hot, Boss.",
+    "AssignedCastDescription": "Tune the engines and drop them hot, Boss.",
     "RequiredModules" : {
         "items" : [
 			"argoUpgrade_WeightLimit4"

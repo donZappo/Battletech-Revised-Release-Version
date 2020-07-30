@@ -6,7 +6,7 @@
 		"Icon": ""
 	},
 	"Type": "TacticsEffects",
-	"ShortDesc": "+75m Spot Distance",
+	"ShortDesc": "+45m Spot/Sensor Distance",
 	"DisplayParams": "ShowInPilotToolTip",
 	"ActivationTime": "Passive",
 	"EffectData": []

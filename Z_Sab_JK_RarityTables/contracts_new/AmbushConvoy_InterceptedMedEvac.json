@@ -7,7 +7,7 @@
     "weight" : 1,
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
-    "shortDescription" : "A medical relief caravan of {TEAM_TAR.FactionDef.Demonym} doctors, has been spotted making its way through our territory in the {TGT_SYSTEM.Name} system.  We believe the caravan may have some high-ranking wounded onboard and it would be beneficial for us if they didn't make it off the planet.  Of course, attacking a medical convoy would generate some bad press for us, so we can't be seen taking a hand in this.  We will also give a substantial bonus if you make sure there are no witnesses left to tell what happened.",
+    "shortDescription" : "A medical relief caravan of doctors, has been spotted making its way through our territory in the {TGT_SYSTEM.Name} system.  We believe the caravan may have some high-ranking wounded onboard and it would be beneficial for us if they didn't make it off the planet.  Of course, attacking a medical convoy would generate some bad press for us, so we can't be seen taking a hand in this.  We will also give a substantial bonus if you make sure there are no witnesses left to tell what happened.",
     "longDescription" : "Guess the {TEAM_EMP.FactionDef.ShortName} would really prefer to take these pieces off the playing field for good.  Can't say I like the idea of using us to do their dirty work though.  Don't know that the crew is going to be all that happy either.",
     "salvagePotential" : 12,
     "requirementList" : [
@@ -90,7 +90,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "f8f77ed8-c52e-4d19-b8e0-d4c94baf2375"
             },
-            "title" : "Destroy the {TEAM_TAR.FactionDef.Demonym} Caravan",
+            "title" : "Destroy the Caravan",
             "description" : "The objective for destroying the caravan units.",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -157,7 +157,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "43fe5b1b-6c77-4daf-b6be-5735ab59ea11"
             },
-            "title" : "Eliminate the {TEAM_TAR.FactionDef.Demonym} Escorts",
+            "title" : "Eliminate the Escorts",
             "description" : "The objective for destroying the units guarding the convoy.",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -223,7 +223,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "9b0f9fdd-2033-469c-8327-4e519ef6c683"
             },
-            "title" : "Eliminate All {TEAM_TAR.FactionDef.Demonym} Reinforcements",
+            "title" : "Eliminate All Reinforcements",
             "description" : "The objective for killing the additional units that ambush you.",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -321,7 +321,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We've got a signal from the {TEAM_EMP.FactionDef.Demonym} spotters Commander. The Caravan is incoming.",
+                    "words" : "We've got a signal from the spotters Commander. The Caravan is incoming.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

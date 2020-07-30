@@ -6,7 +6,7 @@
 		"Icon": ""
 	},
 	"Type": "GutsEffects",
-	"ShortDesc": "-50% Death Chance\n+100% base injury resist\n-30% panic eject\n-50% Light injury chance",
+	"ShortDesc": "-50% Death Chance\n15% Damage Reduction\n-30% panic eject\n-50% Light injury chance",
 	"DisplayParams": "ShowInPilotToolTip",
 	"ActivationTime": "Passive",
 	"EffectData": []

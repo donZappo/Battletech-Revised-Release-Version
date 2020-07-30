@@ -26,6 +26,12 @@
                 "op" : "LessThan",
                 "val" : 50,
                 "valueConstant" : "50"
+            },
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
             }
         ]
     },
@@ -174,7 +180,6 @@
                             "AddedTags" : {
                                 "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
-                                    "company_blackMarket_OFF",
                                     "event_co_legup_missed"
                                 ]
                             },
@@ -182,15 +187,7 @@
                                 "tagSetSourceFile" : "",
                                 "items" : []
                             },
-                            "Stats" : [
-                                {
-                                    "typeString" : "System.Int32",
-                                    "name" : "BlackMarketAccess_Display",
-                                    "value" : "0",
-                                    "set" : false,
-                                    "valueConstant" : null
-                                }
-                            ],
+                            "Stats" : [],
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : false,
@@ -239,7 +236,6 @@
                             "AddedTags" : {
                                 "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
-                                    "company_blackMarket_OFF",
                                     "event_co_legup_ready"
                                 ]
                             },

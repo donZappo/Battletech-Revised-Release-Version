@@ -30,7 +30,7 @@
                 "valueConstant" : "50"
             },
             {
-                "obj" : "travel",
+                "obj" : "Travel",
                 "op" : "Equal",
                 "val" : 0,
                 "valueConstant" : "0"
@@ -82,7 +82,9 @@
                             },
                             "RemovedTags" : {
                                 "tagSetSourceFile" : "",
-                                "items" : []
+                                "items" : [
+                                    "event_co_legup_missed"
+                                ]
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -133,7 +135,9 @@
                             },
                             "RemovedTags" : {
                                 "tagSetSourceFile" : "Tags/CompanyTags",
-                                "items" : []
+                                "items" : [
+                                    "event_co_legup_missed"
+                                ]
                             },
                             "Stats" : null,
                             "Actions" : [
@@ -156,8 +160,7 @@
                             "AddedTags" : {
                                 "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
-                                    "company_blackMarket_OFF",
-                                    "event_co_legup_ready"
+                                     "event_co_legup_ready"
                                 ]
                             },
                             "RemovedTags" : {

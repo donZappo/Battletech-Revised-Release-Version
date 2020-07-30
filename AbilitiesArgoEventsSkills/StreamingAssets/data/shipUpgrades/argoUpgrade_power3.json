@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_power3",
         "Name" : "High-Capacity Power Grid",
-        "Details" : "The <i>Argo</i> needs more power distribution and the low budget power upgrade we did will no longer be adequate. Commander, I think it is time to bite the bullet and do a full restoration of the ships's power grid.",
+        "Details" : "The <i>Argo</i> needs more power distribution and the previous power upgrade is no longer adequate. Commander, I think it is time to bite the bullet and do a full restoration of the ship's power grid.",
         "Icon" : "uixSvgIcon_shipUpgrade_power2"
     },
     "Illustration" : "uixTxrSpot_EngineeringInnards",

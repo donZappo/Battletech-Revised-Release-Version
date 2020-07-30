@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_pod1",
         "Name" : "Alpha Pod",
-        "Details" : "Alpha pod is the only pod that is even close to habitable. The other two pods have far too much damage unless we do major structural repairs. In other words, it is very cold in outer space. With Alpha pod online you have room for <color=#58FAF4><b>6 'Mech Pilots</b></color>.",
+        "Details" : "Alpha pod is the only pod that is close to habitable. The other two pods have far too much damage unless we do major structural repairs. In other words, it is very cold in outer space. With Alpha pod online you have room for <color=#58FAF4><b>6 MechWarriors</b></color>.",
         "Icon" : "uixSvgIcon_shipUpgrade_podAlpha"
     },
     "Illustration" : "uixTxrSpot_ArgoPod",

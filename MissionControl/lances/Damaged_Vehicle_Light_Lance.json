@@ -1,0 +1,89 @@
+{
+  "lanceKey": "Damaged_Vehicle_Light_Lance",
+  "lanceDefId": "Tagged",
+  "lanceTagSet": {
+    "items": ["lance_type_light"]
+  },
+  "unitSpawnPointOverrideList": [
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_light", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d3_tactician",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_light", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d3_defender",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_light", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_50"]
+      },
+      "pilotDefId": "pilot_d3_gunner",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    },
+    {
+      "unitType": "Vehicle",
+      "unitDefId": "Tagged",
+      "unitTagSet": {
+        "items": ["unit_range_long", "unit_light", "unit_vehicle"]
+      },
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
+      },
+      "spawnEffectTags": {
+        "items": ["spawn_poorly_maintained_25"]
+      },
+      "pilotDefId": "pilot_d3_pilot",
+      "pilotTagSet": {
+        "items": []
+      },
+      "pilotExcludedTagSet": {
+        "items": []
+      }
+    }
+  ]
+}

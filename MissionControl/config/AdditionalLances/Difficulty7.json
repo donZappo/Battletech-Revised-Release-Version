@@ -1,16 +1,16 @@
 {
   "LancePool": {
-    "ALL": ["Generic_Heavy_Battle_Lance"]
+    "ALL": ["Damaged_Heavy_Battle_Lance", "Damaged_Mech_Heavy_Lance"]
   },
   "RewardsPerLance": [
       {
         "Type": "ContractBonusRewardPct",
-        "Value": "0.1",
+        "Value": "0.25"
       },
       {
         "Type": "ContractBonusTargetReputation",
-        "Value": "-1",
-      },
+        "Value": "-1"
+      }
     ],
   "Enemy": {
     "Max": 1,
@@ -24,8 +24,7 @@
       }
     },
     "LancePool": {
-      "ALL": [
-      ]
+      "ALL": ["Generic_Heavy_Battle_Lance"]
     }
   },
   "Allies": {
@@ -39,9 +38,7 @@
       }
     },
     "LancePool": {
-      "ALL": [
-        "Damaged_Heavy_Battle_Lance"
-      ]
+      "ALL": ["Damaged_Mixed_Heavy_Lance", "Damaged_Vehicle_Heavy_Lance"]
     }
   }
 }

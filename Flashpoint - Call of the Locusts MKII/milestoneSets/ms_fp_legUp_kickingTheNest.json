@@ -391,9 +391,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : [
-                            "ms_fp_legUp_kickingTheNest_Complete"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -494,9 +492,7 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "company_blackMarket_NOSHAKEDOWN",
-                            "company_blackMarket_ON",
-                            "fp_Legup_kickingTheNest_Complete"
+                           "fp_Legup_kickingTheNest_Complete"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -570,9 +566,8 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "fp_legUp_kickingTheNest_Cancelled",
-                            "fp_legUp_kickingTheNest_Complete"
-                        ],
+                            "fp_legUp_kickingTheNest_Cancelled"
+                            ],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -634,7 +629,6 @@
                     },
                     "AddedTags" : {
                         "items" : [
-                            "company_blackMarket_OFF",
                             "fp_KickingTheNest_Fail"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"

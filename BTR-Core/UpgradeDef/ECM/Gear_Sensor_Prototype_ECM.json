@@ -21,7 +21,7 @@
       "UIName":"X-1 ECM Equipment",
       "Id":"Gear_Sensor_Prototype_ECM",
       "Name":"Prototype Electronic Countermeasures",
-      "Details":"This prototype electronic warfare component recreates the capabilities of the LosTech Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. This component cannot be mounted along with the Active Probe component.",
+      "Details":"This prototype electronic warfare component recreates the capabilities of the LosTech Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against all direct-fire weapons plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. This component cannot be mounted along with the Active Probe component.",
       "Icon":"UixSvgIcon_specialEquip_Sensors"
    },
    "BonusValueA":"+ ECM Field",
@@ -61,7 +61,7 @@
          "statisticData":{
             "statName":"GhostEffectStacks",
             "operation":"Int_Add",
-            "modValue":"1",
+            "modValue":"2",
             "modType":"System.Int32"
          },
          "nature":"Buff"
@@ -140,7 +140,7 @@
                "Description":{
                   "Id":"ECMEffect_IndirectImmunity",
                   "Name":"ECM MISSILE DEFENSE",
-                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to all direct fire attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                   "Icon":"uixSvgIcon_status_ECM-missileDef"
                },
                "statisticData":{
@@ -168,13 +168,13 @@
                },
                "effectType":"StatisticEffect",
                "Description":{
-                  "Id":"ECMEffect_MissileDefense",
-                  "Name":"ECM MISSILE DEFENSE",
-                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                  "Id":"ECMEffect_DirectFireDefense",
+                  "Name":"ECM DIRECT FIRE DEFENSE",
+                  "Details":"Friendly units within an ECM field gain +[AMT] Difficulty to all direct-fire attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                   "Icon":"uixSvgIcon_status_ECM-missileDef"
                },
                "statisticData":{
-                  "statName":"ToHitThisActorMissile",
+                  "statName":"ToHitThisActorDirectFire",
                   "operation":"Float_Add",
                   "modValue":"4.0",
                   "modType":"System.Single"

@@ -1,0 +1,153 @@
+{
+   "behaviorVariables" : [
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
+            "k" : "Float_MeleeDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 3
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
+            "k" : "Float_DFADamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 3
+            }
+	},
+	{
+	    /* How much a location must be damaged before a DFA attack
+	       will be considered , as a fraction from 0.0 (undamaged)
+	       to 1.0 (location destroyed) */
+            "k" : "Float_ExistingTargetDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Maximum leg damage allowed for DFA attack (above which
+	       attacks will not be considered), as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
+            "k" : "Float_OwnMaxLegDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less. */
+            "k" : "Float_PreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -2
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -2
+            }
+	},
+	{
+	    /* If a target is a melee revenge target, but the ratio of
+	       its expected melee damage to my expected melee damage
+	       is higher than this threshold, DO NOT MELEE! It'll all
+	       end in tears! */
+            "k" : "Float_MeleeDamageRatioCap",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 99
+            }
+	},
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
+            "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5
+            }
+	},
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range WHEN SPRINTING. Negative values will
+	       encourage units to get out of melee range. */
+            "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2
+            }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles.
+	    */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Radius (in meters) to avoid sprinting within. */
+	    "k" : "Float_SprintExclusionRadius",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
+	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+            }
+	}
+   ]
+}

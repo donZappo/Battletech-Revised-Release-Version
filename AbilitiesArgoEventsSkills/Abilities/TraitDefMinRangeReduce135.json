@@ -1,0 +1,42 @@
+{
+	"Description" : {
+		"Id" : "TraitDefMinRangeReduce135",
+		"Name" : "Reduced Min. Range",
+		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior have their minimum weapon ranges penalty reduced by 4.",
+		"Icon" : "uixSvgIcon_ability_mastertactician"
+	},
+	"Type" : "MinimumRange",
+	"ShortDesc" : "-4 Minimum Range Penalty",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefIndirectReduceOne",
+				"Name" : "Reduced Min. Range",
+				"Details" : "Minimum weapon ranges penalty reduced by 4",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"targetCollection" : "Weapon",
+				"statName" : "MinRangeMultiplier",
+				"operation" : "Set",
+				"modValue" : "0.60",
+				"modType" : "System.Single"
+			}
+		}
+	]
+}

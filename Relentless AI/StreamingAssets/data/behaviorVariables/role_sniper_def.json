@@ -1,0 +1,228 @@
+{
+    "behaviorVariables" : [
+	{
+	    /* How much a location must be damaged before a DFA attack
+	       will be considered , as a fraction from 0.0 (undamaged)
+	       to 1.0 (location destroyed) */
+            "k" : "Float_ExistingTargetDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Maximum leg damage allowed for DFA attack (above which
+	       attacks will not be considered), as a fraction from 0.0
+	       (undamaged) to 1.0 (location destroyed) */
+            "k" : "Float_OwnMaxLegDamageForDFAAttack",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.7
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less. */
+            "k" : "Float_PreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.85
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.85
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring higher
+	       elevations. */
+            "k" : "Float_PreferHigherPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.4
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring higher
+	       elevations WHEN SPRINTING. */
+            "k" : "Float_SprintPreferHigherPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to maximize expected damage to
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2
+            }
+	},
+	{
+	    /* Influence Factor Weight to maximize expected damage to
+	       hostiles WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the shooting damage by this value to decide which
+	       attack to use. */
+            "k" : "Float_ShootingDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
+            "k" : "Float_MeleeDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* When considering a melee attack against an unsteady
+	       target, multiply the melee damage by this value to
+	       decide which attack to use. This is in addition to the
+	       base melee multiplier, above. */
+            "k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
+            "k" : "Float_DFADamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside water. */
+            "k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside water WHEN SPRINTING. */
+            "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus. */
+	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Appetitive Influence Factor Weight to approach
+	       hostile's rear arc. */
+	    "k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Appetitive Influence Factor Weight to approach
+	       hostile's rear arc WHEN SPRINTING. */
+	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Influence Factor Weight to prefer being far away from
+	       closest hostile. Useful for defensive moves. */
+      "k": "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 0.1
+      }
+    },
+	{
+	    /* Appetitive Influence Factor Weight to approach ideal
+	       weapon range to hostile. */
+	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.8
+	    }
+	},
+	{
+	    /* Appetitive Influence Factor Weight to approach ideal
+	       weapon range to hostile WHEN SPRINTING. */
+	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.8
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
+	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+	    }
+	}
+    ]
+}

@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_medBay3",
         "Name" : "Expanded Med Bay",
-                "Details" : "Welcome to the Med Bay Commander! As you can see we have done a great job of treating the Mechwarriors. Unfortunately, we are only using about half of the space available to us. Since we have the power and sctructure in place, I would like permission to expand the facilities and staff in order to handle the injuries we are seeing. I can add another six beds and more support staff to handle it. The cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs.</b></color>",
+        "Details" : "Welcome to the Med Bay Commander! As you can see, we have done a great job of treating injured MechWarriors. Unfortunately, we are only using about half of the space available to us. Since we have the power and structure in place, I would like permission to expand the facilities and staff in order to handle the injuries we are seeing. I can add another six beds and more support staff. The cost includes maintenance and salaries for <color=#cc4125><b>+2 MedTechs.</b></color>",
         "Icon" : "uixSvgIcon_shipUpgrade_medbay3"
     },
     "Illustration" : "uixTxrSpot_MedBay",
