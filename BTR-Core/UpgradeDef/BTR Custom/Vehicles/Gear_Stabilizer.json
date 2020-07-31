@@ -9,8 +9,8 @@
     "RelativeModifier": 0,
     "AbsoluteModifier": 0,
     "Description": {
-        "Cost": 0,
-        "Rarity": 0,
+        "Cost": 10,
+        "Rarity": 100,
         "Purchasable": false,
         "Manufacturer": "Vehicle",
         "Model": "Stabilizer",
@@ -65,8 +65,12 @@
             "nature" : "Buff",
 		}
     ],
-    "ComponentTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "noautofix",
+			"component_type_noupgrade"
+        ],
+        "tagSetSourceFile" : ""
     }
 }
