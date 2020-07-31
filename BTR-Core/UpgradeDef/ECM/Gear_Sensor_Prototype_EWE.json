@@ -17,9 +17,6 @@
             "no_salvage"
          ]
       },
-      "Lootable":{
-         "ItemID":"Gear_UAV"
-      }
    },
    "StatName":null,
    "RelativeModifier":0,
