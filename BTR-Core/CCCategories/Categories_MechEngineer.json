@@ -489,12 +489,6 @@
          "AutoReplace":"true"
       },
       {
-         "Name":"ECM",
-         "displayName":"ECM",
-         "MaxEquiped":"1",
-         "AutoReplace":"true"
-      },
-      {
          "Name":"ActuatorUpgrades",
          "DisplayName":"Upgraded Actuator",
          "MaxEquipedPerLocation":1,
@@ -511,6 +505,133 @@
          "DisplayName":"Lower Arm-Type Actuator",
          "MaxEquipedPerLocation":1,
          "AutoReplace":false,
-      }
+      },
+	  {
+         "Name":"Vehicle_Quirk",
+         "DisplayName":"Vehicle Quirk",
+         "MaxEquipedPerLocation":1,
+         "DefaultCustoms":{
+            "Flags":{
+               "Flags":[
+                  "ignore_damage",
+				  "no_salvage"
+               ]
+            }
+         }
+      },
+	  {
+         "Name":"Crew_Compartment",
+         "DisplayName":"Crew Compartment",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+				"CritFloatieMessage":"Crew Compartment Breached",
+                "DestroyedFloatieMessage":"Crew Compartment DESTROYED",
+                "CritDestroyedDeathText" : "DESTROYED: Mech is incapacitated, reason is destroyed Crew Compartment",
+                "PenalizedEffectIDs":[
+                  [
+                    "CriticalEffect-CrewCompartmentCrit1",
+                    "CriticalEffect-CrewCompartmentCrit2",
+                    "CriticalEffect-CrewCompartmentCrit3"
+                  ]
+               ],
+              "DeathMethod": "VitalComponentDestroyed",
+			  "Flags":{
+                "Flags":[
+				  "no_salvage"
+               	]
+            	}
+            }
+         }
+      },
+	  {
+         "Name":"FuelTank",
+         "DisplayName":"Fuel Tank",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+              "CritDestroyedDeathText" : "DESTROYED: Mech is incapacitated, reason is ruptured Fuel Tank",
+              "DestroyedFloatieMessage": "Fuel Tank EXPLODED!",
+              "DeathMethod": "EngineDestroyed",
+			  "Flags":{
+                "Flags":[
+				  "no_salvage"
+               		]
+            	}
+            }
+         }
+      },
+      {
+         "Name":"VehicleHeatSink",
+         "DisplayName":"Vehicle Heat Sink",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+              "DestroyedFloatieMessage": "Heat Sink DESTROYED",
+			  "Flags":{
+                "Flags":[
+				  "no_salvage"
+               		]
+            	},
+              "OnDestroyedEffectIDs":[
+                  "CriticalEffect-HeatSinkDestroyed"
+               ]
+            }
+         }
+      },
+	  {
+         "Name":"IC_Engine",
+         "DisplayName":"IC Engine",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+                "DestroyedFloatieMessage":"Engine EXPLODED!",
+                "DeathMethod":"EngineDestroyed",
+                "Flags":{
+                   "Flags":[
+                      "no_salvage"
+               		]
+            	}
+            }
+         }
+      },
+     {
+         "Name":"Vehicle_Gunner",
+         "DisplayName":"Gunner",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+                "DestroyedFloatieMessage":"Gunner KILLED",
+			"Flags":{
+               "Flags":[
+				  "no_salvage"
+               		]
+            	}
+            }
+         }
+      },
+     {
+         "Name":"Vehicle_Driver",
+         "DisplayName":"Driver",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+                "DestroyedFloatieMessage":"Driver KILLED",
+			"Flags":{
+               "Flags":[
+				  "no_salvage"
+               		]
+            	}
+            }
+         }
+      },
+     {
+         "Name":"Vehicle_Commander",
+         "DisplayName":"Commander",
+         "DefaultCustoms":{
+            "CriticalEffects":{
+                "DestroyedFloatieMessage":"Commander KILLED",
+			"Flags":{
+               "Flags":[
+				  "no_salvage"
+               		]
+            	}
+            }
+         }
+      },
    ]
 }
