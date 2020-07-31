@@ -1,0 +1,31 @@
+{
+    "Settings" : [
+        {
+            "durationData" : {
+              "duration" : 25,
+              "ticksOnActivations" : true,
+              "ticksOnEndOfRound" : false,
+      },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "CriticalEffect-HeatSinkDestroyed",
+                "Name" : "Heat Sink Destroyed",
+                "Details" : "Vehicle will take heat damage each turn.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "statisticData" : {
+                "statName" : "HeatDamage",
+                "operation" : "Float_Add",
+                "modValue" : "100.0",
+                "modType" : "System.Single"
+            },
+            "nature" : "Debuff"
+        }
+    ]
+}
