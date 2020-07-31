@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_GOBLIN",
+	"MovementCapDefID" : "movedef_Tracked4",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_goblin",
 	"PrefabIdentifier" : "chrprfvhcl_goblinbase",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 160,
-			"InternalStructure" : 25
+			"InternalStructure" : 215
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 25
+			"InternalStructure" : 180
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 25
+			"InternalStructure" : 180
 		},
 		{
 			"Location" : "Rear",
@@ -102,7 +102,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 100,
-			"InternalStructure" : 25
+			"InternalStructure" : 140
 		},
 	  {
 			"Location" : "Turret",
@@ -115,7 +115,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 160,
-			"InternalStructure" : 25
+			"InternalStructure" : 210
 		}
 	]
 }

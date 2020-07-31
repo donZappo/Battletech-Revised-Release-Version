@@ -8,7 +8,7 @@
 		"Rarity" : 2,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_SKULKER",
+	"MovementCapDefID" : "movedef_Wheeled7",
 	"PathingCapDefID" : "pathingdef_light_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_apc",
 	"PrefabIdentifier" : "chrPrfVhcl_apc",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 90,
-			"InternalStructure" : 10
+			"InternalStructure" : 100
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 90,
-			"InternalStructure" : 10
+			"InternalStructure" : 100
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 90,
-			"InternalStructure" : 10
+			"InternalStructure" : 100
 		},
 		{
 			"Location" : "Rear",
@@ -102,7 +102,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 90,
-			"InternalStructure" : 10
+			"InternalStructure" : 100
 		}
 	]
 }

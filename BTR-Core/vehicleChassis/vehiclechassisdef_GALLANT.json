@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_GALLANT",
+	"MovementCapDefID" : "movedef_Wheeled3",
    	"PathingCapDefID" : "pathingdef_medium_wheeled",
    	"HardpointDataDefID" : "hardpointdatadef_gallant",
 	"PrefabIdentifier" : "chrPrfVhcl_gallant",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 285,
-			"InternalStructure" : 35
+			"InternalStructure" : 335
 			},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 285,
-			"InternalStructure" : 35
+			"InternalStructure" : 310
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 285,
-			"InternalStructure" : 35
+			"InternalStructure" : 310
 		},
 		{
 			"Location" : "Rear",
@@ -102,7 +102,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 285,
-			"InternalStructure" : 35
+			"InternalStructure" : 335
 		},
 	  {
 			"Location" : "Turret",
@@ -135,7 +135,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 285,
-			"InternalStructure" : 35
+			"InternalStructure" : 285
 		}
 	]
 }

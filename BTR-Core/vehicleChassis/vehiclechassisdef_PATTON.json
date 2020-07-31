@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_PATTON",
+	"MovementCapDefID" : "movedef_Tracked4",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_rommel",
 	"PrefabIdentifier" : "chrprfvhcl_rommel",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"InternalStructure" : 290
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"InternalStructure" : 265
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"InternalStructure" : 265
 		},
 		{
 			"Location" : "Rear",
@@ -106,7 +106,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 190,
-			"InternalStructure" : 35
+			"InternalStructure" : 225
 		},
 	    {
 			"Location" : "Turret",
@@ -123,7 +123,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"InternalStructure" : 290
 		}
 	]
 }

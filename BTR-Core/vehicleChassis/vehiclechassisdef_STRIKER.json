@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_STRIKER",
+	"MovementCapDefID" : "movedef_Wheeled5",
 	"PathingCapDefID" : "pathingdef_medium_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_striker",
 	"PrefabIdentifier" : "chrPrfVhcl_striker",
@@ -71,7 +71,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 48,
-			"InternalStructure" : 4
+			"InternalStructure" : 140
 		},
 		{
 			"Location" : "Left",
@@ -80,7 +80,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 40,
-			"InternalStructure" : 4
+			"InternalStructure" : 120
 		},
 		{
 			"Location" : "Right",
@@ -89,7 +89,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 40,
-			"InternalStructure" : 4
+			"InternalStructure" : 120
 		},
 		{
 			"Location" : "Rear",
@@ -98,7 +98,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 36,
-			"InternalStructure" : 4
+			"InternalStructure" : 100
 		},
 	  {
 			"Location" : "Turret",
@@ -115,7 +115,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 44,
-			"InternalStructure" : 4
+			"InternalStructure" : 140
 		}
 	]
 }

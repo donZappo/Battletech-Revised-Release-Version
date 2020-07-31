@@ -8,7 +8,7 @@
 		"Rarity" : 4,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_SCHREK",
+	"MovementCapDefID" : "movedef_Tracked3",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_schreck",
 	"PrefabIdentifier" : "chrPrfVhcl_schreck",
@@ -66,46 +66,27 @@
 	"Locations" : [
 		{
 			"Location" : "Front",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 180,
-			"InternalStructure" : 40
+			"InternalStructure" : 240
 		},
 		{
 			"Location" : "Left",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 40
+			"InternalStructure" : 200
 		},
 		{
 			"Location" : "Right",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 40
+			"InternalStructure" : 200
 		},
 		{
 			"Location" : "Rear",
@@ -114,7 +95,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 40
+			"InternalStructure" : 200
 		},
 		{
 			"Location" : "Turret",
@@ -131,23 +112,11 @@
 					"WeaponMount" : "Ballistic",
 					"Omni" : false
 				},
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+            ],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 180,
-			"InternalStructure" : 40
+			"InternalStructure" : 280
 		}
 	]
 }

@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_ROTUNDA",
+	"MovementCapDefID" : "movedef_Wheeled9",
 	"PathingCapDefID" : "pathingdef_light_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_rotunda",
 	"PrefabIdentifier" : "chrPrfVhcl_rotunda",
@@ -16,7 +16,7 @@
 	"Tonnage" : 20,
 	"weightClass" : "LIGHT",
 	"BattleValue" : 564,
-	"TopSpeed" : 150,
+	"TopSpeed" : 160,
 	"TurnRadius" : 90,
 	"movementType" : "Wheeled",
 	"SpotterDistanceMultiplier" : 1,
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 110,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 110,
-			"InternalStructure" : 10
+			"InternalStructure" : 60
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 110,
-			"InternalStructure" : 10
+			"InternalStructure" : 60
 		},
 	    {
 	      "Location": "Rear",
@@ -102,7 +102,7 @@
 	      "Tonnage": 0,
 	      "InventorySlots": 0,
 	      "MaxArmor": 110,
-	      "InternalStructure": 10
+	      "InternalStructure": 50
 	    }
 	]
 }

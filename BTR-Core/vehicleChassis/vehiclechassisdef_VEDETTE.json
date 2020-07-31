@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_VEDETTE",
+	"MovementCapDefID" : "movedef_Tracked5",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_vedette",
 	"PrefabIdentifier" : "chrprfvhcl_vedettebase",
@@ -71,7 +71,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 100,
-			"InternalStructure" : 25
+			"InternalStructure" : 160
 		},
 		{
 			"Location" : "Left",
@@ -80,7 +80,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 80,
-			"InternalStructure" : 25
+			"InternalStructure" : 140
 		},
 		{
 			"Location" : "Right",
@@ -89,7 +89,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 80,
-			"InternalStructure" : 25
+			"InternalStructure" : 140
 		},
 		{
 			"Location" : "Rear",
@@ -98,7 +98,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 100,
-			"InternalStructure" : 25
+			"InternalStructure" : 155
 		},
 	    {
 			"Location" : "Turret",
@@ -115,7 +115,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 100,
-			"InternalStructure" : 25
+			"InternalStructure" : 160
 		}
 	]
 }

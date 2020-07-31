@@ -1,4 +1,18 @@
 {
+  "FixedEquipment": [
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_Sensor_Prototype_ECM",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+  ],
+  
 	"Description" : {
 		"Id" : "vehiclechassisdef_PACKRAT_ICE",
 		"Name" : "Packrat I.C.E.",
@@ -8,7 +22,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_PACKRAT",
+	"MovementCapDefID" : "movedef_Wheeled7",
 	"PathingCapDefID" : "pathingdef_light_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_packrat",
 	"PrefabIdentifier" : "chrPrfVhcl_packrat",

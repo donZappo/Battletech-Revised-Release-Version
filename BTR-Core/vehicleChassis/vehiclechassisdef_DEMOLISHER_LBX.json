@@ -3,7 +3,7 @@
 		"Id" : "vehiclechassisdef_DEMOLISHER_LBX",
 		"Name" : "Demolisher LB-X",
 		"Details" : "",
-		"Icon" : "MANTICORE",
+		"Icon" : "uixTxrIcon_striker",
 		"Cost" : 993,
 		"Rarity" : 0,
 		"Purchasable" : false
@@ -66,6 +66,41 @@
 	"Locations" : [
 		{
 			"Location" : "Front",
+			"Hardpoints" : [],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 200,
+			"InternalStructure" : 230
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 150,
+			"InternalStructure" : 160
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 150,
+			"InternalStructure" : 160
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 100,
+			"InternalStructure" : 120
+		},
+		{
+			"Location" : "Turret",
 			"Hardpoints" : [
 				{
 					"WeaponMount" : "Ballistic",
@@ -79,43 +114,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 200,
-			"InternalStructure" : 40
-		},
-		{
-			"Location" : "Left",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 150,
-			"InternalStructure" : 40
-		},
-		{
-			"Location" : "Right",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 150,
-			"InternalStructure" : 40
-		},
-		{
-			"Location" : "Rear",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 100,
-			"InternalStructure" : 40
-		},
-		{
-			"Location" : "Turret",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 200,
-			"InternalStructure" : 40
+			"InternalStructure" : 200
 		}
 	]
 }

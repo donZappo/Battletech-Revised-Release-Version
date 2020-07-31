@@ -8,7 +8,7 @@
 		"Rarity" : 4,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HUNTER",
+	"MovementCapDefID" : "movedef_Tracked5",
    	"PathingCapDefID" : "pathingdef_light_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_scorpion",
 	"PrefabIdentifier" : "chrPrfVhcl_scorpion",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 160,
-			"InternalStructure" : 20
+			"InternalStructure" : 180
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 20
+			"InternalStructure" : 140
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 20
+			"InternalStructure" : 140
 		},
 		{
 			"Location" : "Rear",
@@ -106,7 +106,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 80,
-			"InternalStructure" : 20
+			"InternalStructure" : 100
 		}
 	]
 }

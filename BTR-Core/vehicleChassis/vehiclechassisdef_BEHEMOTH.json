@@ -8,7 +8,7 @@
 		"Rarity" : 2,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_BEHEMOTH",
+	"MovementCapDefID" : "movedef_Tracked2",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_behemoth",
 	"PrefabIdentifier" : "chrprfvhcl_behemothbase",
@@ -67,22 +67,6 @@
 		{
 			"Location" : "Front",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-                {
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				},
-                {
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				},
                 {
 					"WeaponMount" : "Missile",
 					"Omni" : false
@@ -103,41 +87,23 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 250,
-			"InternalStructure" : 50
+			"InternalStructure" : 330
 		},
 		{
 			"Location" : "Left",
-			"Hardpoints" : [
-                {
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				},
-                {
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}, 
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 205,
-			"InternalStructure" : 50
+			"InternalStructure" : 290
 		},
 		{
 			"Location" : "Right",
-			"Hardpoints" : [
-                {
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				},
-                {
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}, 
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 205,
-			"InternalStructure" : 50
+			"InternalStructure" : 290
 		},
 		{
 			"Location" : "Rear",
@@ -146,7 +112,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 215,
-			"InternalStructure" : 50
+			"InternalStructure" : 290
 		},
 		{
 			"Location" : "Turret",
@@ -171,7 +137,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 245,
-			"InternalStructure" : 50
+			"InternalStructure" : 330
 		}
 	]
 }

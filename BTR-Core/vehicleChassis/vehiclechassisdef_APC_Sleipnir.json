@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_APC_Sleipnir",
+	"MovementCapDefID" : "movedef_Wheeled5",
 	"PathingCapDefID" : "pathingdef_medium_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_apc",
 	"PrefabIdentifier" : "chrPrfVhcl_apc",
@@ -71,7 +71,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
-			"InternalStructure" : 25
+			"InternalStructure" : 145
 		},
 		{
 			"Location" : "Left",
@@ -80,7 +80,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 110,
-			"InternalStructure" : 25
+			"InternalStructure" : 135
 		},
 		{
 			"Location" : "Right",
@@ -89,7 +89,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 110,
-			"InternalStructure" : 25
+			"InternalStructure" : 135
 		},
 		{
 			"Location" : "Rear",
@@ -97,8 +97,8 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 100,
-			"InternalStructure" : 25
+			"MaxArmor" : 110,
+			"InternalStructure" : 135
 		},
 	    {
 			"Location" : "Turret",
@@ -122,8 +122,8 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 120,
-			"InternalStructure" : 25
+			"MaxArmor" : 110,
+			"InternalStructure" : 145
 		}
 	]
 }

@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_KORVIN",
+	"MovementCapDefID" : "movedef_Tracked5",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_goblin",
 	"PrefabIdentifier" : "chrprfvhcl_goblinbase",
@@ -79,7 +79,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 200,
-			"InternalStructure" : 25
+			"InternalStructure" : 275
 		},
 		{
 			"Location" : "Left",
@@ -92,7 +92,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 134,
-			"InternalStructure" : 25
+			"InternalStructure" : 215
 		},
 		{
 			"Location" : "Right",
@@ -105,7 +105,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 134,
-			"InternalStructure" : 25
+			"InternalStructure" : 215
 		},
 		{
 			"Location" : "Rear",
@@ -118,13 +118,17 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 85,
-			"InternalStructure" : 25
+			"InternalStructure" : 175
 		},
 	  {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{
 					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+                {
+					"WeaponMount" : "AntiPersonnel",
 					"Omni" : false
 				},
                 {
@@ -135,7 +139,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 160,
-			"InternalStructure" : 25
+			"InternalStructure" : 205
 		}
 	]
 }

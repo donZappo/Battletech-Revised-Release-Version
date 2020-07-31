@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_STURMFEUR",
+	"MovementCapDefID" : "movedef_Tracked3",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_lrm",
 	"PrefabIdentifier" : "chrPrfVhcl_lrm",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 330,
-			"InternalStructure" : 45
+			"InternalStructure" : 410
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 330,
-			"InternalStructure" : 45
+			"InternalStructure" : 405
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 330,
-			"InternalStructure" : 45
+			"InternalStructure" : 405
 		},
 		{
 			"Location" : "Rear",
@@ -102,7 +102,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 240,
-			"InternalStructure" : 45
+			"InternalStructure" : 315
 		},
         {
 			"Location" : "Turret",
@@ -123,7 +123,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 330,
-			"InternalStructure" : 45
+			"InternalStructure" : 410
 		}
 	]
 }

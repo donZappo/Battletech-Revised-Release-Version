@@ -1,9 +1,6 @@
 {
 	"CustomParts": {
-        "MoveCost": "Hover",
-		"Unaffected": {
-			"MoveClamp": 0.25
-		},
+        "MoveCost": "Hover"
     },
     
 	"Description" : {
@@ -15,7 +12,7 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_MAXIM",
+	"MovementCapDefID" : "movedef_Hover8",
    	"PathingCapDefID" : "pathingdef_medium_hover",
    	"HardpointDataDefID" : "hardpointdatadef_maxim",
 	"PrefabIdentifier" : "chrprfvhcl_maxim",
@@ -86,7 +83,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 105,
-			"InternalStructure" : 25
+			"InternalStructure" : 145
 		},
 		{
 			"Location" : "Left",
@@ -95,7 +92,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 101,
-			"InternalStructure" : 25
+			"InternalStructure" : 145
 		},
 		{
 			"Location" : "Right",
@@ -104,7 +101,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 101,
-			"InternalStructure" : 25
+			"InternalStructure" : 145
 		},
 		{
 			"Location" : "Rear",
@@ -117,7 +114,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 25
+			"InternalStructure" : 85
 		},
 	    {
 			"Location" : "Turret",
@@ -150,7 +147,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 85,
-			"InternalStructure" : 25
+			"InternalStructure" : 125
 		}
 	]
 }

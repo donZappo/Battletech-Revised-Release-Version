@@ -1,9 +1,6 @@
 {
 	"CustomParts": {
-        "MoveCost": "Hover",
-		"Unaffected": {
-			"MoveClamp": 0.25
-		},
+        "MoveCost": "Hover"
     },
 	"Description" : {
 		"Id" : "vehiclechassisdef_HARASSER",
@@ -14,7 +11,7 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HARASSER",
+	"MovementCapDefID" : "movedef_Hover10",
    	"PathingCapDefID" : "pathingdef_light_hover",
    	"HardpointDataDefID" : "hardpointdatadef_pegasus",
 	"PrefabIdentifier" : "chrprfvhcl_pegasusbase",
@@ -77,7 +74,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 117,
-			"InternalStructure" : 15
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Left",
@@ -86,7 +83,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 117,
-			"InternalStructure" : 15
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Right",
@@ -95,7 +92,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 117,
-			"InternalStructure" : 15
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Rear",
@@ -104,7 +101,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 117,
-			"InternalStructure" : 15
+			"InternalStructure" : 35
 		},
 	  {
 			"Location" : "Turret",
@@ -121,7 +118,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 117,
-			"InternalStructure" : 15
+			"InternalStructure" : 40
 		}
 	]
 }

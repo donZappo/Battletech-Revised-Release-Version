@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_DARTER",
+	"MovementCapDefID" : "movedef_Wheeled7",
 	"PathingCapDefID" : "pathingdef_light_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_swiftwind",
 	"PrefabIdentifier" : "chrPrfVhcl_swiftwind",
@@ -75,7 +75,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 50,
-			"InternalStructure" : 10
+			"InternalStructure" : 60
 		},
 		{
 			"Location" : "Left",
@@ -84,7 +84,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 35,
-			"InternalStructure" : 10
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Right",
@@ -93,7 +93,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 35,
-			"InternalStructure" : 10
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Rear",
@@ -102,7 +102,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 40,
-			"InternalStructure" : 10
+			"InternalStructure" : 50
 		}
 	]
 }

@@ -8,15 +8,15 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HeavyTransport_B1",
+	"MovementCapDefID" : "movedef_Wheeled5",
 	"PathingCapDefID" : "pathingdef_light_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_mobilehq",
 	"PrefabIdentifier" : "chrPrfVhcl_mobilehq",
 	"PrefabBase" : "mobilehq",
-	"Tonnage" : 25,
+	"Tonnage" : 20,
 	"weightClass" : "LIGHT",
 	"BattleValue" : 564,
-	"TopSpeed" : 85,
+	"TopSpeed" : 90,
 	"TurnRadius" : 90,
 	"movementType" : "Wheeled",
 	"SpotterDistanceMultiplier" : 1,
@@ -71,7 +71,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		},
 		{
 			"Location" : "Left",
@@ -80,7 +80,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		},
 		{
 			"Location" : "Right",
@@ -89,7 +89,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		},
 		{
 			"Location" : "Rear",
@@ -98,7 +98,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		},
 		{
 			"Location" : "Turret",
@@ -111,7 +111,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 60,
-			"InternalStructure" : 10
+			"InternalStructure" : 70
 		}
 	]
 }

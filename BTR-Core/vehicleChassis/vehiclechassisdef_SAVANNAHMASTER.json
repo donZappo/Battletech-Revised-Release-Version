@@ -1,9 +1,6 @@
 {
 	"CustomParts": {
-        "MoveCost": "Hover",
-		"Unaffected": {
-			"MoveClamp": 0.25
-		},
+        "MoveCost": "Hover"
     },
 	
 	"Description" : {
@@ -15,7 +12,7 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_SAVANNAHMASTER",
+	"MovementCapDefID" : "movedef_Hover13",
    	"PathingCapDefID" : "pathingdef_light_hover",
    	"HardpointDataDefID" : "hardpointdatadef_savannah",
 	"PrefabIdentifier" : "chrprfvhcl_savannahbase",
@@ -78,15 +75,11 @@
 					"WeaponMount" : "Energy",
 					"Omni" : false
 				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 57,
-			"InternalStructure" : 15
+			"InternalStructure" : 55
 		},
 		{
 			"Location" : "Left",
@@ -95,7 +88,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 57,
-			"InternalStructure" : 15
+			"InternalStructure" : 35
 		},
 		{
 			"Location" : "Right",
@@ -104,24 +97,15 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 57,
-			"InternalStructure" : 15
+			"InternalStructure" : 35
 		},
 		{
 			"Location" : "Rear",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 57,
-			"InternalStructure" : 15
-		},
-	  {
-			"Location" : "Turret",
 			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 57,
 			"InternalStructure" : 15
-		}
+		},
 	]
 }
