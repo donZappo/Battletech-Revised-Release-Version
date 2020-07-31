@@ -4,6 +4,11 @@
         "Category" : [
             {"CategoryID": "FuelTank"}
         ],
+      "Flags":{
+        "flags":[
+            "no_salvage"
+        ]
+      },
     },
 	"Description" : {
         "Cost" : 10,

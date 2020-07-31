@@ -4,6 +4,11 @@
         "Category" : [
             {"CategoryID": "Vehicle_Gunner"}
         ],
+      "Flags":{
+        "flags":[
+            "no_salvage"
+        ]
+      },
     },
     "StatName": null,
     "RelativeModifier": 0,
