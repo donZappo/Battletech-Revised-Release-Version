@@ -1,0 +1,30 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Dalban",
+        "Model" : "",
+        "UIName" : "Communications Equipment",
+        "Id" : "Gear_CommunicationsEquipment",
+        "Name" : "Communications Equipment",
+        "Details": "Powerful transmitters allow communication with JumpShips in orbit or with groups almost anywhere on the planet.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 3,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [    ],
+    "ComponentTags" : {
+        "items" : [
+			"BLACKLISTED",
+			"component_type_noupgrade"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

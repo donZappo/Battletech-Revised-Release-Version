@@ -1,0 +1,142 @@
+{
+    "Custom": {
+		"Tag": "Vehicle_Commander",
+        "Category" : [
+            {"CategoryID": "Vehicle_Commander"}
+        ],
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false,
+        "Manufacturer": "Vehicle",
+        "Model": "Commander",
+        "UIName": "Commander",
+        "Id": "Crew_Commander",
+        "Name": "Commander",
+        "Details": "The guy making the other guys better at their jobs.",
+    },
+    "BonusValueA": "Adds movement bonus and gunnery bonus",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "None",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+			"durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vehicle-driver-cruise",
+                "Name" : "Vehicle Commander",
+                "Details" : "Commander has assumed driver role.",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick":false,
+				"effectsPersistAfterDestruction":false,
+				"statName":"CruiseSpeed",
+				"operation":"Float_Multiply",
+				"modValue":"1.5",
+				"modType":"System.Single",
+				"additionalRules" : "NotSet",
+				"targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff",
+			  
+		},
+		{
+			"durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vehicle-driver-flank",
+                "Name" : "Vehicle Driver",
+                "Details" : "Commander has assumed driver role.",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick":false,
+				"effectsPersistAfterDestruction":false,
+				"statName":"FlankSpeed",
+				"operation":"Float_Multiply",
+				"modValue":"1.5",
+				"modType":"System.Single",
+				"additionalRules" : "NotSet",
+				"targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff",
+        },
+        { 
+              "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vehicle-gunner",
+                "Name" : "Gunner",
+                "Details" : "Commander has assumed gunner role.",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick":false,
+				"effectsPersistAfterDestruction":false,
+				"statName" : "AccuracyModifier",
+				"operation" : "Float_Subtract",
+				"modValue" : "4.0",
+				"modType" : "System.Single",
+				"targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff",
+        }
+			 
+    ],
+    "ComponentTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    }
+}

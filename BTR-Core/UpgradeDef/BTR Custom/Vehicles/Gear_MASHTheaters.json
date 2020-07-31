@@ -1,0 +1,30 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "Dalban",
+        "Model" : "",
+        "UIName" : "M.A.S.H. Operating Theaters",
+        "Id" : "Gear_MASHTheaters",
+        "Name" : "M.A.S.H. Operating Theaters",
+        "Details": "Separate theaters with automatic triage equipment for wounded soldiers.",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 5,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [    ],
+    "ComponentTags" : {
+        "items" : [
+			"BLACKLISTED",
+			"component_type_noupgrade"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "Custom": {
+		"Tag": "Vehicle_Driver",
+        "Category" : [
+            {"CategoryID": "Vehicle_Driver"}
+        ],
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false,
+        "Manufacturer": "Vehicle",
+        "Model": "Driver",
+        "UIName": "Driver",
+        "Id": "Crew_Driver",
+        "Name": "Driver",
+        "Details": "The guy making this vehicle get around.",
+    },
+    "BonusValueA": "Adds movement bonus",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "None",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+			"durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vehicle-driver-cruise",
+                "Name" : "Vehicle Driver",
+                "Details" : "Dedicated driver, provides movement bonus",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick":false,
+				"effectsPersistAfterDestruction":false,
+				"statName":"CruiseSpeed",
+				"operation":"Float_Multiply",
+				"modValue":"1.5",
+				"modType":"System.Single",
+				"additionalRules" : "NotSet",
+				"targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff",
+			  
+		},
+		{
+			"durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-vehicle-driver-flank",
+                "Name" : "Vehicle Driver",
+                "Details" : "Dedicated driver, provides movement bonus",
+                "Icon" : "SpecialistSlot"
+            },
+            "statisticData" : {
+                "appliesEachTick":false,
+				"effectsPersistAfterDestruction":false,
+				"statName":"FlankSpeed",
+				"operation":"Float_Multiply",
+				"modValue":"1.5",
+				"modType":"System.Single",
+				"additionalRules" : "NotSet",
+				"targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff",
+			  
+		}
+    ],
+    "ComponentTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    }
+}
