@@ -10,42 +10,33 @@
       "Purchasable" : false
    },
    "ChassisID" : "vehiclechassisdef_HETZER",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_medium",
-         "unit_wheels",
-		 "unit_release"
-      ],
-      "tagSetSourceFile": ""
-   },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 155,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 155,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 190,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 115,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 115,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 150,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 115,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 115,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 150,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Rear",
-			"CurrentArmor" : 111,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 111,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 150,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		}
    ],
@@ -91,7 +82,71 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	  }
+	  },
+     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Wheels",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_Wheels",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_FuelTank",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+	  "MountedLocation": "Front", 
+	  "ComponentDefID": "vehicle_quirk_base_accuracy", 
+	  "ComponentDefType": "Upgrade", 
+	  "HardpointSlot": -1, 
+	  "DamageLevel": "Functional", 
+
+    }
    ],
    "MinAppearanceDate": "2722-01-01T00:00:00Z"
 }

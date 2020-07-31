@@ -13,37 +13,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 130,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 130,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 190,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 110,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 110,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 110,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 110,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 100,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 100,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 110,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 110,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     }
   ],
@@ -73,14 +73,14 @@
       "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
-      "HardpointSlot": 3,
+      "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
-      "HardpointSlot": 4,
+      "HardpointSlot": 1,
       "DamageLevel": "Functional"
     },
     {
@@ -91,14 +91,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
@@ -107,21 +100,28 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
+      "MountedLocation": "Turret",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Turret",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
+      "MountedLocation": "Turret",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
 	{
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
+      "MountedLocation": "Turret",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -131,7 +131,78 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	}
+	},
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Crew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Commander",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_FuelTank",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+	  "MountedLocation": "Front", 
+	  "ComponentDefID": "vehicle_quirk_base_accuracy", 
+	  "ComponentDefType": "Upgrade", 
+	  "HardpointSlot": -1, 
+	  "DamageLevel": "Functional", 
+
+    }
   ],
   "MinAppearanceDate": "2812-01-01T00:00:00Z"
 }

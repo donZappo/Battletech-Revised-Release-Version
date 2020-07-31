@@ -13,43 +13,43 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 80,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 80,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 95,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 95,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 95,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 110,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 95,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 95,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 110,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 80,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 80,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 95,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 50,
-      "CurrentInternalStructure": 15,
-      "AssignedArmor": 50,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
@@ -58,13 +58,13 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
+      "MountedLocation": "Turret",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Gear_General_Company_Command_Module",
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_CommunicationsEquipment",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -79,7 +79,64 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	}
+	},
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Crew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Wheels",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_Wheels",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+	  "MountedLocation": "Front", 
+	  "ComponentDefID": "vehicle_quirk_base_accuracy", 
+	  "ComponentDefType": "Upgrade", 
+	  "HardpointSlot": -1, 
+	  "DamageLevel": "Functional", 
+
+    }
   ],
   "MinAppearanceDate": "2620-01-01T00:00:00Z"
 }

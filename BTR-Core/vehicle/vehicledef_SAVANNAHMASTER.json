@@ -13,39 +13,32 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 50,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 50,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 30,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 30,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 30,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 30,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 10,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 10,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
-    {
-      "Location": "Turret",
-      "CurrentArmor": 20,
-      "CurrentInternalStructure": 5,
-      "AssignedArmor": 20,
-      "DamageLevel": "Functional"
-    }
   ],
   "inventory": [
     {
@@ -61,7 +54,71 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	}
+	},
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+	  "MountedLocation": "Front", 
+	  "ComponentDefID": "vehicle_quirk_base_accuracy", 
+	  "ComponentDefType": "Upgrade", 
+	  "HardpointSlot": -1, 
+	  "DamageLevel": "Functional", 
+
+    }
   ],
   "MinAppearanceDate": "2722-01-01T00:00:00Z"
 }

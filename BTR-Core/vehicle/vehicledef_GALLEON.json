@@ -13,68 +13,166 @@
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 55,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 55,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 70,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 50,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 50,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 65,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 50,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 50,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 65,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Rear",
-			"CurrentArmor" : 55,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 55,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 70,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Turret",
-			"CurrentArmor" : 70,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 70,
+			"CurrentArmor" : 0,
+			"CurrentInternalStructure" : 85,
+			"AssignedArmor" : 0,
 			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_Laser_SmallLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Right",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_Laser_SmallLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Left",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-     {
+    {
+       "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+       "ComponentDefType" : "Weapon",
+       "MountedLocation" : "Turret",
+       "HardpointSlot" : 0,
+       "DamageLevel" : "Functional"
+    },
+    {
+       "ComponentDefID" : "Weapon_Laser_SmallLaser_0-STOCK",
+       "ComponentDefType" : "Weapon",
+       "MountedLocation" : "Right",
+       "HardpointSlot" : 0,
+       "DamageLevel" : "Functional"
+    },
+    {
+       "ComponentDefID" : "Weapon_Laser_SmallLaser_0-STOCK",
+       "ComponentDefType" : "Weapon",
+       "MountedLocation" : "Left",
+       "HardpointSlot" : 0,
+       "DamageLevel" : "Functional"
+    },
+    {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engineslots_ICE_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	}
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_FuelTank",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Front",
+        "ComponentDefID": "Crew_Driver",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Turret",
+        "ComponentDefID": "Crew_Gunner",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Turret",
+        "ComponentDefID": "Gear_Stabilizer",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Turret",
+        "ComponentDefID": "Gear_Sensors",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Left",
+        "ComponentDefID": "Gear_ContinuousTrack",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Right",
+        "ComponentDefID": "Gear_ContinuousTrack",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Front",
+        "ComponentDefID": "Gear_CrewCompartment",
+        "ComponentDefType": "Upgrade",
+        "HardpointSlot": -1,
+        "DamageLevel": "Functional"
+    },
+	{
+        "MountedLocation": "Front", 
+        "ComponentDefID": "vehicle_quirk_base_accuracy", 
+        "ComponentDefType": "Upgrade", 
+        "HardpointSlot": -1, 
+        "DamageLevel": "Functional", 
+    }
    ]
 }
