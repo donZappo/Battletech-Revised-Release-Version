@@ -8,8 +8,6 @@
       "unit_armor_low",
       "unit_release",
          
-    /* Major House Factions and Elite Merc Units Tag-Sets */
-    
     "ComStar",
     "unit_common_ComStar",
             
@@ -34,7 +32,7 @@
     "Steiner",
     "unit_common_Steiner", 
     
-    /* Minor House Factions and Local Powers Tag-Sets */
+
     
     "AuriganDirectorate",
     "unit_common_AuriganDirectorate",
@@ -51,7 +49,7 @@
     "Locals",
     "unit_common_Locals",
     
-    /* Generic faction tag-sets  */
+
     
     "Unknown",
     "unit_common_Unknown",
@@ -98,7 +96,7 @@
     "Player2sMercUnit",
     "unit_common_Player2sMercUnit",
     
-    /* Tag-Sets for FP-specific Factions, Minor Merc Companies, Corporate Groups, Pirates and Small Noble Houses */
+
     
     "Faction_AuriganMercenaries",
     "unit_common_Faction_AuriganMercenaries",
@@ -178,12 +176,12 @@
     "Faction_SteelBeast",
     "unit_common_Faction_SteelBeast",
     
-    /* Call of the Locust FP Factions Tag-Sets */
+
     
     "SilentChapter",
     "unit_common_SilentChapter",
    
-    /* Hyades Rim Factions Tag-Sets */
+
     
     "AlphardTradingCompany",
     "unit_common_AlphardTradingCompany",
