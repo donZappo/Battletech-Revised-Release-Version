@@ -107,8 +107,7 @@
 		},
 		{
 			"Location" : "Rear",
-			"Hardpoints" : [
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 215,

@@ -76,18 +76,18 @@
       "HardpointSlot": 4,
       "DamageLevel": "Functional"
     },
-	  {
+    {
       "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
       "HardpointSlot": 5,
       "DamageLevel": "Functional"
     },
-	  {
+    {
       "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
-      "HardpointSlot": 7,
+      "HardpointSlot": 6,
       "DamageLevel": "Functional"
     },
     {
@@ -145,7 +145,7 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	},
+    },
     {
       "MountedLocation": "Right",
       "ComponentDefID": "Gear_FuelTank",
@@ -153,69 +153,70 @@
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Driver",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
-    },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Gunner",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
     {
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Commander",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_Stabilizer",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Commander",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_Sensors",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Left",
-        "ComponentDefID": "Gear_ContinuousTrack",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Right",
-        "ComponentDefID": "Gear_ContinuousTrack",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_CrewCompartment",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front", 
-        "ComponentDefID": "vehicle_quirk_base_accuracy", 
-        "ComponentDefType": "Upgrade", 
-        "HardpointSlot": -1, 
-        "DamageLevel": "Functional", 
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "vehicle_quirk_base_accuracy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
   ],
-  "MinAppearanceDate": "2520-01-01T00:00:00Z"
+  "MinAppearanceDate": "2520-01-01T00:00:00Z",
+   
 }
