@@ -506,6 +506,12 @@
          "MaxEquipedPerLocation":1,
          "AutoReplace":false,
       },
+      {
+         "Name":"ECM",
+         "displayName":"ECM",
+         "MaxEquiped":"1",
+         "AutoReplace":"true"
+      },
 	  {
          "Name":"Vehicle_Quirk",
          "DisplayName":"Vehicle Quirk",
