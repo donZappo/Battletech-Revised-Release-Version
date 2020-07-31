@@ -1,4 +1,10 @@
 {
+    "Flags":{
+        "flags":[
+            "no_salvage"
+        ]
+    },
+    
     "Description" : {
         "Cost" : 10,
         "Rarity" : 99,

@@ -6,7 +6,8 @@
 		"Flags": {
 			"Flags": [
 				"not_broken",
-				"default"
+				"default",
+                "no_salvage",
 			]
 		}
 	},

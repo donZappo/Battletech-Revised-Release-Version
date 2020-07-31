@@ -4,6 +4,11 @@
         "Category" : [
             {"CategoryID": "Crew_Compartment"}
         ],
+      "Flags":{
+        "flags":[
+            "no_salvage"
+        ]
+      },
     },
 	"Description" : {
         "Cost" : 10,

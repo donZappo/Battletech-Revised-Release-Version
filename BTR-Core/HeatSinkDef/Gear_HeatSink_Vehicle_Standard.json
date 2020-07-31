@@ -3,6 +3,11 @@
     "Category" : [
             {"CategoryID": "VehicleHeatSink"}
         ],
+    "Flags":{
+        "flags":[
+            "no_salvage"
+        ]
+    },
   },
   "Description": {
     "Cost": 30000,
