@@ -1,7 +1,7 @@
 {
    "Name":"BTR-Core",
    "Author":"XSNomad, Vengefire, donZappo",
-   "Version":"2.2.2.2-BETA",
+   "Version":"2.1.1",
    "Enabled":true,
    "Hidden":true,
    "DependsOn":[
@@ -38,13 +38,11 @@
       "ShowAllArgoUpgrades":false,
       "COIL_Heat_Multiply_EP":true,
       "Tagged_Called_Shots":true,
-      "correctMeleeMultipliers":true,
-	  "NerfContractPayments":true,
-	  "NerfExponent":0.95,
+      "correctMeleeMultipliers":false,
       "UpgradeItems":true,
       "EliteRareUpgradeChance":-7,
-      "VeryRareUpgradeChance":-4.5,
-      "RareUpgradeChance":-2,
+      "VeryRareUpgradeChance":-3.5,
+      "RareUpgradeChance":0,
       "UpgradeChanceDivisor":20,
       "EliteRareUpgradeLevel":[
          7,
@@ -59,8 +57,8 @@
          4
       ],
       "EliteRareWeaponChance":-7,
-      "VeryRareWeaponChance":-4.5,
-      "RareWeaponChance":-2,
+      "VeryRareWeaponChance":-3.5,
+      "RareWeaponChance":0,
       "WeaponChanceDivisor":10,
       "EliteRareWeaponLevel":[
          7,
