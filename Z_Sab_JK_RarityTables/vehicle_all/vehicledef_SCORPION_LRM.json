@@ -3,7 +3,7 @@
       "items": [
       "unit_vehicle",
       "unit_light",
-      "unit_tracks"
+      "unit_tracks",
       "unit_range_long",
       "unit_indirectFire",
       "unit_armor_low",

@@ -1,220 +1,221 @@
 {
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_CARRIER_SRM",
-      "Name" : "SRM Carrier",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 993,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "ChassisID" : "vehiclechassisdef_CARRIER_SRM",
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" : 0,
-			"CurrentInternalStructure" : 90,
-			"AssignedArmor" : 0,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 0,
-			"CurrentInternalStructure" : 90,
-			"AssignedArmor" : 0,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 0,
-			"CurrentInternalStructure" : 90,
-			"AssignedArmor" : 0,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 0,
-			"CurrentInternalStructure" : 90,
-			"AssignedArmor" : 0,
-			"DamageLevel" : "Functional"
-		}
-   ],
-   "inventory" : [
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 2,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 3,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 4,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 5,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 6,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 7,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 8,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_SRM_SRM6_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 9,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-     {
+  "Version": 1,
+  "Description": {
+    "Id": "vehicledef_CARRIER_SRM",
+    "Name": "SRM Carrier",
+    "Details": "",
+    "Icon": "",
+    "Cost": 993,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "ChassisID": "vehiclechassisdef_CARRIER_SRM",
+  "Locations": [
+    {
+      "Location": "Front",
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Left",
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Right",
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "Rear",
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 0,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 3,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 4,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 5,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 6,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 7,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 8,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Front",
+      "HardpointSlot": 9,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engineslots_ICE_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-	},
-     {
+    },
+    {
       "MountedLocation": "Right",
       "ComponentDefID": "Gear_FuelTank",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Driver",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
-    },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Gunner",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
     {
-        "MountedLocation": "Front",
-        "ComponentDefID": "Crew_Commander",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_Stabilizer",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Crew_Commander",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_Sensors",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Left",
-        "ComponentDefID": "Gear_ContinuousTrack",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Right",
-        "ComponentDefID": "Gear_ContinuousTrack",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front",
-        "ComponentDefID": "Gear_CrewCompartment",
-        "ComponentDefType": "Upgrade",
-        "HardpointSlot": -1,
-        "DamageLevel": "Functional"
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_ContinuousTrack",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
-	{
-        "MountedLocation": "Front", 
-        "ComponentDefID": "vehicle_quirk_base_accuracy", 
-        "ComponentDefType": "Upgrade", 
-        "HardpointSlot": -1, 
-        "DamageLevel": "Functional", 
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "vehicle_quirk_base_accuracy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     }
-   ]
+  ],
+  "MinAppearanceDate": "2500-01-01T00:00:00Z"
 }

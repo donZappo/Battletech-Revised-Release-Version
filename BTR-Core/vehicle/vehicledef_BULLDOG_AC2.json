@@ -84,20 +84,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Turret",
@@ -201,7 +187,6 @@
 	  "ComponentDefType": "Upgrade", 
 	  "HardpointSlot": -1, 
 	  "DamageLevel": "Functional", 
-
     }
   ],
   "MinAppearanceDate": "2812-01-01T00:00:00Z"

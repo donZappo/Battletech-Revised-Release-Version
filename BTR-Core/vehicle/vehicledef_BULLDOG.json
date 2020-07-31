@@ -59,14 +59,14 @@
          "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
+		 "HardpointSlot" : 1,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_SRM_SRM4_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
-		 "HardpointSlot" : 1,
+		 "HardpointSlot" : 2,
 		 "DamageLevel" : "Functional"
       },
       {

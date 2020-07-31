@@ -67,11 +67,11 @@
 		{
 			"Location" : "Front",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
+                {
+					"WeaponMount" : "Energy",
 					"Omni" : false
-				}
-			],
+				},
+            ],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 120,
@@ -104,7 +104,7 @@
 			"MaxArmor" : 100,
 			"InternalStructure" : 130
 		},
-	  {
+        {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{
