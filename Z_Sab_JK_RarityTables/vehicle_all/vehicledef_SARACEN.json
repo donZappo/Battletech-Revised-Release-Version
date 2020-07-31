@@ -9,8 +9,8 @@
       "unit_armor_low",  
       "unit_speed_high",
       "unit_release",
-      "unit_***Convoy",
-      "unit_testing",
+      "unit_notConvoy",
+      
          
     "ComStar",
     "unit_common_ComStar",
