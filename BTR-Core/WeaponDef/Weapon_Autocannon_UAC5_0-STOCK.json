@@ -37,7 +37,7 @@
     "UIName" : "UAC/5",
     "Id" : "Weapon_Autocannon_UAC5_0-STOCK",
     "Name" : "UAC/5",
-    "Details" : "Retaining the perfomance niche of the standard model, Ultra AC/5s are a serious force to be reckoned with. Like all Ultra Autocannon weaponry, UAC/5s suffer from substantial recoil effects from firing and consume two ammo per attack.",
+    "Details" : "Retaining the perfomance niche of the standard model, Ultra AC/5s are a serious force to be reckoned with. Like all Ultra Autocannon weaponry, UAC/5s suffer from substantial recoil effects from firing and consume four ammo per attack.",
     "Icon" : "uixSvgIcon_weapon_Ballistic"
   },
   "BonusValueA" : "",
