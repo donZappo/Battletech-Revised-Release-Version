@@ -13,37 +13,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 60,
-      "CurrentInternalStructure": 65,
-      "AssignedArmor": 0,
+      "CurrentArmor": 30,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 30,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 0,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 0,
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 25,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 0,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 0,
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 25,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 0,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 0,
+      "CurrentArmor": 25,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 25,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 0,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 0,
+      "CurrentArmor": 15,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 15,
       "DamageLevel": "Functional"
     }
   ],
