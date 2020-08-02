@@ -10,6 +10,12 @@
     "Purchasable": false
   },
   "ChassisID": "vehiclechassisdef_PACKRAT_ML",
+  "VehicleTags": {
+        "items" : [
+			"BLACKLISTED"
+        ],
+      "tagSetSourceFile": ""
+   },
   "Locations": [
     {
       "Location": "Front",
