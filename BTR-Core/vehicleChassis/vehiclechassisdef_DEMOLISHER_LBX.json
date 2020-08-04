@@ -27,7 +27,7 @@
 	"LOSSourcePositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 4,
 		    "z" : -0.5
 	    },
 		{
@@ -39,7 +39,7 @@
 	"LOSTargetPositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 4,
 		    "z" : -0.5
 	    },
 		{
@@ -70,7 +70,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 200,
-			"InternalStructure" : 230
+			"InternalStructure" : 115
 		},
 		{
 			"Location" : "Left",
@@ -79,7 +79,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 150,
-			"InternalStructure" : 160
+			"InternalStructure" : 80
 		},
 		{
 			"Location" : "Right",
@@ -88,7 +88,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 150,
-			"InternalStructure" : 160
+			"InternalStructure" : 80
 		},
 		{
 			"Location" : "Rear",
@@ -97,7 +97,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 100,
-			"InternalStructure" : 120
+			"InternalStructure" : 60
 		},
 		{
 			"Location" : "Turret",
@@ -114,7 +114,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 200,
-			"InternalStructure" : 200
+			"InternalStructure" : 100
 		}
 	]
 }
