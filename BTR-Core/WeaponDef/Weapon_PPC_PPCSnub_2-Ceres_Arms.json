@@ -26,7 +26,7 @@
   "ProjectilesPerShot" : 5,
   "AttackRecoil" : 1,
   "Instability" : 35.0,
-  "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
+  "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
   "Description" : {
     "Cost" : 2600000,
     "Rarity" : 7,

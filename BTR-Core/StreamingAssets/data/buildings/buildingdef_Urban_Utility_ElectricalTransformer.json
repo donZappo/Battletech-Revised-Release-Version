@@ -1,0 +1,15 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Utility_ElectricalTransformer",
+      "Name" : "Electrical Transformer",
+      "Details" : "Electrical Transformer. Explodes with Electricity",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 100,
+  "Opacity": 100,
+  "TerrainMask" : "Rough"
+}

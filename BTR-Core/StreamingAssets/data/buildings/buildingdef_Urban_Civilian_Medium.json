@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Civilian_Medium",
+      "Name" : "Medium Civilian Building",
+      "Details" : "Medium Civilian building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 120,
+   "Opacity" : 100
+}

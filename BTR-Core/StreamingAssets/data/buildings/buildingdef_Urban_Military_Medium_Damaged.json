@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Military_Medium_Damaged",
+      "Name" : "Damaged Medium Military Building",
+      "Details" : "Damaged Medium military building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 100,
+   "Opacity" : 100
+}

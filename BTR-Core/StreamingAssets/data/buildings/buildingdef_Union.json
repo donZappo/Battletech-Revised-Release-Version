@@ -1,0 +1,16 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Union",
+      "Name" : "Union",
+      "Details" : "A dropship",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 1400,
+   "Opacity" : 100,
+   "TerrainMask" : "Impassable",
+   "BuildingIcon" : "UnionDropship"
+}

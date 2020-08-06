@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Corporate_Small_Damaged",
+      "Name" : "Damaged Small Corporate Building",
+      "Details" : "Damaged Small Corporate building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 80,
+   "Opacity" : 100
+}

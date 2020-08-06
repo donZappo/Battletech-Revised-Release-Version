@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_envNstSET_abstractBldgGroup01",
+      "Name" : "Building",
+      "Details" : " ",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 100,
+   "Opacity" : 100
+}

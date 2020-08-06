@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Corporate_Large",
+      "Name" : "Large Corporate Building",
+      "Details" : "Large Corporate building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 200,
+   "Opacity" : 100
+}

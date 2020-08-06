@@ -28,7 +28,7 @@
   "Instability" : 0.0,
   "FireOnSuccessHit": true,
   "FireTerrainChance": 1,
-   "FireTerrainStrength":4,
+  "FireTerrainStrength":4,
   "WeaponEffectID" : "WeaponEffect-Weapon_Flamer",
   "Description" : {
     "Cost" : 200000,

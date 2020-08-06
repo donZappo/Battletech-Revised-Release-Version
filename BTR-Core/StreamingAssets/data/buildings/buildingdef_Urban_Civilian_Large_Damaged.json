@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Civilian_Large_Damaged",
+      "Name" : "Damaged Large Civilian Building",
+      "Details" : "Damaged Large Civilian building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 80,
+   "Opacity" : 100
+}

@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Civilian_Small_Damaged",
+      "Name" : "Damaged Small Civilian Building",
+      "Details" : "Damaged Small Civilian building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 40,
+   "Opacity" : 100
+}

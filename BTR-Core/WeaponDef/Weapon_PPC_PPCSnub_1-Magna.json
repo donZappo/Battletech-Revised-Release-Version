@@ -26,7 +26,7 @@
   "ProjectilesPerShot" : 5,
   "AttackRecoil" : 1,
   "Instability" : 30.0,
-  "WeaponEffectID" : "WeaponEffect-Weapon_PPCSnub",
+  "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
   "Description" : {
     "Cost" : 1300000,
     "Rarity" : 4,
@@ -116,7 +116,8 @@
   "DamageNotDivided" : false,
   "HasShells" : false,
   "VolleyDivisor" : 1,
-  "HitGenerator" : "Cluster",
+  "HitGenerator" : "Streak",
+  "ProjectileScale": {"x":0.2,"y":0.2,"z":0.2},
   "BallisticDamagePerPallet" : true,
   "ammoCategoryID" : "NotSet"
 }

@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Corporate_Medium_Weakened",
+      "Name" : "Weakened Medium Corporate Building",
+      "Details" : "Weakened Medium Corporate building.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 130,
+   "Opacity" : 100
+}

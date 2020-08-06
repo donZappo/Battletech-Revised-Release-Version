@@ -1,0 +1,14 @@
+{
+   "Description" : {
+      "Id" : "buildingdef_Urban_Utility_CoolantExchanger",
+      "Name" : "Coolant Exchanger",
+      "Details" : "Coolant Exchanger. Explodes with Coolant, leaves Coolant Pools.",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Destructible" : true,
+   "StructurePoints" : 100,
+  "Opacity": 100  
+}
