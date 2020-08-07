@@ -6,7 +6,7 @@
             "k" : "Float_AccuracyNeededForOverheatAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.6
+		"floatVal" : 0.65
         }
 	},
 	{
@@ -44,7 +44,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -0.6
         }
 	},
 	{
@@ -53,8 +53,25 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -0.6
         }
+	},
+	{
+	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
+	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0
+	    }
+	},
+	{
+	    /* Influence Factor to prefer not to be surrounded by
+	       hostile units WHEN SPRINTING.*/
+	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0
+	    }
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
@@ -62,7 +79,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.1
 	    }
 	},
 	{
@@ -71,7 +88,7 @@
 	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.1
 	    }
 	},
 	{
@@ -80,7 +97,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -89,8 +106,33 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
         }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
+	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1.5
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1.5
+	    }
 	},
 	{
 	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
@@ -98,7 +140,7 @@
 		"k" : "Float_SignalInWeapRngWhenEnemyGhostedWithinMoveDistance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 0.5
 		}
 	},
 	{
@@ -130,7 +172,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8
+		"floatVal" : 1.5
 	    }
 	},
 	{
@@ -153,17 +195,6 @@
 			"type" : "Int",
 			"IntVal" : "999"
 		}
-	},
-	{
-            /* If true, drop out of long range pathfinding if we can walk to
-             * a destination with LOF to a hostile. (TODO: roll this behavior out to
-             * all encounters.) */
-
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
-		"type" : "Bool",
-		"boolVal" : false
-	    }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */

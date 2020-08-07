@@ -38,7 +38,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0
+		"floatVal" : 4.0
             }
 	},
 	{
@@ -56,7 +56,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.4
 	    }
 	},
 	{
@@ -107,7 +107,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -2.0
             }
 	},
 	{
@@ -116,7 +116,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -2.0
             }
 	},
 	{
@@ -125,7 +125,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -135,8 +135,26 @@
             "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3
+		"floatVal" : 0.1
             }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus. */
+	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+	    }
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
@@ -144,7 +162,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -153,7 +171,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
+		"floatVal" : 0.1
             }
 	}
     ]

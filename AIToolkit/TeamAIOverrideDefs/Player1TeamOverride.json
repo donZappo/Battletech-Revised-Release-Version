@@ -1,0 +1,12 @@
+{
+    "Name": "Player1TeamOverride",
+    "Priority": 0,
+    "Selectors": [
+        {
+            "TypeName": "TeamName",
+            "SelectString": "Player 1"
+        }
+    ],
+
+    "DesignateTargets": true
+}

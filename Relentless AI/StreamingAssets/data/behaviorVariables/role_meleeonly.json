@@ -7,7 +7,7 @@
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3
+		"floatVal" : 4
             }
 	},
 	{
@@ -17,7 +17,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3
+		"floatVal" : 4
             }
 	},
 	{
@@ -54,7 +54,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -2
+		"floatVal" : -1
             }
 	},
 	{
@@ -75,7 +75,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2
             }
 	},
 	{
@@ -139,6 +139,17 @@
 	    "v" : {
 		"type" : "Float",
 		"floatVal" : 0
+	    }
+	},
+	{
+            /* If true, drop out of long range pathfinding if we can walk to
+             * a destination with LOF to a hostile. (TODO: roll this behavior out to
+             * all encounters.) */
+
+	    "k" : "Bool_SimpleShortRangeLOF",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
 	    }
 	},
 	{

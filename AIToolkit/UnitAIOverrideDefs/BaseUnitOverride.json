@@ -1,0 +1,19 @@
+{
+    "Name": "BaseUnitOverride",
+    "Priority": -1,
+    "Selectors": [
+        {
+            "TypeName": "TeamName",
+            "SelectString": "Player 1"
+        },
+        {
+            "TypeName": "Tree",
+            "SelectString": "CoreAITree"
+        }
+    ],
+    
+    "TreeRootName": "enhanced_AI_root",
+    "BehaviorVariableOverrides": {},
+    "AddInfluenceFactors": [],
+    "RemoveInfluenceFactors": []
+}

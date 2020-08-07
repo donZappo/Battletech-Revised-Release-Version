@@ -1,0 +1,264 @@
+panzyr_AI_root (SelectorNode) [||]
+  startup_cleanup (InverterNode) <- sequence0000 [&&]
+    clearSensorLock0000
+  if_shutdown__restart (SequenceNode) [&&]
+    isShutdown0000
+    mechStartUp0000
+  if_prone__stand_up (SequenceNode) [&&]
+    movementAvailable0000 (IsMovementAvailableForUnitNode)
+    isProne0000
+    stand0000
+  if_inspire_available__maybe_inspire (SequenceNode) [&&]
+    inspireAvailable0000
+    successDecorator0000 <- sequence0001 [&&]
+      movementAvailable0001 (IsMovementAvailableForUnitNode)
+      blockUntilPathfindingReady0000
+    evaluateInspirationValue0000
+    claimInspiration0000
+  get_inside_encounter_bounds (SequenceNode) [&&]
+    movementAvailable0002 (IsMovementAvailableForUnitNode)
+    inverter0000 <- isInsideEncounterBounds0000
+    blockUntilPathfindingReady0001
+    moveInsideEncounterBounds0000
+  comply_with_stay_inside_region_order (SequenceNode) [&&]
+    movementAvailable0003 (IsMovementAvailableForUnitNode)
+    hasStayInsideRegion0000
+    inverter0001 <- isInsideStayInsideRegion0000
+    blockUntilPathfindingReady0002
+    moveToStayInsideRegion0000
+  pre_attack_move (SequenceNode) [&&]
+    movementAvailable0004 (IsMovementAvailableForUnitNode)
+    blockUntilPathfindingReady0003
+    selector0000 [||]
+      pre_attack_lance_move (SequenceNode) [&&]
+        hasPreAttackLanceMove0000 (LanceHasPreAttackDestinationNode)
+        moveLanceToPreAttackDestination0000
+      pre_attack_unit_move (SequenceNode) [&&]
+        hasPreAttackUnitMove0000 (UnitHasPreAttackDestinationNode)
+        moveUnitToPreAttackDestination0000
+  free_engage (SequenceNode) [&&]
+    lanceDetectsNonHackedEnemies0000
+    findDetectedNonHackedEnemies0000
+    isAlerted0000
+    selector0001 [||]
+      canMove (SequenceNode) [&&]
+        movementAvailable0005 (IsMovementAvailableForUnitNode)
+        blockUntilPathfindingReady0004
+        maybe_sensor_lock (SuccessDecoratorNode) <- evalSensorLock (SequenceNode) [&&]
+          clearSensorLock0001
+          hasSensorLockAbility0000
+          hasSensorLockTarget0000
+          sortEnemiesBySensorLockQuality0000
+          recordHighestPriorityEnemyAsSensorLockTarget0000
+        offense___defense (SelectorNode) [||]
+          if_overheated__maybe_brace (SequenceNode) [&&]
+            isOverheated0000
+            randomPercentageLessThanBV0000 [Float_BraceWhenOverheatedPercentage]
+            inverter0002 <- anyHostileBehindMe0000
+            brace0000
+          offensive_Move (SequenceNode) [&&]
+            inverter0003 <- isBVTrue0000 [Bool_AlwaysDefensiveMood]
+            selector0002 [||]
+              isBVTrue0001 [Bool_AlwaysOffensiveMood]
+              inverter0004 <- hasRangedWeapons0000
+              inverter0005 <- sequence0002 [&&]
+                randomPercentageLessThanBV0001 [Float_UnsteadyCausesDefensiveMovePercentage]
+                isUnsteady0000
+            selector0003 [||]
+              sequence0003 [&&]
+                hasRecordedSensorLockTarget0000
+                setMood0000
+              setMood0001
+            selector0004 [||]
+              canMoveAndShootWithoutOverheating0000
+              canMeleeHostileTargets0000
+              canDFAHostileTargets0000
+            aggressive_Movement (SuccessDecoratorNode) <- sequence0004 [&&]
+              sortEnemiesByThreat0000
+              priorityMove (SelectorNode) [||]
+                sequence0005 [&&]
+                  inverter0006 <- wasTargetedRecently0000
+                  randomPercentageLessThanBV0002 [Float_PriorityMovePercentage]
+                  usePreferredTargetToHitThreshold0000
+                  sortEnemiesByPriorityList0000
+                maybeFilterOutPriorityTargets0000
+                filterKeepingRecentAttackers0000
+                succeed0000
+              useNormalToHitThreshold0000
+              clearMoveCandidates0000
+              selector0005 [||]
+                move_towards_combat (SequenceNode) [&&]
+                  inverter0007 <- sequence0006 [&&]
+                    areAnyHostilesInWeaponRange0000
+                    hasDirectLOFToAnyHostile0000
+                  successDecorator0001 <- sequence0007 [&&]
+                    inverter0008 <- isInterleaved0000
+                    hasRecordedSensorLockTarget0001
+                    sensorLockRecordedSensorLockTarget0000
+                    clearSensorLock0002
+                  selector0006 [||]
+                    sprint_towards_combat (SequenceNode) [&&]
+                      sprintAvailable0000 (IsSprintAvailableForUnitNode)
+                      inverter0009 <- sequence0008 [&&]
+                        areAnyDetectedHostilesInWeaponRangePlusSprintDistance0000
+                      inverter0010 <- hasRecordedSensorLockTarget0002
+                      selector0007 [||]
+                        sequence0009 [&&]
+                          clearMoveCandidates0001
+                          generateSprintMoveTowardDistantHostileCandidates0000
+                          inverter0011 <- highestMoveCandidateIsStationary0000
+                          moveTowardsHighestPriorityMoveCandidate0000
+                        sequence0010 [&&]
+                          clearMoveCandidates0002
+                          generateSprintMoveTowardTeammatesCandidates0000
+                          inverter0012 <- highestMoveCandidateIsStationary0001
+                          moveTowardsHighestPriorityMoveCandidate0001
+                    normal_move_towards_combat (SequenceNode) [&&]
+                      selector0008 [||]
+                        sequence0011 [&&]
+                          clearMoveCandidates0003
+                          generateNormalMoveTowardDistantHostileCandidates0000
+                          inverter0013 <- highestMoveCandidateIsStationary0002
+                          moveTowardsHighestPriorityMoveCandidate0002
+                        sequence0012 [&&]
+                          clearMoveCandidates0004
+                          generateNormalMoveTowardTeammatesCandidates0000
+                          inverter0014 <- highestMoveCandidateIsStationary0003
+                          moveTowardsHighestPriorityMoveCandidate0003
+                sequence0013 [&&]
+                  generateForwardMoveCandidates0000
+                  generateReverseMoveCandidates0000
+                  successDecorator0002 <- sequence0014 [&&]
+                    inverter0015 <- isOverheated0001
+                    generateJumpMoveCandidates0000
+                  generateStationaryMoveCandidates0000
+                  successDecorator0003 <- sequence0015 [&&]
+                    sprintAvailable0001 (IsSprintAvailableForUnitNode)
+                    inverter0016 <- hasRecordedSensorLockTarget0003
+                    generateSprintMoveCandidates0000
+                  successDecorator0004 <- sequence0016 [&&]
+                    hasRecordedSensorLockTarget0004
+                    filterNonSensorLockMoves0000
+                  filterMovesForHeat0000
+                  sortMoveCandidatesByInfMap0000
+                  selector0009 [||]
+                    reckless_skill (SequenceNode) [&&]
+                      hasRecklessSkill0000
+                      hasLOSToAnyHostile0000
+                      attackAvailable0000 (IsAttackAvailableForUnitNode)
+                      randomPercentageLessThanBV0003 [Float_UseRecklessSkillPercentageChance]
+                      shootAtHighestPriorityEnemy0000
+                    bulwark_skill (SequenceNode) [&&]
+                      hasBulwarkSkill0000
+                      attackAvailable0001 (IsAttackAvailableForUnitNode)
+                      isBVTrue0002 [Bool_UseBulwarkActions]
+                      closeToIdealRange0000
+                      hasDirectLOFToAnyHostile0001
+                      isStationaryMoveInBulwarkThreshold0000
+                      executeStationaryAttack0000
+                    stationary__e_g__dfa__melee__attack (SequenceNode) [&&]
+                      attackAvailable0002 (IsAttackAvailableForUnitNode)
+                      highestMoveCandidateIsStationary0004
+                      executeStationaryAttack0001
+                    brace_if_no_moves (SequenceNode) [&&]
+                      inverter0017 <- hasMoveCandidates0000
+                      brace0001
+                    moveTowardsHighestPriorityMoveCandidate0004
+          defensive_Move (SequenceNode) [&&]
+            debugLog0000
+            inverter0018 <- isBVTrue0003 [Bool_AlwaysOffensiveMood]
+            setMood0002
+            selector0010 [||]
+              brace_if_at_acceptable_range_to_cool_down (SequenceNode) [&&]
+                isOverheated0002
+                isOutsideCoolDownRange0000
+                inverter0019 <- hasLOSToAnyHostile0001
+                inverter0020 <- anyHostileBehindMe0001
+                brace0002
+              move_to_defensive_position (SequenceNode) [&&]
+                clearMoveCandidates0005
+                generateMoveCandidates0000
+                sortMoveCandidatesByInfMap0001
+                moveTowardsHighestPriorityMoveCandidate0005
+      sensor_Lock_Second_Chance (SequenceNode) [&&]
+        inverter0021 <- hasRecordedSensorLockTarget0005
+        hasSensorLockAbility0001
+        hasSensorLockTarget0001
+        sortEnemiesBySensorLockQuality0001
+        recordHighestPriorityEnemyAsSensorLockTarget0001
+        setMood0003
+        sensorLockRecordedSensorLockTarget0001
+        clearSensorLock0003
+      choseToSensorLockDuringMove (SequenceNode) [&&]
+        hasSensorLockAbility0002
+        hasRecordedSensorLockTarget0006
+        setMood0004
+        sensorLockRecordedSensorLockTarget0002
+        clearSensorLock0004
+      canAttack (SequenceNode) [&&]
+        attackAvailable0003 (IsAttackAvailableForUnitNode)
+        withLogContext0000 <- selector0011 [||]
+          react_to_being_unsteady (SequenceNode) [&&]
+            debugLogToContext0000
+            isUnsteady0001
+            debugLogToContext0001
+            expectedDamageToMeLessThan0000
+            randomPercentageLessThanBV0004 [Float_UnsteadyCausesBracePercentage]
+            debugLogToContext0002
+            inverter0022 <- anyHostileBehindMe0002
+            debugLogToContext0003
+            brace0003
+            debugLogToContext0004
+          sequence0017 [&&]
+            debugLogToContext0005
+            sortEnemiesByThreat0001
+            debugLogEnemiesByThreat0000
+            useNormalToHitThreshold0001
+            debugLogToContext0006
+            priorityAttack (SelectorNode) [||]
+              sequence0018 [&&]
+                inverter0023 <- wasTargetedRecently0001
+                debugLogToContext0007
+                randomPercentageLessThanBV0005 [Float_PriorityAttackPercentage]
+                debugLogToContext0008
+                sortEnemiesByPriorityList0001
+                debugLogToContext0009
+                debugLogEnemiesByThreat0001
+              maybeFilterOutPriorityTargets0001
+              filterKeepingRecentAttackers0001
+            debugLogToContext0010
+            shootAtHighestPriorityEnemy0001
+            debugLogToContext0011
+  post_attack_move (SequenceNode) [&&]
+    movementAvailable0006 (IsMovementAvailableForUnitNode)
+    blockUntilPathfindingReady0005
+    selector0012 [||]
+      post_attack_lance_move (SequenceNode) [&&]
+        hasPostAttackLanceMove0000 (LanceHasPostAttackDestinationNode)
+        moveLanceToPostAttackDestination0000
+      post_attack_unit_move (SequenceNode) [&&]
+        hasPostAttackUnitMove0000 (UnitHasPostAttackDestinationNode)
+        moveUnitToPostAttackDestination0000
+  hunt_previously_seen (SequenceNode) [&&]
+    isAlerted0001
+    movementAvailable0007 (IsMovementAvailableForUnitNode)
+    blockUntilPathfindingReady0006
+    findPreviouslySeenNonHackedEnemies0000
+    sortEnemiesByDistanceToLastSeenLocation0000
+    priorityHunt (SelectorNode) [||]
+      sequence0019 [&&]
+        inverter0024 <- wasTargetedRecently0002
+        sortEnemiesByPriorityList0002
+      filterKeepingRecentAttackers0002
+      succeed0001
+    moveTowardsHighestPriorityEnemyLastSeenLocation0000
+  patrol (SequenceNode) [&&]
+    movementAvailable0008 (IsMovementAvailableForUnitNode)
+    unitHasRoute0000
+    inverter0025 <- lanceHasCompletedRoute0000
+    selector0013 [||]
+      lanceHasStartedRoute0000
+      lanceStartRoute0000
+    blockUntilPathfindingReady0007
+    moveAlongRoute0000
+  brace0004

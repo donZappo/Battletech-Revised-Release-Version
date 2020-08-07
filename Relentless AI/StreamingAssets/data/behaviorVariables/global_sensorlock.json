@@ -11,21 +11,21 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.7
+            "floatVal" : 2.7
          }
       },
       {
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0
+            "floatVal" : 0.2
          }
       },
       {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0
+            "floatVal" : 0.3
          }
       },
       {
@@ -67,7 +67,7 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.4
+            "floatVal" : 0.2
          }
       },
       {
@@ -116,7 +116,7 @@
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.4
+             "floatVal" : 0.1
          }
       }
     ]

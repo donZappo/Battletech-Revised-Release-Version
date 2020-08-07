@@ -1,0 +1,20 @@
+{
+    "Name": "Player1Interleaved",
+    "Priority": 1,
+    "Selectors": [
+        {
+            "TypeName": "TeamName",
+            "SelectString": "Player 1"
+        },
+        {
+            "TypeName": "IsInterleaved",
+            "SelectString": "false"
+        }
+    ],
+
+    "TurnOrderFactorWeights": {
+        "WalkSpeed": -1
+    },
+
+    "DesignateTargets": true
+}

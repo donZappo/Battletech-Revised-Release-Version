@@ -1,0 +1,9 @@
+route_AI_root (SelectorNode) [||]
+  incrementally_patrol (SequenceNode) [&&]
+    unitHasRoute0000
+    selector0000 [||]
+      lanceHasStartedRoute0000
+      lanceStartRoute0000
+    inverter0000 <- lanceHasCompletedRoute0000
+    moveAlongRoute0000
+  brace0000

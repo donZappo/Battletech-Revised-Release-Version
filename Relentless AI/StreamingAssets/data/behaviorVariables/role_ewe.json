@@ -4,14 +4,14 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0
+            "floatVal" : -1.0
          }
       },
       {
          "k" : "Float_PreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5
+            "floatVal" : 0.4
          }
       },
       {
@@ -32,7 +32,7 @@
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.5
+            "floatVal" : -1.8
          }
       },
 	  	{
@@ -52,7 +52,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0.4
             }
 	},
 		{
@@ -130,7 +130,7 @@
 		"v" : 
 		{
 			"type" : "Int",
-			"IntVal" : "1"
+			"IntVal" : "2"
 		}
 	},
 		{
@@ -141,7 +141,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.8
+		"floatVal" : 3
             }
 	},
 		{

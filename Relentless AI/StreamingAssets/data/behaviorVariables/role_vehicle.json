@@ -5,22 +5,22 @@
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
 	    */
-            "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 2
-            }
+		"k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 3.5
+		}
 	},
 	{
 	    /* Influence Factor Weight to maximize expected damage to
 	       hostiles WHEN SPRINTING.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
 	    */
-            "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.1
-            }
+		"k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 3.5
+		}
 	},
 	{
 	    /* Influence Factor Weight to prefer moving to locations
@@ -30,11 +30,11 @@
 
 	       See Also: Float_DefensiveOverkillFactor, which
 	       determines what "lethal" means. */
-            "k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
-            }
+		"k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
 	},
 	{
 	    /* Influence Factor Weight to prefer moving to locations
@@ -44,18 +44,17 @@
 
 	       See Also: Float_DefensiveOverkillFactor, which
 	       determines what "lethal" means. */
-            "k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
-            }
+		"k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
 	},
 	{
 	    /* Number of active probe targets before we even try to activate 
 	    active probe */
 		"k" : "Int_MinimumActiveProbeCount",
-		"v" : 
-		{
+		"v" : {
 			"type" : "Int",
 			"IntVal" : "1"
 		}
@@ -64,28 +63,28 @@
 	    /* A weight for an influence factor to prefer to get
 	       inside melee range. Negative values will encourage
 	       units to get out of melee range. */
-            "k" : "Float_PreferInsideMeleeRangeFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : -1
-            }
+		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : -4
+		}
 	},
 	{
 	    /* A weight for an influence factor to prefer to get
 	       inside melee range WHEN SPRINTING. Negative values will
 	       encourage units to get out of melee range. */
-            "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : -1
+		"k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : -4
         }
 	},
 	{
 	    /* Influence Factor to prefer this lance to surround hostile units.*/
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.4
+			"type" : "Float",
+			"floatVal" : 0.4
 	    }
 	},
 	{
@@ -93,43 +92,43 @@
 	       hostile units WHEN SPRINTING.*/
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.4
+			"type" : "Float",
+			"floatVal" : 0.4
 	    }
 	},
 	{
 	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1
+			"type" : "Float",
+			"floatVal" : 0.5
 	    }
 	},
 	{
 	    /* Influence Factor to prefer not to be surrounded by
 	       hostile units WHEN SPRINTING.*/
-	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
+		"k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1
+			"type" : "Float",
+			"floatVal" : 0.5
 	    }
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
 	       inside e.g. forests. */
-            "k" : "Float_PreferLessTargetableLocationFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.3
+		"k" : "Float_PreferLessTargetableLocationFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.2
         }
 	},
 	{
 	    /* Influence Factor Weight to control the desire to be
 	       inside e.g. forests WHEN SPRINTING. */
-            "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.3
+		"k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -138,94 +137,105 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2
-            }
+		"floatVal" : 0.15
+		}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other allies. */
-            "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
-            }
+		"k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other hostiles WHEN SPRINTING. */
-            "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.1
-            }
+		"k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.1
+		}
 	},
 	{
 	    /* Appetitive Influence Factor Weight to approach ideal
 	       weapon range to hostile. */
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
-		"type" : "Float",
-		"floatVal" : 0.75
+			"type" : "Float",
+			"floatVal" : 0.75
 	    }
 	},
 	{
 	    /* Influence Factor Weight for preferring more level (vs
 	       steep) locations. */
-            "k" : "Float_PreferLessSteepPositionFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.25
-            }
+		"k" : "Float_PreferLessSteepPositionFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.1
+		}
 	},
 	{
 	    /* Influence Factor Weight for preferring more level (vs
 	       steep) locations WHEN SPRINTING. */
-            "k" : "Float_SprintPreferLessSteepPositionFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.25
-            }
+		"k" : "Float_SprintPreferLessSteepPositionFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.1
+		}
 	},
 	{
 	    /* Influence Factor Weight for preferring moving less. */
-            "k" : "Float_PreferLowerMovementFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : -0.8
-            }
+		"k" : "Float_PreferLowerMovementFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : -1.7
+		}
 	},
 	{
 	    /* Influence Factor Weight for preferring moving less WHEN
 	       SPRINTING. */
-            "k" : "Float_SprintPreferLowerMovementFactorWeight",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : -0.8
-            }
+		"k" : "Float_SprintPreferLowerMovementFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : -1.7
+		}
+	},
+	{
+            /* If true, drop out of long range pathfinding if we can walk to
+             * a destination with LOF to a hostile. (TODO: roll this behavior out to
+             * all encounters.) */
+
+	    "k" : "Bool_SimpleShortRangeLOF",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+	    }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
-            "k" : "Bool_AlwaysOffensiveMood",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
+		"k" : "Bool_AlwaysOffensiveMood",
+		"v" : {
+			"type" : "Bool",
+			"boolVal" : true
+		}
 	},
 	{
 	    /* If my move would not result in being able to fire,
 	       should I rewrite that move as a sprint? */
-            "k" : "Bool_RewriteNonAttackMoves",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
+		"k" : "Bool_RewriteNonAttackMoves",
+		"v" : {
+			"type" : "Bool",
+			"boolVal" : true
+		}
 	},
 	{
 	    /* Whether to use firepower takeaway when determining the designated target */
 	    "k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
 	    "v" : {
-		"type": "Bool",
-		"boolVal" : false
+			"type": "Bool",
+			"boolVal" : true
 	    }
 	}
 	]

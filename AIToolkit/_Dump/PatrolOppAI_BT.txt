@@ -1,0 +1,33 @@
+patrol_With_Opportunistic_Shooting_AI_root (SelectorNode) [||]
+  if_shutdown__restart (SequenceNode) [&&]
+    isShutdown0000
+    mechStartUp0000
+  if_prone__stand_up (SequenceNode) [&&]
+    movementAvailable0000 (IsMovementAvailableForUnitNode)
+    isProne0000
+    stand0000
+  patrol_opportunistic_shoot (SequenceNode) [&&]
+    movementAvailable0001 (IsMovementAvailableForUnitNode)
+    unitHasRoute0000
+    selector0000 [||]
+      lanceHasStartedRoute0000
+      lanceStartRoute0000
+    inverter0000 <- lanceHasCompletedRoute0000
+    moveAlongRoute0000
+  opportunity_fire (SequenceNode) [&&]
+    lanceDetectsEnemies0000
+    findDetectedEnemies0000
+    attackAvailable0000 (IsAttackAvailableForUnitNode)
+    sortEnemiesByThreat0000
+    useNormalToHitThreshold0000
+    priorityAttack (SelectorNode) [||]
+      sequence0000 [&&]
+        inverter0001 <- wasTargetedRecently0000
+        randomPercentageLessThanBV0000 [Float_PriorityAttackPercentage]
+        sortEnemiesByPriorityList0000
+      sequence0001 [&&]
+        maybeFilterOutPriorityTargets0000
+        filterKeepingRecentAttackers0000
+      succeed0000
+    shootAtHighestPriorityEnemy0000
+  brace0000
