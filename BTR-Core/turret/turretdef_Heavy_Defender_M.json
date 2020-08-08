@@ -18,9 +18,9 @@
       ],
       "tagSetSourceFile": ""
    },
-   "CurrentArmor" :  400,
-   "CurrentInternalStructure" : 325,
-   "AssignedArmor" :  400,
+   "CurrentArmor" :  300,
+   "CurrentInternalStructure" : 244,
+   "AssignedArmor" :  300,
    "DamageLevel" : "Functional",
    "inventory" : [
     {

@@ -32,8 +32,8 @@
 			"statisticData" : 
 			{
 				"statName" : "ToHitIndirectModifier",
-				"operation" : "Float_Multiply",
-				"modValue" : "0",
+				"operation" : "Float_Add",
+				"modValue" : "-2.0",
 				"modType" : "System.Single"
 			}
 		}

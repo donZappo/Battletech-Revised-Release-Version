@@ -45,7 +45,7 @@
         "k" : "Float_LancePatrolRadius",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 20
+			"floatVal" : 70
         }
 	},
 	{
@@ -241,7 +241,7 @@
 		"k" : "Float_OptimalHostileDistance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 240
+			"floatVal" : 400
         }
 	},
 	{
@@ -1055,7 +1055,7 @@
 	    "k" : "Float_SprintHysteresisMultiplier",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.0
 	    }
 	},
 	{
@@ -1065,7 +1065,7 @@
 	    "k" : "Float_SprintHysteresisRecoveryTurns",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.0
 	    }
 	},
 	{
