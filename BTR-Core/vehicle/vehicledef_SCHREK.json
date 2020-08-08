@@ -76,6 +76,13 @@
           "HardpointSlot": -1,
           "DamageLevel": "Functional"
       },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+	},
      {
       "MountedLocation": "Front",
       "ComponentDefID": "Gear_HeatSink_Vehicle_Standard",
