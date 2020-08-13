@@ -45,7 +45,7 @@
         "k" : "Float_LancePatrolRadius",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 70
+			"floatVal" : 20
         }
 	},
 	{
@@ -138,7 +138,7 @@
 		"k" : "Float_PreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.6
+			"floatVal" : -0.3
         }
 	},
 	{
@@ -147,7 +147,7 @@
 		"k" : "Float_SprintPreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.6
+			"floatVal" : -0.3
         }
 	},
 	{
@@ -156,7 +156,7 @@
 		"k" : "Float_PreferHigherPositionFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.25
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -176,7 +176,7 @@
 		"k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 4
+			"floatVal" : 2
         }
 	},
 	{
@@ -186,7 +186,7 @@
 		"k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 2
         }
 	},
 	{
@@ -195,7 +195,7 @@
 		"k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.2
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -204,7 +204,7 @@
 		"k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.2
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -241,7 +241,7 @@
 		"k" : "Float_OptimalHostileDistance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 400
+			"floatVal" : 240
         }
 	},
 	{
@@ -369,7 +369,7 @@
 		"k" : "Float_DFADamageMultiplier",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2.5
+			"floatVal" : 2
         }
 	},
 	{
@@ -423,7 +423,7 @@
 		"k" : "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -5
+			"floatVal" : -2
         }
 	},
 	{
@@ -432,7 +432,7 @@
 		"k" : "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -5
+			"floatVal" : -2
         }
 	},
 	{
@@ -557,7 +557,7 @@
 		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.3
         }
 	},
 	{
@@ -868,7 +868,7 @@
 	    "k" : "Float_CalledShotDamagedChanceMultiplier",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 2.5
+			"floatVal" : 3
 	    }
 	},
 	{
@@ -1055,7 +1055,7 @@
 	    "k" : "Float_SprintHysteresisMultiplier",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.0
+			"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1065,7 +1065,7 @@
 	    "k" : "Float_SprintHysteresisRecoveryTurns",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.0
+			"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1132,7 +1132,7 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 200.0
+			"floatVal" : 300.0
 	    }
 	},
 	{
@@ -1211,7 +1211,7 @@
 	    "k" : "Float_OpportunityFireExceedsDesignatedTargetByPercentage",
 	    "v" : {
 			"type": "Float",
-			"floatVal" : 30
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -1221,7 +1221,7 @@
 	    "k" : "Float_OpportunityFireExceedsDesignatedTargetFirepowerTakeawayByPercentage",
 	    "v" : {
 			"type": "Float",
-			"floatVal" : 30
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -1870,7 +1870,7 @@
 		"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.4
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -1880,7 +1880,7 @@
 		"k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.4
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -1890,7 +1890,7 @@
 		"k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -1900,7 +1900,7 @@
 		"k" : "Float_SprintPreferAttackFrom90DegreesToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -1909,7 +1909,7 @@
         "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.8
+			"floatVal" : 0.3
         }
 	},
 	{
@@ -1918,7 +1918,7 @@
         "k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.8
+			"floatVal" : 0.3
         }
 	},
 	{

@@ -1,6 +1,0 @@
-selector0000 [||]
-  attack_sequence (SequenceNode) [&&]
-    attackAvailable0000 (IsAttackAvailableForUnitNode)
-    findPlayerTutorialTarget0000 (BattleTech.FindPlayerTutorialTargetNode)
-    shootTrainingWeaponsAtTarget0000 (BattleTech.ShootTrainingWeaponsAtTargetNode)
-  brace0000

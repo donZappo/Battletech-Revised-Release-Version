@@ -1,0 +1,24 @@
+{
+    "Name": "Target",
+    "Priority": -99,
+    "Selectors": [
+        {
+            "TypeName": "TeamName",
+            "SelectString": "Target"
+        }
+    ],
+
+    "BehaviorVariableOverrides": {
+        "PreferHigherEvasionPositionFactorWeight": {
+            "type": "Float",
+            "floatVal": 1
+        },
+        "PreferHigherEvasionPositionFactorSprintWeight": {
+            "type": "Float",
+            "floatVal": 0
+        }
+    },
+
+    "AddInfluenceFactors": [],
+    "RemoveInfluenceFactors": []
+}

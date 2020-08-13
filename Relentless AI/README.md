@@ -9,6 +9,8 @@ Amechwarrior for creating BetterAI and his HUGE help and support.
 
 Battletech Revised mod team for creating the mod I was waiting for a long time and their support.
 
+Mpstark for creating and allowing me to use AItoolkit.
+
 Thanks to Cla, Aegis, tdy, legionof1, sper and all the testers I have missed!
 
 ### Instructions:

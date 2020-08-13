@@ -11,7 +11,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.7
+            "floatVal" : 2
          }
       },
       {
@@ -46,7 +46,7 @@
          "k" : "Float_PreferFacingHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.8
+            "floatVal" : 0.6
          }
       },
        {
@@ -95,7 +95,7 @@
          "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.7
+            "floatVal" : 0.5
          }
       },
 	        {
@@ -116,7 +116,7 @@
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.1
+             "floatVal" : 0.2
          }
       }
     ]

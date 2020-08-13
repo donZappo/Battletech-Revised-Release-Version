@@ -38,7 +38,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 4.0
+		"floatVal" : 2.0
             }
 	},
 	{
@@ -48,7 +48,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1
+		"floatVal" : 2
             }
 	},
 	{
@@ -107,7 +107,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -2.0
+		"floatVal" : -0.9
             }
 	},
 	{
@@ -116,7 +116,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -2.0
+		"floatVal" : -0.9
             }
 	},
 	{

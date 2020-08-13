@@ -8,7 +8,7 @@
 		"k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 3.5
+			"floatVal" : 2
 		}
 	},
 	{
@@ -19,7 +19,7 @@
 		"k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 3.5
+			"floatVal" : 0
 		}
 	},
 	{
@@ -56,7 +56,7 @@
 		"k" : "Int_MinimumActiveProbeCount",
 		"v" : {
 			"type" : "Int",
-			"IntVal" : "1"
+			"IntVal" : "2"
 		}
 	},
 	{
@@ -66,7 +66,7 @@
 		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -4
+			"floatVal" : -1
 		}
 	},
 	{
@@ -76,7 +76,7 @@
 		"k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -4
+			"floatVal" : -1
         }
 	},
 	{
@@ -137,7 +137,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.15
+		"floatVal" : 0.1
 		}
 	},
 	{
@@ -151,11 +151,20 @@
 	},
 	{
 	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other hostiles. */
+		"k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
 	       optimal distance to other hostiles WHEN SPRINTING. */
 		"k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.1
+			"floatVal" : 3
 		}
 	},
 	{
@@ -164,7 +173,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.75
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -190,7 +199,7 @@
 		"k" : "Float_PreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -1.7
+			"floatVal" : -0.4
 		}
 	},
 	{
@@ -199,8 +208,35 @@
 		"k" : "Float_SprintPreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -1.7
+			"floatVal" : -0.4
 		}
+	},
+		{
+	    /* Radius (in meters) to avoid sprinting within. */
+	    "k" : "Float_SprintExclusionRadius",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 400.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.8
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles. */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.8
+	    }
 	},
 	{
             /* If true, drop out of long range pathfinding if we can walk to
@@ -210,7 +246,7 @@
 	    "k" : "Bool_SimpleShortRangeLOF",
 	    "v" : {
 			"type" : "Bool",
-			"boolVal" : false
+			"boolVal" : true
 	    }
 	},
 	{

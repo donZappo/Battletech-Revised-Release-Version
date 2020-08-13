@@ -97,7 +97,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -106,8 +106,33 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
         }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance. Note - negative logic; this should use negative
+	       numbers, as it's designed to discourage being outside
+	       the radius and have no effect inside the fence. */
+	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1.5
+	    }
+	},
+	{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1.5
+	    }
 	},
 	{
 	    /* Whether when enemy is ghosted, to use sprint or walk distance as marker to calculate influence map positional factors.
@@ -170,17 +195,6 @@
 			"type" : "Int",
 			"IntVal" : "999"
 		}
-	},
-	{
-            /* If true, drop out of long range pathfinding if we can walk to
-             * a destination with LOF to a hostile. (TODO: roll this behavior out to
-             * all encounters.) */
-
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
-			"type" : "Bool",
-			"boolVal" : false
-	    }
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
