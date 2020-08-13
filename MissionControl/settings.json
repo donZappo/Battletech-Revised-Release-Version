@@ -103,7 +103,7 @@
   "AI": {
     "FollowPlayer": {
       "Pathfinding": "Alternative",
-      "Target": "HeaviestMech",
+      "Target": "LanceOrder",
       "StopWhen": "OnEnemyVisible",
       "MaxDistanceFromTargetBeforeSprinting": 60,
       "TargetZoneRadius": 60,
@@ -113,8 +113,8 @@
   },
   "Spawners": {
     "SpawnLanceAtEdgeBoundary": {
-      "MinBuffer": 100,
-      "MaxBuffer": 200
+      "MinBuffer": 0,
+      "MaxBuffer": 100
     }
   }
 }
