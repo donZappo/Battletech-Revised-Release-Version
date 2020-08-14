@@ -1,0 +1,21 @@
+{
+    "Name": "AbilityRealizer",
+    "DLL": "AbilityRealizer.dll",
+
+    "Version": "1.0.5",
+    "Description": "Allows for ability mods to more easily exist.",
+    "Author": "mpstark",
+    "Website": "www.github.com/mpstark/AbilityRealizer",
+
+    "Settings": {
+        "DumpFixedPilotDefMerges": false,
+        "AddTreeAbilities": true,
+        "RemoveNonTreeAbilities": false,
+        "RemoveDuplicateAbilities": true,
+        "IgnoreAbilities": [ "TraitDefWeaponHit", "TraitDefMeleeHit" ],
+        "IgnorePilotsWithTags": [],
+        "FactionAbilities": {},
+        "TagAbilities": {},
+        "SwapAIAbilities": {}
+    }
+}
