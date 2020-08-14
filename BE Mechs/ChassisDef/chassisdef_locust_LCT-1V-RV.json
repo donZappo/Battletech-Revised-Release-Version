@@ -126,10 +126,6 @@
             "Hardpoints": [
                 {
                     "Omni": false, 
-                    "WeaponMount": "Ballistic"
-                }, 
-                {
-                    "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
                 }
             ], 
@@ -178,10 +174,6 @@
         {
             "Location": "RightArm", 
             "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Ballistic"
-                }, 
                 {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
