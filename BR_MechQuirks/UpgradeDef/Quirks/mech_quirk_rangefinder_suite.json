@@ -35,7 +35,7 @@
         "UIName": "Tactical Optics",
         "Id": "mech_quirk_rangefinder_suite",
         "Name": "Tactical Optics",
-        "Details": "To support its role as an LRM harasser and to support LRM-based lances, this 'Mech has gear to increase its view distance.",
+        "Details": "To support its role as a long-range harasser and to support LRM-based lances, this 'Mech has gear to increase its view distance.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",
