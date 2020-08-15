@@ -125,6 +125,10 @@
             "Location": "LeftArm", 
             "Hardpoints": [
                 {
+                    "Omni": false,
+                    "WeaponMount": "Ballistic"
+                }, 
+                {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
                 }
