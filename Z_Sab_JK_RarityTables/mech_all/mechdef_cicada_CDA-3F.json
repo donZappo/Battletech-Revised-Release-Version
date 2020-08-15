@@ -5,7 +5,7 @@
             "unit_mech",
 			"unitBTR",
 			"unit_ready",
-  
+            "unit_medium",
             "unit_speed_high",
 			"unit_range_medium",
 			"unit_range_long",
@@ -77,7 +77,8 @@
             "unit_none_TaurusMajorisMining",
 			"unit_none_TaurusTerritorialIndustries",
 			"unit_none_TortugaPirates",			
-			"unit_none_Warboys",
+			"unit_none_Warboys"
         ], 
         "tagSetSourceFile": ""
-    }, }
+    }
+}
