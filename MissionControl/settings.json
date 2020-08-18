@@ -7,7 +7,7 @@
   "RandomSpawns": {
     "Enable": true,
     "EnableForFlashpoints": false,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort", "AmbushConvoy", "DefendBase", "DestroyBase"]
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort", "AmbushConvoy", "DefendBase", "DestroyBase", "CaptureBase"]
   },
   "HotDropProtection": {
     "Enable": true,
