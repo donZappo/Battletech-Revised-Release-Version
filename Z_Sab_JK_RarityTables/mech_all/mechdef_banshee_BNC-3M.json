@@ -15,8 +15,7 @@
             "unit_role_brawler",
             "unit_lance_vanguard",
             "unit_lance_tank", 
-          
-            "Marik",                 
+            
             "unit_rare",
             "unit_rare_Marik",
             "unit_ext_rare_GrayDeathLegion",            
@@ -58,5 +57,5 @@
             "unit_none_NoFaction"
         ],
         "tagSetSourceFile": ""
-    },
+    }
 }

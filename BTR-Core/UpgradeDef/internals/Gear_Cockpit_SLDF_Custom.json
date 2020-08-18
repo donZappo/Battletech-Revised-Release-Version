@@ -27,9 +27,9 @@
     "Model": "Advanced",
     "UIName": "Cockpit SLIC",
     "Id": "Gear_Cockpit_SLDF_Custom",
-    "Name": "SLDF SpecOps Cockpit  ",
+    "Name": "SLDF SpecOps Cockpit",
     "Details":
-      "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot.\n\n<b>•Will cause a maximum 1 Injury upon ejecting: 50% chance.\n\n•Signifcantly reduced chance of taking wounds.",
+      "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot.\n\n<b>• Will cause a maximum 1 Injury upon ejecting: 50% chance.\n\n• Signifcantly reduced chance of taking wounds.\n\n• Can only be installed in the 'Mech's head\n\n• Uses 1 Cockpit and 1 Sensor slot",
     "Icon": "uixSvgIcon_equipment_Comms"
   },
   "BonusValueA": "+1 Health/Morale.",
@@ -38,7 +38,7 @@
   "ComponentSubType": "NotSet",
   "PrefabIdentifier": "",
   "BattleValue": 0,
-  "InventorySize": 3,
+  "InventorySize": 2,
   "Tonnage": 3,
   "AllowedLocations": "Head",
   "DisallowedLocations": "All",
@@ -255,8 +255,8 @@
       "component_type_variant1",
       "noautofix",
 	  "TechLevel_HighTech",
-			"cockpit",
-			"safe_cockpit"
+	  "cockpit",
+	  "safe_cockpit"
     ],
     "tagSetSourceFile": ""
   }
