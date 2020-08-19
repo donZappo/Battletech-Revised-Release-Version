@@ -1,10 +1,4 @@
 {
-    "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
-        },
-    },
     "FixedEquipment": [], 
     "Description": {
         "Cost": 5600000, 
