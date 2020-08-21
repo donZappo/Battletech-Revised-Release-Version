@@ -233,7 +233,18 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_hand", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightArm", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
@@ -552,7 +563,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        } 
     ], 
     "simGameMechPartCost": 350000
 }
