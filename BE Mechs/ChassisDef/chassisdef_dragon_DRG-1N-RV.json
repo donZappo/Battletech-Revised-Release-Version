@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
-        },
+        }
     },
     "FixedEquipment": [
         {
@@ -14,8 +14,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
     "Description": {

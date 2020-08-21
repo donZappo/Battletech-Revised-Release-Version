@@ -2,9 +2,9 @@
     "Custom": {
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
-        },
+        }
     },
-    "FixedEquipment": [
+    "FixedEquipment": [        
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_Cramped_Standard", 
@@ -13,9 +13,9 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }
+            "prefabName": null, 
+            "hasPrefabName": false
+        } 
     ], 
     "Description": {
         "Cost": 4200000, 
