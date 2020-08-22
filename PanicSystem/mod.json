@@ -1,12 +1,14 @@
 {
   "Name": "PanicSystem",
+  "Hidden": true,
   "Enabled": true,
-  "Version": "4.1.0",
+  "Version": "4.2.0",
   "Description": "Simulates MechWarrior and vehicle crew panic, and automatic ejections",
   "Website": "https://github.com/BattletechModders/PanicSystem",
   "DLL": "PanicSystem.dll",
   "DLLEntryPoint": "PanicSystem.PanicSystem.Init",
-  "OptionallyDependsOn" : [ "Custom Ammo Categories" ],
+  "DependsOn": [ "Custom Ammo Categories" ],
+  "ConflictsWith": [],
   "Manifest": [
     {
       "Type": "SVGAsset",
@@ -17,7 +19,10 @@
   "Settings": {
     "Debug": false,
     "CombatLog": false,
+    //save mod state to file during combat; Set to false in mods like Rt that don't support in mission saves
+    "CombatSaves": false,
 
+    /* custom strings for floaties */
     "PanicStates": [
       "CONFIDENT",
       "UNSETTLED",
@@ -35,34 +40,44 @@
     "PanicImprovedString": "IMPROVED TO",
     "PanicWorsenedString": "",
     "PanicCritSaveString": "CRIT SAVE!",
-    
+
+    /* 0 is Confident.  Prevent manual ejection at this threshold status */
     "LimitManualEjection": false,
     "LimitManualEjectionLevel": 0,
-    
+
+    /* prevent manual ejection with these pilot tags */
     "LimitManualEjectionTags": [
       "pilot_example_tag",
+      "pilot_npc_testpilot"
     ],
-    
+    /* reads phrases.txt file and displays one randomly at eject */
     "EnableEjectPhrases": true,
     "EjectPhraseChance": 100,
 
+    /* greatly increases the visual feedback, like saving throw results */
     "FloatieSpam": false,
 
+    /* Modify floatie appearance? */
     "ColorizeFloaties": true,
 
+    /* Do Ejections count as kills? */
     "CountAsKills": true,
 
+    /* Panic Settings */
     "PlayersCanPanic": true,
     "EnemiesCanPanic": true,
     "VehiclesCanPanic": false,
     "ConsiderEjectingWithNoWeaps": false,
     "LosingLimbAlwaysPanics": false,
 
+    /* percent of remaining armor that must be destroyed to cause a panic save */
     "MinimumDamagePercentageRequired": 10,
 
+    /* integer number of cumulative structure damage required to cause a panic save */
     "MinimumMechStructureDamageRequired": 5,
     "MinimumVehicleStructureDamageRequired": 0,
 
+    /* Effect Modifiers */
     "UnsteadyModifier": 5,
     "PilotHealthMaxModifier": 25,
     "HeadMaxModifier": 25,
@@ -78,42 +93,57 @@
     "VehicleDamageFactor": 50,
     "ArmorDamageThreshold": 0,
 
+    /* AI Resolve goes to 150 */
     "MedianResolve": 50,
     "VehicleResolveFactor": 0,
 
+    /* factors that affect only panic saving throws based on existing panic state */
     "UnsettledPanicFactor": 1,
-    "StressedPanicFactor" : 0.66,
-    "PanickedPanicFactor" : 0.50,
+    "StressedPanicFactor": 0.66,
+    "PanickedPanicFactor": 0.50,
 
+    /* Ejection Bonuses and Limits */
     "GutsEjectionResistPerPoint": 3,
     "TacticsEjectionResistPerPoint": 0,
     "VehicleGutAndTacticsFactor": 0,
 
+    /* subtracted from all eject saving throws */
     "BaseEjectionResist": 75,
     "BaseVehicleEjectionResist": 0,
 
+    /* ceiling for eject saving throw */
     "MaxEjectChance": 100,
 
+    /* applied after entire calculation */
     "EjectChanceFactor": 1,
 
+    /* Pilot Quirk Effects https://www.nexusmods.com/battletech/mods/282/ */
     "QuirksEnabled": true,
     "BraveModifier": 25,
     "DependableModifier": 25,
-    
+    /* new Mech Quirk effects TBA */
     "DistractingModifier": 5,
 
+    /* to-hit and to-be-hit modifiers, by panic level */
     "UnsettledAimModifier": 1,
     "StressedAimModifier": 1,
     "StressedToHitModifier": -1,
     "PanickedAimModifier": 2,
     "PanickedToHitModifier": -2,
 
+    /* panic crits won't occur below this percentage */
     "MechHealthForCrit": 30,
 
+    /* if you miss your saving throw by this number it's a critical failure */
     "CritOver": 25,
 
-    "OneChangePerTurn" : false,
-	
-	"CombatSaves" : false
+    /* Misc */
+    "OneChangePerTurn": false,
+
+    /*Block Ejection for Pilots with CanEject Stat set to false*/
+    "ObeyPilotCanEjectStat": true,
+
+    /*Block Ejection for Pilots with pilot_cannot_eject Tag*/
+    "ObeyPilotCannotEjectTag": false
   }
 }
