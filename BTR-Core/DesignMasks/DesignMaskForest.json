@@ -17,7 +17,7 @@
     "moveCostWheeledMedium" : 3.0,
     "moveCostWheeledHeavy" : 3.0,
     "moveCostWheeledAssault" : 3.0,
-    "moveCostSprintMultiplier" : 1.5,
+    "moveCostSprintMultiplier" : 1.0,
     "stabilityDamageMultiplier" : 1.0,
     "visibilityMultiplier" : 2.0,
     "visibilityHeight" : 20.0,
