@@ -1,5 +1,5 @@
 {
-    "FixedEquipment": [
+    "FixedEquipment": [        
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_Integrated_Standard", 
@@ -8,8 +8,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
     "Description": {
