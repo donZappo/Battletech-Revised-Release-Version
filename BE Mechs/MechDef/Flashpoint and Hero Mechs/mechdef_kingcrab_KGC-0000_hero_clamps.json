@@ -3,7 +3,7 @@
         "items": [
             "unit_release",
             "unit_flashpoint",
-            "BLACKLISTED",
+            "BLACKLISTED"
         ],  
         "tagSetSourceFile": ""
     }, 
@@ -105,17 +105,6 @@
     "inventory": [
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Hardened", 
             "SimGameUID": null, 
             "ComponentDefType": "Upgrade", 
@@ -127,7 +116,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -136,6 +125,17 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-1500", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_armorslots_standard", 
@@ -568,17 +568,6 @@
         {
             "MountedLocation": "LeftTorso", 
             "ComponentDefID": "emod_case", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-1500", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

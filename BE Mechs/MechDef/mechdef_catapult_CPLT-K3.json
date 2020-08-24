@@ -368,7 +368,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -376,7 +376,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
@@ -515,17 +515,6 @@
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 2, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 

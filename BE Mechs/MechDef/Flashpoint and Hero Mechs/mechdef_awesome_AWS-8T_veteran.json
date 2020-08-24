@@ -3,7 +3,7 @@
         "items": [
             "unit_release",
             "unit_flashpoint",
-            "BLACKLISTED",
+            "BLACKLISTED"
         ],  
         "tagSetSourceFile": ""
     }, 
@@ -388,10 +388,10 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -619,18 +619,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }
+        }        
     ], 
     "simGameMechPartCost": 1982200
 }

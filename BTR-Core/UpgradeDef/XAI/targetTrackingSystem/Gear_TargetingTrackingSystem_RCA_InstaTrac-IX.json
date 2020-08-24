@@ -1,4 +1,8 @@
 {
+    "Custom": {
+		"Category" : { "CategoryID" : "SensorsA" },
+		"Flags": { "Flags": ["not_broken"] }
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,7 +15,7 @@
         "UIName" : "TTS-E ++",
         "Id" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
         "Name" : "RCA InstaTrac IX TTS",
-        "Details" : "The InstaTrac Energy Target Tracking Solution computers use advanced prediction algorithms to predict the energy weapons point of impact. Since energy weapons fire instantaneously, there is only a minimal need for external sensory input. It can also do this passively with infrared tracking lasers. The InstaTrac IX gives a <color=#6aa84f>direct fire energy bonus.</color>",
+        "Details" : "The InstaTrac Energy Target Tracking Solution computers use advanced prediction algorithms to predict the energy weapons point of impact. Since energy weapons fire instantaneously, there is only a minimal need for external sensory input. It can also do this passively with infrared tracking lasers. The InstaTrac IX gives a <color=#6aa84f>direct fire energy bonus.</color>\n\n<b>• Can only be installed in the 'Mech's head\n\n• Uses the SensorA slot and adds the additional weight listed",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+15% Targeting for",
@@ -20,10 +24,10 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
+    "InventorySize" : 1,
     "Tonnage" : 1,
-    "AllowedLocations" : "Torso",
-    "DisallowedLocations" : "Head",
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
         {

@@ -3,7 +3,7 @@
         "items": [
             "unit_release",
             "unit_flashpoint",
-            "BLACKLISTED",
+            "BLACKLISTED"
         ],  
         "tagSetSourceFile": ""
     }, 
@@ -135,18 +135,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_Generic_Standard", 
@@ -160,6 +149,17 @@
         }, 
         {
             "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII", 
+            "SimGameUID": null, 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
@@ -168,7 +168,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_armorslots_standard", 
@@ -487,18 +487,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII", 
-            "SimGameUID": null, 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },  
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III", 

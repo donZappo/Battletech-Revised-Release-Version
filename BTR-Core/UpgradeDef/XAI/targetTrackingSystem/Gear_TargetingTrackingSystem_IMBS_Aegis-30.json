@@ -1,4 +1,8 @@
 {
+    "Custom": {
+		"Category" : { "CategoryID" : "SensorsA" },
+		"Flags": { "Flags": ["not_broken"] }
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,18 +15,18 @@
         "UIName" : "FCS +++",
         "Id" : "Gear_TargetingTrackingSystem_IMBS_Aegis-30",
         "Name" : "IMBS Indirect FCS +++",
-        "Details" : "IMBS has been making electronics for every industry for ages now. They have a newly developed FCS that can be installed in your Missile firing mechs. A Fire Control System for indirect fire support requires more information than most TTS's.  The IMBS Aegis-30 adds real-time target tracking information from your lance mates, orbital systems such as a dropship or tactical satellites. The Aegis-30 gives an <color=#6aa84f>Indirect Fire Control Bonus</color>",
+        "Details" : "IMBS has been making electronics for every industry for ages. A Fire Control System for indirect fire support requires more information than most TTS's. The IMBS Aegis-30 adds real-time target tracking information from your lance mates, orbital systems such as a dropship or tactical satellites. The Aegis-30 gives an <color=#6aa84f>Indirect Fire Control Bonus</color><b>\n\n• Can only be installed in the 'Mech's head\n\n• Uses the SensorA slot and adds the additional weight listed",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+ 20% Indirect Fire Control",
+    "BonusValueA" : "+20% Indirect Fire Control",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 3,
+    "InventorySize" : 1,
     "Tonnage" : 1.5,
-    "AllowedLocations" : "Torso",
+    "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [

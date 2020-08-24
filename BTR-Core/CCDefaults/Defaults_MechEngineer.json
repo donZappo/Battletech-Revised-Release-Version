@@ -1,8 +1,8 @@
 {
 	"Settings" : [
-		{ "CategoryID" : "SensorsA", "Type" : "Upgrade", "DefID" : "Gear_Cockpit_SensorsA_Standard", "Location" : "Head" },
+		{ "CategoryID" : "SensorsA", "Type" : "Upgrade", "DefID" : "Gear_Cockpit_SensorsA_Standard", "Location" : "Head", "AnyLocation": false },
 		{ "CategoryID" : "Cockpit", "Type" : "Upgrade", "DefID" : "Gear_Cockpit_Generic_Standard", "Location" : "Head" },
-		{ "CategoryID" : "SensorsB", "Type" : "Upgrade", "DefID" : "Gear_Cockpit_SensorsB_Standard", "Location" : "Head" },
+		{ "CategoryID" : "SensorsB", "Type" : "Upgrade", "DefID" : "Gear_Cockpit_SensorsB_Standard", "Location" : "Head", "AnyLocation": false },
 
 		{ "CategoryID" : "Armor", "Type" : "Upgrade", "DefID" : "emod_armorslots_standard", "Location" : "CenterTorso" },
 		{ "CategoryID" : "Structure", "Type" : "Upgrade", "DefID" : "emod_structureslots_standard", "Location" : "CenterTorso" },
