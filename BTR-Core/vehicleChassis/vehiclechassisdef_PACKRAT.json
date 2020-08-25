@@ -10,7 +10,7 @@
         "DamageLevel": "Functional",
         "prefabName": null,
         "hasPrefabName": false
-      },
+      }
     ],
   
         "Description" : {
@@ -113,6 +113,6 @@
 			"InventorySlots" : 0,
 			"MaxArmor" : 80,
 			"InternalStructure" : 45
-		},
+		}
 	]
 }

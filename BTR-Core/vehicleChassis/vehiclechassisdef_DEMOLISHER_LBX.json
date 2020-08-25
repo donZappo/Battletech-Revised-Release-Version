@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_DEMOLISHER",
+	"MovementCapDefID" : "movedef_Tracked3",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_demolisher",
 	"PrefabIdentifier" : "chrPrfVhcl_demolisher",
