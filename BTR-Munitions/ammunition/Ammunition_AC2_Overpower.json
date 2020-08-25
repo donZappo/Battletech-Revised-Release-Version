@@ -2,7 +2,7 @@
    "Description" : {
       "Id" : "Ammunition_AC2_Overpower",
       "Name" : "AC/2 Ammo (Overpower)",
-      "UIName" : "Overpower",
+      "UIName" : "OP",
       "Details" : "Small caliber ammunition designed for long range fire in an AC/2.",
       "Icon" : null,
       "Cost" : 0,

@@ -2,7 +2,7 @@
    "Description" : {
       "Id" : "Ammunition_GAUSS_Overpenetration",
       "Name" : "Gauss Ammo (Overpenetration)",
-      "UIName" : "Overpen.",
+      "UIName" : "OP",
       "Details" : "GAUSS Ammo",
       "Icon" : null,
       "Cost" : 0,
