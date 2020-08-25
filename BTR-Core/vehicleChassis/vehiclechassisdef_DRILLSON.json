@@ -12,7 +12,7 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_Hover6",
+	"MovementCapDefID" : "movedef_Hover9",
    	"PathingCapDefID" : "pathingdef_medium_hover",
    	"HardpointDataDefID" : "hardpointdatadef_maxim",
 	"PrefabIdentifier" : "chrprfvhcl_maxim",
