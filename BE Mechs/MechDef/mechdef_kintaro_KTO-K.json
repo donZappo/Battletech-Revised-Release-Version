@@ -401,7 +401,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_IMBS_Aegis-5", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -409,10 +409,10 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -541,29 +541,8 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_IMBS_Aegis-5", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
         }
+        
     ], 
     "simGameMechPartCost": 750000
 }

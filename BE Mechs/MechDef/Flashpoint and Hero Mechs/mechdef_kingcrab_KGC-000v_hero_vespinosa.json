@@ -3,7 +3,7 @@
         "items": [
             "unit_release",
             "unit_flashpoint",
-            "BLACKLISTED",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -344,10 +344,10 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_Cockpit_CommandConsole_with_B2000", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -355,10 +355,21 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -456,17 +467,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_CommandConsole_with_B2000", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": null, 
@@ -577,7 +577,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "Head", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Gear_HeatSink_Generic_Double", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
@@ -586,29 +586,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }
+        }        
     ], 
     "simGameMechPartCost": 2422200
 }

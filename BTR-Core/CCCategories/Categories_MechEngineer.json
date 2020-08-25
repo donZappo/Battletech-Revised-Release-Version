@@ -2,7 +2,7 @@
    "Settings":[
       {
          "Name":"SensorsA",
-         "DisplayName":"FCS",
+         "DisplayName":"SensorA",
          "MaxEquiped":1,
          "MinEquiped":1,
          "AutoReplace":true,
@@ -46,7 +46,7 @@
       },
       {
          "Name":"SensorsB",
-         "DisplayName":"TargetingComputer",
+         "DisplayName":"SensorB",
          "MaxEquiped":1,
          "MinEquiped":1,
          "AutoReplace":true,
@@ -492,19 +492,19 @@
          "Name":"ActuatorUpgrades",
          "DisplayName":"Upgraded Actuator",
          "MaxEquipedPerLocation":1,
-         "AutoReplace":false,
+         "AutoReplace":false
       },
       {
          "Name":"HandActuator",
          "DisplayName":"Hand-Type Actuator",
          "MaxEquipedPerLocation":1,
-         "AutoReplace":false,
+         "AutoReplace":false
       },
       {
          "Name":"LowerArmActuator",
          "DisplayName":"Lower Arm-Type Actuator",
          "MaxEquipedPerLocation":1,
-         "AutoReplace":false,
+         "AutoReplace":false
       },
       {
          "Name":"ECM",
@@ -638,6 +638,6 @@
             	}
             }
          }
-      },
+      }
    ]
 }

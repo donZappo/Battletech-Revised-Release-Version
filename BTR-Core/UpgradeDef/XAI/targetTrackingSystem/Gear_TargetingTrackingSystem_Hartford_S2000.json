@@ -1,4 +1,8 @@
 {
+    "Custom": {
+		"Category" : { "CategoryID" : "SensorsB" },
+		"Flags": { "Flags": ["not_broken"] }
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,19 +15,19 @@
         "UIName" : "TTS-M ++++",
         "Id" : "Gear_TargetingTrackingSystem_Hartford_S2000",
         "Name" : "Hartford S2000 TTS-M",
-        "Details" : "The Harford line of Target Tracking Systems, specializing in direct fire or Line Of Sight (LOS) targeting systems for your frontline BattleMechs.  Using infrared lasers and to track and disseminate targets for missile path prediction, allows your pilot to accurately predict the enemies path.  Hartford S2000 increases your <color=#6aa84f>missiles direct fire bonus.</color>",
+        "Details" : "The Harford line of Target Tracking Systems specializes in direct fire or Line Of Sight (LOS) targeting systems for frontline BattleMechs by using infrared lasers to track and disseminate targets for missile path prediction. The Hardford S2000 increases your <color=#6aa84f>missiles direct fire bonus.</color><b>\n\n• Can only be installed in the 'Mech's head\n\n• Uses the SensorB slot and adds the additional weight listed",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-     "BonusValueA" : "+25% Targeting for",
+    "BonusValueA" : "+25% Targeting for",
     "BonusValueB" : "Missile Weapons",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
+    "InventorySize" : 1,
     "Tonnage" : 1.5,
-    "AllowedLocations" : "Torso",
-    "DisallowedLocations" : "Head",
+    "AllowedLocations" : "Head",
+    "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
         {

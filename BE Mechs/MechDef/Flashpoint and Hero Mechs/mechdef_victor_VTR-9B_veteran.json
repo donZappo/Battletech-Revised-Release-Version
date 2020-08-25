@@ -3,7 +3,7 @@
         "items": [
             "unit_release",
             "unit_flashpoint",
-            "BLACKLISTED",
+            "BLACKLISTED"
         ],   
         "tagSetSourceFile": ""
     }, 
@@ -104,17 +104,6 @@
     ], 
     "inventory": [
         {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "LeftLeg", 
             "ComponentDefID": "emod_leg_hip", 
             "SimGameUID": "", 
@@ -170,6 +159,28 @@
             "hasPrefabName": false
         }, 
         {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-500", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_armorslots_standard", 
             "SimGameUID": "", 
@@ -223,18 +234,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },  
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_structureslots_standard", 
@@ -570,17 +570,6 @@
             "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-500", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

@@ -1,4 +1,8 @@
 {
+    "Custom": {
+		"Category" : { "CategoryID" : "SensorsA" },
+		"Flags": { "Flags": ["not_broken"] }
+	},
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,7 +15,7 @@
         "UIName" : "VTAS +",
         "Id" : "Gear_TargetingTrackingSystem_LMT_VTAS-30",
         "Name" : "Lockheed VTAS-30",
-        "Details" : "Lockheed Martin's <color=#85bb65>Visual Target Aquisition System</color> is a rotating gimbal that is mounted on a mech or vehicle and used to get visual target information. It has built in magnification optics and rangefinding, that can see in the day, night and inclimate weather.\r\n\r\n With its built in laser designator it can also help guide missiles with greater accuracy.  The LMT-30 gives an <color=#6aa84f>bonus Visual Range & Targeting bonus for all weapons</color>",
+        "Details" : "Lockheed Martin's <color=#85bb65>Visual Target Aquisition System</color> is a rotating gimbal that is mounted on a mech or vehicle and used to get visual target information. It has built in magnification optics and rangefinding that can see in the day, night, and inclimate weather. The LMT-30 gives an <color=#6aa84f>bonus Visual Range & Targeting bonus for all weapons</color>\n\n<b>• Can only be installed in the 'Mech's head\n\n• Uses the SensorA slot and adds the additional weight listed",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+240m Visual TAS",
@@ -20,9 +24,9 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
+    "InventorySize" : 1,
     "Tonnage" : 1,
-    "AllowedLocations" : "Torso",
+    "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [

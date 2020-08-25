@@ -3,7 +3,8 @@
     "MechTags" : {
         "items" : [
 			"unit_dlc",
-			"BLACKLISTED"          
+			"unit_flashpoint",
+            "BLACKLISTED"          
         ],
         "tagSetSourceFile" : ""
     }, 
@@ -354,7 +355,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -494,18 +495,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 0,
+    "simGameMechPartCost": 0
 }

@@ -434,7 +434,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -445,7 +445,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -567,28 +567,6 @@
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "Mech_Default_Quirk", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1200", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

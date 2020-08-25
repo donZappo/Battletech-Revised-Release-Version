@@ -236,7 +236,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-15", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -244,7 +244,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
@@ -570,17 +570,6 @@
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_LMT_VTAS-15", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 

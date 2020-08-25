@@ -291,6 +291,39 @@
         }, 
         {
             "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_60KL", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head", 
             "ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
@@ -314,28 +347,6 @@
         {
             "MountedLocation": "RightLeg", 
             "ComponentDefID": "emod_leg_hip", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -470,28 +481,6 @@
             "ComponentDefID": "emod_engineslots_size3", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-III", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_60KL", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
