@@ -6,7 +6,7 @@
     "Description": "Flashpoint - The Raid: Tiverton wants the Black Market out, are you in?",
     "Author": "amechwarrior",
 
-    "DependsOn": [ "CommunityBundles" ],
+    "DependsOn": [ "CAB-IS Mech", "CAB-Tanks", "CAB-Misc", "CAB-Clan Mech" ],
     "OptionallyDependsOn": [ "cFixes" ],
 
     "Manifest": [  
