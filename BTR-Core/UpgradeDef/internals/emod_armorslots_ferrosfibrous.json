@@ -2,7 +2,7 @@
 	"Custom": {
 		"BonusDescriptions": {
 			"Bonuses": [
-				"ArmorWeightReduction: 11%",
+				"ArmorPerTonIncrease: 12.5%",
 				"ReservedSlots: 14"
 			]
 		},
@@ -13,7 +13,7 @@
 			"ReservedSlots": 14
 		},
 		"Weights": {
-			"ArmorFactor": 0.89286
+			"ArmorFactor": 0.88889
 		},
 		"WorkOrderCosts": {
 			"Install": {
@@ -31,7 +31,7 @@
         "UIName" : "Ferro-Fibrous",
         "Id" : "emod_armorslots_ferrosfibrous",
         "Name" : "Ferro-Fibrous Armor",
-        "Details" : "Ferro-Fibrous armor (FF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.\r\n\r\nArmor tonnage gets reduced by <b>1/12</b> while taking up <b>14</b> Ferro-Fibrous slots.",
+        "Details" : "Ferro-Fibrous armor (FF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.\r\n\r\nArmor point per ton is increased by <b>12.5%</b> while taking up <b>14</b> Ferro-Fibrous slots.",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",
