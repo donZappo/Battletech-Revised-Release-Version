@@ -1,8 +1,8 @@
 {
     "Custom": {
     "ArmActuatorSupport": {
-      "RightLimit": "Lower",
-        },
+      "RightLimit": "Lower"
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -56,7 +56,7 @@
     "DFAInstability": 45, 
     "ChassisTags": {
         "items": [
-            "ProtectiveBayDoors", 
+            "ProtectiveBayDoors" 
         ], 
         "tagSetSourceFile": ""
     }, 

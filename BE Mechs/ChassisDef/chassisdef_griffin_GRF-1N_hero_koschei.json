@@ -51,7 +51,7 @@
     "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
-            "ArmourBaffleSystem",
+            "ArmourBaffleSystem"
         ], 
         "tagSetSourceFile": ""
     }, 

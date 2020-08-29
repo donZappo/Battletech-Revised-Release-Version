@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
-        },
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -57,7 +57,7 @@
     "DFAInstability": 60, 
     "ChassisTags": {
         "items": [
-            "SidewaysEjectionSystem1",
+            "SidewaysEjectionSystem1"
         ], 
         "tagSetSourceFile": ""
     }, 

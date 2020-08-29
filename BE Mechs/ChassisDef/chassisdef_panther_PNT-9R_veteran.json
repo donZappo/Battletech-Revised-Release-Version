@@ -51,7 +51,7 @@
     "DFAInstability": 30, 
     "ChassisTags": {
         "items": [
-            "PPCInputLag",
+            "PPCInputLag"
         ], 
         "tagSetSourceFile": ""
     }, 

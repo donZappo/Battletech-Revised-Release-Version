@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
-        },
+        }
     },
     "FixedEquipment": [        
         {
@@ -16,7 +16,7 @@
           "hasPrefabName": false,
           "SimGameUID": "",
           "GUID": null
-        },
+        }
     ], 
     "Description": {
         "Cost": 4200000, 

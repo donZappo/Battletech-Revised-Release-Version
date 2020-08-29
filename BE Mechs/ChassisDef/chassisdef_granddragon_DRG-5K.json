@@ -2,7 +2,7 @@
     "Custom": {
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
-        },
+        }
     },
     "FixedEquipment": [        
         {
@@ -15,7 +15,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        }
     ], 
     "Description": {
         "Cost": 5600000, 

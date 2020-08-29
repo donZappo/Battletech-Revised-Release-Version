@@ -1,9 +1,8 @@
 {
     "Custom": {
         "ArmActuatorSupport": {
-            "RightLimit": "Lower", 
-        }, 
-        "ChassisDefaults": []
+            "RightLimit": "Lower" 
+        }
     }, 
     "FixedEquipment": [], 
     "Description": {
@@ -57,7 +56,7 @@
     "DFAInstability": 85, 
     "ChassisTags": {
         "items": [
-            "DesignedForDFA", 
+            "DesignedForDFA" 
         ], 
         "tagSetSourceFile": ""
     }, 
