@@ -21,7 +21,7 @@
     "VariantName": "WHM-6D", 
     "StockRole": "Brawler", 
     "YangsThoughts": "The 6D Warhammer seeks to optimize the base model for survivability by dropping a few weapons and piling on the armor. It definitely has more staying power, which lets it smash more PPC bolts into its targets.", 
-    "PrefabIdentifier": "chrPrfMech_warhammer_BlackWidowBase-001", 
+    "PrefabIdentifier": "chrPrfMech_warhammerBase-001", 
     "PrefabBase": "warhammer", 
     "Tonnage": 70, 
     "InitialTonnage": 7, 
