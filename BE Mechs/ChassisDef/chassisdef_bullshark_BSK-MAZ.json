@@ -39,7 +39,7 @@
     "InitialTonnage": 9.5, 
     "weightClass": "ASSAULT", 
     "BattleValue": 9360000, 
-    "Heatsinks": 30, 
+    "Heatsinks": 0, 
     "TopSpeed": 120, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
@@ -75,7 +75,7 @@
         "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
-    "MovementCapDefID": "movedef_bullshark_BSK-MAZ", 
+    "MovementCapDefID": "movedef_assaultmech", 
     "PathingCapDefID": "pathingdef_assault", 
     "HardpointDataDefID": "hardpointdatadef_bullshark", 
     "LOSSourcePositions": [

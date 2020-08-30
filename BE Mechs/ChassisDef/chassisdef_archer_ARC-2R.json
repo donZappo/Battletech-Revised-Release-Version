@@ -58,7 +58,7 @@
     }, 
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_heavymech", 
-    "PathingCapDefID": "pathingdef_assault", 
+    "PathingCapDefID": "pathingdef_heavy", 
     "HardpointDataDefID": "hardpointdatadef_archer", 
     "LOSSourcePositions": [
         {
