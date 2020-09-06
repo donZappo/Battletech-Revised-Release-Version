@@ -1,0 +1,55 @@
+{
+  "Name": "flee_AI_root",
+  "TypeName": "SelectorNode",
+  "Children": [
+    {
+      "Name": "run_away",
+      "TypeName": "SequenceNode",
+      "Children": [
+        {
+          "Name": "lanceDetectsEnemies0000",
+          "TypeName": "LanceDetectsEnemiesNode"
+        },
+        {
+          "Name": "findDetectedEnemies0000",
+          "TypeName": "FindDetectedEnemiesNode"
+        },
+        {
+          "Name": "movementAvailable0000",
+          "TypeName": "IsMovementAvailableForUnitNode"
+        },
+        {
+          "Name": "blockUntilPathfindingReady0000",
+          "TypeName": "BlockUntilPathfindingReadyNode"
+        },
+        {
+          "Name": "clearMoveCandidates0000",
+          "TypeName": "ClearMoveCandidatesNode"
+        },
+        {
+          "Name": "generateMoveCandidates0000",
+          "TypeName": "GenerateMoveCandidatesNode"
+        },
+        {
+          "Name": "sortMoveCandidatesByDecreasingDistanceToHostiles0000",
+          "TypeName": "SortMoveCandidatesByDecreasingDistanceToHostilesNode"
+        },
+        {
+          "Name": "filterMoveCandidatesByLowestLOSToHostiles0000",
+          "TypeName": "FilterMoveCandidatesByLowestLOSToHostilesNode"
+        },
+        {
+          "Name": "moveTowardsHighestPriorityMoveCandidate0000",
+          "TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+          "ExtraParameters": {
+            "useSprintJuice": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "brace0000",
+      "TypeName": "BraceNode"
+    }
+  ]
+}

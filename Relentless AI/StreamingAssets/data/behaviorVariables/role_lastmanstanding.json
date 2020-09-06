@@ -44,7 +44,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.6
+		"floatVal" : -0.8
         }
 	},
 	{
@@ -53,7 +53,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.6
+		"floatVal" : -0.8
         }
 	},
 	{
@@ -97,7 +97,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
             }
 	},
 	{
@@ -106,7 +106,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
         }
 	},
 	{
@@ -118,7 +118,7 @@
 	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.5
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -131,7 +131,7 @@
 	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.5
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -154,26 +154,6 @@
 		"type" : "Float",
 		"floatVal" : 1.99
         }
-	},
-	{
-	    /* How much heat is acceptable before using "Vent Coolant" skill
-	       0: no heat
-	       1: Heat level 1 (unused?)
-	       2: Heat level 2
-	       3: Max heat */
-            "k" : "Float_VentCoolantHeatThreshold",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 1.5
-        }
-	},
-	{
-	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
-	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
-	    "v" : {
-		"type" : "Float",
-		"floatVal" : 1.5
-	    }
 	},
 	{
 	    /* Description: Number of points of damage that a sensor

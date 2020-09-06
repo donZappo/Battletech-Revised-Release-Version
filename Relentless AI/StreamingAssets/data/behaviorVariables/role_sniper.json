@@ -33,7 +33,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 30.0
             }
 	},
 	{
