@@ -28,64 +28,64 @@
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 40,
+      "CurrentArmor": 55,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 40,
+      "AssignedArmor": 55,
       "AssignedRearArmor": 0
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 40,
+      "CurrentArmor": 55,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 40,
+      "AssignedArmor": 55,
       "AssignedRearArmor": 0
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 25,
+      "CurrentArmor": 85,
+      "CurrentRearArmor": 35,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 25
+      "AssignedArmor": 85,
+      "AssignedRearArmor": 35
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 25,
+      "CurrentArmor": 85,
+      "CurrentRearArmor": 35,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 25
+      "AssignedArmor": 85,
+      "AssignedRearArmor": 35
     },
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 75,
-      "CurrentRearArmor": 25,
+      "CurrentArmor": 117,
+      "CurrentRearArmor": 55,
       "CurrentInternalStructure": 60,
-      "AssignedArmor": 75,
-      "AssignedRearArmor": 25
+      "AssignedArmor": 117,
+      "AssignedRearArmor": 55
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 60,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 60,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 60,
+      "CurrentArmor": 65,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 60,
+      "AssignedArmor": 65,
       "AssignedRearArmor": 0
     }
   ],
