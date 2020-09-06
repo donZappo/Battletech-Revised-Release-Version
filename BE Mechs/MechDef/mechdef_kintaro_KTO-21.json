@@ -67,10 +67,10 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftArm", 
-            "CurrentArmor": 85, 
+            "CurrentArmor": 90, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 45, 
-            "AssignedArmor": 85, 
+            "AssignedArmor": 90, 
             "AssignedRearArmor": 0
         }, 
         {
@@ -346,7 +346,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_IMBS_Aegis-5", 
+            "ComponentDefID": "Gear_Cockpit_SensorsA_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -354,10 +354,10 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

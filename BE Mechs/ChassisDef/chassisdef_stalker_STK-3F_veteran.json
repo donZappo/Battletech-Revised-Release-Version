@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
-        },
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -57,7 +57,7 @@
     "DFAInstability": 80, 
     "ChassisTags": {
         "items": [
-            "UnderStress", 
+            "UnderStress" 
         ], 
         "tagSetSourceFile": ""
     }, 

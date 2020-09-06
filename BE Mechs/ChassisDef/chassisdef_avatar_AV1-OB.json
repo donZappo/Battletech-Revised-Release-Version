@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
-        },
+        }
     },
   "FixedEquipment": [],
   "Description": {
@@ -141,7 +141,7 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": true
-        },
+        }
       ],
       "Tonnage": 0.0,
       "InventorySlots": 12,

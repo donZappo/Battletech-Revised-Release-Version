@@ -1,8 +1,8 @@
 {
     "Custom": {
     "ArmActuatorSupport": {
-      "RightLimit": "Lower",
-        },
+      "RightLimit": "Lower"
+        }
     },
     "FixedEquipment": [
         {
@@ -15,7 +15,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        },
+        }
     ], 
     "Description": {
         "Cost": 5700000, 
@@ -42,7 +42,7 @@
     "TopSpeed": 65, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 140, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 

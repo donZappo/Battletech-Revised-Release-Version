@@ -519,7 +519,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        }
     ], 
     "simGameMechPartCost": 712500
 }

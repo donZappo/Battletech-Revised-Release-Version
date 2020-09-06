@@ -1,7 +1,8 @@
-{"Custom": {
+{
+    "Custom": {
     "ArmActuatorSupport": {
       "RightLimit": "Upper"
-        },
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -51,7 +52,7 @@
     "MeleeToHitModifier": 0, 
     "DFADamage": 85, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 85.5, 
+    "DFASelfDamage": 85, 
     "DFAInstability": 85, 
     "ChassisTags": {
         "items": [

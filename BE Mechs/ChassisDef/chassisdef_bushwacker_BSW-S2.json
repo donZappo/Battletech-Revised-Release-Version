@@ -1,8 +1,8 @@
 {
     "Custom": {
     "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-        },
+      "LeftLimit": "Lower"
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -30,7 +30,7 @@
     "TopSpeed": 80, 
     "TurnRadius": 90, 
     "MaxJumpjets": 2, 
-    "Stability": 140, 
+    "Stability": 130, 
     "StabilityDefenses": [
         0, 
         0, 

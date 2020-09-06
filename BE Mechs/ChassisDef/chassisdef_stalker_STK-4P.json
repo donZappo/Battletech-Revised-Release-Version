@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
-        },
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -63,7 +63,7 @@
     }, 
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_heavymech", 
-    "PathingCapDefID": "pathingdef_assault", 
+    "PathingCapDefID": "pathingdef_heavy", 
     "HardpointDataDefID": "hardpointdatadef_stalker", 
     "LOSSourcePositions": [
         {

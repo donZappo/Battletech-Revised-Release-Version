@@ -17,7 +17,7 @@
 		"Details": "This customized King Crab was driven by Victoria Espinosa, of the short-lived Aurigan Directorate. Armed with the best weaponry the Directorate could manage to acquire, it was an absolute death machine against anything it could see. Now, the power rests in your hands. Be bold, Commander.",
 		"Icon": "uixTxrIcon_kingcrab"
 	},
-	"MovementCapDefID": "movedef_kingcrab_KGC-0000",
+	"MovementCapDefID": "movedef_assaultmech",
 	"PathingCapDefID": "pathingdef_assault",
 	"HardpointDataDefID": "hardpointdatadef_kingcrab",
 	"PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
@@ -29,7 +29,7 @@
 	"Heatsinks": 0,
 	"TopSpeed": 105,
 	"TurnRadius": 90,
-	"MaxJumpjets": 20,
+	"MaxJumpjets": 2,
 	"Stability": 200,
 	"StabilityDefenses": [
 		0,

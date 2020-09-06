@@ -3,7 +3,7 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
-        },
+        }
     },
     "FixedEquipment": [], 
     "Description": {
@@ -21,7 +21,7 @@
     "VariantName": "WHM-7A", 
     "StockRole": "Brawler", 
     "YangsThoughts": "The 7A variant of this iconic mech is fearsome. Extremely thick armor gives it tremendous staying power and the capacity to vent a lot of heat ensures that whoever gets to pilot this monster will be able to constantly hurl PPC bolts at the OpFor and not even break a sweat while putting them in a world of hurt.", 
-    "PrefabIdentifier": "chrPrfMech_warhammer_BlackWidowBase-001", 
+    "PrefabIdentifier": "chrPrfMech_warhammerBase-001", 
     "PrefabBase": "warhammer", 
     "Tonnage": 70, 
     "InitialTonnage": 7, 
