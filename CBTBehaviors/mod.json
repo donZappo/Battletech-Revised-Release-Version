@@ -12,7 +12,7 @@
         "Debug" : false,
         "Trace" : false,
         "ShutdownPercentages": [0.083, 0.278, 0.583, 0.833],
-        "AmmoExplosionPercentages": [0, 0.083, 0.278, 0.583],
+        "AmmoExplosionPercentages": [0.083, 0.278, 0.583, 0.833],
 		"HeatDamagePercentages": [0.278, 0.583, 0.833, 1],
         "HeatToHitModifiers": [1, 2, 3, 4],
         "UseGuts": false,
