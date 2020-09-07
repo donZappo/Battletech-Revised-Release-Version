@@ -21,7 +21,7 @@
     "StockRole": "Long Range Assault", 
     "YangsThoughts": "The Huron Warrior HUR-WO-R4L is a real peacock. Don't let that fool you though, the long range fire support this can provide isn't to be sniffed at, and if it is closed in on it has the armor to back it up.", 
     "PrefabIdentifier": "chrprfmech_huronwbase-001", 
-    "PrefabBase": "huronw", 
+    "PrefabBase": "huronwarrior", 
     "Tonnage": 50, 
     "InitialTonnage": 5, 
     "weightClass": "MEDIUM", 
