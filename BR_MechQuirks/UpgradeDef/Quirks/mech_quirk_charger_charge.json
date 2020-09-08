@@ -65,7 +65,7 @@
             "Description" : {
                 "Id" : "StatusEffect-CHARGE-Q1",
                 "Name" : "CHARGE!",
-                "Details" : "Can sprint and melee. Does two attacks per melee. Fixed Engine.",
+                "Details" : "Can sprint and melee. Does double damage in melee. Fixed Engine.",
                 "Icon" : "SpecialistSlot"
             },
             "statisticData" : {
