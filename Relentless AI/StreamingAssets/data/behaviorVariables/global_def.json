@@ -147,6 +147,23 @@
         }
     },
 	{
+	    /* Whether to use Bulwark actions*/
+		"k" : "Bool_UseBulwarkActions",
+		"v" : {
+			"type" : "Bool",
+			"boolVal" : true
+        }
+	},
+	{
+	    /* Percentage (0-100) of best available move that will be
+	       accepted for bulwark skill moves. */
+		"k" : "Float_BulwarkThresholdPercentage",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 75
+		}
+	},
+	{
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
@@ -164,7 +181,7 @@
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.1
+             "floatVal" : 0.3
         }
     },
 	{

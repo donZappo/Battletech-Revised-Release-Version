@@ -379,7 +379,7 @@
 															"Children": [
 																{
 																	"Name": "agrgresive_sortEnemiesByThreat",
-																	"TypeName": "SortEnemiesByThreatNode"
+																	"TypeName": "SortEnemiesByEffectivenessNode"
 																},
 																{
 																	"Name": "priorityMove",
@@ -479,6 +479,10 @@
 																										{
 																											"Name": "simple_LOF_hasLOFToAnyHostileFromReachableLocations",
 																											"TypeName": "HasLOFToAnyHostileFromReachableLocationsNode"
+																										},
+																										{
+																											"Name": "simple_lance_has_los",
+																											"TypeName": "LanceHasLOSNode"
 																										}
 																									]
 																								},
@@ -969,27 +973,7 @@
 																								},
 																								{
 																									"Name": "sort_moves_LOSandLOF",
-																									"TypeName": "FilterNonLOSOrLOFMovesNode"
-																								}
-																							]
-																						},
-																						{
-																							"Name": "offensive_noweapons",
-																							"TypeName": "SequenceNode",
-																							"Children": [
-																								{
-																									"Name": "offensive_weapons",
-																									"TypeName": "InverterNode",
-																									"Children": [
-																										{
-																											"Name": "offensive_hasRangedWeapons",
-																											"TypeName": "HasRangedWeaponsNode"
-																										}
-																									]
-																								},
-																								{
-																									"Name": "offensive_noweapons_clear",
-																									"TypeName": "ClearMoveCandidatesNode"
+																									"TypeName": "ProperlyFilterOutNonLOFMovesNode"
 																								}
 																							]
 																						},
@@ -997,10 +981,6 @@
 																							"Name": "sprinting_if_nomoves",
 																							"TypeName": "SequenceNode",
 																							"Children": [
-																								{
-																									"Name": "sinm_available",
-																									"TypeName": "IsSprintAvailableForUnitNode"
-																								},
 																								{
 																									"Name": "sinm_inverter",
 																									"TypeName": "InverterNode",
@@ -1225,40 +1205,16 @@
 																},
 																{
 																	"Name": "mtdp_filter_moves_LOSandLOF",
-																	"TypeName": "FilterNonLOSOrLOFMovesNode"
+																	"TypeName": "ProperlyFilterOutNonLOFMovesNode"
 																},
 																{
 																	"Name": "mtdp_dfa_5th_decorator",
 																	"TypeName": "SuccessDecoratorNode",
 																	"Children": [
 																		{
-																			"Name": "deff_noweapons",
-																			"TypeName": "SequenceNode",
-																			"Children": [
-																				{
-																					"Name": "deff_weapons",
-																					"TypeName": "InverterNode",
-																					"Children": [
-																						{
-																							"Name": "deff_hasRangedWeapons",
-																							"TypeName": "HasRangedWeaponsNode"
-																						}
-																					]
-																				},
-																				{
-																					"Name": "deff_noweapons_clear",
-																					"TypeName": "ClearMoveCandidatesNode"
-																				}
-																			]
-																		},
-																		{
 																			"Name": "def_sprint",
 																			"TypeName": "SequenceNode",
 																			"Children": [
-																				{
-																					"Name": "def_sprint_available",
-																					"TypeName": "IsSprintAvailableForUnitNode"
-																				},
 																				{
 																					"Name": "def_inverter",
 																					"TypeName": "InverterNode",
@@ -1299,13 +1255,6 @@
 																				{
 																					"Name": "def_generate_walking_move",
 																					"TypeName": "GenerateNormalMoveTowardDistantHostileCandidatesNode"
-																				},
-																				{
-																					"Name": "def_walk",
-																					"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
-																					"ExtraParameters": {
-																					"useSprintJuice": false
-																					}
 																				}
 																			]
 																		},
@@ -1500,7 +1449,7 @@
 											"Children": [
 												{
 													"Name": "attack_sortsByThreat",
-													"TypeName": "SortEnemiesByThreatNode"
+													"TypeName": "SortEnemiesByEffectivenessNode"
 												},
 												{
 													"Name": "attack_useNormalToHitThreshold",

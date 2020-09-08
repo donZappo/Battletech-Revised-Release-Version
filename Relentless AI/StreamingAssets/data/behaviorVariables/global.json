@@ -557,7 +557,7 @@
 		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -567,7 +567,7 @@
 		"k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -687,7 +687,7 @@
 		"k" : "Float_BulwarkThresholdPercentage",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 40
+			"floatVal" : 33
 		}
 	},
 	{
@@ -1735,7 +1735,7 @@
 		"k" : "Float_LongRangeToShortRangeDistanceThreshold",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 10
 		}
 	},
 	{
@@ -1798,7 +1798,7 @@
 		"k" : "Float_PreferLOSToFewestHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -1807,7 +1807,7 @@
 	    "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -1909,7 +1909,7 @@
         "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -1918,7 +1918,7 @@
         "k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.4
         }
 	},
 	{
@@ -1936,7 +1936,7 @@
         "k" : "Float_BraceWhenOverheatedPercentage",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.0
+			"floatVal" : 0.25
         }
 	}
     ]
