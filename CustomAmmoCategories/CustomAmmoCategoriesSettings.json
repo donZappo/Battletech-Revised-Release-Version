@@ -54,7 +54,7 @@
   "BurningOffsetX": 0,
   "BurningOffsetY": 1,
   "BurningOffsetZ": 0,
-  "FireTerrainChance": 0,
+  "FireTerrainChance": 1,
   "extendedBraceBehavior": true,
   "DontShowNotDangerouceJammMessages": true,
   "MineFieldPathingMods": {
