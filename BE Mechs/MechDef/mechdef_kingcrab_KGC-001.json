@@ -50,19 +50,19 @@
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
             "CurrentArmor": 210, 
-            "CurrentRearArmor": 100, 
+            "CurrentRearArmor": 105, 
             "CurrentInternalStructure": 105, 
             "AssignedArmor": 210, 
-            "AssignedRearArmor": 100
+            "AssignedRearArmor": 105
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
             "CurrentArmor": 210, 
-            "CurrentRearArmor": 100, 
+            "CurrentRearArmor": 105, 
             "CurrentInternalStructure": 105, 
             "AssignedArmor": 210, 
-            "AssignedRearArmor": 100
+            "AssignedRearArmor": 105
         }, 
         {
             "DamageLevel": "Functional", 
@@ -346,7 +346,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_SensorsB_Standard", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-500", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -354,7 +354,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_kit_shs", 

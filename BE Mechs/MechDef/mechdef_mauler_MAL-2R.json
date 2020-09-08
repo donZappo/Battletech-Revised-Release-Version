@@ -40,10 +40,10 @@
         {
             "DamageLevel": "Functional", 
             "Location": "CenterTorso", 
-            "CurrentArmor": 265, 
+            "CurrentArmor": 275, 
             "CurrentRearArmor": 75, 
             "CurrentInternalStructure": 145, 
-            "AssignedArmor": 265, 
+            "AssignedArmor": 275, 
             "AssignedRearArmor": 75
         }, 
         {
