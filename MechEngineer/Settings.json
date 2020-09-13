@@ -14,11 +14,9 @@
       "Enabled":true,
       "EnabledDescription":"Fixes up mechs, chassis and components to adhere to CBT rules and defaults. Done programmatically to be compatible to new mechs in the future.",
 	  "ChassisDefMaxJumpjets" : false,
-      "MechDefAutoFixAgainstMaxFreeTonnage":[
-
+      "MechDefAutoFixAgainstMaxFreeTonnage":[ 
       ],
       "ChassisDefSlotsChanges":[
-
       ],
       "AutoFixWeaponDefSlotsChanges":[
          {
