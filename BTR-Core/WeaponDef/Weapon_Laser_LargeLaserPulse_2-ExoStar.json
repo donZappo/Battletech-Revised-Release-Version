@@ -1,81 +1,81 @@
 {
-  "Category" : "Energy",
-  "Type" : "Laser",
-  "WeaponSubType" : "LargeLaserPulse",
-  "MinRange" : 0,
-  "MaxRange" : 450,
-  "RangeSplit" : [
-    300,
-    300,
-    450
-  ],
-  "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 25.0,
-  "Damage" : 18.0,
-  "OverheatedDamageMultiplier" : 0,
-  "EvasiveDamageMultiplier" : 0,
-  "EvasivePipsIgnored" : 2,
-  "DamageVariance" : 0,
-  "HeatDamage" : 0.67,
-  "AccuracyModifier" : -2,
-  "CriticalChanceMultiplier" : 1.0,
-  "AOECapable" : false,
-  "IndirectFireCapable" : false,
-  "RefireModifier" : 0,
-  "ShotsWhenFired" : 3,
-  "ProjectilesPerShot" : 1,
-  "AttackRecoil" : 1,
-  "Instability" : 0.0,
-  "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
-  "Description" : {
-    "Cost" : 2475000,
-    "Rarity" : 7,
-    "Purchasable" : true,
-    "Manufacturer" : "ExoStar",
-    "Model" : "Large Pulse Laser",
-    "UIName" : "L Pulse + +",
-    "Id" : "Weapon_Laser_LargeLaserPulse_2-ExoStar",
-    "Name" : "L Pulse + +",
-    "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
-    "Icon" : "uixSvgIcon_weapon_Energy"
-  },
-  "BonusValueA" : "+2 Ev.Pips.Ignored",
-  "BonusValueB" : "+ 0.75 Tons",
-  "ComponentType" : "Weapon",
-  "ComponentSubType" : "Weapon",
-  "PrefabIdentifier" : "Laser",
-  "BattleValue" : 0,
-  "InventorySize" : 2,
-  "Tonnage" : 5.25,
-  "AllowedLocations" : "All",
-  "DisallowedLocations" : "All",
-  "StructureDamage" : 0.0,
-  "CriticalComponent" : false,
-  "statusEffects" : [ ],
-  "ComponentTags" : {
-    "items" : [
-      "component_type_variant",
-      "component_type_variant2",
-      "TechLevel_MidTech",
-      "range_long"
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
     ],
-    "tagSetSourceFile" : ""
-  },
-  "FireDelayMultiplier" : 0.01,
-  "ColorSpeedChange" : 0.05,
-  "ImprovedBallistic" : true,
-  "ProjectileSpeedMultiplier" : 0.75,
-  "ColorChangeRule" : "Linear",
-  "HitGenerator" : "Streak",
-  "ColorsTable" : [
-    {
-      "C" : "#7A5DC7",
-      "I" : 5
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 25.0,
+    "Damage": 18.0,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 2,
+    "DamageVariance": 0,
+    "HeatDamage": 0.67,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1.0,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 3,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0.0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "Description": {
+        "Cost": 2475000,
+        "Rarity": 7,
+        "Purchasable": true,
+        "Manufacturer": "ExoStar",
+        "Model": "Large Pulse Laser",
+        "UIName": "L Pulse + +",
+        "Id": "Weapon_Laser_LargeLaserPulse_2-ExoStar",
+        "Name": "L Pulse + +",
+        "Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Icon": "uixSvgIcon_weapon_Energy"
     },
-    {
-      "C" : "#E55B3C",
-      "I" : 5
-    }
-  ],
-  "ammoCategoryID" : "NotSet"
+    "BonusValueA": "+2 Ev.Pips.Ignored",
+    "BonusValueB": "+ 0.75 Tons",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 5.25,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "StructureDamage": 0.0,
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_variant",
+            "component_type_variant2",
+            "TechLevel_MidTech",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "FireDelayMultiplier": 0.01,
+    "ColorSpeedChange": 0.05,
+    "ImprovedBallistic": true,
+    "ProjectileSpeedMultiplier": 0.75,
+    "ColorChangeRule": "Linear",
+    "HitGenerator": "Streak",
+    "ColorsTable": [
+        {
+            "C": "#7A5DC7",
+            "I": 5
+        },
+        {
+            "C": "#E55B3C",
+            "I": 5
+        }
+    ],
+    "ammoCategoryID": "NotSet"
 }
