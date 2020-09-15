@@ -1,74 +1,74 @@
 {
-  "Category" : "AntiPersonnel",
-  "Type" : "Laser",
-  "WeaponSubType" : "SmallLaserER",
-  "MinRange" : 0,
-  "MaxRange" : 150,
-  "RangeSplit" : [
-    150,
-    150,
-    150
-  ],
-  "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 12.0,
-  "Damage" : 16.0,
-  "OverheatedDamageMultiplier" : 0,
-  "EvasiveDamageMultiplier" : 0,
-  "EvasivePipsIgnored" : 0,
-  "DamageVariance" : 0,
-  "HeatDamage" : 0.5,
-  "AccuracyModifier" : 0,
-  "CriticalChanceMultiplier" : 1.25,
-  "AOECapable" : false,
-  "IndirectFireCapable" : false,
-  "RefireModifier" : 0,
-  "ShotsWhenFired" : 1,
-  "ProjectilesPerShot" : 1,
-  "AttackRecoil" : 1,
-  "Instability" : 0.0,
-  "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
-  "Description" : {
-    "Cost" : 22000,
-    "Rarity" : 2,
-    "Purchasable" : true,
-    "Manufacturer" : "SCI",
-    "Model" : "Extended-Range Small Laser",
-    "UIName" : "ER S Laser",
-    "Id" : "Weapon_Laser_SmallLaserER_0-STOCK",
-    "Name" : "ER S Laser",
-    "Details" : "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons.",
-    "Icon" : "uixSvgIcon_weapon_Support"
-  },
-  "BonusValueA" : "",
-  "BonusValueB" : "",
-  "ComponentType" : "Weapon",
-  "ComponentSubType" : "Weapon",
-  "PrefabIdentifier" : "Laser",
-  "BattleValue" : 0,
-  "InventorySize" : 1,
-  "Tonnage" : 0.75,
-  "AllowedLocations" : "All",
-  "DisallowedLocations" : "All",
-  "StructureDamage" : 0.0,
-  "CriticalComponent" : false,
-  "statusEffects" : [ ],
-  "ComponentTags" : {
-    "items" : [
-      "component_type_stock",
-      "TechLevel_HighTech",
-      "range_close"
+    "Category": "AntiPersonnel",
+    "Type": "Laser",
+    "WeaponSubType": "SmallLaserER",
+    "MinRange": 0,
+    "MaxRange": 150,
+    "RangeSplit": [
+        150,
+        150,
+        150
     ],
-    "tagSetSourceFile" : ""
-  },
-  "ColorSpeedChange" : 0.1,
-  "ImprovedBallistic" : true,
-  "ProjectileSpeedMultiplier" : 1.2,
-  "ColorChangeRule" : "Linear",
-  "ColorsTable" : [
-    {
-      "C" : "#DC381F",
-      "I" : 5
-    }
-  ],
-  "ammoCategoryID" : "NotSet"
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 12.0,
+    "Damage": 16.0,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0.5,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1.25,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0.0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+    "Description": {
+        "Cost": 22000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "SCI",
+        "Model": "Extended-Range Small Laser",
+        "UIName": "ER S Laser",
+        "Id": "Weapon_Laser_SmallLaserER_0-STOCK",
+        "Name": "ER S Laser",
+        "Details": "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Icon": "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.75,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "StructureDamage": 0.0,
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "TechLevel_HighTech",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ColorSpeedChange": 0.1,
+    "ImprovedBallistic": true,
+    "ProjectileSpeedMultiplier": 1.2,
+    "ColorChangeRule": "Linear",
+    "ColorsTable": [
+        {
+            "C": "#DC381F",
+            "I": 5
+        }
+    ],
+    "ammoCategoryID": "NotSet"
 }

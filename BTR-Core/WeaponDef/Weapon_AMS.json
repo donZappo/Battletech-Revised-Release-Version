@@ -1,83 +1,83 @@
 {
-  "Category" : "AntiPersonnel",
-  "Type" : "MachineGun",
-  "WeaponSubType" : "AMS",
-  "MinRange" : 0,
-  "MaxRange" : 100,
-  "RangeSplit" : [
-    100,
-    100,
-    100
-  ],
-  "AmmoCategory" : "AntiMissile",
-  "StartingAmmoCapacity" : 0,
-  "HeatGenerated" : 0.0,
-  "Damage" : 0.0,
-  "OverheatedDamageMultiplier" : 0,
-  "EvasiveDamageMultiplier" : 0,
-  "EvasivePipsIgnored" : 0,
-  "DamageVariance" : 0,
-  "HeatDamage" : 0.0,
-  "AccuracyModifier" : 0,
-  "CriticalChanceMultiplier" : 1.5,
-  "AOECapable" : false,
-  "IndirectFireCapable" : false,
-  "RefireModifier" : 0,
-  "ShotsWhenFired" : 0,
-  "ProjectilesPerShot" : 1,
-  "AttackRecoil" : 0,
-  "Instability" : 0.0,
-  "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
-  "Description" : {
-    "Cost" : 100000,
-    "Rarity" : 2,
-    "Purchasable" : true,
-    "Manufacturer" : "Lindblad",
-    "Model" : "Anti-Missile System",
-    "UIName" : "AMS",
-    "Id" : "Weapon_AMS",
-    "Name" : "AMS",
-    "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nSelf: <color=#ffcc00>20 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff:  <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nCan fire 10 shots per combat round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
-    "Icon" : "uixSvgIcon_weapon_Support"
-  },
-  "BonusValueA" : "",
-  "BonusValueB" : "",
-  "ComponentType" : "Weapon",
-  "ComponentSubType" : "Weapon",
-  "PrefabIdentifier" : "MachineGun",
-  "BattleValue" : 0,
-  "InventorySize" : 1,
-  "Tonnage" : 0.5,
-  "AllowedLocations" : "LeftTorso",
-  "DisallowedLocations" : "All",
-  "CriticalComponent" : false,
-  "statusEffects" : [ ],
-  "ComponentTags" : {
-    "items" : [
-      "component_type_stock",
-      "range_close",
-      "TechLevel_LowTech",
-	  "cae_ai_defence"
+    "Category": "AntiPersonnel",
+    "Type": "MachineGun",
+    "WeaponSubType": "AMS",
+    "MinRange": 0,
+    "MaxRange": 100,
+    "RangeSplit": [
+        100,
+        100,
+        100
     ],
-    "tagSetSourceFile" : ""
-  },
-  "Modes" : [
-    {
-      "Id" : "Self",
-      "UIName" : "Self",
-      "isBaseMode" : true,
-      "ShotsWhenFired" : 20,
-      "AMSHitChance" : 0.25
+    "AmmoCategory": "AntiMissile",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 0.0,
+    "Damage": 0.0,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0.0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1.5,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 0,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0.0,
+    "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+    "Description": {
+        "Cost": 100000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Lindblad",
+        "Model": "Anti-Missile System",
+        "UIName": "AMS",
+        "Id": "Weapon_AMS",
+        "Name": "AMS",
+        "Details": "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. Because missiles are usually fired in salvos of up to forty at a time, anti-missile systems are rarely capable of destroying them all. Due to the loss of knowledge caused by the Succession Wars, anti-missile systems ceased to be produced by 2835.\r\n\r\n<b>Firing modes:</b>\r\nSelf: <color=#ffcc00>20 shots, 25% of missile destroyed per shot, protects this unit</color>\r\nOff:  <color=#ffcc00>Does not fire</color>\r\n\r\n<color=#d9d9d9><b>Firing modes can be changed by clicking the right side of the weapons activation panel during combat.\r\nCan only be mounted in the Left Torso.\r\nCan fire 10 shots per combat round.\r\nCan only be mounted in the Left Torso.\r\nLess effective within 100 meters.</b></color>",
+        "Icon": "uixSvgIcon_weapon_Support"
     },
-    {
-      "Id" : "Off",
-      "UIName" : "Off",
-      "isBaseMode" : false,
-      "ShotsWhenFired" : 0,
-      "AMSHitChance" : 0.0
-    }
-  ],
-  "AMSShootsEveryAttack" : true,
-  "IsAMS" : true,
-  "NotUseInMelee" : true
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "MachineGun",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.5,
+    "AllowedLocations": "LeftTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close",
+            "TechLevel_LowTech",
+            "cae_ai_defence"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Modes": [
+        {
+            "Id": "Self",
+            "UIName": "Self",
+            "isBaseMode": true,
+            "ShotsWhenFired": 20,
+            "AMSHitChance": 0.25
+        },
+        {
+            "Id": "Off",
+            "UIName": "Off",
+            "isBaseMode": false,
+            "ShotsWhenFired": 0,
+            "AMSHitChance": 0.0
+        }
+    ],
+    "AMSShootsEveryAttack": true,
+    "IsAMS": true,
+    "NotUseInMelee": true
 }
