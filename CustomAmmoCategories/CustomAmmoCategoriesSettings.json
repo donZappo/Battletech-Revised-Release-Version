@@ -249,5 +249,14 @@
   "ShowAttackGroundButton" : false,
   "ShowWeaponOrderButtons": false,
   "AttackLogWrite": false,
-  "InfoPanelDefaultState": false
+  "InfoPanelDefaultState": false,
+  "ToHitSelfJumped":0,
+  "ToHitMechFromFront":0,
+  "ToHitMechFromSide":1,
+  "ToHitMechFromRear":0,
+  "ToHitVehicleFromFront":0,
+  "ToHitVehicleFromSide":1,
+  "ToHitVehicleFromRear":0,
+  "WeaponPanelWidthScale":1,
+  "WeaponPanelHeightScale":1
 }
