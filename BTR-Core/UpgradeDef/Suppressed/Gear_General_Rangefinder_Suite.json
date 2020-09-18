@@ -178,7 +178,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-			"BUILT-IN",
+			"component_type_noupgrade",
 			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""

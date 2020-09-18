@@ -22,6 +22,7 @@
    "CriticalComponent" : false,
    "ComponentTags": {
       "items": [
+			"component_type_noupgrade",
 			"BLACKLISTED"
       ],
       "tagSetSourceFile": ""

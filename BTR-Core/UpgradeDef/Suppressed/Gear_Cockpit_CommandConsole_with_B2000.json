@@ -250,9 +250,7 @@
     "ComponentTags" : {
         "items" : [
 			"component_type_noupgrade",
-			"BLACKLISTED",
-			"cockpit",
-			"standard_cockpit"
+			"BLACKLISTED"
         ],
         "tagSetSourceFile" : ""
     }
