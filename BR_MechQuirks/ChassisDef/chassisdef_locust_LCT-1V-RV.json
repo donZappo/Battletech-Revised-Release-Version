@@ -1,8 +1,8 @@
 {
-    "ChassisTags": {
-        "items": [
-            "AbundantBaffles"
-        ], 
-        "tagSetSourceFile": ""
-    }, 
+  "ChassisTags": {
+    "items": [
+      "AbundantBaffles"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

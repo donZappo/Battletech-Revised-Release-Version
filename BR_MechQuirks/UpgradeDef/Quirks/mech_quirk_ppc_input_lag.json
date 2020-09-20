@@ -6,7 +6,7 @@
         "BonusDescriptions": {
             "Bonuses": [
 				"PPCDamageBonus: 10",
-				"PPCHeat: 5",
+				"PPCHeat: 5"
 			]
         },
 		"Flags": {

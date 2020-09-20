@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "TargetingBaffles",
-	  ],
+      "TargetingBaffles"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

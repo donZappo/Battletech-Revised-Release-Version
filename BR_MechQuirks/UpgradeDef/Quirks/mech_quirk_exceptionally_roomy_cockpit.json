@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"ResolveGain: 2",
+				"ResolveGain: 2"
       ]
         },
 		"Flags": {
@@ -98,7 +98,7 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        },
+        }
 	],
     "ComponentTags": {
         "items": [

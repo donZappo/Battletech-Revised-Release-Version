@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "InternalPreIgniter",
-	  ],
+      "InternalPreIgniter"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

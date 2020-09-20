@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "SmallArmsFireControl",
-	  ],
+      "SmallArmsFireControl"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

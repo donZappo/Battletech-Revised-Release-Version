@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "CrabClaws",
-	  ],
+      "CrabClaws"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

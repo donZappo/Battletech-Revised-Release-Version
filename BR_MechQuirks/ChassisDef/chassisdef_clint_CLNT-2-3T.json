@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "EnhancedTargetTracking",
-	  ],
+      "EnhancedTargetTracking"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

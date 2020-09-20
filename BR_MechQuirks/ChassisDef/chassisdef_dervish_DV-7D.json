@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "SelfContainedSRMSystem",
-	  ],
+      "SelfContainedSRMSystem"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

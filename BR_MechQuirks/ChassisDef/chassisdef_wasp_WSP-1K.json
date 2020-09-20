@@ -1,8 +1,8 @@
 {
-    "ChassisTags": {
-        "items": [
-            "IntegratedCockpit"
-        ], 
-        "tagSetSourceFile": ""
-    }, 
+  "ChassisTags": {
+    "items": [
+      "IntegratedCockpit"
+    ],
+    "tagSetSourceFile": ""
+  }
 }

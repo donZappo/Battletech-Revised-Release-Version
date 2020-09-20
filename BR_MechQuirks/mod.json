@@ -10,21 +10,21 @@
 	"Manifest": [
 		{
 			"Type": "UpgradeDef",
-			"Path": "UpgradeDef",
+			"Path": "UpgradeDef"
 		},
 		{
             "Type": "CCDefaults",
-            "Path": "CCDefaults",
+            "Path": "CCDefaults"
         },
 		{
 			"Type": "MEBonusDescriptions",
-			"Path": "MEBonusDescriptions",
+			"Path": "MEBonusDescriptions"
 		},
 		{
 			"Type": "ChassisDef",
 			"Path": "ChassisDef",
 			"ShouldMergeJSON": true
-		},
+		}
 	],
 	
 	"Settings": {

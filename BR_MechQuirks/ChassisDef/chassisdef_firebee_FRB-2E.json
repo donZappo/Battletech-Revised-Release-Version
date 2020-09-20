@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "IntegratedInfernoFeeder",
-	  ],
+      "IntegratedInfernoFeeder"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }

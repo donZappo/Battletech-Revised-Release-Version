@@ -1,8 +1,8 @@
 {
   "ChassisTags": {
     "items": [
-	  "UnderStress",
-	  ],
+      "UnderStress"
+    ],
     "tagSetSourceFile": ""
-  },
+  }
 }
