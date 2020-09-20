@@ -12,7 +12,7 @@
     "ShaderDependencyOverride": false,
     "DisableDeployAudio": false,
     "RemovedFlashpointFix": false,
-    "DisableSimAnimations": false,
+    "DisableSimAnimations": true,
     "RemovedContractsFix": false
   },
   "WantContractsLagFixVerify": false
