@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
             "Bonuses": [
-				"RefitTime: 50"
+				"RefitTime: 50",
 			]
         },
 		"Flags": {
@@ -31,7 +31,7 @@
         "Manufacturer": "S.C.S. Labs",
         "Model": "",
         "UIName": "Generic Design",
-        "Id": "mech_generic_design",
+        "Id": "mech_quirk_generic_design",
         "Name": "Generic Design",
         "Details": "This 'Mech is very generic in its design and equipment is easy to add or remove.",
         "Icon": "SpecialistSlot"
