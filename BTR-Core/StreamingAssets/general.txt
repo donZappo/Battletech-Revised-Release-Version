@@ -1,0 +1,30 @@
+There were two objectives in BT:R's design. For it to beat you and for that to not feel like bullshit.
+Salvage is based on how much of the mech is undamaged when it is lost. Kill the pilot without doing to much damage! 
+You can get great salvage by using MG's to target the engine of a mech, without breaking the center torso.
+You need to unlock the ability to precision strike after jumping and the same is true for phase pushing.
+Ejection causes injury and also damages the mech. You won't get perfect salvage if the enemy ejects!
+Every weapon in BT:R has been balanced to excel in a particular situation or on a particular type of mech.
+None of the basic weapons are useless in BT:R, but not all lostech bonuses are good.
+No-one is forcing you to build to take advantage of a mechs quirk. Many quirks enhance the stock role though.
+LRM's are amazing at finding holes and doing critical damage to enemy systems.
+It's wise to have a hole puncher and a crit seeker in your lance. Make holes and fill them with lead.
+Many mechs have the standard 30 engine heat sinking, laser heat can seriously compromise their ability fight back.
+Ammo may explode if overheated. The first turn overheating is safe but after that the risk it will go up grows rapidly.
+You can't have a 10/10/10/10 pilot and most of the exciting abilities are level 9 or 10. So plan carefully.
+PPC's are problematic to aim up close and ER PPC's even more so. Don't let the enemy close on you.
+The AC/2 isn't very damage efficient, but excellent range and accuracy makes it deadly against light mechs.
+Ultra weapons have serious recoil problems and require a pilot with excellent gunnery to be effective.
+Ultra recoil is calculated after every shot in a burst, so stack those accuracy bonuses. They will really matter!
+You can take extra missions during a deployment to finish it more quickly, but that is very risky...
+Some lostech bonuses are better on certain types of weapons. Heat reduction for example, is powerful on lasers.
+The primary cost of repairs is time, so mechlab upgrades can save you a lot of money in the long run!
+Balance and performance are very important to us on the BT:R team. Be sure to report problems on our discord!
+There is a BT:R Patreon and all the proceeds from it go to the team evenly, after any tools we need are bought.
+Having trouble with BT:R strategy? You can always chat to Edmon about it, we can't promise he will ever stop talking though.
+Don Zappo has worked really hard on BT:R. You can reward him by sending him anime wallpapers via discord.
+It is possible to drop into a trap! So, it is important to have a good brawler to cover your escape!
+Spawn protection lasts until you make your first move.
+You can use Sensor Lock for free if you are a Master Tactician.
+It is possible to take up to 3 injuries from a head hit, so be sure to fit an injury resist cockpit for weak pilots!
+Some mechs can downgrade their engines without losing movement speed, though they will lose sprint speed.
+
