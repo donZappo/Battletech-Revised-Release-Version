@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
 			"Bonuses": [
-				"IntegratedInfernoFeeder: 30"
+				"IntegratedInfernoFeeder: 200"
       ]
         },
 		"Flags": {
@@ -33,7 +33,7 @@
         "UIName": "Integrated Inferno Feeder",
         "Id": "mech_quirk_integrated_inferno_feeder",
         "Name": "Integrated Inferno Feeder",
-        "Details": "To support its battlefield role as an inferno SRM support 'Mech, there is 30 rounds of inferno ammunition integrated into this design.",
+        "Details": "To support its battlefield role as an inferno SRM support 'Mech, there is 200 rounds of inferno ammunition integrated into this design.",
         "Icon": "SpecialistSlot"
     },
     "BonusValueA": "",

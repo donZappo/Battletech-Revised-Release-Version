@@ -9,7 +9,7 @@
         90,
         90
     ],
-    "StartingAmmoCapacity": 8,
+    "StartingAmmoCapacity": 0,
     "HeatGenerated": 0.0,
     "Damage": 5.0,
     "OverheatedDamageMultiplier": 0,
@@ -115,6 +115,5 @@
             "range_close"
         ],
         "tagSetSourceFile": ""
-    },
-    "ammoCategoryID": "Flamer"
+    }
 }
