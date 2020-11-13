@@ -30,7 +30,7 @@
 		"ChangeDifficulty" : true,
 		"ExpandedMap" : true,
 		"ResetMap" : false,
-		"AggressiveToggle" : true,
+		"AggressiveToggle" : false,
 		
 		"ComstarSupport" : true,
 		"ComstarARBonus" : 500,
