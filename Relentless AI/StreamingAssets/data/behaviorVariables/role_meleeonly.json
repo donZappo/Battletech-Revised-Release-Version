@@ -1,5 +1,5 @@
 {
-   "behaviorVariables" : [
+	"behaviorVariables" : [
 	{
 	    /* When considering different kinds of attacks, multiply
 	       the melee damage by this value to decide which attack
@@ -37,7 +37,7 @@
             "k" : "Float_OwnMaxLegDamageForDFAAttack",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1
+		"floatVal" : 0.8
             }
 	},
 	{
@@ -142,6 +142,32 @@
 	    }
 	},
 	{
+	    /* Percentage (0-100) of best available move that will be
+	       accepted for bulwark skill moves. */
+		"k" : "Float_BulwarkThresholdPercentage",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
+	    /* Whether the AI will reserve or not. */
+	    "k" : "Bool_ReserveEnabled",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+		}
+	},
+	{
+	    /* Whether to allow non-mechs to decide when to initiate
+	       reserving. */
+	    "k" : "Bool_ReserveByNonMechs",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+	    }
+	},
+	{
             /* If true, drop out of long range pathfinding if we can walk to
              * a destination with LOF to a hostile. (TODO: roll this behavior out to
              * all encounters.) */
@@ -154,11 +180,11 @@
 	},
 	{
 	    /* Whether the AI should always be in offensive mood. */
-            "k" : "Bool_AlwaysOffensiveMood",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
+        "k" : "Bool_AlwaysOffensiveMood",
+        "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+        }
 	}
    ]
 }

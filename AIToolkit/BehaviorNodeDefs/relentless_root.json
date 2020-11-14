@@ -378,7 +378,7 @@
 															"TypeName": "SequenceNode",
 															"Children": [
 																{
-																	"Name": "agrgresive_sortEnemiesByThreat",
+																	"Name": "agrgresive_sortEnemiesByEffectiveness",
 																	"TypeName": "SortEnemiesByEffectivenessNode"
 																},
 																{
@@ -932,6 +932,32 @@
 																					"TypeName": "SortMoveCandidatesByInfMapNode"
 																				},
 																				{
+																					"Name": "gms_4th_successDecorator",
+																					"TypeName": "SuccessDecoratorNode",
+																					"Children": [
+																						{
+																							"Name": "sorting_moves1",
+																							"TypeName": "SequenceNode",
+																							"Children": [
+																								{
+																									"Name": "sort_moves1_inverter",
+																									"TypeName": "InverterNode",
+																									"Children": [
+																										{
+																											"Name": "sort_Weapons",
+																											"TypeName": "HasRangedWeaponsNode"
+																										}
+																									]
+																								},
+																								{
+																									"Name": "sort_moves1_filter",
+																									"TypeName": "FilterOutNonLOFMovesNode"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
 																					"Name": "gms_selector",
 																					"TypeName": "SelectorNode",
 																					"Children": [
@@ -958,21 +984,21 @@
 																							]
 																						},
 																						{
-																							"Name": "sorting_moves",
+																							"Name": "sorting_moves2",
 																							"TypeName": "SequenceNode",
 																							"Children": [
 																								{
-																									"Name": "sort_inverter",
+																									"Name": "sort_moves2_inverter",
 																									"TypeName": "InverterNode",
 																									"Children": [
 																										{
-																											"Name": "sort_hasMoveCandidates",
+																											"Name": "sort_moves2_has_moves",
 																											"TypeName": "HasMoveCandidatesNode"
 																										}
 																									]
 																								},
 																								{
-																									"Name": "sort_moves_LOSandLOF",
+																									"Name": "sort_moves2_filter",
 																									"TypeName": "ProperlyFilterOutNonLOFMovesNode"
 																								}
 																							]
@@ -990,6 +1016,10 @@
 																											"TypeName": "HasMoveCandidatesNode"
 																										}
 																									]
+																								},
+																								{
+																									"Name": "sinm_sprintAvailable",
+																									"TypeName": "IsSprintAvailableForUnitNode"
 																								},
 																								{
 																									"Name": "sinm_generate_sprinting_move",
@@ -1168,15 +1198,41 @@
 																	"TypeName": "GenerateStationaryMoveCandidatesNode"
 																},
 																{
-																	"Name": "mtdp_sortMoveCandidatesByInfMap",
-																	"TypeName": "SortMoveCandidatesByInfMapNode"
-																},
-																{
 																	"Name": "mtdp_filterMovesForHeat",
 																	"TypeName": "FilterMovesForHeatNode"
 																},
 																{
+																	"Name": "mtdp_sortMoveCandidatesByInfMap",
+																	"TypeName": "SortMoveCandidatesByInfMapNode"
+																},
+																{
 																	"Name": "mtdp_dfa_3rd_decorator",
+																	"TypeName": "SuccessDecoratorNode",
+																	"Children": [
+																		{
+																			"Name": "mtp_sorting_moves1",
+																			"TypeName": "SequenceNode",
+																			"Children": [
+																				{
+																					"Name": "mtdp_sort_moves1_inverter",
+																					"TypeName": "InverterNode",
+																					"Children": [
+																						{
+																							"Name": "mtdp_sort_Weapons",
+																							"TypeName": "HasRangedWeaponsNode"
+																						}
+																					]
+																				},
+																				{
+																					"Name": "mtdp_sort_moves1_filter",
+																					"TypeName": "FilterOutNonLOFMovesNode"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"Name": "mtdp_2nd_decorator",
 																	"TypeName": "SuccessDecoratorNode",
 																	"Children": [
 																		{
@@ -1204,8 +1260,30 @@
 																	]
 																},
 																{
-																	"Name": "mtdp_filter_moves_LOSandLOF",
-																	"TypeName": "ProperlyFilterOutNonLOFMovesNode"
+																	"Name": "mtdp_4th_decorator",
+																	"TypeName": "SuccessDecoratorNode",
+																	"Children": [
+																		{
+																			"Name": "mtp_4th_sequence",
+																			"TypeName": "SequenceNode",
+																			"Children": [
+																				{
+																					"Name": "mtdp_4th_inverter",
+																					"TypeName": "InverterNode",
+																					"Children": [
+																						{
+																							"Name": "mtdp_has_moves",
+																							"TypeName": "HasMoveCandidatesNode"
+																						}
+																					]
+																				},
+																				{
+																					"Name": "mtdp_sort_moves1_filter",
+																					"TypeName": "ProperlyFilterOutNonLOFMovesNode"
+																				}
+																			]
+																		}
+																	]
 																},
 																{
 																	"Name": "mtdp_dfa_5th_decorator",
@@ -1224,6 +1302,10 @@
 																							"TypeName": "HasMoveCandidatesNode"
 																						}
 																					]
+																				},
+																				{
+																					"Name": "def_sprintAvailable",
+																					"TypeName": "IsSprintAvailableForUnitNode"
 																				},
 																				{
 																					"Name": "def_generate_sprinting_move",
@@ -1728,18 +1810,6 @@
                         }
                     ]
                 },
-				{
-					"Name": "route_clearMoveCandidates",
-					"TypeName": "ClearMoveCandidatesNode"
-				},
-				{
-					"Name": "route_generateForwardMoveCandidates",
-					"TypeName": "GenerateForwardMoveCandidatesNode"
-				},
-				{
-					"Name": "route_generateReverseMoveCandidates",
-					"TypeName": "GenerateReverseMoveCandidatesNode"
-				},
                 {
                     "Name": "move_along_route",
                     "TypeName": "MoveAlongRouteNode"

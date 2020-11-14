@@ -1,0 +1,134 @@
+{
+    "Description" : {
+        "Id" : "event_co_the_rescue",
+        "Name" : "Hero comes a'Charging",
+        "Details" : "Change of plan Commander {COMMANDER.LastName},  This image appears we have a shared adversary. We have good information that this image was very recently sent from some backwater planet,someones 'Sacrifice'.\r\n\r\nIt is the last known location we have on Miss Black and we need you to mount a rescue as she has valuable information the [[DM.BaseDescriptionDefs[LoreSilentChapter],Silent Chapter]] requires. \r\n\r\nThis is not a usual rescue as we don\u2019t quite know where on the planet she is located but, we do know the point of transmission where this image originated. \r\n\r\nWe are sending you on an extended deployment with no time to do your nails and ponder your navel.  \r\n\r\nFirst, we have to locate her.  We need you to hack the base information core to find out their plans for her are.",
+        "Icon" : "uixTxrSpot_Prisioner.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 500,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [
+                "chain_to_zombie_rescue"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Commander",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : "Tags/CommanderTags"
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Click here to Continue",
+                "Details" : " ",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Commander",
+                    "RequirementTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : "Tags/CommanderTags"
+                    },
+                    "ExclusionTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Launch the Rescue",
+                        "Details" : "Commander {COMMANDER.LastName},We are as ignorant as you to who they are, or their force composition. Given the shipments we are missing - a plethora of Medium Lasers, COILs and small lasers and sundry \u2018Mech parts  - we suspect they are outfitting a large force. What's curious however, is that most of the \u2018Mech parts were scrap Light parts so it's puzzling as to what are they building. \r\n\r\nDon\u2019t be complacent and don't waste time getting there as we suspect we only have a short window of opportunity to rescue her. \r\n\r\nSo, if Miss Black still means anything to you I would make haste commander.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "event_co_the_rescue"
+                                ],
+                                "tagSetSourceFile" : "Tags/CompanyTags"
+                            },
+                            "RemovedTags" : {
+                                "items" : [
+                                    "chain_to_zombie_rescue"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "System_AddFlashpoint",
+                                    "value" : "fp_stingersRevenge",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "starsystemdef_McevansSacrifice"
+                                    ]
+                                },
+                                {
+                                    "Type" : "System_ForceDropshipRoom",
+                                    "value" : "Navigation",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        null
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

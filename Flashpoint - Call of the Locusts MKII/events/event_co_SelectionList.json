@@ -134,7 +134,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Play to Continue",
+                "Name" : "Click Continue",
                 "Details" : "Ex Pirate",
                 "Icon" : null
             },
@@ -219,7 +219,7 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Play to Continue",
+                "Name" : "Click Continue",
                 "Details" : "Career Mercenary",
                 "Icon" : null
             },
@@ -304,7 +304,7 @@
         {
             "Description" : {
                 "Id" : "outcome_3",
-                "Name" : "Play to Continue",
+                "Name" : "Click Continue",
                 "Details" : "Continue",
                 "Icon" : null
             },

@@ -1,0 +1,585 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_co_attack_on_argo",
+        "Name" : "Warning Shot",
+        "Details" : "BATTLE STATIONS ... BATLLE STATIONS ... INCOMING MISSILE.. \r\n\r\nThe emergency lights suddenly flash to red, to blue and back again immediately followed by the alert tone through the Tannoy speakers.\r\n\r\nWHOOOP... WHOOOP...WHOOOP.\r\n\r\nCommander ?",
+        "Icon" : "uix_TxrSpot_Argo_Attacked.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 500,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [
+                "force_event_no"
+            ],
+            "tagSetSourceFile" : "Tags/CompanyTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [
+        {
+            "Scope" : "SecondaryMechWarrior",
+            "Requirements" : {
+                "Scope" : "SecondaryMechWarrior",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : "Tags/PilotTags"
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Scope" : "TertiaryMechWarrior",
+            "Requirements" : {
+                "Scope" : "TertiaryMechWarrior",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : "Tags/PilotTags"
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Hope the Point Defense System cope.",
+                "Details" : "Wait until the 'Mechs and pilots are fully operational.",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Battery successful",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\n\r\n'Forward laser battery engaged target Commander', came Sumire's voice over the speakers. \"Sensors have picked up an explosion and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\n\"Good Shooting. We were lucky, that time. Let's not sit round too much longer.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_1",
+                        "Name" : "Argo gets clipped",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\"\r\n\r\n'Forward laser battery has engaged, Commander,' came Sumire's voice over the speakers. 'But, we've taken damage Commander {Commander.LastName} and telemetry indicates a <i>Pirannah</i> missle fired from the surface.'\r\n\r\nDr. Murad's frantic voice errupts from the speakers.\r\nCommander we've taken damage and we're venting into space.\r\n\r\n\"Where's the damage Doc, any casualities?\"\r\n\r\n\"Commander {Commander.LastName}, sensors indicate damage in the habitation pods. I don't think anyone was in there. We were very lucky Commander.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-5",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-5",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_2",
+                        "Name" : "Argo sustains damage",
+                        "Details" : "\"Forward Laser battery engaged Commander.\"  But was  followed by a shuddering of the entire Argo.\r\n\r\nDr Murad's frantic voice errupts from the speakers.\r\n\r\n\"Commander we've taken damage and we're venting atmosphere into space.\"\r\n\r\n\"Any casualities Doc.?\"\r\n\r\n\"Commander {Commander.LastName} we've taken damage in the habitation pods.  We tried to get everyone out in one piece but, unfortunately we have sustainted some injuries. [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] have been injured.",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "SecondaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Injuries",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "TertiaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Injuries",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_3",
+                        "Name" : "Argo sustains heavy damage",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\nBut the Argo shudders under an explosive impact.\r\n\"That was the forward laser battery, Commander,\" came Sumire's voice over the speakers. \"We've taken damage Commander {Commander.LastName} and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\nDr Murad's frantic voice errupts from the speakers.\r\n\r\n\"Commander we've taken damage and we're venting atmosphere into space.\"\r\n\"Are there any casualities?\"\r\n\"Commander {Commander.LastName}, we've taken damage in the habitation pods. We tried to get everyone out.\r\nshe trails off..., but, not all made it. I'm  very sorry Commander, [[SCN_MW,{SCN_MW.Callsign}]] has died.",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-15",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-15",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "SecondaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : null,
+                            "Actions" : [
+                                {
+                                    "Type" : "MechWarrior_Kill",
+                                    "value" : "1",
+                                    "valueConstant" : null,
+                                    "additionalValues" : [
+                                        "Rapid Decompression - Attack on Argo"
+                                    ]
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Battle Stations!",
+                "Details" : "Call Batte Stations",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Battery successful",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\n\"Forward laser battery engaged, Commander,\" came Sumire's voice over the speakers. \"Sensors have picked up an explosion and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\n\"Good Shooting. We were lucky, that time. Let's not sit round too much longer.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "5",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_1",
+                        "Name" : "Argo gets clipped",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\n\r\n\"Forward laser batteryengaged , Commander,\" came Sumire's voice over the speakers. \"We've taken damage Commander {Commander.LastName} and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\nDr. Murad's frantic voice errupts from the speakers. \"Commander we've taken damage and we're venting into space.\"\r\n\r\n\"Where's the damage Doc, any casualities?\"\r\n\r\n\"Commander {Commander.LastName}, sensors indicate damage in the habitation pods. I don't think anyone was in there. We were very lucky Commander.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-5",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_2",
+                        "Name" : "Argo sustains damage",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\nBlue and green laser beams lanced out into space.  The Argo shudders under an impact.\r\n\"Forward laser battery egaged, Commander,\" came Sumire's voice over the speakers. \"But, we've taken damage Commander {Commander.LastName} and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\nDr Murad's frantic voice errupts from the speakers. \"Commander we've taken damage and we're venting atmosphere into space.\"\r\n\r\n\"Any casualities Doc.?\"\r\n\r\n\"Commander {Commander.LastName} we've taken damage in the habitation pods.  We tried to get everyone out in one piece but, unfortunately we have sustainted some injuries. [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] have been injured.",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MedTechSkill",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "SecondaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Injuries",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_3",
+                        "Name" : "Argo sustains heavy damage",
+                        "Details" : "\"Battle Stations, what are you waiting for?  A bloody invitation? Laser battery what the shit are you doing?  Scan and open fire.\" \r\n\r\n\"Forward laser battery, Commander, but, we''ve been hit.\" came Sumire's voice over the speakers. \"We've taken damage Commander {Commander.LastName} and telemetry indicates a <i>Pirannah</i> missle fired from the surface.\"\r\n\r\nDr Murad's frantic voice errupts from the speakers.\r\n\"Commander we've taken damage and we're venting atmosphere into space.\"\r\n\"Are there any casualities?\"\r\n\"Commander {Commander.LastName} damage was in the habitation pods. We tried to get everyone out uninjured but I have to report [[SCN_MW,{SCN_MW.Callsign}]] was badly injured.",
+                        "Icon" : null
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [
+                                    "force_event_no"
+                                ],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-10",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "SecondaryMechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Injuries",
+                                    "value" : "2",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

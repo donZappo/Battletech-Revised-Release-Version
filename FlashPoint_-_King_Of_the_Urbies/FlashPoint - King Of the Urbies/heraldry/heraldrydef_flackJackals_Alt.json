@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_flackJackals_Alt",
+        "Name" : "NewFlakJackals",
+        "Details" : "This is the heraldry def for the New Flack Jackals",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_FlakJackals_alt",
+    "primaryMechColorID" : "Orange_05",
+    "secondaryMechColorID" : "Greyscale_05",
+    "tertiaryMechColorID" : "Red_05"
+}

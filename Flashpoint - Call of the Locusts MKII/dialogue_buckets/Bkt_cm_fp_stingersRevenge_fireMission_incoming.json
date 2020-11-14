@@ -1,0 +1,85 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_fireMission_incoming",
+    "contents" : [
+		{
+            "words" : "Commander, We are picking up another DropShip. It's coming in low and fast!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+        {
+            "words" : "Smith! Is this one of yours?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+	    	"cameraFocusGuid" : "",
+	    	"cameraDistance" : "Far",
+	    	"cameraHeight" : "Default",
+	    	"revealRadius" : -1
+        },
+        {
+            "words" : "Negative. I would definitely consider it hostile.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_CabalDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+	    	"cameraFocusGuid" : "",
+	    	"cameraDistance" : "Far",
+	    	"cameraHeight" : "Default",
+	    	"revealRadius" : -1
+		},
+		{
+            "words" : "Commander, The DropShip is on a collision course with the target. Coming in from the North West. It's not landing Commander.. IT'S CRASHING!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+            "audioName" : "NONE",
+	    	"cameraFocusGuid" : "",
+	    	"cameraDistance" : "Far",
+	    	"cameraHeight" : "Default",
+	    	"revealRadius" : -1
+        },
+		{
+            "words" : "Our secrets are ours to keep. Did you think it would be that simple? Such feeble minded arrogance...",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_maneiAtrocis",
+			"emote" : "Default",
+			"audioName" : "Audio_Event_ArtilleryIncoming",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		}
+    ]
+}

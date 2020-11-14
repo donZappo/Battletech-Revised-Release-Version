@@ -1,0 +1,149 @@
+{
+    "identifier" : "Bkt_c_fp_kingOfTheUrbies_a1_sup2_killed",
+    "contents" : [
+		{
+			"words" : "Father, I can't believe this is happening! That's not what we hired them to do...my Heritage.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_toppletiff_son_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Pop him Commander!",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "a25a4728-0069-41cc-ac38-19b1f49023e7",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "FATHER STOP THEM!! There're wrecking everything! At least the pirates were looking after them. Maybe we should have sided with them?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_son_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "Careful what you say on a open Battle comms line, have I taught you nothing? What a mess we will almost never get these back the way they were.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_toppletiff_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "If you didn't want them stopped then I suppose you should have guarded them better 'junior'. go and chat with them, I'm sure they would hand them back without a fuss. NOT ! We should extract our repair cost from your inhertiance - such as it is.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "The New Flak Jackals are wanting to relive their past. I suggest you let us get on with the job at hand and settle this later. At least we brought those that wronged you to heel. Exact what retribution you want but, leave the fighting here to the grown ups.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "You Blundering fools! These priceless 'Mech were entrusted to our safekeeping. Our reputation along with yours will suffer Commander. There will be severe consequences for this breach of Contract.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_son_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "I suggest you will want a second opinion on that junior? Don't you think you leave this to the grown ups?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "Pillick! We should let Zhao know it was tipplestiff here who led us to him. I'm sure he would like to tie up that loose end. hummm ?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        }
+    ]
+}

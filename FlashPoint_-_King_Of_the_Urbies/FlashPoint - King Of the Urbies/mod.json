@@ -1,0 +1,35 @@
+{
+    "Name": "Flashpoint_kingOfTheUrbies",
+    "Enabled": true,
+	
+    "Version": "1.0.3-BETA",
+
+    "Author": "A collabotation - Story and Custom 'Mech Design TonBerry - Project design MalD.",
+
+    "DependsOn": ["BTR-Overrides"],
+    "ConflictsWith": [],
+	"DataAddendumEntries":[ 
+        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
+	],
+    "Manifest": [
+	{ "Type": "CastDef", "Path": "cast" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+	{ "Type": "ContractOverride", "Path": "contracts" }, 
+	{ "Type": "SimGameEventDef", "Path": "events" },	
+	{ "Type": "FactionDef",  "Path": "factions" },
+	{ "Type": "BaseDescriptionDef", "Path": "lore" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "HeraldryDef", "Path": "heraldry" },
+	{ "Type": "PilotDef", "Path": "pilot" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "ItemCollectionDef", "Path": "../../Mods/BTR-Overrides/itemCollections" },
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Texture2D", "Path": "sprites" },
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }
+    ]
+}

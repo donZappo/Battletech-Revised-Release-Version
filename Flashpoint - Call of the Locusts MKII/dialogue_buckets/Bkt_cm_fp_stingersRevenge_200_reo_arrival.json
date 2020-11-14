@@ -1,0 +1,117 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_200_reo_arrival",
+    "contents" : [
+		{
+            "words" : "The first group was expected but, there are more of then than we counted on.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "Commander, looks like Team B gave us up, or just ... gave up!  Protect the convoy!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+			{
+			"words" : "Feeble minded meatbags. This contact was calculated at a 98% probability. Now, witness the full might of The Master.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+	    	},
+			"selectedCastDefId" : "castDef_zombieLord",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+        {
+            "words" : "With a 100% probability that we're still kickin' your arse and recovering Valvaren.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+		"words": "Oooh! Nice Doc.",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_SumireDefault",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+		},
+		{
+		"words" : "The Master has plans for you all and I will welcome you personally into commune.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_zombieLord",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+		},
+		{
+		"words" : "They want to eat our brains...Arrgh!",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_YangDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+		}
+    ]
+}

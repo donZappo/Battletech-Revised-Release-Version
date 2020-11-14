@@ -1,0 +1,52 @@
+{
+	"travelContractFactionID" : "AuriganRestoration",
+	"blackMarketFactionID" : "AuriganPirates", 
+    "enumerationValueList" : [
+		{
+			"ID" : 1001,
+			"Name" : "NewFlakJackals",
+			"FriendlyName" : "New Jackals",
+			"Description" : "The Flak Jackals Reborn",
+			"FactionDefID" : "faction_FlakJackals_alt",
+			"IsRealFaction" : false,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : false,
+			"CanAlly" : false,
+			"IsPossibleNeutralToAllFaction" : true,
+			"IsPossibleHostileToAllFaction" : true,
+			"IsPossibleAllyFallbackFaction" : true,
+			"IsProceduralContractFaction" : false,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
+			"HasAIBehaviorVariableScope" : false
+		},
+		{
+			"ID" : 1002,
+			"Name" : "ToppletiffHoldings",
+			"FriendlyName" : "Toppletiff Holdings",
+			"Description" : "Toppletiff Holdings",
+			"FactionDefID" : "faction_ToppletiffHoldings",
+			"IsRealFaction" : false,
+			"IsGreatHouse" : false,
+			"IsClan" : false,
+			"IsMercenary" : false,
+			"IsPirate" : false,
+			"DoesGainReputation" : false,
+			"CanAlly" : false,
+			"IsPossibleNeutralToAllFaction" : true,
+			"IsPossibleHostileToAllFaction" : true,
+			"IsPossibleAllyFallbackFaction" : true,
+			"IsProceduralContractFaction" : false,
+			"IsCareerScoringFaction" : false,
+			"IsCareerIgnoredContractTarget" : true,
+			"IsCareerStartingDisplayFaction" : false,
+			"IsStoryStartingDisplayFaction" : false,
+			"HasAIBehaviorVariableScope" : false
+		}
+	]
+}

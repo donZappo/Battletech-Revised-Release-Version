@@ -1,0 +1,101 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_300_sucess",
+    "contents" : [
+		{
+            "words" : "DROPSHIP NAVIGATIONAL SIGNAL TERMINATED",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_Computer",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "You have only delayed the inevitable. You can never hide from us. We will find you.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_theMaster",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+		{
+			"words" : "For now, we have halted your little empire building shenanigans. We've got what we came for...",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+	    	},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Have you ? You don't know what you have. We will recover our property.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+	    	},
+			"selectedCastDefId" : "castDef_theMaster",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+        {
+            "words" : ".And...we'll work out how to reverse the damage you have done to Valvaren.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+           "selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words": "I wouldn't be so sure of that. We will be seeing you again.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_theMaster",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
+		}
+    ]
+}

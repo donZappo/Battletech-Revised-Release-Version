@@ -56,6 +56,7 @@
         "items": [
             "pilot_npc_sharpshooter",
             "pilot_npc_dynamic",
+			"pilot_cannot_be_headshot",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

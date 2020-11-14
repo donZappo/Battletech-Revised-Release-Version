@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_hookwormsHighwaymen",
+        "Name" : "Hookworms Highwaymen",
+        "Details" : "The original hookworms escaped Araxis after Grim Sybil was killed liberating the Argo. Silas Black created The Hookworms but were eventually hunted down and destroyed by a special Ops force from the Aurigan Coalition. Those that escaped are the remnants of the orginal band. And with new ‘recruits’ have formed a roving band to continue their harassing ways.",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_HooksHighwaymen",
+    "primaryMechColorID" : "Red_04",
+    "secondaryMechColorID" : "Blue_03",
+    "tertiaryMechColorID" : "Greyscale_01"
+}

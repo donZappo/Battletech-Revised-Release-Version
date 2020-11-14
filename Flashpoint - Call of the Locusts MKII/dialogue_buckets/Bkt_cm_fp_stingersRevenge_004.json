@@ -1,0 +1,86 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_004",
+    "contents" : [
+		{
+			"words": "We're all aboard Boss! Let's get the duck out of fodge.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_SumireDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
+		},
+		{
+            "words" : "ALERT... ALERT... UNAUTHORISED LAUNCH DETECTED",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_Computer",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+			{
+            "words" : "You will never be able to run or hide from us Commander {COMMANDER.LastName}. You will never find Valvaren.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_maneiAtrocis",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+			{
+			"words" : "I think you'll have to reconsider that last statement.  How we going Farah?",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+	    	},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+        {
+            "words" : "Datastream decryption completed. We'll have the information for you, lickty-split!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		}
+	
+    ]
+}

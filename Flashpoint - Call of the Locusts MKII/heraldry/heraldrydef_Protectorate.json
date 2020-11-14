@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_Protectorate",
+        "Name" : "Protectorate",
+        "Details" : "The Protectorate is a secret group created within ComStar as a vehilce for 'The Master' to create his cybernetically enhanced warriors, those that survived of course.",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_ManeiDomini",
+    "primaryMechColorID" : "Greyscale_05",
+    "secondaryMechColorID" : "Greyscale_05",
+    "tertiaryMechColorID" : "BrightRed_02"
+}

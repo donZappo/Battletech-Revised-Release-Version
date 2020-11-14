@@ -1,0 +1,133 @@
+{
+    "identifier" : "Bkt_c_fp_kingOfTheUrbies_a1_assassinate",
+    "contents" : [
+		{
+			"words" : "No! That's not— [piercing screams][static]",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_FP_kingOfUrbies_Usurper",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Dropped him! Well done Commander! Get our lance to the evac zone and come on home.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "a25a4728-0069-41cc-ac38-19b1f49023e7",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "LOOK WHAT YOU HAVE DONE! My Beautiful Mackies! This is an unmitigated disaster Commander. The contact clearly states there should be no damage to them for full payment.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "And what should we have used instead? Angry faces and harsh words? You should be satisfied with us returning what you got.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "The last Zhao is down, and the New Flak Jackals are going the way of the old. At least you have your revenge and family honor restored.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "You blithering idiots! These examples of Technology were priceless and now lost due to your incompetance. All Payment will be withheld.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "I think you had better rethink that 'Mr' Toppletiff.  No MRB or not, this is clearly an unachieavable contract offered in bad faith to start with. We'll discuss this further from orbit.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "Bleedin' Idiot. If I knew topplestuff here was going to be this idiotic I would have helped Zhao escape!",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        }
+    ]
+}

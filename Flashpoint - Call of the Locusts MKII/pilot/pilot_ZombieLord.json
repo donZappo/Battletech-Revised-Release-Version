@@ -1,0 +1,61 @@
+{
+    "Description": {
+        "Id": "pilot_ZombieLord",
+        "Name": "Thadius Tread",
+        "FirstName": "Thadius",
+        "LastName": "Tread",
+        "Callsign": "Ambush",
+        "Gender": "Male",
+        "Faction": "",
+        "Age": 42,
+        "Details": "My Master is powerful.",
+        "Icon": "guiTxrPort_ZombieLord_utr"
+    },
+    "BaseGunnery": "8",
+    "BonusGunnery": 0,
+    "BasePiloting": "6",
+    "BonusPiloting": 0,
+    "BaseGuts": "8",
+    "BonusGuts": 0,
+    "BaseTactics": "6",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 4,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "m_pro05_rick",
+    "abilityDefNames": [
+        "AbilityDefGu5",
+        "AbilityDefGu8",
+        "AbilityDefP5",
+        "TraitDefUnsteadySet60",
+        "TraitDefEvasiveChargeAddOne",
+        "TraitDefSprintIncrease20",
+        "TraitDefUnsteadySet80",
+		"TraitDefHealthAddOne",
+        "TraitDefRefireReduceOne",
+        "TraitDefOverheatAddFifteen",
+        "TraitDefHealthAddTwo",
+        "TraitDefRefireReduceTwo",
+	"TraitDefOverheatAddThirty",
+	"TraitDefHealthAddThree",
+	"TraitDefIndirectReduceOne",
+	"TraitDefMinRangeReduce45",
+	"TraitDefCalledShotImprove",
+	"TraitDefIndirectReduceTwo"
+	],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+		"pilot_comstar",
+        "pilot_npc_gladiator",
+         "pilot_npc_d5",
+         "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

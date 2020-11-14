@@ -1,0 +1,133 @@
+{
+    "identifier" : "Bkt_c_fp_kingOfTheUrbies_a1_sup1_killed",
+    "contents" : [
+		{
+			"words" : "Father No! That's not what we hired them to do. They are destorying my Heritage.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_toppletiff_son_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words" : "Dropped him! Well done Commander! Get our lance to the evac zone and come on home.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "a25a4728-0069-41cc-ac38-19b1f49023e7",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "FATHER STOP THEM!! Our Mackies! We will never be able to replace these ancient artifacts. Did they sign the COntract - all of it?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_son_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "I'll just go an knock on the hatch and ask them to stop. I'm sure they would hand them back without a fuss. NOT ! Look at what a mess these 'ancient artifacts' are making.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+			"words" : "The New Flak Jackals are not wanting to relive their past. I suggest you let us get on with the job at hand and settle this later. At least you those who robbed you at heel. Exact what retribution you want but, leave the fight here to the grown ups.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "You Blundering fools! These priceless 'Mech were entrusted to our safekeeping. Our reputation along with yours will suffer Commander. There will be severe consequences for this breach of Contract.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_toppletiff_default",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "I suggest you will want a second opinion on that Toppletiff.  Who do you think the wider Mercenary crowd will believe? Try to get a contact filled if you do and see where that gets you.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        },
+		{
+            "words" : "Pillick! We should let Zhao know it was tipplestiff who led us to him. I'm sure he would like to tie up that loose end. hummm ?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_YangDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+        }
+    ]
+}

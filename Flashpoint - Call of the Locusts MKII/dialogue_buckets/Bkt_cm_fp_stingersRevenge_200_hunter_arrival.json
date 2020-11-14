@@ -1,0 +1,117 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_200_hunter_arrival",
+    "contents" : [
+		{
+            "words" : "More contacts on Sensors Commander, and there is a much larger contact than before.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_DariusDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+            "words" : "The larger contact is concerning. I'd concentrate on that one to ensure Val's survival. ",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+			"selectedCastDefId" : "castDef_SumireDefault",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+			},
+			{
+			"words" : "The Master has assigned me to your harvesting. Prepare to meet my maker.",
+			"wordsColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+	    	},
+			"selectedCastDefId" : "castDef_zombieLord",
+			"emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+        {
+            "words" : "It's a big 'Mech Commander. But, you know what they say about falls being harder the bigger they are?",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_FarahDefault",
+            "emote" : "Default",
+			"audioName" : "NONE",
+			"cameraFocusGuid" : "",
+			"cameraDistance" : "Far",
+			"cameraHeight" : "Default",
+			"revealRadius" : -1
+		},
+		{
+			"words": "Oooh Girl! You're on fire today.",
+			"wordsColor": {
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"selectedCastDefId": "castDef_SumireDefault",
+			"emote": "Default",
+			"audioName": "NONE",
+			"cameraFocusGuid": "",
+			"cameraDistance": "Far",
+			"cameraHeight": "Default",
+			"revealRadius": -1
+		},
+		{
+		"words" : "Humour, yes I remember. A frivolous waste of time.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_zombieLord",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+		},
+		{
+		"words" : "Wow. He's a bundle of joy-joy - NOT!",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_YangDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+		"cameraFocusGuid" : "",
+		"cameraDistance" : "Far",
+		"cameraHeight" : "Default",
+		"revealRadius" : -1
+		}
+    ]
+}

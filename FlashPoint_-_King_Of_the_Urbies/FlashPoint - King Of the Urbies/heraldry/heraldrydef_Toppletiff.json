@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_Toppletiff",
+        "Name" : "ToppletiffHoldings",
+        "Details" : "This is the heraldry def for Toppletiff Holdings",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_Toppletiff",
+    "primaryMechColorID" : "Yellow_05",
+    "secondaryMechColorID" : "Greyscale_05",
+    "tertiaryMechColorID" : "Red_05"
+}

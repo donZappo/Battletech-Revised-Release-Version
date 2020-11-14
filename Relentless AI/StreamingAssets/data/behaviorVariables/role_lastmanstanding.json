@@ -3,40 +3,60 @@
 	{
 	    /* How much accuracy (0.0 - 1.0) is required to consider
 	       an attack that will overheat */
-            "k" : "Float_AccuracyNeededForOverheatAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.65
+        "k" : "Float_AccuracyNeededForOverheatAttack",
+        "v" : {
+			"type" : "Float",
+			"floatVal" : 0.70
         }
 	},
 	{
 	    /* How much a location must be damaged before an overheat
 	       attack will be considered, as a fraction from 0.0
 	       (undamaged) to 1.0 (location destroyed) */
-            "k" : "Float_ExistingTargetDamageForOverheatAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
+        "k" : "Float_ExistingTargetDamageForOverheatAttack",
+        "v" : {
+			"type" : "Float",
+			"floatVal" : 0
         }
 	},
 	{
 	    /* How much a location must be damaged before a DFA attack
 	       will be considered , as a fraction from 0.0 (undamaged)
 	       to 1.0 (location destroyed) */
-            "k" : "Float_ExistingTargetDamageForDFAAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0
+        "k" : "Float_ExistingTargetDamageForDFAAttack",
+        "v" : {
+			"type" : "Float",
+			"floatVal" : 0
         }
 	},
 	{
 	    /* Maximum leg damage allowed for DFA attack (above which
 	       attacks will not be considered), as a fraction from 0.0
 	       (undamaged) to 1.0 (location destroyed) */
-            "k" : "Float_OwnMaxLegDamageForDFAAttack",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 1
+        "k" : "Float_OwnMaxLegDamageForDFAAttack",
+        "v" : {
+			"type" : "Float",
+			"floatVal" : 0.7
+        }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
+		"k" : "Float_MeleeDamageMultiplier",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 2
+        }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
+		"k" : "Float_DFADamageMultiplier",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 2
         }
 	},
 	{
@@ -44,7 +64,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -0.5
         }
 	},
 	{
@@ -53,7 +73,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.8
+		"floatVal" : -0.5
         }
 	},
 	{
@@ -156,6 +176,15 @@
         }
 	},
 	{
+	    /* Percentage (0-100) of best available move that will be
+	       accepted for bulwark skill moves. */
+		"k" : "Float_BulwarkThresholdPercentage",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
 	    /* Description: Number of points of damage that a sensor
 	      locking turn needs to do over a straight up shooting
 	      turn before deciding to sensor lock. Positive is a
@@ -177,11 +206,38 @@
 		}
 	},
 	{
+	    /* Whether the AI will reserve or not. */
+	    "k" : "Bool_ReserveEnabled",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+		}
+	},
+	{
+	    /* Whether to allow non-mechs to decide when to initiate
+	       reserving. */
+	    "k" : "Bool_ReserveByNonMechs",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+	    }
+	},
+	{
+        /* If true, drop out of long range pathfinding if we can walk to
+         * a destination with LOF to a hostile. (TODO: roll this behavior out to
+         * all encounters.) */
+	    "k" : "Bool_SimpleShortRangeLOF",
+	    "v" : {
+			"type" : "Bool",
+			"boolVal" : false
+	    }
+	},
+	{
 	    /* Whether the AI should always be in offensive mood. */
             "k" : "Bool_AlwaysOffensiveMood",
             "v" : {
 		"type" : "Bool",
-		"boolVal" : true
+		"boolVal" : false
         }
 	}
     ]

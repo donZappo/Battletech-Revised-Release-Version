@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_toppletiff_default",
+    "internalName" : "toppletiff_default",
+    "firstName" : "Magnus",
+    "lastName" : "Toppletiff",
+    "callsign" : "m'Lord",
+    "rank" : "Lord",
+    "gender" : "Male",
+    "factionID" : "ToppletiffHoldings",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../mods/FlashPoint - King Of the Urbies/sprites/Portraits/guiTrxPort_toppletiff_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

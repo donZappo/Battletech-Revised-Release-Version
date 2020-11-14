@@ -1,0 +1,85 @@
+{
+    "identifier" : "Bkt_cm_fp_stingersRevenge_004-fail",
+    "contents" : [
+		{
+            "words" : "You were warned Commander {COMMANDER.LastName}. You will never find your spy now. The lifeform's independant existance is forfeit.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+				"b" : 1,
+				"a" : 1
+    	    },
+	    "selectedCastDefId" : "castDef_maneiAtrocis",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+		},
+        {
+		"words" : "This is atrocious! You cannot keep her without cause.",
+		"wordsColor" : {
+			"r" : 1,
+			"g" : 1,
+			"b" : 1,
+			"a" : 1
+		},
+		"selectedCastDefId" : "castDef_FarahDefault",
+		"emote" : "Default",
+		"audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+        },
+	{
+	    "words" : "I don't see what else we can do. Maybe Mr Smith has something?",
+	    "wordsColor" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	    },
+	    "selectedCastDefId" : "castDef_DariusDefault",
+	    "emote" : "Default",
+	    "audioName" : "NONE",
+	    "cameraFocusGuid" : "",
+	    "cameraDistance" : "Far",
+	    "cameraHeight" : "Default",
+	    "revealRadius" : -1
+	},
+	{
+		"words": "No Commander, This is unexceptable! We needed Valvaren's information.",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_CabalDefault",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	},
+	{
+		"words": "Maybe if we had better intel from you in the first place then maybe the outcome would have been different.",
+		"wordsColor": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"selectedCastDefId": "castDef_DariusDefault",
+		"emote": "Default",
+		"audioName": "NONE",
+		"cameraFocusGuid": "",
+		"cameraDistance": "Far",
+		"cameraHeight": "Default",
+		"revealRadius": -1
+	}
+    ]
+}

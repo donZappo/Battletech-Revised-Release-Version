@@ -324,14 +324,6 @@
         }
 	},
 	{
-	    /* DEPRECATED */
-		"k" : "Float_ThreatBattleValueRoot",
-		"v" : {
-			"type" : "Float",
-			"floatVal" : 0.0
-        }
-	},
-	{
 	    /* When considering different kinds of attacks, multiply
 	       the shooting damage by this value to decide which
 	       attack to use. */
@@ -378,7 +370,7 @@
 		"k" : "Float_CoolDownRange",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 100.0
+			"floatVal" : 120.0
         }
 	},
 	{
@@ -459,7 +451,7 @@
 		"k" : "Float_PreferAttackingLowerArmorHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.6
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -687,7 +679,7 @@
 		"k" : "Float_BulwarkThresholdPercentage",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 33
+			"floatVal" : 0
 		}
 	},
 	{

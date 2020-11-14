@@ -1,0 +1,54 @@
+{
+    "ID" : "faction_Protectorate",
+    "Name" : "Protectorate",
+    "ShortName" : "Protectorate",
+    "Description" : "A secretive group inside Comstar, created to develop the early versions of the Manei Atrocis. These early experiments produced nothing more than mindless but stranglely animated beings that were only vaguely Human.",
+    "Demonym" : "Protectorate",
+    "Government" : "",
+    "Allies" : [
+        "Comstar"
+    ],
+    "Enemies" : [
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate",
+        "ClusterPirates",
+        "CanopianPirates",
+		"Locals"
+    ],
+	"Presence": 0.1,
+    "ReputationStatements" : [
+        "We take what still walks and remake them into something better."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Programming acceptable!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"I would return you to a reprogamming facilty for memory wipe and reassignment."
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Be thankful you are still fully human otherwise I would initiate immediate termination."
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_ZombieLord",
+    "DefaultRepresentativeCastDefId" : "castDef_theMaster",
+    "DataManager" : null,
+    "factionID" : "Protectorate",
+  	"icon" : "uixTxrLogo_ManeiDomini",
+    "heraldryDefId" : "heraldrydef_Protectorate",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

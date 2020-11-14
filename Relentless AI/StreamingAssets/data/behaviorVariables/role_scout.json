@@ -64,7 +64,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -75,6 +75,36 @@
 		"type" : "Float",
 		"floatVal" : 0.4
 	    }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.7
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.7
+        }
+	},
+		{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
+		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.8
+        }
 	},
 	{
 	    /* Influence Factor Weight for preferring higher
@@ -101,6 +131,43 @@
 		"type" : "Bool",
 		"boolVal" : true
             }
+	},
+		{
+	    /* Influence Factor Weight to minimize expected damage
+	       from hostiles. */
+		"k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.6
+        }
+	},
+	{
+	    /* Influence Factor Weight to minimize expected damage
+	       from hostiles WHEN SPRINTING. */
+		"k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.6
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_PreferFacingHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles WHEN
+	       SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_SprintPreferFacingHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+        }
 	},
 	{
 	    /* Influence Factor Weight for preferring moving less. */
@@ -139,6 +206,15 @@
             }
 	},
 	{
+	    /* Percentage (0-100) of best available move that will be
+	       accepted for bulwark skill moves. */
+		"k" : "Float_BulwarkThresholdPercentage",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
 	    /* Influence Factor Weight to control the desire to be in
 	       locations with movement bonus. */
 	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
@@ -162,7 +238,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : -0.2
             }
 	},
 	{
@@ -171,7 +247,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : -0.2
             }
 	}
     ]

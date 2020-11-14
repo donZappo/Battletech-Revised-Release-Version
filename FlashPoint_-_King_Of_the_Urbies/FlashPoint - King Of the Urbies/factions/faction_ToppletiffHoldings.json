@@ -1,0 +1,47 @@
+{
+    "ID" : "faction_ToppletiffHoldings",
+    "Name" : "Toppletiff Holdings..",
+    "ShortName" : "T.H",
+    "Description" : "An Import/Export company, smaller than it thinks but bigger than it should be. Magnus Toppletiff and family run a shady fencing operation, skirting the line between respectability and piracy. Lately his errant son has becoming something of a nuisance issuing challages to duel over the silliest of reasons - Training he calls it.",
+    "Demonym" : "T.H",
+    "Government" : "",
+    "Allies" : [],
+    "Enemies" : [],
+    "Presence" : 0.1,
+    "ReputationStatements" : [
+        "I'm his Father and I say you should let him win.",
+        "Don't be a fool and ignore me.",
+        "Mercenary trash, but ok at least I don't have to get my 'Mechs dirty.",
+        "I'll see you ruined if you make a fool of my Family. You'll see that life can be made difficult for you otherwise.",
+        "If it's payment you want, then deliver as per the contract.",
+        "If it's payment you want, then deliver as per the contract..",
+        "If it's payment you want, then deliver as per the contract..."
+    ],
+    "MissionSuccessStatements" : [ 
+		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+    ],
+	"BadFaithFailureStatements" : [ 
+		"For someone with your street cred, I expected better things. That was a total balls up, Commander\u2014 and I'll be sure to tell everyone I know not to count on you in the future."
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_toppletiff_default",
+    "DefaultRepresentativeCastDefId" : "castDef_toppletiff_default",
+    "DataManager" : null,
+    "factionID" : "ToppletiffHoldings",
+   	"icon" : "uixTxrLogo_Toppletiff",
+    "heraldryDefId" : "heraldrydef_Toppletiff",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        0,
+        0,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

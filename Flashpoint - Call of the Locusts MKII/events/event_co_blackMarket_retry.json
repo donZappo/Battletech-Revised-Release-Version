@@ -26,8 +26,8 @@
             {
                 "obj" : "Reputation.MercenaryReviewBoard",
                 "op" : "LessThan",
-                "val" : 50,
-                "valueConstant" : "50"
+                "val" : 150,
+                "valueConstant" : "150"
             },
             {
                 "obj" : "Travel",

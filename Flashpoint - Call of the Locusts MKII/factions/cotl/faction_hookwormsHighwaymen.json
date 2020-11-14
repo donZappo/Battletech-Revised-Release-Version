@@ -1,0 +1,54 @@
+{
+    "ID" : "faction_hookwormsHighwaymen",
+    "Name" : "hookwormsHighwaymen",
+    "ShortName" : "Hookworms",
+    "Description" : "The original hookworms escaped Araxis after Grim Sybil was killed liberating the Argo. Silas Black created The Hookworms but were eventually hunted down and destroyed by a special Ops force from the Aurigan Coalition. Those that escaped are the remnants of the orginal band. And with new ‘recruits’ have formed a roving band to continue their harassing ways.",
+    "Demonym" : "Hookworms",
+    "Government" : "",
+    "Allies" : [
+        "AuriganPirates",
+        "TaurianConcordat",
+        "Locals"
+
+    ],
+    "Enemies" : [
+		"Liao",
+		"Davion",
+		"Steiner",
+		"Marik",
+		"Kurita",
+        "AuriganRestoration",
+        "AuriganDirectorate"
+    ],
+	"Presence": 0.1,
+    "ReputationStatements" : [
+        "No matter how what comes at us we'll always 'worm' our way out of it."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Yeah well, what did you expect?"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"Don't try to 'worm' your way out of it. You only just covered the job."
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Nothing get rid of 'worms' better than Combantrin. Out with you."
+    ],
+	"DefaultCombatLeaderCastDefId" : "",
+    "DefaultRepresentativeCastDefId" : "",
+    "DataManager" : null,
+    "factionID" : "hookwormsHighwaymen",
+  	"icon" : "uixTxrLogo_HooksHighwaymen",
+    "heraldryDefId" : "heraldrydef_hookwormsHighwaymen",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}
