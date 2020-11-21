@@ -1967,7 +1967,7 @@
         },
         "teamGuid" : "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
         "teamName" : "EmployerTeam",
-        "faction" : "hookwormsHighwaymen",
+        "faction" : "",
         "teamLeaderCastDefId" : "castDef_scEnforcerDefault",
         "lanceOverrideList" : [
             {
