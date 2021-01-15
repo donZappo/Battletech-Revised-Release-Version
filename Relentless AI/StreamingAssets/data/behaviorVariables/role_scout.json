@@ -144,14 +144,6 @@
             }
 	},
 	{
-	    /* Whether the AI should always be in offensive mood. */
-            "k" : "Bool_AlwaysOffensiveMood",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
-	},
-		{
 	    /* Influence Factor Weight to minimize expected damage
 	       from hostiles. */
 		"k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
