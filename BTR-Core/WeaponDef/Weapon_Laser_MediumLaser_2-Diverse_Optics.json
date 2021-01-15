@@ -10,7 +10,7 @@
         240
     ],
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 12.0,
+    "HeatGenerated": 10.0,
     "Damage": 26.0,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
