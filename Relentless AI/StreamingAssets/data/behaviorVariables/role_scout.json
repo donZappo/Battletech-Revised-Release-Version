@@ -52,6 +52,25 @@
             }
 	},
 	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles. */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1
+	    }
+	},
+	{
 	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
@@ -103,7 +122,7 @@
 		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.8
+			"floatVal" : -0.2
         }
 	},
 	{

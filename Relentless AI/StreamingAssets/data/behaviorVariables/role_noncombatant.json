@@ -210,23 +210,6 @@
 		"type" : "Bool",
 		"boolVal" : true
             }
-	},
-	{
-	    /* If my move would not result in being able to fire,
-	       should I rewrite that move as a sprint? */
-            "k" : "Bool_RewriteNonAttackMoves",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true
-            }
-	},
-	{
-	    /* Whether to use firepower takeaway when determining the designated target */
-	    "k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
-	    "v" : {
-		"type": "Bool",
-		"boolVal" : false
-	    }
 	}
 	]
 }

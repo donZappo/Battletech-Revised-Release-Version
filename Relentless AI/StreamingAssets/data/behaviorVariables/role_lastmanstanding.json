@@ -36,7 +36,7 @@
         "k" : "Float_OwnMaxLegDamageForDFAAttack",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.7
+			"floatVal" : 1
         }
 	},
 	{
@@ -185,6 +185,17 @@
 		}
 	},
 	{
+	    /* If a target is a melee revenge target, but the ratio of
+	       its expected melee damage to my expected melee damage
+	       is higher than this threshold, DO NOT MELEE! It'll all
+	       end in tears! */
+		"k" : "Float_MeleeDamageRatioCap",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 99
+        }
+	},
+	{
 	    /* Description: Number of points of damage that a sensor
 	      locking turn needs to do over a straight up shooting
 	      turn before deciding to sensor lock. Positive is a
@@ -214,30 +225,11 @@
 		}
 	},
 	{
-	    /* Whether to allow non-mechs to decide when to initiate
-	       reserving. */
-	    "k" : "Bool_ReserveByNonMechs",
-	    "v" : {
-			"type" : "Bool",
-			"boolVal" : false
-	    }
-	},
-	{
-        /* If true, drop out of long range pathfinding if we can walk to
-         * a destination with LOF to a hostile. (TODO: roll this behavior out to
-         * all encounters.) */
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
-			"type" : "Bool",
-			"boolVal" : false
-	    }
-	},
-	{
 	    /* Whether the AI should always be in offensive mood. */
             "k" : "Bool_AlwaysOffensiveMood",
             "v" : {
 		"type" : "Bool",
-		"boolVal" : false
+		"boolVal" : true
         }
 	}
     ]

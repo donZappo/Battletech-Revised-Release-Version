@@ -160,6 +160,14 @@
         }
 	},
 	{
+		/* DEPRECATED */
+		"k": "Float_ThreatBattleValueRoot",
+		"v": {
+			"type": "Float",
+			"floatVal": 0.0
+		}
+	},
+	{
 	    /* Influence Factor Weight for preferring higher
 	       elevations WHEN SPRINTING. */
 		"k" : "Float_SprintPreferHigherPositionFactorWeight",
@@ -507,7 +515,7 @@
 		"k" : "Float_MeleeRevengeBonus",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -943,7 +951,7 @@
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 240.0
+			"floatVal" : 150.0
 	    }
 	},
 	{
@@ -951,7 +959,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.8
+			"floatVal" : -0.4
 	    }
 	},
 	{
@@ -962,7 +970,7 @@
 	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.8
+			"floatVal" : -0.4
 	    }
 	},
 	{
@@ -1221,7 +1229,7 @@
 	    "k" : "Bool_TargetDesignationUsesFirepowerTakeaway",
 	    "v" : {
 			"type": "Bool",
-			"boolVal" : true
+			"boolVal" : false
 	    }
 	},
 	{
@@ -1232,7 +1240,7 @@
 	    "k" : "Float_PipStripAttackProbabilityThreshold",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.5
 	    }
 	},
 	{
@@ -1459,7 +1467,7 @@
 	    "k" : "Bool_SimpleShortRangeLOF",
 	    "v" : {
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
 	    }
 	},
 	{

@@ -17,7 +17,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 4
+		"floatVal" : 10
             }
 	},
 	{
@@ -93,7 +93,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -105,7 +105,7 @@
 	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.5
 	    }
 	},
 	{
@@ -159,31 +159,11 @@
 		}
 	},
 	{
-	    /* Whether to allow non-mechs to decide when to initiate
-	       reserving. */
-	    "k" : "Bool_ReserveByNonMechs",
-	    "v" : {
-			"type" : "Bool",
-			"boolVal" : false
-	    }
-	},
-	{
-            /* If true, drop out of long range pathfinding if we can walk to
-             * a destination with LOF to a hostile. (TODO: roll this behavior out to
-             * all encounters.) */
-
-	    "k" : "Bool_SimpleShortRangeLOF",
-	    "v" : {
-			"type" : "Bool",
-			"boolVal" : false
-	    }
-	},
-	{
 	    /* Whether the AI should always be in offensive mood. */
         "k" : "Bool_AlwaysOffensiveMood",
         "v" : {
 			"type" : "Bool",
-			"boolVal" : false
+			"boolVal" : true
         }
 	}
    ]

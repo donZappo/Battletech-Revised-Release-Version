@@ -216,7 +216,7 @@
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 120.0
+			"floatVal" : 140.0
 	    }
 	},
 	{
@@ -246,7 +246,7 @@
 	    "k" : "Bool_SimpleShortRangeLOF",
 	    "v" : {
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
 	    }
 	},
 	{

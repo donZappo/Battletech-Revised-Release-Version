@@ -4,7 +4,7 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.6
+            "floatVal" : 0
          }
     },
 	{
@@ -33,7 +33,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 30.0
+		"floatVal" : 5.0
             }
 	},
 	{
