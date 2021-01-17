@@ -64,7 +64,7 @@
             "k" : "Float_PreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : -0.8
         }
 	},
 	{
@@ -73,7 +73,7 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5
+		"floatVal" : -0.8
         }
 	},
 	{
@@ -99,7 +99,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -108,7 +108,7 @@
 	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -229,7 +229,7 @@
             "k" : "Bool_AlwaysOffensiveMood",
             "v" : {
 		"type" : "Bool",
-		"boolVal" : true
+		"boolVal" : false
         }
 	}
     ]
