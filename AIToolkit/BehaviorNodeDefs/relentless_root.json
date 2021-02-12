@@ -894,6 +894,49 @@
 																					"TypeName": "ClearMoveCandidatesNode"
 																				},
 																				{
+																					"Name": "gms_JumpDecorator",
+																					"TypeName": "SuccessDecoratorNode",
+																					"Children": [
+																						{
+																							"Name": "generate_jump_sequence",
+																							"TypeName": "SequenceNode",
+																							"Children": [
+																								{
+																									"Name": "gms_jump_and_shoot",
+																									"TypeName": "HasWorkingJumpjetsNode"
+																								},
+																								{
+																									"Name": "gms_js_genrate",
+																									"TypeName": "GenerateJumpMoveCandidatesNode"
+																								},
+																								{
+																									"Name": "gms_js_filterMovesForHeat",
+																									"TypeName": "FilterMovesForHeatNode"
+																								},
+																								{
+																									"Name": "gms_js_hasMoveCandidates",
+																									"TypeName": "HasMoveCandidatesNode"
+																								},
+																								{
+																									"Name": "gms_js_sortMoves",
+																									"TypeName": "SortMoveCandidatesByInfMapNode"
+																								},
+																								{
+																									"Name": "gms_js_move",
+																									"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+																									"ExtraParameters": {
+																									"useSprintJuice": false
+																									}
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"Name": "gms_movement_available",
+																					"TypeName": "IsMovementAvailableForUnitNode"
+																				},
+																				{
 																					"Name": "gms_generateForwardMoveCandidates",
 																					"TypeName": "GenerateForwardMoveCandidatesNode"
 																				},
@@ -906,7 +949,7 @@
 																					"TypeName": "SuccessDecoratorNode",
 																					"Children": [
 																						{
-																							"Name": "generate_melee_sequence",
+																							"Name": "gms_generate_melee_sequence",
 																							"TypeName": "SequenceNode",
 																							"Children": [
 																								{
@@ -994,10 +1037,6 @@
 																								{
 																									"Name": "dfa_if_stationary_highest",
 																									"TypeName": "HighestMoveCandidateIsStationaryNode"
-																								},
-																								{
-																									"Name": "dfa_clear_moves",
-																									"TypeName": "ClearMoveCandidatesNode"
 																								},
 																								{
 																									"Name": "dfa_execute",
@@ -1260,12 +1299,12 @@
 																					"TypeName": "HighestMoveCandidateIsStationaryNode"
 																				},
 																				{
-																					"Name": "mtdp_clear_moves",
-																					"TypeName": "ClearMoveCandidatesNode"
-																				},
-																				{
 																					"Name": "deff_dfa_execute",
 																					"TypeName": "DFAWithHighestPriorityEnemyNode"
+																				},
+																				{
+																					"Name": "mtdp_clear_moves",
+																					"TypeName": "ClearMoveCandidatesNode"
 																				}
 																			]
 																		},
@@ -1286,12 +1325,12 @@
 																					"TypeName": "CanMeleeHostileTargetsNode"
 																				},
 																				{
-																					"Name": "mtdp_melee_clear_moves",
-																					"TypeName": "ClearMoveCandidatesNode"
-																				},
-																				{
 																					"Name": "deff_melee_execute",
 																					"TypeName": "MeleeWithEnemyNode"
+																				},
+																				{
+																					"Name": "mtdp_melee_clear_moves",
+																					"TypeName": "ClearMoveCandidatesNode"
 																				}
 																			]
 																		}

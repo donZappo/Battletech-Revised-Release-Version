@@ -1,0 +1,18 @@
+{
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_ferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"DamageLevel": "Functional",
+			"IsFixed": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_dhs",
+			"ComponentDefType": "HeatSink",
+			"DamageLevel": "Functional",
+			"IsFixed": true
+		}
+	]
+}

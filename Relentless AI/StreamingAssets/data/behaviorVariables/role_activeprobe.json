@@ -102,7 +102,7 @@
 		"v" : 
 		{
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0
 		}
 	},
 	{
@@ -125,7 +125,7 @@
 			"IntVal" : "2"
 		}
 	},
-		{
+	{
 	    /* Influence Factor Weight to maximize expected damage to
 	       hostiles.
 	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
@@ -146,7 +146,7 @@
 			"floatVal" : 0
 		}
 	},
-		{
+	{
 	    /* Influence Factor Weight to control the desire to attack
 	       a hostile's weak armor. */
             "k" : "Float_PreferAttackingLowerArmorHostileFactorWeight",
@@ -156,6 +156,33 @@
             }
 	},
 		{
+	    /* Radius (in meters) to avoid sprinting within. */
+	    "k" : "Float_SprintExclusionRadius",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 250.0
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -2
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles. */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -2
+	    }
+	},
+	{
 	    /* Appetitive Influence Factor Weight to approach ideal
 	       weapon range to hostile. */
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
