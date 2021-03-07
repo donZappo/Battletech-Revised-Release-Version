@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.7.3",
+    "Version": "4.8.0",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -12,7 +12,7 @@
     "Settings": 
 	{
 		"StartingPirateActivity" : 25.0,
-		"BonusPirateResources" : 500.0,
+		"BonusPirateResources" : 100.0,
 		"PirateSystemFlagValue" : 10.0,
 		"FractionPirateResources" : 1,
 		
@@ -106,12 +106,12 @@
 		"BonusDefensiveResources": {
 			"MagistracyOfCanopus" : 250,
 			"Davion" : 250,
-			"Liao" : 600,
+			"Liao" : 300,
 			"Marik" : 250,
 			"AuriganRestoration" : 250,
 			"TaurianConcordat" : 250,
-			"Locals" : 250,
-			"NoFaction" : 250,
+			"Locals" : 500,
+			"NoFaction" : 500,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
@@ -292,8 +292,8 @@
 			"AuriganPirates" : 0
 			},
 		
-		"LongWarTesting" : false,
-		"Debug" : true,
+		"LongWarTesting" : true,
+		"Debug" : false,
 		"CleanUpCompanyTag" : false
     }
 }
