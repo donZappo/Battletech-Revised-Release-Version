@@ -98,8 +98,8 @@
 			"Marik" : 250,
 			"AuriganRestoration" : 250,
 			"TaurianConcordat" : 250,
-			"Locals" : 250,
-			"NoFaction" : 250,
+			"Locals" : 300,
+			"NoFaction" : 300,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
@@ -292,7 +292,7 @@
 			"AuriganPirates" : 0
 			},
 		
-		"LongWarTesting" : true,
+		"LongWarTesting" : false,
 		"Debug" : false,
 		"CleanUpCompanyTag" : false
     }

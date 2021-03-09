@@ -1,7 +1,7 @@
 {
    "Name":"BTR-Core",
    "Author":"BTR Survivors",
-   "Version":"2.4.3-BETA",
+   "Version":"2.5",
    "Enabled":true,
    "Hidden":true,
    "DependsOn":[
